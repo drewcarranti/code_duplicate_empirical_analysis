@@ -1,0 +1,70 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractTinkerReadDigitalBlock.java",2,2,2,2,19,0,18,0,,,,,1,0,0,2,,2,2,0,2,,1,0,0,1,,55,9,46,16,21,0,,,,24,29,15,16,,,,,,3,3,3,3,,,2,,,,"0.00",4,4,4,4
+File,"AbstractTinkerWriteDigitalBlock.java",1,1,2,1,17,2,15,0,,,,,1,0,0,2,,2,2,0,2,,1,0,0,1,,51,12,39,14,19,0,,,,23,27,13,16,,,,,,2,2,3,1,,,1,,,,"0.00",3,3,4,2
+File,"DfrobotAnalogInputBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,13,3,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotAnalogOuptutBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,13,3,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotDigitalInoutBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,13,3,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotDigitalOutputBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,13,3,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotLedBlock.java",1,1,1,1,15,1,14,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,46,8,37,13,17,1,,,,22,26,13,15,,,,,,2,2,2,1,,,1,,,,"0.03",3,3,3,2
+File,"DfrobotLedPwmBlock.java",1,1,1,1,9,1,7,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,29,7,22,12,9,0,,,,13,16,12,7,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"DfrobotPushButtonBlock.java",1,1,1,1,5,0,5,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,20,3,17,8,4,0,,,,7,10,7,4,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"DfrobotPwmOutputBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,12,2,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotServoBlock.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,12,2,10,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"DfrobotToneBlock.java",1,1,1,1,5,0,4,1,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,15,4,10,5,1,1,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.10",1,1,1,1
+File,"DfrobotToneDelayBlock.java",1,1,1,1,5,0,4,1,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,15,4,10,5,1,1,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.10",1,1,1,1
+File,"PinReadAnalogBlock.java",1,1,1,1,9,0,9,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,30,4,26,9,9,0,,,,11,15,9,7,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"PinReadDigitalBlock.java",1,1,1,1,14,1,13,0,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,41,7,34,12,17,0,,,,19,23,12,12,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"PinWriteAnalogBlock.java",1,1,1,1,8,1,7,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,29,8,21,11,9,0,,,,12,15,11,7,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"PinWriteDigitalBlock.java",1,1,1,1,17,1,16,0,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,47,8,39,12,23,0,,,,24,28,12,18,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"TranslatorBlockFactory.java",8,8,8,8,34,4,29,1,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,79,8,70,44,24,1,,,,53,56,44,16,,,,,,8,8,8,8,,,1,,,,"0.01",8,8,8,8
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.ardublock",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.ardublock.translator",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.ardublock.translator.block",2,2,2,1,14,1,13,0,,,,,5,0,3,,5,,9,0,9,,0,0,0,9,,226,35,190,88,82,1,,,,119,137,88,60,,,,,,8,8,8,8,,,1,,,,"0.01",19,19,19,16
+Public Class,"com.ardublock.translator.block.PinReadAnalogBlock",1,1,1,1,9,0,9,0,1,6,6,1,,0,0,,,,2,0,2,2,0,0,0,2,,24,2,22,5,9,0,,,,7,11,5,7,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Constructor,"com.ardublock.translator.block.PinReadAnalogBlock.PinReadAnalogBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.PinReadAnalogBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,3,8,0,3,2,0,6,8,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.ardublock.translator.block.PinReadDigitalBlock",1,1,1,1,14,1,13,0,1,5,5,1,,0,1,,,,2,0,2,2,0,0,0,2,,36,5,31,9,17,0,,,,16,20,9,12,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Constructor,"com.ardublock.translator.block.PinReadDigitalBlock.PinReadDigitalBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.PinReadDigitalBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,2,23,6,15,0,5,2,0,14,16,6,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.ardublock.translator.block.PinWriteAnalogBlock",1,1,1,1,8,1,7,0,1,4,4,2,,0,0,,,,2,0,2,2,0,0,0,2,,22,4,18,8,9,0,,,,9,12,8,7,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"com.ardublock.translator.block.PinWriteAnalogBlock.PinWriteAnalogBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.PinWriteAnalogBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,2,11,6,8,0,4,1,0,8,9,6,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.PinWriteDigitalBlock",1,1,1,1,17,1,16,0,1,5,5,1,,0,1,,,,2,0,2,2,0,0,0,2,,42,6,36,9,23,0,,,,21,25,9,18,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Constructor,"com.ardublock.translator.block.PinWriteDigitalBlock.PinWriteDigitalBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.PinWriteDigitalBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,31,3,28,6,21,0,5,2,0,19,21,6,17,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.ardublock.translator.block.TranslatorBlockFactory",8,8,8,8,34,4,29,1,1,14,14,0,,0,1,,,,1,0,1,1,0,0,0,1,,39,5,33,7,24,1,,,,16,19,7,16,,,,,,8,8,8,8,,1,1,,0,0,"0.03",8,8,8,8
+Public Method,"com.ardublock.translator.block.TranslatorBlockFactory.buildTranslatorBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,16,34,4,29,5,23,1,7,8,1,15,17,5,16,8,8,8,8,28,,,,,28,,1,28,,,"0.03",8,8,8,8
+Package,"com.ardublock.translator.block.dfrobot",1,1,1,1,6,0,6,0,,,,,11,0,0,,11,,14,0,14,,0,0,0,14,,201,42,156,73,38,3,,,,74,100,72,34,,,,,,2,2,2,1,,,1,,,,"0.02",15,15,15,14
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotAnalogInputBlock",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,3,0,0,0,1,,8,1,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotAnalogInputBlock.DfrobotAnalogInputBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotAnalogOuptutBlock",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,3,0,0,0,1,,8,1,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotAnalogOuptutBlock.DfrobotAnalogOuptutBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotDigitalInoutBlock",1,1,1,1,4,0,4,0,1,3,3,1,,0,0,,,,1,0,1,3,0,0,0,1,,8,1,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotDigitalInoutBlock.DfrobotDigitalInoutBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotDigitalOutputBlock",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,3,0,0,0,1,,8,1,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotDigitalOutputBlock.DfrobotDigitalOutputBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotLedBlock",1,1,1,1,15,1,14,0,1,6,6,0,,0,0,,,,2,0,2,2,0,0,0,2,,38,6,31,7,17,1,,,,16,20,7,15,,,,,,2,2,2,1,,2,1,,0,0,"0.03",3,3,3,2
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotLedBlock.DfrobotLedBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.dfrobot.DfrobotLedBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,27,3,24,5,16,0,5,2,0,15,17,5,14,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotLedPwmBlock",1,1,1,1,9,1,7,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,23,5,18,8,9,0,,,,9,12,8,7,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotLedPwmBlock.DfrobotLedPwmBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.dfrobot.DfrobotLedPwmBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,14,3,11,6,8,0,4,1,0,8,9,6,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotPushButtonBlock",1,1,1,1,5,0,5,0,1,5,5,0,,0,0,,,,2,0,2,5,0,0,0,2,,15,1,14,5,4,0,,,,4,7,4,4,,,,,,1,1,1,1,,4,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotPushButtonBlock.DfrobotPushButtonBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.dfrobot.DfrobotPushButtonBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,3,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotPwmOutputBlock",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,3,0,0,0,1,,7,0,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotPwmOutputBlock.DfrobotPwmOutputBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotServoBlock",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotServoBlock.DfrobotServoBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotToneBlock",1,1,1,1,5,0,4,1,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,10,2,7,2,1,1,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.14",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotToneBlock.DfrobotToneBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,4,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Class,"com.ardublock.translator.block.dfrobot.DfrobotToneDelayBlock",1,1,1,1,5,0,4,1,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,10,2,7,2,1,1,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.14",1,1,1,1
+Public Constructor,"com.ardublock.translator.block.dfrobot.DfrobotToneDelayBlock.DfrobotToneDelayBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,4,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Package,"com.ardublock.translator.block.tinker",1,1,2,1,18,1,16,0,,,,,2,0,0,,2,,4,0,4,,2,0,0,2,,106,21,85,30,40,0,,,,47,56,28,32,,,,,,3,3,3,3,,,2,,,,"0.00",7,7,8,6
+Public Abstract Class,"com.ardublock.translator.block.tinker.AbstractTinkerReadDigitalBlock",2,2,2,2,19,0,18,0,1,7,7,0,,0,0,,,,2,0,2,2,1,0,0,1,,47,7,40,10,21,0,,,,18,23,9,16,,,,,,3,3,3,3,,2,2,,0,0,"0.00",4,4,4,4
+Constructor,"com.ardublock.translator.block.tinker.AbstractTinkerReadDigitalBlock.AbstractTinkerReadDigitalBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.tinker.AbstractTinkerReadDigitalBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,33,1,32,8,19,0,5,3,0,16,19,7,14,3,3,3,3,2,,,,,2,,2,2,,,"0.00",3,3,3,3
+Public Abstract Class,"com.ardublock.translator.block.tinker.AbstractTinkerWriteDigitalBlock",1,1,2,1,17,2,15,0,1,7,7,0,,0,0,,,,2,0,2,2,1,0,0,1,,43,10,33,8,19,0,,,,17,21,7,16,,,,,,2,2,3,1,,2,1,,0,0,"0.00",3,3,4,2
+Constructor,"com.ardublock.translator.block.tinker.AbstractTinkerWriteDigitalBlock.AbstractTinkerWriteDigitalBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.ardublock.translator.block.tinker.AbstractTinkerWriteDigitalBlock.toCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,29,4,25,6,17,0,5,2,0,15,17,5,14,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1

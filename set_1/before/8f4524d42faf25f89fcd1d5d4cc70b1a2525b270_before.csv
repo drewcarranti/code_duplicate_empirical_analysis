@@ -1,0 +1,79 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"WireMockClassRule.java",1,1,1,1,6,0,5,0,,,,,2,0,0,18,,18,18,3,18,,0,0,2,16,,142,23,102,44,36,17,,,,44,66,36,30,,,,,,2,2,2,1,,,2,,,,"0.17",19,19,19,18
+File,"WireMockRule.java",1,1,1,1,4,0,4,0,,,,,2,0,0,19,,19,19,2,19,,0,0,2,17,,135,24,94,45,28,17,,,,40,61,37,24,,,,,,1,1,1,1,,,1,,,,"0.18",19,19,19,19
+File,"WireMockServer.java",1,1,1,1,7,0,6,0,,,,,3,0,2,26,,26,26,7,26,,0,1,0,25,,267,39,204,82,103,24,,,,83,114,72,49,,,,,,2,2,2,1,,,1,,,,"0.12",29,29,30,26
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.tomakehurst",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.tomakehurst.wiremock",1,1,1,1,7,0,6,0,,,,,3,0,2,,1,,26,7,26,,0,1,0,25,,267,39,204,82,103,24,,,,83,114,72,49,,,,,,2,2,2,1,,,1,,,,"0.12",29,29,30,26
+Public Class,"com.github.tomakehurst.wiremock.WireMockServer",1,1,1,1,7,0,6,0,3,33,33,0,,0,2,,,,24,7,24,24,0,1,0,23,,221,35,177,55,103,9,,,,56,87,45,49,,,,,,2,2,2,1,,1,1,,85,83,"0.05",26,26,27,24
+Private Static Class,"com.github.tomakehurst.wiremock.WireMockServer.NoOpMappingsLoader",1,1,1,1,4,0,3,1,2,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,5,3,0,1,,,,0,2,2,0,,,,,,1,1,1,1,,1,0,,0,0,"0.20",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.NoOpMappingsLoader.loadMappingsInto",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,9,45,5,40,7,38,0,20,1,0,13,14,6,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,1,7,0,9,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,5,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,4,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.WireMockServer.WireMockServer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.addMockServiceRequestListener",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.addRequestProcessingDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.enableRecordMappings",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.findAll",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.givenThat",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.httpsPort",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,5,0,6,1,0,2,3,1,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.isRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.loadMappingsUsing",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.tomakehurst.wiremock.WireMockServer.makeDefaultMappingsLoader",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,5,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.port",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,5,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.setGlobalFixedDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,24,0,16,5,11,8,1,1,0,6,9,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Anonymous Class,"com.github.tomakehurst.wiremock.WireMockServer.shutdown.(Anon_1)",2,2,2,1,12,0,9,3,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,13,0,10,1,8,3,,,,3,5,1,4,,,,,,2,2,2,1,,2,1,,0,0,"0.30",2,2,2,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.shutdown.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,9,0,7,3,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.33",2,2,2,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.start",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.stop",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.stubFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.WireMockServer.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.tomakehurst.wiremock.junit",1,1,1,1,5,0,5,0,,,,,4,0,0,,2,,37,5,37,,0,0,4,33,,277,47,196,89,64,34,,,,84,127,73,54,,,,,,2,2,2,1,,,2,,,,"0.17",38,38,38,37
+Public Class,"com.github.tomakehurst.wiremock.junit.WireMockClassRule",1,1,1,1,5,0,4,0,4,11,11,0,,0,0,,,,17,3,17,17,0,0,2,15,,109,19,88,30,36,2,,,,30,52,22,30,,,,,,1,1,1,1,,1,0,,80,78,"0.02",17,17,17,17
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.WireMockClassRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.WireMockClassRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.WireMockClassRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.WireMockClassRule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.addRequestProcessingDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.after",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,29,1,28,2,21,0,1,1,0,12,17,2,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.apply.(Anon_1)",2,2,2,1,23,0,23,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,24,0,24,0,20,0,,,,11,15,1,14,,,,,,2,2,2,1,,2,2,,0,0,"0.00",2,2,2,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.apply.(Anon_1).evaluate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,0,23,0,19,0,10,2,0,11,15,1,14,2,2,2,1,1,,,,,0,,2,0,,,"0.00",2,2,2,1
+Protected Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.before",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.findAll",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.givenThat",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.httpsPort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.port",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.setGlobalFixedDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.stubFor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockClassRule.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.github.tomakehurst.wiremock.junit.WireMockRule",1,1,1,1,4,0,4,0,4,11,11,0,,0,0,,,,18,2,18,18,0,0,2,16,,101,20,79,30,28,2,,,,25,46,22,24,,,,,,1,1,1,1,,1,0,,69,69,"0.03",18,18,18,18
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockRule.WireMockRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockRule.WireMockRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockRule.WireMockRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.github.tomakehurst.wiremock.junit.WireMockRule.WireMockRule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.addMockServiceRequestListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.addRequestProcessingDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.after",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,1,18,2,13,0,1,1,0,8,11,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.github.tomakehurst.wiremock.junit.WireMockRule.apply.(Anon_1)",1,1,1,1,13,0,13,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,14,0,14,0,12,0,,,,7,9,1,8,,,,,,1,1,1,1,,2,1,,0,0,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.apply.(Anon_1).evaluate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,0,11,0,9,1,0,7,9,1,8,1,1,1,1,0,,,,,0,,1,0,,,"0.00",1,1,1,1
+Protected Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.before",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.findAll",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.givenThat",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.httpsPort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.port",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.setGlobalFixedDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.stubFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.tomakehurst.wiremock.junit.WireMockRule.verify",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

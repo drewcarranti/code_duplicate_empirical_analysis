@@ -1,0 +1,311 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Attachment.java",1,1,1,1,4,0,3,0,,,,,1,0,0,9,,9,9,1,9,,3,0,1,5,,94,9,52,25,12,33,,,,26,38,24,14,,,,,,2,2,2,1,,,1,,,,"0.63",12,12,12,9
+File,"AttachmentBase64.java",1,1,2,1,7,0,6,1,,,,,1,0,0,10,,10,10,1,10,,0,0,1,9,,120,10,77,26,26,36,,,,32,50,24,28,,,,,,5,5,7,5,,,1,,,,"0.47",18,18,20,14
+File,"AttachmentTest.java",1,1,1,1,9,0,9,0,,,,,1,0,0,4,,4,4,0,4,,0,0,0,4,,60,8,52,33,23,2,,,,29,34,27,15,,,,,,1,1,1,1,,,0,,,,"0.04",4,4,4,4
+File,"AttachmentURI.java",1,1,1,1,4,0,4,0,,,,,1,0,0,4,,4,4,0,4,,0,0,1,3,,43,6,26,12,4,11,,,,10,15,11,4,,,,,,1,1,1,1,,,0,,,,"0.42",4,4,4,4
+File,"DateTimeEnd.java",1,1,1,1,4,0,4,0,,,,,1,0,0,5,,5,5,0,5,,0,0,1,4,,39,8,31,13,6,0,,,,12,18,12,6,,,,,,1,1,1,1,,,0,,,,"0.00",5,5,5,5
+File,"DateTimeStart.java",1,1,1,1,4,0,4,0,,,,,1,0,0,4,,4,4,0,4,,0,0,0,4,,29,6,23,8,5,0,,,,8,13,8,5,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+File,"DateTimeStartDate.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,0,0,0,0,,0,0,0,0,,8,3,5,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"DateTimeStartDateTime.java",1,1,1,1,4,0,4,0,,,,,1,0,0,4,,4,4,0,4,,0,0,0,4,,27,5,22,7,5,0,,,,7,12,7,5,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+File,"DateTimeStartTest.java",1,1,1,1,8,0,8,0,,,,,1,0,0,5,,5,5,0,5,,0,0,0,5,,62,9,53,32,21,0,,,,28,34,26,16,,,,,,1,1,1,1,,,0,,,,"0.00",5,5,5,5
+File,"ParameterEnum.java",1,1,1,0,6,0,4,0,,,,,21,5,2,79,,80,77,22,82,,2,2,0,78,,631,86,455,238,92,90,,,,111,191,131,68,,,,,,2,2,2,1,,,1,,,,"0.20",81,81,81,77
+File,"PropertyBase.java",1,1,1,1,10,0,7,2,,,,,1,0,0,28,,28,23,4,23,,0,0,2,21,,407,28,237,94,117,149,,,,116,158,83,102,,,,,,7,7,10,6,,,3,,,,"0.63",49,49,54,33
+File,"PropertyEnum.java",1,1,1,0,4,0,4,0,,,,,1,4,2,10,,8,6,51,10,,1,2,0,7,,133,8,121,89,24,51,,,,51,62,43,26,,,,,,2,2,2,1,,,1,,,,"0.42",11,11,11,8
+File,"VComponentDescribable.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,9,9,0,9,,3,0,0,6,,57,4,17,15,0,36,,,,14,15,15,0,,,,,,0,0,0,0,,,0,,,,"2.12",0,0,0,0
+File,"VComponentPrimary.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,6,6,0,6,,6,0,0,0,,56,4,24,15,4,28,,,,16,19,15,4,,,,,,2,2,2,1,,,1,,,,"1.17",3,3,3,2
+File,"VComponentPrimaryBase.java",1,1,1,1,18,0,6,11,,,,,1,0,0,8,,8,7,3,7,,2,0,0,5,,204,9,61,28,22,134,,,,31,43,25,21,,,,,,3,3,3,1,,,2,,,,"2.20",12,12,13,8
+File,"ValueType.java",1,1,1,1,5,0,5,0,,,,,16,0,0,22,,21,23,15,23,,1,0,0,22,,191,9,168,81,38,14,,,,44,69,39,34,,,,,,3,3,3,3,,,2,,,,"0.08",24,24,24,22
+Package,"jfxtras",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendar",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendar.components",1,1,1,1,15,0,6,8,,,,,3,0,0,,3,,22,3,22,,11,0,0,11,,317,17,102,58,26,198,,,,61,77,55,25,,,,,,3,3,3,1,,,2,,,,"1.94",15,15,16,10
+Public Interface,"jfxtras.labs.icalendar.components.VComponentDescribable",0,0,0,0,0,0,0,0,0,4,4,0,,0,0,,,,9,0,9,9,3,0,0,6,,41,2,12,10,0,27,,,,9,10,10,0,,,,,,0,0,0,0,,0,0,,0,0,"2.25",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.attachmentProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.descriptionProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.getAttachment",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.getSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.setAttachment",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.setSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentDescribable.summaryProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Interface,"jfxtras.labs.icalendar.components.VComponentPrimary",1,1,1,1,4,0,4,0,1,6,6,1,,0,0,,,,6,0,6,6,6,0,0,0,,35,1,16,7,4,18,,,,8,11,7,4,,,,,,2,2,2,1,,2,1,,0,0,"1.12",3,3,3,2
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentPrimary.comments",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentPrimary.dateTimeStartProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentPrimary.getDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Method,"jfxtras.labs.icalendar.components.VComponentPrimary.getDateTimeType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0,0,0,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"jfxtras.labs.icalendar.components.VComponentPrimary.getZoneId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,1,3,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Abstract Method,"jfxtras.labs.icalendar.components.VComponentPrimary.setDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendar.components.VComponentPrimaryBase",1,1,1,1,19,0,6,12,2,10,10,0,,0,0,,,,7,3,7,7,2,0,0,5,,190,6,50,17,22,134,,,,20,32,14,21,,,,,,2,2,3,1,,2,2,,71,61,"2.68",12,12,13,8
+TypeVariable,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.comments",,,,,,,,,,,,,,,,,,,,,,,,,,,2,30,0,20,3,10,10,4,2,0,6,10,2,9,2,2,2,1,0,,,,,0,,2,0,,,"0.50",5,5,5,2
+Lambda Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.comments.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,1,6,0,6,3,0,3,5,1,5,3,3,3,1,1,,,,,0,,0,0,,,"0.00",3,3,3,1
+Public Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.dateTimeStartProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,2,2,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.50",1,1,1,1
+Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.ensureDateTimeTypeConsistency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,68,0,3,1,0,65,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"21.67",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.getDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.lastDtStartDateTimeType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.setDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,1,13,4,7,5,8,2,0,6,8,3,6,2,2,3,1,0,,,,,0,,1,0,,,"0.38",2,2,3,1
+Public Method,"jfxtras.labs.icalendar.components.VComponentPrimaryBase.withDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"jfxtras.labs.icalendar.parameters",1,1,1,0,5,0,5,0,,,,,37,5,2,,2,,100,37,105,,3,2,0,100,,822,95,623,319,130,104,,,,155,260,170,102,,,,,,3,3,3,3,,,2,,,,"0.17",105,105,105,99
+Public Enum Type,"jfxtras.labs.icalendar.parameters.ParameterEnum",1,1,1,0,6,0,4,1,1,8,8,20,,5,2,,,,8,22,13,13,2,2,0,9,,616,83,443,226,92,90,,,,99,179,119,68,,,,,,2,2,2,1,,1,1,,,,"0.20",12,12,12,8
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_1)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_1).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_1).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_1).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_10)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_10).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_10).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_10).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_11)",1,1,1,1,6,0,4,1,1,4,4,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,4,20,10,3,4,,,,3,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.20",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_11).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_11).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_11).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_11).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,5,3,1,1,0,1,0,1,2,2,0,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_12)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_12).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_12).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_12).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_12).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_13)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_13).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_13).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_13).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_13).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_14)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_14).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_14).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_14).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_14).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_15)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_15).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_15).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_15).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_15).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_16)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_16).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_16).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_16).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_16).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_17)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_17).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_17).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_17).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_17).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_18)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_18).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_18).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_18).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_18).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_19)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,4,0,4,17,0,0,0,4,,28,5,19,9,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.21",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_19).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_19).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_19).isEqualTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_19).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_2)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_2).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_2).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_2).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_20)",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,2,19,10,6,0,,,,6,9,6,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_20).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_20).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_20).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_3)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_3).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_3).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_3).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_4)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_4).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_4).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_4).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_5)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_5).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_5).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_5).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_6)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_6).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_6).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_6).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_7)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,2,19,10,6,0,,,,6,9,6,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_7).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_7).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_7).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_8)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,2,19,10,6,0,,,,6,9,6,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_8).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_8).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_8).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_9)",1,1,1,1,6,0,5,0,1,5,5,0,,0,0,,,,3,0,3,16,0,0,0,3,,21,3,17,9,4,1,,,,4,7,5,2,,,,,,1,1,1,1,,2,0,,0,0,"0.06",3,3,3,3
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_9).copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_9).getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.(Anon_9).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"jfxtras.labs.icalendar.parameters.ParameterEnum.ParameterEnum",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,5,1,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,4,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Abstract Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.copyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.enumFromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,9,2,4,1,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Public Static Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.enumFromName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.extractValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,5,2,2,12,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"2.40",2,2,2,1
+Public Abstract Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.getParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Private Static Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.makeEnumFromClassMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,3,5,0,3,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.makeEnumFromNameMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,3,5,0,4,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Abstract Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Public Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"jfxtras.labs.icalendar.parameters.ParameterEnum.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Class,"jfxtras.labs.icalendar.parameters.ValueType",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,4,0,4,4,0,0,0,4,,178,6,158,71,38,14,,,,34,59,29,34,,,,,,1,1,1,1,,2,0,,0,0,"0.09",4,4,4,4
+Public Enum Type,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum",0,0,0,0,1,0,1,0,1,2,2,14,,0,0,,,,5,15,5,5,1,0,0,4,,142,2,139,66,34,1,,,,30,50,24,30,,,,,,1,1,1,1,,1,0,,,,"0.01",2,2,2,2
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_1)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_1).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_1).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_10)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_10).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_10).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_11)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_11).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_11).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_12)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_12).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_12).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_13)",2,2,2,1,12,0,12,0,1,4,4,0,,0,0,,,,1,0,1,6,0,0,0,1,,13,0,13,3,5,0,,,,3,5,1,4,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_13).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,2,5,0,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_13).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_14)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_14).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_14).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_2)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_2).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_2).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_3)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_3).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_3).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_4)",1,1,1,1,5,0,5,0,1,4,4,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_4).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_4).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_5)",3,3,3,3,18,0,18,0,1,5,5,0,,0,0,,,,1,0,1,6,0,0,0,1,,19,0,19,4,8,0,,,,4,7,2,6,,,,,,3,3,3,3,,2,2,,0,0,"0.00",3,3,3,3
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_5).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,3,8,0,5,3,0,4,7,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_5).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_6)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_6).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_6).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_7)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_7).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_7).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_8)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,6,0,0,0,1,,6,0,6,3,1,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_8).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_8).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_9)",2,2,2,1,16,0,16,0,1,6,6,0,,0,0,,,,1,0,1,6,0,0,0,1,,17,0,17,7,8,0,,,,7,9,5,7,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_9).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,16,6,8,0,6,2,0,7,9,5,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.(Anon_9).parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.ValueEnum",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Generic Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.parse.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"jfxtras.labs.icalendar.parameters.ValueType.ValueEnum.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Constructor,"jfxtras.labs.icalendar.parameters.ValueType.ValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.parameters.ValueType.ValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.parameters.ValueType.ValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.parameters.ValueType.ValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"jfxtras.labs.icalendar.properties",1,1,1,1,8,0,7,2,,,,,2,4,2,,2,,29,55,33,,1,2,2,28,,540,36,358,183,141,200,,,,167,220,126,128,,,,,,7,7,10,6,,,3,,,,"0.56",60,60,65,41
+Public Abstract Generic Class,"jfxtras.labs.icalendar.properties.PropertyBase",1,1,2,1,12,0,8,3,2,24,24,2,,0,0,,,,23,4,23,23,0,0,2,21,,380,25,213,70,117,149,,,,92,134,59,102,,,,,,7,7,10,6,,1,3,,88,64,"0.70",49,49,54,33
+Public Constructor,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,5,1,2,10,6,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase",,,,,,,,,,,,,,,,,,,,,,,,,,,11,79,3,61,13,42,19,31,16,1,23,30,12,28,6,6,6,1,2,,,,,0,,1,0,,,"0.31",11,11,12,4
+Public Constructor,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,4,8,0,13,2,0,7,9,4,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Lambda Method,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,1,6,2,7,3,0,3,5,1,5,3,3,4,1,1,,,,,0,,0,0,,,"0.18",3,3,4,1
+Lambda Method,"jfxtras.labs.icalendar.properties.PropertyBase.PropertyBase.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,3,0,5,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.properties.PropertyBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendar.properties.PropertyBase.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Protected Method,"jfxtras.labs.icalendar.properties.PropertyBase.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,4,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,37,1,33,11,20,3,11,6,1,16,22,10,18,7,7,10,6,5,,,,,5,,3,5,,,"0.09",7,7,10,6
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"jfxtras.labs.icalendar.properties.PropertyBase.getValueForContentLine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,4,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.getValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,1,1,1,10,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"10.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,13,5,7,0,9,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.isValid",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,4,0,6,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.otherParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,2,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.parameters",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,16,6,8,4,10,3,0,6,9,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.25",3,3,3,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.propertyType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,2,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,6,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.setValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,1,4,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.toContentLine",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,0,9,3,5,11,10,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"1.22",3,3,3,3
+Lambda Method,"jfxtras.labs.icalendar.properties.PropertyBase.toContentLine.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendar.properties.PropertyBase.toContentLine.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.valueParameterProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.valueProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.withOtherParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.withValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.withValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyBase.withValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Enum Type,"jfxtras.labs.icalendar.properties.PropertyEnum",1,1,1,0,4,0,4,0,1,24,24,0,,4,2,,,,6,51,10,10,1,2,0,7,,109,5,100,68,24,51,,,,30,41,22,26,,,,,,2,2,2,1,,1,1,,,,"0.51",11,11,11,8
+Constructor,"jfxtras.labs.icalendar.properties.PropertyEnum.PropertyEnum",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"jfxtras.labs.icalendar.properties.PropertyEnum.enumFromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,9,2,4,1,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Public Static Method,"jfxtras.labs.icalendar.properties.PropertyEnum.enumFromName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyEnum.getValueType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"jfxtras.labs.icalendar.properties.PropertyEnum.makeEnumFromClassMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,3,5,0,3,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"jfxtras.labs.icalendar.properties.PropertyEnum.makeEnumFromNameMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,3,5,0,5,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyEnum.possibleParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.PropertyEnum.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"jfxtras.labs.icalendar.properties.PropertyEnum.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"jfxtras.labs.icalendar.properties.PropertyEnum.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendar.properties.component",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendar.properties.component.descriptive",1,1,1,1,5,0,5,1,,,,,3,0,0,,3,,23,2,23,,3,0,3,17,,257,25,155,63,42,80,,,,68,103,59,46,,,,,,5,5,7,5,,,1,,,,"0.52",34,34,36,27
+Public Abstract Generic Class,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment",1,1,1,1,4,0,3,0,1,8,8,2,,0,0,,,,9,1,9,32,3,0,1,5,,78,6,39,12,12,33,,,,13,25,11,14,,,,,,2,2,2,1,,2,1,,77,44,"0.85",12,12,12,9
+Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.Attachment",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.Attachment",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,4,1,1,2,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.Attachment",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Protected Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.formatTypeProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.getFormatType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,1,1,1,5,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"5.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.setFormatType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.withFormatType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.Attachment.withFormatType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64",1,1,2,1,7,0,6,1,1,11,11,0,,0,0,,,,10,1,10,42,0,0,1,9,,107,7,67,16,26,36,,,,22,40,14,28,,,,,,5,5,7,5,,3,1,,80,40,"0.54",18,18,20,14
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.AttachmentBase64",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.AttachmentBase64",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.AttachmentBase64",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.encodingProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.getEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,1,1,1,11,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"11.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.isValid",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,24,4,12,3,5,5,1,8,13,3,12,5,5,7,5,4,,,,,4,,1,4,,,"0.12",5,5,7,5
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.setEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,1,11,1,4,0,3,4,1,2,5,1,4,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.withEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentBase64.withEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentURI",1,1,1,1,4,0,4,0,1,6,6,0,,0,0,,,,4,0,4,36,0,0,1,3,,34,3,20,6,4,11,,,,4,9,5,4,,,,,,1,1,1,1,,3,0,,0,0,"0.55",4,4,4,4
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentURI.AttachmentURI",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentURI.AttachmentURI",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentURI.AttachmentURI",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"jfxtras.labs.icalendar.properties.component.descriptive.AttachmentURI.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"jfxtras.labs.icalendar.properties.component.time",1,1,1,1,4,0,4,0,,,,,4,0,0,,4,,13,0,13,,0,0,1,12,,103,22,81,31,16,0,,,,29,46,30,16,,,,,,1,1,1,1,,,0,,,,"0.00",13,13,13,13
+Public Class,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd",1,1,1,1,4,0,4,0,1,6,6,0,,0,0,,,,5,0,5,28,0,0,1,4,,30,5,25,7,6,0,,,,6,12,6,6,,,,,,1,1,1,1,,2,0,,0,0,"0.00",5,5,5,5
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd.DateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd.DateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd.DateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd.DateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"jfxtras.labs.icalendar.properties.component.time.DateTimeEnd.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Generic Class,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart",1,1,1,1,4,0,4,0,1,1,1,2,,0,0,,,,4,0,4,4,0,0,0,4,,23,3,20,5,5,0,,,,5,10,5,5,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.DateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.DateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.DateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.DateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendar.properties.component.time.DateTimeStart.U",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Class,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDate",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,4,0,0,0,0,,4,1,3,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,3,0,,0,0,"0.00",0,0,0,0
+Public Class,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDateTime",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,4,0,4,8,0,0,0,4,,23,3,20,5,5,0,,,,5,10,5,5,,,,,,1,1,1,1,,3,0,,0,0,"0.00",4,4,4,4
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDateTime.DateTimeStartDateTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDateTime.DateTimeStartDateTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDateTime.DateTimeStartDateTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendar.properties.component.time.DateTimeStartDateTime.DateTimeStartDateTime",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"jfxtras.labs.icalendar.property",1,1,1,1,8,0,8,0,,,,,2,0,0,,2,,9,0,9,,0,0,0,9,,122,17,105,65,44,2,,,,57,68,53,31,,,,,,1,1,1,1,,,0,,,,"0.02",9,9,9,9
+Public Class,"jfxtras.labs.icalendar.property.AttachmentTest",1,1,1,1,9,0,9,0,1,9,9,0,,0,0,,,,4,0,4,4,0,0,0,4,,45,3,42,23,23,2,,,,19,24,17,15,,,,,,1,1,1,1,,1,0,,0,0,"0.05",4,4,4,4
+Public Method,"jfxtras.labs.icalendar.property.AttachmentTest.canCopyAttachement",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,5,5,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.AttachmentTest.canParseAttachementComplex",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,10,6,6,2,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.AttachmentTest.canParseAttachementComplex2",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,6,8,0,6,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.AttachmentTest.canParseAttachementSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,5,4,0,3,1,0,4,5,4,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"jfxtras.labs.icalendar.property.DateTimeStartTest",1,1,1,1,8,0,8,0,1,8,8,0,,0,0,,,,5,0,5,5,0,0,0,5,,48,4,44,23,21,0,,,,19,25,17,16,,,,,,1,1,1,1,,1,0,,0,0,"0.00",5,5,5,5
+Public Method,"jfxtras.labs.icalendar.property.DateTimeStartTest.canBuildDateTimeStartZoned",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,4,4,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.DateTimeStartTest.canBuildDateTimeStartZoned2",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.DateTimeStartTest.canParseDateTimeStartDate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,5,5,0,5,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.DateTimeStartTest.canParseDateTimeStartSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,5,5,0,5,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendar.property.DateTimeStartTest.canParseDateTimeStartZoned",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,5,5,0,5,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

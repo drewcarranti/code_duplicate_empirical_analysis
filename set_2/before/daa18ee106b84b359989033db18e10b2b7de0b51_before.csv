@@ -1,0 +1,49 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"WebSocket.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,4,4,0,4,,4,0,0,0,,13,5,8,7,0,0,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"WebSocketClient.java",1,1,1,1,10,0,9,0,,,,,6,1,3,22,,22,21,12,22,,2,7,0,13,,286,36,236,100,120,14,,,,146,182,99,99,,,,,,6,6,6,1,,,2,,,,"0.06",35,35,35,22
+File,"WebSocketConnectionHandler.java",1,1,1,1,10,0,9,0,,,,,3,0,0,6,,6,6,5,6,,0,0,1,5,,72,8,63,32,26,1,,,,30,39,25,16,,,,,,2,2,2,1,,,1,,,,"0.02",8,8,8,6
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver",0,0,0,0,0,0,0,0,,,,,1,0,0,,1,,4,0,4,,4,0,0,0,,13,5,8,7,0,0,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Public Interface,"org.webbitserver.WebSocket",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,4,0,4,4,4,0,0,0,,9,3,6,5,0,0,,,,4,5,5,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocket.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocket.reconnectEvery",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocket.setupSsl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocket.start",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Package,"org.webbitserver.netty",1,1,1,1,10,0,9,0,,,,,9,1,3,,2,,27,17,28,,2,7,1,18,,358,44,299,132,146,15,,,,176,221,124,115,,,,,,6,6,6,1,,,2,,,,"0.05",43,43,43,28
+Public Class,"org.webbitserver.netty.WebSocketClient",1,1,1,1,11,0,9,1,2,26,26,0,,1,3,,,,11,11,12,12,2,4,0,6,,241,32,195,59,120,14,,,,105,141,58,99,,,,,,6,6,6,1,,1,2,,87,79,"0.07",19,19,19,12
+Private Class,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler",1,1,1,1,10,0,9,0,1,18,18,0,,0,0,,,,6,1,6,6,0,3,0,3,,69,9,60,18,38,0,,,,28,40,18,30,,,,,,3,3,3,1,,2,2,,50,50,"0.00",9,9,9,6
+Public Constructor,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.HandshakeChannelHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket",,,,,,,,,,,,,,,,,,,,,,,,,,,11,20,3,17,5,14,0,9,1,0,11,13,6,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket.(Anon_4)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket.(Anon_4).go",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,9,0,5,2,0,4,7,3,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.exceptionCaught.(Anon_3)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.exceptionCaught.(Anon_3).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,4,4,0,5,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.verifySecWebSocketAccept",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,2,9,0,6,3,0,6,9,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Constructor,"org.webbitserver.netty.WebSocketClient.WebSocketClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.netty.WebSocketClient.WebSocketClient",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,2,19,4,15,0,15,4,1,12,16,4,15,6,6,6,1,1,,,,,0,,2,0,,,"0.00",6,6,6,1
+Private Method,"org.webbitserver.netty.WebSocketClient.base64Nonce",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,3,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketClient.close",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,16,2,11,0,5,1,0,6,9,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.close.(Anon_2)",2,2,2,1,8,0,8,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketClient.close.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,0,6,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"org.webbitserver.netty.WebSocketClient.connectionExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.createNettyHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,16,11,1,10,2,8,0,4,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.webbitserver.netty.WebSocketClient.nextId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.randomByte",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.reconnectEvery",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.setupSsl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.start",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,3,34,7,27,0,12,2,0,19,24,7,21,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.start.(Anon_1)",3,3,3,1,17,0,17,0,1,11,11,0,,0,0,,,,1,0,1,1,0,0,0,1,,18,0,18,3,15,0,,,,11,14,4,13,,,,,,3,3,3,1,,2,2,,0,0,"0.00",3,3,3,1
+Public Method,"org.webbitserver.netty.WebSocketClient.start.(Anon_1).getPipeline",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,17,3,14,0,7,3,0,11,14,4,13,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Method,"org.webbitserver.netty.WebSocketClient.uncaughtExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Class,"org.webbitserver.netty.WebSocketConnectionHandler",1,1,1,1,12,0,11,0,1,13,13,0,,0,0,,,,4,5,4,4,0,0,0,4,,60,5,54,23,26,1,,,,21,30,16,16,,,,,,2,2,2,1,,2,0,,40,40,"0.02",5,5,5,4
+Public Constructor,"org.webbitserver.netty.WebSocketConnectionHandler.WebSocketConnectionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,7,9,0,6,1,0,6,8,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.WebSocketConnectionHandler.WebSocketConnectionHandler.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.netty.WebSocketConnectionHandler.WebSocketConnectionHandler.(Anon_1).fireOnClose",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.channelUnbound",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,6,23,1,21,6,15,1,5,2,0,8,12,6,8,2,2,2,1,1,,,,,0,,0,0,,,"0.05",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived.(Anon_2)",2,2,2,1,8,0,8,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,0,6,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1

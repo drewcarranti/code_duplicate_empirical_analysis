@@ -1,0 +1,169 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CrawlURI.java",1,1,1,1,9,0,5,3,,,,,2,7,5,146,,144,139,42,146,,0,3,2,141,,1886,220,961,339,502,709,,,,487,688,314,415,,,,,,65,5,65,5,,,3,,,,"0.74",270,207,279,157
+File,"Link.java",1,1,1,1,7,0,6,1,,,,,1,4,2,13,,13,9,4,13,,0,1,0,12,,182,29,98,44,45,55,,,,47,67,36,39,,,,,,4,4,5,1,,,1,,,,"0.56",19,19,22,13
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.archive",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.archive.modules",1,1,1,1,9,0,5,3,,,,,2,7,5,,1,,139,42,146,,0,3,2,141,,1886,220,961,339,502,709,,,,487,688,314,415,,,,,,65,5,65,5,,,3,,,,"0.74",270,207,279,157
+Public Class,"org.archive.modules.CrawlURI",1,1,1,1,9,0,5,3,4,44,44,0,,7,5,,,,137,39,144,144,0,3,2,139,,1786,214,885,263,502,691,,,,411,612,238,415,,,,,,65,5,65,5,,1,3,,98,96,"0.78",270,207,279,157
+Public Constructor,"org.archive.modules.CrawlURI.CrawlURI",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Constructor,"org.archive.modules.CrawlURI.CrawlURI",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,0,7,2,4,6,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1
+Private Constructor,"org.archive.modules.CrawlURI.CrawlURI",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Enum Type,"org.archive.modules.CrawlURI.FetchType",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.archive.modules.CrawlURI.FetchType.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.archive.modules.CrawlURI.FetchType.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Method,"org.archive.modules.CrawlURI.aboutToLog",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,5,1,2,4,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.80",2,2,2,1
+Public Static Method,"org.archive.modules.CrawlURI.addDataPersistentMember",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.addExtraInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.addPersistentDataMapKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.archive.modules.CrawlURI.autoregisterTo",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,13,1,11,1,3,1,0,11,12,1,11,1,1,1,1,0,,,,,0,,0,0,,,"0.08",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.clearPrerequisiteUri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.containsContentTypeCharsetDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.containsDataKey",,,,,,,,,,,,,,,,,,,,,,,,,,,10,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.createCrawlURI",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,0,12,6,9,8,12,1,0,4,5,3,4,2,2,2,1,0,,,,,0,,0,0,,,"0.67",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.createCrawlURI",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,8,4,4,10,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Static Method,"org.archive.modules.CrawlURI.extendHopsPath",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,8,3,5,10,5,2,0,4,6,3,5,3,3,3,1,1,,,,,0,,1,0,,,"1.25",3,3,3,1
+Public Static Method,"org.archive.modules.CrawlURI.fetchStatusCodesToString",,,,,,,,,,,,,,,,,,,,,,,,,,,26,116,0,102,1,99,14,2,65,2,65,67,1,66,65,2,65,1,2080,,,,,0,,1,0,,,"0.14",65,2,65,1
+Public Method,"org.archive.modules.CrawlURI.flattenVia",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,3,1,1,4,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"1.33",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.forceFetch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Static Method,"org.archive.modules.CrawlURI.fromHopsViaString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,10,11,0,7,1,0,8,9,7,7,4,4,6,1,0,,,,,0,,0,0,,,"0.00",4,4,6,1
+Public Method,"org.archive.modules.CrawlURI.getAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,9,3,5,5,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getBaseURI",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,6,1,3,5,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getCanonicalString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getClassKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getContentDigest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getContentDigestSchemeString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getContentDigestString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getContentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,7,1,4,5,4,2,0,2,4,1,3,3,3,3,1,0,,,,,0,,1,0,,,"0.71",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.getContentSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getCredentials",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,9,3,5,3,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.33",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getDNSServerIPLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getData",,,,,,,,,,,,,,,,,,,,,,,,,,,24,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getDeferrals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getEmbedHopCount",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,10,2,6,5,4,3,0,6,9,3,7,3,3,3,3,2,,,,,2,,2,2,,,"0.50",3,3,3,3
+Public Method,"org.archive.modules.CrawlURI.getExtraInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getFetchAttempts",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,0,3,1,1,16,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"5.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getFetchBeginTime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getFetchCompletedTime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getFetchDuration",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,4,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getFetchStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getFetchType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getFullVia",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getHolder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getHolderCost",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getHolderKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getHopCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,11,2,7,7,5,3,0,4,7,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.64",3,3,3,3
+Public Method,"org.archive.modules.CrawlURI.getHttpAuthChallenges",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getHttpMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getLinkHopCount",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,9,2,5,5,4,3,0,5,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.getNonFatalFailures",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,1,9,3,5,2,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.22",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getOrdinal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getOutCandidates",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getOutLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getOverlayMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getOverlayNames",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getPathFromSeed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"org.archive.modules.CrawlURI.getPersistentDataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getPersistentDataMap",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,2,14,5,9,0,7,3,0,7,10,4,9,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.getPolicyBasisUURI",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,10,2,6,10,6,4,1,4,7,2,5,3,3,3,1,0,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.getPolitenessDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getPrecedence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getPrerequisiteUri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getRecordedSize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,5,1,3,6,5,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"1.20",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.getRecorder",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getRescheduleTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getSchedulingDirective",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getSourceTag",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getThreadNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getTransHops",,,,,,,,,,,,,,,,,,,,,,,,,,,1,23,0,11,3,7,12,5,3,0,7,10,4,8,3,3,3,3,2,,,,,2,,2,2,,,"1.09",3,3,3,3
+Public Method,"org.archive.modules.CrawlURI.getURI",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getUURI",,,,,,,,,,,,,,,,,,,,,,,,,,,10,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getUserAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getVia",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.getViaContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.hasBeenLinkExtracted",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,3,1,1,14,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.hasCredentials",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.hasPrerequisiteUri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.hasRfc2617Credential",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,11,2,6,3,3,4,1,3,8,3,6,4,4,5,4,4,,,,,4,,3,4,,,"0.27",4,4,5,4
+Public Method,"org.archive.modules.CrawlURI.haveOverlayNamesBeenSet",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.includesRetireDirective",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"org.archive.modules.CrawlURI.incrementDeferrals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.incrementDiscardedOutLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.incrementFetchAttempts",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.archive.modules.CrawlURI.inheritFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,11,5,6,5,3,3,0,4,8,5,6,3,3,3,1,0,,,,,0,,2,0,,,"0.45",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.is2XXSuccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"1.33",1,1,2,1
+Public Method,"org.archive.modules.CrawlURI.isHttpTransaction",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.isLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,5,1,3,5,4,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"1.00",1,1,3,1
+Public Method,"org.archive.modules.CrawlURI.isPrerequisite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.isSeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.isSuccess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,0,11,3,8,17,2,2,0,5,7,3,4,2,2,3,1,1,,,,,0,,1,0,,,"1.55",2,2,3,1
+Public Method,"org.archive.modules.CrawlURI.linkExtractorFinished",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,6,1,3,9,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.50",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.makeHeritable",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,10,3,6,7,3,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.makeNonHeritable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,11,3,6,7,3,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.64",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.markPrerequisite",,,,,,,,,,,,,,,,,,,,,,,,,,,5,33,1,21,9,17,11,15,2,0,16,18,8,15,2,2,2,1,0,,,,,0,,1,0,,,"0.52",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.processingCleanup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,1,13,1,11,8,12,1,0,11,12,1,11,1,1,1,1,0,,,,,0,,0,0,,,"0.62",1,1,1,1
+Private Method,"org.archive.modules.CrawlURI.readObject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.archive.modules.CrawlURI.readUuri",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,0,20,1,14,10,3,5,1,7,12,1,11,5,5,5,5,4,,,,,4,,1,4,,,"0.50",5,5,5,5
+Public Static Method,"org.archive.modules.CrawlURI.removeDataPersistentMember",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.reportTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.resetDeferrals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.resetFetchAttempts",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.resetForRescheduling",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setBaseURI",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setBaseURI",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setCanonicalString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setClassKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setContentDigest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setContentDigest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setContentSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,6,1,3,5,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"org.archive.modules.CrawlURI.setDNSServerIPLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setError",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setFetchBeginTime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setFetchCompletedTime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setFetchStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setFetchType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setForceFetch",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setForceRetire",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setFullVia",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setHolder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setHolderCost",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setHolderKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setHttpAuthChallenges",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setHttpMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,1,7,0,2,3,0,4,7,1,6,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.setOrdinal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setOverlayMapsSource",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setPolitenessDelay",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setPrecedence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setPrerequisite",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setPrerequisiteUri",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setRecorder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setRescheduleTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setSchedulingDirective",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setSeed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,8,1,4,6,2,3,0,2,5,1,4,3,3,3,1,0,,,,,0,,2,0,,,"0.75",3,3,3,1
+Public Method,"org.archive.modules.CrawlURI.setSourceTag",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setThreadNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setUserAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.setVia",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.shortReportLegend",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.shortReportLine",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.shortReportLineTo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,3,9,0,8,1,0,9,10,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.shortReportMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,3,6,0,7,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.stripToMinimal",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.archive.modules.CrawlURI.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"org.archive.modules.CrawlURI.writeObject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,2,2,3,1,0,,,,,0,,0,0,,,"0.00",2,2,3,1
+Package,"org.archive.modules.extractor",1,1,1,1,7,0,6,1,,,,,1,4,2,,1,,9,4,13,,0,1,0,12,,182,29,98,44,45,55,,,,47,67,36,39,,,,,,4,4,5,1,,,1,,,,"0.56",19,19,22,13
+Public Class,"org.archive.modules.extractor.Link",1,1,1,1,7,0,6,1,3,10,10,0,,4,2,,,,9,4,13,13,0,1,0,12,,153,25,91,37,45,37,,,,40,60,29,39,,,,,,4,4,5,1,,1,1,,55,25,"0.41",19,19,22,13
+Public Constructor,"org.archive.modules.extractor.Link.Link",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,8,2,5,7,5,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.88",1,1,1,1
+Public Static Method,"org.archive.modules.extractor.Link.add",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.archive.modules.extractor.Link.add2",,,,,,,,,,,,,,,,,,,,,,,,,,,8,11,0,10,4,6,1,6,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.10",2,2,2,1
+Public Static Method,"org.archive.modules.extractor.Link.addRelativeToBase",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.archive.modules.extractor.Link.addRelativeToVia",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,4,7,0,8,2,0,6,8,3,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.archive.modules.extractor.Link.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,2,8,0,3,8,1,5,9,2,8,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.archive.modules.extractor.Link.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,3,5,0,2,2,0,3,5,2,3,2,2,5,1,1,,,,,0,,1,0,,,"0.00",2,2,5,1
+Public Method,"org.archive.modules.extractor.Link.getContext",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.extractor.Link.getDestination",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.extractor.Link.getHopType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.extractor.Link.getSource",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.archive.modules.extractor.Link.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,3,3,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.archive.modules.extractor.Link.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

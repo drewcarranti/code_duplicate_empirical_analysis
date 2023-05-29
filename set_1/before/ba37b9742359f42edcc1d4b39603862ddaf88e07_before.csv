@@ -1,0 +1,78 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"NETFile.java",2,2,3,1,16,1,11,3,,,,,2,0,0,7,,7,7,5,7,,1,1,0,5,,178,22,105,43,56,51,,,,65,91,49,55,,,,,,8,8,11,1,,,6,,,,"0.49",19,19,23,7
+File,"RoadDef.java",1,1,1,1,7,0,5,1,,,,,2,0,13,58,,58,58,30,58,,5,5,0,48,,658,106,408,150,233,160,,,,222,335,152,200,,,,,,11,11,11,6,,,3,,,,"0.39",108,108,112,73
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola.imgfmt",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola.imgfmt.app",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola.imgfmt.app.net",1,1,2,1,8,0,6,1,,,,,4,0,13,,2,,65,35,65,,6,6,0,53,,836,128,513,193,289,211,,,,287,426,201,255,,,,,,11,11,11,6,,,6,,,,"0.41",127,127,135,80
+Public Class,"uk.me.parabola.imgfmt.app.net.NETFile",3,3,3,1,18,1,13,4,1,15,15,0,,0,0,,,,6,3,6,6,0,1,0,5,,145,19,91,29,56,35,,,,51,77,35,55,,,,,,8,8,11,1,,2,6,,55,55,"0.38",18,18,22,6
+Class,"uk.me.parabola.imgfmt.app.net.NETFile.LabeledRoadDef",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,2,1,1,1,0,0,0,,13,1,8,4,2,4,,,,4,6,4,2,,,,,,1,1,1,1,,1,0,,0,0,"0.50",1,1,1,1
+Constructor,"uk.me.parabola.imgfmt.app.net.NETFile.LabeledRoadDef.LabeledRoadDef",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"uk.me.parabola.imgfmt.app.net.NETFile.NETFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.NETFile.setNetwork",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.NETFile.setSort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"uk.me.parabola.imgfmt.app.net.NETFile.simplifySortedRoads",,,,,,,,,,,,,,,,,,,,,,,,,,,6,62,5,35,10,25,22,12,13,1,23,31,12,25,8,8,11,1,0,,,,,0,,6,0,,,"0.63",8,8,11,1
+Public Method,"uk.me.parabola.imgfmt.app.net.NETFile.write",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,9,2,6,1,4,2,0,3,7,3,5,2,2,2,1,0,,,,,0,,2,0,,,"0.11",2,2,2,1
+Public Method,"uk.me.parabola.imgfmt.app.net.NETFile.writePost",,,,,,,,,,,,,,,,,,,,,,,,,,,7,29,5,23,6,17,1,16,8,1,13,21,9,17,5,5,6,1,0,,,,,0,,3,0,,,"0.04",5,5,6,1
+Public Class,"uk.me.parabola.imgfmt.app.net.RoadDef",1,1,1,1,7,0,5,1,2,18,18,0,,0,13,,,,55,28,55,55,2,5,0,48,,624,102,394,136,233,144,,,,208,321,138,200,,,,,,11,11,11,6,,1,3,,94,94,"0.37",105,105,109,70
+Class,"uk.me.parabola.imgfmt.app.net.RoadDef.Offset",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,3,2,3,3,3,0,0,0,,17,3,14,6,4,0,,,,6,10,6,4,,,,,,1,1,1,1,,1,0,,33,33,"0.00",3,3,3,3
+Constructor,"uk.me.parabola.imgfmt.app.net.RoadDef.Offset.Offset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"uk.me.parabola.imgfmt.app.net.RoadDef.Offset.getFlags",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"uk.me.parabola.imgfmt.app.net.RoadDef.Offset.getPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"uk.me.parabola.imgfmt.app.net.RoadDef.RoadDef",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.addLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,14,2,8,1,5,5,1,7,11,2,9,4,4,5,3,4,,,,,4,,2,3,,,"0.07",4,4,5,3
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.addOffsetTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.addPolylineRef",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,0,14,4,11,8,11,8,1,8,12,4,11,4,4,4,1,0,,,,,0,,1,0,,,"0.57",4,4,4,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,1,12,1,10,3,4,5,1,5,10,1,9,5,5,6,5,4,,,,,4,,1,4,,,"0.25",5,5,6,5
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.connectedTo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,3,11,0,4,6,1,6,14,5,11,6,6,6,6,7,,,,,7,,3,7,,,"0.00",6,6,6,6
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.doDeadEndCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.doDeadEndCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.doFlareCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.doFlareCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.ferry",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.ferry",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getCity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getLabels",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getMaxZoomLevel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,5,0,2,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getOffsetNet1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getRoadClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getRoadSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getTabAAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.getTabAInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.hasInternalNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"uk.me.parabola.imgfmt.app.net.RoadDef.hasNodInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.isLinkRoad",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.isOneway",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.isRoundabout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.isSynthesised",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.messagePreviouslyIssued",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,5,0,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.paved",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.paved",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.putSortedRoadEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,1,4,0,2,3,0,4,7,2,5,3,3,4,3,2,,,,,2,,2,2,,,"0.00",3,3,4,3
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,1,3,0,3,6,2,4,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setCity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setInternalNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setLength",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setLinkRoad",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setNoThroughRouting",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setNumNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setOneway",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setRoadClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,3,7,2,5,3,3,1,0,5,6,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.43",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setRoundabout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,5,1,3,2,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setStartsWithNode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setSynthesised",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setToll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.setZip",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,7,2,5,2,2,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.29",2,2,2,1
+Private Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeLabels",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,6,0,2,3,0,6,9,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeLevelCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,4,9,0,5,3,0,9,12,5,10,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeLevelDivs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,5,0,2,4,1,4,9,4,6,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeNet1",,,,,,,,,,,,,,,,,,,,,,,,,,,11,55,6,44,6,37,9,10,112,2,24,35,6,32,11,11,11,1,4,,,,,0,,3,0,,,"0.20",11,11,11,1
+Public Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeNod2",,,,,,,,,,,,,,,,,,,,,,,,,,,7,43,4,24,4,21,16,8,33,2,20,28,7,21,8,8,9,1,1,,,,,0,,3,0,,,"0.67",8,8,9,1
+Method,"uk.me.parabola.imgfmt.app.net.RoadDef.writeRgnOffsets",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,1,10,1,7,4,5,4,1,3,7,2,5,3,3,3,1,0,,,,,0,,1,0,,,"0.40",3,3,3,1

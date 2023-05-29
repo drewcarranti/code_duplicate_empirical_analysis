@@ -1,0 +1,128 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"GameAchievement.java",1,1,1,1,11,0,5,6,,,,,1,1,0,11,,11,10,8,11,,0,0,0,11,,185,29,75,35,31,81,,,,45,60,35,31,,,,,,3,3,3,1,,,2,,,,"1.08",14,14,15,11
+File,"GameStats.java",2,2,2,1,15,0,8,7,,,,,1,2,0,12,,12,10,7,12,,0,0,3,9,,241,30,115,35,58,99,,,,54,86,34,54,,,,,,8,8,8,8,,,3,,,,"0.86",30,30,30,19
+File,"L4D2StatsTest.java",1,1,1,1,7,0,7,0,,,,,1,0,0,5,,5,5,0,5,,0,0,0,5,,65,12,42,14,22,12,,,,18,24,10,14,,,,,,1,1,1,1,,,0,,,,"0.29",5,5,5,5
+File,"Portal2Stats.java",2,2,2,1,14,1,6,7,,,,,1,0,0,2,,2,2,1,2,,0,0,0,2,,55,9,19,8,6,27,,,,9,14,8,6,,,,,,3,3,3,1,,,1,,,,"1.42",4,4,4,2
+File,"Portal2StatsTest.java",1,1,1,1,5,0,5,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,41,9,21,10,7,11,,,,11,15,8,7,,,,,,1,1,1,1,,,0,,,,"0.52",3,3,3,3
+File,"SteamId.java",1,1,1,1,14,0,6,7,,,,,1,10,1,51,,51,41,27,51,,0,5,0,46,,848,83,373,127,181,394,,,,177,267,117,167,,,,,,10,10,10,4,,,3,,,,"1.06",86,86,92,54
+File,"SteamIdTest.java",1,1,1,1,11,2,9,1,,,,,1,0,0,6,,6,6,1,6,,0,0,0,6,,113,29,73,40,37,22,,,,53,60,34,37,,,,,,1,1,1,1,,,0,,,,"0.30",6,6,6,6
+File,"TF2Stats.java",2,2,2,1,14,0,6,7,,,,,1,0,0,6,,6,6,4,6,,0,0,0,6,,127,19,53,17,22,55,,,,24,39,18,21,,,,,,4,4,4,1,,,2,,,,"1.04",14,14,14,6
+File,"TF2StatsTest.java",1,1,1,1,37,2,35,0,,,,,1,0,0,4,,4,4,0,4,,0,0,0,4,,184,20,153,27,131,13,,,,140,145,24,131,,,,,,1,1,1,1,,,0,,,,"0.08",4,4,4,4
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.koraktor",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.koraktor.steamcondenser",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.koraktor.steamcondenser.steam",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.koraktor.steamcondenser.steam.community",1,1,1,1,14,0,6,6,,,,,4,13,1,,4,,67,43,80,,0,5,3,72,,1387,171,636,237,307,596,,,,329,473,220,289,,,,,,10,10,10,8,,,3,,,,"0.94",136,136,143,90
+Public Class,"com.github.koraktor.steamcondenser.steam.community.GameAchievement",1,1,1,1,11,0,5,6,1,12,12,0,,1,0,,,,10,8,11,11,0,0,0,11,,172,24,67,27,31,81,,,,37,52,27,31,,,,,,3,3,3,1,,1,2,,80,80,"1.21",14,14,15,11
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.GameAchievement",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,13,2,10,8,16,2,0,9,11,2,10,2,2,3,1,0,,,,,0,,1,0,,,"0.62",2,2,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getApiName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getGame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getGlobalPercentages",,,,,,,,,,,,,,,,,,,,,,,,,,,3,32,3,17,7,12,12,8,3,0,11,14,7,12,3,3,3,1,1,,,,,0,,2,0,,,"0.71",3,3,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getIconClosedURL",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getIconOpenURL",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getTimestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.getUser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameAchievement.isUnlocked",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Class,"com.github.koraktor.steamcondenser.steam.community.GameStats",2,2,2,1,15,0,8,7,1,17,17,2,,2,0,,,,10,7,12,12,0,0,3,9,,227,26,105,25,58,99,,,,44,76,24,54,,,,,,8,8,8,8,,1,3,,76,61,"0.94",30,30,30,19
+Protected Constructor,"com.github.koraktor.steamcondenser.steam.community.GameStats.GameStats",,,,,,,,,,,,,,,,,,,,,,,,,,,7,33,3,22,3,15,9,15,15,1,9,15,2,14,6,6,6,1,2,,,,,0,,2,0,,,"0.41",6,6,6,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.createGameStats",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,0,20,2,16,10,5,8,1,8,16,1,15,8,8,8,8,7,,,,,7,,1,7,,,"0.50",8,8,8,8
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getAchievements",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,2,14,2,9,7,7,4,1,6,11,3,9,4,4,4,1,0,,,,,0,,3,0,,,"0.50",4,4,4,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getAchievementsDone",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,6,1,3,9,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.50",2,2,2,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getAchievementsPercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,3,1,1,9,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Protected Static Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,1,13,2,8,9,1,4,1,5,8,2,6,3,3,3,1,2,,,,,0,,1,0,,,"0.69",3,3,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getGame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getHoursPlayed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getPrivacyState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.getUser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"com.github.koraktor.steamcondenser.steam.community.GameStats.isPublic",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"com.github.koraktor.steamcondenser.steam.community.SteamId",1,1,1,1,14,0,6,7,1,17,17,0,,10,1,,,,41,27,51,51,0,5,0,46,,836,79,365,119,181,394,,,,169,259,109,167,,,,,,10,10,10,4,,1,3,,94,79,"1.08",86,86,92,54
+Private Constructor,"com.github.koraktor.steamcondenser.steam.community.SteamId.SteamId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,2,12,2,7,10,5,4,1,4,7,1,6,3,3,3,1,1,,,,,0,,1,0,,,"0.83",3,3,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.cache",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,10,1,6,5,3,3,0,4,7,1,6,3,3,4,1,1,,,,,0,,2,0,,,"0.50",3,3,4,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.convertCommunityIdToSteamId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,21,3,10,4,6,8,1,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.80",2,2,2,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.convertSteamIdToCommunityId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,2,11,3,6,10,6,4,1,4,7,2,6,3,3,4,1,0,,,,,0,,1,0,,,"0.91",3,3,4,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,4,2,1,11,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,4,2,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.25",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,4,2,1,11,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,4,2,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.25",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,4,2,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.25",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,4,2,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.25",1,1,1,1
+Private Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.create",,,,,,,,,,,,,,,,,,,,,,,,,,,10,26,0,12,3,7,14,6,3,0,4,7,2,6,3,3,5,1,1,,,,,0,,2,0,,,"1.17",3,3,5,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.fetchData",,,,,,,,,,,,,,,,,,,,,,,,,,,11,74,10,57,6,46,7,44,133,2,38,50,9,46,10,10,10,1,1,,,,,0,,3,0,,,"0.12",10,10,10,1
+Private Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.fetchFriends",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,1,13,4,9,11,9,3,0,8,11,5,9,3,3,3,1,1,,,,,0,,2,0,,,"0.85",3,3,3,1
+Private Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.fetchGames",,,,,,,,,,,,,,,,,,,,,,,,,,,4,36,1,28,7,20,7,9,6,1,15,21,8,16,5,5,5,1,3,,,,,0,,3,0,,,"0.25",5,5,5,1
+Private Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.findGame",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,3,25,4,16,9,7,12,1,9,16,4,12,6,6,7,4,4,,,,,4,,3,3,,,"0.36",6,6,7,4
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getAvatarFullUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getAvatarIconUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getAvatarMediumUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,7,1,4,9,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.29",2,2,2,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getCustomUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getFavoriteGame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getFavoriteGameHoursPlayed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getFetchTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getFriends",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,7,2,3,10,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.43",2,2,2,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getGameStats",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,2,12,3,7,9,6,4,1,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.75",3,3,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getGames",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,0,7,2,3,13,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.86",2,2,2,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getHeadLine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getHoursPlayed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,3,1,1,7,1,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"2.33",2,2,2,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getMemberSince",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getMostPlayedGames",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,3,1,1,9,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getNickname",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getPrivacyState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getRealName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getRecentPlaytime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,1,5,3,2,10,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getStateMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getSteamId64",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getSteamRating",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getTotalPlaytime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,1,5,3,2,8,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getTradeBanState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.getVisibilityState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isBanned",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isCached",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isFetched",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isInGame",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isLimitedAccount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamId.isOnline",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"2.00",1,1,2,1
+Public Class,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest",1,1,1,1,11,2,9,1,1,10,10,0,,0,0,,,,6,1,6,6,0,0,0,6,,91,22,58,25,37,22,,,,38,45,19,37,,,,,,1,1,1,1,,1,0,,16,16,"0.38",6,6,6,6
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.getFriends",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,5,6,2,11,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.getGames",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,3,9,5,6,2,12,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,1,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.testCache",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,3,5,2,10,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.testFetch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,21,4,17,4,14,5,20,1,0,14,15,3,14,1,1,1,1,0,,,,,0,,0,0,,,"0.29",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.SteamIdTest.testGetId",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,1,7,4,4,0,6,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.koraktor.steamcondenser.steam.community.l4d",1,1,1,1,7,0,7,0,,,,,1,0,0,,1,,5,0,5,,0,0,0,5,,65,12,42,14,22,12,,,,18,24,10,14,,,,,,1,1,1,1,,,0,,,,"0.29",5,5,5,5
+Public Class,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest",1,1,1,1,7,0,7,0,1,2,2,0,,0,0,,,,5,0,5,5,0,0,0,5,,56,7,38,10,22,12,,,,14,20,6,14,,,,,,1,1,1,1,,2,0,,0,0,"0.32",5,5,5,5
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest.L4D2StatsTest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest.achievements",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest.getDamagePercentages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,2,8,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest.getL4D2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,2,5,1,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.12",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.l4d.L4D2StatsTest.getLifetimeStats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,2,7,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.koraktor.steamcondenser.steam.community.portal2",1,1,1,1,8,0,5,3,,,,,2,0,0,,2,,5,1,5,,0,0,0,5,,96,18,40,18,13,38,,,,20,29,16,13,,,,,,3,3,3,1,,,1,,,,"0.95",7,7,7,5
+Public Class,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2Stats",2,2,2,1,14,1,6,7,1,4,4,0,,0,0,,,,2,1,2,14,0,0,0,2,,48,6,15,4,6,27,,,,5,10,4,6,,,,,,3,3,3,1,,2,1,,50,50,"1.80",4,4,4,2
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2Stats.Portal2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2Stats.getInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,2,9,1,5,8,5,3,0,3,6,1,5,3,3,3,1,1,,,,,0,,1,0,,,"0.89",3,3,3,1
+Public Class,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2StatsTest",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,3,0,3,3,0,0,0,3,,32,4,17,6,7,11,,,,7,11,4,7,,,,,,1,1,1,1,,2,0,,0,0,"0.65",3,3,3,3
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2StatsTest.Portal2StatsTest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2StatsTest.achievements",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.portal2.Portal2StatsTest.getPortal2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.koraktor.steamcondenser.steam.community.tf2",1,1,1,1,24,1,18,4,,,,,2,0,0,,2,,10,4,10,,0,0,0,10,,311,39,206,44,153,68,,,,164,184,42,152,,,,,,4,4,4,1,,,2,,,,"0.33",18,18,18,10
+Public Class,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats",2,2,2,1,14,0,6,7,1,6,6,0,,0,0,,,,6,4,6,18,0,0,0,6,,117,15,47,11,22,55,,,,18,33,12,21,,,,,,4,4,4,1,,2,2,,75,66,"1.17",14,14,14,6
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.TF2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.TF2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,1,7,1,4,10,6,2,0,3,5,1,4,3,3,3,1,0,,,,,0,,1,0,,,"1.43",3,3,3,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.getAccumulatedPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.getClassStats",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,2,12,1,7,7,6,4,1,4,9,2,7,4,4,4,1,1,,,,,0,,2,0,,,"0.58",4,4,4,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.getInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,2,13,1,8,8,7,4,1,4,8,1,7,4,4,4,1,2,,,,,0,,2,0,,,"0.62",4,4,4,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2Stats.getTotalPlayTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2StatsTest",1,1,1,1,37,2,35,0,1,5,5,0,,0,0,,,,4,0,4,4,0,0,0,4,,169,14,144,18,131,13,,,,131,136,15,131,,,,,,1,1,1,1,,2,0,,0,0,"0.09",4,4,4,4
+Public Constructor,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2StatsTest.TF2StatsTest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2StatsTest.achievements",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,3,7,2,12,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2StatsTest.classStats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,130,9,121,11,118,0,16,1,0,118,119,10,118,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.koraktor.steamcondenser.steam.community.tf2.TF2StatsTest.getTF2Stats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

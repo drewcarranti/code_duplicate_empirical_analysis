@@ -1,0 +1,60 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"IterableAdapter.java",1,1,1,1,6,0,6,0,,,,,2,0,0,5,,6,6,1,6,,0,0,1,5,,32,5,27,9,14,0,,,,11,16,11,6,,,,,,1,1,1,1,,,0,,,,"0.00",5,5,5,5
+File,"MapPatriciaTrie.java",1,1,1,1,4,0,4,0,,,,,3,0,0,18,,18,18,2,18,,0,0,6,12,,134,17,102,56,33,15,,,,39,61,34,33,,,,,,2,2,2,1,,,1,,,,"0.15",20,20,20,18
+File,"PatriciaTrie.java",4,4,4,3,14,0,14,0,,,,,1,2,0,18,,18,16,2,18,,0,2,6,10,,310,21,274,87,190,15,,,,169,243,90,186,,,,,,17,17,18,14,,,5,,,,"0.05",73,73,74,60
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.trie4j",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.trie4j.patricia",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.trie4j.patricia.simple",2,2,2,2,9,0,9,0,,,,,4,2,0,,2,,34,4,36,,0,2,12,22,,444,38,376,143,223,30,,,,208,304,124,219,,,,,,17,17,18,14,,,5,,,,"0.08",93,93,94,78
+Public Generic Class,"org.trie4j.patricia.simple.MapPatriciaTrie",1,1,1,1,5,0,5,0,2,7,7,0,,0,0,,,,12,0,12,30,0,0,5,7,,112,14,98,52,33,0,,,,35,57,30,33,,,,,,2,2,2,1,,3,1,,0,0,"0.00",14,14,14,12
+Private Class,"org.trie4j.patricia.simple.MapPatriciaTrie.Entry",1,1,1,1,4,0,4,0,2,4,4,0,,0,0,,,,4,2,4,4,0,0,0,4,,22,1,21,10,7,0,,,,9,14,8,7,,,,,,1,1,1,1,,1,0,,37,37,"0.00",4,4,4,4
+Public Constructor,"org.trie4j.patricia.simple.MapPatriciaTrie.Entry.Entry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.Entry.getKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.Entry.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.Entry.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Class,"org.trie4j.patricia.simple.MapPatriciaTrie.IterableAdapter",1,1,1,1,4,0,4,0,1,7,7,0,,0,0,,,,2,0,2,5,0,0,1,1,,10,0,10,5,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"org.trie4j.patricia.simple.MapPatriciaTrie.IterableAdapter.IterableAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.IterableAdapter.convert",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"org.trie4j.patricia.simple.MapPatriciaTrie.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.commonPrefixSearchEntries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.getNode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.getRoot",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,5,4,0,5,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.MapPatriciaTrie.newNodeArray",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,4,3,0,2,1,0,3,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.predictiveSearchEntries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.MapPatriciaTrie.put",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,4,5,0,4,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.trie4j.patricia.simple.PatriciaTrie",4,4,4,3,14,0,14,0,2,9,9,1,,2,0,,,,16,2,18,18,0,2,6,10,,283,18,265,78,190,0,,,,160,234,81,186,,,,,,17,17,18,14,,2,5,,69,66,"0.00",73,73,74,60
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.commonPrefixSearch",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,0,21,7,15,0,6,11,1,14,21,7,17,7,7,7,6,11,,,,,11,,3,11,,,"0.00",7,7,7,6
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.commonPrefixSearchWithNode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,22,6,17,0,7,11,1,14,21,7,17,7,7,7,6,11,,,,,11,,3,11,,,"0.00",7,7,7,6
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,17,6,12,0,6,6,1,14,20,7,15,6,6,6,6,13,,,,,13,,3,13,,,"0.00",6,6,6,6
+Private Static Method,"org.trie4j.patricia.simple.PatriciaTrie.enumLetters",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,4,0,4,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Static Method,"org.trie4j.patricia.simple.PatriciaTrie.enumLettersWithNode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,4,0,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.getNode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,0,20,5,15,0,6,9,1,15,22,7,17,7,7,7,7,14,,,,,14,,3,14,,,"0.00",7,7,7,7
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.getRoot",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,6,84,0,84,20,73,0,17,57,2,52,67,17,62,17,17,18,14,18,,,,,18,,5,18,,,"0.00",17,17,18,14
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.newNode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.trie4j.patricia.simple.PatriciaTrie.newNodeArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.predictiveSearch",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,0,28,9,20,0,9,12,1,17,24,9,19,7,7,7,5,8,,,,,8,,3,8,,,"0.00",7,7,7,5
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.predictiveSearchWithNode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,0,27,8,20,0,10,12,1,17,24,9,19,7,7,7,5,8,,,,,8,,3,8,,,"0.00",7,7,7,5
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.size",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.patricia.simple.PatriciaTrie.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.trie4j.util",1,1,1,1,6,0,6,0,,,,,2,0,0,,1,,6,1,6,,0,0,1,5,,32,5,27,9,14,0,,,,11,16,11,6,,,,,,1,1,1,1,,,0,,,,"0.00",5,5,5,5
+Public Abstract Generic Class,"org.trie4j.util.IterableAdapter",1,1,1,1,10,0,10,0,2,2,2,1,,0,0,,,,3,1,3,3,0,0,1,2,,28,3,25,7,14,0,,,,9,14,9,6,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"org.trie4j.util.IterableAdapter.IterableAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"org.trie4j.util.IterableAdapter.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"org.trie4j.util.IterableAdapter.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Protected Abstract Method,"org.trie4j.util.IterableAdapter.convert",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.trie4j.util.IterableAdapter.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,0,18,3,13,0,2,1,0,6,9,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.trie4j.util.IterableAdapter.iterator.(Anon_1)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,3,0,3,3,0,0,0,3,,13,0,13,0,11,0,,,,4,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"org.trie4j.util.IterableAdapter.iterator.(Anon_1).hasNext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.util.IterableAdapter.iterator.(Anon_1).next",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.trie4j.util.IterableAdapter.iterator.(Anon_1).remove",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

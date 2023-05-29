@@ -1,0 +1,115 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CacheResolver.java",1,1,1,1,4,0,4,0,,,,,1,0,0,10,,10,10,2,10,,0,0,0,10,,79,14,62,36,16,3,,,,27,39,25,16,,,,,,3,3,3,1,,,1,,,,"0.05",12,12,12,10
+File,"CompileOutputResolver.java",1,1,1,1,6,0,6,0,,,,,1,0,0,10,,10,10,3,10,,0,1,0,9,,96,14,78,43,26,4,,,,35,52,32,26,,,,,,3,3,3,1,,,2,,,,"0.05",16,16,16,10
+File,"ContainerResolver.java",2,2,2,1,9,0,9,0,,,,,2,1,0,11,,11,10,2,11,,0,1,0,10,,131,14,114,45,48,3,,,,42,77,39,43,,,,,,5,5,5,3,,,2,,,,"0.03",27,27,27,21
+File,"EmptyResolver.java",1,1,1,1,4,0,4,0,,,,,1,0,1,8,,8,8,0,8,,0,0,0,8,,63,12,47,31,8,4,,,,17,26,19,8,,,,,,1,1,1,1,,,0,,,,"0.09",8,8,8,8
+File,"FilesResolver.java",1,1,1,1,5,0,5,0,,,,,1,0,0,9,,9,9,3,9,,0,0,0,9,,81,14,64,37,17,3,,,,26,40,26,17,,,,,,3,3,3,1,,,2,,,,"0.05",13,13,13,9
+File,"JarFileResolver.java",1,1,1,1,6,0,6,0,,,,,1,0,1,11,,11,11,3,11,,0,2,0,9,,108,18,87,48,29,3,,,,42,58,36,26,,,,,,3,3,3,1,,,2,,,,"0.03",16,16,16,11
+File,"JarsUtils.java",2,2,2,1,10,0,9,0,,,,,2,3,1,4,,4,1,0,4,,0,1,0,3,,64,10,54,24,22,0,,,,28,40,25,17,,,,,,4,4,4,1,,,2,,,,"0.00",10,10,11,4
+File,"PluginResolver.java",2,2,2,1,8,0,8,0,,,,,1,1,2,12,,12,11,4,12,,0,4,0,8,,153,17,133,59,56,3,,,,63,92,48,51,,,,,,6,6,7,5,,,3,,,,"0.02",25,25,27,18
+File,"Resolver.java",1,1,1,1,11,0,4,7,,,,,1,6,0,6,,12,6,0,12,,0,0,0,12,,155,16,49,36,7,90,,,,25,32,26,7,,,,,,2,2,2,1,,,0,,,,"1.84",7,7,7,6
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.jetbrains",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.jetbrains.plugin",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.jetbrains.plugin.structure",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.jetbrains.plugin.structure.classes",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.jetbrains.plugin.structure.classes.resolvers",1,1,1,1,6,0,6,0,,,,,9,8,4,,8,,75,17,83,,0,8,0,75,,866,119,634,335,207,113,,,,277,416,251,194,,,,,,6,6,7,5,,,3,,,,"0.18",124,124,126,93
+Public Class,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver",1,1,1,1,4,0,4,0,1,10,10,0,,0,0,,,,10,2,10,22,0,0,0,10,,66,11,52,26,16,3,,,,17,29,15,16,,,,,,3,3,3,1,,2,1,,44,35,"0.06",12,12,12,10
+Public Constructor,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.CacheResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.CacheResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,5,6,0,4,2,0,5,7,3,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CacheResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver",1,1,1,1,6,0,6,0,1,19,19,0,,0,0,,,,10,3,10,22,0,1,0,9,,82,11,67,32,26,4,,,,24,41,21,26,,,,,,3,3,3,1,,2,2,,70,66,"0.06",16,16,16,10
+Public Constructor,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.CompileOutputResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,4,8,0,8,3,0,6,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,3,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.getClassRoot",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,4,5,0,3,2,0,6,8,4,5,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.CompileOutputResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver",2,2,2,2,9,0,9,0,1,13,13,0,,1,0,,,,9,2,10,22,0,1,0,9,,116,11,102,33,48,3,,,,30,65,27,43,,,,,,5,5,5,3,,2,2,,50,40,"0.03",26,26,26,20
+Private Constructor,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.ContainerResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,8,0,1,6,1,4,9,3,6,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,4,0,2,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.createFromList",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,16,3,9,0,7,9,1,5,11,3,9,5,5,5,3,2,,,,,2,,2,2,,,"0.00",5,5,5,3
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,4,5,0,2,3,0,3,7,3,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,5,6,0,4,1,0,3,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.getAllClasses.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,1,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.getAllClasses.(Anon_1).apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,4,5,0,2,3,0,3,7,3,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,4,0,3,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,2,4,0,2,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.ContainerResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver",1,1,1,1,4,0,4,0,1,9,9,0,,0,1,,,,8,0,8,20,0,0,0,8,,51,9,38,22,8,4,,,,8,17,10,8,,,,,,1,1,1,1,,2,0,,0,0,"0.11",8,8,8,8
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.EmptyResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver",1,1,1,1,5,0,5,0,1,15,15,0,,0,0,,,,9,3,9,21,0,0,0,9,,68,11,54,27,17,3,,,,16,30,16,17,,,,,,3,3,3,1,,2,2,,62,62,"0.06",13,13,13,9
+Public Constructor,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.FilesResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,3,7,0,8,3,0,5,9,4,7,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,3,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.FilesResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver",1,1,1,1,6,0,6,0,1,19,19,0,,0,1,,,,11,3,11,23,0,2,0,9,,91,15,73,34,29,3,,,,28,44,22,26,,,,,,3,3,3,1,,2,2,,63,57,"0.04",16,16,16,11
+Public Constructor,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.JarFileResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.evaluateNode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,4,9,0,5,2,0,6,9,3,7,2,2,2,1,1,,,,,0,,2,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,3,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.readClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,5,8,0,8,3,0,7,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.JarFileResolver.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver",2,2,2,1,8,0,8,0,1,29,29,0,,1,2,,,,11,4,12,24,0,4,0,8,,128,14,111,37,56,3,,,,41,70,26,51,,,,,,6,6,7,5,,2,3,,72,64,"0.03",25,25,27,18
+Private Constructor,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.PluginResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,1,7,0,8,2,0,5,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.close",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,2,7,0,2,2,0,4,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.closeResolvers",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,1,5,0,2,3,0,2,6,2,4,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.createPluginResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,22,5,15,0,12,9,1,9,15,4,14,6,6,7,5,5,,,,,5,,3,5,,,"0.00",6,6,7,5
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.loadClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,7,3,0,3,6,1,5,3,3,4,3,2,,,,,2,,1,2,,,"0.00",3,3,4,3
+Private Method,"com.jetbrains.plugin.structure.classes.resolvers.PluginResolver.loadClassesFromDir",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,3,9,0,6,3,0,6,10,4,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Abstract Class,"com.jetbrains.plugin.structure.classes.resolvers.Resolver",1,1,1,1,11,0,4,7,2,16,16,7,,6,0,,,,6,0,12,12,0,0,0,12,,140,13,37,24,7,90,,,,13,20,14,7,,,,,,2,2,2,1,,1,0,,0,0,"2.43",7,7,7,6
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.containsClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.createCacheResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.createJarResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,4,2,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.createJdkResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,4,2,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.createPluginResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,5,3,2,9,4,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"1.80",2,2,2,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.createUnionResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,4,2,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.findClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,2,2,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.getAllClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,2,2,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"2.50",0,0,0,0
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.getClassLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,2,2,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.getClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,2,2,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"2.50",0,0,0,0
+Public Static Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.getEmptyResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Abstract Method,"com.jetbrains.plugin.structure.classes.resolvers.Resolver.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Package,"com.jetbrains.plugin.structure.classes.utils",2,2,2,1,10,0,9,0,,,,,2,3,1,,1,,1,0,4,,0,1,0,3,,64,10,54,24,22,0,,,,28,40,25,17,,,,,,4,4,4,1,,,2,,,,"0.00",10,10,11,4
+Public Class,"com.jetbrains.plugin.structure.classes.utils.JarsUtils",3,3,3,1,12,0,11,0,1,17,17,0,,3,1,,,,0,0,3,3,0,1,0,2,,45,7,38,8,22,0,,,,12,24,9,17,,,,,,4,4,4,1,,1,2,,0,0,"0.00",9,9,9,3
+Private Static Method,"com.jetbrains.plugin.structure.classes.utils.JarsUtils.closeResolvers",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,1,5,0,2,3,0,2,6,2,4,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.utils.JarsUtils.collectJars",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,5,0,2,1,0,2,4,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.jetbrains.plugin.structure.classes.utils.JarsUtils.collectJars.(Anon_1)",1,1,2,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,2,1,,2,0,,0,0,"0.00",1,1,2,1
+Public Method,"com.jetbrains.plugin.structure.classes.utils.JarsUtils.collectJars.(Anon_1).accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,4,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Static Method,"com.jetbrains.plugin.structure.classes.utils.JarsUtils.makeResolver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,2,17,3,11,0,7,5,1,7,12,3,10,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1

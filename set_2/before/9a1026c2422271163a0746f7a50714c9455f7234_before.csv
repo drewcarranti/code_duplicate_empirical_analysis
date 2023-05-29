@@ -1,0 +1,30 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"OSCPacketDispatcherTest.java",1,1,2,1,9,0,9,0,,,,,3,0,0,8,,8,8,3,8,,0,0,2,6,,101,12,75,20,43,14,,,,39,55,20,39,,,,,,3,3,3,1,,,1,,,,"0.19",15,15,16,8
+File,"OSCPortTest.java",1,1,1,1,8,0,8,0,,,,,3,0,0,10,,10,10,4,10,,0,0,2,8,,114,12,89,32,56,15,,,,57,71,30,51,,,,,,3,3,3,1,,,1,,,,"0.17",13,13,13,10
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.illposed",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.illposed.osc",1,1,1,1,9,0,8,0,,,,,6,0,0,,2,,18,7,18,,0,0,4,14,,215,24,164,52,99,29,,,,96,126,50,90,,,,,,3,3,3,1,,,1,,,,"0.18",28,28,29,18
+Public Class,"com.illposed.osc.OSCPacketDispatcherTest",2,2,2,1,11,0,11,0,1,6,6,0,,0,0,,,,6,3,6,6,0,0,2,4,,87,8,72,17,43,7,,,,36,52,17,39,,,,,,3,3,3,1,,2,1,,27,27,"0.10",13,13,14,6
+Protected Method,"com.illposed.osc.OSCPacketDispatcherTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,17,3,11,0,2,1,0,8,11,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.illposed.osc.OSCPacketDispatcherTest.setUp.(Anon_1)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.setUp.(Anon_1).acceptMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.illposed.osc.OSCPacketDispatcherTest.setUp.(Anon_2)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.setUp.(Anon_2).acceptMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.illposed.osc.OSCPacketDispatcherTest.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,1,3,2,0,3,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.testDispatchBundle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,14,2,10,0,5,4,1,8,11,2,10,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.testDispatchToListener1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,2,8,0,4,4,1,6,9,2,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.testDispatchToListener2",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,2,8,0,4,4,1,6,9,2,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.illposed.osc.OSCPacketDispatcherTest.testDispatchToNobody",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,6,0,4,2,0,5,7,2,6,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Class,"com.illposed.osc.OSCPortTest",1,1,1,1,10,0,10,0,1,10,10,0,,0,0,,,,8,4,8,8,0,0,2,6,,102,9,87,30,56,8,,,,55,69,28,51,,,,,,3,3,3,1,,2,1,,53,53,"0.09",11,11,11,8
+Protected Method,"com.illposed.osc.OSCPortTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.illposed.osc.OSCPortTest.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testBundle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,5,8,0,1,1,0,8,9,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testBundle2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,6,0,3,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testBundleReceiving",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,0,23,4,17,1,11,4,1,14,18,4,16,3,3,3,1,0,,,,,0,,1,0,,,"0.04",3,3,3,1
+Anonymous Class,"com.illposed.osc.OSCPortTest.testBundleReceiving.(Anon_2)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,1,4,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testBundleReceiving.(Anon_2).acceptMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testMessageWithArgs",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,3,5,0,1,1,0,5,6,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testReceiving",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,4,12,1,7,2,0,10,13,4,11,2,2,2,1,0,,,,,0,,1,0,,,"0.06",2,2,2,1
+Anonymous Class,"com.illposed.osc.OSCPortTest.testReceiving.(Anon_1)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,1,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testReceiving.(Anon_1).acceptMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.illposed.osc.OSCPortTest.testStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

@@ -1,0 +1,147 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractReactionMatrix.java",1,1,2,1,12,1,7,4,,,,,3,0,4,53,,56,56,13,56,,1,6,2,47,,884,177,433,162,217,274,,,,235,343,153,216,,,,,,8,8,9,5,,,4,,,,"0.63",104,104,110,63
+File,"BasicStoichiometricMatrix.java",1,1,1,1,6,0,5,0,,,,,1,3,1,23,,23,20,1,23,,0,0,2,21,,234,64,146,58,67,24,,,,69,103,50,62,,,,,,5,5,5,1,,,2,,,,"0.16",32,32,33,23
+File,"MatrixTest.java",1,1,1,1,7,0,7,0,,,,,1,0,0,6,,6,6,0,6,,0,0,0,6,,85,12,56,21,34,17,,,,42,49,21,34,,,,,,1,1,1,1,,,0,,,,"0.30",6,6,6,6
+File,"ReactionMatrix.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,22,22,0,22,,0,0,0,22,,72,26,27,26,0,19,,,,25,26,26,0,,,,,,0,0,0,0,,,0,,,,"0.70",0,0,0,0
+File,"StoichiometricMatrixImpl.java",2,2,3,1,15,2,10,2,,,,,1,0,0,12,,12,12,1,12,,1,0,2,9,,249,59,139,51,77,51,,,,74,108,48,75,,,,,,9,9,13,3,,,3,,,,"0.37",32,32,36,14
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk.domain",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk.domain.entity",1,1,1,1,7,0,7,0,,,,,1,0,0,,1,,6,0,6,,0,0,0,6,,85,12,56,21,34,17,,,,42,49,21,34,,,,,,1,1,1,1,,,0,,,,"0.30",6,6,6,6
+Public Class,"uk.ac.ebi.mdk.domain.entity.MatrixTest",1,1,1,1,7,0,7,0,1,5,5,0,,0,0,,,,6,0,6,6,0,0,0,6,,57,8,48,13,34,1,,,,34,41,13,34,,,,,,1,1,1,1,,1,0,,0,0,"0.02",6,6,6,6
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.doNotReplace",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,2,4,0,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.duplication",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,2,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.makeIrreversible",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,11,2,9,0,10,1,0,9,10,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.makeIrreversible_andInvert",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,11,2,9,0,10,1,0,9,10,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.makeReversible",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,2,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.sameEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,5,2,3,0,6,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"uk.ac.ebi.mdk.domain.matrix",1,1,2,1,11,1,7,3,,,,,6,3,5,,4,,110,15,113,,2,6,6,99,,1439,326,745,297,361,368,,,,403,580,277,353,,,,,,9,9,13,5,,,4,,,,"0.49",168,168,179,100
+Public Abstract Generic Class,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix",1,1,2,1,13,1,7,4,2,27,27,1,,0,4,,,,51,11,51,51,1,5,2,43,,841,172,411,140,217,258,,,,213,321,131,216,,,,,,8,8,9,5,,1,4,,87,74,"0.63",95,95,100,54
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.AbstractReactionMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.AbstractReactionMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,3,6,1,4,9,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Static Final Class,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.IndexKey",2,2,2,2,6,0,5,0,1,2,2,0,,0,0,,,,4,2,4,4,0,1,0,3,,32,7,25,10,12,0,,,,13,22,8,14,,,,,,5,5,6,5,,1,1,,0,0,"0.00",8,8,9,8
+Private Constructor,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.IndexKey.IndexKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.IndexKey.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,3,9,3,6,0,2,5,1,6,11,2,9,5,5,6,5,4,,,,,4,,1,4,,,"0.00",5,5,6,5
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.IndexKey.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,1,1,0,3,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.IndexKey.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.M",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.R",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix._get",,,,,,,,,,,,,,,,,,,,,,,,,,,14,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,12,87,10,40,9,26,37,13,36,2,21,32,10,24,8,8,9,5,5,,,,,5,,4,5,,,"0.93",8,8,9,5
+Anonymous Class,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.addReaction.(Anon_1)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.addReaction.(Anon_1).compare",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,0,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.assign",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,6,11,2,8,7,10,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.64",2,2,2,1
+Private Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.buildMoleculeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,7,1,4,5,3,2,0,5,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Private Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.buildReactionMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,3,2,0,5,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.countColumnNulls",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,10,2,6,5,2,3,0,8,11,4,7,4,4,4,1,0,,,,,0,,2,0,,,"0.50",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.display",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.display",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.display",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.display",,,,,,,,,,,,,,,,,,,,,,,,,,,12,47,9,24,9,15,14,4,6,1,16,20,8,13,5,5,5,1,0,,,,,0,,2,0,,,"0.58",5,5,5,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.ensure",,,,,,,,,,,,,,,,,,,,,,,,,,,12,24,2,14,2,9,8,8,4,1,7,10,1,9,3,3,3,1,0,,,,,0,,1,0,,,"0.57",3,3,3,1
+Private Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.ensure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,9,1,6,8,5,2,0,5,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.89",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.entries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.get",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,8,3,4,1,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getColumnIndicies",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,4,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getFixedMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,4,13,4,8,7,5,4,1,9,13,5,10,4,4,4,1,1,,,,,0,,2,0,,,"0.54",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getHighlyConnectedMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,4,29,5,15,5,9,9,4,4,1,8,12,5,9,4,4,4,1,1,,,,,0,,2,0,,,"0.60",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getMolecule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getMoleculeClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getMoleculeCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,4,2,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getNonNullCount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactionClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactionCount",,,,,,,,,,,,,,,,,,,,,,,,,,,10,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactionMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,5,0,7,3,0,5,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactionValues",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,4,6,0,7,3,0,6,9,4,7,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,2,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getReactions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,12,5,7,6,4,3,0,7,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.50",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getRow",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,7,3,4,5,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getRow",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getValueClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.getValuesForMolecule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.identical",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,2,9,4,5,0,7,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.identical",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,5,0,3,3,0,3,7,3,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.init",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,5,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.init",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,3,9,4,4,8,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.89",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.setMolecule",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,1,5,0,3,3,0,3,6,1,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.setReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,1,5,0,3,3,0,3,6,1,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,4,9,3,7,0,4,4,1,5,8,3,7,3,3,5,1,0,,,,,0,,1,0,,,"0.00",3,3,5,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.toSIF",,,,,,,,,,,,,,,,,,,,,,,,,,,4,63,6,15,7,9,42,7,2,0,6,8,4,7,2,2,4,1,1,,,,,0,,1,0,,,"2.80",2,2,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.toTextFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.toTextFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,4,2,1,14,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.50",1,1,1,1
+Private Method,"uk.ac.ebi.mdk.domain.matrix.AbstractReactionMatrix.valueType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,6,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix",1,1,1,1,6,0,5,0,1,12,12,0,,3,1,,,,20,1,23,86,0,0,2,21,,206,59,139,51,67,8,,,,62,96,43,62,,,,,,5,5,5,1,,3,2,,95,78,"0.06",32,32,33,23
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.BasicStoichiometricMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.BasicStoichiometricMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addConsumption",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addProduction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,12,6,0,6,4,2,0,3,1,0,2,3,2,1,2,2,3,1,0,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,1,28,7,21,5,16,0,12,8,1,12,18,8,14,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,8,28,0,28,6,17,0,9,9,1,15,20,5,15,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReactionWithName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReactionWithName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.create",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.create",,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.getMoleculeClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.getReactionClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.init",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.main",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,7,13,3,10,2,7,2,0,11,13,4,11,2,2,2,1,0,,,,,0,,1,0,,,"0.15",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix",0,0,0,0,0,0,0,0,0,3,3,1,,0,0,,,,22,0,22,22,0,0,0,22,,47,23,24,23,0,0,,,,22,23,23,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.M",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.R",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.ensure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getFixedMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getHighlyConnectedMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getMolecule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getMoleculeCount",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getNonNullCount",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReactionCount",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReactionMolecules",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReactionValues",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReactions",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.getReactions",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.setMolecule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.setReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"uk.ac.ebi.mdk.domain.matrix.ReactionMatrix.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl",2,2,3,1,15,2,10,2,2,16,16,1,,0,0,,,,12,1,12,63,1,0,2,9,,218,54,129,41,77,35,,,,64,98,38,75,,,,,,9,9,13,3,,2,3,,66,58,"0.27",32,32,36,14
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.M",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.R",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.StoichiometricMatrixImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.StoichiometricMatrixImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,7,34,6,26,6,19,2,11,24,1,15,22,7,18,6,6,6,1,1,,,,,0,,2,0,,,"0.08",6,6,6,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,3,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.assign",,,,,,,,,,,,,,,,,,,,,,,,,,,2,31,6,12,2,9,13,12,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"1.08",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.assign",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,5,14,4,8,6,7,4,1,7,11,4,9,4,4,4,1,1,,,,,0,,2,0,,,"0.43",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.display",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,2,0,2,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.getValueClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.identical",,,,,,,,,,,,,,,,,,,,,,,,,,,7,40,7,30,6,23,3,8,45,2,17,27,9,23,9,9,13,3,4,,,,,2,,3,2,,,"0.10",9,9,13,3
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.isReversible",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,5,13,5,7,1,8,4,1,8,11,4,8,3,3,3,1,0,,,,,0,,1,0,,,"0.08",3,3,3,1

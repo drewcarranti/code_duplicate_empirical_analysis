@@ -1,0 +1,66 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"EncFSVolume.java",2,2,2,1,21,1,10,10,,,,,2,10,5,58,,56,48,11,58,,0,10,0,48,,1404,158,612,238,325,636,,,,234,356,143,252,,,,,,20,20,22,7,,,5,,,,"1.04",117,117,120,65
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mrpdaemon",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mrpdaemon.sec",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mrpdaemon.sec.encfs",2,2,2,1,21,1,10,10,,,,,2,10,5,,1,,48,11,58,,0,10,0,48,,1404,158,612,238,325,636,,,,234,356,143,252,,,,,,20,20,22,7,,,5,,,,"1.04",117,117,120,65
+Public Class,"org.mrpdaemon.sec.encfs.EncFSVolume",2,2,2,1,22,1,10,10,1,28,28,0,,10,5,,,,46,9,56,56,0,10,0,46,,1377,155,602,228,325,622,,,,224,346,133,252,,,,,,20,20,22,7,,1,5,,94,70,"1.03",117,117,120,65
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,0,5,3,1,18,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.60",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,0,7,4,2,19,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.71",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,26,0,5,3,1,21,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.20",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,0,5,3,1,17,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.40",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,0,6,4,1,18,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,0,5,3,1,20,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.00",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,3,25,0,6,4,1,19,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.17",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,0,6,4,1,20,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Constructor,"org.mrpdaemon.sec.encfs.EncFSVolume.EncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,3,28,0,6,4,1,22,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Private Enum Type,"org.mrpdaemon.sec.encfs.EncFSVolume.PathOperation",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,2,2,2,0,0,0,2,,3,0,3,2,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.mrpdaemon.sec.encfs.EncFSVolume.PathOperation.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.mrpdaemon.sec.encfs.EncFSVolume.PathOperation.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.combinePath",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,10,3,6,7,4,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.combinePath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.combinePath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,7,1,4,7,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.combinePath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.copyOrMovePath",,,,,,,,,,,,,,,,,,,,,,,,,,,12,133,18,88,12,64,28,20,648,3,31,52,10,48,20,20,22,7,11,,,,,7,,5,6,,,"0.32",20,20,22,7
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.copyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,3,13,5,7,13,6,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.copyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,4,2,1,12,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.countFiles",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,0,14,2,9,7,3,4,1,4,9,3,6,4,4,4,1,2,,,,,0,,3,0,,,"0.50",4,4,4,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.createFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,0,6,3,2,14,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.createFile",,,,,,,,,,,,,,,,,,,,,,,,,,,7,42,5,26,9,18,11,8,3,0,14,17,7,13,3,3,3,1,2,,,,,0,,2,0,,,"0.42",3,3,3,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.createVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,6,34,2,11,7,6,21,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"1.91",1,1,1,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.createVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,7,37,2,13,8,7,22,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"1.69",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.deletePath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,54,8,30,5,20,16,9,8,1,12,18,3,16,6,6,6,1,1,,,,,0,,2,0,,,"0.53",6,6,6,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.deletePath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,4,2,1,15,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.75",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getBlockCipher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getDecryptedFileLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,34,6,17,6,12,11,5,5,1,8,12,5,9,4,4,4,1,1,,,,,0,,1,0,,,"0.65",4,4,4,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getEncryptedFileLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,34,6,17,6,12,11,5,5,1,8,12,5,9,4,4,4,1,1,,,,,0,,1,0,,,"0.65",4,4,4,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,6,3,2,15,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getFile",,,,,,,,,,,,,,,,,,,,,,,,,,,14,46,5,29,9,20,12,9,6,1,15,19,7,15,4,4,4,1,2,,,,,0,,2,0,,,"0.41",4,4,4,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getFileProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getIV",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getMac",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getPasswordKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getRootDir",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getStreamCipher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.getVolumeCryptKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,1,10,8,5,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,1,11,9,5,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,6,3,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,1,9,7,3,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,6,3,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,7,6,0,6,4,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.init",,,,,,,,,,,,,,,,,,,,,,,,,,,15,48,7,35,8,25,6,17,16,1,17,22,4,19,5,5,5,1,2,,,,,0,,1,0,,,"0.17",5,5,5,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.isEncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.isEncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Static Method,"org.mrpdaemon.sec.encfs.EncFSVolume.isEncFSVolume",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,5,2,2,8,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.listFilesForPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,1,5,3,2,11,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.20",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.makeDir",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,3,13,4,9,11,4,2,0,6,8,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.85",2,2,2,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.makeDirs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,1,6,3,3,12,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.movePath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,3,13,5,7,13,6,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.movePath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,4,2,1,12,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.openInputStreamForPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,6,4,2,14,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.openOutputStreamForPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,6,4,2,18,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.mrpdaemon.sec.encfs.EncFSVolume.pathExists",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,6,3,3,12,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.recursiveDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,40,7,33,4,22,0,7,19,1,11,21,4,18,9,9,9,4,3,,,,,3,,3,3,,,"0.00",9,9,9,4
+Private Method,"org.mrpdaemon.sec.encfs.EncFSVolume.validateAbsoluteFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,11,15,1,14,1,8,0,2,16,1,4,9,1,8,5,5,6,1,0,,,,,0,,1,0,,,"0.00",5,5,6,1

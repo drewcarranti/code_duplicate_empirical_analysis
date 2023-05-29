@@ -1,0 +1,230 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ActionStartXCommand.java",4,4,5,1,27,1,25,1,,,,,1,0,6,11,,11,11,8,11,,0,2,5,4,,401,33,337,97,218,33,,,,186,231,83,159,,,,,,29,26,31,1,,,5,,,,"0.10",50,47,56,11
+File,"Hive2Main.java",5,5,5,1,41,5,33,2,,,,,1,3,2,5,,5,2,0,5,,0,3,1,1,,266,35,201,49,141,31,,,,127,161,50,132,,,,,,18,18,18,1,,,3,,,,"0.15",28,28,28,5
+File,"HiveMain.java",4,4,4,1,36,5,29,2,,,,,1,5,5,7,,7,2,0,7,,0,3,1,3,,327,49,246,62,179,33,,,,170,207,64,168,,,,,,14,14,14,1,,,3,,,,"0.13",30,30,30,7
+File,"JavaActionExecutor.java",4,4,4,1,23,0,20,2,,,,,2,4,40,62,,62,58,1,62,,12,10,20,20,,1648,129,1371,398,906,152,,,,669,941,394,724,,,,,,20,20,23,7,,,6,,,,"0.11",258,258,286,74
+File,"JavaMain.java",2,2,2,1,15,2,11,2,,,,,1,1,1,2,,2,1,0,2,,0,0,1,1,,64,13,29,12,16,22,,,,17,23,12,14,,,,,,3,3,3,1,,,1,,,,"0.76",4,4,4,2
+File,"LauncherMain.java",3,3,3,1,16,0,13,3,,,,,2,8,2,10,,11,3,1,11,,1,0,8,2,,225,20,158,57,91,48,,,,83,117,58,79,,,,,,6,6,7,6,,,5,,,,"0.30",30,30,32,15
+File,"LauncherMainHadoopUtils.java",4,4,4,1,20,1,19,0,,,,,1,2,1,3,,3,1,0,3,,0,2,0,1,,105,10,78,30,47,17,,,,51,64,32,40,,,,,,6,6,6,1,,,3,,,,"0.22",12,12,12,3
+File,"LauncherMapper.java",3,3,3,1,19,0,17,0,,,,,3,5,27,27,,27,22,8,27,,0,10,2,15,,656,63,552,163,360,43,,,,311,406,159,295,,,,,,21,21,21,1,,,7,,,,"0.08",90,90,91,27
+File,"LauncherMapperHelper.java",2,2,2,1,16,0,12,3,,,,,2,18,0,19,,19,1,0,19,,0,1,0,18,,326,32,220,89,119,75,,,,127,169,86,107,,,,,,10,10,11,1,,,4,,,,"0.34",38,38,40,19
+File,"MapReduceMain.java",2,2,2,1,13,1,11,0,,,,,1,3,1,8,,8,5,0,8,,0,0,5,3,,153,21,107,34,61,26,,,,62,83,36,55,,,,,,7,7,8,1,,,2,,,,"0.24",19,19,20,8
+File,"PigMain.java",6,6,7,2,51,5,41,5,,,,,1,2,7,6,,6,4,0,6,,0,2,3,1,,392,45,297,80,204,51,,,,185,232,82,181,,,,,,15,15,15,4,,,6,,,,"0.17",40,40,42,12
+File,"SparkMain.java",3,3,3,1,22,3,19,0,,,,,1,1,6,3,,3,2,0,3,,0,1,1,1,,106,18,71,24,49,17,,,,48,62,26,43,,,,,,8,8,8,1,,,2,,,,"0.24",10,10,10,3
+File,"SqoopMain.java",2,2,2,1,24,4,19,1,,,,,1,4,3,6,,6,2,0,6,,0,1,2,3,,199,37,138,40,93,25,,,,89,111,40,86,,,,,,6,6,6,1,,,3,,,,"0.18",17,17,17,6
+File,"SubWorkflowActionExecutor.java",2,2,2,1,13,0,12,0,,,,,1,0,8,14,,14,14,0,14,,0,0,8,6,,276,28,225,97,135,23,,,,126,159,89,105,,,,,,10,10,11,1,,,3,,,,"0.10",36,34,37,14
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie.action",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie.action.hadoop",3,3,3,1,23,1,19,2,,,,,17,56,95,,12,,103,10,159,,13,33,44,69,,4467,472,3468,1038,2266,540,,,,1939,2576,1039,1924,,,,,,21,21,23,7,,,7,,,,"0.16",576,576,612,181
+Public Class,"org.apache.oozie.action.hadoop.Hive2Main",5,5,5,1,41,5,33,2,1,24,24,0,,3,2,,,,2,0,5,14,0,3,1,1,,245,31,184,33,141,31,,,,111,145,34,132,,,,,,18,18,18,1,,2,3,,0,0,"0.17",28,28,28,5
+Private Static Method,"org.apache.oozie.action.hadoop.Hive2Main.initActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,36,6,27,4,22,4,9,8,1,17,21,4,20,4,4,4,1,2,,,,,0,,1,0,,,"0.15",4,4,4,1
+Public Static Method,"org.apache.oozie.action.hadoop.Hive2Main.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.apache.oozie.action.hadoop.Hive2Main.readStringFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,18,5,11,0,6,2,0,8,12,5,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.action.hadoop.Hive2Main.run",,,,,,,,,,,,,,,,,,,,,,,,,,,13,141,19,113,15,92,9,22,15360,4,71,93,18,88,18,18,18,1,2,,,,,0,,3,0,,,"0.08",18,18,18,1
+Private Method,"org.apache.oozie.action.hadoop.Hive2Main.runBeeline",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,8,3,5,1,3,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Class,"org.apache.oozie.action.hadoop.HiveMain",4,4,4,1,36,5,29,2,1,27,27,0,,5,5,,,,2,0,7,16,0,3,1,3,,303,45,226,42,179,33,,,,150,187,44,168,,,,,,14,14,14,1,,2,3,,0,0,"0.15",30,30,30,7
+Private Static Method,"org.apache.oozie.action.hadoop.HiveMain.initActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,52,10,36,4,30,7,12,16,1,24,29,4,28,5,5,5,1,2,,,,,0,,1,0,,,"0.19",5,5,5,1
+Public Static Method,"org.apache.oozie.action.hadoop.HiveMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.apache.oozie.action.hadoop.HiveMain.readStringFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,18,5,11,0,6,2,0,8,12,5,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.action.hadoop.HiveMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,12,105,15,87,10,71,3,22,960,3,56,74,14,69,14,14,14,1,2,,,,,0,,3,0,,,"0.03",14,14,14,1
+Private Method,"org.apache.oozie.action.hadoop.HiveMain.runHive",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.HiveMain.setUpHiveLog4J",,,,,,,,,,,,,,,,,,,,,,,,,,,6,46,8,35,8,31,3,12,4,1,29,32,8,31,3,3,3,1,0,,,,,0,,1,0,,,"0.09",3,3,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.HiveMain.setUpHiveSite",,,,,,,,,,,,,,,,,,,,,,,,,,,4,27,3,21,4,17,3,13,4,1,15,19,5,17,3,3,3,1,0,,,,,0,,1,0,,,"0.14",3,3,3,1
+Public Class,"org.apache.oozie.action.hadoop.JavaActionExecutor",4,4,4,1,24,0,21,2,1,78,78,0,,4,40,,,,55,1,59,59,12,10,20,17,,1582,124,1310,337,906,152,,,,608,880,333,724,,,,,,20,20,23,7,,2,6,,93,88,"0.12",250,250,278,68
+Public Constructor,"org.apache.oozie.action.hadoop.JavaActionExecutor.JavaActionExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Constructor,"org.apache.oozie.action.hadoop.JavaActionExecutor.JavaActionExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.actionConfToLauncherConf",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,3,0,2,3,0,1,5,2,3,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addActionLibs",,,,,,,,,,,,,,,,,,,,,,,,,,,7,30,0,30,6,19,0,13,8,1,9,18,8,15,8,8,8,1,3,,,,,0,,6,0,,,"0.00",8,8,8,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addActionShareLib",,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,0,22,3,13,3,7,8,1,5,10,2,8,5,5,5,1,2,,,,,0,,2,0,,,"0.14",5,5,5,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addAllShareLibs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,5,2,2,2,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addShareLib",,,,,,,,,,,,,,,,,,,,,,,,,,,8,77,2,74,14,52,1,19,15,1,23,42,16,35,13,13,14,1,4,,,,,0,,1,0,,,"0.01",13,13,14,1
+Anonymous Class,"org.apache.oozie.action.hadoop.JavaActionExecutor.addShareLib.(Anon_1)",2,2,2,2,9,0,9,0,1,5,5,0,,0,0,,,,3,0,3,3,0,0,0,3,,28,0,28,0,20,0,,,,7,14,3,11,,,,,,4,4,4,4,,2,1,,0,0,"0.00",8,8,8,6
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addShareLib.(Anon_1).equals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,0,9,0,4,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addShareLib.(Anon_1).getName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,0,7,0,5,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addShareLib.(Anon_1).hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addSystemShareLibForAction",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,0,28,4,19,1,8,14,1,10,19,6,16,7,7,8,1,1,,,,,0,,4,0,,,"0.04",7,7,8,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.addToCache",,,,,,,,,,,,,,,,,,,,,,,,,,,9,50,1,49,8,34,3,22,19,1,20,29,7,27,9,9,10,1,5,,,,,0,,4,0,,,"0.06",9,9,10,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.check",,,,,,,,,,,,,,,,,,,,,,,,,,,17,128,0,126,20,94,2,39,876,3,56,75,18,69,20,20,21,1,9,,,,,0,,6,0,,,"0.02",20,20,21,1
+Static Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.checkForDisallowedProps",,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,0,8,1,4,0,1,3,0,1,5,2,3,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.checkPropertiesToDisableUber",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,2,3,0,4,7,2,5,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.cleanUpActionDir",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,2,7,0,6,3,0,3,6,2,5,3,3,4,1,1,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.createBaseHadoopConf",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.createBaseHadoopConf",,,,,,,,,,,,,,,,,,,,,,,,,,,10,19,0,19,5,15,0,8,2,0,13,15,5,13,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.createJobClient",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,5,3,3,8,6,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.createLauncherConf",,,,,,,,,,,,,,,,,,,,,,,,,,,16,114,14,87,20,68,14,46,2305,3,50,65,20,60,14,14,15,1,3,,,,,0,,3,0,,,"0.16",14,14,15,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.end",,,,,,,,,,,,,,,,,,,,,,,,,,,8,21,0,21,6,13,0,7,4,1,7,10,4,9,4,4,4,1,2,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.extractHeapSizeMB",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,20,5,15,2,7,7,1,10,15,5,11,5,5,7,1,2,,,,,0,,2,0,,,"0.10",5,5,7,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getActionCredentialsProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,6,11,0,8,3,0,8,12,6,10,3,3,4,1,1,,,,,0,,2,0,,,"0.00",3,3,4,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getActionData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,2,0,10,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getActualExternalId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getCaptureOutput",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,4,4,0,5,1,0,4,5,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getCommonLauncherClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,7,0,5,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getCredProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,1,36,13,27,0,21,6,1,19,28,14,23,6,6,6,1,1,,,,,0,,5,0,,,"0.00",6,6,6,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getDefaultShareLibName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getLauncherClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,6,0,3,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getLauncherMain",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getMaxExternalStatsSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getRunningJob",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getShareLibFilesForActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.getShareLibNames",,,,,,,,,,,,,,,,,,,,,,,,,,,7,47,0,22,4,14,25,8,6,1,8,14,4,13,6,6,9,1,1,,,,,0,,5,0,,,"1.14",6,6,9,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.initActionType",,,,,,,,,,,,,,,,,,,,,,,,,,,10,24,1,21,2,18,2,7,1,0,14,15,1,14,2,2,2,1,0,,,,,0,,0,0,,,"0.10",2,2,2,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectActionCallback",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectCallback",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectJobInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,13,3,8,1,4,3,0,5,8,3,7,3,3,3,1,1,,,,,0,,2,0,,,"0.08",3,3,3,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectLauncherCallback",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectLauncherProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,10,3,6,3,6,3,0,4,8,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.30",3,3,3,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectLauncherTimelineServiceEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,9,2,5,1,4,3,0,2,5,2,4,3,3,5,1,0,,,,,0,,2,0,,,"0.11",3,3,5,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.injectLauncherUseUberMode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,13,1,7,5,5,5,1,2,7,1,6,5,5,5,1,1,,,,,0,,3,0,,,"0.38",5,5,5,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.isCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.kill",,,,,,,,,,,,,,,,,,,,,,,,,,,6,37,0,37,8,25,0,13,12,1,16,22,7,19,6,6,6,1,3,,,,,0,,2,0,,,"0.00",6,6,6,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.loadHadoopDefaultResources",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.needInjectCredentials",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,2,15,3,9,0,3,3,0,7,9,3,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.parseJobXmlAndConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,9,50,0,50,16,37,0,28,20,1,27,33,15,31,8,8,8,1,5,,,,,0,,3,0,,,"0.00",8,8,8,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.populateEnvMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,15,6,11,0,6,3,0,9,13,7,11,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.prepareActionDir",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,0,20,3,13,0,8,4,1,8,12,3,11,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Protected Final Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.readExternalChildIDs",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,7,2,4,2,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.29",2,2,2,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setActionCompletionData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,3,2,0,6,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setCredentialPropertyToActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,0,26,4,16,0,10,6,1,9,17,5,13,6,6,7,1,2,,,,,0,,5,0,,,"0.00",6,6,7,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setCredentialTokens",,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,2,23,6,15,0,8,5,1,8,14,6,12,5,5,7,1,1,,,,,0,,4,0,,,"0.00",5,5,7,1
+Private Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setJavaMain",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,3,4,0,4,2,0,3,5,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setLibFilesArchives",,,,,,,,,,,,,,,,,,,,,,,,,,,7,34,4,27,7,16,3,11,18,1,9,21,9,16,8,8,8,1,1,,,,,0,,3,0,,,"0.11",8,8,8,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setupActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,9,28,3,23,4,16,2,12,4,1,12,14,3,13,4,4,4,4,6,,,,,6,,1,6,,,"0.09",4,4,4,4
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.setupLauncherConf",,,,,,,,,,,,,,,,,,,,,,,,,,,6,32,1,31,10,24,0,15,5,1,19,23,9,22,4,4,4,1,2,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.start",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,3,13,0,9,2,0,11,13,2,12,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.submitLauncher",,,,,,,,,,,,,,,,,,,,,,,,,,,13,130,16,102,23,78,12,54,1156,3,51,69,22,62,16,16,19,1,5,,,,,0,,4,0,,,"0.12",16,16,19,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.updateConfForJavaTmpDir",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,3,21,6,15,0,3,16,1,10,15,6,13,5,5,8,1,1,,,,,0,,1,0,,,"0.00",5,5,8,1
+Method,"org.apache.oozie.action.hadoop.JavaActionExecutor.updateConfForUberMode",,,,,,,,,,,,,,,,,,,,,,,,,,,12,97,4,83,23,61,10,20,3240,4,41,62,25,56,19,19,23,7,3,,,,,3,,6,2,,,"0.12",19,19,23,7
+Public Class,"org.apache.oozie.action.hadoop.JavaMain",2,2,2,1,15,2,11,2,1,9,9,0,,1,1,,,,1,0,2,11,0,0,1,1,,55,8,25,8,16,22,,,,13,19,8,14,,,,,,3,3,3,1,,2,1,,0,0,"0.88",4,4,4,2
+Public Static Method,"org.apache.oozie.action.hadoop.JavaMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.JavaMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,4,19,5,14,1,10,4,1,11,15,5,13,3,3,3,1,1,,,,,0,,1,0,,,"0.05",3,3,3,1
+Class,"org.apache.oozie.action.hadoop.JavaMainException",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,6,3,1,3,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.50",1,1,1,1
+Public Constructor,"org.apache.oozie.action.hadoop.JavaMainException.JavaMainException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"org.apache.oozie.action.hadoop.LauncherMain",3,3,3,1,19,0,15,3,1,31,31,7,,8,2,,,,1,0,9,9,0,0,8,1,,191,13,131,35,89,48,,,,62,93,36,77,,,,,,6,6,7,6,,1,5,,0,0,"0.37",28,28,30,13
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.getFilePathFromEnv",,,,,,,,,,,,,,,,,,,,,,,,,,,8,17,0,12,2,7,5,5,5,1,4,8,2,7,4,4,5,1,0,,,,,0,,2,0,,,"0.42",4,4,5,1
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.getHadoopJobIds",,,,,,,,,,,,,,,,,,,,,,,,,,,6,31,0,31,8,23,0,14,6,1,17,24,9,21,6,6,7,6,3,,,,,3,,5,3,,,"0.00",6,6,7,6
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMain.loadActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,3,12,3,8,8,4,4,1,6,9,3,8,3,3,3,1,0,,,,,0,,1,0,,,"0.67",3,3,3,1
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.logMasking",,,,,,,,,,,,,,,,,,,,,,,,,,,7,29,0,20,5,14,9,8,4,1,11,17,6,14,4,4,4,1,0,,,,,0,,3,0,,,"0.45",4,4,4,1
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,9,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Abstract Method,"org.apache.oozie.action.hadoop.LauncherMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.runConfigClass",,,,,,,,,,,,,,,,,,,,,,,,,,,7,23,0,17,5,13,6,5,5,1,8,11,5,10,5,5,5,1,6,,,,,0,,2,0,,,"0.35",5,5,5,1
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.setYarnTag",,,,,,,,,,,,,,,,,,,,,,,,,,,10,11,0,10,1,6,1,2,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,2,0,,,"0.10",3,3,3,1
+Protected Static Method,"org.apache.oozie.action.hadoop.LauncherMain.writeExternalChildIDs",,,,,,,,,,,,,,,,,,,,,,,,,,,13,22,0,20,5,14,2,6,2,0,9,12,4,11,2,2,2,1,1,,,,,0,,2,0,,,"0.10",2,2,2,1
+Class,"org.apache.oozie.action.hadoop.LauncherMainException",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,2,1,2,2,1,0,0,1,,11,2,9,4,2,0,,,,3,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"org.apache.oozie.action.hadoop.LauncherMainException.LauncherMainException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.oozie.action.hadoop.LauncherMainException.getErrorCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.oozie.action.hadoop.LauncherMainHadoopUtils",4,4,4,1,20,1,19,0,1,18,18,0,,2,1,,,,1,0,3,3,0,2,0,1,,85,7,61,14,47,17,,,,35,48,16,40,,,,,,6,6,6,1,,1,3,,0,0,"0.28",12,12,12,3
+Private Constructor,"org.apache.oozie.action.hadoop.LauncherMainHadoopUtils.LauncherMainHadoopUtils",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.apache.oozie.action.hadoop.LauncherMainHadoopUtils.getChildYarnJobs",,,,,,,,,,,,,,,,,,,,,,,,,,,11,37,3,34,8,28,0,18,10,1,21,27,9,24,6,6,6,1,5,,,,,0,,2,0,,,"0.00",6,6,6,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMainHadoopUtils.killChildYarnJobs",,,,,,,,,,,,,,,,,,,,,,,,,,,12,23,0,23,3,18,0,9,5,1,13,18,4,16,5,5,5,1,3,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Generic Class,"org.apache.oozie.action.hadoop.LauncherMapper",4,4,4,1,25,1,23,1,3,43,43,0,,2,25,,,,17,7,19,19,0,10,2,7,,561,50,475,113,345,38,,,,262,345,113,280,,,,,,21,21,21,1,,1,7,,86,78,"0.08",80,80,81,19
+TypeVariable,"org.apache.oozie.action.hadoop.LauncherMapper.K1",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"org.apache.oozie.action.hadoop.LauncherMapper.K2",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"org.apache.oozie.action.hadoop.LauncherMapper.LauncherMapper",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"org.apache.oozie.action.hadoop.LauncherMapper.LauncherMapper",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"org.apache.oozie.action.hadoop.LauncherMapper.V1",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"org.apache.oozie.action.hadoop.LauncherMapper.V2",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.apache.oozie.action.hadoop.LauncherMapper.close",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,1,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherMapper.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,17,3,12,0,9,2,0,10,12,2,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.destroyHeartBeater",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.executePrepare",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,4,9,1,7,3,0,6,9,4,8,3,3,3,1,1,,,,,0,,2,0,,,"0.08",3,3,3,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.failLauncher",,,,,,,,,,,,,,,,,,,,,,,,,,,14,45,1,43,7,32,1,11,48,2,23,31,7,30,8,8,8,1,1,,,,,0,,3,0,,,"0.02",8,8,8,1
+Protected Method,"org.apache.oozie.action.hadoop.LauncherMapper.getJobConf",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapper.getLocalFileContentStr",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,6,11,0,5,3,0,10,13,6,9,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapper.getMainArguments",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,3,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.handleActionData",,,,,,,,,,,,,,,,,,,,,,,,,,,12,40,3,33,11,23,4,6,81,2,14,23,11,22,9,9,9,1,0,,,,,0,,2,0,,,"0.12",9,9,9,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherMapper.map",,,,,,,,,,,,,,,,,,,,,,,,,,,20,175,11,159,12,127,5,33,3546,4,93,113,12,107,21,21,21,1,13,,,,,0,,7,0,,,"0.03",21,21,21,1
+Protected Method,"org.apache.oozie.action.hadoop.LauncherMapper.printContentsOfCurrentDir",,,,,,,,,,,,,,,,,,,,,,,,,,,3,29,1,25,5,17,3,6,7,1,11,20,7,17,7,7,7,1,2,,,,,0,,4,0,,,"0.12",7,7,7,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.propagateToHadoopConf",,,,,,,,,,,,,,,,,,,,,,,,,,,9,27,3,20,3,14,4,7,16,1,9,14,3,13,5,5,5,1,0,,,,,0,,1,0,,,"0.20",5,5,5,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherMapper.run",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.setRecoveryId",,,,,,,,,,,,,,,,,,,,,,,,,,,6,32,1,31,8,22,0,11,5,1,13,18,8,17,5,5,5,1,3,,,,,0,,3,0,,,"0.00",5,5,5,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.setupHeartBeater",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.setupMainConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,13,21,1,20,5,17,0,6,2,0,14,16,4,15,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.oozie.action.hadoop.LauncherMapper.uploadActionDataToHDFS",,,,,,,,,,,,,,,,,,,,,,,,,,,7,32,1,30,5,20,1,10,9,1,11,18,6,15,6,6,6,1,2,,,,,0,,4,0,,,"0.03",6,6,6,1
+Public Class,"org.apache.oozie.action.hadoop.LauncherMapperHelper",1,1,1,1,13,0,10,3,1,32,32,0,,18,0,,,,0,0,18,18,0,1,0,17,,288,28,186,55,119,75,,,,93,135,52,107,,,,,,4,4,4,1,,1,3,,0,0,"0.40",28,28,29,18
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getActionData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,77,1,65,17,49,12,4,1,0,35,46,16,40,1,1,1,1,0,,,,,0,,0,0,,,"0.18",1,1,1,1
+Anonymous Class,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getActionData.(Anon_1)",10,10,11,1,58,0,58,1,1,16,16,0,,0,0,,,,1,0,1,1,0,0,0,1,,59,0,59,13,46,1,,,,32,42,13,37,,,,,,10,10,11,1,,2,4,,0,0,"0.02",10,10,11,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getActionData.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,13,58,0,58,13,45,1,16,10,1,32,42,13,37,10,10,11,1,5,,,,,0,,4,0,,,"0.02",10,10,11,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getActionDataSequenceFilePath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getRecoveryId",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,2,14,8,10,0,8,2,0,8,10,6,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.getTag",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,4,0,7,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.hasExternalChildJobs",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.hasIdSwap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.hasOutputData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.hasStatsData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.isMainDone",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.isMainSuccessful",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,13,4,8,0,5,4,1,5,9,4,8,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupLauncherInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,16,44,7,37,7,29,0,23,4,1,23,29,6,27,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupLauncherURIHandlerConf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,5,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupMainArguments",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,1,3,0,2,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupMainClass",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,5,1,2,2,2,2,0,1,3,1,2,2,2,3,1,0,,,,,0,,1,0,,,"0.40",2,2,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupMaxExternalStatsSize",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupMaxFSGlob",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupMaxOutputData",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherMapperHelper.setupYarnRestartHandling",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,6,3,3,3,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Class,"org.apache.oozie.action.hadoop.LauncherSecurityManager",1,1,1,1,5,0,4,0,1,3,3,0,,3,2,,,,4,1,7,7,0,0,0,7,,47,7,38,14,14,2,,,,15,25,11,14,,,,,,2,2,2,1,,2,1,,57,47,"0.05",9,9,9,7
+Public Constructor,"org.apache.oozie.action.hadoop.LauncherSecurityManager.LauncherSecurityManager",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.checkExit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.checkPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,6,2,2,1,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.checkPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,6,2,2,1,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.getExitCode",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.getExitInvoked",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.LauncherSecurityManager.reset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.oozie.action.hadoop.MapReduceMain",2,2,2,1,13,1,11,0,1,16,16,0,,3,1,,,,5,0,8,17,0,0,5,3,,138,18,95,22,61,26,,,,50,71,24,55,,,,,,7,7,8,1,,2,2,,0,0,"0.27",19,19,20,8
+Protected Method,"org.apache.oozie.action.hadoop.MapReduceMain.addActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,3,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.action.hadoop.MapReduceMain.createJobClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.MapReduceMain.getStrings",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,0,10,2,6,0,3,3,0,6,9,3,7,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.MapReduceMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.MapReduceMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,4,31,7,21,6,19,4,12,1,0,19,20,6,19,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.MapReduceMain.setStrings",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,4,0,2,3,0,4,7,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.action.hadoop.MapReduceMain.submitJob",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,1,36,5,24,2,11,32,2,14,21,5,17,7,7,8,1,3,,,,,0,,2,0,,,"0.06",7,7,8,1
+Protected Method,"org.apache.oozie.action.hadoop.MapReduceMain.writeJobIdFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,5,2,3,1,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Class,"org.apache.oozie.action.hadoop.PigMain",6,6,7,2,51,5,41,5,1,41,41,0,,2,7,,,,4,0,6,15,0,2,3,1,,362,41,271,54,204,51,,,,159,206,56,181,,,,,,15,15,15,4,,2,6,,0,0,"0.19",40,40,42,12
+Protected Method,"org.apache.oozie.action.hadoop.PigMain.getHadoopJobIds",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,0,21,5,14,9,9,6,1,9,15,6,12,5,5,6,4,3,,,,,3,,3,2,,,"0.43",5,5,6,4
+Private Method,"org.apache.oozie.action.hadoop.PigMain.handleError",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,3,12,0,3,3,0,9,12,3,11,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.PigMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.PigMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,12,163,29,128,24,109,7,33,12288,4,92,111,27,105,15,15,15,1,2,,,,,0,,2,0,,,"0.05",15,15,15,1
+Protected Method,"org.apache.oozie.action.hadoop.PigMain.runPigJob",,,,,,,,,,,,,,,,,,,,,,,,,,,13,83,1,65,9,42,17,15,36,2,25,39,9,34,14,14,15,4,9,,,,,5,,6,5,,,"0.26",14,14,15,4
+Private Static Method,"org.apache.oozie.action.hadoop.PigMain.writeExternalData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,2,7,0,2,2,0,4,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.apache.oozie.action.hadoop.SparkMain",3,3,3,1,22,3,19,0,1,9,9,0,,1,6,,,,2,0,3,12,0,1,1,1,,96,14,65,18,49,17,,,,42,56,20,43,,,,,,8,8,8,1,,2,2,,0,0,"0.26",10,10,10,3
+Public Static Method,"org.apache.oozie.action.hadoop.SparkMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.SparkMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,16,56,10,46,9,36,0,13,96,2,29,40,11,36,8,8,8,1,0,,,,,0,,2,0,,,"0.00",8,8,8,1
+Private Method,"org.apache.oozie.action.hadoop.SparkMain.runSpark",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,3,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.oozie.action.hadoop.SqoopMain",2,2,2,1,24,4,19,1,1,19,19,0,,4,3,,,,2,0,6,15,0,1,2,3,,182,33,125,27,93,25,,,,76,98,27,86,,,,,,6,6,6,1,,2,3,,0,0,"0.20",17,17,17,6
+Private Static Method,"org.apache.oozie.action.hadoop.SqoopMain.initActionConf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,5,24,4,19,2,10,8,1,15,19,4,18,4,4,4,1,1,,,,,0,,1,0,,,"0.08",4,4,4,1
+Public Static Method,"org.apache.oozie.action.hadoop.SqoopMain.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.hadoop.SqoopMain.run",,,,,,,,,,,,,,,,,,,,,,,,,,,6,44,8,35,4,27,1,10,16,1,21,28,5,26,6,6,6,1,1,,,,,0,,3,0,,,"0.03",6,6,6,1
+Protected Method,"org.apache.oozie.action.hadoop.SqoopMain.runSqoopJob",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Static Method,"org.apache.oozie.action.hadoop.SqoopMain.setUpSqoopLog4J",,,,,,,,,,,,,,,,,,,,,,,,,,,5,45,9,33,8,27,3,13,4,1,23,27,8,26,3,3,3,1,0,,,,,0,,1,0,,,"0.09",3,3,3,1
+Public Static Method,"org.apache.oozie.action.hadoop.SqoopMain.setUpSqoopSite",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,2,20,3,15,1,8,2,0,12,16,4,14,2,2,2,1,0,,,,,0,,1,0,,,"0.05",2,2,2,1
+Package,"org.apache.oozie.action.oozie",2,2,2,1,13,0,12,0,,,,,1,0,8,,1,,14,0,14,,0,0,8,6,,276,28,225,97,135,23,,,,126,159,89,105,,,,,,10,10,11,1,,,3,,,,"0.10",36,34,37,14
+Public Class,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor",2,2,2,1,13,0,12,0,1,32,32,0,,0,8,,,,14,0,14,14,0,0,8,6,,244,24,197,69,135,23,,,,98,131,61,105,,,,,,10,10,11,1,,2,3,,92,92,"0.12",36,34,37,14
+Protected Constructor,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.SubWorkflowActionExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.check",,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,0,22,6,17,0,9,3,0,10,13,6,12,5,3,5,1,2,,,,,0,,2,0,,,"0.00",5,3,5,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.checkIfRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.end",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,4,7,0,5,2,0,4,6,3,5,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.getWorkflowClient",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,14,6,9,1,7,2,0,8,10,6,8,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.initActionType",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.injectCallback",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,5,0,6,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.injectInline",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,4,8,0,5,3,0,5,8,3,7,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.injectParent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.injectRecovery",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.isCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.kill",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,4,8,0,7,2,0,6,8,4,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.start",,,,,,,,,,,,,,,,,,,,,,,,,,,10,70,5,60,16,48,5,34,69,2,35,44,16,41,10,10,11,1,3,,,,,0,,3,0,,,"0.08",10,10,11,1
+Protected Method,"org.apache.oozie.action.oozie.SubWorkflowActionExecutor.verifyAndInjectSubworkflowDepth",,,,,,,,,,,,,,,,,,,,,,,,,,,7,9,0,9,3,6,0,2,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"org.apache.oozie.command",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie.command.wf",4,4,5,1,27,1,25,1,,,,,1,0,6,,1,,11,8,11,,0,2,5,4,,401,33,337,97,218,33,,,,186,231,83,159,,,,,,29,26,31,1,,,5,,,,"0.10",50,47,56,11
+Public Class,"org.apache.oozie.command.wf.ActionStartXCommand",4,4,5,1,27,1,25,1,1,48,48,0,,0,6,,,,11,8,11,11,0,2,5,4,,355,28,296,56,218,33,,,,145,190,42,159,,,,,,29,26,31,1,,2,5,,67,67,"0.11",50,47,56,11
+Public Constructor,"org.apache.oozie.command.wf.ActionStartXCommand.ActionStartXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.oozie.command.wf.ActionStartXCommand.ActionStartXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.wf.ActionStartXCommand.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,39,205,13,182,19,148,11,62,7540,4,96,119,15,111,29,26,31,1,25,,,,,0,,5,0,,,"0.06",29,26,31,1
+Public Method,"org.apache.oozie.command.wf.ActionStartXCommand.getEntityKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.command.wf.ActionStartXCommand.getKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.command.wf.ActionStartXCommand.handleError",,,,,,,,,,,,,,,,,,,,,,,,,,,13,20,1,19,6,14,1,7,4,1,10,13,3,12,3,3,3,1,0,,,,,0,,1,0,,,"0.05",3,3,3,1
+Protected Method,"org.apache.oozie.command.wf.ActionStartXCommand.isLockRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.wf.ActionStartXCommand.loadState",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,0,20,2,12,0,6,4,1,7,11,1,10,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"org.apache.oozie.command.wf.ActionStartXCommand.prepareForRetry",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,5,1,2,1,3,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.20",2,2,2,1
+Protected Method,"org.apache.oozie.command.wf.ActionStartXCommand.setLogInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.wf.ActionStartXCommand.verifyPrecondition",,,,,,,,,,,,,,,,,,,,,,,,,,,16,27,1,26,2,17,0,8,24,1,6,12,1,11,6,6,10,1,1,,,,,0,,2,0,,,"0.00",6,6,10,1

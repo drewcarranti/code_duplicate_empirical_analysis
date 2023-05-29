@@ -1,0 +1,410 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DecodingHybiFrame.java",1,1,1,1,9,0,9,0,,,,,5,1,0,9,,9,8,4,9,,0,2,2,5,,94,12,81,25,48,1,,,,40,54,30,30,,,,,,4,2,4,1,,,1,,,,"0.01",14,12,15,9
+File,"EncodingHybiFrame.java",3,3,3,1,19,2,17,0,,,,,1,0,0,3,,3,3,5,3,,0,1,0,2,,77,14,63,19,40,0,,,,45,54,19,36,,,,,,8,8,9,1,,,1,,,,"0.00",10,10,11,3
+File,"EventSourceConnection.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,5,5,0,5,,5,0,0,0,,18,7,11,10,0,1,,,,8,9,9,0,,,,,,0,0,0,0,,,0,,,,"0.09",0,0,0,0
+File,"EventSourceConnectionHandler.java",1,1,1,1,10,0,10,0,,,,,3,0,0,5,,5,5,5,5,,0,0,0,5,,62,6,56,27,22,0,,,,27,35,22,14,,,,,,2,2,2,1,,,1,,,,"0.00",7,7,7,5
+File,"EventSourceConnectionWrapper.java",1,1,1,1,4,0,4,0,,,,,1,0,0,13,,13,13,1,13,,0,0,0,13,,85,18,67,32,21,0,,,,27,42,23,19,,,,,,2,2,2,1,,,1,,,,"0.00",14,14,14,13
+File,"EventSourceHandler.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,7,2,5,4,0,0,,,,3,4,4,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"EventSourceMessage.java",1,1,1,1,4,0,4,0,,,,,1,0,7,11,,11,11,1,11,,0,2,0,9,,70,14,56,23,29,0,,,,30,43,23,23,,,,,,2,2,3,1,,,1,,,,"0.00",12,12,13,11
+File,"EventSourceMessageTest.java",1,1,1,1,4,0,4,0,,,,,1,0,0,13,,13,13,0,13,,0,0,0,13,,74,15,59,30,15,0,,,,16,30,17,13,,,,,,1,1,1,1,,,0,,,,"0.00",13,13,13,13
+File,"FlashPolicyFileDecoder.java",2,2,2,2,16,3,11,1,,,,,1,0,1,2,,2,2,1,2,,0,0,1,1,,72,14,36,18,16,22,,,,19,25,15,13,,,,,,4,4,4,3,,,2,,,,"0.61",5,5,5,4
+File,"FlashPolicyFileHandler.java",1,1,1,1,7,0,7,0,,,,,1,0,0,4,,4,4,1,4,,0,1,0,3,,64,10,43,24,17,11,,,,22,27,20,10,,,,,,1,1,1,1,,,0,,,,"0.26",4,4,4,4
+File,"InboundCookieParser.java",5,5,5,1,17,0,17,0,,,,,1,1,0,1,,1,0,0,1,,0,0,0,1,,29,3,23,9,11,3,,,,11,19,11,11,,,,,,5,5,5,1,,,3,,,,"0.13",5,5,5,1
+File,"InboundCookieParserTest.java",1,1,1,1,8,1,7,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,30,7,23,14,9,0,,,,15,18,12,9,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"LoggingEventSourceConnection.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,1,2,,1,0,0,1,,21,5,16,9,4,0,,,,9,12,8,4,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"Main.java",1,1,1,1,7,0,7,0,,,,,4,1,0,8,,8,7,2,8,,0,1,0,7,,77,13,64,27,31,0,,,,32,45,30,19,,,,,,2,2,2,1,,,1,,,,"0.00",10,10,10,8
+File,"NettyEventSourceConnection.java",1,1,1,1,4,0,4,0,,,,,1,0,0,10,,10,10,3,10,,0,0,0,10,,72,14,58,32,15,0,,,,27,38,23,15,,,,,,1,1,1,1,,,0,,,,"0.00",10,10,10,10
+File,"NettyHttpChannelHandler.java",1,1,1,1,11,0,11,0,,,,,3,0,0,6,,6,6,6,6,,0,1,0,5,,89,11,78,41,33,0,,,,40,50,33,21,,,,,,2,2,2,1,,,1,,,,"0.00",9,9,9,6
+File,"NettyHttpControl.java",1,1,1,1,9,0,9,0,,,,,1,0,0,15,,15,15,13,15,,0,5,0,10,,194,27,167,74,81,0,,,,94,119,57,73,,,,,,3,3,3,3,,,2,,,,"0.00",23,23,23,17
+File,"NettyHttpRequest.java",1,1,1,1,4,0,4,0,,,,,1,0,0,29,,29,29,7,29,,0,2,0,27,,186,34,152,77,43,1,,,,58,93,52,43,,,,,,3,3,3,3,,,2,,,,"0.01",34,34,34,31
+File,"NettyHttpResponse.java",1,1,1,1,6,0,6,0,,,,,1,0,1,20,,20,20,7,20,,0,4,0,16,,179,29,149,71,58,1,,,,77,101,52,54,,,,,,3,3,3,1,,,2,,,,"0.01",23,23,23,20
+File,"NettyWebServer.java",1,1,1,1,7,0,6,0,,,,,3,1,1,28,,28,27,17,28,,0,2,3,23,,288,43,226,100,104,20,,,,132,170,90,88,,,,,,5,5,5,1,,,1,,,,"0.09",38,38,39,28
+File,"NettyWebSocketConnection.java",1,1,1,1,4,0,4,0,,,,,1,0,0,17,,17,17,6,17,,2,1,0,14,,114,21,93,47,27,0,,,,42,61,35,26,,,,,,2,2,2,1,,,1,,,,"0.00",18,18,18,17
+File,"StaleConnectionTrackingHandler.java",1,1,1,1,7,0,6,0,,,,,4,0,0,10,,10,10,3,10,,0,2,0,8,,80,10,63,25,28,7,,,,29,42,26,19,,,,,,3,3,3,1,,,2,,,,"0.11",12,12,12,10
+File,"StubConnection.java",1,1,1,1,3,0,3,0,,,,,1,0,0,18,,18,18,6,18,,0,0,0,18,,113,22,87,43,30,4,,,,39,58,33,28,,,,,,1,1,1,1,,,0,,,,"0.05",18,18,18,18
+File,"StubConnectionTest.java",1,1,1,1,8,1,7,0,,,,,2,0,0,11,,11,11,1,11,,0,0,0,11,,127,31,96,48,52,0,,,,61,74,39,51,,,,,,1,1,1,1,,,0,,,,"0.00",11,11,11,11
+File,"StubHttpRequest.java",1,1,1,1,4,0,4,0,,,,,1,0,0,30,,30,30,7,30,,0,0,0,30,,197,34,159,71,57,4,,,,59,102,53,53,,,,,,3,3,3,3,,,2,,,,"0.03",39,39,39,36
+File,"WebSocketClient.java",1,1,1,1,9,0,7,0,,,,,4,1,3,17,,17,16,10,17,,2,7,0,8,,227,34,179,79,89,14,,,,117,144,80,77,,,,,,6,6,6,1,,,2,,,,"0.08",26,26,26,17
+File,"WebSocketConnection.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,8,8,0,8,,8,0,0,0,,40,9,13,12,0,19,,,,10,11,11,0,,,,,,0,0,0,0,,,0,,,,"1.46",0,0,0,0
+File,"WebSocketConnectionHandler.java",1,1,1,1,11,0,11,0,,,,,4,0,0,7,,7,7,5,7,,0,0,0,7,,87,7,79,35,37,1,,,,36,48,29,22,,,,,,2,2,2,1,,,1,,,,"0.01",11,11,11,7
+File,"WebSocketVersion.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,4,4,0,4,,4,0,0,0,,10,2,8,7,0,0,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"WebbitException.java",1,1,1,1,3,0,3,0,,,,,1,2,1,6,,6,4,0,6,,0,0,0,6,,41,8,25,13,8,8,,,,11,18,13,7,,,,,,3,3,3,1,,,0,,,,"0.32",8,8,8,6
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver",1,1,1,1,5,0,5,0,,,,,6,3,1,,6,,21,0,24,,15,0,0,9,,165,36,100,62,28,31,,,,58,79,60,27,,,,,,5,5,5,1,,,3,,,,"0.31",15,15,15,9
+Public Interface,"org.webbitserver.EventSourceConnection",0,0,0,0,0,0,0,0,2,4,4,3,,0,0,,,,5,0,5,5,5,0,0,0,,12,4,8,7,0,1,,,,5,6,6,0,,,,,,0,0,0,0,,2,0,,0,0,"0.12",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,0,2,2,0,1,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.50",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceConnection.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Interface,"org.webbitserver.EventSourceHandler",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,2,0,2,2,2,0,0,0,,5,1,4,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceHandler.onClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.EventSourceHandler.onOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"org.webbitserver.InboundCookieParser",5,5,5,1,17,0,17,0,1,4,4,0,,1,0,,,,0,0,1,1,0,0,0,1,,23,1,19,5,11,3,,,,7,15,7,11,,,,,,5,5,5,1,,1,3,,0,0,"0.16",5,5,5,1
+Public Static Method,"org.webbitserver.InboundCookieParser.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,17,4,11,0,7,6,1,7,14,6,11,5,5,5,1,0,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Class,"org.webbitserver.InboundCookieParserTest",1,1,1,1,8,1,7,0,1,7,7,0,,0,0,,,,2,0,2,2,0,0,0,2,,20,3,17,8,9,0,,,,9,12,6,9,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.webbitserver.InboundCookieParserTest.testParse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,10,4,7,0,3,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.InboundCookieParserTest.testParseEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.webbitserver.WebSocketConnection",0,0,0,0,0,0,0,0,2,2,2,2,,0,0,,,,8,0,8,8,8,0,0,0,,36,7,11,10,0,19,,,,8,9,9,0,,,,,,0,0,0,0,,2,0,,0,0,"1.73",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,1,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.50",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.ping",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"org.webbitserver.WebSocketConnection.version",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"org.webbitserver.WebbitException",1,1,1,1,3,0,3,0,1,4,4,0,,2,1,,,,4,0,6,6,0,0,0,6,,36,6,22,10,8,8,,,,8,15,10,7,,,,,,3,3,3,1,,2,0,,0,0,"0.36",8,8,8,6
+Public Constructor,"org.webbitserver.WebbitException.WebbitException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.WebbitException.WebbitException",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.WebbitException.WebbitException",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.WebbitException.WebbitException",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.webbitserver.WebbitException.fromException",,,,,,,,,,,,,,,,,,,,,,,,,,,10,5,0,5,3,3,0,5,1,0,3,4,3,3,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Public Static Method,"org.webbitserver.WebbitException.fromExceptionEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.webbitserver.handler",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver.handler.logging",1,1,1,1,4,0,4,0,,,,,1,0,0,,1,,2,1,2,,1,0,0,1,,21,5,16,9,4,0,,,,9,12,8,4,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+Class,"org.webbitserver.handler.logging.LoggingEventSourceConnection",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,2,1,2,15,1,0,0,1,,15,3,12,5,4,0,,,,5,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"org.webbitserver.handler.logging.LoggingEventSourceConnection.LoggingEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingEventSourceConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.webbitserver.netty",1,1,1,1,7,0,7,0,,,,,35,3,6,,16,,183,93,186,,8,28,6,144,,1895,288,1531,701,658,78,,,,811,1068,590,541,,,,,,8,8,9,3,,,2,,,,"0.05",244,242,247,188
+Public Class,"org.webbitserver.netty.DecodingHybiFrame",2,1,2,1,13,0,13,0,1,9,9,0,,1,0,,,,4,4,5,5,0,2,0,3,,83,9,73,17,48,1,,,,32,46,22,30,,,,,,4,2,4,1,,1,1,,50,30,"0.01",10,8,11,5
+Public Constructor,"org.webbitserver.netty.DecodingHybiFrame.DecodingHybiFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.DecodingHybiFrame.append",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,0,7,1,4,0,5,2,0,3,5,1,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,10,38,1,37,5,28,0,4,4,1,14,19,8,15,4,2,4,1,6,,,,,0,,0,0,,,"0.00",4,2,4,1
+Anonymous Class,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_1).go",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_2)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_2).go",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_3)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.netty.DecodingHybiFrame.dispatchMessage.(Anon_3).go",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.webbitserver.netty.DecodingHybiFrame.exceptionHandlerWithConnectionForContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,5,0,1,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.DecodingHybiFrame.exceptionHandlerWithConnectionForContext.(Anon_4)",1,1,1,1,4,0,4,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.DecodingHybiFrame.exceptionHandlerWithConnectionForContext.(Anon_4).uncaughtException",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.DecodingHybiFrame.messageBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,4,7,0,3,2,0,6,9,5,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.webbitserver.netty.EncodingHybiFrame",3,3,3,1,19,2,17,0,1,3,3,0,,0,0,,,,3,5,3,3,0,1,0,2,,69,11,58,14,40,0,,,,40,49,14,36,,,,,,8,8,9,1,,1,1,,33,33,"0.00",10,10,11,3
+Public Constructor,"org.webbitserver.netty.EncodingHybiFrame.EncodingHybiFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,0,7,1,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.EncodingHybiFrame.createBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.EncodingHybiFrame.encode",,,,,,,,,,,,,,,,,,,,,,,,,,,7,48,7,41,6,34,0,8,24,1,29,35,6,30,8,8,9,1,2,,,,,0,,1,0,,,"0.00",8,8,9,1
+Public Class,"org.webbitserver.netty.EventSourceConnectionHandler",1,1,1,1,13,0,13,0,1,12,12,0,,0,0,,,,3,5,3,3,0,0,0,3,,49,3,46,17,22,0,,,,17,25,12,14,,,,,,2,2,2,1,,2,0,,53,53,"0.00",4,4,4,3
+Public Constructor,"org.webbitserver.netty.EventSourceConnectionHandler.EventSourceConnectionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,12,6,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.EventSourceConnectionHandler.channelDisconnected",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,2,8,0,1,1,0,3,6,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.EventSourceConnectionHandler.channelDisconnected.(Anon_1)",2,2,2,1,8,0,8,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.EventSourceConnectionHandler.channelDisconnected.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,0,6,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.EventSourceConnectionHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,9,0,5,2,0,4,7,3,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.EventSourceConnectionHandler.exceptionCaught.(Anon_2)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.EventSourceConnectionHandler.exceptionCaught.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.FlashPolicyFileDecoder",2,2,2,2,16,3,11,1,1,9,9,0,,0,1,,,,2,1,2,2,0,0,1,1,,62,12,28,10,16,22,,,,11,17,7,13,,,,,,4,4,4,3,,2,2,,0,0,"0.79",5,5,5,4
+Public Constructor,"org.webbitserver.netty.FlashPolicyFileDecoder.FlashPolicyFileDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.netty.FlashPolicyFileDecoder.decode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,7,19,5,12,2,9,5,1,7,11,3,10,4,4,4,3,3,,,,,3,,2,3,,,"0.11",4,4,4,3
+Public Class,"org.webbitserver.netty.FlashPolicyFileHandler",1,1,1,1,7,0,7,0,1,11,11,0,,0,0,,,,4,1,4,4,0,1,0,3,,50,7,32,13,17,11,,,,11,16,9,10,,,,,,1,1,1,1,,2,0,,50,25,"0.34",4,4,4,4
+Public Constructor,"org.webbitserver.netty.FlashPolicyFileHandler.FlashPolicyFileHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.FlashPolicyFileHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.FlashPolicyFileHandler.getPolicyFileContents",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,1,8,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.FlashPolicyFileHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,6,5,0,6,1,0,5,6,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.NettyEventSourceConnection",1,1,1,1,4,0,4,0,2,10,10,0,,0,0,,,,10,3,10,10,0,0,0,10,,59,10,49,23,15,0,,,,18,29,14,15,,,,,,1,1,1,1,,1,0,,70,60,"0.00",10,10,10,10
+Public Constructor,"org.webbitserver.netty.NettyEventSourceConnection.NettyEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.dataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyEventSourceConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,5,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.NettyHttpChannelHandler",1,1,1,1,13,0,13,0,1,16,16,0,,0,0,,,,4,6,4,4,0,1,0,3,,69,7,62,25,33,0,,,,24,34,17,21,,,,,,2,2,2,1,,2,1,,45,20,"0.00",6,6,6,4
+Public Constructor,"org.webbitserver.netty.NettyHttpChannelHandler.NettyHttpChannelHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,0,13,6,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpChannelHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,15,4,9,0,5,2,0,4,7,3,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.NettyHttpChannelHandler.exceptionCaught.(Anon_2)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpChannelHandler.exceptionCaught.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpChannelHandler.handleHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,12,19,1,18,6,14,0,6,1,0,6,9,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.NettyHttpChannelHandler.handleHttpRequest.(Anon_1)",2,2,2,1,8,0,8,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpChannelHandler.handleHttpRequest.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,0,6,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpChannelHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.webbitserver.netty.NettyHttpControl",1,1,1,1,9,0,9,0,2,29,29,0,,0,0,,,,15,13,15,15,0,5,0,10,,176,24,152,59,81,0,,,,79,104,42,73,,,,,,3,3,3,3,,1,2,,79,72,"0.00",23,23,23,17
+Public Constructor,"org.webbitserver.netty.NettyHttpControl.NettyHttpControl",,,,,,,,,,,,,,,,,,,,,,,,,,,10,22,1,21,9,11,0,12,1,0,11,12,1,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.eventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpControl.getReadyToReceiveWebSocketMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,5,0,3,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpControl.getReadyToSendEventSourceMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,5,0,5,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpControl.getReadyToSendWebSocketMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.nextHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.nextHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.nextHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,0,16,3,11,0,9,3,0,7,10,2,9,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"org.webbitserver.netty.NettyHttpControl.performEventSourceHandshake",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,1,8,0,6,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpControl.performWebSocketHandshake",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,2,19,6,14,0,9,3,0,9,13,6,10,3,3,3,3,2,,,,,2,,2,2,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.netty.NettyHttpControl.upgradeToEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,1,12,4,8,0,7,2,0,6,8,3,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.upgradeToWebSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,1,12,4,8,0,7,2,0,6,8,3,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpControl.webSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.webbitserver.netty.NettyHttpRequest",1,1,1,1,4,0,4,0,2,14,14,0,,0,0,,,,29,7,29,29,0,2,0,27,,170,31,139,64,43,1,,,,45,80,39,43,,,,,,3,3,3,3,,1,2,,88,79,"0.01",34,34,34,31
+Public Constructor,"org.webbitserver.netty.NettyHttpRequest.NettyHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.allHeaders",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.body",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.bodyAsBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.cookie",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,4,0,4,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.netty.NettyHttpRequest.cookieValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,0,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.cookies",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.data",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.data",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.dataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.hasHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.header",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.headers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.id",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.method",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpRequest.parsedPostParams",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.webbitserver.netty.NettyHttpRequest.parsedQueryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.postParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.postParamKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.postParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.queryParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.queryParamKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.queryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.remoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.uri",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpRequest.uri",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.NettyHttpResponse",1,1,1,1,6,0,6,0,2,21,21,0,,0,1,,,,20,7,20,20,0,4,0,16,,156,25,130,52,58,1,,,,58,82,33,54,,,,,,3,3,3,1,,1,2,,82,75,"0.01",23,23,23,20
+Public Constructor,"org.webbitserver.netty.NettyHttpResponse.NettyHttpResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,0,14,5,7,0,9,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.charset",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.charset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.containsHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.content",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.content",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.content",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpResponse.content",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.cookie",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.end",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.error",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,2,11,3,8,0,10,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpResponse.flushResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,13,2,9,1,9,3,0,5,8,2,7,3,3,3,1,1,,,,,0,,2,0,,,"0.08",3,3,3,1
+Private Method,"org.webbitserver.netty.NettyHttpResponse.getStackTrace",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,5,0,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.header",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,2,5,0,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.header",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.header",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.status",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.status",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyHttpResponse.write",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyHttpResponse.write",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.NettyWebServer",1,1,1,1,7,0,6,0,2,32,32,0,,1,1,,,,25,17,26,26,0,2,3,21,,248,39,190,64,104,20,,,,96,134,54,88,,,,,,5,5,5,1,,1,1,,93,89,"0.11",36,36,37,26
+Public Constructor,"org.webbitserver.netty.NettyWebServer.NettyWebServer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"org.webbitserver.netty.NettyWebServer.NettyWebServer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,1,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Constructor,"org.webbitserver.netty.NettyWebServer.NettyWebServer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.netty.NettyWebServer.NettyWebServer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,3,8,1,6,4,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.add",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.add",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.add",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.add",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.connectionExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.getExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.getPort",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,3,0,4,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.webbitserver.netty.NettyWebServer.getUri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.isRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"org.webbitserver.netty.NettyWebServer.join",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"org.webbitserver.netty.NettyWebServer.localUri",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,1,5,1,4,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.12",3,3,3,1
+Public Method,"org.webbitserver.netty.NettyWebServer.maxChunkSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.maxContentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.maxHeaderSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.maxInitialLineLength",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"org.webbitserver.netty.NettyWebServer.nextId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.netty.NettyWebServer.setupDefaultHandlers",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.staleConnectionTimeout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.start",,,,,,,,,,,,,,,,,,,,,,,,,,,6,49,4,43,8,37,2,14,2,0,29,33,9,30,2,2,2,1,0,,,,,0,,0,0,,,"0.05",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.NettyWebServer.start.(Anon_1)",1,1,1,1,17,0,17,0,1,11,11,0,,0,0,,,,1,0,1,1,0,0,0,1,,18,0,18,3,17,0,,,,13,14,4,13,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.start.(Anon_1).getPipeline",,,,,,,,,,,,,,,,,,,,,,,,,,,10,17,0,17,3,16,0,8,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.NettyWebServer.start.(Anon_2)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.start.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.stop",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,2,18,2,11,0,7,16,1,7,13,2,11,5,5,5,1,0,,,,,0,,1,0,,,"0.00",5,5,5,1
+Protected Method,"org.webbitserver.netty.NettyWebServer.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebServer.uncaughtExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.NettyWebSocketConnection",1,1,1,1,4,0,4,0,2,14,14,0,,0,0,,,,17,6,17,17,2,1,0,14,,100,18,82,36,27,0,,,,31,50,24,26,,,,,,2,2,2,1,,1,1,,83,75,"0.00",18,18,18,17
+Public Constructor,"org.webbitserver.netty.NettyWebSocketConnection.NettyWebSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.dataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.webbitserver.netty.NettyWebSocketConnection.getChannel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.ping",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,2,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.setHybiWebSocketVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.webbitserver.netty.NettyWebSocketConnection.setVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.NettyWebSocketConnection.version",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.NettyWebSocketConnection.write",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.StaleConnectionTrackingHandler",1,1,1,1,7,0,6,0,1,10,10,0,,0,0,,,,7,3,7,7,0,2,0,5,,67,7,53,15,28,7,,,,19,32,16,19,,,,,,1,1,1,1,,2,0,,71,61,"0.13",7,7,7,7
+Public Constructor,"org.webbitserver.netty.StaleConnectionTrackingHandler.StaleConnectionTrackingHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.channelOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.closeStaleConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,15,3,10,0,1,1,0,5,9,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.StaleConnectionTrackingHandler.closeStaleConnections.(Anon_2)",3,3,3,1,11,0,11,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,12,0,12,2,9,0,,,,4,7,3,6,,,,,,3,3,3,1,,2,2,,0,0,"0.00",3,3,3,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.closeStaleConnections.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,2,8,0,9,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.isStale",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.stamp",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,5,0,1,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.StaleConnectionTrackingHandler.stamp.(Anon_1)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.stamp.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.stopTracking",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,8,1,5,4,1,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.StaleConnectionTrackingHandler.stopTracking.(Anon_3)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.StaleConnectionTrackingHandler.stopTracking.(Anon_3).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.WebSocketClient",1,1,1,1,10,0,8,1,1,23,23,0,,1,3,,,,9,9,10,10,2,4,0,4,,191,30,147,47,89,14,,,,85,112,48,77,,,,,,6,6,6,1,,1,2,,86,76,"0.10",17,17,17,10
+Private Class,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler",1,1,1,1,9,0,8,0,1,15,15,0,,0,0,,,,5,1,5,5,0,3,0,2,,54,8,46,15,29,0,,,,24,33,15,25,,,,,,3,3,3,1,,2,2,,40,40,"0.00",7,7,7,5
+Public Constructor,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.HandshakeChannelHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket",,,,,,,,,,,,,,,,,,,,,,,,,,,11,20,3,17,5,14,0,11,1,0,11,13,6,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket.(Anon_2)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.adjustPipelineToWebSocket.(Anon_2).go",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,4,4,0,5,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.HandshakeChannelHandler.verifySecWebSocketAccept",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,2,9,0,7,3,0,6,9,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Constructor,"org.webbitserver.netty.WebSocketClient.WebSocketClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.netty.WebSocketClient.WebSocketClient",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,3,19,4,14,0,14,6,1,11,15,4,14,6,6,6,1,0,,,,,0,,2,0,,,"0.00",6,6,6,1
+Private Method,"org.webbitserver.netty.WebSocketClient.base64Nonce",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,3,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketClient.close",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.webbitserver.netty.WebSocketClient.connectionExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.createNettyHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,16,11,1,10,2,8,0,4,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.webbitserver.netty.WebSocketClient.nextId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.WebSocketClient.randomByte",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.start",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,3,23,4,19,0,12,2,0,14,17,5,14,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketClient.start.(Anon_1)",1,1,1,1,8,0,8,0,1,7,7,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,1,8,0,,,,6,7,2,6,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketClient.start.(Anon_1).getPipeline",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,1,7,0,4,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.webbitserver.netty.WebSocketClient.uncaughtExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Class,"org.webbitserver.netty.WebSocketConnectionHandler",1,1,1,1,15,0,15,0,1,13,13,0,,0,0,,,,4,5,4,4,0,0,0,4,,73,4,68,24,37,1,,,,25,37,18,22,,,,,,2,2,2,1,,2,0,,44,44,"0.01",6,6,6,4
+Public Constructor,"org.webbitserver.netty.WebSocketConnectionHandler.WebSocketConnectionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,0,13,7,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.channelUnbound",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,14,3,9,0,2,1,0,4,7,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.netty.WebSocketConnectionHandler.channelUnbound.(Anon_2)",2,2,2,1,8,0,8,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.channelUnbound.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,0,6,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,9,0,5,2,0,4,7,3,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketConnectionHandler.exceptionCaught.(Anon_3)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.exceptionCaught.(Anon_3).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,20,5,14,1,3,2,0,7,11,5,7,2,2,2,1,1,,,,,0,,0,0,,,"0.05",2,2,2,1
+Anonymous Class,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived.(Anon_1)",2,2,2,1,8,0,8,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.webbitserver.netty.WebSocketConnectionHandler.messageReceived.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,0,6,0,6,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Interface,"org.webbitserver.netty.WebSocketVersion",0,0,0,0,0,0,0,0,0,2,2,0,,0,0,,,,4,0,4,4,4,0,0,0,,6,0,6,5,0,0,,,,4,5,5,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.netty.WebSocketVersion.createDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.netty.WebSocketVersion.createEncoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.netty.WebSocketVersion.matches",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.netty.WebSocketVersion.prepareHandshakeResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Package,"org.webbitserver.netty.contrib",1,1,1,1,4,0,4,0,,,,,2,0,7,,2,,24,1,24,,0,2,0,22,,144,29,115,53,44,0,,,,46,73,40,36,,,,,,2,2,3,1,,,1,,,,"0.00",25,25,26,24
+Public Class,"org.webbitserver.netty.contrib.EventSourceMessage",1,1,1,1,4,0,4,0,1,4,4,0,,0,7,,,,11,1,11,11,0,2,0,9,,66,12,54,21,29,0,,,,28,41,21,23,,,,,,2,2,3,1,,1,1,,72,18,"0.00",12,12,13,11
+Public Constructor,"org.webbitserver.netty.contrib.EventSourceMessage.EventSourceMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.netty.contrib.EventSourceMessage.EventSourceMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,12,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.contrib.EventSourceMessage.appendFieldValue",,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,0,8,1,5,0,2,2,0,4,6,1,5,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.build",,,,,,,,,,,,,,,,,,,,,,,,,,,17,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.comment",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.data",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.event",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.id",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.id",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.webbitserver.netty.contrib.EventSourceMessage.prependOnAllLines",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessage.retry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.netty.contrib.EventSourceMessageTest",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,13,0,13,13,0,0,0,13,,68,12,56,27,15,0,,,,13,27,14,13,,,,,,1,1,1,1,,1,0,,0,0,"0.00",13,13,13,13
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.buildsMessageWithData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.buildsMessageWithEmptyData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.buildsMessageWithNullId",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.emptyBuild",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesComment",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesId",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesIdAsLong",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesIdAsString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesRetry",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesSeveralLines",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.encodesSingleLine",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.netty.contrib.EventSourceMessageTest.skipsColonIfValueEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.webbitserver.stub",1,1,1,1,5,0,4,0,,,,,4,0,0,,3,,59,14,59,,0,0,0,59,,437,87,342,162,139,8,,,,159,234,125,132,,,,,,3,3,3,3,,,2,,,,"0.02",68,68,68,65
+Public Class,"org.webbitserver.stub.StubConnection",1,1,1,1,3,0,3,0,3,8,8,0,,0,0,,,,18,6,18,18,0,0,0,18,,102,19,79,35,30,4,,,,31,50,25,28,,,,,,1,1,1,1,,2,0,,87,86,"0.05",18,18,18,18
+Public Constructor,"org.webbitserver.stub.StubConnection.StubConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.stub.StubConnection.StubConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.closed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.data",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.ping",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.sentBinaryMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.sentMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.sentPings",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.version",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnection.version",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.stub.StubConnectionTest",1,1,1,1,10,1,8,0,1,12,12,0,,0,0,,,,9,0,9,9,0,0,0,9,,114,27,87,39,52,0,,,,52,65,30,51,,,,,,1,1,1,1,,1,0,,0,0,"0.00",9,9,9,9
+Class,"org.webbitserver.stub.StubConnectionTest.TestRunner",1,1,1,1,3,0,3,0,2,0,0,0,,0,0,,,,2,1,2,2,0,0,0,2,,11,2,9,4,3,0,,,,3,6,4,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.webbitserver.stub.StubConnectionTest.TestRunner.getRun",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.TestRunner.run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,3,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,3,10,4,7,0,5,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testHandlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,4,3,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testNullHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testPing",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,3,10,4,7,0,5,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testRunnable",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,1,8,4,5,0,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testSendEventSourceMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,3,12,5,9,0,7,1,0,9,10,4,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testSendMultipleStringMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,3,12,4,9,0,5,1,0,9,10,3,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubConnectionTest.testVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,1,7,3,4,0,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.stub.StubHttpRequest",1,1,1,1,4,0,4,0,2,13,13,0,,0,0,,,,30,7,30,30,0,0,0,30,,185,31,150,62,57,4,,,,50,93,44,53,,,,,,3,3,3,3,,2,2,,90,86,"0.03",39,39,39,36
+Public Constructor,"org.webbitserver.stub.StubHttpRequest.StubHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.webbitserver.stub.StubHttpRequest.StubHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.allHeaders",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.body",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.body",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.bodyAsBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.cookie",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,4,0,4,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.stub.StubHttpRequest.cookieValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,0,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.cookies",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.hasHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,4,0,3,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.stub.StubHttpRequest.header",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,4,0,4,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.stub.StubHttpRequest.header",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.headers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,5,0,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.id",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.id",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.method",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.method",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.postParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.postParamKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.postParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.queryParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.queryParamKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.queryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.remoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.remoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.uri",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.stub.StubHttpRequest.uri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.webbitserver.wrapper",1,1,1,1,4,0,4,0,,,,,1,0,0,,1,,13,1,13,,0,0,0,13,,85,18,67,32,21,0,,,,27,42,23,19,,,,,,2,2,2,1,,,1,,,,"0.00",14,14,14,13
+Public Class,"org.webbitserver.wrapper.EventSourceConnectionWrapper",1,1,1,1,4,0,4,0,2,7,7,1,,0,0,,,,13,1,13,13,0,0,0,13,,75,15,60,25,21,0,,,,20,35,16,19,,,,,,2,2,2,1,,1,1,,0,0,"0.00",14,14,14,13
+Public Constructor,"org.webbitserver.wrapper.EventSourceConnectionWrapper.EventSourceConnectionWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.dataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.originalControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.send",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.underlyingControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.underlyingControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"samples",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"samples.eventsource",1,1,1,1,7,0,7,0,,,,,4,1,0,,1,,7,2,8,,0,1,0,7,,77,13,64,27,31,0,,,,32,45,30,19,,,,,,2,2,2,1,,,1,,,,"0.00",10,10,10,8
+Public Class,"samples.eventsource.Main",1,1,1,1,23,4,19,0,1,5,5,0,,1,0,,,,0,0,1,1,0,0,0,1,,59,9,50,13,31,0,,,,18,31,16,19,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Static Class,"samples.eventsource.Main.Pusher",1,1,1,1,6,0,6,0,1,8,8,0,,0,0,,,,4,2,4,4,0,1,0,3,,33,4,29,7,16,0,,,,11,20,9,12,,,,,,2,2,2,1,,1,1,,50,50,"0.00",6,6,6,4
+Public Method,"samples.eventsource.Main.Pusher.addConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"samples.eventsource.Main.Pusher.broadcast",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"samples.eventsource.Main.Pusher.pushPeriodicallyOn",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,7,0,3,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"samples.eventsource.Main.Pusher.pushPeriodicallyOn.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"samples.eventsource.Main.Pusher.pushPeriodicallyOn.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"samples.eventsource.Main.Pusher.removeConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"samples.eventsource.Main.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,4,19,5,15,0,7,1,0,7,10,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"samples.eventsource.Main.main.(Anon_2)",1,1,1,1,4,0,4,0,2,5,5,0,,0,0,,,,2,0,2,2,0,0,0,2,,10,1,9,0,7,0,,,,2,4,2,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"samples.eventsource.Main.main.(Anon_2).onClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"samples.eventsource.Main.main.(Anon_2).onOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

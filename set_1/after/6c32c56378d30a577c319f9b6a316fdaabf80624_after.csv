@@ -1,0 +1,70 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractDataProcessor.java",2,2,2,1,14,0,10,3,,,,,1,0,2,23,,24,17,11,17,,0,0,14,3,,399,38,271,102,139,90,,,,152,199,99,121,,,,,,9,9,9,3,,,4,,,,"0.33",51,51,52,27
+File,"BillSobiProcessor.java",3,2,3,1,24,0,14,9,,,,,1,0,9,26,,26,22,1,22,,0,17,0,5,,726,48,418,129,264,262,,,,230,307,123,239,,,,,,22,9,22,1,,,4,,,,"0.63",89,73,96,26
+File,"XmlLDSponProcessor.java",2,2,2,1,15,0,12,2,,,,,1,0,3,6,,6,6,1,6,,0,0,0,6,,145,17,110,68,54,19,,,,73,88,61,52,,,,,,9,9,9,3,,,5,,,,"0.17",14,14,14,8
+Package,"gov",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"gov.nysenate",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"gov.nysenate.openleg",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"gov.nysenate.openleg.processor",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"gov.nysenate.openleg.processor.base",2,2,2,1,14,0,10,3,,,,,1,0,2,,1,,17,11,17,,0,0,14,3,,399,38,271,102,139,90,,,,152,199,99,121,,,,,,9,9,9,3,,,4,,,,"0.33",51,51,52,27
+Public Abstract Class,"gov.nysenate.openleg.processor.base.AbstractDataProcessor",2,2,2,1,18,0,13,5,1,49,49,2,,0,2,,,,17,11,17,17,0,0,14,3,,353,35,228,60,139,90,,,,110,157,57,121,,,,,,9,9,9,3,,1,4,,91,88,"0.39",51,51,52,27
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.addAnyMissingAmendments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,9,3,5,6,5,3,0,3,7,4,5,3,3,3,1,0,,,,,0,,2,0,,,"0.67",3,3,3,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.createDataProcessUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.createProcessUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,4,1,2,1,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushAgendaUpdates",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,11,3,7,3,11,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.27",4,4,4,3
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushAgendaUpdates.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushAgendaUpdates.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushAllUpdates",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,1,3,3,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushBillUpdates",,,,,,,,,,,,,,,,,,,,,,,,,,,9,15,0,12,3,8,3,12,2,0,6,8,2,7,2,2,2,1,0,,,,,0,,1,0,,,"0.25",4,4,4,3
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushBillUpdates.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushBillUpdates.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushCalendarUpdates",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,11,3,7,3,11,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.27",4,4,4,3
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushCalendarUpdates.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.flushCalendarUpdates.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.getMemberFromShortName",,,,,,,,,,,,,,,,,,,,,,,,,,,9,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Final Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.getOrCreateAgenda",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,0,18,2,11,8,9,3,0,8,11,2,9,3,3,3,3,3,,,,,3,,2,3,,,"0.44",3,3,3,3
+Protected Final Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.getOrCreateBaseBill",,,,,,,,,,,,,,,,,,,,,,,,,,,11,66,1,48,8,34,17,25,44,2,24,33,8,31,9,9,9,1,3,,,,,0,,3,0,,,"0.35",9,9,9,1
+Protected Final Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.getOrCreateCalendar",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,0,18,2,11,8,9,3,0,8,11,2,9,3,3,3,3,3,,,,,3,,2,3,,,"0.44",3,3,3,3
+Public Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.getSessionMember",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,9,4,6,8,9,2,0,4,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.89",2,2,2,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.handlePrimaryMemberParsing",,,,,,,,,,,,,,,,,,,,,,,,,,,7,49,3,34,6,24,12,25,7,1,15,23,6,21,8,8,9,1,3,,,,,0,,4,0,,,"0.35",8,8,9,1
+Public Abstract Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.init",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.initBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.postDataUnitEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.syncUniBillText",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,0,19,4,14,6,2,1,0,9,13,4,11,1,1,1,1,0,,,,,0,,1,0,,,"0.32",5,5,5,2
+Lambda Method,"gov.nysenate.openleg.processor.base.AbstractDataProcessor.syncUniBillText.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,0,17,3,13,2,14,6,1,8,11,3,10,4,4,4,1,1,,,,,0,,0,0,,,"0.12",4,4,4,1
+Package,"gov.nysenate.openleg.processor.bill",3,2,3,1,24,0,14,9,,,,,1,0,9,,1,,22,1,22,,0,17,0,5,,726,48,418,129,264,262,,,,230,307,123,239,,,,,,22,9,22,1,,,4,,,,"0.63",89,73,96,26
+Public Class,"gov.nysenate.openleg.processor.bill.BillSobiProcessor",3,3,4,1,28,0,16,11,2,46,46,0,,0,9,,,,22,1,22,39,0,17,0,5,,689,45,384,96,264,262,,,,197,274,90,239,,,,,,22,9,22,1,,2,4,,95,95,"0.68",89,73,96,26
+Public Constructor,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.BillSobiProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyActClause",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,8,1,4,11,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.38",2,2,2,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyApprovalMessageText",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,1,13,3,10,7,9,2,0,8,10,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.54",2,2,2,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyBillActions",,,,,,,,,,,,,,,,,,,,,,,,,,,8,56,2,27,5,23,27,25,1,0,16,18,4,17,1,1,1,1,0,,,,,0,,1,0,,,"1.00",4,4,4,3
+Lambda Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyBillActions.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,0,5,0,5,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyBillActions.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,0,3,0,5,2,0,1,2,0,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyBillInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,73,0,45,10,31,28,21,28,1,19,28,9,27,9,9,13,1,4,,,,,0,,4,0,,,"0.62",9,9,13,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyCosponsors",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,1,27,7,21,13,20,8,1,12,18,8,16,5,5,5,1,1,,,,,0,,3,0,,,"0.48",6,6,6,2
+Lambda Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyCosponsors.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyLaw",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,0,11,1,7,15,6,2,0,5,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"1.36",2,2,2,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyLawSection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,4,1,2,11,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyMultisponsors",,,,,,,,,,,,,,,,,,,,,,,,,,,6,42,2,27,7,21,13,20,8,1,12,18,8,16,5,5,5,1,1,,,,,0,,3,0,,,"0.48",6,6,6,2
+Lambda Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyMultisponsors.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyProgramInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,9,2,5,8,7,3,0,3,6,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.89",3,3,3,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applySameAs",,,,,,,,,,,,,,,,,,,,,,,,,,,7,41,0,24,3,16,17,16,6,1,9,15,4,13,5,5,7,1,2,,,,,0,,3,0,,,"0.71",5,5,7,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applySponsor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,33,1,15,2,10,17,10,3,0,7,11,3,9,3,3,3,1,1,,,,,0,,2,0,,,"1.13",3,3,3,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applySummary",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,4,1,2,10,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyText",,,,,,,,,,,,,,,,,,,,,,,,,,,13,24,0,18,4,11,6,9,5,1,6,11,3,10,5,5,6,1,1,,,,,0,,3,0,,,"0.33",5,5,6,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,4,1,2,12,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyVetoApprovalMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,11,1,7,9,4,4,1,3,8,2,6,4,4,4,1,2,,,,,0,,2,0,,,"0.82",4,4,4,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyVetoMessageText",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,1,14,3,11,4,13,2,0,9,11,3,10,2,2,2,1,1,,,,,0,,1,0,,,"0.29",2,2,2,1
+Private Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.applyVoteMemo",,,,,,,,,,,,,,,,,,,,,,,,,,,10,66,0,38,9,25,28,15,7,1,18,26,10,21,7,7,7,1,4,,,,,0,,4,0,,,"0.74",7,7,7,1
+Public Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.getSupportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.init",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.postProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.BillSobiProcessor.process",,,,,,,,,,,,,,,,,,,,,,,,,,,23,63,2,54,11,44,7,41,70,2,49,56,11,54,22,6,22,1,121,,,,,0,,3,0,,,"0.13",22,6,22,1
+Package,"gov.nysenate.openleg.processor.bill.sponsor",2,2,2,1,15,0,12,2,,,,,1,0,3,,1,,6,1,6,,0,0,0,6,,145,17,110,68,54,19,,,,73,88,61,52,,,,,,9,9,9,3,,,5,,,,"0.17",14,14,14,8
+Public Class,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor",2,2,2,1,15,0,12,2,2,27,27,0,,0,3,,,,6,1,6,23,0,0,0,6,,115,14,83,41,54,19,,,,46,61,34,52,,,,,,9,9,9,3,,2,5,,83,83,"0.23",14,14,14,8
+Public Constructor,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.XmlLDSponProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.getSupportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.init",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.postProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.process",,,,,,,,,,,,,,,,,,,,,,,,,,,6,63,4,53,23,43,7,40,20,1,34,43,22,41,9,9,9,3,4,,,,,3,,5,3,,,"0.13",9,9,9,3
+Public Method,"gov.nysenate.openleg.processor.bill.sponsor.XmlLDSponProcessor.removeProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,7,3,5,6,3,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1

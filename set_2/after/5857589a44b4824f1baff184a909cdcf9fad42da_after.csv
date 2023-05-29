@@ -1,0 +1,101 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractAuthenticator.java",1,1,1,1,5,0,5,0,,,,,1,0,0,16,,21,21,6,21,,0,0,10,11,,180,30,112,49,46,38,,,,65,87,49,42,,,,,,3,3,3,1,,,2,,,,"0.34",21,21,22,16
+File,"AbstractLogoutHandler.java",2,2,2,1,13,1,10,2,,,,,1,0,0,3,,3,3,2,3,,0,0,1,2,,72,10,43,17,21,19,,,,23,32,17,18,,,,,,6,6,6,1,,,2,,,,"0.44",8,8,8,3
+File,"AbstractLogoutValve.java",2,2,2,1,10,0,9,1,,,,,1,0,0,1,,2,2,1,2,,0,0,1,1,,42,5,22,13,7,15,,,,15,18,13,6,,,,,,2,2,2,1,,,1,,,,"0.68",2,2,2,1
+File,"Cas10CasAuthenticator.java",1,1,1,1,3,0,3,0,,,,,1,0,2,4,,4,4,1,4,,0,0,4,0,,42,8,22,12,7,12,,,,12,17,12,6,,,,,,1,1,1,1,,,0,,,,"0.55",4,4,4,4
+File,"Cas20CasAuthenticator.java",1,1,1,1,4,0,4,0,,,,,1,0,2,4,,4,4,1,4,,0,0,4,0,,48,8,28,12,12,12,,,,16,22,12,11,,,,,,2,2,2,1,,,1,,,,"0.43",5,5,5,4
+File,"Cas20ProxyCasAuthenticator.java",1,1,1,1,4,0,4,0,,,,,1,0,2,6,,6,6,3,6,,0,0,4,2,,63,12,39,17,16,12,,,,23,31,17,15,,,,,,2,2,2,1,,,1,,,,"0.31",7,7,7,6
+File,"LogoutHandler.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,37,3,7,6,0,27,,,,5,6,6,0,,,,,,0,0,0,0,,,0,,,,"3.86",0,0,0,0
+File,"ProxyCallbackValve.java",1,1,1,1,6,0,5,0,,,,,1,1,1,5,,5,4,3,5,,0,0,1,4,,78,15,46,22,18,17,,,,29,37,22,17,,,,,,2,2,2,1,,,1,,,,"0.37",7,7,7,5
+File,"RegexUriLogoutHandler.java",1,1,1,1,5,0,3,2,,,,,1,0,0,3,,3,3,2,3,,0,0,0,3,,45,8,18,10,4,19,,,,10,14,10,4,,,,,,1,1,1,1,,,0,,,,"1.06",3,3,3,3
+File,"RegexUriLogoutValve.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,2,4,,0,0,2,2,,46,7,24,13,8,15,,,,14,19,13,8,,,,,,1,1,1,1,,,0,,,,"0.62",4,4,4,4
+File,"Saml11Authenticator.java",1,1,1,1,4,0,4,0,,,,,1,0,2,7,,7,7,2,7,,0,0,6,1,,70,13,39,16,16,18,,,,19,29,16,14,,,,,,3,3,3,1,,,1,,,,"0.46",9,9,9,7
+File,"StaticUriLogoutHandler.java",1,1,1,1,6,0,3,3,,,,,1,0,0,3,,3,3,1,3,,0,0,0,3,,45,7,16,8,4,22,,,,8,12,8,4,,,,,,1,1,1,1,,,0,,,,"1.38",3,3,3,3
+File,"StaticUriLogoutValve.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,2,4,,0,0,2,2,,46,7,24,13,8,15,,,,14,19,13,8,,,,,,1,1,1,1,,,0,,,,"0.62",4,4,4,4
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jasig",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jasig.cas",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jasig.cas.client",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jasig.cas.client.tomcat",1,1,1,1,8,0,5,2,,,,,4,0,0,,4,,11,5,11,,2,0,1,8,,199,28,84,41,29,87,,,,46,64,41,26,,,,,,6,6,6,1,,,2,,,,"1.04",14,14,14,9
+Public Abstract Class,"org.jasig.cas.client.tomcat.AbstractLogoutHandler",2,2,2,1,13,1,10,2,2,9,9,2,,0,0,,,,3,2,3,3,0,0,1,2,,56,7,35,9,21,14,,,,15,24,9,18,,,,,,6,6,6,1,,1,2,,50,33,"0.40",8,8,8,3
+Protected Method,"org.jasig.cas.client.tomcat.AbstractLogoutHandler.constructRedirectUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.AbstractLogoutHandler.logout",,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,3,25,4,18,1,9,18,1,11,17,4,15,6,6,6,1,2,,,,,0,,2,0,,,"0.04",6,6,6,1
+Public Method,"org.jasig.cas.client.tomcat.AbstractLogoutHandler.setRedirectUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.jasig.cas.client.tomcat.LogoutHandler",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,2,0,2,2,2,0,0,0,,20,1,4,3,0,15,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"3.75",0,0,0,0
+Abstract Method,"org.jasig.cas.client.tomcat.LogoutHandler.isLogoutRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.jasig.cas.client.tomcat.LogoutHandler.logout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Class,"org.jasig.cas.client.tomcat.RegexUriLogoutHandler",1,1,1,1,5,0,3,2,1,4,4,0,,0,0,,,,3,2,3,6,0,0,0,3,,32,4,14,6,4,14,,,,6,10,6,4,,,,,,1,1,1,1,,2,0,,33,33,"1.00",3,3,3,3
+Public Method,"org.jasig.cas.client.tomcat.RegexUriLogoutHandler.init",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,2,3,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.RegexUriLogoutHandler.isLogoutRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.RegexUriLogoutHandler.setLogoutUriRegex",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Class,"org.jasig.cas.client.tomcat.StaticUriLogoutHandler",1,1,1,1,6,0,3,3,1,3,3,0,,0,0,,,,3,1,3,6,0,0,0,3,,34,4,13,5,4,17,,,,5,9,5,4,,,,,,1,1,1,1,,2,0,,0,0,"1.31",3,3,3,3
+Public Method,"org.jasig.cas.client.tomcat.StaticUriLogoutHandler.init",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,2,3,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.StaticUriLogoutHandler.isLogoutRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.StaticUriLogoutHandler.setLogoutUri",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Package,"org.jasig.cas.client.tomcat.v7",1,1,1,1,4,0,4,0,,,,,9,1,9,,9,,56,21,57,,0,0,34,23,,615,105,356,167,138,154,,,,207,279,167,127,,,,,,3,3,3,1,,,2,,,,"0.43",63,63,64,51
+Public Abstract Class,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator",1,1,1,1,5,0,5,0,2,17,17,1,,0,0,,,,21,6,21,21,0,0,10,11,,154,27,94,31,46,33,,,,47,69,31,42,,,,,,3,3,3,1,,2,2,,81,81,"0.35",21,21,22,16
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.authenticate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,15,3,11,2,7,3,0,8,11,3,9,3,3,3,1,1,,,,,0,,2,0,,,"0.13",3,3,3,1
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getArtifactParameterName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getAuthenticationMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Protected Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getCasServerUrlPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getServiceParameterName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.getTicketValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.isEncode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.isRenew",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.lifecycleEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,8,1,5,1,10,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setCasServerLoginUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setCasServerUrlPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setEncode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setRenew",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setServerName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setServiceUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.setState",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,6,1,3,1,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.AbstractAuthenticator.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,16,2,13,2,12,2,0,10,12,2,11,2,2,3,1,1,,,,,0,,1,0,,,"0.12",2,2,3,1
+Public Abstract Class,"org.jasig.cas.client.tomcat.v7.AbstractLogoutValve",2,2,2,1,10,0,9,1,1,7,7,2,,0,0,,,,2,1,2,2,0,0,1,1,,25,2,13,4,7,10,,,,6,9,4,6,,,,,,2,2,2,1,,2,1,,0,0,"0.77",2,2,2,1
+Protected Abstract Method,"org.jasig.cas.client.tomcat.v7.AbstractLogoutValve.getLogoutHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Final Method,"org.jasig.cas.client.tomcat.v7.AbstractLogoutValve.invoke",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,9,1,6,1,7,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.11",2,2,2,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.Cas10CasAuthenticator",1,1,1,1,3,0,3,0,1,4,4,0,,0,2,,,,4,1,4,4,0,0,4,0,,31,6,18,8,7,7,,,,8,13,8,6,,,,,,1,1,1,1,,2,0,,50,50,"0.39",4,4,4,4
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas10CasAuthenticator.getAuthenticationMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas10CasAuthenticator.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas10CasAuthenticator.getTicketValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas10CasAuthenticator.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.Cas20CasAuthenticator",1,1,1,1,4,0,4,0,1,5,5,0,,0,2,,,,4,1,4,4,0,0,4,0,,37,6,24,8,12,7,,,,12,18,8,11,,,,,,2,2,2,1,,2,1,,50,50,"0.29",5,5,5,4
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20CasAuthenticator.getAuthenticationMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20CasAuthenticator.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20CasAuthenticator.getTicketValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20CasAuthenticator.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,1,7,0,11,2,0,6,8,1,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator",1,1,1,1,4,0,4,0,1,6,6,0,,0,2,,,,6,3,6,6,0,0,4,2,,51,10,34,12,16,7,,,,18,26,12,15,,,,,,2,2,2,1,,2,1,,66,66,"0.21",7,7,7,6
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.getAuthenticationMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.getTicketValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.setAcceptAnyProxy",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.setAllowedProxyChains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Cas20ProxyCasAuthenticator.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,1,9,0,14,2,0,8,10,1,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve",1,1,1,1,6,0,5,0,1,12,12,0,,1,1,,,,4,3,5,5,0,0,1,4,,59,12,35,11,18,12,,,,18,26,11,17,,,,,,2,2,2,1,,2,1,,50,50,"0.34",7,7,7,5
+Public Static Method,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve.getProxyGrantingTicketStorage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve.invoke",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,1,5,0,6,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve.setProxyCallbackUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve.setProxyGrantingTicketStorageClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.ProxyCallbackValve.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,12,2,9,0,8,2,0,7,9,2,8,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.RegexUriLogoutValve",1,1,1,1,3,0,3,0,1,7,7,0,,0,0,,,,4,2,4,6,0,0,2,2,,33,5,18,7,8,10,,,,8,13,7,8,,,,,,1,1,1,1,,3,0,,37,37,"0.56",4,4,4,4
+Protected Method,"org.jasig.cas.client.tomcat.v7.RegexUriLogoutValve.getLogoutHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.RegexUriLogoutValve.setLogoutUriRegex",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.RegexUriLogoutValve.setRedirectUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.RegexUriLogoutValve.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator",1,1,1,1,4,0,4,0,1,4,4,0,,0,2,,,,7,2,7,28,0,0,6,1,,59,11,35,12,16,13,,,,15,25,12,14,,,,,,3,3,3,1,,3,1,,71,71,"0.37",9,9,9,7
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.getArtifactParameterName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.getAuthenticationMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.getServiceParameterName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.getTicketValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.setTolerance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.Saml11Authenticator.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,7,0,8,4,1,5,8,1,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Final Class,"org.jasig.cas.client.tomcat.v7.StaticUriLogoutValve",1,1,1,1,3,0,3,0,1,7,7,0,,0,0,,,,4,2,4,6,0,0,2,2,,33,5,18,7,8,10,,,,8,13,7,8,,,,,,1,1,1,1,,3,0,,37,37,"0.56",4,4,4,4
+Protected Method,"org.jasig.cas.client.tomcat.v7.StaticUriLogoutValve.getLogoutHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.StaticUriLogoutValve.setLogoutUri",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jasig.cas.client.tomcat.v7.StaticUriLogoutValve.setRedirectUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.jasig.cas.client.tomcat.v7.StaticUriLogoutValve.startInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

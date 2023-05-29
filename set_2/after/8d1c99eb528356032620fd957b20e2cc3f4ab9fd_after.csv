@@ -1,0 +1,206 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AnnotationProcessor.java",3,3,4,1,21,1,14,5,,,,,5,0,4,52,,46,42,15,42,,23,9,0,10,,1292,120,857,264,547,315,,,,440,634,267,466,,,,,,16,16,20,5,,,5,,,,"0.37",181,176,214,65
+File,"AnnotationProcessorTest.java",1,1,1,1,15,1,12,0,,,,,1,0,0,54,,54,53,4,53,,0,3,0,50,,959,161,731,341,516,67,,,,522,579,288,463,,,,,,2,2,2,1,,,1,,,,"0.09",56,56,56,54
+File,"DEECo.java",1,1,1,1,7,0,7,0,,,,,3,0,0,16,,16,16,9,16,,4,1,0,11,,213,40,149,67,62,24,,,,78,112,63,59,,,,,,5,5,5,1,,,3,,,,"0.16",26,26,26,16
+File,"DEECoTest.java",1,1,1,1,20,2,12,4,,,,,11,0,0,19,,19,19,0,19,,0,1,0,18,,445,77,269,130,165,99,,,,189,211,113,165,,,,,,2,2,2,1,,,1,,,,"0.37",20,20,20,19
+File,"InvalidOperationException.java",1,1,1,1,3,0,3,0,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,18,3,7,4,2,8,,,,3,5,4,1,,,,,,1,1,1,1,,,0,,,,"1.14",1,1,1,1
+File,"SecurityRuntimeModel.java",1,1,1,1,6,0,6,0,,,,,9,6,5,15,,15,7,26,13,,0,0,0,13,,265,49,209,137,54,7,,,,129,156,110,50,,,,,,2,2,4,1,,,1,,,,"0.03",18,18,21,15
+Package,"cz",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco.annotations",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco.annotations.processor",2,2,2,1,18,1,13,3,,,,,6,0,4,,2,,95,19,95,,23,12,0,60,,2251,281,1588,605,1063,382,,,,962,1213,555,929,,,,,,16,16,20,5,,,5,,,,"0.24",237,232,270,119
+Public Class,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor",4,4,5,1,30,1,20,7,1,91,91,0,,0,3,,,,36,6,36,36,23,9,0,4,,1205,116,774,181,547,315,,,,357,551,184,466,,,,,,16,16,20,5,,1,5,,85,79,"0.41",180,175,213,64
+Anonymous Class,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.(Anon_1)",0,0,0,0,0,0,0,0,1,5,5,0,,0,1,,,,0,0,0,0,0,0,0,0,,8,0,8,0,6,0,,,,5,5,1,4,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.AnnotationProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,55,27,0,14,3,9,13,8,2,0,7,9,1,8,2,2,2,1,1,,,,,0,,1,0,,,"0.93",2,2,2,1
+Enum Type,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.ParsingEvent",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,5,2,2,0,0,0,2,,7,0,4,3,0,3,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.75",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.ParsingEvent.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.ParsingEvent.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Enum Type,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ARGUMENT_PATH_VALIDATION",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,2,2,2,0,0,0,2,,2,0,1,1,0,1,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"1.00",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ARGUMENT_PATH_VALIDATION.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ARGUMENT_PATH_VALIDATION.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Enum Type,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ROLE_LOAD_TYPE",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,2,2,2,0,0,0,2,,2,0,1,1,0,1,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"1.00",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ROLE_LOAD_TYPE.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.SECURITY_ROLE_LOAD_TYPE.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.addExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.addSecurityTags",,,,,,,,,,,,,,,,,,,,,,,,,,,9,39,6,24,6,17,9,19,25,1,12,21,8,18,7,7,9,1,0,,,,,0,,3,0,,,"0.38",7,7,9,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.callExtensions",,,,,,,,,,,,,,,,,,,,,,,,,,,12,48,0,39,1,29,9,6,13,1,16,31,7,24,13,9,14,1,10,,,,,0,,4,0,,,"0.23",13,9,14,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.canSerialize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,3,5,0,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createCommunicationBoundary",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,13,3,9,5,6,3,0,5,8,3,7,3,3,4,3,2,,,,,2,,2,2,,,"0.38",3,3,4,3
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createComponentInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,9,107,13,78,18,62,16,45,1297,3,39,58,20,54,16,16,20,1,6,,,,,0,,5,0,,,"0.21",16,16,20,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createComponentProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,7,44,3,27,5,21,14,19,7,1,15,20,5,19,5,5,5,1,2,,,,,0,,3,0,,,"0.52",5,5,5,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createCondition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,0,12,4,9,8,9,2,0,7,9,4,8,2,2,2,1,1,,,,,0,,1,0,,,"0.67",2,2,2,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createEnsembleDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,7,64,11,37,10,29,16,26,13,1,21,29,11,27,7,7,9,1,2,,,,,0,,4,0,,,"0.43",7,7,9,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createExchange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,2,15,4,11,8,11,4,1,8,11,4,10,3,3,3,1,1,,,,,0,,1,0,,,"0.53",3,3,3,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createKnowledgeChangeTriggers",,,,,,,,,,,,,,,,,,,,,,,,,,,6,27,0,17,9,12,10,10,3,0,12,15,9,13,3,3,3,1,0,,,,,0,,2,0,,,"0.59",3,3,3,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createKnowledgePath",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,4,2,2,6,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createKnowledgePath",,,,,,,,,,,,,,,,,,,,,,,,,,,13,61,0,45,8,36,16,14,22,1,21,29,8,26,9,9,17,4,4,,,,,3,,4,3,,,"0.36",9,9,17,4
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createMemberOrCoordinatorPathNode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,12,2,8,3,3,3,0,3,5,1,4,3,2,3,1,3,,,,,0,,1,0,,,"0.25",3,2,3,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,12,45,2,31,6,21,12,14,16,1,12,20,5,19,8,8,10,1,2,,,,,0,,4,0,,,"0.39",8,8,10,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,8,23,0,14,5,9,9,6,4,1,8,11,5,9,4,4,4,1,0,,,,,0,,1,0,,,"0.64",4,4,4,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createPeriodicTrigger",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,0,22,4,15,6,9,7,1,10,16,4,13,5,5,5,5,7,,,,,7,,2,7,,,"0.27",5,5,5,5
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRatingsProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,11,2,8,8,8,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.73",2,2,2,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRoleFromClassDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,19,94,14,66,13,49,14,33,1360,3,29,48,14,41,15,15,16,3,4,,,,,3,,4,1,,,"0.21",19,19,20,7
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRoleFromClassDefinition.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRoleFromClassDefinition.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRoleFromClassDefinition.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createRoleFromClassDefinition.(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.createSecurityRoleArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,5,27,6,21,9,16,7,1,16,21,6,18,5,5,5,1,1,,,,,0,,3,0,,,"0.33",5,5,5,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.extractInitialKnowledge",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,1,34,7,26,6,21,24,1,11,21,7,18,8,8,14,3,3,,,,,3,,4,2,,,"0.18",8,8,14,3
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getAnnotatedMethodInEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,5,36,0,29,6,20,7,8,10,1,8,15,5,12,6,6,7,1,2,,,,,0,,4,0,,,"0.24",6,6,7,1
+Generic Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,10,3,4,3,2,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.30",3,3,3,3
+TypeVariable,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getAnnotation.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getComponentId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,8,4,6,4,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getKindAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,16,2,10,6,3,8,1,5,11,3,8,5,5,5,1,1,,,,,0,,3,0,,,"0.38",5,5,5,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getKindAnnotationValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,16,1,10,3,3,5,1,6,11,1,10,5,5,5,5,4,,,,,4,,1,4,,,"0.19",5,5,5,5
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getUnknownAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,9,2,5,3,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.33",3,3,3,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.getUnknownAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,9,2,5,3,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.33",3,3,3,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isAnnotatedAsLocal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isComponentDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isEnsembleDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isValidForRole",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,11,4,8,7,8,2,0,4,6,3,5,2,2,3,1,1,,,,,0,,1,0,,,"0.64",4,4,6,3
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isValidForRole.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isValidForRole.(lambda_expr_1).(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.isValidForRole.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,5,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.overrideArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,7,30,2,23,5,19,5,21,4,1,15,19,5,18,4,4,4,1,2,,,,,0,,2,0,,,"0.22",7,7,7,4
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.overrideArgument.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.overrideArgument.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.overrideArgument.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.processComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,31,44,4,25,4,18,15,13,32,2,12,19,5,17,6,6,6,1,0,,,,,0,,1,0,,,"0.60",6,6,6,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessor.processEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,19,45,3,26,4,18,16,13,32,2,12,19,4,17,6,6,6,1,0,,,,,0,,1,0,,,"0.62",6,6,6,1
+Public Class,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest",1,1,1,1,15,1,12,0,1,77,77,0,,0,0,,,,53,4,53,53,0,3,0,50,,904,155,682,292,516,67,,,,473,530,239,463,,,,,,2,2,2,1,,1,1,,33,33,"0.10",56,56,56,54
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.getExpectedFile",,,,,,,,,,,,,,,,,,,,,,,,,,,12,9,0,9,4,7,0,6,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.removeKnowledgeManagersFromComponents",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,1,3,0,3,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.saveInXMI",,,,,,,,,,,,,,,,,,,,,,,,,,,16,16,0,16,4,13,0,10,2,0,7,9,4,8,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testAllComponentAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,6,8,0,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testAllEnsembleAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,6,7,0,6,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testCloningOfSecurityAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,6,32,7,18,11,15,7,17,1,0,15,16,10,15,1,1,1,1,0,,,,,0,,0,0,,,"0.39",2,2,2,2
+Lambda Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testCloningOfSecurityAnnotations.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testComponentModelInheritance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,11,6,8,1,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testComponentSecurityAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,2,56,9,44,11,41,3,20,1,0,41,42,10,41,1,1,1,1,0,,,,,0,,0,0,,,"0.07",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testComponentSecurityInheritanceAnnotations1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,39,7,29,9,26,3,18,1,0,26,27,8,26,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testCreateKnowledgePath",,,,,,,,,,,,,,,,,,,,,,,,,,,4,68,7,61,6,58,0,10,1,0,58,59,5,57,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testEventBasedComponents",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,11,6,8,1,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testEventBasedEnsembles",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,11,6,8,1,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInClassAnnotations1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,5,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInComponentParsing1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,5,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInComponentParsing2",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,13,5,10,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInComponentParsing3",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,13,5,10,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInComponentParsing4",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,5,9,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInComponentParsing5",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,5,9,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath1",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,1,11,5,8,0,5,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath2",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,5,5,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath3",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,5,5,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath4",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,5,5,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath5",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,5,5,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath6",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,10,5,7,0,5,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath7",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,10,5,7,0,5,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInCreateKnowledgePath8",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,1,10,5,7,1,5,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInEnsembleParsing1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,5,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInEnsembleParsing2",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,5,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInEnsembleParsing3",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,5,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInEnsembleParsing4",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,6,8,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsInEnsembleParsing5",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,1,14,6,10,0,7,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsNonInitializedComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,4,5,0,5,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testExceptionsNullModel",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,4,5,0,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testLockingOfSecurityAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,3,11,7,8,4,11,1,0,8,9,6,8,1,1,1,1,0,,,,,0,,0,0,,,"0.36",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testModelDirectlyFromEnsembleClassDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,6,7,0,6,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testNonExistingAliasClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testNonExistingSecurityArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testParameterWithMapEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,6,8,0,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testParameterWithNestedMapEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,6,8,0,7,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testProcessInitialKnowledge",,,,,,,,,,,,,,,,,,,,,,,,,,,2,27,1,20,8,17,6,15,1,0,17,18,7,17,1,1,1,1,0,,,,,0,,0,0,,,"0.30",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testRatingAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,5,33,8,22,8,19,3,14,1,0,19,20,7,19,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testRatingAnnotationsEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,5,16,5,13,3,11,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testRatingAnnotations_Error1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,6,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testRatingAnnotations_Error2",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,6,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testRatingAnnotations_Error3",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,2,8,4,5,2,6,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSecurityAnnotations_Error1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,6,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSecurityAnnotations_Error2",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSecurityCompromise",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,9,5,6,2,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.22",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSecurityOfIdField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,5,6,0,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSecurityOnNonSerializableField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,2,9,5,6,1,5,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.annotations.processor.AnnotationProcessorTest.testSequencialUpdateOfTheSameModel",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,1,18,6,15,0,8,1,0,15,16,5,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"cz.cuni.mff.d3s.deeco.runtime",1,1,1,1,14,1,9,2,,,,,15,0,1,,3,,36,9,36,,4,2,0,30,,676,120,425,201,229,131,,,,270,328,180,225,,,,,,5,5,5,1,,,3,,,,"0.31",47,47,47,36
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo",1,1,1,1,8,0,7,0,2,29,29,0,,0,0,,,,13,6,13,13,2,1,0,10,,189,37,128,46,62,24,,,,57,91,42,59,,,,,,5,5,5,1,,1,3,,74,74,"0.19",23,23,23,13
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DEECo",,,,,,,,,,,,,,,,,,,,,,,,,,,23,10,1,9,1,7,0,10,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,2,3,2,2,2,0,0,0,,14,2,12,6,4,0,,,,6,9,6,4,,,,,,1,1,1,1,,1,0,,50,50,"0.00",2,2,2,2
+Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode.DependencyNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,5,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode.DependencyNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNodeComparator",1,1,1,1,4,0,4,0,2,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNodeComparator.compare",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.constructDependencyNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,4,20,5,13,0,8,8,1,8,16,7,12,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Private Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.createRuntime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,4,6,0,3,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.deployComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.deployEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getPluginInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getPluginInstance.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getRuntimeFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getRuntimeMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.initializePlugins",,,,,,,,,,,,,,,,,,,,,,,,,,,6,27,5,22,4,15,0,8,8,1,10,17,6,14,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.isRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.start",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,1,6,1,4,0,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.stop",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,1,6,1,4,0,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest",1,1,1,1,20,2,12,4,1,23,23,0,,0,0,,,,19,0,19,19,0,1,0,18,,426,73,254,115,165,99,,,,174,196,98,165,,,,,,2,2,2,1,,1,1,,0,0,"0.39",20,20,20,19
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P0",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P1",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P2",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P3",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P4",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P5",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P6",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P7",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P8",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P9",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testBasicWorkflow",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testBasicWorkflow2",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testCycle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,2,11,5,7,5,7,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.45",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testCycle2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,28,5,17,8,13,6,7,1,0,13,14,7,13,1,1,1,1,0,,,,,0,,0,0,,,"0.35",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyMultiBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,23,4,15,8,11,4,9,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderComplex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,66,14,43,22,39,9,9,1,0,39,40,21,39,1,1,1,1,0,,,,,0,,0,0,,,"0.21",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderDAG",,,,,,,,,,,,,,,,,,,,,,,,,,,1,29,4,21,11,17,4,9,1,0,17,18,10,17,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderMultiExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,1,23,4,15,8,11,4,9,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,4,11,6,7,4,9,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.36",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDuplicateEnsembleDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,7,3,3,5,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.71",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDynamicDeploymentWorkflow",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testFieldInitialization",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,11,3,7,4,4,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.36",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testNoPlugins",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,5,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testNonExistentDependency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,3,8,4,4,5,7,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.62",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testPluginAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,29,3,22,5,16,4,9,2,0,15,18,5,16,2,2,2,1,0,,,,,0,,1,0,,,"0.18",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStartOnRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,7,3,3,4,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStopOnNew",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,6,3,2,4,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStopOnStopped",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,8,3,4,4,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Private Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.verifyPluginInitOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,9,8,0,5,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.InvalidOperationException",1,1,1,1,3,0,3,0,1,1,1,0,,0,1,,,,1,0,1,1,0,0,0,1,,16,2,6,3,2,8,,,,2,4,3,1,,,,,,1,1,1,1,,2,0,,0,0,"1.33",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.InvalidOperationException.InvalidOperationException",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"cz.cuni.mff.d3s.deeco.security",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco.security.runtime",1,1,1,1,6,0,6,0,,,,,9,6,5,,1,,7,26,13,,0,0,0,13,,265,49,209,137,54,7,,,,129,156,110,50,,,,,,2,2,4,1,,,1,,,,"0.03",18,18,21,15
+Public Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel",1,1,1,1,13,2,11,0,1,31,31,0,,0,0,,,,4,15,4,4,0,0,0,4,,209,45,157,85,54,7,,,,77,104,58,50,,,,,,2,2,2,1,,1,1,,58,50,"0.04",8,8,11,6
+Public Static Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.AllEnsemble",1,1,1,1,4,0,4,0,1,9,9,0,,2,1,,,,0,0,2,2,0,0,0,2,,17,3,14,9,2,0,,,,3,6,4,2,,,,,,1,1,1,1,,1,0,,50,50,"0.00",2,2,2,2
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.AllEnsemble.exchange",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.AllEnsemble.membership",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.GlobalPoliceComponent",1,1,1,1,4,0,4,0,1,8,8,0,,0,0,,,,1,3,1,1,0,0,0,1,,16,3,13,9,2,0,,,,5,7,5,2,,,,,,1,1,1,1,,1,0,,33,33,"0.00",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.GlobalPoliceComponent.GlobalPoliceComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceComponent",1,1,1,1,6,0,5,0,1,14,14,0,,2,0,,,,1,4,3,3,0,0,0,3,,33,6,27,15,7,0,,,,9,14,8,6,,,,,,2,2,2,1,,1,1,,75,75,"0.00",4,4,4,3
+Public Constructor,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceComponent.PoliceComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceComponent.process",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,1,4,3,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceComponent.ratingProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,2,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Interface,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceEverywhere",0,0,0,0,0,0,0,0,1,3,3,1,,0,1,,,,0,0,0,0,0,0,0,0,,5,0,5,4,1,0,,,,1,2,2,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceEverywhereEnsemble",1,1,1,1,4,0,4,0,1,9,9,0,,2,1,,,,0,0,2,2,0,0,0,2,,16,3,13,8,2,0,,,,3,6,4,2,,,,,,1,1,1,1,,1,0,,50,50,"0.00",2,2,2,2
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceEverywhereEnsemble.exchange",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceEverywhereEnsemble.membership",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceInAuthorsCity",0,0,0,0,0,0,0,0,1,4,4,0,,0,1,,,,0,0,0,0,0,0,0,0,,5,0,5,4,1,0,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Interface,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.PoliceInCity",0,0,0,0,0,0,0,0,0,3,3,1,,0,1,,,,0,0,0,0,0,0,0,0,,5,0,5,4,1,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.SecurityRuntimeModel",,,,,,,,,,,,,,,,,,,,,,,,,,,17,33,6,26,1,24,1,30,1,0,24,25,1,24,1,1,1,1,0,,,,,0,,0,0,,,"0.04",3,3,6,3
+Lambda Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.SecurityRuntimeModel.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.SecurityRuntimeModel.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,4,1,0,,,,,0,,0,0,,,"0.00",1,1,4,1
+Public Static Class,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.VehicleComponent",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,1,4,1,1,0,0,0,1,,18,3,15,9,4,0,,,,8,10,6,4,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.VehicleComponent.VehicleComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.invokeAllEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,1,7,3,4,0,6,2,0,3,6,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.invokeEnsembleTasks",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,1,2,1,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.security.runtime.SecurityRuntimeModel.invokePoliceEverywhereEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,1,7,3,4,0,6,2,0,3,6,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1

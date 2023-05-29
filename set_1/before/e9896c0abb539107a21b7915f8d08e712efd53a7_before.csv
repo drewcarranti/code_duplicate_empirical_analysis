@@ -1,0 +1,31 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"IncomingDataPoints.java",2,2,2,1,12,0,8,3,,,,,1,4,4,25,,25,21,6,25,,3,6,0,16,,416,53,250,76,151,116,,,,119,172,71,116,,,,,,8,8,8,1,,,2,,,,"0.46",54,54,55,25
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb.core",2,2,2,1,12,0,8,3,,,,,1,4,4,,1,,21,6,25,,3,6,0,16,,416,53,250,76,151,116,,,,119,172,71,116,,,,,,8,8,8,1,,,2,,,,"0.46",54,54,55,25
+Final Class,"net.opentsdb.core.IncomingDataPoints",2,2,2,1,12,0,8,3,2,22,22,0,,4,4,,,,21,6,25,25,3,6,0,16,,385,47,237,63,151,104,,,,106,159,58,116,,,,,,8,8,8,1,,1,2,,78,63,"0.44",54,54,55,25
+Constructor,"net.opentsdb.core.IncomingDataPoints.IncomingDataPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,5,1,3,4,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.addPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,1,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.addPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,2,7,1,5,2,0,3,5,2,3,2,2,3,1,0,,,,,0,,1,0,,,"0.10",2,2,3,1
+Private Method,"net.opentsdb.core.IncomingDataPoints.addPointInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,19,94,5,43,8,34,47,15,32,2,21,28,5,25,8,8,8,1,2,,,,,0,,2,0,,,"1.09",8,8,8,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.aggregatedSize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"net.opentsdb.core.IncomingDataPoints.baseTime",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,3,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Method,"net.opentsdb.core.IncomingDataPoints.checkIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,10,1,6,1,0,4,1,2,5,1,4,3,3,3,1,0,,,,,0,,1,0,,,"0.10",3,3,3,1
+Static Method,"net.opentsdb.core.IncomingDataPoints.checkMetricAndTags",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,1,14,1,10,4,5,6,1,5,10,2,8,4,4,4,1,1,,,,,0,,1,0,,,"0.29",4,4,4,1
+Private Static Method,"net.opentsdb.core.IncomingDataPoints.copyInRowKey",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Static Method,"net.opentsdb.core.IncomingDataPoints.delta",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.doubleValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,6,1,3,1,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.getAggregatedTags",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.getTags",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"net.opentsdb.core.IncomingDataPoints.grow",,,,,,,,,,,,,,,,,,,,,,,,,,,7,9,0,8,2,5,1,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.isInteger",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.longValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,6,1,3,1,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.metricName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Static Method,"net.opentsdb.core.IncomingDataPoints.rowKeyTemplate",,,,,,,,,,,,,,,,,,,,,,,,,,,12,31,5,22,11,17,4,7,2,0,13,16,9,11,3,3,3,1,0,,,,,0,,1,0,,,"0.18",3,3,3,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.setBatchImport",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,0,17,2,11,3,3,5,1,6,11,2,10,5,5,5,1,2,,,,,0,,2,0,,,"0.18",5,5,5,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.setBufferingTime",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.setSeries",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.size",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.timestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.IncomingDataPoints.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,0,29,5,24,3,10,5,1,13,17,5,15,6,6,6,1,1,,,,,0,,2,0,,,"0.10",6,6,6,1

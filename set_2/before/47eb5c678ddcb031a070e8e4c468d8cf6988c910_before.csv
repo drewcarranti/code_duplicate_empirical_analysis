@@ -1,0 +1,86 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ERXEC.java",3,3,4,1,13,0,11,1,,,,,3,7,5,69,,79,72,7,79,,0,0,1,78,,997,7,856,137,538,134,,,,348,622,137,490,,,,,,5,5,7,1,,,2,,,,"0.16",236,236,314,69
+Package,"er",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"er.extensions",3,3,4,1,13,0,11,1,,,,,3,7,5,,1,,72,7,79,,0,0,1,78,,997,7,856,137,538,134,,,,348,622,137,490,,,,,,5,5,7,1,,,2,,,,"0.16",236,236,314,69
+Public Class,"er.extensions.ERXEC",3,3,5,1,14,0,13,1,1,11,11,0,,7,4,,,,49,4,56,56,0,0,0,56,,986,5,853,134,538,128,,,,345,619,134,490,,,,,,5,5,7,1,,2,2,,68,39,"0.15",213,213,291,56
+Public Static Class,"er.extensions.ERXEC.DefaultFactory",1,1,1,1,9,0,5,4,2,7,7,0,,0,1,,,,13,3,13,13,0,0,1,12,,131,0,75,20,42,56,,,,33,54,20,37,,,,,,4,4,4,1,,1,2,,82,56,"0.75",23,23,23,13
+Public Constructor,"er.extensions.ERXEC.DefaultFactory.DefaultFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,1,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Protected Method,"er.extensions.ERXEC.DefaultFactory._createEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,3,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.33",2,2,2,1
+Public Method,"er.extensions.ERXEC.DefaultFactory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,7,20,0,17,3,13,3,14,4,1,10,13,3,12,4,4,4,1,1,,,,,0,,1,0,,,"0.18",4,4,4,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.defaultEditingContextDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,1,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"6.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.defaultNoValidationDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"7.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.setDefaultDelegateOnEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,0,15,1,10,8,6,6,1,4,8,1,7,4,4,4,1,2,,,,,0,,2,0,,,"0.53",4,4,4,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.setDefaultDelegateOnEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.setDefaultEditingContextDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,6,1,3,6,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.setDefaultNoValidationDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"er.extensions.ERXEC.DefaultFactory.useSharedEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,1,4,0,6,2,0,3,5,1,4,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Constructor,"er.extensions.ERXEC.ERXEC",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Constructor,"er.extensions.ERXEC.ERXEC",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Interface,"er.extensions.ERXEC.Factory",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,10,0,10,10,0,0,0,10,,12,0,12,11,0,0,,,,10,11,11,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory._newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.defaultEditingContextDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.defaultNoValidationDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.setDefaultDelegateOnEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.setDefaultDelegateOnEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.setDefaultEditingContextDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"er.extensions.ERXEC.Factory.setDefaultNoValidationDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"er.extensions.ERXEC._undoUpdate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.arrayFaultWithSourceGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.automaticLockUnlock",,,,,,,,,,,,,,,,,,,,,,,,,,,40,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"er.extensions.ERXEC.committedSnapshotForObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.currentEventSnapshotForObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Static Method,"er.extensions.ERXEC.defaultAutomaticLockUnlock",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.deleteObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.deletedObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.editingContextDidForgetObjectWithGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Static Method,"er.extensions.ERXEC.factory",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,6,1,3,4,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.67",2,2,2,1
+Public Method,"er.extensions.ERXEC.faultForGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.forgetObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.globalIDForObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.hasChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.initializeObject",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.insertObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.insertObjectWithGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.insertedObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.invalidateAllObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.invalidateObjectsWithGlobalIDs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.invokeRemoteMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.isAutoLocked",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.lock",,,,,,,,,,,,,,,,,,,,,,,,,,,40,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"er.extensions.ERXEC.lockCount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.lockObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Static Method,"er.extensions.ERXEC.newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXEC.newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,0,3,1,1,19,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"6.33",1,1,1,1
+Public Static Method,"er.extensions.ERXEC.newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,3,1,1,13,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1
+Public Static Method,"er.extensions.ERXEC.newEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,3,1,1,14,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.67",1,1,1,1
+Public Method,"er.extensions.ERXEC.objectForGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.objectWillChange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.objectsForSourceGlobalID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.objectsWithFetchSpecification",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.processRecentChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.recordObject",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.redo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.refaultAllObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.refaultObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.refaultObject",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.refreshObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.registeredObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.reset",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.revert",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.saveChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.saveChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.saveChangesInEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.setAutoLocked",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.setAutomaticLockUnlock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXEC.setDelegate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"er.extensions.ERXEC.setFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"er.extensions.ERXEC.setSharedEditingContext",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.undo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,8,10,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXEC.unlock",,,,,,,,,,,,,,,,,,,,,,,,,,,40,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"er.extensions.ERXEC.updatedObjects",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,2,12,0,9,5,1,7,13,2,11,5,5,7,1,0,,,,,0,,2,0,,,"0.00",5,5,7,1

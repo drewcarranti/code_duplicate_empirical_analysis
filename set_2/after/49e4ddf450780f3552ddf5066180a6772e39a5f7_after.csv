@@ -1,0 +1,26 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ClassPathInit.java",7,7,10,1,31,2,26,3,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,58,8,37,17,19,13,,,,18,27,17,16,,,,,,7,7,10,1,,,5,,,,"0.35",7,7,10,1
+File,"GrinderClassPathUtils.java",3,3,8,2,22,0,13,9,,,,,1,2,0,2,,2,0,0,2,,0,0,0,2,,89,5,38,17,18,46,,,,20,29,19,14,,,,,,4,4,14,3,,,2,,,,"1.21",6,6,16,4
+File,"LocalScriptTestDriveService.java",3,3,3,2,29,2,23,4,,,,,3,0,0,5,,5,5,1,5,,0,1,0,4,,190,17,119,43,79,54,,,,67,87,43,56,,,,,,10,10,11,7,,,2,,,,"0.45",17,17,18,11
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.grinder",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.grinder.engine",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.grinder.engine.agent",3,3,3,2,29,2,23,4,,,,,3,0,0,,1,,5,1,5,,0,1,0,4,,190,17,119,43,79,54,,,,67,87,43,56,,,,,,10,10,11,7,,,2,,,,"0.45",17,17,18,11
+Public Class,"net.grinder.engine.agent.LocalScriptTestDriveService",4,4,4,3,44,3,33,7,1,20,20,0,,0,0,,,,3,1,3,3,0,1,0,2,,148,13,103,27,79,32,,,,51,71,27,56,,,,,,10,10,11,7,,1,2,,33,33,"0.31",13,13,14,9
+Private Method,"net.grinder.engine.agent.LocalScriptTestDriveService.appendingMessageOn",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,2,8,0,3,2,0,5,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.grinder.engine.agent.LocalScriptTestDriveService.buildCustomClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,0,13,2,9,7,3,1,0,5,8,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.54",1,1,1,1
+Anonymous Class,"net.grinder.engine.agent.LocalScriptTestDriveService.buildCustomClassPath.(Anon_1)",2,2,2,1,7,0,7,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,0,8,0,6,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"net.grinder.engine.agent.LocalScriptTestDriveService.buildCustomClassPath.(Anon_1).accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,0,5,0,6,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.grinder.engine.agent.LocalScriptTestDriveService.doValidate",,,,,,,,,,,,,,,,,,,,,,,,,,,7,102,10,76,21,61,16,15,144,2,40,54,20,44,10,10,11,7,7,,,,,7,,2,7,,,"0.21",10,10,11,7
+Anonymous Class,"net.grinder.engine.agent.LocalScriptTestDriveService.doValidate.(Anon_2)",2,2,2,1,8,0,8,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,1,7,0,,,,3,5,2,4,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"net.grinder.engine.agent.LocalScriptTestDriveService.doValidate.(Anon_2).accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,6,0,5,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"net.grinder.util",3,3,8,2,22,0,13,9,,,,,1,2,0,,1,,0,0,2,,0,0,0,2,,89,5,38,17,18,46,,,,20,29,19,14,,,,,,4,4,14,3,,,2,,,,"1.21",6,6,16,4
+Public Class,"net.grinder.util.GrinderClassPathUtils",3,3,8,2,22,0,13,9,1,10,10,0,,2,0,,,,0,0,2,2,0,0,0,2,,53,1,28,7,18,24,,,,10,19,9,14,,,,,,4,4,14,3,,1,2,,0,0,"0.86",6,6,16,4
+Public Static Method,"net.grinder.util.GrinderClassPathUtils.buildClasspathBasedOnCurrentClassLoader",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,8,3,5,7,7,2,0,4,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.88",2,2,2,1
+Public Static Method,"net.grinder.util.GrinderClassPathUtils.filterClassPath",,,,,,,,,,,,,,,,,,,,,,,,,,,4,29,0,18,3,13,11,10,5,1,6,11,4,9,4,4,14,3,1,,,,,1,,2,1,,,"0.61",4,4,14,3
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder.infra",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder.infra.init",7,7,10,1,31,2,26,3,,,,,1,0,1,,1,,1,0,1,,0,0,0,1,,58,8,37,17,19,13,,,,18,27,17,16,,,,,,7,7,10,1,,,5,,,,"0.35",7,7,10,1
+Public Class,"org.ngrinder.infra.init.ClassPathInit",7,7,10,1,31,2,26,3,1,7,7,0,,0,1,,,,1,0,1,1,0,0,0,1,,46,3,30,10,19,13,,,,11,20,10,16,,,,,,7,7,10,1,,1,5,,0,0,"0.43",7,7,10,1
+Public Method,"org.ngrinder.infra.init.ClassPathInit.init",,,,,,,,,,,,,,,,,,,,,,,,,,,3,31,2,26,7,18,3,12,6,1,10,18,8,15,7,7,10,1,0,,,,,0,,5,0,,,"0.12",7,7,10,1

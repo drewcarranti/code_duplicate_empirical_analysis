@@ -1,0 +1,564 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AdvancedGenealogyService.java",1,1,2,1,7,0,6,0,,,,,1,0,0,10,,10,10,3,10,,0,3,0,7,,143,27,93,40,40,23,,,,46,66,36,36,,,,,,3,3,4,1,,,1,,,,"0.25",19,19,20,10
+File,"BasicConstants.java",1,1,1,1,3,1,2,0,,,,,1,0,51,1,,1,1,0,1,,0,1,0,0,,137,56,56,54,51,25,,,,52,54,54,0,,,,,,1,1,1,1,,,0,,,,"0.45",1,1,1,1
+File,"BasicProductionCountingServiceImpl.java",2,2,2,1,14,1,12,0,,,,,1,0,9,43,,43,39,4,39,,0,22,0,17,,752,130,599,246,380,23,,,,262,368,197,245,,,,,,16,16,16,5,,,5,,,,"0.04",96,96,107,54
+File,"BatchModelValidators.java",1,1,1,1,9,2,7,0,,,,,1,0,1,7,,7,7,1,7,,0,2,0,5,,125,32,70,38,32,23,,,,43,55,35,30,,,,,,3,3,3,3,,,1,,,,"0.33",11,11,12,9
+File,"BatchNumberUniqueness.java",1,1,1,1,4,0,4,0,,,,,5,1,0,9,,8,9,5,10,,0,1,0,9,,96,15,58,32,19,23,,,,23,35,21,19,,,,,,4,4,4,4,,,2,,,,"0.40",11,11,11,10
+File,"ChangeTechnologyParametersListeners.java",3,3,3,1,32,2,29,0,,,,,1,0,13,9,,9,5,4,5,,0,2,0,3,,264,43,221,91,143,0,,,,127,159,82,100,,,,,,9,9,9,4,,,3,,,,"0.00",32,32,34,15
+File,"DashboardController.java",2,2,2,1,10,1,9,0,,,,,1,0,0,1,,1,1,3,1,,0,0,0,1,,66,9,34,27,5,23,,,,22,25,22,4,,,,,,2,2,2,1,,,1,,,,"0.68",2,2,2,1
+File,"DashboardViewMF.java",1,1,2,1,13,2,10,0,,,,,1,0,0,6,,6,5,5,5,,0,4,0,1,,143,26,94,48,42,23,,,,61,71,41,36,,,,,,3,3,6,1,,,2,,,,"0.24",10,10,13,6
+File,"DeliveredProductDetailsHooks.java",1,1,1,1,12,2,10,0,,,,,1,0,5,17,,17,16,5,16,,0,7,0,9,,309,69,217,120,130,23,,,,141,170,108,112,,,,,,3,3,4,3,,,2,,,,"0.11",29,29,32,19
+File,"DeliveredProductHooks.java",1,1,2,1,13,2,10,0,,,,,1,0,1,28,,28,23,9,23,,0,16,0,7,,479,112,344,152,217,23,,,,162,211,125,140,,,,,,4,4,10,4,,,3,,,,"0.07",53,53,70,35
+File,"DeliveriesServiceImpl.java",2,2,2,1,12,1,10,0,,,,,1,0,10,76,,76,72,6,72,,0,25,0,47,,1107,240,844,324,492,23,,,,376,547,266,379,,,,,,15,15,15,5,,,4,,,,"0.03",168,168,198,97
+File,"DeliveryColumnFetcher.java",4,4,5,2,24,4,19,0,,,,,1,0,0,6,,6,6,2,6,,0,4,0,2,,208,39,146,54,78,23,,,,73,115,60,69,,,,,,10,10,10,7,,,4,,,,"0.16",29,29,32,14
+File,"DeliveryDetailsHooks.java",2,2,3,1,15,3,12,0,,,,,1,0,12,23,,23,23,7,23,,0,17,0,6,,508,115,370,196,235,23,,,,239,293,183,201,,,,,,5,5,7,5,,,4,,,,"0.06",51,51,73,27
+File,"DeliveryReportPdf.java",2,2,3,1,17,3,14,0,,,,,1,0,2,19,,19,19,7,19,,0,16,2,1,,448,91,334,152,196,23,,,,188,250,137,165,,,,,,6,6,10,4,,,4,,,,"0.07",53,53,57,22
+File,"DetailedProductionCountingAndProgressListHooks.java",3,3,4,1,16,2,14,0,,,,,1,0,3,6,,6,5,4,5,,0,1,0,4,,183,29,131,71,68,23,,,,72,93,62,49,,,,,,8,8,10,1,,,4,,,,"0.18",20,20,26,6
+File,"MachineWorkingPeriodHooksT.java",3,3,4,1,18,0,18,0,,,,,1,0,0,2,,2,2,2,2,,0,0,0,2,,86,8,55,29,30,23,,,,32,40,26,24,,,,,,5,5,7,1,,,2,,,,"0.42",7,7,9,2
+File,"MachineWorkingPeriodValidators.java",1,1,2,1,7,0,7,0,,,,,1,0,0,20,,20,7,0,7,,0,6,0,1,,185,27,135,45,93,23,,,,63,88,39,70,,,,,,6,6,6,5,,,2,,,,"0.17",37,37,47,32
+File,"MasterOrderDetailsHooks.java",2,2,2,1,16,2,13,0,,,,,1,0,8,8,,8,8,2,8,,0,5,0,3,,217,47,144,78,89,26,,,,100,117,73,74,,,,,,3,3,6,3,,,1,,,,"0.18",16,16,19,10
+File,"MasterOrderProductDetailsHooks.java",3,3,3,1,21,3,18,0,,,,,1,0,0,5,,5,5,4,5,,0,3,0,2,,179,29,127,68,70,23,,,,74,92,58,55,,,,,,5,5,6,3,,,3,,,,"0.18",16,16,18,7
+File,"NumberPatternCriteriaModifiersAG.java",1,1,1,1,5,0,5,0,,,,,1,0,0,1,,1,1,1,1,,0,0,0,1,,23,5,18,13,3,0,,,,10,12,11,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"NumberPatternHooks.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,1,2,,0,1,0,1,,29,6,23,16,3,0,,,,13,17,14,3,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"OrderXlsxImportService.java",2,2,2,1,11,1,9,0,,,,,1,0,10,16,,16,14,5,14,,0,12,0,2,,282,64,195,96,108,23,,,,107,141,85,86,,,,,,6,6,9,1,,,4,,,,"0.12",35,35,47,16
+File,"OrderedProductDetailsHooks.java",1,1,1,1,12,2,10,0,,,,,1,0,2,8,,8,8,3,8,,0,4,0,4,,174,35,116,69,63,23,,,,82,96,64,59,,,,,,3,3,3,1,,,2,,,,"0.20",13,13,13,8
+File,"OrdersForSubproductsGenerationService.java",2,2,2,1,17,3,13,0,,,,,1,0,7,27,,27,23,10,23,,0,9,0,14,,616,135,458,191,285,23,,,,258,329,169,210,,,,,,11,11,11,1,,,7,,,,"0.05",63,63,71,27
+File,"ParameterFieldsAG.java",1,1,1,1,3,1,2,0,,,,,1,0,3,1,,1,1,0,1,,0,1,0,0,,37,6,8,6,3,23,,,,4,6,6,0,,,,,,1,1,1,1,,,0,,,,"2.88",1,1,1,1
+File,"ParameterFieldsPC.java",1,1,1,1,3,1,2,0,,,,,1,0,33,1,,1,1,0,1,,0,1,0,0,,98,37,38,36,33,23,,,,34,36,36,0,,,,,,1,1,1,1,,,0,,,,"0.61",1,1,1,1
+File,"ProductDetailsHooksAG.java",2,2,2,1,12,1,11,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,48,5,20,12,8,23,,,,11,14,10,6,,,,,,2,2,2,1,,,1,,,,"1.15",2,2,2,1
+File,"ProductFields.java",1,1,1,1,3,1,2,0,,,,,1,0,33,1,,1,1,0,1,,0,1,0,0,,98,37,38,36,33,23,,,,34,36,36,0,,,,,,1,1,1,1,,,0,,,,"0.61",1,1,1,1
+File,"ProductHooksAG.java",9,9,13,1,38,1,37,0,,,,,1,0,0,1,,1,1,3,1,,0,0,0,1,,69,9,60,33,29,0,,,,35,45,26,24,,,,,,9,9,13,1,,,3,,,,"0.00",9,9,13,1
+File,"ProductionTrackingDetailsListeners.java",2,2,2,1,17,3,14,0,,,,,1,0,3,23,,23,21,9,21,,0,5,0,16,,541,120,398,203,246,23,,,,226,280,175,183,,,,,,5,5,5,1,,,3,,,,"0.06",52,52,56,23
+File,"ProductionTrackingHooks.java",2,2,2,1,14,2,12,0,,,,,1,0,1,19,,19,17,12,17,,0,13,0,4,,401,79,299,136,164,23,,,,148,193,113,115,,,,,,8,8,10,5,,,5,,,,"0.08",45,45,55,23
+File,"SalesPlanDetailsListeners.java",2,2,2,1,22,3,18,0,,,,,1,0,1,25,,25,21,2,21,,0,11,0,10,,487,105,382,157,270,0,,,,213,269,144,188,,,,,,6,6,6,5,,,4,,,,"0.00",52,52,53,34
+File,"SalesPlanProductHooks.java",1,1,1,1,6,0,6,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,20,5,15,9,4,0,,,,9,11,8,3,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"TechnologyOperationComponentHooks.java",2,2,3,1,17,2,14,0,,,,,1,0,0,15,,15,14,2,14,,0,10,0,4,,342,64,255,91,163,23,,,,118,163,81,113,,,,,,6,6,9,4,,,4,,,,"0.09",42,42,55,20
+File,"TrackingOperationProductInComponentHooks.java",4,4,5,1,31,3,27,0,,,,,1,0,2,4,,4,4,2,4,,0,3,0,1,,170,27,143,57,92,0,,,,64,82,47,50,,,,,,7,7,10,1,,,4,,,,"0.00",17,17,20,4
+File,"UserBlockedController.java",2,2,2,1,12,3,9,0,,,,,1,0,1,5,,5,5,6,5,,0,2,0,3,,145,31,90,54,32,24,,,,57,69,46,30,,,,,,4,4,4,1,,,2,,,,"0.27",11,11,12,5
+File,"WorkstationDetailsHooks.java",2,2,2,1,15,1,13,0,,,,,1,0,0,5,,5,5,3,5,,0,4,0,1,,145,19,103,57,53,23,,,,72,85,53,50,,,,,,3,3,3,1,,,2,,,,"0.22",11,11,11,5
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.advancedGenealogy",1,1,2,1,7,0,6,0,,,,,1,0,0,,1,,10,3,10,,0,3,0,7,,143,27,93,40,40,23,,,,46,66,36,36,,,,,,3,3,4,1,,,1,,,,"0.25",19,19,20,10
+Public Class,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService",1,1,2,1,7,0,6,0,1,15,15,0,,0,0,,,,10,3,10,10,0,3,0,7,,124,23,78,25,40,23,,,,31,51,21,36,,,,,,3,3,4,1,,1,1,,83,56,"0.29",19,19,20,10
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.createBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.createBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,3,11,2,7,0,8,4,1,5,8,2,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.createOrGetBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,2,11,2,7,0,7,4,1,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.createOrGetBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,2,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,8,12,2,10,2,6,0,9,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getBatchDD",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getNumberFromNumberPattern",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,0,14,4,10,0,4,3,0,7,10,4,8,3,3,4,1,2,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Final Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getTrackingRecord",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.AdvancedGenealogyService.getTrackingRecordDD",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.advancedGenealogy.constants",1,1,1,1,4,0,4,0,,,,,6,1,3,,2,,10,5,11,,0,2,0,9,,133,21,66,38,22,46,,,,27,41,27,19,,,,,,4,4,4,4,,,2,,,,"0.70",12,12,12,11
+Public Enum Type,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness",1,1,1,1,3,0,3,0,1,4,4,4,,1,0,,,,5,5,6,6,0,1,0,5,,87,11,53,27,19,23,,,,18,30,16,19,,,,,,4,4,4,4,,1,2,,,,"0.43",6,6,6,6
+Anonymous Class,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_1)",2,2,2,1,9,0,9,0,1,3,3,0,,0,0,,,,1,0,1,7,0,0,0,1,,11,1,10,5,5,0,,,,4,6,3,5,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_1).buildCriterionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,4,5,0,6,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_2)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,7,0,0,0,1,,7,1,6,4,2,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_2).buildCriterionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,2,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_3)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,7,0,0,0,1,,7,1,6,4,2,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_3).buildCriterionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,2,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_4)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,7,0,0,0,1,,7,1,6,4,2,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.(Anon_4).buildCriterionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,2,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.BatchNumberUniqueness",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.buildCriterionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.getStringValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.parseString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,6,0,5,4,1,3,8,2,6,4,4,4,4,4,,,,,4,,2,4,,,"0.00",4,4,4,4
+Public Implicit Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.qcadoo.mes.advancedGenealogy.constants.BatchNumberUniqueness.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Final Class,"com.qcadoo.mes.advancedGenealogy.constants.ParameterFieldsAG",1,1,1,1,3,1,2,0,1,1,1,0,,0,3,,,,1,0,1,1,0,1,0,0,,35,5,7,5,3,23,,,,3,5,5,0,,,,,,1,1,1,1,,1,0,,0,0,"3.29",1,1,1,1
+Private Constructor,"com.qcadoo.mes.advancedGenealogy.constants.ParameterFieldsAG.ParameterFieldsAG",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,1,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.advancedGenealogy.criteriaModifier",1,1,1,1,5,0,5,0,,,,,1,0,0,,1,,1,1,1,,0,0,0,1,,23,5,18,13,3,0,,,,10,12,11,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+Public Class,"com.qcadoo.mes.advancedGenealogy.criteriaModifier.NumberPatternCriteriaModifiersAG",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,1,1,1,0,0,0,1,,12,2,10,5,3,0,,,,2,4,3,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.criteriaModifier.NumberPatternCriteriaModifiersAG.restrictNumberPatternForUnused",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.advancedGenealogy.hooks",2,2,3,1,13,2,10,0,,,,,3,0,1,,3,,9,4,9,,0,2,0,7,,242,46,150,83,69,46,,,,89,114,71,60,,,,,,9,9,13,3,,,3,,,,"0.31",22,22,27,11
+Public Class,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators",1,1,1,1,9,2,7,0,1,11,11,0,,0,1,,,,7,1,7,7,0,2,0,5,,106,28,55,23,32,23,,,,28,40,20,30,,,,,,3,3,3,3,,1,1,,85,57,"0.42",11,11,12,9
+Private Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.buildCriteriaForExternalNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,3,9,4,6,0,7,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.checkIfBatchNumberIsUnique",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,6,13,4,9,0,7,3,0,7,10,4,9,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.checkIfExternalNumberIsUnique",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,3,8,2,5,0,5,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.existsAnyBatchMatchingCriterion",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,3,6,2,4,0,8,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.getBatchNumberErrorMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.getBatchNumberUniqueness",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,2,5,3,3,0,4,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"com.qcadoo.mes.advancedGenealogy.hooks.BatchModelValidators.validatesWith",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,2,3,0,3,1,0,3,4,2,3,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Class,"com.qcadoo.mes.advancedGenealogy.hooks.ProductDetailsHooksAG",2,2,2,1,12,1,11,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,39,2,14,6,8,23,,,,5,8,4,6,,,,,,2,2,2,1,,1,1,,0,0,"1.64",2,2,2,1
+Public Final Method,"com.qcadoo.mes.advancedGenealogy.hooks.ProductDetailsHooksAG.setBatchNumberPatternEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,4,8,0,4,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.qcadoo.mes.advancedGenealogy.hooks.ProductHooksAG",9,9,13,1,38,1,37,0,1,13,13,0,,0,0,,,,1,3,1,1,0,0,0,1,,52,6,46,19,29,0,,,,21,31,12,24,,,,,,9,9,13,1,,1,3,,0,0,"0.00",9,9,13,1
+Public Method,"com.qcadoo.mes.advancedGenealogy.hooks.ProductHooksAG.setUsedInForNumberPattern",,,,,,,,,,,,,,,,,,,,,,,,,,,11,38,1,37,11,29,0,15,24,1,18,27,8,24,9,9,13,1,2,,,,,0,,3,0,,,"0.00",9,9,13,1
+Package,"com.qcadoo.mes.basic",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.basic.constants",1,1,1,1,3,1,2,0,,,,,2,0,84,,2,,2,0,2,,0,2,0,0,,235,93,94,90,84,48,,,,86,90,90,0,,,,,,1,1,1,1,,,0,,,,"0.51",2,2,2,2
+Public Final Class,"com.qcadoo.mes.basic.constants.BasicConstants",1,1,1,1,3,1,2,0,1,1,1,0,,0,51,,,,1,0,1,1,0,1,0,0,,135,55,55,53,51,25,,,,51,53,53,0,,,,,,1,1,1,1,,1,0,,0,0,"0.45",1,1,1,1
+Private Constructor,"com.qcadoo.mes.basic.constants.BasicConstants.BasicConstants",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,1,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"com.qcadoo.mes.basic.constants.ProductFields",1,1,1,1,3,1,2,0,1,1,1,0,,0,33,,,,1,0,1,1,0,1,0,0,,96,36,37,35,33,23,,,,33,35,35,0,,,,,,1,1,1,1,,1,0,,0,0,"0.62",1,1,1,1
+Private Constructor,"com.qcadoo.mes.basic.constants.ProductFields.ProductFields",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,1,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.basic.controllers",2,2,2,1,12,2,9,0,,,,,2,0,1,,2,,6,9,6,,0,2,0,4,,211,40,124,81,37,47,,,,79,94,68,34,,,,,,4,4,4,1,,,2,,,,"0.38",13,13,14,6
+Public Class,"com.qcadoo.mes.basic.controllers.DashboardController",2,2,2,1,10,1,9,0,1,16,16,0,,0,0,,,,1,3,1,1,0,0,0,1,,47,6,18,11,5,23,,,,6,9,6,4,,,,,,2,2,2,1,,1,1,,0,0,"1.28",2,2,2,1
+Public Method,"com.qcadoo.mes.basic.controllers.DashboardController.getDashboardView",,,,,,,,,,,,,,,,,,,,,,,,,,,9,10,1,9,3,5,0,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"com.qcadoo.mes.basic.controllers.UserBlockedController",2,2,2,1,12,3,9,0,1,27,27,0,,0,1,,,,5,6,5,5,0,2,0,3,,116,28,64,28,32,24,,,,31,43,20,30,,,,,,4,4,4,1,,1,2,,83,66,"0.38",11,11,12,5
+Private Method,"com.qcadoo.mes.basic.controllers.UserBlockedController.checkIfTimeForLoginIsUp",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,2,8,3,5,0,5,2,0,4,6,3,5,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.basic.controllers.UserBlockedController.getSystemAdminContactMail",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.basic.controllers.UserBlockedController.getUserBlockedView",,,,,,,,,,,,,,,,,,,,,,,,,,,6,23,7,15,5,11,1,11,2,0,10,12,4,11,2,2,2,1,0,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Method,"com.qcadoo.mes.basic.controllers.UserBlockedController.isAfterFirstPswdChange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basic.controllers.UserBlockedController.redirectToProfileChangePasswordOrUserBlocked",,,,,,,,,,,,,,,,,,,,,,,,,,,11,21,5,16,3,11,0,13,6,1,7,11,3,10,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Package,"com.qcadoo.mes.basic.hooks",2,2,2,1,11,0,11,0,,,,,2,0,0,,2,,7,4,7,,0,5,0,2,,174,25,126,73,56,23,,,,85,102,67,53,,,,,,3,3,3,1,,,2,,,,"0.18",14,14,14,7
+Public Class,"com.qcadoo.mes.basic.hooks.NumberPatternHooks",1,1,1,1,4,0,4,0,1,7,7,0,,0,0,,,,2,1,2,2,0,1,0,1,,16,3,13,6,3,0,,,,3,7,4,3,,,,,,2,2,2,1,,1,1,,50,0,"0.00",3,3,3,2
+Public Method,"com.qcadoo.mes.basic.hooks.NumberPatternHooks.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,3,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.basic.hooks.NumberPatternHooks.setNumberFromSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks",2,2,2,1,15,1,13,0,1,25,25,0,,0,0,,,,5,3,5,5,0,4,0,1,,116,15,78,32,53,23,,,,47,60,28,50,,,,,,3,3,3,1,,1,2,,80,53,"0.29",11,11,11,5
+Private Method,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks.deleteSubassemblyToWorkstationHelpers",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,6,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks.onBeforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks.setStateButtons",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,0,24,9,20,0,16,4,1,17,20,9,19,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks.setSubassembliesHelpers",,,,,,,,,,,,,,,,,,,,,,,,,,,12,24,5,19,7,15,0,15,3,0,13,17,8,15,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.basic.hooks.WorkstationDetailsHooks.setWorkstationIdForMultiUploadField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,15,5,12,0,5,2,0,9,11,4,10,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"com.qcadoo.mes.basic.validators",1,1,2,1,7,0,7,0,,,,,1,0,0,,1,,7,0,7,,0,6,0,1,,185,27,135,45,93,23,,,,63,88,39,70,,,,,,6,6,6,5,,,2,,,,"0.17",37,37,47,32
+Public Class,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators",3,3,4,2,19,2,17,0,1,8,8,0,,0,0,,,,7,0,7,7,0,6,0,1,,171,23,125,35,93,23,,,,53,78,29,70,,,,,,6,6,6,5,,1,2,,0,0,"0.18",37,37,47,32
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkDates",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,3,9,3,6,0,6,2,0,5,7,3,6,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkFutureDates",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,13,4,10,0,5,3,0,8,11,4,10,3,3,4,3,2,,,,,2,,1,2,,,"0.00",3,3,4,3
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfLaunchDateIsBeforeThanPreviousPeriodStopDate",,,,,,,,,,,,,,,,,,,,,,,,,,,11,24,1,23,6,18,0,13,5,1,8,12,5,11,4,4,4,3,2,,,,,2,,2,2,,,"0.00",8,8,10,7
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfLaunchDateIsBeforeThanPreviousPeriodStopDate.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfLaunchDateIsBeforeThanPreviousPeriodStopDate.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,0,3,0,4,1,0,0,0,0,0,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfLaunchDateIsBeforeThanPreviousPeriodStopDate.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfLaunchDateIsBeforeThanPreviousPeriodStopDate.(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopAlreadyAdded",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,5,17,5,12,0,13,5,1,7,11,4,10,4,4,4,3,2,,,,,2,,2,2,,,"0.00",6,6,6,5
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopAlreadyAdded.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopAlreadyAdded.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopIsLast",,,,,,,,,,,,,,,,,,,,,,,,,,,11,33,2,31,8,25,0,13,7,1,11,17,6,16,6,6,6,5,6,,,,,6,,2,6,,,"0.00",10,10,10,9
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopIsLast.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopIsLast.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopIsLast.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfPeriodWithoutStopIsLast.(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfStopDateIsLaterThanNextPeriodLaunchDate",,,,,,,,,,,,,,,,,,,,,,,,,,,9,21,1,20,5,15,0,13,5,1,7,11,4,10,4,4,4,3,2,,,,,2,,2,2,,,"0.00",7,7,8,6
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfStopDateIsLaterThanNextPeriodLaunchDate.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfStopDateIsLaterThanNextPeriodLaunchDate.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.checkIfStopDateIsLaterThanNextPeriodLaunchDate.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basic.validators.MachineWorkingPeriodValidators.validatesWith",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,9,2,7,0,7,1,0,7,8,2,7,1,1,6,1,0,,,,,0,,0,0,,,"0.00",1,1,6,1
+Package,"com.qcadoo.mes.basicProductionCounting",2,2,2,1,14,1,12,0,,,,,1,0,9,,1,,39,4,39,,0,22,0,17,,752,130,599,246,380,23,,,,262,368,197,245,,,,,,16,16,16,5,,,5,,,,"0.04",96,96,107,54
+Public Class,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl",2,2,2,1,15,1,13,0,2,54,54,0,,0,9,,,,39,4,39,39,0,22,0,17,,693,125,545,192,380,23,,,,208,314,143,245,,,,,,16,16,16,5,,1,5,,90,74,"0.04",96,96,107,54
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.checkIfProductAlreadyExists",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,10,3,7,0,3,2,0,3,5,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.checkIfProductExists",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,4,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.checkIfProductIsFinalProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,3,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.checkIfProductsAreSame",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,1,7,2,4,0,6,2,0,3,5,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.checkIfTechnologyOperationComponentsAreSame",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,3,0,4,1,0,2,3,2,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.createBasicProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,3,12,3,9,0,7,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.createProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,7,14,8,11,0,11,1,0,9,10,6,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.createProductionCountingOperationRun",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,2,8,2,6,0,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.createProductionCountingOperationRuns",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,9,4,6,0,8,2,0,5,8,5,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.fillFlow",,,,,,,,,,,,,,,,,,,,,,,,,,,27,79,5,74,18,60,0,15,24,1,20,37,11,35,16,16,16,1,6,,,,,0,,5,0,,,"0.00",16,16,16,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.fillRowStylesDependsOfTypeOfMaterial",,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,3,16,5,12,0,6,4,1,7,11,3,10,4,4,4,1,3,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,3,14,6,9,0,5,4,1,7,11,6,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getBasicProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getBasicProductionCountingDD",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getMaterialsForOperationFromProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,5,6,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getNeededProductQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,4,23,5,15,0,12,7,1,8,15,6,11,5,5,5,1,2,,,,,0,,3,0,,,"0.00",5,5,5,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getOperationProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,6,26,3,23,7,18,0,9,4,1,5,10,5,8,4,4,4,4,4,,,,,4,,3,4,,,"0.00",7,7,10,7
+Lambda Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getOperationProduct.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,0,2,0,4,1,0,0,0,0,0,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Lambda Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getOperationProduct.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,4,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Lambda Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getOperationProduct.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getOrderTechnologyOperationComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getProducedQuantityFromBasicProductionCountings",,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,1,15,5,12,0,18,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getProductionCountingOperationRunDD",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getProductionCountingQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getProductionCountingQuantityDD",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getRole",,,,,,,,,,,,,,,,,,,,,,,,,,,7,9,0,9,1,6,0,3,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getTypeOfMaterial",,,,,,,,,,,,,,,,,,,,,,,,,,,10,16,0,16,2,11,0,5,5,1,5,10,1,9,5,5,5,5,6,,,,,6,,2,6,,,"0.00",5,5,5,5
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getUsedMaterialsFromProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.getUsedMaterialsFromProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,9,14,1,13,4,9,0,9,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.isRoleProduced",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.prepareBasicProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,5,20,6,15,0,10,3,0,6,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",4,4,6,2
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.prepareBasicProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,2,9,2,7,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.prepareBasicProductionCounting.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,0,6,0,4,1,0,0,0,0,0,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.prepareProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,4,33,5,28,16,20,0,16,6,1,15,20,13,18,4,4,4,3,1,,,,,1,,2,1,,,"0.00",4,4,4,3
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.prepareProductionCountingQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,23,25,2,23,4,18,0,8,2,0,12,14,2,13,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.saveBasicProductionCounting",,,,,,,,,,,,,,,,,,,,,,,,,,,10,31,6,25,6,18,0,9,10,1,12,20,8,15,5,5,6,1,0,,,,,0,,2,0,,,"0.00",5,5,6,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.setTechnologyOperationComponentFieldRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,3,10,8,7,0,5,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProducedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,4,9,0,12,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProductionCountingOperationRun",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,2,15,4,11,0,9,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProductionCountingOperationRuns",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,1,7,3,4,0,5,2,0,3,6,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,5,17,9,12,0,13,2,0,8,11,8,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProductionCountingQuantitiesAndOperationRuns",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,2,9,6,6,0,6,1,0,5,6,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.basicProductionCounting.BasicProductionCountingServiceImpl.updateProductionCountingQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,14,23,2,21,4,17,0,11,2,0,8,10,2,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"com.qcadoo.mes.basicProductionCounting.hooks",3,3,4,1,16,2,14,0,,,,,1,0,3,,1,,5,4,5,,0,1,0,4,,183,29,131,71,68,23,,,,72,93,62,49,,,,,,8,8,10,1,,,4,,,,"0.18",20,20,26,6
+Public Class,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks",3,3,5,1,20,2,17,0,1,29,29,0,,0,3,,,,5,4,5,5,0,1,0,4,,150,25,102,42,68,23,,,,43,64,33,49,,,,,,8,8,10,1,,1,4,,80,80,"0.23",20,20,26,6
+Private Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.disable",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,2,9,2,6,0,4,2,0,3,5,2,4,2,2,4,1,1,,,,,0,,1,0,,,"0.00",2,2,4,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.onRemoveSelectedProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,9,36,4,32,10,24,0,19,20,1,14,23,9,20,8,8,10,1,3,,,,,0,,4,0,,,"0.00",9,9,11,2
+Lambda Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.onRemoveSelectedProductionCountingQuantities.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.performActionOnBack",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,14,3,9,0,7,4,1,3,7,2,6,4,4,5,1,1,,,,,0,,3,0,,,"0.00",4,4,5,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.setGridEditableDependsOfOrderState",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,1,14,5,10,0,6,3,0,7,10,5,9,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.basicProductionCounting.hooks.DetailedProductionCountingAndProgressListHooks.useReplacement",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,5,19,9,16,0,13,2,0,9,11,7,9,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Package,"com.qcadoo.mes.deliveries",2,2,2,1,12,1,10,0,,,,,1,0,10,,1,,72,6,72,,0,25,0,47,,1107,240,844,324,492,23,,,,376,547,266,379,,,,,,15,15,15,5,,,4,,,,"0.03",168,168,198,97
+Public Class,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl",2,2,2,1,12,2,10,0,2,61,61,0,,0,10,,,,72,6,72,72,0,25,0,47,,1045,236,786,266,492,23,,,,318,489,208,379,,,,,,15,15,15,5,,1,4,,95,86,"0.03",168,168,198,97
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.calculatePricePerUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,7,23,3,20,6,15,0,8,6,1,9,13,5,11,4,4,10,1,2,,,,,0,,1,0,,,"0.00",4,4,10,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.calculatePricePerUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,2,9,2,5,0,5,2,0,4,6,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.calculatePriceUsingPricePerUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,3,11,8,8,0,9,1,0,7,8,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.calculatePriceUsingTotalCost",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,3,11,8,8,0,9,1,0,7,8,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.calculateTotalPrice",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,2,9,2,5,0,5,2,0,4,6,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.changedFieldValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,2,5,0,7,2,0,3,5,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.checkIfContainsPriceColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,3,10,3,6,0,3,3,0,4,8,4,5,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.disableShowProductButton",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,4,15,11,12,0,9,1,0,11,12,9,10,1,1,4,1,0,,,,,0,,0,0,,,"0.00",1,1,4,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillCurrencyFields",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,2,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillCurrencyFieldsForDelivery",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,2,9,4,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,2,7,2,4,0,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,3,13,4,7,0,5,3,0,5,8,2,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,1,6,4,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.generateAddressFromCompany",,,,,,,,,,,,,,,,,,,,,,,,,,,7,37,4,33,8,23,0,6,22,1,16,24,7,23,8,8,8,1,0,,,,,0,,4,0,,,"0.00",8,8,8,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.gerOrderedProductForDeliveredProductWhenAllNotNull",,,,,,,,,,,,,,,,,,,,,,,,,,,2,29,9,20,2,13,0,7,5,1,10,15,2,13,5,5,5,5,4,,,,,4,,1,4,,,"0.00",5,5,5,5
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getBatchCustomSearchCriterion",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,13,5,10,0,16,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getBatchCustomSearchCriterion.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getBigDecimalFromField",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,2,11,4,7,0,8,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getColumnForDeliveriesDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getColumnsForDeliveries",,,,,,,,,,,,,,,,,,,,,,,,,,,5,28,5,23,8,18,0,15,3,0,7,11,6,9,3,3,8,1,0,,,,,0,,2,0,,,"0.00",3,3,8,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getColumnsForOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,4,12,7,8,0,10,2,0,5,8,5,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getColumnsWithFilteredCurrencies",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,3,15,4,9,0,7,4,1,5,10,4,8,4,4,4,1,1,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCompanyProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCompanyProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCompanyProduct.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCompanyProductDD",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCompanyProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,2,10,2,7,0,11,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getCurrency",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,2,12,3,7,0,8,3,0,4,7,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDefaultSupplier",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,4,13,3,9,0,12,3,0,5,8,3,7,3,3,4,3,3,,,,,3,,2,3,,,"0.00",3,3,4,3
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDefaultSupplierForParticularProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,1,5,3,3,0,6,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDefaultSupplierForProductsFamily",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,2,9,3,6,0,7,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDefaultSupplierWithIntegration",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,5,16,3,11,0,12,4,1,6,10,3,9,4,4,5,4,4,,,,,4,,3,4,,,"0.00",4,4,5,4
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDeliveredProductDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDelivery",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDeliveryAddressDefaultValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,9,3,5,0,7,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDeliveryDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getDescriptionDefaultValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getIntegrationDefaultSupplier",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOfferCustomSearchCriterion",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,2,12,5,9,0,16,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOfferCustomSearchCriterion.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOperationCustomSearchCriterion",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,2,12,5,9,0,16,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOperationCustomSearchCriterion.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductDD",,,,,,,,,,,,,,,,,,,,,,,,,,,9,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,12,10,2,8,6,4,0,7,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWhenBatchIsNull",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,5,12,2,7,0,5,3,0,6,9,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWhenOfferIsNull",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,5,12,2,7,0,5,3,0,6,9,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWhenOperationIsNull",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,5,12,2,7,0,5,3,0,6,9,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithAllNull",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,2,5,1,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithBatchAndOffer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithBatchAndOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithOffer",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithOfferAndOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getOrderedProductForDeliveredProductWithOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getParameterDeliveryOrderColumnDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,7,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getProductDD",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getProductEntityByComponentName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,3,8,3,5,0,3,2,0,4,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSearchCriteriaBuilderForDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSearchCriteriaBuilderForDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,20,86,10,76,12,58,0,12,640,3,27,42,10,41,15,15,15,1,9,,,,,0,,3,0,,,"0.00",15,15,15,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSearchCriteriaBuilderForOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSearchCriteriaBuilderForOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,20,64,6,58,11,44,0,11,80,2,21,32,9,31,11,11,11,1,7,,,,,0,,3,0,,,"0.00",11,11,11,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSelectedOrderedProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,5,10,4,7,0,11,2,0,6,8,4,7,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSuitableOrderedProductForDeliveredProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,2,15,4,12,0,8,5,1,8,13,4,12,5,5,10,5,4,,,,,4,,1,4,,,"0.00",5,5,10,5
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSuppliersForParticularProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,2,2,0,6,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSuppliersForProductsFamily",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,2,9,3,6,0,7,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.getSuppliersWithIntegration",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,3,6,2,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.isValidDecimalField",,,,,,,,,,,,,,,,,,,,,,,,,,,7,20,5,15,4,11,0,6,3,0,7,11,5,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.recalculatePrice",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,2,16,5,11,0,7,4,1,6,10,4,9,4,4,6,1,2,,,,,0,,1,0,,,"0.00",4,4,6,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.recalculatePriceFromPricePerUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,12,4,7,0,6,3,0,4,7,3,6,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.recalculatePriceFromTotalPrice",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,12,4,7,0,6,3,0,4,7,3,6,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Private Method,"com.qcadoo.mes.deliveries.DeliveriesServiceImpl.setFieldValues",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,1,7,2,4,0,3,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"com.qcadoo.mes.deliveries.hooks",1,1,2,1,13,2,11,0,,,,,4,0,20,,4,,70,24,70,,0,44,0,26,,1470,331,1047,537,645,92,,,,624,770,480,512,,,,,,5,5,10,5,,,4,,,,"0.09",146,146,188,89
+Public Class,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks",1,1,1,1,13,2,10,0,1,30,30,0,,0,5,,,,16,5,16,16,0,7,0,9,,275,65,187,90,130,23,,,,111,140,78,112,,,,,,3,3,4,3,,1,2,,90,81,"0.12",29,29,32,19
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.beforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,3,14,3,12,0,12,1,0,12,13,3,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.disableReservationsForWaste",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,3,7,5,5,0,4,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.fillConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,7,25,6,19,8,15,0,10,3,0,11,14,7,13,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.fillCurrencyFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,3,7,5,5,0,5,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.fillOrderedQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,3,13,6,10,0,7,2,0,8,10,6,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,1,5,3,3,0,2,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.filterBy",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,1,7,2,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.getConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,1,10,3,7,0,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.getConversion.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.getDefaultConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,2,10,3,6,0,6,3,0,4,7,3,6,3,3,4,3,2,,,,,2,,2,2,,,"0.00",3,3,4,3
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.getOrderedProductQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,6,15,5,11,0,6,3,0,8,11,5,9,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.lockConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,3,4,0,5,2,0,3,5,3,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.setAdditionalQuantityFieldRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,3,4,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.setBatchLookupProductFilterValue",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,2,7,3,4,0,4,2,0,3,5,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.setDeliveredQuantityFieldRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,3,4,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.setFilters",,,,,,,,,,,,,,,,,,,,,,,,,,,10,27,4,23,11,19,0,9,4,1,14,17,9,16,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductDetailsHooks.togglePriceFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,2,13,7,11,0,3,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks",2,2,2,1,15,3,12,0,1,29,29,0,,0,1,,,,23,9,23,23,0,16,0,7,,446,108,315,123,217,23,,,,133,182,96,140,,,,,,4,4,10,4,,1,3,,91,82,"0.07",53,53,70,35
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.checkIfDeliveredProductAlreadyExists",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,5,16,5,12,0,12,4,1,7,10,4,9,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.checkIfDeliveredProductChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,7,33,7,26,9,21,0,6,4,1,12,16,9,15,4,4,10,4,3,,,,,3,,1,3,,,"0.00",4,4,10,4
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.checkIfDeliveredQuantityIsLessThanDamagedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,3,14,4,10,0,6,2,0,6,8,3,7,2,2,4,1,1,,,,,0,,1,0,,,"0.00",2,2,4,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.checkIfDeliveredQuantityIsLessThanOrderedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,5,17,4,12,0,11,3,0,7,10,3,9,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.createBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,9,21,4,17,8,13,0,9,3,0,10,13,8,12,3,3,5,1,1,,,,,0,,2,0,,,"0.00",3,3,5,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.findStorageLocationForProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,2,6,2,4,0,8,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getDeliveredProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,3,11,5,8,0,11,2,0,5,7,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getDeliveredQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,4,11,5,8,0,8,2,0,5,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getDeliveredQuantity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getOrderedProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,2,8,5,6,0,8,1,0,4,5,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getOrderedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,4,11,5,8,0,8,2,0,5,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getOrderedQuantity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getOtherDeliveredProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,3,5,0,9,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.getStorageLocationDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.isBiggerDeliveredQuantityAllowed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.notTooManyPalletsInStorageLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,7,49,9,40,10,34,0,13,4,1,10,14,8,11,4,4,5,3,2,,,,,2,,3,2,,,"0.00",4,4,5,3
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.onCreate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.onDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,3,5,0,2,1,0,4,5,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,2,7,1,5,0,5,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.tryFillStorageLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,3,10,5,7,0,5,2,0,5,7,5,6,2,2,3,1,0,,,,,0,,1,0,,,"0.00",3,3,4,2
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.tryFillStorageLocation.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.updateDeliveredAndAdditionalQuantityInOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,6,20,11,15,0,10,3,0,9,12,8,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.updateDeliveredAndAdditionalQuantityInOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,6,18,5,13,0,6,3,0,8,11,4,10,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.updateDeliveredAndAdditionalQuantityInOrderedProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,14,27,4,23,7,18,0,13,3,0,8,11,4,10,3,3,3,1,0,,,,,0,,2,0,,,"0.00",5,5,5,3
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.updateDeliveredAndAdditionalQuantityInOrderedProduct.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.updateDeliveredAndAdditionalQuantityInOrderedProduct.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.validatePallet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,1,7,1,4,0,5,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveredProductHooks.validatesWith",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,4,0,6,1,0,1,2,1,1,1,1,5,1,0,,,,,0,,0,0,,,"0.00",1,1,5,1
+Public Class,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks",2,2,3,1,15,3,12,0,1,43,43,0,,0,12,,,,23,7,23,23,0,17,0,6,,460,111,326,152,235,23,,,,195,249,139,201,,,,,,5,5,7,5,,1,4,,90,86,"0.07",51,51,73,27
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.changeFieldsEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,10,13,2,11,6,8,0,3,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.changeFieldsEnabledDependOnState",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,2,18,4,14,0,8,4,1,7,11,4,10,4,4,7,1,3,,,,,0,,2,0,,,"0.00",4,4,7,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.changeLocationEnabledDependOnState",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,3,12,5,9,0,8,2,0,6,8,5,7,2,2,4,1,1,,,,,0,,1,0,,,"0.00",2,2,4,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.disableShowProductButton",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillCompanyFieldsForSupplier",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,3,16,6,13,0,7,2,0,10,12,5,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillCurrencyFields",,,,,,,,,,,,,,,,,,,,,,,,,,,8,19,6,13,7,10,0,11,2,0,8,10,6,9,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillDeliveryAddressDefaultValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,3,11,4,7,0,7,3,0,5,8,4,7,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillDescriptionDefaultValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,3,11,4,7,0,7,3,0,5,8,4,7,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillLocationDefaultValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,5,17,5,12,0,11,4,1,8,12,5,11,4,4,5,1,2,,,,,0,,2,0,,,"0.00",4,4,5,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.fillRowStyles",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,3,8,3,5,0,6,2,0,4,6,3,5,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.filterStateChangeHistory",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,1,6,4,4,0,5,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.generateDeliveryNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.getSortedItemsFromFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,1,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.onBeforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,20,1,18,0,18,1,0,18,19,1,18,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.orderGridByProductNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,3,28,7,21,6,15,0,18,5,1,12,17,8,15,5,5,7,5,2,,,,,2,,4,2,,,"0.00",5,5,7,5
+Public Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.processRoles",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,2,4,0,5,3,0,2,6,3,4,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.setDeliveryIdForMultiUploadField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,2,13,4,10,0,6,2,0,8,10,4,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.togglePriceFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,2,11,6,9,0,3,1,0,9,10,6,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.updateAssignStorageLocationsButton",,,,,,,,,,,,,,,,,,,,,,,,,,,11,20,3,17,10,14,0,11,2,0,11,13,10,11,2,2,4,1,0,,,,,0,,1,0,,,"0.00",2,2,4,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.updateButtonState",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.updateChangeStorageLocationButton",,,,,,,,,,,,,,,,,,,,,,,,,,,12,41,11,30,18,24,0,16,5,1,17,23,16,20,5,5,7,1,0,,,,,0,,4,0,,,"0.00",5,5,7,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.updateCopyOrderedProductButtonsState",,,,,,,,,,,,,,,,,,,,,,,,,,,12,26,6,20,12,17,0,14,2,0,15,17,11,16,2,2,5,1,1,,,,,0,,1,0,,,"0.00",2,2,5,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.DeliveryDetailsHooks.updateRelatedDeliveryButtonsState",,,,,,,,,,,,,,,,,,,,,,,,,,,12,25,6,19,13,16,0,14,2,0,14,16,12,15,2,2,7,1,1,,,,,0,,1,0,,,"0.00",2,2,7,1
+Public Class,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks",1,1,1,1,12,2,10,0,1,22,22,0,,0,2,,,,8,3,8,8,0,4,0,4,,147,31,93,46,63,23,,,,59,73,41,59,,,,,,3,3,3,1,,1,2,,83,70,"0.25",13,13,13,8
+Public Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.beforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,3,7,0,7,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.fillAdditionalCodesLookup",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,3,16,6,13,0,10,2,0,10,12,5,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.fillConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,4,13,5,9,0,8,3,0,7,10,5,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.fillCriteriaModifiers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,7,0,7,2,0,6,8,4,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.fillCurrencyFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,3,7,5,5,0,5,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.fillUnitFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,2,7,3,5,0,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.setBatchLookupProductFilterValue",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,2,7,3,4,0,4,2,0,3,5,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.hooks.OrderedProductDetailsHooks.togglePriceFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,2,13,7,11,0,3,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.deliveries.print",3,3,3,1,18,3,15,0,,,,,2,0,2,,2,,25,9,25,,0,20,2,3,,656,130,480,206,274,46,,,,261,365,197,234,,,,,,10,10,10,7,,,4,,,,"0.10",82,82,89,36
+Public Class,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher",4,4,5,2,24,4,19,0,1,22,22,0,,0,0,,,,6,2,6,6,0,4,0,2,,183,34,126,34,78,23,,,,53,95,40,69,,,,,,10,10,10,7,,1,4,,75,41,"0.18",29,29,32,14
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.checkIfSetContainsProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,4,0,2,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.compareProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,4,8,0,8,2,0,6,8,4,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.fetchColumnValues",,,,,,,,,,,,,,,,,,,,,,,,,,,11,54,10,44,11,28,0,15,130,2,18,32,13,23,10,10,10,1,4,,,,,0,,4,0,,,"0.00",10,10,10,1
+Public Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.getDeliveryProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,38,10,28,7,21,0,9,18,1,16,25,10,21,6,6,6,1,0,,,,,0,,2,0,,,"0.00",6,6,6,1
+Public Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.getDeliveryProductsColumnValues",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,2,5,2,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryColumnFetcher.sortDeliveryProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,3,23,3,14,0,7,16,1,6,17,6,12,7,7,10,7,2,,,,,2,,3,2,,,"0.00",7,7,10,7
+Public Class,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf",2,2,3,1,17,3,14,0,1,47,47,0,,0,2,,,,19,7,19,19,0,16,2,1,,398,86,289,107,196,23,,,,143,205,92,165,,,,,,6,6,10,4,,2,4,,85,77,"0.08",53,53,57,22
+Protected Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.addContent",,,,,,,,,,,,,,,,,,,,,,,,,,,7,20,6,14,7,10,0,13,1,0,9,10,5,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.addTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.addTotalRow",,,,,,,,,,,,,,,,,,,,,,,,,,,17,42,4,38,5,33,0,19,6,1,21,27,4,25,6,6,10,1,4,,,,,0,,2,0,,,"0.00",6,6,10,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.createFirstColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,3,16,5,11,0,3,8,1,8,12,5,11,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.createHeaderTable",,,,,,,,,,,,,,,,,,,,,,,,,,,6,34,9,25,10,22,0,16,2,0,22,24,10,22,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.createProductsTable",,,,,,,,,,,,,,,,,,,,,,,,,,,12,46,12,34,15,26,0,20,8,1,16,25,14,21,6,6,6,1,0,,,,,0,,4,0,,,"0.00",6,6,6,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.createSecondColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,4,17,6,12,0,6,8,1,9,13,6,12,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.createThirdColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,4,27,7,20,0,9,32,2,12,18,7,17,6,6,6,1,0,,,,,0,,1,0,,,"0.00",6,6,6,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.filterEmptyColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,7,20,7,12,0,6,7,1,8,15,7,11,5,5,5,4,2,,,,,2,,3,2,,,"0.00",5,5,5,4
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.getDeliveryReportColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,3,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.getPrepareOrderDate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.getReceivedOrderDate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.getStringFromDate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.getUsedColumnsInDeliveryReport",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,5,17,8,12,0,9,4,1,7,12,7,10,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.prepareHeaderAlignment",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,0,13,4,9,0,7,3,0,6,10,5,7,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.prepareHeaderTranslation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.prepareProductColumnAlignment",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,1,4,0,2,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.prepareProductsTableHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,4,11,4,7,0,6,2,0,5,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.deliveries.print.DeliveryReportPdf.setSimpleFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.masterOrders",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.masterOrders.hooks",2,2,2,1,17,2,14,0,,,,,3,0,8,,3,,14,6,14,,0,8,0,6,,416,81,286,155,163,49,,,,183,220,139,132,,,,,,5,5,6,3,,,3,,,,"0.17",33,33,38,18
+Public Class,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks",2,2,2,1,16,2,13,0,1,22,22,0,,0,8,,,,8,2,8,8,0,5,0,3,,188,42,120,54,89,26,,,,76,93,49,74,,,,,,3,3,6,3,,1,1,,87,75,"0.22",16,16,19,10
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.checkIfShouldInsertNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,11,3,7,3,7,3,0,5,8,3,7,3,3,3,3,2,,,,,2,,1,2,,,"0.27",3,3,3,3
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.disableFields",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,2,15,6,12,0,7,2,0,10,12,6,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.initState",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,3,9,3,6,0,6,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.onBeforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,5,0,5,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.ribbonRender",,,,,,,,,,,,,,,,,,,,,,,,,,,14,44,9,35,15,31,0,20,4,1,26,29,14,28,3,3,6,1,2,,,,,0,,1,0,,,"0.00",3,3,6,1
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.setDefaultMasterOrderNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,2,5,0,6,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.setOrderLookupCriteriaModifier",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,2,10,4,7,0,6,2,0,5,7,4,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderDetailsHooks.toggleGenerateOrdersButton",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,4,10,6,8,0,9,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks",3,3,3,1,21,3,18,0,1,25,25,0,,0,0,,,,5,4,5,5,0,3,0,2,,150,25,102,43,70,23,,,,49,67,33,55,,,,,,5,5,6,3,,1,3,,75,55,"0.23",16,16,18,7
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks.fillDefaultTechnology",,,,,,,,,,,,,,,,,,,,,,,,,,,5,32,7,25,10,19,0,17,8,1,14,19,9,18,5,5,6,1,0,,,,,0,,3,0,,,"0.00",5,5,6,1
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks.fillQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,13,30,3,27,12,24,0,8,2,0,15,17,8,16,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks.fillUnitField",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,3,15,5,11,0,6,4,1,7,11,6,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks.onBeforeRender",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.hooks.MasterOrderProductDetailsHooks.showErrorWhenCumulatedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,2,18,5,12,0,11,5,1,5,10,4,9,5,5,6,3,2,,,,,2,,3,2,,,"0.00",5,5,6,3
+Public Class,"com.qcadoo.mes.masterOrders.hooks.SalesPlanProductHooks",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,11,2,9,3,4,0,,,,3,5,2,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.hooks.SalesPlanProductHooks.onCopy",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,1,4,0,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.masterOrders.listeners",2,2,2,1,22,3,18,0,,,,,1,0,1,,1,,21,2,21,,0,11,0,10,,487,105,382,157,270,0,,,,213,269,144,188,,,,,,6,6,6,5,,,4,,,,"0.00",52,52,53,34
+Public Class,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners",1,1,1,1,19,3,16,0,1,36,36,0,,0,1,,,,21,2,21,21,0,11,0,10,,449,101,348,123,270,0,,,,179,235,110,188,,,,,,5,5,6,5,,1,4,,73,61,"0.00",52,52,53,34
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.addProductsBySize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,5,10,5,8,0,11,1,0,8,9,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.changeState",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createOrderGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,8,86,12,74,24,67,0,14,1,0,40,47,19,43,1,1,1,1,0,,,,,0,,4,0,,,"0.00",7,7,7,2
+Lambda Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createOrderGroup.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,21,67,8,59,15,53,0,19,6,1,28,34,11,33,6,6,6,1,1,,,,,0,,0,0,,,"0.00",6,6,6,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,8,90,16,74,24,67,0,14,1,0,40,47,19,43,1,1,1,1,0,,,,,0,,4,0,,,"0.00",7,7,7,2
+Lambda Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createOrders.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,21,71,12,59,15,53,0,19,6,1,28,34,11,33,6,6,6,1,1,,,,,0,,0,0,,,"0.00",6,6,6,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createSalesPlanMaterialRequirement",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,7,17,9,12,0,9,3,0,10,13,8,11,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.createSalesPlanMaterialRequirement",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,3,6,2,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.fillTechnology",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,3,12,4,10,0,14,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getMasterOrderProductQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,1,19,5,16,0,13,2,0,11,13,4,11,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getMasterOrderProductQuantity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getOrderedQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,6,20,8,16,0,12,3,0,12,16,9,14,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getOrderedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,10,18,2,16,6,12,0,12,3,0,6,9,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",4,4,4,2
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getOrderedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,7,20,5,15,4,10,0,7,4,1,7,12,5,9,4,4,4,4,2,,,,,2,,3,2,,,"0.00",4,4,4,4
+Lambda Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getOrderedQuantity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getProductQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,3,10,2,6,0,5,3,0,4,8,3,5,3,3,3,3,2,,,,,2,,2,2,,,"0.00",3,3,3,3
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getProductsBySizeHelperDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getQuantityForFamily",,,,,,,,,,,,,,,,,,,,,,,,,,,11,18,2,16,2,9,0,10,5,1,3,10,3,7,5,5,6,5,2,,,,,2,,4,2,,,"0.00",5,5,6,5
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getSalesPlan",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getSalesPlanDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getSalesPlanMaterialRequirementDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.getSalesPlanProductDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.openPositionsImportPage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,5,12,7,9,0,7,2,0,8,10,7,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.showOrderedProductsForFamily",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,3,7,4,5,0,8,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.masterOrders.listeners.SalesPlanDetailsListeners.useOtherTechnology",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,3,12,4,10,0,14,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.materialFlow",1,1,2,1,13,2,10,0,,,,,1,0,0,,1,,5,5,5,,0,4,0,1,,143,26,94,48,42,23,,,,61,71,41,36,,,,,,3,3,6,1,,,2,,,,"0.24",10,10,13,6
+Public Class,"com.qcadoo.mes.materialFlow.DashboardViewMF",1,1,2,1,13,2,11,0,2,23,23,0,,0,0,,,,5,5,5,5,0,4,0,1,,116,23,70,24,42,23,,,,37,47,17,36,,,,,,3,3,6,1,,1,2,,80,80,"0.33",10,10,13,6
+Private Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.filterDashboardButtons",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,4,13,4,9,0,3,1,0,6,9,4,8,1,1,1,1,0,,,,,0,,2,0,,,"0.00",4,4,4,2
+Lambda Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.filterDashboardButtons.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,2,9,2,6,0,6,3,0,3,5,2,5,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.getDashboardButtons",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,10,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.getModelAndView",,,,,,,,,,,,,,,,,,,,,,,,,,,7,40,8,32,4,28,0,17,3,0,23,26,4,25,3,3,6,1,2,,,,,0,,1,0,,,"0.00",3,3,6,1
+Private Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.getShowChartOnDashboard",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.materialFlow.DashboardViewMF.getWhatToShowOnDashboard",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.orders",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.orders.imports",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.orders.imports.order",2,2,2,1,11,1,9,0,,,,,1,0,10,,1,,14,5,14,,0,12,0,2,,282,64,195,96,108,23,,,,107,141,85,86,,,,,,6,6,9,1,,,4,,,,"0.12",35,35,47,16
+Public Class,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService",2,2,3,1,12,2,10,0,1,26,26,0,,0,10,,,,14,5,14,14,0,12,0,2,,254,61,170,71,108,23,,,,82,116,60,86,,,,,,6,6,9,1,,2,4,,90,82,"0.14",35,35,47,16
+Public Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.createEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,2,6,3,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.setProductionTrackingFields",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.setProductionTrackingFields.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.setRequiredFields",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateDates",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,2,16,3,10,0,7,6,1,5,10,3,9,5,5,7,1,1,,,,,0,,2,0,,,"0.00",5,5,7,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,9,36,9,27,11,20,0,10,9,1,12,18,9,17,6,6,9,1,0,,,,,0,,4,0,,,"0.00",6,6,9,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateDivision",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,3,11,4,7,0,6,3,0,5,8,4,7,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,2,9,0,9,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,2,9,4,6,0,7,2,0,5,7,4,6,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,2,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validatePlannedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,4,12,6,9,0,7,2,0,7,9,6,7,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateProductionLine",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,2,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateProductionTrackingFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateTechnology",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,3,15,3,10,0,8,4,1,6,10,3,9,4,4,4,1,1,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateTechnologyStateAndProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,11,11,1,10,4,8,0,9,1,0,4,5,4,4,1,1,5,1,0,,,,,0,,0,0,,,"0.00",2,2,6,2
+Lambda Method,"com.qcadoo.mes.orders.imports.order.OrderXlsxImportService.validateTechnologyStateAndProduct.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.ordersForSubproductsGeneration",2,2,2,1,17,3,13,0,,,,,1,0,7,,1,,23,10,23,,0,9,0,14,,616,135,458,191,285,23,,,,258,329,169,210,,,,,,11,11,11,1,,,7,,,,"0.05",63,63,71,27
+Public Class,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService",2,2,2,1,19,3,16,0,1,62,62,0,,0,7,,,,23,10,23,23,0,9,0,14,,554,131,400,133,285,23,,,,200,271,111,210,,,,,,11,11,11,1,,1,7,,89,83,"0.06",63,63,71,27
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.addComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,4,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.buildDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,5,18,7,14,0,9,3,0,8,11,5,10,3,3,6,1,1,,,,,0,,2,0,,,"0.00",3,3,6,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.buildProductDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,3,6,0,5,4,1,3,7,2,6,4,4,5,1,0,,,,,0,,3,0,,,"0.00",4,4,5,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.findForOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,4,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",3,3,3,3
+Lambda Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.findForOrder.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.findForOrder.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,0,2,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.generateOrderForSubProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,37,68,13,55,12,48,0,27,8,1,37,41,9,40,4,4,5,1,2,,,,,0,,1,0,,,"0.00",4,4,5,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.generateOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,3,45,13,32,9,22,0,7,15,1,17,28,12,19,7,7,7,1,0,,,,,0,,4,0,,,"0.00",7,7,7,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.generateOrdersByCoverage",,,,,,,,,,,,,,,,,,,,,,,,,,,6,79,21,58,17,44,0,18,39,2,28,43,17,34,11,11,11,1,2,,,,,0,,7,0,,,"0.00",11,11,11,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.generatePostfixForNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,8,13,2,11,3,7,0,6,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.generateSimpleOrderForSubProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,36,57,10,47,9,41,0,24,4,1,32,35,6,34,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getComponentProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,2,11,5,9,0,8,1,0,3,4,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getComponentProductsForOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,2,6,3,4,0,4,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getComponentProductsForOrder.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getCoveragProductsForTOC",,,,,,,,,,,,,,,,,,,,,,,,,,,12,21,6,15,4,12,0,12,2,0,8,11,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getCoverageProductsForOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,1,9,3,7,0,7,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getDivision",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,1,14,4,9,0,5,4,1,5,9,4,8,4,4,4,1,1,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getInputProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,2,7,2,4,0,5,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getMainTocForOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,1,7,2,5,0,9,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getProductNodesWithCheckedTechnologies",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,3,8,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,4,2
+Lambda Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getProductNodesWithCheckedTechnologies.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,0,4,0,6,1,0,0,0,0,0,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getProductionLine",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,1,4,2,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getSubOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.getSubOrdersForRootAndLevel",,,,,,,,,,,,,,,,,,,,,,,,,,,9,5,0,5,1,3,0,8,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.hasSubOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,5,13,5,10,0,14,2,0,8,10,4,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.hasSubOrders",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,5,14,5,11,0,15,2,0,9,11,4,10,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.ordersForSubproductsGeneration.OrdersForSubproductsGenerationService.setOrderWithDefaultProductionCountingValues",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"com.qcadoo.mes.productionCounting",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.productionCounting.constants",1,1,1,1,3,1,2,0,,,,,1,0,33,,1,,1,0,1,,0,1,0,0,,98,37,38,36,33,23,,,,34,36,36,0,,,,,,1,1,1,1,,,0,,,,"0.61",1,1,1,1
+Public Final Class,"com.qcadoo.mes.productionCounting.constants.ParameterFieldsPC",1,1,1,1,3,1,2,0,1,1,1,0,,0,33,,,,1,0,1,1,0,1,0,0,,96,36,37,35,33,23,,,,33,35,35,0,,,,,,1,1,1,1,,1,0,,0,0,"0.62",1,1,1,1
+Private Constructor,"com.qcadoo.mes.productionCounting.constants.ParameterFieldsPC.ParameterFieldsPC",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,1,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.qcadoo.mes.productionCounting.hooks",2,2,3,1,17,2,14,0,,,,,2,0,3,,2,,21,14,21,,0,16,0,5,,571,106,442,193,256,23,,,,212,275,160,165,,,,,,8,8,10,5,,,5,,,,"0.05",62,62,75,27
+Public Class,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks",2,2,3,1,15,2,13,0,1,44,44,0,,0,1,,,,17,12,17,17,0,13,0,4,,352,75,254,91,164,23,,,,103,148,68,115,,,,,,8,8,10,5,,1,5,,93,89,"0.09",45,45,55,23
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.checkLastProductionTracking",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,3,15,1,11,0,6,3,0,4,7,1,6,3,3,4,1,2,,,,,0,,2,0,,,"0.00",3,3,4,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.copyProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,9,35,9,26,8,19,0,10,17,1,11,17,7,16,6,6,9,1,1,,,,,0,,1,0,,,"0.00",6,6,9,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.fillExpirationDate",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,3,20,5,13,0,12,5,1,8,13,5,11,5,5,6,1,2,,,,,0,,4,0,,,"0.00",5,5,6,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.generateNumberIfNeeded",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,4,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.generateOrderDetailsUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.logPerformDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,8,13,2,11,2,9,0,12,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onCopy",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onCreate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,2,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,12,3,9,0,8,2,0,5,7,2,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,26,77,13,64,17,55,0,41,18,1,28,36,14,34,8,8,10,1,2,,,,,0,,5,0,,,"0.00",10,10,12,3
+Lambda Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onSave.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.onSave.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.setInitialState",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,2,8,1,5,0,4,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.setNumberFromSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.setTimeToZeroIfNull",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.setTimesToZeroIfEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.shouldCopyProducts",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,5,15,10,12,0,9,2,0,9,11,8,10,2,2,4,1,1,,,,,0,,1,0,,,"0.00",2,2,4,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.willOrderAcceptOneMore",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,2,12,6,9,0,9,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.ProductionTrackingHooks.willOrderAcceptOneMoreValidator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,15,2,8,0,5,5,1,3,9,2,7,5,5,6,5,9,,,,,9,,3,9,,,"0.00",5,5,6,5
+Public Class,"com.qcadoo.mes.productionCounting.hooks.TrackingOperationProductInComponentHooks",4,4,5,1,31,3,27,0,1,18,18,0,,0,2,,,,4,2,4,4,0,3,0,1,,143,23,120,34,92,0,,,,41,59,24,50,,,,,,7,7,10,1,,1,4,,37,37,"0.00",17,17,20,4
+Private Method,"com.qcadoo.mes.productionCounting.hooks.TrackingOperationProductInComponentHooks.createProductionCountingIfReplacement",,,,,,,,,,,,,,,,,,,,,,,,,,,12,31,3,28,8,23,0,11,5,1,6,10,5,9,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.TrackingOperationProductInComponentHooks.createProductionCountingQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,25,41,0,41,6,36,0,18,8,1,16,21,4,20,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1
+Private Method,"com.qcadoo.mes.productionCounting.hooks.TrackingOperationProductInComponentHooks.getProductionCountingQuantityDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.hooks.TrackingOperationProductInComponentHooks.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,19,49,11,38,11,29,0,24,16,1,14,21,9,20,7,7,10,1,0,,,,,0,,4,0,,,"0.00",7,7,10,1
+Package,"com.qcadoo.mes.productionCounting.listeners",2,2,2,1,17,3,14,0,,,,,1,0,3,,1,,21,9,21,,0,5,0,16,,541,120,398,203,246,23,,,,226,280,175,183,,,,,,5,5,5,1,,,3,,,,"0.06",52,52,56,23
+Public Class,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners",2,2,2,1,19,3,15,0,1,51,51,0,,0,3,,,,21,9,21,21,0,5,0,16,,482,116,343,148,246,23,,,,171,225,120,183,,,,,,5,5,5,1,,1,3,,92,88,"0.07",52,52,56,23
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.addToAnomaliesList",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,5,15,7,12,0,11,2,0,9,11,6,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.calcTotalLaborTime",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,5,10,5,7,0,5,2,0,6,8,5,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.changeTrackingState",,,,,,,,,,,,,,,,,,,,,,,,,,,16,46,11,35,17,31,0,24,3,0,19,22,13,20,3,3,4,1,2,,,,,0,,2,0,,,"0.00",4,4,5,2
+Lambda Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.changeTrackingState.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.checkJustOne",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,4,12,4,9,0,6,2,0,7,9,4,8,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.clearFields",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,5,15,8,12,0,6,2,0,8,10,5,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.clearWasteUsedDetails",,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,0,9,1,6,0,1,2,0,4,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.copyPlannedQuantityToUsedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,6,15,7,11,0,9,2,0,8,10,5,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.copyPlannedQuantityToUsedQuantity",,,,,,,,,,,,,,,,,,,,,,,,,,,17,51,7,44,11,37,0,16,7,1,16,22,9,19,5,5,5,1,3,,,,,0,,3,0,,,"0.00",6,6,6,2
+Lambda Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.copyPlannedQuantityToUsedQuantity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.correct",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,3,9,5,6,0,7,2,0,5,7,5,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.disableFields",,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,3,16,7,11,0,7,3,0,6,10,6,8,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.enableOrDisableFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,3,10,2,6,0,5,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.fillDivisionField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,5,15,5,11,0,6,3,0,8,11,5,10,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.fillDivisionFieldFromOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,2,9,4,6,0,7,2,0,5,7,4,6,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.fillOrderedProductBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,9,24,5,19,7,15,0,14,3,0,9,12,6,11,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.getOrderFromLookup",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,1,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.goToProductionCountingQuantities",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,4,11,7,8,0,8,1,0,8,9,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.onAddBatchChange",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,4,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.onOrderChange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,5,0,5,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.onStaffChange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,4,14,5,10,0,6,3,0,7,10,5,9,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.onTechnologyOperationComponentChange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,4,25,9,19,0,8,5,1,12,16,7,15,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"com.qcadoo.mes.productionCounting.listeners.ProductionTrackingDetailsListeners.useReplacement",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,5,19,9,16,0,13,2,0,9,11,7,9,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Package,"com.qcadoo.mes.technologies",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.qcadoo.mes.technologies.hooks",2,2,3,1,17,2,15,0,,,,,2,0,0,,2,,16,4,16,,0,10,0,6,,428,72,310,120,193,46,,,,150,203,107,137,,,,,,6,6,9,4,,,4,,,,"0.15",49,49,64,22
+Public Class,"com.qcadoo.mes.technologies.hooks.MachineWorkingPeriodHooksT",3,3,4,1,18,0,18,0,1,10,10,0,,0,0,,,,2,2,2,2,0,0,0,2,,72,5,44,18,30,23,,,,21,29,15,24,,,,,,5,5,7,1,,1,2,,0,0,"0.52",7,7,9,2
+Public Method,"com.qcadoo.mes.technologies.hooks.MachineWorkingPeriodHooksT.onDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,0,10,3,7,0,6,2,0,5,7,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.technologies.hooks.MachineWorkingPeriodHooksT.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,9,27,0,27,9,23,0,7,5,1,14,19,9,18,5,5,7,1,2,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Class,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks",2,2,3,1,18,3,15,0,1,29,29,0,,0,0,,,,14,2,14,14,0,10,0,4,,310,60,227,63,163,23,,,,90,135,53,113,,,,,,6,6,9,4,,1,4,,89,78,"0.10",42,42,55,20
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.checkForCyclicReferences",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.clearField",,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,2,19,5,14,0,8,6,1,5,9,4,8,4,4,9,1,0,,,,,0,,2,0,,,"0.00",4,4,9,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.copyCommentAndAttachmentFromOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.copyReferencedTechnology",,,,,,,,,,,,,,,,,,,,,,,,,,,7,45,11,34,10,26,0,18,6,1,15,22,8,20,6,6,7,4,3,,,,,3,,2,3,,,"0.00",6,6,7,4
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.copyReferencedTechnologyOperations",,,,,,,,,,,,,,,,,,,,,,,,,,,6,38,6,32,6,25,0,12,6,1,19,28,9,23,6,6,6,1,1,,,,,0,,4,0,,,"0.00",6,6,6,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.copyWorkstations",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,2,12,4,8,0,7,2,0,4,6,3,5,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.copyWorkstationsSettingsFromOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,1,17,2,13,0,7,3,0,6,9,2,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.getOperationProductOutComponentDD",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.onCreate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,5,0,5,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.onDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,3,17,3,14,0,14,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.onDelete.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,0,2,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.onSave",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,2,6,0,5,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.setOperationOutProduct",,,,,,,,,,,,,,,,,,,,,,,,,,,8,34,7,27,6,21,0,10,5,1,10,15,6,14,5,5,7,1,1,,,,,0,,4,0,,,"0.00",5,5,7,1
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.setParentIfRootNodeAlreadyExists",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,4,13,4,9,0,7,3,0,6,9,4,8,3,3,5,3,2,,,,,2,,1,2,,,"0.00",3,3,5,3
+Private Method,"com.qcadoo.mes.technologies.hooks.TechnologyOperationComponentHooks.setTechnologicalProcessListAssignDate",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,3,22,11,17,0,10,3,0,7,10,6,9,4,4,6,1,1,,,,,0,,2,0,,,"0.00",4,4,6,1
+Package,"com.qcadoo.mes.technologies.listeners",3,3,3,1,32,2,29,0,,,,,1,0,13,,1,,5,4,5,,0,2,0,3,,264,43,221,91,143,0,,,,127,159,82,100,,,,,,9,9,9,4,,,3,,,,"0.00",32,32,34,15
+Public Class,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners",3,3,3,2,35,3,32,0,1,36,36,0,,0,13,,,,5,4,5,5,0,2,0,3,,229,38,191,61,143,0,,,,97,129,52,100,,,,,,7,7,9,4,,1,3,,95,95,"0.00",25,25,27,12
+Public Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.changeTechnologyParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,15,53,5,48,12,39,0,28,13,1,24,31,10,28,7,7,9,4,6,,,,,4,,2,4,,,"0.00",7,7,9,4
+Private Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.copyOperationWorkstationTimes",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,15,1,10,0,8,4,1,5,11,3,8,4,4,4,4,2,,,,,2,,3,2,,,"0.00",4,4,4,4
+Private Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.createCustomizedTechnologies",,,,,,,,,,,,,,,,,,,,,,,,,,,6,89,9,80,17,63,0,2,1,0,41,55,15,53,1,1,1,1,0,,,,,0,,3,0,,,"0.00",10,10,10,2
+Lambda Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.createCustomizedTechnologies.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,29,82,8,74,12,60,0,21,99,2,38,51,12,50,9,9,9,1,2,,,,,0,,0,0,,,"0.00",16,16,16,4
+Lambda Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.createCustomizedTechnologies.(lambda_expr_1).(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,4,1,0,2,2,0,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.createCustomizedTechnologies.(lambda_expr_1).(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,6,1,0,3,3,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.createCustomizedTechnologies.(lambda_expr_1).(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,2,17,1,12,0,7,16,1,7,12,2,11,5,5,5,1,0,,,,,0,,0,0,,,"0.00",5,5,5,1
+Public Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.onChangeChangeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,7,0,4,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.qcadoo.mes.technologies.listeners.ChangeTechnologyParametersListeners.onChangePerformanceNorm",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,4,8,0,4,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1

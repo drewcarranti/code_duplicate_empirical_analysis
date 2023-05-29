@@ -1,0 +1,108 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CoordActionCheckXCommand.java",2,2,3,1,18,0,17,0,,,,,1,0,0,6,,6,6,6,6,,0,0,4,2,,195,14,142,58,74,39,,,,79,97,50,56,,,,,,8,8,9,5,,,4,,,,"0.27",17,17,20,10
+File,"CoordActionUpdateXCommand.java",3,3,3,2,17,0,14,1,,,,,1,0,0,9,,9,9,6,9,,0,0,6,3,,241,21,168,57,89,52,,,,87,116,47,74,,,,,,11,11,13,7,,,3,,,,"0.31",29,29,33,19
+File,"EventHandlerService.java",3,2,3,1,12,0,12,0,,,,,2,1,10,17,,17,16,4,17,,0,5,0,12,,297,25,246,79,145,26,,,,127,174,78,112,,,,,,8,8,8,3,,,5,,,,"0.11",53,44,53,19
+File,"MemoryEventQueue.java",1,1,1,1,8,0,8,0,,,,,1,0,5,9,,9,9,0,9,,0,0,0,9,,129,15,92,38,39,22,,,,45,62,30,37,,,,,,4,4,4,3,,,3,,,,"0.24",16,16,16,11
+File,"SignalXCommand.java",5,5,5,1,29,1,27,0,,,,,1,1,1,12,,12,11,10,12,,0,4,4,4,,443,30,391,123,234,26,,,,201,270,111,187,,,,,,32,30,35,6,,,5,,,,"0.07",63,61,70,21
+File,"TestEventGeneration.java",1,1,1,1,24,1,21,1,,,,,6,0,0,15,,15,15,2,15,,0,3,4,8,,444,40,366,139,263,40,,,,305,321,127,239,,,,,,2,2,2,1,,,1,,,,"0.11",16,16,17,15
+File,"TransitionXCommand.java",1,1,1,1,8,0,5,3,,,,,1,0,0,6,,10,10,3,10,,0,0,1,9,,128,15,49,26,16,64,,,,28,39,26,15,,,,,,4,4,4,1,,,3,,,,"1.31",9,9,9,6
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.oozie.command",1,1,1,1,8,0,5,3,,,,,1,0,0,,1,,10,3,10,,0,0,1,9,,128,15,49,26,16,64,,,,28,39,26,15,,,,,,4,4,4,1,,,3,,,,"1.31",9,9,9,6
+Public Abstract Generic Class,"org.apache.oozie.command.TransitionXCommand",1,1,1,1,8,0,5,3,1,12,12,0,,0,0,,,,10,3,10,10,0,0,1,9,,115,12,39,16,16,64,,,,18,29,16,15,,,,,,4,4,4,1,,2,3,,83,83,"1.64",9,9,9,6
+TypeVariable,"org.apache.oozie.command.TransitionXCommand.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"org.apache.oozie.command.TransitionXCommand.TransitionXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.oozie.command.TransitionXCommand.TransitionXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.TransitionXCommand.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.command.TransitionXCommand.generateEvents",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,11,2,6,8,6,4,1,3,8,3,5,4,4,4,1,0,,,,,0,,3,0,,,"0.73",4,4,4,1
+Public Method,"org.apache.oozie.command.TransitionXCommand.getJob",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Abstract Method,"org.apache.oozie.command.TransitionXCommand.notifyParent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Abstract Method,"org.apache.oozie.command.TransitionXCommand.performWrites",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Method,"org.apache.oozie.command.TransitionXCommand.setJob",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Abstract Method,"org.apache.oozie.command.TransitionXCommand.transitToNext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Abstract Method,"org.apache.oozie.command.TransitionXCommand.updateJob",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Package,"org.apache.oozie.command.coord",3,3,3,1,18,0,15,1,,,,,2,0,0,,2,,15,12,15,,0,0,10,5,,436,35,310,115,163,91,,,,166,213,97,130,,,,,,11,11,13,7,,,4,,,,"0.29",46,46,53,29
+Public Class,"org.apache.oozie.command.coord.CoordActionCheckXCommand",2,2,3,1,18,0,17,0,1,32,32,1,,0,0,,,,6,6,6,6,0,0,4,2,,163,11,113,29,74,39,,,,50,68,21,56,,,,,,8,8,9,5,,2,4,,63,63,"0.35",17,17,20,10
+Public Constructor,"org.apache.oozie.command.coord.CoordActionCheckXCommand.CoordActionCheckXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionCheckXCommand.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,11,65,4,58,10,44,3,21,20,1,30,38,7,36,8,8,9,5,8,,,,,8,,4,8,,,"0.05",8,8,9,5
+Public Method,"org.apache.oozie.command.coord.CoordActionCheckXCommand.getEntityKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionCheckXCommand.isLockRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionCheckXCommand.loadState",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,1,16,2,9,0,5,3,0,5,8,1,7,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionCheckXCommand.verifyPrecondition",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,0,17,4,12,1,6,4,1,4,7,3,6,3,3,5,1,0,,,,,0,,1,0,,,"0.06",3,3,5,1
+Public Class,"org.apache.oozie.command.coord.CoordActionUpdateXCommand",3,3,3,2,17,0,14,1,1,32,32,0,,0,0,,,,9,6,9,9,0,0,6,3,,212,18,142,31,89,52,,,,61,90,21,74,,,,,,11,11,13,7,,2,3,,68,68,"0.37",29,29,33,19
+Public Constructor,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.CoordActionUpdateXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.CoordActionUpdateXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.eagerLoadState",,,,,,,,,,,,,,,,,,,,,,,,,,,10,31,3,28,3,17,0,9,28,1,9,16,2,14,8,8,8,5,7,,,,,7,,3,7,,,"0.00",8,8,8,5
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.eagerVerifyPrecondition",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,2,0,0,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,14,84,4,65,8,50,15,22,62,2,34,45,5,43,11,11,13,7,12,,,,,12,,3,12,,,"0.23",11,11,13,7
+Public Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.getEntityKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.isLockRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.loadState",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.coord.CoordActionUpdateXCommand.verifyPrecondition",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,1,14,2,8,2,4,3,0,4,7,1,6,3,3,5,1,1,,,,,0,,2,0,,,"0.14",3,3,5,1
+Package,"org.apache.oozie.command.wf",5,5,5,1,29,1,27,0,,,,,1,1,1,,1,,11,10,12,,0,4,4,4,,443,30,391,123,234,26,,,,201,270,111,187,,,,,,32,30,35,6,,,5,,,,"0.07",63,61,70,21
+Public Class,"org.apache.oozie.command.wf.SignalXCommand",5,5,5,1,29,1,27,0,1,54,54,0,,1,1,,,,11,10,12,12,0,4,4,4,,396,28,346,79,233,26,,,,157,226,67,187,,,,,,32,30,35,6,,2,5,,79,78,"0.08",63,61,70,21
+Public Constructor,"org.apache.oozie.command.wf.SignalXCommand.SignalXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.oozie.command.wf.SignalXCommand.SignalXCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.command.wf.SignalXCommand.checkForSuspendNode",,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,0,25,3,16,0,9,6,1,8,15,4,13,6,6,7,6,4,,,,,4,,5,4,,,"0.00",6,6,7,6
+Public Static Method,"org.apache.oozie.command.wf.SignalXCommand.createELEvaluatorForGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,4,0,6,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.oozie.command.wf.SignalXCommand.createSLARegistrationForAllActions",,,,,,,,,,,,,,,,,,,,,,,,,,,10,26,1,25,11,16,0,11,5,1,9,15,8,13,5,5,5,1,1,,,,,0,,4,0,,,"0.00",5,5,5,1
+Protected Method,"org.apache.oozie.command.wf.SignalXCommand.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,34,212,11,196,32,150,9,62,149016,5,98,131,26,119,32,30,35,1,17,,,,,0,,5,0,,,"0.05",32,30,35,1
+Private Method,"org.apache.oozie.command.wf.SignalXCommand.getActionSLAXml",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,21,5,13,0,10,6,1,8,14,5,11,5,5,5,5,4,,,,,4,,3,4,,,"0.00",5,5,5,5
+Public Method,"org.apache.oozie.command.wf.SignalXCommand.getEntityKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.wf.SignalXCommand.isLockRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.command.wf.SignalXCommand.loadState",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,0,20,2,12,0,6,4,1,7,11,1,10,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"org.apache.oozie.command.wf.SignalXCommand.resolveSla",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,3,7,0,4,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.command.wf.SignalXCommand.verifyPrecondition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,11,0,11,2,5,0,4,3,0,2,5,1,4,3,3,6,1,1,,,,,0,,2,0,,,"0.00",3,3,6,1
+Package,"org.apache.oozie.event",1,1,1,1,18,1,16,0,,,,,7,0,5,,2,,24,2,24,,0,3,4,17,,573,55,458,177,302,62,,,,350,383,157,276,,,,,,4,4,4,3,,,3,,,,"0.14",32,32,33,26
+Public Class,"org.apache.oozie.event.MemoryEventQueue",1,1,1,1,8,0,8,0,2,11,11,0,,0,5,,,,9,0,9,9,0,0,0,9,,116,11,83,29,39,22,,,,36,53,21,37,,,,,,4,4,4,3,,1,3,,55,53,"0.27",16,16,16,11
+Public Method,"org.apache.oozie.event.MemoryEventQueue.add",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,0,17,3,9,0,4,4,1,4,8,2,7,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.getBatchSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.init",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,6,0,9,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.peek",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,4,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.poll",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,3,5,0,3,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.event.MemoryEventQueue.pollBatch",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,16,4,10,1,6,3,0,9,12,4,10,3,3,3,3,3,,,,,2,,2,1,,,"0.06",3,3,3,3
+Public Method,"org.apache.oozie.event.MemoryEventQueue.size",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.oozie.event.TestEventGeneration",1,1,1,1,34,2,30,1,1,63,63,0,,0,0,,,,10,2,10,10,0,3,2,5,,379,37,304,77,263,40,,,,243,259,65,239,,,,,,2,2,2,1,,2,1,,30,30,"0.13",11,11,11,10
+Private Method,"org.apache.oozie.event.TestEventGeneration._createWorkflowJob",,,,,,,,,,,,,,,,,,,,,,,,,,,8,26,2,24,12,22,0,15,1,0,17,18,9,16,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.oozie.event.TestEventGeneration._modifyCoordForFailureAction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,5,1,8,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Private Method,"org.apache.oozie.event.TestEventGeneration._pollQueue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,4,0,2,1,0,4,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.oozie.event.TestEventGeneration.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,6,0,8,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.event.TestEventGeneration.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,3,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,13,91,7,78,12,74,6,28,1,0,70,72,11,70,1,1,1,1,0,,,,,0,,0,0,,,"0.08",1,1,1,1
+Anonymous Class,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEvent.(Anon_1)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEvent.(Anon_1).evaluate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEventDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,5,41,5,33,9,28,3,12,1,0,25,27,7,25,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Anonymous Class,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEventDependencies.(Anon_3)",1,1,1,1,5,0,5,0,1,4,4,0,,0,0,,,,1,0,1,7,0,0,1,0,,6,0,6,1,5,0,,,,2,3,1,2,,,,,,1,1,1,1,,3,0,,0,0,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.event.TestEventGeneration.testCoordinatorActionEventDependencies.(Anon_3).execute",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,4,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testForNoDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,11,47,4,41,15,36,3,18,1,0,28,31,15,28,1,1,1,1,0,,,,,0,,0,0,,,"0.07",1,1,1,1
+Anonymous Class,"org.apache.oozie.event.TestEventGeneration.testForNoDuplicates.(Anon_4)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testForNoDuplicates.(Anon_4).evaluate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.apache.oozie.event.TestEventGeneration.testForNoDuplicates.(Anon_5)",1,1,2,1,6,0,6,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,1,6,0,,,,2,3,2,2,,,,,,1,1,2,1,,2,0,,0,0,"0.00",1,1,2,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testForNoDuplicates.(Anon_5).evaluate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,5,0,3,1,0,2,3,2,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testWorkflowJobEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,12,88,6,77,8,74,5,21,1,0,74,75,7,74,1,1,1,1,0,,,,,0,,0,0,,,"0.06",1,1,1,1
+Public Method,"org.apache.oozie.event.TestEventGeneration.testWorkflowJobEventError",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,1,17,6,12,1,9,1,0,10,12,5,10,1,1,1,1,0,,,,,0,,0,0,,,"0.06",1,1,1,1
+Anonymous Class,"org.apache.oozie.event.TestEventGeneration.testWorkflowJobEventError.(Anon_2)",1,1,1,1,5,0,5,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,1,0,,6,0,6,1,5,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"org.apache.oozie.event.TestEventGeneration.testWorkflowJobEventError.(Anon_2).execute",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,4,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.apache.oozie.service",3,2,3,1,12,0,12,0,,,,,2,1,10,,1,,16,4,17,,0,5,0,12,,297,25,246,79,145,26,,,,127,174,78,112,,,,,,8,8,8,3,,,5,,,,"0.11",53,44,53,19
+Public Class,"org.apache.oozie.service.EventHandlerService",2,2,2,1,9,0,9,0,2,28,28,0,,1,10,,,,13,4,14,14,0,3,0,11,,269,21,222,55,145,26,,,,103,150,54,112,,,,,,5,5,5,3,,1,3,,75,73,"0.12",32,32,32,16
+Public Class,"org.apache.oozie.service.EventHandlerService.EventWorker",7,4,7,1,24,0,24,0,2,15,15,0,,0,0,,,,3,0,3,3,0,2,0,1,,78,3,75,9,56,0,,,,32,46,9,41,,,,,,8,8,8,1,,1,5,,0,0,"0.00",21,12,21,3
+Private Method,"org.apache.oozie.service.EventHandlerService.EventWorker.invokeJobEventListener",,,,,,,,,,,,,,,,,,,,,,,,,,,9,22,0,22,1,19,0,8,6,1,11,13,1,12,6,2,6,1,15,,,,,0,,1,0,,,"0.00",6,2,6,1
+Private Method,"org.apache.oozie.service.EventHandlerService.EventWorker.invokeSLAEventListener",,,,,,,,,,,,,,,,,,,,,,,,,,,10,24,0,24,1,21,0,10,7,1,13,15,1,14,7,2,7,1,21,,,,,0,,1,0,,,"0.00",7,2,7,1
+Public Method,"org.apache.oozie.service.EventHandlerService.EventWorker.run",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,0,27,6,16,0,11,8,1,8,17,6,15,8,8,8,1,3,,,,,0,,5,0,,,"0.00",8,8,8,1
+Public Method,"org.apache.oozie.service.EventHandlerService.addEventListener",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,0,24,4,16,0,5,5,1,11,16,3,15,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"org.apache.oozie.service.EventHandlerService.destroy",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,3,8,0,7,5,1,4,10,3,8,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"org.apache.oozie.service.EventHandlerService.getAppTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.getEventQueue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.getInterface",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.init",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,0,20,4,15,3,15,2,0,11,13,3,12,3,3,3,1,1,,,,,0,,1,0,,,"0.15",3,3,3,1
+Private Method,"org.apache.oozie.service.EventHandlerService.initApptypes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,6,3,0,4,8,3,6,3,3,3,3,1,,,,,1,,2,1,,,"0.00",3,3,3,3
+Private Method,"org.apache.oozie.service.EventHandlerService.initEventListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,10,18,0,18,4,12,0,5,4,1,8,11,4,8,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"org.apache.oozie.service.EventHandlerService.initWorkerThreads",,,,,,,,,,,,,,,,,,,,,,,,,,,10,16,0,15,5,11,1,7,4,1,9,12,6,10,3,3,3,1,0,,,,,0,,1,0,,,"0.07",3,3,3,1
+Public Static Method,"org.apache.oozie.service.EventHandlerService.isEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.isSupportedApptype",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.oozie.service.EventHandlerService.listEventListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.queueEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.oozie.service.EventHandlerService.setAppTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

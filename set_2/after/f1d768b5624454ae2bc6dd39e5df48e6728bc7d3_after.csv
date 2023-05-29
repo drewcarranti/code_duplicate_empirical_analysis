@@ -1,0 +1,66 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractPDFExtractor.java",2,2,2,1,11,1,10,1,,,,,1,0,1,15,,15,14,6,14,,4,2,5,3,,219,36,181,58,77,18,,,,79,114,59,68,,,,,,7,7,7,3,,,3,,,,"0.10",32,32,32,17
+File,"BaseCSVExtractor.java",1,1,2,1,11,1,9,0,,,,,1,0,0,11,,12,11,4,11,,2,1,3,5,,151,25,124,52,51,6,,,,63,81,46,45,,,,,,4,4,5,1,,,2,,,,"0.05",20,20,23,11
+File,"CSVExtractor.java",2,2,2,1,9,0,8,0,,,,,1,0,0,8,,10,10,0,10,,0,0,6,4,,108,19,89,46,38,1,,,,46,63,39,36,,,,,,4,4,6,3,,,1,,,,"0.01",17,17,20,12
+File,"SecurityCache.java",2,2,2,1,6,0,5,0,,,,,1,0,1,13,,13,3,4,3,,0,0,0,3,,110,20,85,27,50,5,,,,50,70,28,45,,,,,,13,13,13,4,,,2,,,,"0.06",28,28,32,18
+Package,"name",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"name.abuchen",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"name.abuchen.portfolio",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"name.abuchen.portfolio.datatransfer",2,2,2,1,6,0,5,0,,,,,1,0,1,,1,,3,4,3,,0,0,0,3,,110,20,85,27,50,5,,,,50,70,28,45,,,,,,13,13,13,4,,,2,,,,"0.06",28,28,32,18
+Public Class,"name.abuchen.portfolio.datatransfer.SecurityCache",6,6,6,2,26,4,20,1,1,16,16,0,,0,1,,,,3,4,3,3,0,0,0,3,,92,17,70,12,50,5,,,,35,55,13,45,,,,,,13,13,13,4,,1,2,,33,33,"0.07",28,28,32,18
+Public Constructor,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache",,,,,,,,,,,,,,,,,,,,,,,,,,,15,14,3,11,1,8,0,10,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",10,10,13,10
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_5)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_6)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_7)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_8)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.SecurityCache.(lambda_expr_9)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"name.abuchen.portfolio.datatransfer.SecurityCache.createMissingSecurityItems",,,,,,,,,,,,,,,,,,,,,,,,,,,7,27,4,18,3,11,5,10,5,1,8,13,4,11,4,4,5,3,1,,,,,1,,2,1,,,"0.28",5,5,6,4
+Lambda Method,"name.abuchen.portfolio.datatransfer.SecurityCache.createMissingSecurityItems.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"name.abuchen.portfolio.datatransfer.SecurityCache.lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,13,38,5,33,2,30,0,10,596,3,18,31,2,29,13,13,13,4,3,,,,,3,,1,3,,,"0.00",13,13,13,4
+Package,"name.abuchen.portfolio.datatransfer.csv",1,1,2,1,10,1,9,0,,,,,2,0,0,,2,,21,4,21,,2,1,9,9,,259,44,213,98,89,7,,,,109,144,85,81,,,,,,4,4,6,3,,,2,,,,"0.03",37,37,43,23
+Abstract Class,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor",1,1,2,1,11,1,9,0,1,16,16,0,,0,0,,,,11,4,11,21,2,1,3,5,,132,22,108,36,51,6,,,,47,65,30,45,,,,,,4,4,5,1,,2,2,,72,70,"0.06",20,20,23,11
+Constructor,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.BaseCSVExtractor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,1,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Private Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.constructName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,12,2,5,0,3,2,0,3,5,2,3,4,4,5,1,1,,,,,0,,1,0,,,"0.00",4,4,5,1
+Public Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,8,29,4,23,5,12,3,9,3,0,9,13,4,10,3,3,3,1,1,,,,,0,,2,0,,,"0.13",3,3,3,1
+Abstract Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,1,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.50",0,0,0,0
+Public Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getClient",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getCurrencyCode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,3,5,0,6,2,0,4,6,3,5,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Final Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getFields",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getMoney",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,3,5,0,5,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getSecurity",,,,,,,,,,,,,,,,,,,,,,,,,,,8,29,6,23,8,17,0,3,2,0,15,17,7,15,2,2,4,1,0,,,,,0,,1,0,,,"0.00",3,3,5,2
+Lambda Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.getSecurity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,1,9,0,9,1,0,8,8,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"name.abuchen.portfolio.datatransfer.csv.BaseCSVExtractor.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor",2,2,2,1,9,0,8,0,2,19,19,1,,0,0,,,,10,0,10,10,0,0,6,4,,90,16,74,31,38,1,,,,31,48,24,36,,,,,,4,4,6,3,,1,1,,0,0,"0.01",17,17,20,12
+Public Abstract Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getAmount",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,1,8,3,5,0,9,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Final Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getBigDecimal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,4,5,0,7,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getDate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,3,5,0,9,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Final Generic Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getEnum",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,5,8,0,6,3,0,5,8,3,7,3,3,4,3,2,,,,,2,,1,2,,,"0.00",3,3,4,3
+TypeVariable,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getEnum.E",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getFields",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getFilterExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Protected Final Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getShares",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,9,4,5,0,8,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"name.abuchen.portfolio.datatransfer.csv.CSVExtractor.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,11,14,3,11,4,8,0,5,3,0,6,9,4,7,4,4,6,3,2,,,,,2,,1,2,,,"0.00",4,4,6,3
+Package,"name.abuchen.portfolio.datatransfer.pdf",2,2,2,1,11,1,10,1,,,,,1,0,1,,1,,14,6,14,,4,2,5,3,,219,36,181,58,77,18,,,,79,114,59,68,,,,,,7,7,7,3,,,3,,,,"0.10",32,32,32,17
+Abstract Class,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor",2,2,2,1,11,1,10,1,2,27,27,0,,0,1,,,,14,6,14,14,4,2,5,3,,191,32,157,34,77,18,,,,55,90,35,68,,,,,,7,7,7,3,,1,3,,83,78,"0.11",32,32,32,17
+Public Constructor,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.AbstractPDFExtractor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,1,6,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.addBankIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.addDocumentTyp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.asAmount",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,1,4,1,6,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.09",2,2,2,1
+Protected Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.asCurrencyCode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,7,2,4,1,5,2,0,3,5,2,4,3,3,3,1,1,,,,,0,,1,0,,,"0.14",3,3,3,1
+Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.asDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.asExchangeRate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,1,4,1,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.09",2,2,2,1
+Protected Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.asShares",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,1,4,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.checkBankIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,2,10,1,7,1,5,6,1,3,8,2,6,4,4,4,3,3,,,,,3,,2,3,,,"0.10",4,4,4,3
+Public Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,4,21,4,11,2,10,3,0,8,12,4,10,3,3,3,1,1,,,,,0,,2,0,,,"0.10",3,3,3,1
+Private Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,8,36,5,31,2,18,1,11,14,1,10,18,4,15,7,7,7,1,3,,,,,0,,3,0,,,"0.03",7,7,7,1
+Public Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.getFilterExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Protected Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.getOrCreateSecurity",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,3,15,7,12,6,4,2,0,10,12,6,11,2,2,2,1,0,,,,,0,,1,0,,,"0.40",3,3,3,2
+Lambda Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.getOrCreateSecurity.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,5,2,6,1,0,4,4,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Method,"name.abuchen.portfolio.datatransfer.pdf.AbstractPDFExtractor.strip",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,2,1,3,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,1,0,,,"0.14",1,1,1,1

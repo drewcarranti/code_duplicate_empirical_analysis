@@ -1,0 +1,52 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BasicStoichiometricMatrix.java",1,1,1,1,6,0,5,0,,,,,1,3,1,23,,23,20,1,23,,0,0,2,21,,234,64,146,58,67,24,,,,69,103,50,62,,,,,,5,5,5,1,,,2,,,,"0.16",32,32,33,23
+File,"MatrixTest.java",3,3,3,1,10,1,9,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,43,7,19,11,5,17,,,,13,17,12,6,,,,,,3,3,3,1,,,2,,,,"0.89",3,3,3,1
+File,"StoichiometricMatrixImpl.java",2,2,2,1,12,2,7,2,,,,,1,0,0,12,,12,12,1,12,,0,0,2,10,,220,58,107,41,54,55,,,,55,80,37,53,,,,,,6,6,6,1,,,2,,,,"0.51",24,24,24,12
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk.domain",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.ac.ebi.mdk.domain.entity",3,3,3,1,10,1,9,0,,,,,1,0,0,,1,,1,0,1,,0,0,0,1,,43,7,19,11,5,17,,,,13,17,12,6,,,,,,3,3,3,1,,,2,,,,"0.89",3,3,3,1
+Public Class,"uk.ac.ebi.mdk.domain.entity.MatrixTest",3,3,3,1,10,1,9,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,15,3,11,3,5,1,,,,5,9,4,6,,,,,,3,3,3,1,,1,2,,0,0,"0.09",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.entity.MatrixTest.sameEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,1,9,2,5,0,8,3,0,5,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Package,"uk.ac.ebi.mdk.domain.matrix",1,1,1,1,8,1,6,0,,,,,2,3,1,,2,,32,2,35,,0,0,4,31,,454,122,253,99,121,79,,,,124,183,87,115,,,,,,6,6,6,1,,,2,,,,"0.31",56,56,57,35
+Public Class,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix",1,1,1,1,6,0,5,0,1,12,12,0,,3,1,,,,20,1,23,35,0,0,2,21,,206,59,139,51,67,8,,,,62,96,43,62,,,,,,5,5,5,1,,3,2,,95,78,"0.06",32,32,33,23
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.BasicStoichiometricMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.BasicStoichiometricMatrix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addConsumption",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addProduction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,4,2,0,3,1,0,2,3,2,1,2,2,3,1,0,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,1,28,7,21,5,16,0,12,8,1,12,18,8,14,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,9,28,0,28,6,17,0,8,9,1,15,20,5,15,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReactionWithName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.addReactionWithName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.create",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.create",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.getMoleculeClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.getReactionClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.init",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.main",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,7,13,3,10,2,7,2,0,11,13,4,11,2,2,2,1,0,,,,,0,,1,0,,,"0.15",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.BasicStoichiometricMatrix.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Generic Class,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl",2,2,2,1,12,2,7,2,2,13,13,1,,0,0,,,,12,1,12,12,0,0,2,10,,192,53,100,34,54,39,,,,48,73,30,53,,,,,,6,6,6,1,,2,2,,58,50,"0.39",24,24,24,12
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.M",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.R",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.StoichiometricMatrixImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Constructor,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.StoichiometricMatrixImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,3,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.addReaction",,,,,,,,,,,,,,,,,,,,,,,,,,,7,34,8,25,5,18,1,10,24,1,15,22,7,18,6,6,6,1,1,,,,,0,,2,0,,,"0.04",6,6,6,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.assign",,,,,,,,,,,,,,,,,,,,,,,,,,,2,32,6,12,2,9,14,11,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"1.17",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.assign",,,,,,,,,,,,,,,,,,,,,,,,,,,2,26,5,14,4,8,7,7,4,1,7,11,4,9,4,4,4,1,1,,,,,0,,2,0,,,"0.50",4,4,4,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.display",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,2,0,2,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.getValueClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.isReversible",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,6,13,5,7,3,8,4,1,8,11,4,8,3,3,3,1,0,,,,,0,,1,0,,,"0.23",3,3,3,1
+Public Method,"uk.ac.ebi.mdk.domain.matrix.StoichiometricMatrixImpl.setReversible",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

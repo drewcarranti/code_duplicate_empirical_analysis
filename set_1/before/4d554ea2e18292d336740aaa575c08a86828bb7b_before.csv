@@ -1,0 +1,43 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"MapMaker.java",5,5,5,2,29,2,21,5,,,,,1,0,1,9,,9,9,0,9,,2,6,0,1,,329,37,223,70,146,72,,,,127,185,81,135,,,,,,13,13,13,5,,,7,,,,"0.32",49,49,50,19
+File,"MapPoint.java",1,1,1,1,3,0,3,0,,,,,1,0,0,9,,9,9,2,9,,0,1,0,8,,73,11,36,16,11,26,,,,15,25,16,10,,,,,,1,1,2,1,,,0,,,,"0.72",9,9,10,9
+File,"MapPointFastFindMap.java",2,2,3,1,15,2,11,1,,,,,1,0,2,12,,12,12,3,12,,0,1,0,11,,236,54,155,45,81,33,,,,74,108,48,68,,,,,,9,9,13,8,,,7,,,,"0.21",31,31,36,19
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola.mkgmap",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.me.parabola.mkgmap.general",1,1,2,1,10,1,8,0,,,,,2,0,2,,2,,21,5,21,,0,2,0,19,,309,65,191,61,92,59,,,,89,133,64,78,,,,,,9,9,13,8,,,7,,,,"0.31",40,40,46,28
+Public Class,"uk.me.parabola.mkgmap.general.MapPoint",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,9,2,9,9,0,1,0,8,,68,9,33,13,11,26,,,,12,22,13,10,,,,,,1,1,2,1,,2,0,,66,61,"0.79",9,9,10,9
+Public Constructor,"uk.me.parabola.mkgmap.general.MapPoint.MapPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"uk.me.parabola.mkgmap.general.MapPoint.MapPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.copy",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.getBounds",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,1,2,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.isCity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.isRoadNamePOI",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.setLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPoint.setRoadNamePOI",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"uk.me.parabola.mkgmap.general.MapPointFastFindMap",2,2,3,1,15,2,11,1,1,9,9,0,,0,2,,,,12,3,12,12,0,1,0,11,,205,49,148,38,81,14,,,,67,101,41,68,,,,,,9,9,13,8,,1,7,,63,63,"0.09",31,31,36,19
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.findNextPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,6,67,15,45,11,26,9,7,8,1,22,31,12,22,9,9,13,1,1,,,,,0,,7,0,,,"0.20",9,9,13,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.findPointInShape",,,,,,,,,,,,,,,,,,,,,,,,,,,4,33,7,26,6,17,2,10,12,1,12,22,8,15,8,8,9,8,9,,,,,9,,5,9,,,"0.08",8,8,9,8
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,2,9,2,5,0,2,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.getList",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.getPosHashVal",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,2,6,3,3,1,1,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.printStat",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.put",,,,,,,,,,,,,,,,,,,,,,,,,,,6,35,8,27,3,18,0,8,6,1,14,18,3,16,4,4,4,1,2,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.set",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.size",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"uk.me.parabola.mkgmap.general.MapPointFastFindMap.values",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"uk.me.parabola.mkgmap.main",5,5,5,2,29,2,21,5,,,,,1,0,1,,1,,9,0,9,,2,6,0,1,,329,37,223,70,146,72,,,,127,185,81,135,,,,,,13,13,13,5,,,7,,,,"0.32",49,49,50,19
+Public Class,"uk.me.parabola.mkgmap.main.MapMaker",5,5,5,2,29,2,21,5,2,23,23,0,,0,1,,,,9,0,9,9,2,6,0,1,,287,34,200,47,146,56,,,,104,162,58,135,,,,,,13,13,13,5,,1,7,,0,0,"0.28",49,49,50,19
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.findConnectedRoadsWithSameName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,69,3,51,10,38,15,8,39,2,29,45,15,38,13,13,13,1,3,,,,,0,,7,0,,,"0.29",13,13,13,1
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.loadFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,8,3,4,10,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.makeAreaPOIs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,36,8,26,6,18,4,16,16,1,12,21,8,18,7,7,7,4,1,,,,,1,,3,1,,,"0.15",7,7,7,4
+Public Method,"uk.me.parabola.mkgmap.main.MapMaker.makeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,11,0,6,3,0,8,10,2,9,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Method,"uk.me.parabola.mkgmap.main.MapMaker.makeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,6,37,5,24,5,21,8,18,5,1,16,20,5,19,5,5,5,4,4,,,,,4,,2,4,,,"0.33",5,5,5,4
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.makeRoadNamePOI",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,2,22,8,18,0,12,2,0,14,16,8,12,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"uk.me.parabola.mkgmap.main.MapMaker.makeRoadNamePOIS",,,,,,,,,,,,,,,,,,,,,,,,,,,4,39,2,32,7,22,6,15,61,2,13,26,10,21,10,10,10,1,0,,,,,0,,5,0,,,"0.19",10,10,10,1
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.roadsAreJoined",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,1,6,0,3,5,1,2,9,3,6,5,5,6,5,6,,,,,6,,4,6,,,"0.00",5,5,6,5
+Private Method,"uk.me.parabola.mkgmap.main.MapMaker.setOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,2,9,3,7,6,7,4,1,5,8,3,7,3,3,3,1,0,,,,,0,,1,0,,,"0.67",3,3,3,1

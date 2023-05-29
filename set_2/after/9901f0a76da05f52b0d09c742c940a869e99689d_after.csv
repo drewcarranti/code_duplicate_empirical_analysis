@@ -1,0 +1,50 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"WaveBase.java",1,1,1,1,10,0,6,3,,,,,1,0,2,38,,38,37,14,37,,1,2,0,34,,545,80,288,114,125,177,,,,121,184,80,113,,,,,,8,8,8,1,,,2,,,,"0.61",64,59,69,38
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jrebirth",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jrebirth.af",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jrebirth.af.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.jrebirth.af.core.wave",1,1,1,1,10,0,6,3,,,,,1,0,2,,1,,37,14,37,,1,2,0,34,,545,80,288,114,125,177,,,,121,184,80,113,,,,,,8,8,8,1,,,2,,,,"0.61",64,59,69,38
+Public Class,"org.jrebirth.af.core.wave.WaveBase",1,1,1,1,10,0,6,3,3,23,23,0,,0,2,,,,37,14,37,37,1,2,0,34,,522,76,269,95,125,177,,,,102,165,61,113,,,,,,8,8,8,1,,1,2,,93,90,"0.66",64,59,69,38
+Constructor,"org.jrebirth.af.core.wave.WaveBase.WaveBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,1,3,5,6,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Generic Method,"org.jrebirth.af.core.wave.WaveBase.add",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,6,3,3,3,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+TypeVariable,"org.jrebirth.af.core.wave.WaveBase.add.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.jrebirth.af.core.wave.WaveBase.addDatas",,,,,,,,,,,,,,,,,,,,,,,,,,,4,30,7,14,3,9,9,10,3,0,7,11,3,9,3,3,3,1,0,,,,,0,,2,0,,,"0.64",3,3,3,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.addWaveListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.componentClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.componentClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.containsNotNull",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,4,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.75",1,1,2,1
+Private Method,"org.jrebirth.af.core.wave.WaveBase.fireStatusChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,9,33,3,26,1,22,4,7,8,1,13,17,2,15,8,3,8,1,21,,,,,0,,2,0,,,"0.15",8,3,8,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.fromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.fromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Generic Method,"org.jrebirth.af.core.wave.WaveBase.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,3,1,3,4,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.60",2,2,2,1
+TypeVariable,"org.jrebirth.af.core.wave.WaveBase.get.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"org.jrebirth.af.core.wave.WaveBase.getData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,5,3,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+TypeVariable,"org.jrebirth.af.core.wave.WaveBase.getData.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.jrebirth.af.core.wave.WaveBase.getTimestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.getWUID",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Private Method,"org.jrebirth.af.core.wave.WaveBase.getWaveBeanMap",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.hasWaveBean",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,7,2,3,3,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.43",2,2,3,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.priority",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.priority",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.relatedWave",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.relatedWave",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.removeWaveHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,2,9,2,4,5,4,3,0,2,5,1,4,3,3,4,1,0,,,,,0,,2,0,,,"0.56",3,3,4,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.removeWaveListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.setWaveHandlers",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.status",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,6,2,2,3,2,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.status",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,11,2,6,4,4,2,0,3,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.36",2,2,2,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.statusProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,33,4,26,3,16,3,13,96,2,9,18,3,16,8,8,8,1,0,,,,,0,,2,0,,,"0.12",8,8,8,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Generic Method,"org.jrebirth.af.core.wave.WaveBase.waveBean",,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,4,14,4,8,6,8,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.43",3,3,3,1
+TypeVariable,"org.jrebirth.af.core.wave.WaveBase.waveBean.WB",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveBeanList",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,7,2,3,5,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.71",2,2,3,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveBeanList",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,1,7,2,3,3,3,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.43",3,3,4,2
+Lambda Method,"org.jrebirth.af.core.wave.WaveBase.waveBeanList.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveDatas",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.jrebirth.af.core.wave.WaveBase.waveType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1

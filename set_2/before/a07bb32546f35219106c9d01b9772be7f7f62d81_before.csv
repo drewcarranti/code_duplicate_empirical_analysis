@@ -1,0 +1,70 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"JdbcManagedItemRepository.java",2,2,2,1,17,3,13,0,,,,,3,1,0,32,,40,39,5,40,,10,3,0,27,,682,153,513,222,305,16,,,,290,395,206,267,,,,,,9,9,9,7,,,4,,,,"0.03",88,88,91,44
+File,"Tags.java",1,1,1,1,6,0,6,0,,,,,1,0,1,12,,12,12,1,12,,0,0,0,12,,106,18,87,33,38,1,,,,36,64,33,38,,,,,,3,3,3,3,,,2,,,,"0.01",23,23,23,14
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.platformlayer",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.platformlayer.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.platformlayer.core.model",1,1,1,1,6,0,6,0,,,,,1,0,1,,1,,12,1,12,,0,0,0,12,,106,18,87,33,38,1,,,,36,64,33,38,,,,,,3,3,3,3,,,2,,,,"0.01",23,23,23,14
+Public Class,"org.platformlayer.core.model.Tags",1,1,1,1,6,0,6,0,2,10,10,0,,0,1,,,,12,1,12,12,0,0,0,12,,92,13,78,24,38,1,,,,27,55,24,38,,,,,,3,3,3,3,,1,2,,33,0,"0.01",23,23,23,14
+Public Method,"org.platformlayer.core.model.Tags.add",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.core.model.Tags.add",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,4,0,1,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.core.model.Tags.addAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,3,0,1,3,0,1,5,2,3,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.platformlayer.core.model.Tags.find",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,6,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.platformlayer.core.model.Tags.findTags",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,5,0,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.platformlayer.core.model.Tags.findUnique",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.core.model.Tags.findUniqueTag",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,10,2,6,1,7,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.10",3,3,3,1
+Public Method,"org.platformlayer.core.model.Tags.hasTag",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.core.model.Tags.hasTag",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,4,0,2,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.platformlayer.core.model.Tags.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.core.model.Tags.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.core.model.Tags.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.platformlayer.guice",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.platformlayer.guice.xaas",2,2,2,1,17,3,13,0,,,,,3,1,0,,1,,39,5,40,,10,3,0,27,,682,153,513,222,305,16,,,,290,395,206,267,,,,,,9,9,9,7,,,4,,,,"0.03",88,88,91,44
+Public Class,"org.platformlayer.guice.xaas.JdbcManagedItemRepository",4,4,4,1,30,6,22,1,2,48,48,0,,1,0,,,,12,4,13,13,2,3,0,8,,629,148,465,174,305,16,,,,242,347,158,267,,,,,,9,9,9,7,,1,4,,92,88,"0.03",55,55,58,25
+Class,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper",1,1,1,1,8,1,7,0,1,24,24,0,,0,0,,,,19,1,19,19,0,0,0,19,,180,38,140,39,90,2,,,,75,112,41,82,,,,,,5,5,5,1,,2,3,,57,36,"0.01",33,33,33,19
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,10,11,2,9,1,7,0,4,4,1,5,8,1,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.DbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.findByKey",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.getItemType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,4,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.getServiceType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,4,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.insertItem",,,,,,,,,,,,,,,,,,,,,,,,,,,6,39,7,32,7,27,0,13,12,1,21,27,7,22,5,5,5,1,0,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.insertTags",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,3,16,4,12,0,5,3,0,10,14,5,11,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.listAllItems",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.listItems",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.listTags",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.listTagsForItem",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,1,3,1,1,2,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.removeTags",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,3,13,3,10,0,5,2,0,9,12,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.updateItem",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,4,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.updateItemState",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,3,13,4,10,0,7,2,0,9,11,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.DbHelper.updateSecret",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,3,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Interface,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries",0,0,0,0,0,0,0,0,0,6,6,0,,0,0,,,,8,0,8,8,8,0,0,0,,25,7,18,17,0,0,,,,8,9,9,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.findByKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.listAllItems",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.listAllProjectTags",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.listItems",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.listTags",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.listTagsForItem",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.updateItem",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.Queries.updateSecret",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.changeState",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,4,7,0,4,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.changeTags",,,,,,,,,,,,,,,,,,,,,,,,,,,8,31,5,25,7,17,1,8,9,1,11,16,5,14,5,5,5,1,3,,,,,0,,2,0,,,"0.04",5,5,5,1
+Public Generic Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.createManagedItem",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,4,20,9,14,0,9,3,0,10,13,7,11,3,3,4,1,3,,,,,0,,2,0,,,"0.00",3,3,4,1
+TypeVariable,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.createManagedItem.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.fetchItem",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,6,15,4,11,1,12,5,1,8,12,4,11,4,4,4,1,1,,,,,0,,1,0,,,"0.07",4,4,4,1
+TypeVariable,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.fetchItem.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.findAll",,,,,,,,,,,,,,,,,,,,,,,,,,,9,39,5,32,10,22,2,18,19,1,14,24,11,20,7,7,8,4,4,,,,,4,,3,2,,,"0.06",7,7,8,4
+TypeVariable,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.findAll.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.findRoots",,,,,,,,,,,,,,,,,,,,,,,,,,,10,63,15,46,18,35,2,18,43,2,25,38,20,31,9,9,9,7,6,,,,,6,,4,4,,,"0.04",9,9,9,7
+Private Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.getJaxbHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,3,15,4,10,0,5,8,1,7,11,4,10,4,4,5,1,0,,,,,0,,1,0,,,"0.00",4,4,5,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.getManagedItem",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,3,17,6,11,0,9,3,0,7,10,4,9,3,3,3,1,3,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.listAll",,,,,,,,,,,,,,,,,,,,,,,,,,,10,54,14,38,16,29,2,17,19,1,21,31,17,26,7,7,7,4,4,,,,,4,,3,2,,,"0.05",7,7,7,4
+Static Generic Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.mapToModel",,,,,,,,,,,,,,,,,,,,,,,,,,,16,32,8,24,11,19,0,7,3,0,16,19,10,14,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+TypeVariable,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.mapToModel.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Private Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.mapToTags",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.serialize",,,,,,,,,,,,,,,,,,,,,,,,,,,10,32,9,18,7,15,5,9,2,0,13,15,7,14,2,2,2,1,1,,,,,0,,1,0,,,"0.28",2,2,2,1
+Public Generic Method,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.updateManagedItem",,,,,,,,,,,,,,,,,,,,,,,,,,,6,43,12,30,12,23,1,15,5,1,18,22,10,18,4,4,4,1,4,,,,,0,,2,0,,,"0.03",4,4,4,1
+TypeVariable,"org.platformlayer.guice.xaas.JdbcManagedItemRepository.updateManagedItem.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0

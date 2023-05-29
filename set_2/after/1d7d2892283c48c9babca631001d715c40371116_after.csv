@@ -1,0 +1,47 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BlockInventoryStocker.java",2,2,2,1,10,1,9,1,,,,,1,3,0,17,,17,14,0,17,,0,1,0,16,,209,39,163,48,73,22,,,,62,93,44,64,,,,,,7,7,7,3,,,3,,,,"0.13",39,36,41,21
+File,"CommonProxy.java",1,1,1,1,4,0,3,0,,,,,1,7,0,7,,7,0,0,7,,0,0,0,7,,44,8,34,12,6,2,,,,10,18,12,6,,,,,,1,1,1,1,,,0,,,,"0.06",7,7,7,7
+File,"Utils.java",3,3,3,1,22,2,18,2,,,,,1,1,0,2,,2,1,0,2,,0,0,0,2,,75,10,44,21,23,21,,,,23,30,16,18,,,,,,5,5,5,1,,,2,,,,"0.48",6,6,6,2
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.kaijin",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.kaijin.InventoryStocker",2,1,2,1,9,0,8,1,,,,,3,11,0,,3,,15,0,26,,0,1,0,25,,328,57,241,81,102,45,,,,95,141,72,88,,,,,,7,7,7,3,,,3,,,,"0.19",52,49,54,30
+Public Class,"com.kaijin.InventoryStocker.BlockInventoryStocker",2,2,2,1,10,1,9,1,2,15,15,0,,3,0,,,,14,0,17,17,0,1,0,16,,199,35,157,42,73,22,,,,56,87,38,64,,,,,,7,7,7,3,,2,3,,0,0,"0.14",39,36,41,21
+Public Constructor,"com.kaijin.InventoryStocker.BlockInventoryStocker.BlockInventoryStocker",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.addCreativeItems",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.blockActivated",,,,,,,,,,,,,,,,,,,,,,,,,,,6,33,5,27,4,15,7,8,5,1,11,16,3,14,5,5,5,1,1,,,,,0,,3,0,,,"0.26",5,5,5,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.canProvidePower",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Private Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.determineOrientation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,13,2,6,0,2,3,0,4,7,2,6,7,7,7,3,2,,,,,2,,1,2,,,"0.00",7,7,7,3
+Public Static Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.dropItems",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,0,11,7,8,0,2,1,0,7,8,6,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.dropItems",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,1,11,2,4,0,4,3,0,4,7,3,5,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.getBlockTexture",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,5,19,8,12,4,6,3,0,10,13,8,10,5,5,5,3,2,,,,,2,,1,2,,,"0.21",5,5,5,3
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.getBlockTextureFromSide",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,4,16,1,11,5,1,5,1,5,7,1,6,5,2,5,1,10,,,,,0,,1,0,,,"0.31",5,2,5,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.getTextureFile",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.getTileEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.hasTileEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.onBlockPlaced",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.onBlockPlacedBy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.onBlockRemoval",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.onNeighborBlockChange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,9,2,4,4,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.44",2,2,2,1
+Public Static Method,"com.kaijin.InventoryStocker.BlockInventoryStocker.preDestroyBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,1,8,2,3,0,3,2,0,2,4,2,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Class,"com.kaijin.InventoryStocker.CommonProxy",1,1,1,1,4,0,3,0,1,8,8,0,,7,0,,,,0,0,7,7,0,0,0,7,,38,6,30,8,6,2,,,,6,14,8,6,,,,,,1,1,1,1,,1,0,,0,0,"0.07",7,7,7,7
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.PacketHandlerGetWorld",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.getConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.isClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.isServer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.load",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.sendPacketToPlayer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.kaijin.InventoryStocker.CommonProxy.sendPacketToServer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Class,"com.kaijin.InventoryStocker.Utils",3,3,3,1,22,2,18,2,1,4,4,0,,1,0,,,,1,0,2,2,0,0,0,2,,66,6,39,16,23,21,,,,18,25,11,18,,,,,,5,5,5,1,,1,2,,0,0,"0.54",6,6,6,2
+Public Method,"com.kaijin.InventoryStocker.Utils.hashSHA1",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,4,23,6,16,5,11,12,1,16,21,8,17,5,5,5,1,1,,,,,0,,2,0,,,"0.22",5,5,5,1
+Public Static Method,"com.kaijin.InventoryStocker.Utils.lookupRotatedSide",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,9,7,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+File,"mod_InventoryStocker.java",1,1,1,1,6,0,6,0,,,,,1,1,4,6,,6,5,0,6,,0,0,0,6,,62,9,53,19,21,1,,,,26,34,16,21,,,,,,2,2,2,1,,,1,,,,"0.02",7,7,7,6
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.minecraft",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.minecraft.src",1,1,1,1,6,0,6,0,,,,,1,1,4,,1,,5,0,6,,0,0,0,6,,62,9,53,19,21,1,,,,26,34,16,21,,,,,,2,2,2,1,,,1,,,,"0.02",7,7,7,6
+Public Class,"net.minecraft.src.mod_InventoryStocker",1,1,1,1,6,0,6,0,1,9,9,0,,1,4,,,,5,0,6,6,0,0,0,6,,55,7,48,14,21,1,,,,21,29,11,21,,,,,,2,2,2,1,,2,1,,77,77,"0.02",7,7,7,6
+Public Method,"net.minecraft.src.mod_InventoryStocker.clientSideRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"net.minecraft.src.mod_InventoryStocker.configurationProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.minecraft.src.mod_InventoryStocker.getVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.minecraft.src.mod_InventoryStocker.load",,,,,,,,,,,,,,,,,,,,,,,,,,,11,15,0,15,1,10,1,11,2,0,9,11,1,10,2,2,2,1,0,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Constructor,"net.minecraft.src.mod_InventoryStocker.mod_InventoryStocker",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.minecraft.src.mod_InventoryStocker.serverSideRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

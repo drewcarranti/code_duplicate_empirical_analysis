@@ -1,0 +1,69 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Mx4jLoader.java",2,2,2,2,15,1,10,3,,,,,1,3,1,3,,3,0,0,3,,0,2,0,1,,88,10,36,11,24,42,,,,22,28,11,22,,,,,,4,4,4,4,,,2,,,,"1.17",6,6,6,6
+File,"Server.java",2,2,2,1,12,0,11,2,,,,,1,0,0,6,,6,6,9,6,,0,0,0,6,,143,23,89,33,52,35,,,,55,69,33,44,,,,,,5,5,5,1,,,3,,,,"0.39",13,13,13,6
+File,"ServerStartable.java",1,1,1,1,7,0,7,0,,,,,1,0,0,7,,7,7,6,7,,0,1,0,6,,94,11,62,19,30,21,,,,31,45,19,27,,,,,,3,3,3,1,,,2,,,,"0.34",13,13,13,7
+File,"Utils.java",1,1,1,1,9,0,6,3,,,,,1,38,0,38,,38,0,0,38,,1,2,0,35,,464,43,272,95,146,151,,,,134,205,96,130,,,,,,5,5,6,5,,,2,,,,"0.56",70,70,74,42
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.sohu",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.sohu.jafka",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.sohu.jafka.server",2,2,2,1,9,0,8,0,,,,,2,0,0,,2,,13,15,13,,0,1,0,12,,237,34,151,52,82,56,,,,86,114,52,71,,,,,,5,5,5,1,,,3,,,,"0.37",26,26,26,13
+Public Class,"com.sohu.jafka.server.Server",2,2,2,1,12,0,11,2,2,15,15,0,,0,0,,,,6,9,6,6,0,0,0,6,,126,18,77,21,52,35,,,,43,57,21,44,,,,,,5,5,5,1,,1,3,,64,61,"0.45",13,13,13,6
+Public Constructor,"com.sohu.jafka.server.Server.Server",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,6,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.sohu.jafka.server.Server.awaitShutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.sohu.jafka.server.Server.close",,,,,,,,,,,,,,,,,,,,,,,,,,,11,23,1,22,3,16,0,11,6,1,11,16,3,15,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"com.sohu.jafka.server.Server.getLogManager",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.sohu.jafka.server.Server.getStats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.sohu.jafka.server.Server.startup",,,,,,,,,,,,,,,,,,,,,,,,,,,8,34,1,28,4,24,9,17,3,0,17,20,4,18,3,3,3,1,1,,,,,0,,2,0,,,"0.32",3,3,3,1
+Public Class,"com.sohu.jafka.server.ServerStartable",1,1,1,1,7,0,7,0,2,8,8,0,,0,0,,,,7,6,7,7,0,1,0,6,,82,4,57,14,30,21,,,,26,40,14,27,,,,,,3,3,3,1,,1,2,,59,45,"0.37",13,13,13,7
+Public Constructor,"com.sohu.jafka.server.ServerStartable.ServerStartable",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.sohu.jafka.server.ServerStartable.ServerStartable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.sohu.jafka.server.ServerStartable.awaitShutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.sohu.jafka.server.ServerStartable.close",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,1,7,0,5,3,0,4,7,1,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.sohu.jafka.server.ServerStartable.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.sohu.jafka.server.ServerStartable.init",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.sohu.jafka.server.ServerStartable.startup",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,1,7,0,4,3,0,4,7,1,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Package,"com.sohu.jafka.utils",1,1,1,1,10,0,6,3,,,,,2,41,1,,2,,0,0,41,,1,4,0,36,,552,53,308,106,170,193,,,,156,233,107,152,,,,,,5,5,6,5,,,2,,,,"0.63",76,76,80,48
+Public Class,"com.sohu.jafka.utils.Mx4jLoader",2,2,2,2,15,1,10,3,1,6,6,0,,3,1,,,,0,0,3,3,0,2,0,1,,83,7,34,9,24,42,,,,20,26,9,22,,,,,,4,4,4,4,,1,2,,0,0,"1.24",6,6,6,6
+Private Static Method,"com.sohu.jafka.utils.Mx4jLoader.getAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.sohu.jafka.utils.Mx4jLoader.getPort",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Mx4jLoader.maybeLoad",,,,,,,,,,,,,,,,,,,,,,,,,,,6,39,3,25,5,21,11,13,4,1,17,20,5,19,4,4,4,4,6,,,,,6,,2,6,,,"0.44",4,4,4,4
+Public Class,"com.sohu.jafka.utils.Utils",1,1,1,1,9,0,6,3,1,34,34,0,,38,0,,,,0,0,38,38,1,2,0,35,,436,38,249,72,146,151,,,,111,182,73,130,,,,,,5,5,6,5,,1,2,,0,0,"0.61",70,70,74,42
+Public Static Method,"com.sohu.jafka.utils.Utils.caculateShortString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.crc32",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.crc32",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,5,2,3,9,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"1.80",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.fromBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.fromBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getBoolean",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getCSVList",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,4,8,0,9,4,1,6,10,4,9,4,4,6,1,1,,,,,0,,2,0,,,"0.00",4,4,6,1
+Private Static Method,"com.sohu.jafka.utils.Utils.getCSVMap",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,3,6,0,6,3,0,5,9,4,7,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getCanonicalFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getConsumerTopicMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,3,0,2,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getInt",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getInt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getIntInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,0,10,2,6,0,4,4,1,4,7,2,5,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Static Generic Method,"com.sohu.jafka.utils.Utils.getObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,0,15,2,10,5,3,5,1,5,8,1,7,5,5,5,5,7,,,,,7,,1,7,,,"0.33",5,5,5,5
+TypeVariable,"com.sohu.jafka.utils.Utils.getObject.E",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Method,"com.sohu.jafka.utils.Utils.getProps",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,15,5,11,4,4,7,1,11,16,6,14,5,5,5,1,1,,,,,0,,2,0,,,"0.27",5,5,5,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,3,1,1,9,3,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"3.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getTopicFlushIntervals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,3,0,2,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getTopicPartition",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,3,1,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getTopicPartitions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,3,0,2,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getTopicRentionHours",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,3,0,2,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getUnsignedInt",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.getUnsignedInt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.loadProps",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,1,13,3,10,6,3,2,0,7,9,3,7,2,2,2,1,3,,,,,0,,1,0,,,"0.46",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.newThread",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,5,2,3,8,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.openChannel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,6,1,3,6,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.putUnsignedInt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.putUnsignedInt",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.read",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,5,2,3,7,2,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.40",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.readShortString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,9,3,6,7,4,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.78",2,2,2,1
+Public Static Method,"com.sohu.jafka.utils.Utils.registerMBean",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Method,"com.sohu.jafka.utils.Utils.registerMBean",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,0,16,3,11,11,6,3,0,7,11,3,10,3,3,3,1,1,,,,,0,,2,0,,,"0.69",3,3,3,1
+Public Static Method,"com.sohu.jafka.utils.Utils.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.sohu.jafka.utils.Utils.unregisterMBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.sohu.jafka.utils.Utils.unregisterMBean",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,13,3,8,6,4,3,0,4,8,3,7,3,3,3,1,1,,,,,0,,2,0,,,"0.46",3,3,3,1
+Public Static Method,"com.sohu.jafka.utils.Utils.writeShortString",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,11,2,8,8,4,3,0,5,8,2,7,3,3,3,1,2,,,,,0,,1,0,,,"0.73",3,3,3,1

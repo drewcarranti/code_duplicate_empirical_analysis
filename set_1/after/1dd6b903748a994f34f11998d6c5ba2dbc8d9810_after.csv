@@ -1,0 +1,74 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractMultipartForm.java",1,1,1,1,8,0,6,1,,,,,1,6,3,16,,17,11,4,17,,0,5,3,9,,224,29,132,57,65,63,,,,74,99,49,62,,,,,,4,4,4,4,,,2,,,,"0.48",23,23,23,19
+File,"HttpBrowserCompatibleMultipart.java",1,1,1,1,11,0,6,4,,,,,1,0,0,3,,3,3,0,3,,0,0,1,2,,80,8,26,16,9,46,,,,12,17,12,9,,,,,,2,2,2,1,,,1,,,,"1.77",4,4,4,3
+File,"HttpMultipart.java",1,1,1,1,11,0,7,4,,,,,1,0,0,5,,5,5,1,5,,0,0,1,4,,110,10,43,20,18,57,,,,18,28,16,16,,,,,,4,4,4,1,,,2,,,,"1.33",8,8,8,5
+File,"HttpMultipartFactory.java",2,1,2,1,8,0,7,1,,,,,1,1,0,2,,2,1,0,2,,0,1,0,1,,57,6,18,7,7,33,,,,5,9,5,4,,,,,,3,2,3,1,,,1,,,,"1.83",4,3,4,2
+File,"HttpStrictMultipart.java",1,1,1,1,9,0,5,4,,,,,1,0,0,3,,3,3,0,3,,0,0,1,2,,75,8,21,12,5,46,,,,8,14,10,5,,,,,,2,2,2,1,,,1,,,,"2.19",4,4,4,3
+File,"MultipartEntity.java",1,1,1,1,6,0,5,1,,,,,1,0,1,18,,18,18,4,18,,0,0,3,15,,203,26,119,52,50,60,,,,58,84,44,48,,,,,,3,3,3,3,,,2,,,,"0.50",27,27,27,20
+File,"TestMultipartForm.java",1,1,1,1,43,4,39,0,,,,,1,1,2,6,,6,5,0,6,,0,1,0,5,,323,39,257,93,210,27,,,,115,129,69,102,,,,,,3,3,3,1,,,2,,,,"0.11",9,9,9,6
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.http",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.http.entity",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.http.entity.mime",1,1,1,1,12,0,9,1,,,,,7,8,6,,7,,46,9,54,,0,7,9,38,,1072,126,616,257,364,332,,,,290,380,205,246,,,,,,4,4,4,4,,,2,,,,"0.54",79,78,79,58
+Abstract Class,"org.apache.http.entity.mime.AbstractMultipartForm",1,1,1,1,8,0,6,1,1,14,14,3,,6,3,,,,11,4,17,17,0,5,3,9,,182,25,120,45,65,37,,,,62,87,37,62,,,,,,4,4,4,4,,1,2,,81,65,"0.31",23,23,23,19
+Public Constructor,"org.apache.http.entity.mime.AbstractMultipartForm.AbstractMultipartForm",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,0,9,1,7,8,6,1,0,7,8,1,7,2,2,2,1,0,,,,,0,,0,0,,,"0.89",2,2,2,1
+Public Constructor,"org.apache.http.entity.mime.AbstractMultipartForm.AbstractMultipartForm",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.addBodyPart",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,1,3,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.http.entity.mime.AbstractMultipartForm.doWriteTo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,4,20,4,14,0,6,3,0,12,16,3,14,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.encode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,4,4,0,7,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Abstract Method,"org.apache.http.entity.mime.AbstractMultipartForm.formatMultipartHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,3,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.getBodyParts",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.getBoundary",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.getCharset",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.getSubType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.getTotalLength",,,,,,,,,,,,,,,,,,,,,,,,,,,8,34,0,20,6,15,14,5,5,1,10,15,7,12,4,4,4,4,5,,,,,4,,2,3,,,"0.70",4,4,4,4
+Private Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeField",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeField",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.AbstractMultipartForm.writeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Class,"org.apache.http.entity.mime.HttpBrowserCompatibleMultipart",1,1,1,1,11,0,6,4,1,8,8,0,,0,0,,,,3,0,3,20,0,0,1,2,,47,5,22,12,9,20,,,,8,13,8,9,,,,,,2,2,2,1,,2,1,,0,0,"0.91",4,4,4,3
+Public Constructor,"org.apache.http.entity.mime.HttpBrowserCompatibleMultipart.HttpBrowserCompatibleMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,0,4,2,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.25",1,1,1,1
+Public Constructor,"org.apache.http.entity.mime.HttpBrowserCompatibleMultipart.HttpBrowserCompatibleMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.http.entity.mime.HttpBrowserCompatibleMultipart.formatMultipartHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,1,13,8,7,5,5,2,0,6,8,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.38",2,2,2,1
+Public Class,"org.apache.http.entity.mime.HttpMultipart",1,1,1,1,11,0,7,4,1,10,10,0,,0,0,,,,5,1,5,22,0,0,1,4,,77,7,39,16,18,31,,,,14,24,12,16,,,,,,4,4,4,1,,2,2,,40,0,"0.79",8,8,8,5
+Public Constructor,"org.apache.http.entity.mime.HttpMultipart.HttpMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,6,3,2,10,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Constructor,"org.apache.http.entity.mime.HttpMultipart.HttpMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,3,1,1,10,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Constructor,"org.apache.http.entity.mime.HttpMultipart.HttpMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.http.entity.mime.HttpMultipart.formatMultipartHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,0,20,7,13,2,6,4,1,8,13,6,11,4,4,4,1,1,,,,,0,,2,0,,,"0.10",4,4,4,1
+Public Method,"org.apache.http.entity.mime.HttpMultipart.getMode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.http.entity.mime.HttpMultipartFactory",2,1,2,1,8,0,7,1,1,7,7,0,,1,0,,,,1,0,2,2,0,1,0,1,,26,3,16,5,7,7,,,,3,7,3,4,,,,,,3,2,3,1,,1,1,,0,0,"0.44",4,3,4,2
+Private Constructor,"org.apache.http.entity.mime.HttpMultipartFactory.HttpMultipartFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Static Method,"org.apache.http.entity.mime.HttpMultipartFactory.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,0,12,3,7,2,3,3,0,3,5,1,4,3,2,3,1,3,,,,,0,,1,0,,,"0.17",3,2,3,1
+Class,"org.apache.http.entity.mime.HttpStrictMultipart",1,1,1,1,9,0,5,4,1,8,8,0,,0,0,,,,3,0,3,20,0,0,1,2,,42,5,17,8,5,20,,,,4,10,6,5,,,,,,2,2,2,1,,2,1,,0,0,"1.18",4,4,4,3
+Public Constructor,"org.apache.http.entity.mime.HttpStrictMultipart.HttpStrictMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Constructor,"org.apache.http.entity.mime.HttpStrictMultipart.HttpStrictMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.http.entity.mime.HttpStrictMultipart.formatMultipartHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,1,9,5,3,4,2,2,0,2,5,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.44",2,2,2,1
+Public Class,"org.apache.http.entity.mime.MultipartEntity",1,1,1,1,6,0,5,1,2,16,16,0,,0,1,,,,18,4,18,18,0,0,3,15,,162,22,108,41,50,34,,,,47,73,33,48,,,,,,3,3,3,3,,1,2,,79,68,"0.31",27,27,27,20
+Public Constructor,"org.apache.http.entity.mime.MultipartEntity.MultipartEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,10,5,5,6,7,1,0,5,6,2,5,3,3,3,1,0,,,,,0,,0,0,,,"0.60",3,3,3,1
+Public Constructor,"org.apache.http.entity.mime.MultipartEntity.MultipartEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,10,5,5,6,6,1,0,5,6,2,5,2,2,2,1,0,,,,,0,,0,0,,,"0.60",2,2,2,1
+Public Constructor,"org.apache.http.entity.mime.MultipartEntity.MultipartEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Constructor,"org.apache.http.entity.mime.MultipartEntity.MultipartEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.addPart",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.addPart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.consumeContent",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,2,3,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.http.entity.mime.MultipartEntity.generateBoundary",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,4,6,1,4,2,0,7,9,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Protected Method,"org.apache.http.entity.mime.MultipartEntity.generateContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,4,7,0,4,2,0,6,8,2,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.getContent",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.getContentEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.getContentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.getContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.http.entity.mime.MultipartEntity.getMultipart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.isChunked",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.isRepeatable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,5,0,4,3,0,3,7,3,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.http.entity.mime.MultipartEntity.isStreaming",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.MultipartEntity.writeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.http.entity.mime.TestMultipartForm",1,1,1,1,43,4,39,0,1,20,20,0,,1,2,,,,5,0,6,6,0,1,0,5,,279,35,243,79,210,1,,,,101,115,55,102,,,,,,3,3,3,1,,1,2,,0,0,"0.00",9,9,9,6
+Private Static Method,"org.apache.http.entity.mime.TestMultipartForm.constructString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,5,0,3,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.http.entity.mime.TestMultipartForm.testMultipartFormBinaryParts",,,,,,,,,,,,,,,,,,,,,,,,,,,0,48,5,43,13,38,0,12,1,0,18,20,9,19,1,1,1,1,0,,,,,0,,1,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.TestMultipartForm.testMultipartFormBrowserCompatible",,,,,,,,,,,,,,,,,,,,,,,,,,,0,60,5,54,15,49,1,13,1,0,20,22,10,21,1,1,1,1,0,,,,,0,,1,0,,,"0.02",1,1,1,1
+Public Method,"org.apache.http.entity.mime.TestMultipartForm.testMultipartFormBrowserCompatibleNonASCIIHeaders",,,,,,,,,,,,,,,,,,,,,,,,,,,2,49,6,43,15,38,0,13,1,0,20,22,11,20,1,1,1,1,0,,,,,0,,1,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.TestMultipartForm.testMultipartFormStringParts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,46,3,43,13,39,0,10,1,0,14,15,8,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.http.entity.mime.TestMultipartForm.testMultipartFormStringPartsMultiCharsets",,,,,,,,,,,,,,,,,,,,,,,,,,,3,49,7,42,13,38,0,12,2,0,24,26,11,24,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1

@@ -1,0 +1,90 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ServerWebSocketImpl.java",1,1,1,1,6,0,6,0,,,,,1,0,0,30,,30,30,8,30,,4,1,0,25,,289,36,227,76,94,26,,,,87,144,50,94,,,,,,4,4,5,1,,,2,,,,"0.11",39,39,42,30
+File,"WebSocketImpl.java",1,1,1,1,6,0,6,0,,,,,1,0,0,19,,19,19,1,19,,2,0,0,17,,181,25,132,46,53,24,,,,47,80,27,53,,,,,,2,2,2,1,,,1,,,,"0.18",22,22,22,19
+File,"WebSocketImplBase.java",1,1,2,1,8,0,8,0,,,,,2,0,1,27,,28,26,19,26,,4,3,8,11,,335,37,271,94,140,27,,,,136,196,85,126,,,,,,6,5,8,1,,,2,,,,"0.10",53,51,56,27
+Package,"io",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx.core.http",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx.core.http.impl",1,1,1,1,7,0,7,0,,,,,4,0,1,,3,,75,28,75,,10,4,8,53,,805,98,630,216,287,77,,,,270,420,162,273,,,,,,6,5,8,1,,,2,,,,"0.12",114,112,120,76
+Public Class,"io.vertx.core.http.impl.ServerWebSocketImpl",1,1,1,1,6,0,6,0,2,11,11,0,,0,0,,,,30,8,30,53,4,1,0,25,,259,32,216,65,94,11,,,,76,133,39,94,,,,,,4,4,5,1,,2,2,,89,84,"0.05",39,39,42,30
+Public Constructor,"io.vertx.core.http.impl.ServerWebSocketImpl.ServerWebSocketImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,0,10,3,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.close",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,15,2,8,1,3,5,1,4,9,1,8,4,4,5,1,0,,,,,0,,2,0,,,"0.07",4,4,5,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.closeHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"io.vertx.core.http.impl.ServerWebSocketImpl.connect",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.ServerWebSocketImpl.connectNow",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,3,0,1,2,0,1,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.drainHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.end",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.endHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.frameHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.ServerWebSocketImpl.getMetric",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.handler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.headers",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.ServerWebSocketImpl.isRejected",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.path",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.pause",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.peerCertificateChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.query",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.reject",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,2,7,0,2,4,1,4,8,1,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.resume",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.ServerWebSocketImpl.setMetric",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.setWriteQueueMaxSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.uri",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.write",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,4,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeBinaryMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeFinalBinaryFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeFinalTextFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,9,15,0,15,2,8,0,3,5,1,4,9,1,8,4,4,5,1,0,,,,,0,,2,0,,,"0.00",4,4,5,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeQueueFull",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,3,0,3,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.ServerWebSocketImpl.writeTextMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"io.vertx.core.http.impl.WebSocketImpl",1,1,1,1,6,0,6,0,2,7,7,0,,0,0,,,,19,1,19,42,2,0,0,17,,157,22,126,40,53,9,,,,41,74,21,53,,,,,,2,2,2,1,,2,1,,89,89,"0.07",22,22,22,19
+Public Constructor,"io.vertx.core.http.impl.WebSocketImpl.WebSocketImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.closeHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.drainHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.end",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.endHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,5,0,3,2,0,3,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,5,0,3,2,0,3,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.frameHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.WebSocketImpl.handleClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,3,0,3,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.handler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,5,0,3,2,0,3,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.pause",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.resume",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.WebSocketImpl.setMetric",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.setWriteQueueMaxSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.write",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.writeBinaryMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.writeFinalBinaryFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.writeFinalTextFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.writeFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImpl.writeTextMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"io.vertx.core.http.impl.WebSocketImplBase",1,1,1,1,7,0,7,0,2,19,19,2,,0,1,,,,23,15,23,23,4,1,8,10,,300,33,255,78,140,12,,,,120,180,69,126,,,,,,4,4,5,1,,1,1,,89,83,"0.05",37,37,38,24
+Private Class,"io.vertx.core.http.impl.WebSocketImplBase.FrameAggregator",5,4,6,1,21,0,21,0,2,6,6,0,,0,0,,,,3,4,3,3,0,2,0,1,,75,5,70,19,47,0,,,,33,48,16,40,,,,,,6,5,8,1,,1,2,,50,33,"0.00",16,14,18,3
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.FrameAggregator.handle",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,2,13,0,4,6,1,7,11,1,10,6,4,8,1,4,,,,,0,,2,0,,,"0.00",6,4,8,1
+Private Method,"io.vertx.core.http.impl.WebSocketImplBase.FrameAggregator.handleBinaryFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,0,23,6,17,0,9,8,1,11,16,5,15,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Private Method,"io.vertx.core.http.impl.WebSocketImplBase.FrameAggregator.handleTextFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,1,23,6,17,0,9,8,1,11,16,5,15,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Protected Constructor,"io.vertx.core.http.impl.WebSocketImplBase.WebSocketImplBase",,,,,,,,,,,,,,,,,,,,,,,,,,,11,13,0,13,4,10,0,14,1,0,10,11,3,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",3,3,3,3
+Lambda Method,"io.vertx.core.http.impl.WebSocketImplBase.WebSocketImplBase.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"io.vertx.core.http.impl.WebSocketImplBase.WebSocketImplBase.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.binaryHandlerID",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.binaryMessageHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,2,6,0,4,2,0,4,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.checkClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,31,5,0,5,1,2,0,0,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"io.vertx.core.http.impl.WebSocketImplBase.cleanupHandlers",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,2,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.close",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"io.vertx.core.http.impl.WebSocketImplBase.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.frameHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,2,4,0,3,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.WebSocketImplBase.handleClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,1,6,0,2,4,1,3,7,1,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Method,"io.vertx.core.http.impl.WebSocketImplBase.handleException",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,3,0,1,2,0,1,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"io.vertx.core.http.impl.WebSocketImplBase.handleFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,1,12,2,7,0,6,4,1,4,8,2,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.localAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.remoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.textHandlerID",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.textMessageHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,2,6,0,4,2,0,4,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"io.vertx.core.http.impl.WebSocketImplBase.writable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,2,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writeBinaryFrameInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,3,0,2,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writeFrameInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,5,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writeMessageInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writePartialMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,0,22,6,15,4,5,8,1,12,16,6,11,4,4,5,1,2,,,,,0,,1,0,,,"0.18",4,4,5,1
+Public Method,"io.vertx.core.http.impl.WebSocketImplBase.writeQueueFull",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,0,3,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writeTextFrameInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.WebSocketImplBase.writeTextMessageInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

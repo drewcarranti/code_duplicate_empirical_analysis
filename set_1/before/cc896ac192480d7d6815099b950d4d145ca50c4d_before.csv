@@ -1,0 +1,65 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BaseHadoopTest.java",1,1,2,1,9,0,9,0,,,,,1,3,7,17,,17,14,5,17,,1,1,7,8,,258,35,221,80,133,2,,,,132,167,78,115,,,,,,10,10,10,1,,,3,,,,"0.01",33,33,35,17
+File,"MapReduceJob.java",2,2,2,1,11,0,10,0,,,,,2,0,7,13,,13,13,6,13,,0,3,0,10,,238,38,200,75,113,0,,,,112,155,78,102,,,,,,8,8,8,1,,,3,,,,"0.00",34,34,34,13
+File,"StreamingJob.java",2,2,2,1,12,1,11,0,,,,,2,0,5,12,,12,12,8,12,,0,2,0,10,,227,37,189,69,114,3,,,,116,144,70,94,,,,,,9,9,9,1,,,3,,,,"0.02",27,27,27,12
+File,"TestStandalone.java",1,1,1,1,11,1,10,0,,,,,1,0,1,7,,7,7,1,7,,0,2,0,5,,121,19,102,46,57,0,,,,64,74,42,41,,,,,,2,2,2,1,,,1,,,,"0.00",8,8,8,7
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mongodb",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mongodb.hadoop",2,2,2,1,11,0,10,0,,,,,6,3,20,,4,,46,20,49,,1,8,7,33,,844,129,712,270,417,5,,,,424,540,268,352,,,,,,10,10,10,1,,,3,,,,"0.01",102,102,104,49
+Public Class,"org.mongodb.hadoop.BaseHadoopTest",1,1,2,1,9,0,9,0,1,27,27,1,,3,7,,,,14,5,17,17,1,1,7,8,,229,31,196,55,133,2,,,,107,142,53,115,,,,,,10,10,10,1,,1,3,,90,82,"0.01",33,33,35,17
+Public Constructor,"org.mongodb.hadoop.BaseHadoopTest.BaseHadoopTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,27,0,27,1,25,0,8,1,0,23,24,1,23,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mongodb.hadoop.BaseHadoopTest.authCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,1,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.mongodb.hadoop.BaseHadoopTest.compareResults",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,13,4,10,1,8,2,0,9,11,5,9,2,2,2,1,0,,,,,0,,1,0,,,"0.08",2,2,2,1
+Protected Static Method,"org.mongodb.hadoop.BaseHadoopTest.dbObject",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,4,0,3,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.getClient",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,0,11,2,7,0,4,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.getInputUri",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.getOutputUri",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.getReference",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.mongodb.hadoop.BaseHadoopTest.isAuthEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.isRunTestInVm",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mongodb.hadoop.BaseHadoopTest.isSharded",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,3,0,4,1,0,3,4,3,3,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Protected Static Method,"org.mongodb.hadoop.BaseHadoopTest.loadProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.mongoImport",,,,,,,,,,,,,,,,,,,,,,,,,,,12,50,2,48,10,39,0,22,33,2,21,29,8,28,10,10,10,1,7,,,,,0,,3,0,,,"0.00",10,10,10,1
+Private Method,"org.mongodb.hadoop.BaseHadoopTest.round",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mongodb.hadoop.BaseHadoopTest.runIsMaster",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.mongodb.hadoop.BaseHadoopTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.mongodb.hadoop.BaseHadoopTest.toList",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.mongodb.hadoop.MapReduceJob",3,3,3,1,14,1,13,0,1,29,29,0,,0,7,,,,9,4,9,9,0,2,0,7,,209,34,175,50,113,0,,,,87,130,53,102,,,,,,8,8,8,1,,1,3,,75,47,"0.00",30,30,30,9
+Public Constructor,"org.mongodb.hadoop.MapReduceJob.MapReduceJob",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Final Generic Class,"org.mongodb.hadoop.MapReduceJob.Pair",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,4,2,4,4,0,1,0,3,,22,4,18,8,5,0,,,,7,12,7,5,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Private Constructor,"org.mongodb.hadoop.MapReduceJob.Pair.Pair",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"org.mongodb.hadoop.MapReduceJob.Pair.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"org.mongodb.hadoop.MapReduceJob.Pair.U",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.mongodb.hadoop.MapReduceJob.Pair.getKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.Pair.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.Pair.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongodb.hadoop.MapReduceJob.copyJars",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,1,20,7,15,0,10,5,1,9,14,7,12,6,6,6,1,3,,,,,0,,3,0,,,"0.00",6,6,6,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,1,8,0,4,3,0,4,7,1,6,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.executeExternal",,,,,,,,,,,,,,,,,,,,,,,,,,,8,41,6,35,6,28,0,21,20,1,19,26,7,24,6,6,6,1,1,,,,,0,,2,0,,,"0.00",6,6,6,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.executeInVM",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,2,13,3,9,0,15,4,1,7,11,4,9,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.inputUris",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.outputUris",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.MapReduceJob.param",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongodb.hadoop.MapReduceJob.processSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,7,30,3,27,4,18,0,10,32,2,11,22,7,18,8,8,8,1,0,,,,,0,,3,0,,,"0.00",8,8,8,1
+Public Class,"org.mongodb.hadoop.StreamingJob",2,2,2,1,13,1,11,0,1,28,28,0,,0,5,,,,11,8,11,11,0,2,0,9,,195,33,161,41,114,3,,,,88,116,42,94,,,,,,9,9,9,1,,1,3,,80,80,"0.02",26,26,26,11
+Public Constructor,"org.mongodb.hadoop.StreamingJob.StreamingJob",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,17,1,14,1,6,2,0,8,10,1,9,2,2,2,1,1,,,,,0,,1,0,,,"0.06",2,2,2,1
+Private Method,"org.mongodb.hadoop.StreamingJob.add",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongodb.hadoop.StreamingJob.copyJars",,,,,,,,,,,,,,,,,,,,,,,,,,,5,40,4,36,10,27,0,10,8,1,18,25,11,20,7,7,7,1,4,,,,,0,,1,0,,,"0.00",7,7,7,1
+Anonymous Class,"org.mongodb.hadoop.StreamingJob.copyJars.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.copyJars.(Anon_1).accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,17,54,9,45,5,37,0,21,23,1,24,32,6,30,9,9,9,1,7,,,,,0,,3,0,,,"0.00",9,9,9,1
+Public Method,"org.mongodb.hadoop.StreamingJob.inputFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.inputPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.inputUris",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.outputFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.outputPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.outputUris",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.StreamingJob.params",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.mongodb.hadoop.TestStandalone",1,1,1,1,11,1,10,0,1,20,20,0,,0,1,,,,7,1,7,24,0,2,0,5,,94,15,79,23,57,0,,,,41,51,19,41,,,,,,2,2,2,1,,2,1,,71,71,"0.00",8,8,8,7
+Public Constructor,"org.mongodb.hadoop.TestStandalone.TestStandalone",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,1,3,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.TestStandalone.checkConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongodb.hadoop.TestStandalone.collectionSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,3,21,6,19,0,9,1,0,17,18,5,17,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongodb.hadoop.TestStandalone.compareDoubled",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,2,14,5,11,0,6,2,0,10,13,6,11,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mongodb.hadoop.TestStandalone.testBasicInputSource",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,2,7,0,15,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.TestStandalone.testMultipleCollectionSupport",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,2,8,0,15,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongodb.hadoop.TestStandalone.testTreasuryJsonConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,2,7,0,15,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

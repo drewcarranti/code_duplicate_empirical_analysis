@@ -1,0 +1,53 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Interpreter.java",2,2,2,0,9,0,9,0,,,,,1,0,0,8,,6,8,3,8,,0,4,0,4,,115,14,93,39,51,8,,,,55,79,43,48,,,,,,7,7,7,1,,,2,,,,"0.09",19,19,19,6
+File,"OPMAbstractProcessInstance.java",1,1,1,1,5,0,5,0,,,,,2,0,0,16,,16,16,4,16,,0,4,0,12,,131,23,103,42,39,5,,,,37,63,32,33,,,,,,5,4,5,4,,,3,,,,"0.05",26,23,26,19
+File,"OPMComplexProcessInstance.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,2,3,,0,0,0,3,,25,8,17,10,4,0,,,,7,11,8,4,,,,,,1,1,1,1,,,0,,,,"0.00",3,3,3,3
+File,"OPMProcessInstance.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,8,8,0,8,,0,0,0,8,,27,9,13,12,0,5,,,,11,12,12,0,,,,,,0,0,0,0,,,0,,,,"0.38",0,0,0,0
+File,"VariableManager.java",2,2,2,1,9,0,9,0,,,,,1,0,0,1,,1,1,1,1,,0,0,0,1,,22,4,18,10,7,0,,,,12,15,10,7,,,,,,2,2,2,1,,,1,,,,"0.00",2,2,2,1
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm.interpreter",1,1,1,1,6,0,6,0,,,,,6,0,0,,5,,36,10,36,,0,8,0,28,,320,58,244,113,101,18,,,,122,180,105,92,,,,,,7,7,7,4,,,3,,,,"0.07",50,47,50,29
+Public Enum Type,"com.vainolo.phd.opm.interpreter.Interpreter",2,2,2,0,9,0,9,0,1,18,18,0,,0,0,,,,8,3,8,8,0,4,0,4,,96,11,77,23,51,8,,,,39,63,27,48,,,,,,7,7,7,1,,1,2,,,,"0.10",19,19,19,6
+Private Method,"com.vainolo.phd.opm.interpreter.Interpreter.addVariableToProcessIntance",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.vainolo.phd.opm.interpreter.Interpreter.calculateStartingProcesses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,4,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.vainolo.phd.opm.interpreter.Interpreter.createOrFetchObjectVariable",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,6,0,6,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.vainolo.phd.opm.interpreter.Interpreter.getProcessInstanceFromOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,31,2,27,6,21,2,11,16,1,15,23,7,18,7,7,7,1,4,,,,,0,,2,0,,,"0.07",7,7,7,1
+Public Method,"com.vainolo.phd.opm.interpreter.Interpreter.getProcesses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,2,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.vainolo.phd.opm.interpreter.Interpreter.interpret",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,2,15,6,11,1,8,4,1,9,14,8,11,3,3,3,1,0,,,,,0,,1,0,,,"0.07",3,3,3,1
+Public Implicit Method,"com.vainolo.phd.opm.interpreter.Interpreter.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.vainolo.phd.opm.interpreter.Interpreter.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Abstract Class,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance",1,1,1,1,6,0,5,0,3,9,9,1,,0,0,,,,13,2,13,13,0,2,0,11,,120,20,95,34,39,5,,,,29,55,24,33,,,,,,5,4,5,4,,1,3,,76,73,"0.05",23,20,23,16
+Private Class,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.Argument",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,3,2,3,3,0,2,0,1,,17,3,14,6,4,0,,,,6,10,6,4,,,,,,1,1,1,1,,1,0,,33,33,"0.00",3,3,3,3
+Public Constructor,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.Argument.Argument",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.Argument.getKind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.Argument.getVariable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.adaptToVariable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.addArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,3,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.getArgumentValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.getTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.isActive",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.isAdapterForType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,4,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.isIncomingArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,2,11,1,8,0,2,2,0,2,4,1,3,5,2,5,1,1,,,,,0,,1,0,,,"0.00",5,2,5,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.isReady",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,5,0,5,4,1,2,7,2,5,4,4,4,4,4,,,,,4,,3,4,,,"0.00",4,4,4,4
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.setActive",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.setArgumentValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMAbstractProcessInstance.setTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.vainolo.phd.opm.interpreter.OPMComplexProcessInstance",1,1,1,1,3,0,3,0,2,4,4,0,,0,0,,,,3,2,3,16,0,0,0,3,,21,6,15,8,4,0,,,,5,9,6,4,,,,,,1,1,1,1,,2,0,,66,66,"0.00",3,3,3,3
+Public Constructor,"com.vainolo.phd.opm.interpreter.OPMComplexProcessInstance.OPMComplexProcessInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMComplexProcessInstance.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.interpreter.OPMComplexProcessInstance.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"com.vainolo.phd.opm.interpreter.OPMProcessInstance",0,0,0,0,0,0,0,0,0,3,3,2,,0,0,,,,8,0,8,8,0,0,0,8,,17,7,10,9,0,0,,,,8,9,9,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.addArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.getArgumentValue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.isActive",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.isReady",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.setActive",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"com.vainolo.phd.opm.interpreter.OPMProcessInstance.setArgumentValue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"com.vainolo.phd.opm.interpreter.VariableManager",2,2,2,1,9,0,9,0,1,6,6,0,,0,0,,,,1,1,1,1,0,0,0,1,,13,1,12,4,7,0,,,,6,9,4,7,,,,,,2,2,2,1,,1,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.interpreter.VariableManager.getVariable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,6,0,6,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1

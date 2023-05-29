@@ -1,0 +1,161 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"HttpConnection.java",1,1,1,1,7,0,4,3,,,,,1,0,0,2,,17,17,0,17,,17,0,0,0,,204,20,46,41,2,138,,,,25,28,26,2,,,,,,1,1,1,1,,,0,,,,"3.00",2,2,2,2
+File,"VertxHttp2ClientHandler.java",1,1,1,1,6,0,6,0,,,,,2,0,0,45,,45,39,16,39,,6,1,2,30,,384,39,324,142,145,22,,,,148,212,109,125,,,,,,5,5,7,1,,,3,,,,"0.07",67,67,71,45
+File,"VertxHttp2ConnectionHandler.java",1,1,1,1,6,0,6,0,,,,,1,2,0,50,,50,39,13,41,,0,2,1,38,,386,55,306,131,123,25,,,,126,191,91,110,,,,,,7,7,7,1,,,3,,,,"0.08",75,75,77,50
+File,"VertxHttp2ServerHandler.java",1,1,2,1,8,0,7,0,,,,,2,0,1,33,,33,21,12,21,,7,2,2,10,,325,35,265,112,133,25,,,,137,183,94,111,,,,,,8,8,12,8,,,2,,,,"0.09",56,56,66,42
+Package,"io",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"io.vertx.core.http",1,1,1,1,7,0,4,3,,,,,1,0,0,,1,,17,0,17,,17,0,0,0,,204,20,46,41,2,138,,,,25,28,26,2,,,,,,1,1,1,1,,,0,,,,"3.00",2,2,2,2
+Public Interface,"io.vertx.core.http.HttpConnection",1,1,1,1,7,0,4,3,0,7,7,1,,0,0,,,,17,0,17,17,17,0,0,0,,147,17,38,33,2,92,,,,17,20,18,2,,,,,,1,1,1,1,,0,0,,0,0,"2.42",2,2,2,2
+Abstract Method,"io.vertx.core.http.HttpConnection.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.closeHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,2,2,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.50",0,0,0,0
+Method,"io.vertx.core.http.HttpConnection.goAway",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Method,"io.vertx.core.http.HttpConnection.goAway",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Abstract Method,"io.vertx.core.http.HttpConnection.goAway",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,2,2,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.goAwayHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.remoteSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.remoteSettingsHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.remoteSettingsHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,2,2,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.50",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.settings",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.shutdownHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.updateSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,2,2,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"io.vertx.core.http.HttpConnection.updateSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,2,2,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.50",0,0,0,0
+Package,"io.vertx.core.http.impl",1,1,1,1,6,0,6,0,,,,,5,2,1,,3,,99,41,101,,13,5,5,78,,1095,129,895,385,401,72,,,,411,586,294,346,,,,,,8,8,12,8,,,3,,,,"0.08",198,198,214,137
+Class,"io.vertx.core.http.impl.VertxHttp2ClientHandler",1,1,1,1,6,0,6,0,2,28,28,0,,0,0,,,,18,5,18,59,1,0,2,15,,338,35,297,115,145,7,,,,121,185,82,125,,,,,,2,2,2,1,,3,1,,80,80,"0.02",27,27,29,21
+Static Class,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream",1,1,1,1,7,0,7,0,2,27,27,0,,0,0,,,,21,11,21,21,5,1,0,15,,185,13,170,51,87,2,,,,68,107,39,71,,,,,,5,5,7,1,,1,3,,83,79,"0.01",40,40,42,24
+Public Constructor,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.Http2ClientStream",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.Http2ClientStream",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,1,7,0,10,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.beginRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.connection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.doPause",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.doResume",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,18,4,12,1,3,2,0,7,11,3,9,2,2,2,1,0,,,,,0,,3,0,,,"0.06",5,5,5,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.doResume.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,10,1,7,1,6,3,0,3,5,1,5,3,3,3,1,1,,,,,0,,0,0,,,"0.10",3,3,3,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.doSetWriteQueueMaxSize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.endRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.getContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleData",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,3,11,0,8,6,1,7,11,3,9,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,1,2,1,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleException",,,,,,,,,,,,,,,,,,,,,,,,,,,8,10,0,10,1,7,0,1,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",4,4,4,3
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleException.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleException.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleHeaders",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,1,14,0,7,4,1,4,8,1,7,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleInterestedOpsChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handlePushPromise",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.handleReset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.isNotWritable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.reset",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.writeBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,12,2,7,0,7,3,0,4,7,1,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.writeHead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.Http2ClientStream.writeHeadWithContent",,,,,,,,,,,,,,,,,,,,,,,,,,,9,21,0,21,3,14,0,15,12,1,9,15,3,13,5,5,7,1,1,,,,,0,,2,0,,,"0.00",5,5,7,1
+Public Constructor,"io.vertx.core.http.impl.VertxHttp2ClientHandler.VertxHttp2ClientHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,2,18,8,9,0,7,1,0,7,9,2,8,1,1,1,1,0,,,,,0,,1,0,,,"0.00",3,3,4,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.VertxHttp2ClientHandler.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,4,0,5,2,0,2,3,1,3,2,2,3,1,0,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.createNetSocket",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.createStream",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,4,8,0,8,2,0,6,8,4,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.getContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.isValid",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Protected Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onConnectionError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,3,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onConnectionError.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onDataRead",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,4,3,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onGoAwayReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onGoAwaySent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onHeadersRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onHeadersRead",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onPriorityRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onPushPromiseRead",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,12,9,9,0,11,1,0,9,10,8,9,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onRstStreamRead",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onStreamClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,5,1,5,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Protected Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onStreamError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,10,3,6,1,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.10",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.onStreamError.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.reportBytesRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ClientHandler.reportBytesWritten",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Abstract Class,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler",1,1,1,1,6,0,6,0,4,28,28,2,,2,0,,,,39,13,41,41,0,2,1,38,,341,51,280,105,123,10,,,,100,165,65,110,,,,,,7,7,7,1,,2,3,,94,91,"0.04",71,71,73,47
+Public Constructor,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.VertxHttp2ConnectionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,8,11,2,9,3,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelInactive",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,5,0,2,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.channelInactive.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.checkShutdownHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,14,3,9,0,6,4,1,5,9,3,7,4,4,6,1,0,,,,,0,,3,0,,,"0.00",5,5,7,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.checkShutdownHandler.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.closeHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.exceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.fromVertxSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,0,22,2,14,0,13,64,2,8,15,2,14,7,7,7,1,0,,,,,0,,1,0,,,"0.00",7,7,7,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.goAway",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,2,7,0,6,4,1,5,8,1,7,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.goAwayHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onConnectionError",,,,,,,,,,,,,,,,,,,,,,,,,,,8,11,0,10,3,6,1,2,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.10",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onConnectionError.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onGoAwayRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onGoAwayReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,4,7,0,3,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onGoAwayReceived.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,5,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onGoAwaySent",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onPingAckRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onPingRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onPriorityTreeParentChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onPriorityTreeParentChanging",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onPushPromiseRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,3,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onSettingsAckRead",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,7,3,3,1,2,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onSettingsRead",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,2,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onSettingsRead.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,3,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onStreamActive",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onStreamAdded",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onStreamClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onStreamHalfClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onStreamRemoved",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onUnknownFrame",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,3,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onWeightChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.onWindowUpdateRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.remoteSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.remoteSettingsHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.remoteSettingsHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.settings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,0,10,1,6,0,4,3,0,4,7,1,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.shutdownHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.toVertxSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,2,9,0,13,2,0,8,10,2,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,0,26,4,20,0,10,1,0,12,16,3,15,2,2,2,1,0,,,,,0,,2,0,,,"0.00",5,5,5,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,0,14,0,4,3,0,6,9,0,9,3,3,3,1,1,,,,,0,,0,0,,,"0.00",6,6,6,3
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings.(lambda_expr_1).(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,0,6,0,3,2,0,3,4,0,4,2,2,2,1,0,,,,,0,,0,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings.(lambda_expr_1).(lambda_expr_2).(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,3,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ConnectionHandler.updateSettings.(lambda_expr_1).(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,4,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"io.vertx.core.http.impl.VertxHttp2ServerHandler",2,2,2,1,12,0,11,0,1,41,41,0,,0,1,,,,16,10,16,57,3,2,2,9,,270,30,230,77,133,10,,,,102,148,59,111,,,,,,8,8,12,8,,3,2,,80,78,"0.04",47,47,57,34
+Private Class,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push",1,1,1,1,6,0,6,0,1,6,6,0,,0,0,,,,5,2,5,5,4,0,0,1,,40,6,34,12,15,0,,,,13,20,8,12,,,,,,2,2,2,1,,2,1,,50,50,"0.00",8,8,8,7
+Public Constructor,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.Push",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.handleClose",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,10,0,4,2,0,6,8,1,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",4,4,4,3
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.handleClose.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,3,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.handleClose.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.handleException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.handleReset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.Push.response",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"io.vertx.core.http.impl.VertxHttp2ServerHandler.VertxHttp2ServerHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,10,16,2,14,3,11,0,10,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.VertxHttp2ServerHandler.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,3,0,5,1,0,2,2,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.checkPendingPushes",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,6,0,4,2,0,4,6,2,5,2,2,4,1,0,,,,,0,,1,0,,,"0.00",3,3,5,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.checkPendingPushes.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,3,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.isMalformedRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,27,0,27,3,17,0,8,11,1,9,17,3,15,8,8,12,8,11,,,,,11,,2,11,,,"0.00",8,8,12,8
+Protected Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onConnectionError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,3,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onConnectionError.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onDataRead",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,0,11,3,7,0,3,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onDataRead.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,4,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onHeadersRead",,,,,,,,,,,,,,,,,,,,,,,,,,,15,30,0,29,9,21,1,18,7,1,13,18,7,16,6,6,9,3,3,,,,,3,,2,3,,,"0.03",7,7,10,4
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onHeadersRead",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onHeadersRead.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onPriorityRead",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,3,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onRstStreamRead",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onSettingsRead",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onStreamClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,3,6,0,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onStreamClosed.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onStreamError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,10,3,6,1,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.10",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.onStreamError.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.remoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,3,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.schedulePush",,,,,,,,,,,,,,,,,,,,,,,,,,,11,14,0,14,4,11,0,9,2,0,8,10,4,9,2,2,3,1,1,,,,,0,,1,0,,,"0.00",3,3,4,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.schedulePush.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,3,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.sendPush",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,13,3,10,0,7,1,0,6,8,3,7,1,1,1,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.sendPush.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,0,10,1,8,0,5,2,0,4,5,1,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",3,3,3,2
+Lambda Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.sendPush.(lambda_expr_1).(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,4,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"io.vertx.core.http.impl.VertxHttp2ServerHandler.userEventTriggered",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,10,4,5,5,7,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1

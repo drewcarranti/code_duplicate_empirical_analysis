@@ -1,0 +1,88 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"EventSourceConnectionWrapper.java",1,1,1,1,4,0,4,0,,,,,1,0,0,13,,13,13,1,13,,0,0,0,13,,84,18,66,31,21,0,,,,26,41,22,19,,,,,,2,2,2,1,,,1,,,,"0.00",14,14,14,13
+File,"LogSink.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,11,11,0,11,,11,0,0,0,,30,13,17,16,0,0,,,,15,16,16,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"LoggingEventSourceConnection.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,1,2,,1,0,0,1,,21,6,15,8,4,0,,,,8,11,7,4,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"LoggingEventSourceHandler.java",1,1,1,1,5,0,5,0,,,,,1,0,0,3,,3,3,3,3,,1,0,0,2,,30,6,24,12,8,0,,,,14,18,10,8,,,,,,1,1,1,1,,,0,,,,"0.00",3,3,3,3
+File,"LoggingHandler.java",1,1,1,1,9,0,8,0,,,,,3,0,0,9,,9,9,3,9,,0,0,0,9,,76,16,60,21,31,0,,,,31,41,26,17,,,,,,1,1,1,1,,,0,,,,"0.00",9,9,9,9
+File,"LoggingWebSocketConnection.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,1,2,,1,0,0,1,,21,6,15,8,4,0,,,,8,11,7,4,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"LoggingWebSocketHandler.java",1,1,1,1,5,0,5,0,,,,,1,0,0,4,,4,4,3,4,,1,0,0,3,,36,7,29,14,10,0,,,,16,21,11,10,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+File,"SimpleLogSink.java",1,1,1,1,6,0,6,0,,,,,1,0,0,20,,20,20,4,20,,0,1,6,13,,176,28,146,49,73,3,,,,68,100,40,63,,,,,,3,3,3,3,,,1,,,,"0.02",29,29,29,22
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver.handler",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.webbitserver.handler.logging",1,1,1,1,6,0,6,0,,,,,9,0,0,,7,,51,15,51,,15,1,6,29,,390,82,306,128,130,3,,,,160,218,117,106,,,,,,3,3,3,3,,,1,,,,"0.01",49,49,49,42
+Public Interface,"org.webbitserver.handler.logging.LogSink",0,0,0,0,0,0,0,0,0,5,5,1,,0,0,,,,11,0,11,11,11,0,0,0,,24,11,13,12,0,0,,,,11,12,12,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.custom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.error",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.eventSourceConnectionClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.eventSourceConnectionOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.eventSourceOutboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.httpEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.httpStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.webSocketConnectionClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.webSocketConnectionOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.webSocketInboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.webbitserver.handler.logging.LogSink.webSocketOutboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Class,"org.webbitserver.handler.logging.LoggingEventSourceConnection",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,1,2,15,1,0,0,1,,16,4,12,5,4,0,,,,5,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"org.webbitserver.handler.logging.LoggingEventSourceConnection.LoggingEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingEventSourceConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"org.webbitserver.handler.logging.LoggingEventSourceHandler",1,1,1,1,5,0,5,0,2,4,4,0,,0,0,,,,3,3,3,3,1,0,0,2,,25,4,21,9,8,0,,,,11,15,7,8,,,,,,1,1,1,1,,1,0,,0,0,"0.00",3,3,3,3
+Constructor,"org.webbitserver.handler.logging.LoggingEventSourceHandler.LoggingEventSourceHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingEventSourceHandler.onClose",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingEventSourceHandler.onOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.handler.logging.LoggingHandler",1,1,1,1,18,2,15,0,2,8,8,0,,0,0,,,,3,1,3,3,0,0,0,3,,63,14,49,10,31,0,,,,20,30,15,17,,,,,,1,1,1,1,,1,0,,0,0,"0.00",3,3,3,3
+Public Constructor,"org.webbitserver.handler.logging.LoggingHandler.LoggingHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,4,48,8,40,6,29,0,2,1,0,17,24,11,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_1)",1,1,1,1,5,0,5,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,13,1,12,1,10,0,,,,5,7,2,5,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_1).end",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,0,4,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_1).error",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,0,5,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_2)",1,1,1,1,4,0,4,0,1,10,10,0,,0,0,,,,4,2,4,4,0,0,0,4,,26,5,21,1,17,0,,,,8,12,6,6,,,,,,1,1,1,1,,2,0,,50,50,"0.00",4,4,4,4
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_2).createEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_2).createWebSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_2).upgradeToEventSourceConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,0,4,0,6,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.handleHttpRequest.(Anon_2).upgradeToWebSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,0,4,0,6,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingHandler.logSink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"org.webbitserver.handler.logging.LoggingWebSocketConnection",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,1,2,2,1,0,0,1,,16,4,12,5,4,0,,,,5,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"org.webbitserver.handler.logging.LoggingWebSocketConnection.LoggingWebSocketConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingWebSocketConnection.send",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"org.webbitserver.handler.logging.LoggingWebSocketHandler",1,1,1,1,5,0,5,0,2,5,5,0,,0,0,,,,4,3,4,4,1,0,0,3,,31,5,26,11,10,0,,,,13,18,8,10,,,,,,1,1,1,1,,1,0,,0,0,"0.00",4,4,4,4
+Constructor,"org.webbitserver.handler.logging.LoggingWebSocketHandler.LoggingWebSocketHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingWebSocketHandler.onClose",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingWebSocketHandler.onMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.LoggingWebSocketHandler.onOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.webbitserver.handler.logging.SimpleLogSink",1,1,1,1,6,0,6,0,2,12,12,0,,0,0,,,,20,4,20,20,0,1,6,13,,164,25,137,40,73,3,,,,59,91,31,63,,,,,,3,3,3,3,,1,1,,87,73,"0.02",29,29,29,22
+Public Constructor,"org.webbitserver.handler.logging.SimpleLogSink.SimpleLogSink",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,1,8,0,7,2,0,6,8,1,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Constructor,"org.webbitserver.handler.logging.SimpleLogSink.SimpleLogSink",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.address",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,5,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.webbitserver.handler.logging.SimpleLogSink.cumulativeTimeOfRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.custom",,,,,,,,,,,,,,,,,,,,,,,,,,,8,13,0,13,2,8,0,4,3,0,5,8,1,7,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.error",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.eventSourceConnectionClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.eventSourceConnectionOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.eventSourceOutboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,3,0,1,2,0,2,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.formatHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,19,1,16,0,6,2,0,11,14,2,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.formatLogEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,15,2,12,0,10,2,0,11,14,3,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.formatValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,5,3,0,4,7,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.httpEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.httpStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.webbitserver.handler.logging.SimpleLogSink.panic",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.webSocketConnectionClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.webSocketConnectionOpen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.webSocketInboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.handler.logging.SimpleLogSink.webSocketOutboundData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.webbitserver.wrapper",1,1,1,1,4,0,4,0,,,,,1,0,0,,1,,13,1,13,,0,0,0,13,,84,18,66,31,21,0,,,,26,41,22,19,,,,,,2,2,2,1,,,1,,,,"0.00",14,14,14,13
+Public Class,"org.webbitserver.wrapper.EventSourceConnectionWrapper",1,1,1,1,4,0,4,0,2,7,7,1,,0,0,,,,13,1,13,13,0,0,0,13,,75,15,60,25,21,0,,,,20,35,16,19,,,,,,2,2,2,1,,1,1,,0,0,"0.00",14,14,14,13
+Public Constructor,"org.webbitserver.wrapper.EventSourceConnectionWrapper.EventSourceConnectionWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.data",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.dataKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.handlerExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.httpRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.originalControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.send",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.underlyingControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.webbitserver.wrapper.EventSourceConnectionWrapper.underlyingControl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

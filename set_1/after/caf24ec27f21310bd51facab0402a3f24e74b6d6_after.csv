@@ -1,0 +1,34 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"RoutingTaskActionsBean.java",2,2,3,1,17,0,14,2,,,,,3,0,3,23,,23,23,14,23,,0,2,4,17,,538,53,407,173,223,78,,,,214,289,152,176,,,,,,8,8,10,4,,,5,,,,"0.19",67,67,74,26
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.nuxeo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.nuxeo.ecm",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.nuxeo.ecm.platform",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.nuxeo.ecm.platform.routing",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.nuxeo.ecm.platform.routing.web",2,2,3,1,17,0,14,2,,,,,3,0,3,,1,,23,14,23,,0,2,4,17,,538,53,407,173,223,78,,,,214,289,152,176,,,,,,8,8,10,4,,,5,,,,"0.19",67,67,74,26
+Public Class,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean",3,3,3,1,17,0,15,2,2,53,53,0,,0,3,,,,21,11,21,21,0,2,3,16,,461,48,353,119,223,60,,,,160,235,98,176,,,,,,8,8,10,4,,1,5,,88,81,"0.17",64,64,71,24
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.OnTaskCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,8,3,3,3,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.38",2,2,2,1
+Protected Class,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.TaskInfo",1,1,1,1,6,0,6,0,1,3,3,0,,0,0,,,,1,3,1,1,0,0,1,0,,14,3,11,6,3,0,,,,6,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Protected Constructor,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.TaskInfo.TaskInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.endTask",,,,,,,,,,,,,,,,,,,,,,,,,,,14,37,0,30,3,23,7,16,18,1,13,19,3,18,6,6,6,1,2,,,,,0,,2,0,,,"0.23",6,6,6,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.endTasks",,,,,,,,,,,,,,,,,,,,,,,,,,,14,56,1,42,10,31,13,15,30,1,18,27,8,24,8,8,9,1,2,,,,,0,,4,0,,,"0.31",8,8,9,1
+Private Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getActionService",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getFormVariables",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getFormVariables",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,1,5,0,3,3,0,3,6,1,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskActionId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,4,2,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskActions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskActions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,38,0,33,11,22,5,13,18,1,14,25,12,20,8,8,9,1,1,,,,,0,,5,0,,,"0.15",8,8,9,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskActionsMap",,,,,,,,,,,,,,,,,,,,,,,,,,,9,62,5,49,15,39,8,17,40,2,29,38,15,32,8,8,10,1,1,,,,,0,,3,0,,,"0.16",8,8,10,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskButtons",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,6,13,0,11,5,1,8,13,6,10,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Protected Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,30,0,30,9,23,0,3,4,1,14,19,9,16,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Anonymous Class,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskInfo.(Anon_1)",2,2,2,1,13,0,13,0,1,11,11,0,,0,0,,,,1,0,1,1,0,0,0,1,,14,0,14,4,12,0,,,,7,9,5,8,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskInfo.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,4,11,0,8,2,0,7,9,5,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.getTaskLayout",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.isLayoutEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,1,16,3,11,2,5,4,1,7,11,3,10,4,4,6,4,5,,,,,4,,2,4,,,"0.12",4,4,6,4
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.isRoutingTask",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,2,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.setCurrentTask",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,3,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.setCurrentTask",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,6,1,4,1,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.setFormVariables",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.validateSubject",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,4,7,0,3,2,0,3,5,2,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"org.nuxeo.ecm.platform.routing.web.RoutingTaskActionsBean.validateTaskDueDate",,,,,,,,,,,,,,,,,,,,,,,,,,,4,29,2,27,9,20,0,7,10,1,12,17,7,12,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1

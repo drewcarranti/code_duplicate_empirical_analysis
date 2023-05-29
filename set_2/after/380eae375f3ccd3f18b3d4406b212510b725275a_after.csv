@@ -1,0 +1,56 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CityLookupTest.java",1,1,1,1,19,3,15,0,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,53,14,38,17,26,1,,,,24,27,13,19,,,,,,1,1,1,1,,,0,,,,"0.03",2,2,2,2
+File,"InvalidDatabaseException.java",1,1,1,1,6,0,3,3,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,26,4,10,5,2,12,,,,4,7,5,2,,,,,,1,1,1,1,,,0,,,,"1.20",2,2,2,2
+File,"LookupService.java",2,2,3,1,16,0,12,3,,,,,1,4,26,42,,42,38,13,42,,1,12,0,29,,973,79,685,234,495,209,,,,328,449,158,311,,,,,,14,14,39,7,,,4,,,,"0.31",119,119,153,59
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.maxmind",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.maxmind.geoip",2,2,3,1,16,0,12,3,,,,,3,4,27,,3,,42,13,46,,1,12,0,33,,1052,97,733,256,523,222,,,,356,483,176,332,,,,,,14,14,39,7,,,4,,,,"0.30",123,123,157,63
+Public Class,"com.maxmind.geoip.CityLookupTest",1,1,1,1,19,3,15,0,1,5,5,0,,0,1,,,,2,0,2,2,0,0,0,2,,43,9,34,13,26,0,,,,20,23,9,19,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.maxmind.geoip.CityLookupTest.testCityLookup",,,,,,,,,,,,,,,,,,,,,,,,,,,13,29,5,24,6,21,0,6,1,0,17,18,4,17,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.CityLookupTest.testCityLookupInInvalidDatabase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,7,5,4,0,1,1,0,2,3,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.maxmind.geoip.InvalidDatabaseException",1,1,1,1,6,0,3,3,1,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,21,2,7,3,2,12,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"1.71",2,2,2,2
+Public Constructor,"com.maxmind.geoip.InvalidDatabaseException.InvalidDatabaseException",,,,,,,,,,,,,,,,,,,,,,,,,,,9,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Constructor,"com.maxmind.geoip.InvalidDatabaseException.InvalidDatabaseException",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Class,"com.maxmind.geoip.LookupService",2,2,3,1,16,0,12,3,1,17,17,0,,4,26,,,,38,13,42,42,1,12,0,29,,941,76,675,224,495,190,,,,318,439,148,311,,,,,,14,14,39,7,,1,4,,89,33,"0.28",119,119,153,59
+Public Constructor,"com.maxmind.geoip.LookupService.LookupService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Constructor,"com.maxmind.geoip.LookupService.LookupService",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,5,1,3,9,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.80",1,1,1,1
+Public Constructor,"com.maxmind.geoip.LookupService.LookupService",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,3,1,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1
+Public Constructor,"com.maxmind.geoip.LookupService.LookupService",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,6,1,4,13,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"2.17",1,1,1,1
+Method,"com.maxmind.geoip.LookupService._check_mtime",,,,,,,,,,,,,,,,,,,,,,,,,,,8,17,0,15,2,10,2,6,4,1,6,10,2,9,4,4,4,1,1,,,,,0,,3,0,,,"0.13",4,4,4,1
+Private Static Method,"com.maxmind.geoip.LookupService.bytesToLong",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,0,11,3,7,7,1,3,0,7,10,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.64",3,3,3,1
+Public Method,"com.maxmind.geoip.LookupService.close",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,9,1,5,4,2,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,2,0,,,"0.44",3,3,3,1
+Public Method,"com.maxmind.geoip.LookupService.getCountry",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,9,2,5,7,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.78",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getCountry",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.getCountry",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,0,11,2,7,7,2,4,1,4,7,2,6,3,3,4,1,1,,,,,0,,1,0,,,"0.64",3,3,4,1
+Public Method,"com.maxmind.geoip.LookupService.getCountryV6",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,9,2,5,7,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.78",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getCountryV6",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,0,11,2,7,7,2,4,1,4,7,2,6,3,3,4,1,1,,,,,0,,1,0,,,"0.64",3,3,4,1
+Public Method,"com.maxmind.geoip.LookupService.getDatabaseInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,49,1,38,5,29,10,9,20,1,23,31,7,25,8,8,13,7,9,,,,,9,,3,8,,,"0.26",8,8,13,7
+Public Method,"com.maxmind.geoip.LookupService.getID",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,2,5,0,5,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getID",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.getID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.maxmind.geoip.LookupService.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,2,5,0,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,2,5,0,4,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getLocationV6",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,2,5,0,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getLocationV6",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,2,5,0,4,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getOrg",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.getOrg",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,2,5,0,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getOrg",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getOrgV6",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,2,5,0,3,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getOrgV6",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getRegion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,2,5,0,5,2,0,4,6,2,4,2,2,2,1,2,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.maxmind.geoip.LookupService.getRegion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.getRegion",,,,,,,,,,,,,,,,,,,,,,,,,,,17,46,0,46,5,40,0,2,7,1,31,38,5,34,7,7,7,1,5,,,,,0,,2,0,,,"0.00",7,7,7,1
+Private Method,"com.maxmind.geoip.LookupService.init",,,,,,,,,,,,,,,,,,,,,,,,,,,41,98,1,88,5,75,9,16,257,2,40,54,7,48,14,14,39,4,7,,,,,4,,4,3,,,"0.10",14,14,39,4
+Public Method,"com.maxmind.geoip.LookupService.last_netmask",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.maxmind.geoip.LookupService.netmask",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.maxmind.geoip.LookupService.readAngle",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,6,0,5,4,1,6,9,3,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.maxmind.geoip.LookupService.readCityRecord",,,,,,,,,,,,,,,,,,,,,,,,,,,19,29,4,23,5,18,2,8,4,1,15,19,5,18,4,4,4,1,1,,,,,0,,2,0,,,"0.09",4,4,4,1
+Private Method,"com.maxmind.geoip.LookupService.readIntoSeekBuf",,,,,,,,,,,,,,,,,,,,,,,,,,,13,29,0,26,2,18,3,6,20,1,15,23,5,18,8,8,8,1,3,,,,,0,,3,0,,,"0.12",8,8,8,1
+Private Static Method,"com.maxmind.geoip.LookupService.readMetroAreaCombo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,6,0,5,4,1,6,9,3,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.maxmind.geoip.LookupService.readOrgRecord",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.maxmind.geoip.LookupService.readRecordBuf",,,,,,,,,,,,,,,,,,,,,,,,,,,13,17,2,13,4,10,2,6,2,0,6,8,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.15",2,2,2,1
+Private Method,"com.maxmind.geoip.LookupService.readString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,2,15,5,12,0,7,4,1,10,13,5,11,3,3,4,1,0,,,,,0,,1,0,,,"0.00",3,3,4,1
+Private Method,"com.maxmind.geoip.LookupService.seekCountry",,,,,,,,,,,,,,,,,,,,,,,,,,,8,32,1,24,4,18,7,5,5,1,14,19,5,14,5,5,5,5,9,,,,,9,,3,9,,,"0.29",5,5,5,5
+Private Method,"com.maxmind.geoip.LookupService.seekCountryV6",,,,,,,,,,,,,,,,,,,,,,,,,,,8,47,4,33,9,26,10,8,10,1,21,27,10,18,6,6,6,5,9,,,,,9,,3,9,,,"0.30",6,6,6,5
+Private Static Method,"com.maxmind.geoip.LookupService.unsignedByteToInt",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

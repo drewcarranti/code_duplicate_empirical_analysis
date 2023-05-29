@@ -1,0 +1,57 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"FieldProperty.java",2,2,2,1,7,0,7,0,,,,,1,0,0,10,,10,10,1,10,,1,1,0,8,,105,15,90,22,53,1,,,,33,53,22,33,,,,,,5,5,5,5,,,2,,,,"0.01",21,20,22,17
+File,"MethodProperty.java",2,2,2,1,9,0,9,0,,,,,1,0,0,9,,9,9,5,9,,1,1,0,7,,118,17,100,26,60,2,,,,45,65,26,41,,,,,,5,5,5,5,,,3,,,,"0.02",22,21,23,16
+File,"Property.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,8,8,0,8,,8,0,0,0,,68,10,12,11,0,46,,,,10,11,11,0,,,,,,0,0,0,0,,,0,,,,"3.83",0,0,0,0
+File,"Translator.java",2,2,3,1,14,0,11,2,,,,,1,0,0,12,,12,12,2,12,,0,8,0,4,,224,20,162,52,92,42,,,,65,102,47,65,,,,,,6,6,6,5,,,2,,,,"0.26",35,35,36,21
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform.moo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform.moo.translator",2,2,2,1,11,0,9,1,,,,,4,0,0,,4,,39,8,39,,10,10,0,19,,515,62,364,111,205,91,,,,153,231,106,139,,,,,,6,6,6,5,,,3,,,,"0.25",78,76,81,54
+Public Class,"com.codiform.moo.translator.FieldProperty",2,2,2,1,7,0,7,0,1,11,11,0,,0,0,,,,10,1,10,10,1,1,0,8,,94,12,82,14,53,1,,,,25,45,14,33,,,,,,5,5,5,5,,2,2,,19,0,"0.01",21,20,22,17
+Public Constructor,"com.codiform.moo.translator.FieldProperty.FieldProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.canSupportNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.codiform.moo.translator.FieldProperty.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.codiform.moo.translator.FieldProperty.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.codiform.moo.translator.FieldProperty.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.codiform.moo.translator.FieldProperty.isAcceptableField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,0,21,2,17,0,4,5,1,6,11,2,10,5,5,5,5,11,,,,,11,,2,11,,,"0.00",5,5,5,5
+Method,"com.codiform.moo.translator.FieldProperty.isProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,16,1,12,1,3,4,1,4,7,1,6,4,3,5,4,6,,,,,6,,2,6,,,"0.06",4,3,5,4
+Public Method,"com.codiform.moo.translator.FieldProperty.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,1,13,0,5,4,1,5,8,1,7,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Class,"com.codiform.moo.translator.MethodProperty",2,2,2,1,9,0,9,0,2,12,12,0,,0,0,,,,9,5,9,9,1,1,0,7,,106,14,91,17,60,2,,,,36,56,17,41,,,,,,5,5,5,5,,2,3,,71,68,"0.02",22,21,23,16
+Public Constructor,"com.codiform.moo.translator.MethodProperty.MethodProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,3,19,2,15,1,11,4,1,11,15,2,14,4,4,4,4,3,,,,,3,,1,3,,,"0.05",4,4,4,4
+Private Method,"com.codiform.moo.translator.MethodProperty.convertName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,5,0,6,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.codiform.moo.translator.MethodProperty.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.codiform.moo.translator.MethodProperty.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.codiform.moo.translator.MethodProperty.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.codiform.moo.translator.MethodProperty.isProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,1,14,1,2,5,1,5,9,1,8,5,4,5,5,8,,,,,8,,3,8,,,"0.06",5,4,5,5
+Public Method,"com.codiform.moo.translator.MethodProperty.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,1,16,0,5,5,1,6,9,1,8,5,5,5,1,6,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Interface,"com.codiform.moo.translator.Property",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,8,0,8,8,8,0,0,0,,61,8,10,9,0,43,,,,8,9,9,0,,,,,,0,0,0,0,,0,0,,0,0,"4.30",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.canSupportNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Generic Method,"com.codiform.moo.translator.Property.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+TypeVariable,"com.codiform.moo.translator.Property.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.shouldBeTranslated",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Generic Class,"com.codiform.moo.translator.Translator",2,2,3,1,14,0,11,2,1,24,24,0,,0,0,,,,12,2,12,12,0,8,0,4,,203,16,145,35,92,42,,,,48,85,30,65,,,,,,6,6,6,5,,1,2,,66,50,"0.29",35,35,36,21
+TypeVariable,"com.codiform.moo.translator.Translator.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"com.codiform.moo.translator.Translator.Translator",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,4,1,2,9,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.25",1,1,1,1
+Private Method,"com.codiform.moo.translator.Translator.assureSource",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,0,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.Translator.castAndUpdate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,4,2,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.codiform.moo.translator.Translator.create",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,13,1,10,6,3,3,0,3,5,1,4,3,3,3,3,3,,,,,3,,1,3,,,"0.46",3,3,3,3
+Private Method,"com.codiform.moo.translator.Translator.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,3,6,0,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.codiform.moo.translator.Translator.getPropertiesForClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,19,7,12,0,10,9,1,8,15,8,12,6,6,6,1,0,,,,,0,,2,0,,,"0.00",6,6,6,1
+Private Method,"com.codiform.moo.translator.Translator.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.codiform.moo.translator.Translator.transform",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,19,3,13,0,8,6,1,6,12,1,11,6,6,6,5,4,,,,,4,,2,4,,,"0.00",6,6,6,5
+Private Method,"com.codiform.moo.translator.Translator.transformArray",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,1,23,4,18,0,12,4,1,6,10,3,9,4,4,4,4,4,,,,,4,,2,4,,,"0.00",4,4,4,4
+Private Method,"com.codiform.moo.translator.Translator.transformCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.Translator.update",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,0,15,4,9,12,4,6,1,5,10,4,7,4,4,4,1,0,,,,,0,,2,0,,,"0.80",4,4,4,1
+Private Generic Method,"com.codiform.moo.translator.Translator.updateProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,8,17,0,17,3,12,0,6,3,0,6,9,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+TypeVariable,"com.codiform.moo.translator.Translator.updateProperty.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0

@@ -1,0 +1,87 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Annotation.java",2,2,2,1,19,1,13,4,,,,,7,9,4,39,,39,30,10,39,,0,6,0,33,,757,88,452,173,248,217,,,,206,303,135,193,,,,,,6,6,12,6,,,4,,,,"0.48",90,90,112,51
+File,"TestAnnotation.java",1,1,1,1,9,0,9,0,,,,,1,0,0,34,,34,34,6,34,,0,0,0,34,,435,47,371,137,231,17,,,,179,214,81,149,,,,,,1,1,1,1,,,0,,,,"0.05",34,34,34,34
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb.meta",1,1,2,1,14,0,11,2,,,,,8,9,4,,2,,64,16,73,,0,6,0,67,,1192,135,823,310,479,234,,,,385,517,216,342,,,,,,6,6,12,6,,,4,,,,"0.28",124,124,146,85
+Public Final Class,"net.opentsdb.meta.Annotation",2,2,2,1,21,1,13,5,2,33,33,0,,9,4,,,,20,7,29,29,0,6,0,23,,708,83,420,141,248,205,,,,174,271,103,193,,,,,,6,6,12,3,,1,3,,81,80,"0.49",65,65,77,31
+Public Constructor,"net.opentsdb.meta.Annotation.Annotation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"net.opentsdb.meta.Annotation.PREFIX",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,5,2,2,5,1,1,0,1,2,1,1,3,3,3,1,0,,,,,0,,0,0,,,"1.00",3,3,3,1
+Public Method,"net.opentsdb.meta.Annotation.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,1,11,5,8,8,8,2,0,4,6,3,5,3,3,4,1,0,,,,,0,,1,0,,,"0.73",3,3,4,1
+Public Static Method,"net.opentsdb.meta.Annotation.deleteRange",,,,,,,,,,,,,,,,,,,,,,,,,,,15,119,11,89,35,52,19,7,8,1,37,57,25,39,5,5,5,1,0,,,,,0,,0,0,,,"0.21",5,5,5,1
+Final Class,"net.opentsdb.meta.Annotation.deleteRange.GroupCB",1,1,1,1,5,0,5,0,2,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,0,7,4,1,1,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.14",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.deleteRange.GroupCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"net.opentsdb.meta.Annotation.deleteRange.ScannerCB",3,3,4,2,13,0,12,0,2,12,12,0,,0,0,,,,3,1,3,3,0,0,0,3,,50,4,42,14,24,4,,,,16,28,11,21,,,,,,6,6,10,6,,1,4,,33,0,"0.10",9,9,13,8
+Public Constructor,"net.opentsdb.meta.Annotation.deleteRange.ScannerCB.ScannerCB",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,2,8,0,11,2,0,7,9,2,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.opentsdb.meta.Annotation.deleteRange.ScannerCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,1,24,8,15,0,14,6,1,7,15,6,12,6,6,10,6,3,,,,,3,,4,3,,,"0.00",6,6,10,6
+Public Method,"net.opentsdb.meta.Annotation.deleteRange.ScannerCB.scan",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"net.opentsdb.meta.Annotation.deleteRange.ScannerDoneCB",1,1,1,1,5,0,5,0,2,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,8,5,1,1,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.12",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.deleteRange.ScannerDoneCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"net.opentsdb.meta.Annotation.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,4,2,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Static Method,"net.opentsdb.meta.Annotation.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,7,2,3,8,5,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"1.14",2,2,3,1
+Public Static Method,"net.opentsdb.meta.Annotation.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,5,21,11,10,15,9,1,0,7,11,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.71",1,1,1,1
+Final Class,"net.opentsdb.meta.Annotation.getAnnotation.GetCB",2,2,3,1,15,1,10,4,2,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,3,13,7,5,7,,,,3,6,3,4,,,,,,2,2,3,1,,1,1,,0,0,"0.54",2,2,3,1
+Public Method,"net.opentsdb.meta.Annotation.getAnnotation.GetCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,1,10,5,5,4,6,2,0,3,5,2,4,2,2,3,1,1,,,,,0,,1,0,,,"0.40",2,2,3,1
+Public Final Method,"net.opentsdb.meta.Annotation.getCustom",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Final Method,"net.opentsdb.meta.Annotation.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,8,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Final Method,"net.opentsdb.meta.Annotation.getEndTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Static Method,"net.opentsdb.meta.Annotation.getGlobalAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,6,86,11,56,21,34,19,3,4,1,21,35,14,25,3,3,3,1,0,,,,,0,,0,0,,,"0.34",3,3,3,1
+Final Class,"net.opentsdb.meta.Annotation.getGlobalAnnotations.ScannerCB",2,2,4,2,16,1,13,1,2,12,12,0,,0,0,,,,3,2,3,3,0,0,0,3,,62,9,45,19,28,8,,,,18,29,13,20,,,,,,6,6,10,6,,1,4,,50,33,"0.18",8,8,12,8
+Public Constructor,"net.opentsdb.meta.Annotation.getGlobalAnnotations.ScannerCB.ScannerCB",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,3,16,9,14,3,10,1,0,10,11,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.getGlobalAnnotations.ScannerCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,7,23,2,21,5,12,0,10,6,1,5,13,4,10,6,6,10,6,3,,,,,3,,4,3,,,"0.00",6,6,10,6
+Public Method,"net.opentsdb.meta.Annotation.getGlobalAnnotations.ScannerCB.scan",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"net.opentsdb.meta.Annotation.getNotes",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Static Method,"net.opentsdb.meta.Annotation.getQualifier",,,,,,,,,,,,,,,,,,,,,,,,,,,8,40,2,25,6,18,13,4,8,1,15,19,6,13,4,4,4,1,1,,,,,0,,1,0,,,"0.52",4,4,4,1
+Private Static Method,"net.opentsdb.meta.Annotation.getRowKey",,,,,,,,,,,,,,,,,,,,,,,,,,,10,38,3,23,4,17,12,4,8,1,12,16,4,13,4,4,5,1,2,,,,,0,,1,0,,,"0.52",4,4,5,1
+Public Final Method,"net.opentsdb.meta.Annotation.getStartTime",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Method,"net.opentsdb.meta.Annotation.getStorageJSON",,,,,,,,,,,,,,,,,,,,,,,,,,,8,35,1,28,3,22,6,15,7,1,16,22,4,20,5,5,6,1,2,,,,,0,,3,0,,,"0.21",5,5,6,1
+Public Final Method,"net.opentsdb.meta.Annotation.getTSUID",,,,,,,,,,,,,,,,,,,,,,,,,,,9,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Method,"net.opentsdb.meta.Annotation.initializeChangedMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,6,1,4,4,1,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.setCustom",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,6,1,3,4,2,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.67",2,2,3,1
+Public Method,"net.opentsdb.meta.Annotation.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,0,6,1,3,1,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"net.opentsdb.meta.Annotation.setEndTime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,6,1,3,1,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"net.opentsdb.meta.Annotation.setNotes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,6,1,3,1,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"net.opentsdb.meta.Annotation.setStartTime",,,,,,,,,,,,,,,,,,,,,,,,,,,11,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"net.opentsdb.meta.Annotation.setTSUID",,,,,,,,,,,,,,,,,,,,,,,,,,,9,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Method,"net.opentsdb.meta.Annotation.syncNote",,,,,,,,,,,,,,,,,,,,,,,,,,,9,31,2,18,1,11,11,7,32,2,6,12,1,11,6,6,12,1,0,,,,,0,,1,0,,,"0.61",6,6,12,1
+Public Method,"net.opentsdb.meta.Annotation.syncToStorage",,,,,,,,,,,,,,,,,,,,,,,,,,,11,65,7,40,13,25,18,9,24,1,13,23,8,18,6,6,7,3,3,,,,,3,,1,2,,,"0.45",6,6,7,3
+Final Class,"net.opentsdb.meta.Annotation.syncToStorage.StoreCB",4,4,5,1,18,2,16,0,2,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,22,4,18,10,11,0,,,,5,8,5,6,,,,,,4,4,5,1,,1,1,,0,0,"0.00",4,4,5,1
+Public Method,"net.opentsdb.meta.Annotation.syncToStorage.StoreCB.call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,2,16,9,11,0,10,2,0,5,7,4,6,4,4,5,1,0,,,,,0,,1,0,,,"0.00",4,4,5,1
+Private Static Method,"net.opentsdb.meta.Annotation.timeFromQualifier",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,11,3,6,7,3,2,0,5,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.64",2,2,2,1
+Public Method,"net.opentsdb.meta.Annotation.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,5,2,2,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Final Class,"net.opentsdb.meta.TestAnnotation",1,1,1,1,9,0,9,0,1,15,15,0,,0,0,,,,34,6,34,34,0,0,0,34,,393,42,346,112,231,5,,,,154,189,56,149,,,,,,1,1,1,1,,1,0,,59,59,"0.01",34,34,34,34
+Public Method,"net.opentsdb.meta.TestAnnotation.before",,,,,,,,,,,,,,,,,,,,,,,,,,,5,43,7,33,3,30,3,9,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.constructor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,11,0,7,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteGlobal",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,6,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteGlobalNotFound",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,2,6,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteMissingStart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteNormalizeMs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,11,0,7,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteNotFound",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,11,0,6,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,4,12,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeEmptyEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeEndLessThanStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeGlobal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,7,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeGlobalMultiple",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,7,0,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeGlobalNone",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,7,0,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeMultiple",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,4,12,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deleteRangeNone",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,4,12,0,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.deserialize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,5,6,0,4,1,0,4,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotationGlobal",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotationGlobalNotFound",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotationNoStartTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotationNormalizeMs",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getAnnotationNotFound",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getGlobalAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,4,4,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getGlobalAnnotationsEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,4,4,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getGlobalAnnotationsEndLessThanStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.getGlobalAnnotationsZeroEndtime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.serialize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,4,10,0,12,1,0,9,10,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorageGlobal",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,4,9,0,11,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorageGlobalMilliseconds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,4,9,0,11,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorageMilliseconds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,4,11,0,13,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorageMissingStart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.meta.TestAnnotation.syncToStorageNoChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

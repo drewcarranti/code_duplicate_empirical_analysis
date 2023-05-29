@@ -1,0 +1,61 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DeleteDuplicates.java",1,1,2,1,10,0,8,0,,,,,8,1,2,37,,37,36,14,37,,0,0,0,37,,514,82,361,122,215,77,,,,202,274,106,186,,,,,,8,8,8,5,,,2,,,,"0.21",70,70,77,48
+File,"TestDeleteDuplicates.java",2,2,2,2,15,0,14,1,,,,,1,0,0,8,,8,8,6,8,,0,3,0,5,,176,13,142,54,92,27,,,,104,122,57,86,,,,,,5,5,5,5,,,2,,,,"0.19",20,20,20,16
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.nutch",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.nutch.indexer",2,2,2,1,11,0,9,0,,,,,9,1,2,,2,,44,20,45,,0,3,0,42,,690,95,503,176,307,104,,,,306,396,163,272,,,,,,8,8,8,5,,,2,,,,"0.21",90,90,97,64
+Public Class,"org.apache.nutch.indexer.DeleteDuplicates",1,1,1,1,13,2,10,0,4,31,31,0,,1,1,,,,11,1,12,12,0,0,0,12,,489,75,343,104,215,77,,,,184,256,88,186,,,,,,5,5,5,3,,2,2,,75,50,"0.22",22,22,22,14
+Public Constructor,"org.apache.nutch.indexer.DeleteDuplicates.DeleteDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.nutch.indexer.DeleteDuplicates.DeleteDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,1,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"org.apache.nutch.indexer.DeleteDuplicates.HashPartitioner",1,1,1,1,2,0,2,0,2,4,4,0,,0,0,,,,3,0,3,3,0,0,0,3,,9,0,9,6,2,0,,,,2,6,5,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",3,3,3,3
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashPartitioner.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashPartitioner.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashPartitioner.getPartition",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"org.apache.nutch.indexer.DeleteDuplicates.HashReducer",3,3,3,2,14,0,12,1,2,8,8,0,,0,0,,,,3,1,3,3,0,0,0,3,,49,4,41,12,26,4,,,,20,29,9,21,,,,,,7,7,7,4,,1,2,,33,33,"0.10",9,9,9,6
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashReducer.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashReducer.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.HashReducer.reduce",,,,,,,,,,,,,,,,,,,,,,,,,,,8,40,2,34,8,25,4,7,17,1,18,24,5,20,7,7,7,4,3,,,,,3,,2,2,,,"0.12",7,7,7,4
+Public Static Class,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc",2,2,3,1,9,0,9,0,2,6,6,0,,0,0,,,,5,8,5,5,0,0,0,5,,64,6,58,16,41,6,,,,32,42,16,29,,,,,,8,8,8,5,,1,1,,15,15,"0.10",12,12,18,9
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,14,2,11,3,3,5,1,6,11,2,9,8,8,8,5,4,,,,,4,,1,4,,,"0.21",8,8,8,5
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,8,10,0,10,2,8,0,2,1,0,2,3,2,1,1,1,7,1,0,,,,,0,,0,0,,,"0.00",1,1,7,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc.readFields",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,1,8,0,11,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,9,5,0,5,1,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.IndexDoc.write",,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,0,9,1,7,0,5,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat",1,1,1,1,9,0,8,1,1,8,8,0,,0,1,,,,2,0,2,2,0,0,0,2,,99,16,75,28,41,8,,,,41,57,24,37,,,,,,2,2,2,1,,2,1,,0,0,"0.11",3,3,3,2
+Public Class,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader",1,1,2,1,8,0,7,0,2,16,16,0,,0,0,,,,7,4,7,7,0,0,0,7,,74,13,55,17,31,6,,,,30,42,15,29,,,,,,5,5,6,1,,1,2,,57,57,"0.11",13,13,14,7
+Public Constructor,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.DDRecordReader",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,8,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.close",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.createKey",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.createValue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.getPos",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.getProgress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.DDRecordReader.next",,,,,,,,,,,,,,,,,,,,,,,,,,,10,39,5,28,5,23,6,17,8,1,18,23,4,21,5,5,6,1,3,,,,,0,,2,0,,,"0.21",5,5,6,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.getRecordReader",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,8,5,4,1,5,1,0,4,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.12",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.InputFormat.getSplits",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,9,4,5,1,2,2,0,6,8,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Public Static Class,"org.apache.nutch.indexer.DeleteDuplicates.UrlsReducer",2,2,2,1,10,0,8,1,2,8,8,0,,0,0,,,,3,0,3,3,0,0,0,3,,35,5,27,7,17,3,,,,13,20,6,15,,,,,,4,4,4,3,,1,2,,0,0,"0.11",6,6,6,5
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.UrlsReducer.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.UrlsReducer.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.UrlsReducer.reduce",,,,,,,,,,,,,,,,,,,,,,,,,,,5,28,2,23,4,17,3,6,5,1,13,17,3,15,4,4,4,3,2,,,,,2,,2,1,,,"0.13",4,4,4,3
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.checkOutputSpecs",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.dedup",,,,,,,,,,,,,,,,,,,,,,,,,,,14,79,21,55,7,48,3,21,12,1,46,51,5,49,5,5,5,1,0,,,,,0,,2,0,,,"0.05",5,5,5,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.getRecordWriter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,12,4,6,1,1,1,0,2,5,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.08",1,1,1,1
+Anonymous Class,"org.apache.nutch.indexer.DeleteDuplicates.getRecordWriter.(Anon_1)",1,1,1,1,2,0,2,0,1,5,5,0,,0,0,,,,2,0,2,2,0,0,0,2,,6,0,6,0,5,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.getRecordWriter.(Anon_1).close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.getRecordWriter.(Anon_1).write",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.apache.nutch.indexer.DeleteDuplicates.main",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.map",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,7,4,3,3,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.43",2,2,2,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.reduce",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,15,6,9,1,9,2,0,6,9,4,8,2,2,2,1,0,,,,,0,,2,0,,,"0.07",2,2,2,1
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.run",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,2,17,2,12,0,5,5,1,10,14,3,11,4,4,4,3,2,,,,,2,,1,2,,,"0.00",4,4,4,3
+Public Method,"org.apache.nutch.indexer.DeleteDuplicates.setConf",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,5,0,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.apache.nutch.indexer.TestDeleteDuplicates",2,2,2,2,15,0,14,1,1,18,18,0,,0,0,,,,8,6,8,8,0,3,0,5,,139,9,125,37,92,11,,,,87,105,40,86,,,,,,5,5,5,5,,2,2,,56,52,"0.09",20,20,20,16
+Private Method,"org.apache.nutch.indexer.TestDeleteDuplicates.createIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,0,25,7,22,3,7,2,0,11,13,6,12,5,5,5,1,1,,,,,0,,1,0,,,"0.12",5,5,5,1
+Private Method,"org.apache.nutch.indexer.TestDeleteDuplicates.hashDuplicatesHelper",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,17,5,13,1,11,3,0,13,16,6,14,3,3,3,3,1,,,,,1,,2,1,,,"0.06",3,3,3,3
+Private Method,"org.apache.nutch.indexer.TestDeleteDuplicates.makeDoc",,,,,,,,,,,,,,,,,,,,,,,,,,,12,10,0,10,2,8,0,4,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.TestDeleteDuplicates.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,9,1,7,1,11,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.apache.nutch.indexer.TestDeleteDuplicates.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.nutch.indexer.TestDeleteDuplicates.testHashDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,2,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.apache.nutch.indexer.TestDeleteDuplicates.testMixedDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,6,33,0,31,7,25,3,13,9,1,25,30,9,27,5,5,5,5,2,,,,,2,,2,2,,,"0.10",5,5,5,5
+Public Method,"org.apache.nutch.indexer.TestDeleteDuplicates.testUrlDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,18,6,14,1,13,3,0,14,17,7,15,3,3,3,3,1,,,,,1,,2,1,,,"0.06",3,3,3,3

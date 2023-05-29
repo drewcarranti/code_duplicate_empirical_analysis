@@ -1,0 +1,36 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ERXWOContext.java",2,2,2,1,12,0,8,3,,,,,2,18,4,30,,30,12,1,30,,0,0,3,27,,467,38,290,108,161,140,,,,144,211,102,143,,,,,,7,7,8,1,,,4,,,,"0.48",64,64,69,30
+Package,"er",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"er.extensions",2,2,2,1,12,0,8,3,,,,,2,18,4,,1,,12,1,30,,0,0,3,27,,467,38,290,108,161,140,,,,144,211,102,143,,,,,,7,7,8,1,,,4,,,,"0.48",64,64,69,30
+Public Class,"er.extensions.ERXWOContext",2,2,2,1,12,0,8,3,2,24,24,0,,18,4,,,,11,1,29,29,0,0,3,26,,439,35,271,89,161,134,,,,125,192,83,143,,,,,,7,7,8,1,,2,4,,93,75,"0.49",62,62,67,29
+Public Constructor,"er.extensions.ERXWOContext.ERXWOContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"er.extensions.ERXWOContext.Observer",2,2,2,1,9,0,9,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,11,0,11,4,6,0,,,,5,8,4,6,,,,,,2,2,2,1,,1,1,,0,0,"0.00",2,2,2,1
+Public Method,"er.extensions.ERXWOContext.Observer.applicationDidHandleRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,3,6,0,5,2,0,5,7,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Static Method,"er.extensions.ERXWOContext._contextDictionary",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext._directActionURL",,,,,,,,,,,,,,,,,,,,,,,,,,,9,26,0,17,4,10,9,6,3,0,7,10,4,8,3,3,3,1,2,,,,,0,,2,0,,,"0.53",3,3,3,1
+Public Method,"er.extensions.ERXWOContext._generateCompleteURLs",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXWOContext._generateRelativeURLs",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXWOContext._generatingCompleteURLs",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext._htmlCloseHeadTag",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,7,2,4,6,2,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Protected Static Method,"er.extensions.ERXWOContext._insertInResponseBeforeTag",,,,,,,,,,,,,,,,,,,,,,,,,,,7,32,0,32,8,23,0,13,14,1,17,24,7,23,7,7,7,1,2,,,,,0,,2,0,,,"0.00",7,7,7,1
+Protected Static Method,"er.extensions.ERXWOContext._insertPendingInResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,19,9,13,0,9,5,1,9,14,9,13,5,5,7,1,0,,,,,0,,4,0,,,"0.00",5,5,7,1
+Public Method,"er.extensions.ERXWOContext._urlWithRequestHandlerKey",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.addResourceInHead",,,,,,,,,,,,,,,,,,,,,,,,,,,9,15,0,4,2,2,11,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.addResourceInHead",,,,,,,,,,,,,,,,,,,,,,,,,,,11,42,0,33,10,23,10,21,12,1,18,24,9,19,6,6,7,1,1,,,,,0,,3,0,,,"0.30",6,6,7,1
+Public Static Method,"er.extensions.ERXWOContext.addScriptCodeInHead",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,2,2,6,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.addScriptResourceInHead",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,5,3,3,8,1,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.addStylesheetResourceInHead",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,5,3,3,9,1,1,0,3,4,3,1,1,1,1,1,0,,,,,0,,0,0,,,"1.80",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.componentPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,13,3,8,4,5,4,1,5,9,3,8,4,4,4,1,0,,,,,0,,3,0,,,"0.31",4,4,4,1
+Public Static Method,"er.extensions.ERXWOContext.contextDictionary",,,,,,,,,,,,,,,,,,,,,,,,,,,10,22,1,18,2,12,3,7,6,1,6,11,2,10,4,4,4,1,0,,,,,0,,2,0,,,"0.17",4,4,4,1
+Public Static Method,"er.extensions.ERXWOContext.currentContext",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXWOContext.directActionURLForActionNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,28,0,7,2,4,21,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"3.00",2,2,2,1
+Public Method,"er.extensions.ERXWOContext.existingSession",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,6,2,4,3,6,2,0,3,5,2,4,2,2,3,1,0,,,,,0,,1,0,,,"0.50",2,2,3,1
+Public Method,"er.extensions.ERXWOContext.hasSession",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,7,2,3,3,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.43",2,2,2,1
+Public Static Method,"er.extensions.ERXWOContext.insertInResponseBeforeTag",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"er.extensions.ERXWOContext.mutableUserInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.newContext",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,2,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.setCurrentContext",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXWOContext.setMutableUserInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXWOContext.stripSessionIDFromURL",,,,,,,,,,,,,,,,,,,,,,,,,,,2,33,1,25,5,18,7,3,17,1,12,19,5,16,7,7,8,1,2,,,,,0,,3,0,,,"0.28",7,7,8,1
+Public Static Method,"er.extensions.ERXWOContext.toSafeElementID",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"er.extensions.ERXWOContext.userInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

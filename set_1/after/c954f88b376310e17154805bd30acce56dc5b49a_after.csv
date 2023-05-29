@@ -1,0 +1,140 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"EasyMockAdapter.java",1,1,1,1,5,0,3,1,,,,,1,1,0,4,,4,3,1,4,,0,0,0,4,,43,8,23,13,6,12,,,,12,17,12,6,,,,,,1,1,1,1,,,0,,,,"0.52",4,4,4,4
+File,"EasyMockAdapterTest.java",1,1,1,1,7,0,6,0,,,,,3,0,0,4,,5,5,0,5,,1,0,0,4,,38,8,30,15,13,0,,,,17,23,16,10,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+File,"EasyMockMatchers.java",1,1,1,1,4,0,4,0,,,,,1,1,0,1,,1,0,0,1,,0,0,0,1,,16,4,8,4,2,4,,,,4,6,4,2,,,,,,1,1,1,1,,,0,,,,"0.50",1,1,1,1
+File,"ExampleWithAssertThat.java",1,1,1,1,6,0,6,0,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,25,4,15,10,3,6,,,,9,11,8,3,,,,,,1,1,1,1,,,0,,,,"0.40",1,1,1,1
+File,"ExampleWithEasyMock.java",1,1,1,1,9,0,5,4,,,,,2,0,0,4,,5,5,1,5,,1,0,0,4,,85,11,33,18,9,41,,,,16,22,13,9,,,,,,1,1,1,1,,,0,,,,"1.24",4,4,4,4
+File,"ExampleWithJMock.java",1,1,1,1,9,0,5,5,,,,,2,0,0,3,,4,4,2,4,,1,0,0,3,,75,11,26,12,11,41,,,,14,19,12,9,,,,,,1,1,1,1,,,0,,,,"1.58",3,3,3,3
+File,"IsArrayContainingTest.java",1,1,1,1,7,1,6,0,,,,,1,0,0,6,,6,6,1,6,,0,0,0,6,,61,16,45,13,27,0,,,,28,35,13,24,,,,,,1,1,1,1,,,0,,,,"0.00",6,6,6,6
+File,"JMockAdapter.java",1,1,1,1,4,0,3,1,,,,,1,1,0,4,,4,3,1,4,,0,0,0,4,,40,8,21,11,5,11,,,,10,15,10,5,,,,,,1,1,1,1,,,0,,,,"0.52",4,4,4,4
+File,"JMockAdapterTest.java",1,1,1,1,7,0,6,0,,,,,3,0,0,4,,5,5,0,5,,1,0,0,4,,38,8,30,15,13,0,,,,17,23,16,10,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+File,"JMockMatchers.java",1,1,1,1,3,0,3,0,,,,,1,1,0,1,,1,0,0,1,,0,0,0,1,,11,3,8,5,1,0,,,,4,6,5,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"Matcher.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,23,4,5,4,0,14,,,,3,4,4,0,,,,,,0,0,0,0,,,0,,,,"2.80",0,0,0,0
+File,"MatcherAssert.java",2,2,2,1,9,0,9,0,,,,,1,1,0,1,,1,0,0,1,,0,0,0,1,,19,4,13,5,6,2,,,,7,10,5,6,,,,,,2,2,2,1,,,1,,,,"0.15",2,2,2,1
+File,"Matchers.java",1,1,1,1,3,0,3,0,,,,,2,45,5,47,,47,2,0,47,,0,0,0,47,,237,50,178,75,60,9,,,,79,128,77,57,,,,,,2,2,2,1,,,1,,,,"0.05",50,50,50,47
+File,"StringDescription.java",3,2,3,1,9,0,9,0,,,,,1,0,0,7,,7,7,1,7,,0,2,0,5,,84,11,73,12,48,0,,,,39,58,14,44,,,,,,10,10,10,1,,,3,,,,"0.00",21,18,21,7
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.hamcrest",1,1,1,1,3,0,3,0,,,,,6,48,5,,5,,4,0,52,,2,0,0,50,,306,65,212,93,69,29,,,,97,154,95,66,,,,,,2,2,2,1,,,1,,,,"0.14",54,54,54,50
+Public Class,"org.hamcrest.EasyMockMatchers",1,1,1,1,4,0,4,0,1,3,3,0,,1,0,,,,0,0,1,1,0,0,0,1,,12,2,6,2,2,4,,,,2,4,2,2,,,,,,1,1,1,1,,1,0,,0,0,"0.67",1,1,1,1
+Public Static Method,"org.hamcrest.EasyMockMatchers.isTwoXs",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.hamcrest.JMockMatchers",1,1,1,1,3,0,3,0,1,3,3,0,,1,0,,,,0,0,1,1,0,0,0,1,,6,1,5,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.JMockMatchers.isTwoXs",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"org.hamcrest.Matcher",0,0,0,0,0,0,0,0,0,0,0,3,,0,0,,,,2,0,2,2,2,0,0,0,,16,3,4,3,0,9,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"2.25",0,0,0,0
+TypeVariable,"org.hamcrest.Matcher.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.hamcrest.Matcher.describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"org.hamcrest.Matcher.match",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Public Class,"org.hamcrest.MatcherAssert",2,2,2,1,9,0,9,0,1,3,3,0,,1,0,,,,0,0,1,1,0,0,0,1,,13,2,11,3,6,0,,,,5,8,3,6,,,,,,2,2,2,1,,1,1,,0,0,"0.00",2,2,2,1
+Public Static Generic Method,"org.hamcrest.MatcherAssert.assertThat",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,6,0,7,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"org.hamcrest.MatcherAssert.assertThat.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Class,"org.hamcrest.Matchers",1,1,1,1,3,0,3,0,1,32,32,0,,45,5,,,,0,0,45,45,0,0,0,45,,209,47,155,52,60,7,,,,56,105,54,57,,,,,,2,2,2,1,,1,1,,0,0,"0.05",48,48,48,45
+Public Static Method,"org.hamcrest.Matchers.and",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,3,1,1,2,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.67",2,2,2,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.arrayContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Generic Method,"org.hamcrest.Matchers.assertThat",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,7,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"org.hamcrest.Matchers.assertThat.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Method,"org.hamcrest.Matchers.collectionContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.collectionContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.compatibleType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.endsWith",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,15,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,3,1,1,2,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.67",2,2,2,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.hasProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.hasProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.isA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.isIn",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.isIn",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.isTwoXs",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,10,1,6,3,1,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.30",1,1,1,1
+Anonymous Class,"org.hamcrest.Matchers.isTwoXs.(Anon_1)",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,2,0,2,2,0,0,0,2,,8,1,7,0,5,0,,,,2,4,2,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.hamcrest.Matchers.isTwoXs.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.Matchers.isTwoXs.(Anon_1).match",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapContaining",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapWithValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.mapWithValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.not",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.or",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.same",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.startsWith",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.stringContains",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.Matchers.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.hamcrest.collection",1,1,1,1,7,1,6,0,,,,,1,0,0,,1,,6,1,6,,0,0,0,6,,61,16,45,13,27,0,,,,28,35,13,24,,,,,,1,1,1,1,,,0,,,,"0.00",6,6,6,6
+Public Class,"org.hamcrest.collection.IsArrayContainingTest",1,1,1,1,7,1,6,0,1,3,3,0,,0,0,,,,6,1,6,6,0,0,0,6,,55,14,41,9,27,0,,,,24,31,9,24,,,,,,1,1,1,1,,2,0,,33,33,"0.00",6,6,6,6
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testDoesNotMatchAnArrayThatDoesntContainAnElementMatchingTheGivenMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,4,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testDoesNotMatchNull",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testDoesNotMatchObjectThatIsNotAnArray",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testHasAReadableDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,1,4,2,2,0,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testMatchesAnArrayThatContainsAnElementMatchingTheGivenMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.collection.IsArrayContainingTest.testMatchesPrimitiveArrayElements",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,7,18,1,16,0,2,1,0,16,17,1,16,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.hamcrest.examples",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.hamcrest.examples.junit3",1,1,1,1,9,0,5,5,,,,,2,0,0,,1,,4,2,4,,1,0,0,3,,75,11,26,12,11,41,,,,14,19,12,9,,,,,,1,1,1,1,,,0,,,,"1.58",3,3,3,3
+Public Class,"org.hamcrest.examples.junit3.ExampleWithJMock",1,1,1,1,9,0,5,5,1,3,3,0,,0,0,,,,3,2,3,3,0,0,0,3,,69,9,22,8,11,41,,,,10,15,8,9,,,,,,1,1,1,1,,2,0,,33,33,"1.86",3,3,3,3
+Public Interface,"org.hamcrest.examples.junit3.ExampleWithJMock.AnInterface",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.hamcrest.examples.junit3.ExampleWithJMock.AnInterface.doStuff",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.hamcrest.examples.junit3.ExampleWithJMock.testUsingAHamcrestMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,5,1,3,4,6,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"org.hamcrest.examples.junit3.ExampleWithJMock.testUsingAJMockConstraint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,5,1,3,4,6,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"org.hamcrest.examples.junit3.ExampleWithJMock.testUsingAssertThat",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,5,1,3,7,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.40",1,1,1,1
+Package,"org.hamcrest.examples.testng",1,1,1,1,8,0,5,3,,,,,3,0,0,,2,,6,1,6,,1,0,0,5,,110,15,48,28,12,47,,,,25,33,21,12,,,,,,1,1,1,1,,,0,,,,"0.98",5,5,5,5
+Public Class,"org.hamcrest.examples.testng.ExampleWithAssertThat",1,1,1,1,6,0,6,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,17,2,9,4,3,6,,,,3,5,2,3,,,,,,1,1,1,1,,1,0,,0,0,"0.67",1,1,1,1
+Public Method,"org.hamcrest.examples.testng.ExampleWithAssertThat.usingAssertThat",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.hamcrest.examples.testng.ExampleWithEasyMock",1,1,1,1,9,0,5,4,1,4,4,0,,0,0,,,,4,1,4,4,0,0,0,4,,78,9,28,13,9,41,,,,11,17,8,9,,,,,,1,1,1,1,,1,0,,25,25,"1.46",4,4,4,4
+Public Interface,"org.hamcrest.examples.testng.ExampleWithEasyMock.AnInterface",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.hamcrest.examples.testng.ExampleWithEasyMock.AnInterface.doStuff",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.hamcrest.examples.testng.ExampleWithEasyMock.setUpMock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.examples.testng.ExampleWithEasyMock.usingAHamcrestMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,7,2,4,4,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Public Method,"org.hamcrest.examples.testng.ExampleWithEasyMock.usingAJMockConstraint",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,7,2,4,4,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Public Method,"org.hamcrest.examples.testng.ExampleWithEasyMock.usingAssertThat",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,3,2,0,8,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Package,"org.hamcrest.integration",1,1,1,1,6,0,5,0,,,,,8,2,0,,4,,16,2,18,,2,0,0,16,,159,32,104,54,37,23,,,,56,78,54,31,,,,,,1,1,1,1,,,0,,,,"0.22",16,16,16,16
+Public Class,"org.hamcrest.integration.EasyMockAdapter",1,1,1,1,5,0,3,1,2,5,5,0,,1,0,,,,3,1,4,4,0,0,0,4,,36,6,18,8,6,12,,,,7,12,7,6,,,,,,1,1,1,1,,1,0,,25,0,"0.67",4,4,4,4
+Public Constructor,"org.hamcrest.integration.EasyMockAdapter.EasyMockAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.integration.EasyMockAdapter.adapt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,2,3,6,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Method,"org.hamcrest.integration.EasyMockAdapter.appendTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.EasyMockAdapter.matches",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.hamcrest.integration.EasyMockAdapterTest",1,1,1,1,10,1,9,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,30,6,24,9,13,0,,,,11,17,10,10,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Interface,"org.hamcrest.integration.EasyMockAdapterTest.InterfaceToMock",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.hamcrest.integration.EasyMockAdapterTest.InterfaceToMock.doStuff",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.hamcrest.integration.EasyMockAdapterTest.testAdaptsHamcrestMatcherToEasyMockArgumentsMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.EasyMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,2,14,4,10,0,4,1,0,7,10,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.hamcrest.integration.EasyMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1)",1,1,1,1,3,0,3,0,2,0,0,0,,0,0,,,,2,0,2,2,0,0,0,2,,9,1,8,1,6,0,,,,3,5,2,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.hamcrest.integration.EasyMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.EasyMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1).match",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.hamcrest.integration.JMockAdapter",1,1,1,1,4,0,3,1,2,4,4,0,,1,0,,,,3,1,4,4,0,0,0,4,,34,6,17,7,5,11,,,,6,11,6,5,,,,,,1,1,1,1,,1,0,,25,0,"0.65",4,4,4,4
+Public Constructor,"org.hamcrest.integration.JMockAdapter.JMockAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.hamcrest.integration.JMockAdapter.adapt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.hamcrest.integration.JMockAdapter.describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.JMockAdapter.eval",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.hamcrest.integration.JMockAdapterTest",1,1,1,1,10,1,9,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,30,6,24,9,13,0,,,,11,17,10,10,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Interface,"org.hamcrest.integration.JMockAdapterTest.InterfaceToMock",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"org.hamcrest.integration.JMockAdapterTest.InterfaceToMock.doStuff",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.hamcrest.integration.JMockAdapterTest.testAdaptsHamcrestMatcherToJMockConstraint",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.JMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,2,14,4,10,0,4,1,0,7,10,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.hamcrest.integration.JMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1)",1,1,1,1,3,0,3,0,2,0,0,0,,0,0,,,,2,0,2,2,0,0,0,2,,9,1,8,1,6,0,,,,3,5,2,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.hamcrest.integration.JMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.integration.JMockAdapterTest.testDelegatesDescriptionToUnderlyingMatcher.(Anon_1).match",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.hamcrest.internal",3,2,3,1,9,0,9,0,,,,,1,0,0,,1,,7,1,7,,0,2,0,5,,84,11,73,12,48,0,,,,39,58,14,44,,,,,,10,10,10,1,,,3,,,,"0.00",21,18,21,7
+Public Class,"org.hamcrest.internal.StringDescription",3,2,3,1,9,0,9,0,2,7,7,0,,0,0,,,,7,1,7,7,0,2,0,5,,78,8,70,9,48,0,,,,36,55,11,44,,,,,,10,10,10,1,,1,3,,42,28,"0.00",21,18,21,7
+Public Constructor,"org.hamcrest.internal.StringDescription.StringDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.hamcrest.internal.StringDescription.StringDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.internal.StringDescription.appendText",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.hamcrest.internal.StringDescription.appendValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,29,0,29,1,24,0,8,10,1,16,26,2,24,10,10,10,1,7,,,,,0,,3,0,,,"0.00",10,10,10,1
+Private Method,"org.hamcrest.internal.StringDescription.toJavaSyntax",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,4,2,0,5,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.hamcrest.internal.StringDescription.toJavaSyntax",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,0,18,1,15,0,1,5,1,9,11,1,10,5,2,5,1,10,,,,,0,,1,0,,,"0.00",5,2,5,1
+Public Method,"org.hamcrest.internal.StringDescription.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

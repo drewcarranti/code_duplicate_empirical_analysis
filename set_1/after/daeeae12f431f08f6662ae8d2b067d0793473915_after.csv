@@ -1,0 +1,23 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"JavascriptArchiver.java",1,1,1,1,18,0,16,1,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,78,6,46,20,23,26,,,,32,36,18,23,,,,,,2,2,2,1,,,1,,,,"0.57",3,3,3,2
+File,"JavascriptArtifactManager.java",2,2,2,1,15,1,11,2,,,,,1,0,0,3,,3,3,2,3,,0,0,0,3,,98,13,49,22,21,36,,,,30,37,20,20,,,,,,4,4,5,1,,,3,,,,"0.73",7,7,8,3
+File,"JavascriptUnArchiver.java",1,1,1,1,7,0,5,2,,,,,2,0,0,3,,3,3,0,3,,0,0,0,3,,57,5,23,12,7,29,,,,12,16,12,4,,,,,,1,1,1,1,,,0,,,,"1.26",3,3,3,3
+File,"Types.java",0,0,0,0,0,0,0,0,,,,,1,0,2,0,,0,0,0,0,,0,0,0,0,,34,5,5,4,2,24,,,,3,4,4,0,,,,,,0,0,0,0,,,0,,,,"4.80",0,0,0,0
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.codehaus",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.codehaus.mojo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.codehaus.mojo.javascript",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.codehaus.mojo.javascript.archive",1,1,1,1,12,0,10,2,,,,,5,0,2,,4,,8,2,8,,0,0,0,8,,267,29,123,58,53,115,,,,77,93,54,47,,,,,,4,4,5,1,,,3,,,,"0.93",13,13,14,8
+Public Class,"org.codehaus.mojo.javascript.archive.JavascriptArchiver",1,1,1,1,18,0,16,1,1,11,11,0,,0,0,,,,2,0,2,2,0,0,0,2,,49,2,36,10,23,11,,,,22,26,8,23,,,,,,2,2,2,1,,2,1,,0,0,"0.31",3,3,3,2
+Public Constructor,"org.codehaus.mojo.javascript.archive.JavascriptArchiver.JavascriptArchiver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,1,2,3,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.codehaus.mojo.javascript.archive.JavascriptArchiver.createDefaultManifest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,1,27,7,21,0,11,2,0,20,22,6,21,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.codehaus.mojo.javascript.archive.JavascriptArtifactManager",2,2,2,1,15,1,11,2,1,11,11,0,,0,0,,,,3,2,3,3,0,0,0,3,,68,9,38,12,21,21,,,,20,27,10,20,,,,,,4,4,5,1,,2,3,,66,66,"0.55",7,7,8,3
+Public Constructor,"org.codehaus.mojo.javascript.archive.JavascriptArtifactManager.JavascriptArtifactManager",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.codehaus.mojo.javascript.archive.JavascriptArtifactManager.unpack",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,3,18,5,12,4,17,4,1,11,14,5,12,4,4,5,1,0,,,,,0,,3,0,,,"0.22",4,4,5,1
+Public Method,"org.codehaus.mojo.javascript.archive.JavascriptArtifactManager.unpack",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,1,13,2,8,3,6,2,0,6,8,1,7,2,2,2,1,1,,,,,0,,1,0,,,"0.23",2,2,2,1
+Public Class,"org.codehaus.mojo.javascript.archive.JavascriptUnArchiver",1,1,1,1,9,0,6,3,1,3,3,0,,0,0,,,,2,0,2,2,0,0,0,2,,30,1,15,4,7,14,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.93",2,2,2,2
+Public Constructor,"org.codehaus.mojo.javascript.archive.JavascriptUnArchiver.JavascriptUnArchiver",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.codehaus.mojo.javascript.archive.JavascriptUnArchiver.extract",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,9,1,6,3,3,1,0,3,5,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Anonymous Class,"org.codehaus.mojo.javascript.archive.JavascriptUnArchiver.extract.(Anon_1)",1,1,1,1,4,0,4,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.codehaus.mojo.javascript.archive.JavascriptUnArchiver.extract.(Anon_1).include",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.codehaus.mojo.javascript.archive.Types",0,0,0,0,0,0,0,0,1,1,1,0,,0,2,,,,0,0,0,0,0,0,0,0,,16,3,4,3,2,9,,,,2,3,3,0,,,,,,0,0,0,0,,1,0,,0,0,"2.25",0,0,0,0

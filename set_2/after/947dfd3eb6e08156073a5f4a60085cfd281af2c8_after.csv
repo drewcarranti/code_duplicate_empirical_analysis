@@ -1,0 +1,67 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractDrop.java",1,1,1,1,7,0,7,0,,,,,1,0,0,7,,7,7,3,7,,0,0,0,7,,90,12,59,22,17,19,,,,18,29,15,15,,,,,,4,4,4,1,,,2,,,,"0.32",10,10,10,7
+File,"AbstractDropSource.java",1,1,1,1,7,0,6,0,,,,,1,0,3,25,,26,26,12,26,,0,3,2,21,,295,55,220,78,86,20,,,,112,157,83,82,,,,,,4,4,4,1,,,3,,,,"0.09",40,40,40,25
+File,"Drop.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,7,7,0,7,,7,0,0,0,,22,9,13,11,0,0,,,,10,11,11,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"EntityDrop.java",2,2,2,1,11,1,9,0,,,,,1,9,0,11,,11,2,1,11,,0,4,4,3,,174,35,119,42,59,20,,,,58,82,44,53,,,,,,4,4,5,1,,,2,,,,"0.17",22,22,27,11
+Package,"se",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"se.crafted",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"se.crafted.chrisb",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"se.crafted.chrisb.ecoCreature",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"se.crafted.chrisb.ecoCreature.drops",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"se.crafted.chrisb.ecoCreature.drops.models",1,1,2,1,10,1,8,0,,,,,3,9,0,,3,,16,4,25,,7,4,4,10,,286,56,191,75,76,39,,,,86,122,70,68,,,,,,4,4,5,1,,,2,,,,"0.20",32,32,37,18
+Public Abstract Class,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop",1,1,1,1,7,0,7,0,2,3,3,2,,0,0,,,,7,3,7,7,0,0,0,7,,65,9,56,19,17,0,,,,15,26,12,15,,,,,,4,4,4,1,,1,2,,71,57,"0.00",10,10,10,7
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.getChance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.getPercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.getRandom",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.getRange",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.nextAmount",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,2,20,3,10,0,8,4,1,6,10,2,8,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.setPercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.AbstractDrop.setRange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"se.crafted.chrisb.ecoCreature.drops.models.Drop",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,7,0,7,7,7,0,0,0,,16,6,10,8,0,0,,,,7,8,8,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.getChance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.getPercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.getRandom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.getRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.nextAmount",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.setPercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"se.crafted.chrisb.ecoCreature.drops.models.Drop.setRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop",2,2,2,1,11,1,9,0,1,9,9,0,,9,0,,,,2,1,11,18,0,4,4,3,,143,32,110,33,59,1,,,,49,73,35,53,,,,,,4,4,5,1,,2,2,,81,45,"0.01",22,22,27,11
+Public Constructor,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.EntityDrop",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.createEntityDrop",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,2,9,3,5,0,6,2,0,4,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.getOutcome",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,2,9,3,5,0,3,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.isNotAmbiguous",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,3,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,4,19,4,12,1,10,5,1,8,12,4,11,4,4,4,1,1,,,,,0,,2,0,,,"0.05",4,4,4,1
+Private Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseDrops",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,2,4,0,6,2,0,3,5,2,4,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseDrops",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,2,11,3,6,0,3,3,0,4,8,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseExpConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,2,9,2,5,0,5,2,0,3,5,2,3,2,2,5,1,0,,,,,0,,1,0,,,"0.00",2,2,5,1
+Protected Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parsePercentage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseRange",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,3,15,5,9,0,3,2,0,8,10,5,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Static Method,"se.crafted.chrisb.ecoCreature.drops.models.EntityDrop.parseType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,3,11,5,7,0,3,2,0,6,8,5,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"se.crafted.chrisb.ecoCreature.drops.sources",1,1,1,1,7,0,6,0,,,,,1,0,3,,1,,26,12,26,,0,3,2,21,,295,55,220,78,86,20,,,,112,157,83,82,,,,,,4,4,4,1,,,3,,,,"0.09",40,40,40,25
+Public Abstract Class,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource",1,1,1,1,7,0,6,0,1,25,25,0,,0,3,,,,26,12,26,33,0,3,2,21,,245,51,193,51,86,1,,,,85,130,56,82,,,,,,4,4,4,1,,2,3,,87,81,"0.01",40,40,40,25
+Public Constructor,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.AbstractDropSource",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.AbstractDropSource",,,,,,,,,,,,,,,,,,,,,,,,,,,7,30,4,25,2,19,1,19,6,1,16,21,3,19,4,4,4,1,0,,,,,0,,2,0,,,"0.04",4,4,4,1
+Protected Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.assembleDrop",,,,,,,,,,,,,,,,,,,,,,,,,,,9,28,5,23,2,16,0,16,4,1,12,16,2,15,4,4,4,1,2,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.assembleDrops",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,2,9,3,5,0,4,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getCoinPenaltyMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getCoinRewardMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getEntityDropOutcomes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,3,11,2,6,0,4,3,0,4,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getHuntingRules",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getItemDropOutcomes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,3,14,3,8,0,4,4,1,5,10,4,8,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getJockeyDropOutcomes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,3,14,3,8,0,4,4,1,5,10,4,7,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Protected Abstract Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.getNoCoinRewardMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.hasCoin",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.hasPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.isAddItemsToInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.isFixedDrops",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.isIntegerCurrency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setAddItemsToInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setCoinPenaltyMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setCoinRewardMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setFixedDrops",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setHuntingRules",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setIntegerCurrency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"se.crafted.chrisb.ecoCreature.drops.sources.AbstractDropSource.setNoCoinRewardMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

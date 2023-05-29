@@ -1,0 +1,57 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AgentManagerService.java",1,1,1,1,12,0,7,4,,,,,1,0,1,25,,25,25,3,25,,7,2,1,15,,409,46,224,97,112,139,,,,117,173,96,103,,,,,,9,9,9,5,,,3,,,,"0.62",46,46,47,33
+File,"AgentManagerServiceTest.java",1,1,1,1,13,1,12,0,,,,,1,0,0,5,,5,5,3,5,,0,1,0,4,,132,20,84,42,46,28,,,,66,72,36,46,,,,,,1,1,1,1,,,0,,,,"0.33",5,5,5,5
+File,"ClusteredAgentManagerService.java",2,2,3,1,20,0,14,5,,,,,2,0,1,15,,15,15,6,15,,4,1,0,10,,387,40,240,106,127,107,,,,127,181,103,110,,,,,,11,11,11,6,,,4,,,,"0.45",44,44,46,24
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder.agent",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ngrinder.agent.service",2,2,2,1,15,0,10,4,,,,,4,0,2,,3,,45,12,45,,11,4,1,29,,928,106,548,245,285,274,,,,310,426,235,259,,,,,,11,11,11,6,,,4,,,,"0.50",95,95,98,62
+Public Class,"org.ngrinder.agent.service.AgentManagerService",1,1,1,1,12,0,7,4,1,27,27,1,,0,1,,,,25,3,25,25,7,2,1,15,,353,40,196,69,112,117,,,,89,145,68,103,,,,,,9,9,9,5,,1,3,,92,64,"0.60",46,46,47,33
+Public Method,"org.ngrinder.agent.service.AgentManagerService.approve",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,9,3,5,8,5,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.89",2,2,2,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.checkAgentStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,67,6,46,14,34,15,25,104,2,24,38,17,30,9,9,9,3,3,,,,,3,,3,1,,,"0.33",9,9,9,3
+Private Method,"org.ngrinder.agent.service.AgentManagerService.creatAgentInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,3,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.createAgentKey",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.createAgentKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.ngrinder.agent.service.AgentManagerService.createLocalAgentMapFromDB",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,5,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.deleteAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"org.ngrinder.agent.service.AgentManagerService.fillUpAgentInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,1,8,0,13,2,0,7,9,1,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,0,10,4,7,10,7,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Method,"org.ngrinder.agent.service.AgentManagerService.getAgentManager",,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.ngrinder.agent.service.AgentManagerService.getAgentRepository",,,,,,,,,,,,,,,,,,,,,,,,,,,10,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getAgentSystemDataModel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,3,1,1,9,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getAllActiveAgentInfoFromDB",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Method,"org.ngrinder.agent.service.AgentManagerService.getConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getLocalAgentIdentityByIpAndName",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,10,3,6,9,7,3,0,4,8,4,6,3,3,4,3,3,,,,,3,,2,3,,,"0.90",3,3,4,3
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getLocalAgentListFromDB",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,3,1,1,8,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getLocalAgents",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,0,11,6,7,7,8,2,0,6,9,6,7,2,2,2,1,0,,,,,0,,1,0,,,"0.64",2,2,2,1
+Method,"org.ngrinder.agent.service.AgentManagerService.getMaxAgentSizePerConsole",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.getUserAvailableAgentCountMap",,,,,,,,,,,,,,,,,,,,,,,,,,,4,42,4,23,7,18,15,11,7,1,13,19,8,15,5,5,5,5,4,,,,,4,,2,4,,,"0.65",5,5,5,5
+Public Method,"org.ngrinder.agent.service.AgentManagerService.requestShareAgentSystemDataModel",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,1,2,1,0,6,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.saveAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Method,"org.ngrinder.agent.service.AgentManagerService.setAgentManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.ngrinder.agent.service.AgentManagerService.setAgentRepository",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.ngrinder.agent.service.AgentManagerService.setConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerService.stopAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,8,3,4,7,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.88",2,2,2,1
+Public Class,"org.ngrinder.agent.service.AgentManagerServiceTest",1,1,1,1,13,1,12,0,1,12,12,0,,0,0,,,,5,3,5,5,0,1,0,4,,88,15,67,25,46,6,,,,49,55,19,46,,,,,,1,1,1,1,,2,0,,40,40,"0.09",5,5,5,5
+Public Method,"org.ngrinder.agent.service.AgentManagerServiceTest.before",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,6,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.ngrinder.agent.service.AgentManagerServiceTest.saveAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,8,0,7,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerServiceTest.testCheckAgentStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,1,15,4,12,0,15,1,0,12,13,3,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerServiceTest.testGetUserAvailableAgentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,2,16,6,13,0,14,1,0,13,14,5,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.AgentManagerServiceTest.testSaveGetDeleteAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,3,13,5,10,0,8,1,0,10,11,4,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.ngrinder.agent.service.ClusteredAgentManagerService",2,2,2,1,20,0,13,5,1,35,35,0,,0,1,,,,14,6,14,39,4,1,0,9,,321,33,203,69,127,85,,,,90,144,66,110,,,,,,11,11,11,6,,2,3,,84,82,"0.42",39,39,40,23
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.addAgentMonitoringTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,3,1,1,11,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.checkAgentStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,83,7,60,17,46,16,32,208,2,32,48,20,40,11,11,11,3,5,,,,,3,,3,1,,,"0.27",11,11,11,3
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.collectAgentSystemData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,11,5,6,4,7,3,0,4,8,5,6,3,3,4,1,0,,,,,0,,2,0,,,"0.36",3,3,4,1
+Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.extractRegionFromAgentRegion",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,1,5,0,4,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.getAgentSystemDataModel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,5,3,2,8,2,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"1.60",2,2,2,1
+Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.getCacheManager",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.getLocalAgentListFromDB",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,4,2,1,8,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.getRegions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.getUserAvailableAgentCountMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,56,4,37,12,27,15,19,52,2,19,30,13,26,8,8,8,6,5,,,,,5,,2,5,,,"0.41",8,8,8,6
+Private Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.incrementAgentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.init",,,,,,,,,,,,,,,,,,,,,,,,,,,1,36,1,32,7,23,3,8,2,0,11,19,7,16,2,2,2,1,0,,,,,0,,0,0,,,"0.09",2,2,2,1
+Anonymous Class,"org.ngrinder.agent.service.ClusteredAgentManagerService.init.(Anon_1)",5,5,6,1,23,1,22,0,1,11,11,0,,0,0,,,,1,0,1,1,0,0,0,1,,24,1,23,5,18,0,,,,7,13,6,11,,,,,,5,5,6,1,,2,4,,0,0,"0.00",5,5,6,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.init.(Anon_1).interruptibleRun",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,1,22,5,17,0,16,5,1,7,13,6,11,5,5,6,1,1,,,,,0,,4,0,,,"0.00",5,5,6,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.requestShareAgentSystemDataModel",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,6,3,3,6,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.setCacheManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ngrinder.agent.service.ClusteredAgentManagerService.stopAgent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,9,3,5,8,7,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.89",2,2,2,1

@@ -1,0 +1,132 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ACC.java",1,1,1,1,14,1,7,6,,,,,1,0,1,11,,11,11,6,11,,0,1,0,10,,261,37,95,60,54,129,,,,61,74,53,41,,,,,,8,8,9,1,,,1,,,,"1.36",20,20,21,11
+File,"Gipps.java",1,1,1,1,11,0,5,4,,,,,1,0,1,10,,10,10,3,10,,0,1,1,8,,181,24,69,42,32,88,,,,42,53,37,28,,,,,,2,2,2,1,,,0,,,,"1.28",11,11,11,10
+File,"IDM.java",1,1,1,1,14,0,7,6,,,,,1,0,1,11,,11,11,5,11,,0,1,0,10,,242,29,99,44,54,115,,,,61,77,40,47,,,,,,3,3,3,1,,,1,,,,"1.16",15,15,15,11
+File,"KKW.java",1,1,1,1,11,0,6,5,,,,,1,0,2,13,,13,13,7,13,,0,1,1,11,,258,34,99,59,51,132,,,,66,80,54,36,,,,,,8,8,8,1,,,0,,,,"1.33",20,20,20,13
+File,"Krauss.java",1,1,1,1,13,0,6,6,,,,,1,0,1,9,,9,9,4,9,,0,1,0,8,,194,25,70,44,35,100,,,,47,57,41,30,,,,,,1,1,1,1,,,0,,,,"1.43",9,9,9,9
+File,"LongitudinalModelBase.java",1,1,1,0,6,0,3,2,,,,,3,0,1,24,,23,27,19,27,,0,1,3,23,,273,37,123,64,43,116,,,,60,85,53,41,,,,,,4,4,4,4,,,1,,,,"0.94",24,24,24,23
+File,"NSM.java",1,1,1,1,12,0,8,3,,,,,1,0,2,9,,9,9,2,9,,0,1,1,7,,179,23,86,43,46,70,,,,47,62,38,35,,,,,,4,4,4,1,,,2,,,,"0.81",16,16,16,9
+File,"Newell.java",1,1,1,1,13,1,7,5,,,,,1,0,1,5,,5,5,1,5,,0,1,0,4,,113,17,46,31,23,50,,,,31,37,28,20,,,,,,1,1,1,1,,,0,,,,"1.09",5,5,5,5
+File,"OVM_FVDM.java",2,2,2,1,15,1,8,6,,,,,1,0,1,10,,10,10,5,10,,0,1,0,9,,224,28,102,49,61,100,,,,65,83,46,51,,,,,,12,12,13,1,,,1,,,,"0.98",21,21,22,10
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.movsim",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.movsim.simulator",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.movsim.simulator.vehicles",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.movsim.simulator.vehicles.longitudinalmodel",1,1,1,0,6,0,3,2,,,,,3,0,1,,1,,27,19,27,,0,1,3,23,,273,37,123,64,43,116,,,,60,85,53,41,,,,,,4,4,4,4,,,1,,,,"0.94",24,24,24,23
+Public Abstract Class,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase",1,1,1,1,11,0,5,5,1,9,9,8,,0,1,,,,15,6,15,15,0,0,3,12,,238,35,115,56,43,91,,,,52,77,45,41,,,,,,4,4,4,4,,1,1,,84,83,"0.79",16,16,16,15
+Protected Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.LongitudinalModelBase",,,,,,,,,,,,,,,,,,,,,,,,,,,11,13,0,5,1,3,8,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Enum Type,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory",0,0,0,0,2,0,2,0,1,2,2,0,,0,0,,,,5,3,5,5,0,0,0,5,,16,3,13,6,3,0,,,,4,7,4,3,,,,,,1,1,1,1,,1,0,,,,"0.00",3,3,3,3
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory.isCA",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory.isIteratedMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelCategory.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Enum Type,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName",0,0,0,0,2,0,2,0,1,3,3,0,,0,0,,,,7,10,7,7,0,1,0,6,,35,7,28,16,6,0,,,,9,14,8,6,,,,,,1,1,1,1,,1,0,,,,"0.00",5,5,5,5
+Private Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.ModelName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.getCategory",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.getDetailedName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.getShortName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.ModelName.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Abstract Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.calcAccEur",,,,,,,,,,,,,,,,,,,,,,,,,,,8,38,7,19,8,13,12,6,4,1,10,14,7,13,4,4,4,4,3,,,,,3,,1,3,,,"0.63",4,4,4,4
+Public Abstract Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Protected Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.calcSmoothFraction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,3,5,2,2,2,0,4,6,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.25",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.getDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.getModelCategory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.getS0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.getScalingLength",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.isCA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.isIteratedMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.modelName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.setDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.LongitudinalModelBase.setRelativeRandomizationV0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,6,3,4,7,4,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"1.17",1,1,1,1
+Package,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration",1,1,1,1,13,0,7,5,,,,,8,0,10,,8,,78,33,78,,0,8,3,67,,1652,217,666,372,356,784,,,,420,523,337,288,,,,,,12,12,13,1,,,2,,,,"1.18",117,117,119,78
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC",1,1,1,1,14,1,7,6,1,7,7,0,,0,1,,,,11,6,11,26,0,1,0,10,,218,32,88,53,54,98,,,,54,67,46,41,,,,,,8,8,9,1,,2,1,,66,48,"1.11",20,20,21,11
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.ACC",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,11,1,9,6,18,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.55",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,16,53,8,23,17,20,22,6,2,0,14,16,13,11,8,8,9,1,1,,,,,0,,1,0,,,"0.96",8,8,9,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,9,24,5,12,10,9,7,9,1,0,9,10,9,7,2,2,2,1,0,,,,,0,,0,0,,,"0.58",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,2,11,9,8,1,8,1,0,8,9,8,6,2,2,2,1,0,,,,,0,,0,0,,,"0.09",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getB",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getCoolness",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getDelta",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getS1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.ACC.getT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps",1,1,1,1,11,0,5,4,1,7,7,0,,0,1,,,,10,3,10,25,0,1,1,8,,144,21,62,35,32,61,,,,35,46,30,28,,,,,,2,2,2,1,,2,0,,63,43,"0.98",11,11,11,10
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.Gipps",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,9,1,7,6,12,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,12,23,0,7,5,5,16,4,1,0,5,6,5,3,1,1,1,1,0,,,,,0,,0,0,,,"2.29",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,6,10,8,7,8,7,1,0,7,8,7,6,2,2,2,1,0,,,,,0,,0,0,,,"0.80",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,2,9,7,6,1,7,1,0,6,7,6,5,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.getA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.getB",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.getDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.getT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Gipps.setDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM",1,1,1,1,14,0,7,6,1,7,7,0,,0,1,,,,11,5,11,26,0,1,0,10,,208,27,92,37,54,90,,,,54,70,33,47,,,,,,3,3,3,1,,2,1,,56,40,"0.98",15,15,15,11
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.IDM",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,11,1,9,6,17,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.55",1,1,1,1
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.IDM",,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,0,10,1,8,16,9,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,15,35,4,13,4,9,19,4,3,0,6,9,3,8,3,3,3,1,1,,,,,0,,1,0,,,"1.46",3,3,3,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,4,16,9,11,3,8,2,0,10,12,8,8,2,2,2,1,1,,,,,0,,1,0,,,"0.19",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,2,15,8,10,1,7,2,0,9,11,7,7,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.getA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.getB",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.getDelta",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.getS1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.IDM.getT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW",1,1,1,1,11,0,6,5,1,9,9,0,,0,2,,,,13,7,13,28,0,1,1,11,,220,32,91,51,51,104,,,,58,72,46,36,,,,,,8,8,8,1,,2,0,,78,54,"1.14",20,20,20,13
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.KKW",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,0,12,1,10,9,18,1,0,10,11,1,10,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,18,48,7,21,15,19,25,4,1,0,19,20,15,7,8,8,8,1,0,,,,,0,,0,0,,,"1.19",8,8,8,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,1,8,6,5,1,6,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.12",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,9,7,6,1,5,1,0,6,7,6,4,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getK",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getPa1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getPa2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getPb0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getPb1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getS0",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.getVp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.KKW.setDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss",1,1,1,1,13,0,6,6,1,8,8,0,,0,1,,,,9,4,9,24,0,1,0,8,,156,22,62,36,35,73,,,,39,49,33,30,,,,,,1,1,1,1,,2,0,,61,36,"1.18",9,9,9,9
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.Krauss",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,10,1,8,6,14,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,13,45,4,10,8,8,32,5,1,0,8,9,8,5,1,1,1,1,0,,,,,0,,0,0,,,"3.20",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,2,10,8,7,0,8,1,0,7,8,7,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,2,9,7,6,1,7,1,0,6,7,6,5,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.getA",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.getB",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.getEpsilon",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Krauss.getT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM",1,1,1,1,12,0,8,3,1,9,9,0,,0,2,,,,9,2,9,24,0,1,1,7,,141,21,78,35,46,42,,,,39,54,30,35,,,,,,4,4,4,1,,2,2,,66,33,"0.54",16,16,16,9
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.NSM",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,7,1,5,6,9,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,11,37,4,18,8,15,15,5,2,0,12,14,8,7,4,4,4,1,0,,,,,0,,1,0,,,"0.83",4,4,4,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,2,15,7,10,2,13,3,0,7,10,6,9,3,3,3,1,0,,,,,0,,2,0,,,"0.13",3,3,3,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,2,14,6,9,2,12,3,0,6,9,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.14",3,3,3,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.getS0",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.getSlowToStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.getSlowdown",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.NSM.setDesiredSpeed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell",1,1,1,1,13,1,7,5,1,7,7,0,,0,1,,,,5,1,5,20,0,1,0,4,,104,15,39,24,23,50,,,,24,30,21,20,,,,,,1,1,1,1,,2,0,,19,19,"1.28",5,5,5,5
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell.Newell",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,7,1,5,6,8,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,3,5,3,3,15,3,1,0,3,4,3,2,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,3,10,8,7,4,8,1,0,7,8,7,6,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,2,9,7,6,1,7,1,0,6,7,6,5,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.Newell.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM",2,2,2,1,15,1,8,6,1,8,8,0,,0,1,,,,10,5,10,25,0,1,0,9,,189,26,94,41,61,75,,,,57,75,38,51,,,,,,12,12,13,1,,2,1,,70,40,"0.80",21,21,22,10
+Public Constructor,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.OVM_FVDM",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,11,1,9,6,17,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.55",1,1,1,1
+Private Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.acc",,,,,,,,,,,,,,,,,,,,,,,,,,,18,66,6,37,11,32,28,7,32,2,23,31,11,24,12,12,13,1,5,,,,,0,,1,0,,,"0.76",12,12,13,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,2,9,7,6,4,8,1,0,6,7,6,6,1,1,1,1,0,,,,,0,,0,0,,,"0.44",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.calcAcc",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,2,9,7,6,1,7,1,0,6,7,6,5,1,1,1,1,0,,,,,0,,0,0,,,"0.11",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.calcAccSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.getBeta",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.getLambda",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.getOptFuncVariant",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.getTau",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.movsim.simulator.vehicles.longitudinalmodel.acceleration.OVM_FVDM.getTransitionWidth",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1

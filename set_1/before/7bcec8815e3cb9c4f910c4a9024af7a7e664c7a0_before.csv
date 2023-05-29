@@ -1,0 +1,668 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AllTests.java",2,2,2,2,56,7,42,7,,,,,1,2,1,2,,2,0,0,2,,0,0,0,2,,173,20,121,39,81,32,,,,107,112,39,78,,,,,,4,4,4,3,,,2,,,,"0.26",5,5,5,4
+File,"BinderTest.java",1,1,1,0,9,0,9,0,,,,,45,0,0,44,,42,44,8,44,,1,1,10,32,,453,51,367,78,243,36,,,,148,222,90,141,,,,,,2,2,2,1,,,1,,,,"0.10",59,59,59,42
+File,"BindingProcessor.java",1,1,1,1,15,1,13,0,,,,,4,0,1,21,,22,22,3,22,,3,5,0,14,,296,38,221,81,141,38,,,,114,154,84,100,,,,,,4,4,5,3,,,1,,,,"0.17",35,35,37,25
+File,"ConstructorBindingImpl.java",1,1,1,1,9,0,7,1,,,,,2,1,0,18,,18,17,6,18,,5,1,2,10,,236,35,168,66,83,35,,,,75,105,53,61,,,,,,8,8,8,1,,,2,,,,"0.21",29,29,30,18
+File,"Errors.java",1,1,1,1,6,0,5,0,,,,,6,7,2,83,,84,77,5,84,,4,3,0,77,,677,119,491,155,249,68,,,,198,322,149,191,,,,,,8,8,8,4,,,2,,,,"0.14",122,122,125,91
+File,"ExposedBindingImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,0,6,,6,6,1,6,,0,0,0,6,,61,10,36,18,11,15,,,,17,24,17,7,,,,,,1,1,1,1,,,0,,,,"0.42",6,6,6,6
+File,"InjectorImpl.java",1,1,2,1,11,0,9,1,,,,,12,4,1,71,,70,68,17,72,,19,14,1,38,,949,134,675,248,380,153,,,,283,429,212,296,,,,,,8,8,9,7,,,5,,,,"0.23",133,133,145,93
+File,"InstanceBindingImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,0,11,,11,11,3,11,,0,0,0,11,,95,15,64,29,23,16,,,,31,43,26,17,,,,,,2,2,2,1,,,0,,,,"0.25",12,12,12,11
+File,"LinkedBindingImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,0,9,,9,9,1,9,,0,0,0,9,,76,14,47,21,16,15,,,,20,30,19,11,,,,,,1,1,1,1,,,0,,,,"0.32",9,9,9,9
+File,"LinkedProviderBindingImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,0,8,,8,8,1,8,,1,0,0,7,,71,12,44,19,16,15,,,,16,25,15,10,,,,,,1,1,1,1,,,0,,,,"0.34",8,8,8,8
+File,"MapBinder.java",1,1,1,1,9,0,8,0,,,,,8,11,0,38,,40,29,14,40,,2,9,0,29,,514,55,297,123,148,166,,,,129,184,109,95,,,,,,4,4,4,1,,,2,,,,"0.56",45,45,49,38
+File,"Modules.java",1,1,1,1,15,1,12,2,,,,,11,4,1,24,,26,22,2,26,,5,3,1,17,,274,35,169,56,89,70,,,,79,122,71,63,,,,,,6,6,7,4,,,2,,,,"0.41",35,35,36,27
+File,"NamedEquivalanceTest.java",1,1,1,1,4,0,4,0,,,,,9,9,6,38,,38,29,4,38,,2,9,4,23,,252,48,181,66,80,23,,,,79,126,72,60,,,,,,2,2,2,1,,,1,,,,"0.13",42,42,42,38
+File,"ProviderInstanceBindingImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,0,10,,10,10,2,10,,0,0,0,10,,93,17,64,29,24,12,,,,26,37,23,14,,,,,,2,2,2,1,,,0,,,,"0.19",11,11,11,10
+File,"Scoping.java",1,1,1,1,5,0,4,0,,,,,7,4,4,34,,36,32,0,36,,2,1,0,33,,248,46,153,37,83,49,,,,60,102,55,55,,,,,,3,3,4,3,,,1,,,,"0.32",41,41,43,38
+File,"UntargettedBindingImpl.java",1,1,1,1,3,0,3,0,,,,,2,0,0,8,,8,8,0,8,,1,0,0,7,,61,10,36,14,13,15,,,,14,23,15,8,,,,,,1,1,1,1,,,0,,,,"0.42",8,8,8,8
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.google",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.google.inject",1,1,1,1,11,0,10,0,,,,,46,2,1,,2,,44,8,46,,1,1,10,34,,626,71,488,117,324,68,,,,255,334,129,219,,,,,,4,4,4,3,,,2,,,,"0.14",64,64,64,46
+Public Class,"com.google.inject.AllTests",2,2,2,2,56,7,42,7,1,30,30,0,,2,1,,,,0,0,2,2,0,0,0,2,,139,17,90,8,81,32,,,,76,81,8,78,,,,,,4,4,4,3,,1,2,,0,0,"0.36",5,5,5,4
+Public Static Method,"com.google.inject.AllTests.removeSuppressedTests",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,4,15,3,10,0,8,5,1,8,11,4,10,4,4,4,3,2,,,,,2,,2,1,,,"0.00",4,4,4,3
+Public Static Method,"com.google.inject.AllTests.suite",,,,,,,,,,,,,,,,,,,,,,,,,,,41,93,10,69,2,67,14,5,1,0,67,68,2,67,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Class,"com.google.inject.BinderTest",1,1,1,1,17,0,16,0,1,30,30,0,,0,0,,,,19,4,19,19,0,0,2,17,,431,48,348,59,243,36,,,,129,203,71,141,,,,,,2,2,2,1,,2,1,,92,92,"0.10",34,34,34,19
+Anonymous Class,"com.google.inject.BinderTest.(Anon_1)",1,1,1,1,1,0,1,0,1,3,3,0,,0,0,,,,3,0,3,3,0,0,0,3,,7,1,6,1,5,0,,,,1,4,3,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"com.google.inject.BinderTest.(Anon_1).close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.(Anon_1).flush",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.(Anon_1).publish",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Class,"com.google.inject.BinderTest.ExtendsHasImplementedBy2",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.Foo",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Interface,"com.google.inject.BinderTest.HasImplementedBy1",0,0,0,0,0,0,0,0,0,0,0,1,,0,0,,,,0,0,0,0,0,0,0,0,,2,0,2,2,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.HasImplementedBy2",0,0,0,0,0,0,0,0,1,0,0,1,,0,0,,,,0,0,0,0,0,0,0,0,,2,0,2,2,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Interface,"com.google.inject.BinderTest.HasProvidedBy1",0,0,0,0,0,0,0,0,0,0,0,1,,0,0,,,,0,0,0,0,0,0,0,0,,2,0,2,2,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.HasProvidedBy1Provider",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.HasProvidedBy1Provider.get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.HasProvidedBy1Provider.get.(Anon_29)",0,0,0,0,0,0,0,0,2,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.HasProvidedBy2",0,0,0,0,0,0,0,0,1,0,0,1,,0,0,,,,0,0,0,0,0,0,0,0,,2,0,2,2,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.HasProvidedBy2Provider",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,2,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.HasProvidedBy2Provider.get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.HasProvidedBy2Provider.get.(Anon_30)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.ImplementsHasImplementedBy1",0,0,0,0,0,0,0,0,2,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.JustAClass",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.MissingParameter",1,1,1,1,1,0,1,0,1,2,2,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,0,2,2,0,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Constructor,"com.google.inject.BinderTest.MissingParameter.MissingParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Class,"com.google.inject.BinderTest.NeedsRunnable",0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,0,1,0,0,0,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Class,"com.google.inject.BinderTest.NoInjectConstructor",1,1,1,1,1,0,1,0,1,0,0,0,,0,0,,,,1,0,1,1,0,1,0,0,,3,0,3,2,0,0,,,,0,2,2,0,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Private Constructor,"com.google.inject.BinderTest.NoInjectConstructor.NoInjectConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Enum Type,"com.google.inject.BinderTest.Roshambo",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.google.inject.BinderTest.Roshambo.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.google.inject.BinderTest.Roshambo.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Protected Method,"com.google.inject.BinderTest.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.tearDown",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testArrayTypeCanonicalization",,,,,,,,,,,,,,,,,,,,,,,,,,,1,38,3,30,5,25,5,9,2,0,17,21,6,16,2,2,2,1,1,,,,,0,,1,0,,,"0.17",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_14)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,1,4,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_14).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_14).configure.(Anon_15)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_16)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_17)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_18)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_19)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_20)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,0,4,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_20).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testArrayTypeCanonicalization.(Anon_20).configure.(Anon_21)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testBindingNullConstant",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,16,2,12,0,4,2,0,6,9,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testBindingNullConstant.(Anon_9)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,3,4,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testBindingNullConstant.(Anon_9).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,1,4,0,6,1,0,3,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testBindingToProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,14,1,10,0,5,2,0,4,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testBindingToProvider.(Anon_25)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,1,0,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testBindingToProvider.(Anon_25).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testBindingToProvider.(Anon_25).configure.(Anon_26)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testCannotBindToGuiceTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,34,1,33,2,29,0,5,2,0,14,17,3,15,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testCannotBindToGuiceTypes.(Anon_27)",1,1,1,1,13,0,13,0,1,9,9,0,,0,0,,,,1,0,1,1,0,0,1,0,,14,0,14,0,13,0,,,,10,11,1,10,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testCannotBindToGuiceTypes.(Anon_27).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,13,0,12,0,4,1,0,10,11,1,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testCannotBindToGuiceTypes.(Anon_27).configure.(Anon_28)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testDanglingConstantBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,14,1,10,0,6,2,0,4,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testDanglingConstantBinding.(Anon_7)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testDanglingConstantBinding.(Anon_7).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testDuplicateBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,15,1,11,0,5,2,0,5,8,2,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testDuplicateBindings.(Anon_5)",1,1,1,1,4,0,4,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,1,0,,5,0,5,0,4,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testDuplicateBindings.(Anon_5).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testInjectRawProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,1,7,0,6,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.BinderTest.testMissingBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,24,0,24,1,20,0,8,2,0,7,10,2,8,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testMissingBindings.(Anon_3)",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,4,5,1,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testMissingBindings.(Anon_3).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,0,5,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testMissingBindings.(Anon_3).configure.(Anon_4)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testMissingDependency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,15,1,11,0,8,2,0,4,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testMissingDependency.(Anon_6)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testMissingDependency.(Anon_6).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testNothingIsSerializableInBinderApi",,,,,,,,,,,,,,,,,,,,,,,,,,,0,21,0,21,1,16,0,2,2,0,10,14,2,12,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testNothingIsSerializableInBinderApi.(Anon_12)",2,2,2,1,13,0,13,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,14,0,14,0,12,0,,,,8,10,1,9,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.google.inject.BinderTest.testNothingIsSerializableInBinderApi.(Anon_12).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,0,11,0,10,2,0,8,10,1,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testNothingIsSerializableInBinderApi.(Anon_12).configure.(Anon_13)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testPartialInjectorGetInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,8,0,6,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.BinderTest.testProviderFromBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,2,11,1,8,1,3,1,0,4,7,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testProviderFromBinder.(Anon_2)",2,2,2,1,7,1,6,1,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,1,7,0,6,1,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.14",2,2,2,1
+Public Method,"com.google.inject.BinderTest.testProviderFromBinder.(Anon_2).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,0,5,1,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.17",2,2,2,1
+Public Method,"com.google.inject.BinderTest.testRecursiveBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,14,1,10,0,6,2,0,4,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testRecursiveBinding.(Anon_8)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testRecursiveBinding.(Anon_8).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testToStringOnBinderApi",,,,,,,,,,,,,,,,,,,,,,,,,,,0,24,1,23,1,19,0,2,2,0,10,13,2,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testToStringOnBinderApi.(Anon_10)",1,1,1,1,16,1,15,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,17,1,16,0,15,0,,,,8,9,1,8,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testToStringOnBinderApi.(Anon_10).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,1,15,0,14,0,11,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testToStringOnBinderApi.(Anon_10).configure.(Anon_11)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.BinderTest.testUntargettedBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,24,1,18,3,15,5,6,1,0,11,13,3,11,1,1,1,1,0,,,,,0,,0,0,,,"0.28",1,1,1,1
+Anonymous Class,"com.google.inject.BinderTest.testUntargettedBinding.(Anon_22)",1,1,1,1,7,0,7,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,1,0,,8,0,8,1,7,0,,,,5,6,1,5,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testUntargettedBinding.(Anon_22).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,0,6,0,1,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testUserReportedError",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,2,9,0,6,2,0,5,8,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testUserReportedError.(Anon_23)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,1,0,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testUserReportedError.(Anon_23).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.BinderTest.testUserReportedErrorsAreAlsoLogged",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,1,14,2,10,0,5,2,0,5,8,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.BinderTest.testUserReportedErrorsAreAlsoLogged.(Anon_24)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,1,0,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.BinderTest.testUserReportedErrorsAreAlsoLogged.(Anon_24).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.google.inject.internal",1,1,1,1,8,0,6,0,,,,,38,16,8,,11,,268,39,284,,35,24,3,222,,2863,450,1999,717,1039,431,,,,854,1294,668,770,,,,,,8,8,9,7,,,5,,,,"0.22",414,414,434,317
+Final Class,"com.google.inject.internal.BindingProcessor",1,1,2,1,21,2,17,1,1,19,19,0,,0,1,,,,10,3,10,10,2,4,0,4,,268,35,196,56,141,38,,,,89,129,59,100,,,,,,4,4,5,3,,2,1,,86,83,"0.19",19,19,21,14
+Constructor,"com.google.inject.internal.BindingProcessor.BindingProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Interface,"com.google.inject.internal.BindingProcessor.CreationListener",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,1,0,1,1,1,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.google.inject.internal.BindingProcessor.CreationListener.notify",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.BindingProcessor.bindExposed",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,4,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.BindingProcessor.bindExposed.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.BindingProcessor.initializeBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Generic Method,"com.google.inject.internal.BindingProcessor.invalidBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.BindingProcessor.invalidBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"com.google.inject.internal.BindingProcessor.isOkayDuplicate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,8,3,5,6,3,2,0,4,6,3,4,2,2,2,1,1,,,,,0,,1,0,,,"0.75",2,2,2,1
+Private Method,"com.google.inject.internal.BindingProcessor.putBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,12,19,3,15,4,11,1,13,3,0,9,12,4,11,3,3,4,3,2,,,,,2,,1,2,,,"0.07",3,3,4,3
+Public Method,"com.google.inject.internal.BindingProcessor.runCreationListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Generic Method,"com.google.inject.internal.BindingProcessor.validateKey",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.BindingProcessor.validateKey.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.BindingProcessor.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,145,19,121,33,96,5,14,4,1,60,80,34,68,4,4,5,3,3,,,,,2,,0,2,,,"0.04",4,4,5,3
+Public Method,"com.google.inject.internal.BindingProcessor.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,1,3,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Anonymous Class,"com.google.inject.internal.BindingProcessor.visit.(Anon_1)",1,1,1,1,10,0,9,0,1,27,27,0,,0,0,,,,10,0,10,10,0,1,0,9,,115,12,98,27,78,5,,,,48,64,29,53,,,,,,3,3,3,1,,2,1,,0,0,"0.05",14,14,14,10
+Private Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).scheduleInitialization",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,0,8,0,1,1,0,3,6,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).scheduleInitialization.(Anon_2)",2,2,2,1,7,0,7,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,0,8,0,6,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).scheduleInitialization.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,0,5,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,2,10,0,8,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,7,10,0,7,1,0,7,8,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,7,10,0,7,1,0,7,8,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,5,9,0,6,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,4,10,0,8,2,0,7,9,4,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,2,17,2,14,5,9,3,0,9,12,2,11,3,3,3,1,2,,,,,0,,1,0,,,"0.29",3,3,3,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.BindingProcessor.visit.(Anon_1).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.BindingProcessor.visit.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Final Generic Class,"com.google.inject.internal.ConstructorBindingImpl",1,1,1,1,9,0,7,1,2,22,22,0,,1,0,,,,15,2,16,16,4,1,2,9,,200,32,150,48,83,20,,,,57,87,35,61,,,,,,8,8,8,1,,2,2,,40,28,"0.13",26,26,26,16
+Private Constructor,"com.google.inject.internal.ConstructorBindingImpl.ConstructorBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,10,7,0,7,3,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.ConstructorBindingImpl.ConstructorBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,4,6,0,6,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Generic Class,"com.google.inject.internal.ConstructorBindingImpl.Factory",1,1,2,1,9,1,7,1,2,6,6,0,,0,0,,,,2,4,2,2,1,0,0,1,,26,4,20,9,7,2,,,,9,13,7,6,,,,,,2,2,3,1,,1,1,,25,25,"0.10",3,3,4,2
+Constructor,"com.google.inject.internal.ConstructorBindingImpl.Factory.Factory",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ConstructorBindingImpl.Factory.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.Factory.get",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,2,10,3,5,2,8,2,0,3,5,1,4,2,2,3,1,0,,,,,0,,1,0,,,"0.20",2,2,3,1
+TypeVariable,"com.google.inject.internal.ConstructorBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.ConstructorBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ConstructorBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,3,0,10,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Generic Method,"com.google.inject.internal.ConstructorBindingImpl.create",,,,,,,,,,,,,,,,,,,,,,,,,,,11,56,9,38,13,25,10,25,36,2,14,21,7,20,8,8,8,1,1,,,,,0,,2,0,,,"0.26",8,8,8,1
+TypeVariable,"com.google.inject.internal.ConstructorBindingImpl.create.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.getConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,1,4,0,7,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.getInjectableMembers",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.internal.ConstructorBindingImpl.getInternalConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,7,1,4,1,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.14",2,2,2,1
+Method,"com.google.inject.internal.ConstructorBindingImpl.getInternalDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,1,13,2,10,3,10,3,0,5,8,2,7,3,3,3,1,2,,,,,0,,2,0,,,"0.23",3,3,3,1
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.getMethodInterceptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,2,3,1,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Method,"com.google.inject.internal.ConstructorBindingImpl.isInitialized",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.google.inject.internal.ConstructorBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,1,5,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.google.inject.internal.ConstructorBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.google.inject.internal.ConstructorBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"com.google.inject.internal.Errors",1,1,1,1,6,0,5,0,2,25,25,0,,7,2,,,,69,4,76,76,0,3,0,73,,646,116,463,127,249,68,,,,170,294,121,191,,,,,,8,8,8,4,,1,2,,93,20,"0.15",113,113,116,84
+Anonymous Class,"com.google.inject.internal.Errors.(Anon_2)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,5,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.(Anon_2).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.Errors.(Anon_3)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,5,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.(Anon_3).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.Errors.(Anon_4)",3,3,3,1,8,0,8,0,1,1,1,0,,0,0,,,,1,0,1,5,0,0,0,1,,9,0,9,0,7,0,,,,2,4,1,3,,,,,,3,3,3,1,,2,1,,0,0,"0.00",3,3,3,1
+Public Method,"com.google.inject.internal.Errors.(Anon_4).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,0,6,0,5,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Static Abstract Generic Class,"com.google.inject.internal.Errors.Converter",1,1,1,1,3,0,3,0,1,2,2,3,,0,0,,,,4,1,4,4,4,0,0,0,,18,5,13,6,3,0,,,,5,9,6,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",3,3,3,3
+Constructor,"com.google.inject.internal.Errors.Converter.Converter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Errors.Converter.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Method,"com.google.inject.internal.Errors.Converter.appliesTo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.internal.Errors.Converter.convert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Abstract Method,"com.google.inject.internal.Errors.Converter.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Constructor,"com.google.inject.internal.Errors.Errors",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.Errors.Errors",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"com.google.inject.internal.Errors.Errors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.addMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,43,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.google.inject.internal.Errors.addMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.addMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.ambiguousTypeConversion",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,2,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.bindingAlreadySet",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.bindingToProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotBindToGuiceType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectAbstractMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectFinalField",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectInnerClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectMethodWithTypeParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectNonVoidMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectRawMembersInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectRawProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectRawTypeLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotInjectTypeLiteralOf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.cannotSatisfyCircularDependency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.Errors.checkForNull",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,2,13,5,9,4,7,2,0,5,7,3,5,3,3,4,1,1,,,,,0,,1,0,,,"0.31",3,3,4,1
+TypeVariable,"com.google.inject.internal.Errors.checkForNull.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Errors.childBindingAlreadySet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.circularProxiesDisabled",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.constructorNotDefinedByType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.conversionError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,2,4,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.conversionTypeError",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,2,4,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.google.inject.internal.Errors.convert",,,,,,,,,,,,,,,,,,,,,,,,,,,13,8,0,8,1,4,0,3,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"com.google.inject.internal.Errors.converterReturnedNull",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.duplicateBindingAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.duplicateScopeAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.duplicateScopes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorInProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorInUserCode",,,,,,,,,,,,,,,,,,,,,,,,,,,10,9,1,8,2,5,0,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.errorInUserInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorInjectingConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorInjectingMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorNotifyingInjectionListener",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.errorNotifyingTypeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,4,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.exposedButNotBound",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.google.inject.internal.Errors.format",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,3,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.google.inject.internal.Errors.format",,,,,,,,,,,,,,,,,,,,,,,,,,,2,33,6,26,8,20,1,12,10,1,17,23,10,20,5,5,6,1,1,,,,,0,,2,0,,,"0.04",5,5,6,1
+Public Static Method,"com.google.inject.internal.Errors.formatInjectionPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,3,16,4,12,0,10,3,0,8,11,3,10,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Static Method,"com.google.inject.internal.Errors.formatSource",,,,,,,,,,,,,,,,,,,,,,,,,,,5,30,6,24,4,20,0,7,8,1,11,19,4,16,8,8,8,1,7,,,,,0,,2,0,,,"0.00",8,8,8,1
+Public Method,"com.google.inject.internal.Errors.getMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,2,12,2,8,0,4,2,0,5,8,3,6,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.internal.Errors.getMessages.(Anon_1)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.getMessages.(Anon_1).compare",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.google.inject.internal.Errors.getMessagesFromThrowable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,8,0,3,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Static Method,"com.google.inject.internal.Errors.getOnlyCause",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,3,14,3,9,4,2,5,1,6,11,4,8,4,4,4,4,4,,,,,4,,2,4,,,"0.29",4,4,4,4
+Public Method,"com.google.inject.internal.Errors.getSources",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,3,3,0,5,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.google.inject.internal.Errors.hasErrors",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.jitDisabled",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.keyNotFullySpecified",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.google.inject.internal.Errors.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,1,4,0,2,2,0,3,5,1,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.google.inject.internal.Errors.misplacedBindingAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.missingConstantValues",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.missingConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.missingImplementation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,3,1,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.missingRuntimeRetention",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.missingScopeAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.notASubtype",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.optionalConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.recursiveBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.recursiveImplementationType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.recursiveProviderType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.scopeAnnotationOnAbstractType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.scopeNotFound",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.size",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.subtypeNotProvided",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.throwConfigurationExceptionIfErrorsExist",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.throwIfNewErrors",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.throwProvisionExceptionIfErrorsExist",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.Errors.toException",,,,,,,,,,,,,,,,,,,,,,,,,,,14,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.tooManyConstructors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.voidProviderMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Errors.withSource",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,5,1,3,3,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.60",2,2,2,1
+Public Final Generic Class,"com.google.inject.internal.ExposedBindingImpl",1,1,1,1,4,0,4,0,2,11,11,0,,0,0,,,,6,1,6,6,0,0,0,6,,49,7,27,9,11,15,,,,8,15,8,7,,,,,,1,1,1,1,,2,0,,50,50,"0.56",6,6,6,6
+Public Constructor,"com.google.inject.internal.ExposedBindingImpl.ExposedBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ExposedBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.ExposedBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ExposedBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.ExposedBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ExposedBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ExposedBindingImpl.getPrivateElements",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ExposedBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,5,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"com.google.inject.internal.InjectorImpl",2,2,2,1,15,1,11,2,3,45,45,0,,3,1,,,,42,9,45,45,13,14,0,18,,913,131,642,215,380,153,,,,250,396,179,296,,,,,,8,8,9,7,,1,5,,90,69,"0.24",104,104,115,69
+Private Static Class,"com.google.inject.internal.InjectorImpl.BindingsMultimap",2,2,2,1,7,0,7,0,1,6,6,0,,0,0,,,,2,1,2,2,2,0,0,0,,21,3,18,7,10,1,,,,7,11,6,8,,,,,,2,2,2,1,,1,1,,0,0,"0.06",4,4,4,2
+Generic Method,"com.google.inject.internal.InjectorImpl.BindingsMultimap.getAll",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,4,1,4,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.14",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.BindingsMultimap.getAll.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.BindingsMultimap.put",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,2,5,0,5,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.BindingsMultimap.put.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Generic Class,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl",1,1,1,1,4,0,4,0,2,11,11,0,,0,0,,,,8,3,8,8,1,0,0,7,,47,8,39,14,16,0,,,,14,23,12,11,,,,,,1,1,1,1,,2,0,,70,62,"0.00",8,8,8,8
+Constructor,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.ConvertedConstantBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,8,2,5,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.getProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.getSourceKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ConvertedConstantBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,5,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"com.google.inject.internal.InjectorImpl.InjectorImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,14,1,10,0,5,2,0,6,9,2,7,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.InjectorImpl.(Anon_1)",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,1,0,1,1,0,0,1,0,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.internal.InjectorImpl.InjectorImpl.(Anon_1).initialValue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Enum Type,"com.google.inject.internal.InjectorImpl.JitLimitation",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,9,0,5,4,0,4,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.80",0,0,0,0
+Public Implicit Method,"com.google.inject.internal.InjectorImpl.JitLimitation.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.google.inject.internal.InjectorImpl.JitLimitation.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Interface,"com.google.inject.internal.InjectorImpl.MethodInvoker",0,0,0,0,0,0,0,0,0,2,2,0,,0,0,,,,1,0,1,1,1,0,0,0,,4,0,4,3,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.google.inject.internal.InjectorImpl.MethodInvoker.invoke",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Private Static Generic Class,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl",1,1,1,1,4,0,4,0,2,10,10,0,,1,0,,,,6,1,7,7,2,0,0,5,,42,7,35,11,16,0,,,,11,20,11,10,,,,,,1,1,1,1,,2,0,,71,42,"0.00",7,7,7,7
+Constructor,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.ProviderBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Generic Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.createInternalFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,5,0,2,1,0,3,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.createInternalFactory.(Anon_2)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.createInternalFactory.(Anon_2).get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.createInternalFactory.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.getProvidedKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.ProviderBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,1,4,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Generic Method,"com.google.inject.internal.InjectorImpl.callInContext",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,13,2,9,3,3,2,0,5,8,2,7,2,2,2,1,1,,,,,0,,2,0,,,"0.23",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.callInContext.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"com.google.inject.internal.InjectorImpl.cleanup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,36,0,28,8,20,11,10,10,1,13,22,9,18,8,8,8,1,1,,,,,0,,5,0,,,"0.39",8,8,8,1
+Private Generic Method,"com.google.inject.internal.InjectorImpl.convertConstantStringBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,7,50,7,33,10,24,11,18,8,1,14,20,8,19,7,7,8,5,5,,,,,5,,2,5,,,"0.33",7,7,8,5
+TypeVariable,"com.google.inject.internal.InjectorImpl.convertConstantStringBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.createChildInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,4,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.createChildInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createImplementedByBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,6,31,12,22,5,12,4,1,11,15,9,11,3,3,3,1,0,,,,,0,,0,0,,,"0.16",3,3,3,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.createImplementedByBinding.(Anon_4)",1,1,1,1,5,0,5,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.createImplementedByBinding.(Anon_4).get",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,0,4,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createImplementedByBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createJustInTimeBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,6,65,6,36,11,24,23,21,14,1,16,24,8,23,8,8,8,7,6,,,,,6,,3,6,,,"0.64",8,8,8,7
+TypeVariable,"com.google.inject.internal.InjectorImpl.createJustInTimeBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createJustInTimeBindingRecursive",,,,,,,,,,,,,,,,,,,,,,,,,,,8,23,2,16,3,10,5,9,5,1,6,10,2,9,4,4,5,3,2,,,,,2,,2,2,,,"0.31",4,4,5,3
+TypeVariable,"com.google.inject.internal.InjectorImpl.createJustInTimeBindingRecursive.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createMembersInjectorBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,4,15,9,10,1,9,2,0,6,8,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.07",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createMembersInjectorBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.createParameterInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createParameterInjector.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.createProvidedByBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,6,47,4,40,17,28,4,10,2,0,15,20,11,16,2,2,2,1,0,,,,,0,,0,0,,,"0.10",2,2,2,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.createProvidedByBinding.(Anon_3)",3,3,4,1,17,0,17,1,1,7,7,0,,0,0,,,,1,0,1,1,0,0,0,1,,18,0,18,6,14,1,,,,7,10,4,8,,,,,,3,3,4,1,,2,2,,0,0,"0.06",3,3,4,1
+Public Method,"com.google.inject.internal.InjectorImpl.createProvidedByBinding.(Anon_3).get",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,5,13,1,8,3,0,7,10,4,8,3,3,4,1,1,,,,,0,,2,0,,,"0.06",3,3,4,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createProvidedByBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createProviderBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,6,4,3,4,4,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createProviderBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.createTypeLiteralBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,3,20,9,14,7,10,4,1,8,11,6,9,3,3,5,1,0,,,,,0,,1,0,,,"0.35",3,3,5,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.createTypeLiteralBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.createUninitializedBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,9,38,6,24,8,16,9,13,8,1,11,16,5,15,5,5,7,4,3,,,,,3,,1,3,,,"0.38",5,5,7,4
+TypeVariable,"com.google.inject.internal.InjectorImpl.createUninitializedBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.findBindingsByType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.findBindingsByType.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.getAllBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,1,5,0,5,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,10,3,7,1,7,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.10",2,2,2,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.internal.InjectorImpl.getBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.getBindingOrThrow",,,,,,,,,,,,,,,,,,,,,,,,,,,10,17,1,8,3,4,8,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getBindingOrThrow.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.getBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getExistingBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,2,27,6,16,6,10,10,1,10,18,5,16,7,7,7,7,8,,,,,8,,3,8,,,"0.22",7,7,7,7
+TypeVariable,"com.google.inject.internal.InjectorImpl.getExistingBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getInstance.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.internal.InjectorImpl.getInstance.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"com.google.inject.internal.InjectorImpl.getInternalDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,8,2,4,1,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.12",2,2,2,1
+Generic Method,"com.google.inject.internal.InjectorImpl.getInternalFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getInternalFactory.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.google.inject.internal.InjectorImpl.getJustInTimeBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,11,31,5,20,4,11,7,7,10,1,7,13,3,11,5,5,9,4,5,,,,,5,,2,4,,,"0.35",5,5,9,4
+TypeVariable,"com.google.inject.internal.InjectorImpl.getJustInTimeBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getMembersInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,5,0,6,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getMembersInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getMembersInjector.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.internal.InjectorImpl.getMembersInjector.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Method,"com.google.inject.internal.InjectorImpl.getParametersInjectors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,2,17,5,11,4,7,4,1,7,12,5,9,4,4,4,1,2,,,,,0,,2,0,,,"0.24",4,4,4,1
+Public Method,"com.google.inject.internal.InjectorImpl.getParent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Generic Method,"com.google.inject.internal.InjectorImpl.getProvidedKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,3,10,5,6,2,7,2,0,5,7,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.20",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getProvidedKey.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.InjectorImpl.getProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,7,0,7,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getProvider.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.internal.InjectorImpl.getProvider.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.getProviderOrThrow",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,4,28,7,21,0,3,1,0,12,18,9,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.(Anon_5)",1,1,1,1,11,0,11,0,1,5,5,0,,0,0,,,,2,0,2,2,0,0,0,2,,24,1,23,4,18,0,,,,9,14,6,11,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.(Anon_5).get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,0,19,4,15,0,7,2,0,8,12,5,10,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.(Anon_5).get.(Anon_6)",1,1,1,1,8,0,8,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,2,7,0,,,,3,5,2,4,,,,,,1,1,1,1,,2,1,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.(Anon_5).get.(Anon_6).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,6,0,3,1,0,3,5,2,4,1,1,1,1,0,,,,,0,,1,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.(Anon_5).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.getProviderOrThrow.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.getScopeBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.internal.InjectorImpl.index",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,5,1,2,1,3,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.20",2,2,2,1
+Generic Method,"com.google.inject.internal.InjectorImpl.index",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.index.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.initializeBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.initializeBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Generic Method,"com.google.inject.internal.InjectorImpl.initializeJitBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,0,17,4,12,6,6,3,0,8,12,4,9,3,3,3,1,0,,,,,0,,2,0,,,"0.35",3,3,3,1
+TypeVariable,"com.google.inject.internal.InjectorImpl.initializeJitBinding.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InjectorImpl.injectMembers",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,1,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Private Static Method,"com.google.inject.internal.InjectorImpl.isMembersInjector",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,1,2,1,5,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.25",1,1,2,1
+Private Static Method,"com.google.inject.internal.InjectorImpl.isProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,3,1,1,1,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Method,"com.google.inject.internal.InjectorImpl.removeFailedJitBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,7,1,4,1,2,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"com.google.inject.internal.InjectorImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,3,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Generic Class,"com.google.inject.internal.InstanceBindingImpl",1,1,1,1,4,0,4,0,2,11,11,0,,0,0,,,,11,3,11,11,0,0,0,11,,81,12,53,18,23,16,,,,20,32,15,17,,,,,,2,2,2,1,,2,0,,48,42,"0.30",12,12,12,11
+Public Constructor,"com.google.inject.internal.InstanceBindingImpl.InstanceBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,10,8,0,8,3,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.InstanceBindingImpl.InstanceBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,2,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InstanceBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.InstanceBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.InstanceBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.InstanceBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,4,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.getInjectionPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.getProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,5,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.InstanceBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Generic Class,"com.google.inject.internal.LinkedBindingImpl",1,1,1,1,4,0,4,0,3,9,9,0,,0,0,,,,9,1,9,9,0,0,0,9,,49,10,39,13,16,0,,,,12,22,11,11,,,,,,1,1,1,1,,2,0,,22,11,"0.00",9,9,9,9
+Public Constructor,"com.google.inject.internal.LinkedBindingImpl.LinkedBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,3,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.LinkedBindingImpl.LinkedBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.LinkedBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.LinkedBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.LinkedBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.LinkedBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,8,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedBindingImpl.getLinkedKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,6,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Generic Class,"com.google.inject.internal.LinkedProviderBindingImpl",1,1,1,1,4,0,4,0,2,7,7,0,,0,0,,,,8,1,8,8,1,0,0,7,,48,9,39,14,16,0,,,,11,20,10,10,,,,,,1,1,1,1,,2,0,,25,12,"0.00",8,8,8,8
+Public Constructor,"com.google.inject.internal.LinkedProviderBindingImpl.LinkedProviderBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,3,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"com.google.inject.internal.LinkedProviderBindingImpl.LinkedProviderBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.LinkedProviderBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.LinkedProviderBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.LinkedProviderBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.LinkedProviderBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,8,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedProviderBindingImpl.getProviderKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedProviderBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,6,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedProviderBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.LinkedProviderBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Generic Class,"com.google.inject.internal.ProviderInstanceBindingImpl",1,1,1,1,4,0,4,0,2,10,10,0,,0,0,,,,10,2,10,10,0,0,0,10,,65,11,54,19,24,0,,,,16,27,13,14,,,,,,2,2,2,1,,2,0,,35,30,"0.00",11,11,11,10
+Public Constructor,"com.google.inject.internal.ProviderInstanceBindingImpl.ProviderInstanceBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,8,8,0,8,4,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.ProviderInstanceBindingImpl.ProviderInstanceBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,7,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ProviderInstanceBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.google.inject.internal.ProviderInstanceBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.ProviderInstanceBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,8,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,4,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.getInjectionPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.getProviderInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,2,6,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.ProviderInstanceBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"com.google.inject.internal.Scoping",1,1,1,1,12,1,8,2,1,11,11,6,,4,4,,,,8,0,12,12,2,1,0,9,,235,43,143,27,83,49,,,,50,92,45,55,,,,,,3,3,4,3,,1,1,,0,0,"0.34",17,17,19,14
+Anonymous Class,"com.google.inject.internal.Scoping.(Anon_1)",1,1,1,1,3,0,2,0,1,5,5,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,12,1,8,1,,,,3,7,4,3,,,,,,1,1,1,1,,2,0,,0,0,"0.08",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.(Anon_1).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.(Anon_1).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.(Anon_1).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,0,1,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_1).getScopeInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_1).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.Scoping.(Anon_2)",1,1,1,1,3,0,3,0,1,6,6,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,13,1,9,0,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.(Anon_2).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.(Anon_2).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.(Anon_2).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_2).getScopeAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_2).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.Scoping.(Anon_3)",1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,13,1,9,0,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.(Anon_3).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.(Anon_3).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.(Anon_3).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_3).getScopeInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_3).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.Scoping.(Anon_4)",1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,13,1,9,0,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.(Anon_4).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.(Anon_4).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.(Anon_4).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_4).getScopeInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.(Anon_4).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"com.google.inject.internal.Scoping.Scoping",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Generic Method,"com.google.inject.internal.Scoping.acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.internal.Scoping.acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"com.google.inject.internal.Scoping.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Method,"com.google.inject.internal.Scoping.forAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,4,20,1,13,0,1,2,0,6,12,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Anonymous Class,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5)",1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,13,0,9,0,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5).getScopeAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.forAnnotation.(Anon_5).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.google.inject.internal.Scoping.forInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,4,19,1,12,0,1,2,0,6,12,5,7,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.google.inject.internal.Scoping.forInstance.(Anon_6)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,4,0,4,16,0,0,0,4,,16,3,13,0,9,0,,,,4,8,4,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Generic Method,"com.google.inject.internal.Scoping.forInstance.(Anon_6).acceptVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.Scoping.forInstance.(Anon_6).acceptVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.Scoping.forInstance.(Anon_6).applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.forInstance.(Anon_6).getScopeInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.forInstance.(Anon_6).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.getScopeAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.getScopeInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.isEagerSingleton",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,2,9,1,5,3,1,3,0,3,6,1,5,3,3,4,3,2,,,,,2,,1,2,,,"0.33",3,3,4,3
+Public Method,"com.google.inject.internal.Scoping.isExplicitlyScoped",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"com.google.inject.internal.Scoping.isNoScope",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Static Method,"com.google.inject.internal.Scoping.makeInjectable",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,2,12,3,8,5,5,3,0,6,9,3,8,3,3,3,3,2,,,,,2,,1,2,,,"0.42",3,3,3,3
+Static Generic Method,"com.google.inject.internal.Scoping.scope",,,,,,,,,,,,,,,,,,,,,,,,,,,13,15,3,11,5,6,1,5,2,0,4,6,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.09",2,2,2,1
+TypeVariable,"com.google.inject.internal.Scoping.scope.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Final Generic Class,"com.google.inject.internal.UntargettedBindingImpl",1,1,1,1,4,0,4,0,2,6,6,0,,0,0,,,,7,0,7,7,1,0,0,6,,37,7,30,8,13,0,,,,8,17,9,8,,,,,,1,1,1,1,,2,0,,0,0,"0.00",7,7,7,7
+TypeVariable,"com.google.inject.internal.UntargettedBindingImpl.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"com.google.inject.internal.UntargettedBindingImpl.UntargettedBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,1,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.google.inject.internal.UntargettedBindingImpl.UntargettedBindingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.internal.UntargettedBindingImpl.UntargettedBindingImpl.(Anon_1)",1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.UntargettedBindingImpl.UntargettedBindingImpl.(Anon_1).get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.google.inject.internal.UntargettedBindingImpl.acceptTargetVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.internal.UntargettedBindingImpl.acceptTargetVisitor.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.internal.UntargettedBindingImpl.applyTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.UntargettedBindingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,1,4,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.UntargettedBindingImpl.withKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.internal.UntargettedBindingImpl.withScoping",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.google.inject.multibindings",1,1,1,1,9,0,8,0,,,,,8,11,0,,1,,29,14,40,,2,9,0,29,,514,55,297,123,148,166,,,,129,184,109,95,,,,,,4,4,4,1,,,2,,,,"0.56",45,45,49,38
+Public Abstract Generic Class,"com.google.inject.multibindings.MapBinder",1,1,1,1,8,0,6,2,1,10,10,1,,11,0,,,,3,0,14,14,0,6,0,8,,486,52,272,98,148,166,,,,104,159,84,95,,,,,,1,1,1,1,,1,0,,0,0,"0.61",12,12,12,12
+TypeVariable,"com.google.inject.multibindings.MapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Constructor,"com.google.inject.multibindings.MapBinder.MapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Final Generic Class,"com.google.inject.multibindings.MapBinder.RealMapBinder",1,1,1,1,13,1,11,0,2,9,9,0,,0,0,,,,7,7,7,21,0,2,0,5,,263,38,190,64,110,35,,,,86,128,68,79,,,,,,1,1,2,1,,2,0,,59,57,"0.18",7,7,8,7
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Final Generic Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry",1,1,1,1,3,0,3,0,2,4,4,0,,0,0,,,,7,2,7,7,0,1,0,6,,36,7,29,10,11,0,,,,10,18,10,8,,,,,,1,1,3,1,,1,0,,28,28,"0.00",7,7,9,7
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Constructor,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.MapEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,4,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.getKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MapEntry.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Final Generic Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder",1,1,1,1,37,4,32,1,2,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,86,11,70,23,43,5,,,,29,46,25,30,,,,,,1,1,1,1,,1,0,,0,0,"0.07",2,2,2,2
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.MultimapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,4,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,67,8,57,15,40,2,5,1,0,23,38,20,27,1,1,1,1,0,,,,,0,,0,0,,,"0.04",1,1,1,1
+Anonymous Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_3)",2,2,2,1,8,0,8,0,1,9,9,0,,0,0,,,,3,1,3,3,1,0,0,2,,31,4,27,4,19,0,,,,9,17,8,11,,,,,,4,4,4,1,,2,2,,33,33,"0.00",6,6,6,3
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_3).get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_3).getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_3).initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,19,4,13,0,10,6,1,6,12,5,9,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Anonymous Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_4)",2,2,2,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,2,0,0,0,2,,21,2,19,4,15,0,,,,9,15,8,11,,,,,,3,3,3,1,,2,2,,0,0,"0.00",4,4,4,2
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_4).get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,15,4,12,0,10,3,0,8,13,7,10,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.MultimapBinder.configure.(Anon_4).getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"com.google.inject.multibindings.MapBinder.RealMapBinder.RealMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,8,12,0,12,4,7,0,8,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.RealMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.addBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,1,8,2,6,4,11,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,55,9,45,12,35,1,8,1,0,22,32,18,23,1,1,1,1,0,,,,,0,,0,0,,,"0.02",1,1,1,1
+Anonymous Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_1)",1,1,1,1,6,0,6,0,1,7,7,0,,0,0,,,,3,1,3,3,1,0,0,2,,25,5,20,3,16,0,,,,9,14,8,9,,,,,,2,2,3,1,,2,1,,33,33,"0.00",4,4,5,3
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_1).get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_1).getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_1).initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,2,12,3,10,0,9,2,0,6,9,5,7,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Anonymous Class,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_2)",1,1,1,1,7,0,7,0,1,6,6,0,,0,0,,,,2,0,2,2,0,0,0,2,,16,1,15,3,12,0,,,,7,11,6,8,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_2).get",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,11,3,9,0,8,2,0,6,9,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.configure.(Anon_2).getDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.isInitialized",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.multibindings.MapBinder.RealMapBinder.permitDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,4,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"com.google.inject.multibindings.MapBinder.addBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Private Static Generic Method,"com.google.inject.multibindings.MapBinder.entryOfProviderOf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,2,1,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.entryOfProviderOf.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.entryOfProviderOf.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Generic Method,"com.google.inject.multibindings.MapBinder.mapOf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,2,1,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOf.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOf.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Generic Method,"com.google.inject.multibindings.MapBinder.mapOfProviderOf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,2,1,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOfProviderOf.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOfProviderOf.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Generic Method,"com.google.inject.multibindings.MapBinder.mapOfSetOfProviderOf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,2,1,6,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOfSetOfProviderOf.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.mapOfSetOfProviderOf.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,10,2,7,4,10,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,4,2,1,4,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,10,2,7,4,10,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,4,2,1,4,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,10,2,7,4,10,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,5,2,2,4,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Private Static Generic Method,"com.google.inject.multibindings.MapBinder.newMapBinder",,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,0,10,6,5,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.google.inject.multibindings.MapBinder.newMapBinder.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"com.google.inject.multibindings.MapBinder.permitDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,1,1,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"14.00",0,0,0,0
+Package,"com.google.inject.name",1,1,1,1,4,0,4,0,,,,,9,9,6,,1,,29,4,38,,2,9,4,23,,252,48,181,66,80,23,,,,79,126,72,60,,,,,,2,2,2,1,,,1,,,,"0.13",42,42,42,38
+Public Class,"com.google.inject.name.NamedEquivalanceTest",1,1,1,1,5,0,5,0,1,9,9,0,,9,4,,,,11,0,20,20,0,9,0,11,,231,42,166,51,80,23,,,,64,111,57,60,,,,,,2,2,2,1,,2,1,,0,0,"0.14",22,22,22,20
+Private Static Class,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed",1,1,1,1,4,0,3,0,3,2,2,0,,0,1,,,,6,1,6,6,0,0,0,6,,35,8,26,10,10,1,,,,10,18,10,8,,,,,,2,2,2,1,,1,1,,16,16,"0.04",7,7,7,6
+Public Constructor,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.GuiceNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.annotationType",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,2,4,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.GuiceNamed.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.google.inject.name.NamedEquivalanceTest.GuiceNamedClient",0,0,0,0,0,0,0,0,1,3,3,0,,0,0,,,,0,1,0,0,0,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Class,"com.google.inject.name.NamedEquivalanceTest.Jsr330NamedClient",0,0,0,0,0,0,0,0,1,3,3,0,,0,0,,,,0,1,0,0,0,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Static Class,"com.google.inject.name.NamedEquivalanceTest.JsrNamed",1,1,1,1,4,0,3,0,3,3,3,0,,0,1,,,,6,1,6,6,0,0,0,6,,35,8,26,10,10,1,,,,10,18,10,8,,,,,,2,2,2,1,,1,1,,16,16,"0.04",7,7,7,6
+Public Constructor,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.JsrNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.annotationType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,2,4,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.JsrNamed.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.assertDuplicateBinding",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,1,6,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.assertInjected",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.assertInjectionsSucceed",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,3,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.assertMissingBindingErrorMessageUsesType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,1,6,0,5,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.getGuiceBindingProviderMethodModule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,1,5,0,1,1,0,2,5,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.name.NamedEquivalanceTest.getGuiceBindingProviderMethodModule.(Anon_4)",1,1,1,1,2,0,2,0,1,5,5,0,,0,0,,,,2,0,2,2,1,0,1,0,,5,0,5,0,4,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Protected Method,"com.google.inject.name.NamedEquivalanceTest.getGuiceBindingProviderMethodModule.(Anon_4).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.name.NamedEquivalanceTest.getGuiceBindingProviderMethodModule.(Anon_4).provideFoo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.getJsr330BindingProviderMethodModule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,1,5,0,1,1,0,2,5,3,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.name.NamedEquivalanceTest.getJsr330BindingProviderMethodModule.(Anon_3)",1,1,1,1,2,0,2,0,1,5,5,0,,0,0,,,,2,0,2,2,1,0,1,0,,5,0,5,0,4,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Protected Method,"com.google.inject.name.NamedEquivalanceTest.getJsr330BindingProviderMethodModule.(Anon_3).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.name.NamedEquivalanceTest.getJsr330BindingProviderMethodModule.(Anon_3).provideFoo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.keyForAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.keyForAnnotationType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.google.inject.name.NamedEquivalanceTest.moduleWithAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,1,4,0,1,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.name.NamedEquivalanceTest.moduleWithAnnotation.(Anon_2)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,1,0,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.name.NamedEquivalanceTest.moduleWithAnnotation.(Anon_2).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindPropertiesWorksWithJsr330",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,2,6,0,1,1,0,4,6,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.name.NamedEquivalanceTest.testBindPropertiesWorksWithJsr330.(Anon_1)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,1,0,,6,0,6,1,5,0,,,,3,4,2,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Protected Method,"com.google.inject.name.NamedEquivalanceTest.testBindPropertiesWorksWithJsr330.(Anon_1).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,1,4,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingDifferentTypesWithSameValueIsAnError",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingDifferentTypesWithSameValueIsAnErrorMixed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingDifferentTypesWithSameValueIsAnErrorWithProviderMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingWithGuiceNamedAnnotatedProviderMethodCanInjectBothTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingWithJsr330AnnotationCanInjectBothTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingWithJsr330NamedAnnotatedProviderMethodCanInjectBothTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testBindingWithNamesCanInjectBothTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testKeysCreatedWithDifferentTypesAreEqual",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,1,5,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testMissingBindingForGuiceNamedUsesSameTypeInErrorMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.name.NamedEquivalanceTest.testMissingBindingForJsr330NamedUsesSameTypeInErrorMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.google.inject.util",1,1,1,1,15,1,12,2,,,,,11,4,1,,1,,22,2,26,,5,3,1,17,,274,35,169,56,89,70,,,,79,122,71,63,,,,,,6,6,7,4,,,2,,,,"0.41",35,35,36,27
+Public Final Class,"com.google.inject.util.Modules",1,1,1,1,10,0,4,6,1,5,5,0,,4,1,,,,1,0,5,5,0,1,0,4,,248,32,146,33,89,70,,,,56,99,48,63,,,,,,1,1,1,1,,1,0,,0,0,"0.48",5,5,5,5
+Anonymous Class,"com.google.inject.util.Modules.(Anon_1)",1,1,1,1,1,0,1,0,1,0,0,0,,0,0,,,,1,0,1,1,0,0,0,1,,2,0,2,1,2,0,,,,0,1,1,0,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.(Anon_1).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.google.inject.util.Modules.ModuleWriter",1,1,1,1,4,0,4,0,1,4,4,3,,0,0,,,,3,1,3,3,2,0,1,0,,18,3,15,5,5,0,,,,5,11,6,5,,,,,,2,2,2,1,,2,1,,33,33,"0.00",4,4,4,3
+Constructor,"com.google.inject.util.Modules.ModuleWriter.ModuleWriter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.google.inject.util.Modules.ModuleWriter.visitOther",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.google.inject.util.Modules.ModuleWriter.writeAll",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Constructor,"com.google.inject.util.Modules.Modules",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"com.google.inject.util.Modules.OverriddenModuleBuilder",0,0,0,0,0,0,0,0,0,1,1,1,,0,0,,,,2,0,2,2,2,0,0,0,,12,2,4,3,0,6,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"1.50",0,0,0,0
+Abstract Method,"com.google.inject.util.Modules.OverriddenModuleBuilder.with",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"com.google.inject.util.Modules.OverriddenModuleBuilder.with",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Private Static Final Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder",1,1,1,1,40,5,32,2,2,2,2,0,,0,0,,,,3,1,3,3,0,1,0,2,,131,19,101,16,72,11,,,,41,67,28,49,,,,,,1,1,1,1,,1,0,,66,66,"0.11",3,3,3,3
+Private Constructor,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.RealOverriddenModuleBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with",,,,,,,,,,,,,,,,,,,,,,,,,,,0,116,16,92,12,70,8,1,1,0,38,61,24,47,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Anonymous Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3)",1,1,1,1,55,7,44,4,1,9,9,0,,0,0,,,,2,0,2,2,0,1,0,1,,113,16,89,11,69,8,,,,37,59,23,46,,,,,,1,1,1,1,,2,0,,0,0,"0.09",2,2,2,2
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,2,104,15,81,11,63,8,6,1,0,35,55,21,44,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Anonymous Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_4)",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,3,0,3,6,0,0,0,3,,15,2,13,0,10,0,,,,6,9,3,6,,,,,,1,1,1,1,,3,0,,0,0,"0.00",3,3,3,3
+Public Generic Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_4).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_4).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_4).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_4).visit.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5)",2,2,3,1,11,1,10,0,1,9,9,0,,0,0,,,,4,0,4,7,1,0,0,3,,51,8,42,4,31,1,,,,16,29,9,23,,,,,,6,6,7,4,,3,2,,0,0,"0.02",11,11,12,7
+Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5).rewrite",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,3,23,3,17,0,12,15,1,8,16,5,13,6,6,7,4,3,,,,,3,,2,2,,,"0.00",6,6,7,4
+Public Generic Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,2,10,1,7,1,7,3,0,4,7,2,6,3,3,3,1,0,,,,,0,,2,0,,,"0.10",3,3,3,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_5).visit.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_6)",3,3,3,1,13,0,13,0,1,4,4,0,,0,0,,,,1,0,1,4,0,0,0,1,,14,0,14,1,11,0,,,,4,7,2,6,,,,,,3,3,3,1,,3,2,,0,0,"0.00",3,3,3,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).configure.(Anon_6).visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,1,10,0,10,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).getScopeInstanceOrNull",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,0,5,0,2,1,0,2,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).getScopeInstanceOrNull.(Anon_7)",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.google.inject.util.Modules.RealOverriddenModuleBuilder.with.(Anon_3).getScopeInstanceOrNull.(Anon_7).visitScope",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.google.inject.util.Modules.combine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"com.google.inject.util.Modules.combine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,11,2,7,3,2,1,0,4,8,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Anonymous Class,"com.google.inject.util.Modules.combine.(Anon_2)",2,2,2,1,6,0,6,0,1,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,5,0,,,,2,5,2,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.google.inject.util.Modules.combine.(Anon_2).configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,4,0,3,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"com.google.inject.util.Modules.override",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,3,1,1,13,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1
+Public Static Method,"com.google.inject.util.Modules.override",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,3,1,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1

@@ -1,0 +1,67 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Header.java",2,2,2,1,10,1,8,0,,,,,1,0,4,10,,10,10,3,10,,0,0,2,8,,147,28,107,40,54,13,,,,57,85,43,50,,,,,,8,8,9,3,,,2,,,,"0.12",24,24,25,12
+File,"Submission.java",3,3,3,1,22,2,13,6,,,,,1,0,3,46,,46,46,20,46,,0,8,13,25,,1176,171,680,177,435,333,,,,359,509,184,386,,,,,,28,28,34,8,,,4,,,,"0.49",150,150,164,53
+Package,"de",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.betterform",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.betterform.xml",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.betterform.xml.xforms",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.betterform.xml.xforms.model",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.betterform.xml.xforms.model.submission",3,3,3,1,20,2,12,5,,,,,2,0,7,,2,,56,23,56,,0,8,15,33,,1323,199,787,217,489,346,,,,416,594,227,436,,,,,,28,28,34,8,,,4,,,,"0.44",174,174,189,65
+Public Class,"de.betterform.xml.xforms.model.submission.Header",2,2,2,1,10,1,8,0,1,18,18,0,,0,4,,,,10,3,10,10,0,0,2,8,,124,23,93,26,54,9,,,,43,71,29,50,,,,,,8,8,9,3,,2,2,,63,63,"0.10",24,24,25,12
+Public Constructor,"de.betterform.xml.xforms.model.submission.Header.Header",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,3,11,2,7,6,8,3,0,5,9,3,7,3,3,3,1,0,,,,,0,,2,0,,,"0.55",3,3,3,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Header.createElementState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.dispose",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.getBindingExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.getCombine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.getHeaders",,,,,,,,,,,,,,,,,,,,,,,,,,,8,35,5,29,5,20,1,12,21,1,15,24,7,21,8,8,9,3,4,,,,,3,,2,1,,,"0.03",8,8,9,3
+Protected Method,"de.betterform.xml.xforms.model.submission.Header.getLogger",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,11,3,7,0,7,3,0,5,8,3,7,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"de.betterform.xml.xforms.model.submission.Header.init",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,2,10,1,6,0,3,4,1,4,8,2,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Class,"de.betterform.xml.xforms.model.submission.Submission",3,3,3,1,22,2,13,6,2,51,51,0,,0,3,,,,46,20,46,46,0,8,13,25,,1132,166,645,142,435,329,,,,324,474,149,386,,,,,,28,28,34,8,,2,4,,94,87,"0.51",150,150,164,53
+Public Constructor,"de.betterform.xml.xforms.model.submission.Submission.Submission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.constructEventInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,15,34,8,26,9,21,2,21,3,0,20,22,10,21,3,3,4,1,0,,,,,0,,2,0,,,"0.08",3,3,4,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.createElementState",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,3,1,1,8,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"2.67",2,2,2,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.dispose",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,1,6,1,3,5,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.disposeDefaultAction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.forward",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getAction",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getCDATASectionElements",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getIncludeNamespacePrefixes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getIndent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getLocationPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.getLogger",,,,,,,,,,,,,,,,,,,,,,,,,,,9,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getMediatype",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getOmitXMLDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getRelevant",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getReplace",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getResource",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.getResourceURI",,,,,,,,,,,,,,,,,,,,,,,,,,,11,14,0,10,2,5,4,6,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.getResponseAsDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,13,19,1,16,3,10,2,8,3,0,7,10,3,8,3,3,3,1,2,,,,,0,,2,0,,,"0.12",3,3,3,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getSeparator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getSerialization",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getStandalone",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getSubmissionMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getValidate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.getVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.init",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,1,10,1,7,6,8,2,0,6,8,1,7,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.initializeDefaultAction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,4,1,2,3,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.initializeSubmission",,,,,,,,,,,,,,,,,,,,,,,,,,,44,181,28,113,11,86,46,43,3538944,7,57,84,11,83,28,28,34,1,4,,,,,0,,3,0,,,"0.41",28,28,34,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.initializeSubmissionOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,3,20,6,13,1,13,7,1,10,16,7,13,6,6,7,1,0,,,,,0,,4,0,,,"0.05",6,6,7,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.performDefault",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,11,1,6,6,5,3,0,3,6,1,5,3,3,3,1,1,,,,,0,,2,0,,,"0.55",3,3,3,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.processSubmissionOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,4,30,3,24,5,16,3,11,24,1,9,20,9,14,7,7,7,1,1,,,,,0,,3,0,,,"0.12",7,7,7,1
+Public Method,"de.betterform.xml.xforms.model.submission.Submission.redirect",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submit",,,,,,,,,,,,,,,,,,,,,,,,,,,22,133,17,83,11,61,33,45,366,3,43,59,11,56,17,17,19,8,13,,,,,8,,2,8,,,"0.40",17,17,19,8
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceAll",,,,,,,,,,,,,,,,,,,,,,,,,,,10,45,6,23,4,19,16,12,4,1,16,19,4,18,3,3,3,1,1,,,,,0,,1,0,,,"0.70",3,3,3,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceEmbedHTML",,,,,,,,,,,,,,,,,,,,,,,,,,,11,48,10,34,9,27,4,12,21,1,20,27,9,25,7,7,8,1,3,,,,,0,,2,0,,,"0.12",7,7,8,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,7,55,4,27,5,20,24,16,16,1,14,21,6,18,6,6,6,1,1,,,,,0,,3,0,,,"0.89",6,6,6,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceNew",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,3,13,5,10,1,6,2,0,8,10,5,9,2,2,2,1,1,,,,,0,,1,0,,,"0.08",2,2,2,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceNone",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,1,6,1,3,8,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.33",2,2,2,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitReplaceText",,,,,,,,,,,,,,,,,,,,,,,,,,,22,83,12,63,10,45,8,43,540,3,33,47,11,41,15,15,15,1,6,,,,,0,,4,0,,,"0.13",15,15,15,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitSelectRelevant",,,,,,,,,,,,,,,,,,,,,,,,,,,12,19,0,10,1,6,9,8,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.90",3,3,3,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.submitValidate",,,,,,,,,,,,,,,,,,,,,,,,,,,14,23,2,10,2,6,11,9,3,0,4,7,2,6,3,3,3,1,0,,,,,0,,2,0,,,"1.10",3,3,3,1
+Protected Method,"de.betterform.xml.xforms.model.submission.Submission.updateChildren",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,2,1,0,7,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.50",1,1,1,1
+Private Method,"de.betterform.xml.xforms.model.submission.Submission.updateInstanceAndModel",,,,,,,,,,,,,,,,,,,,,,,,,,,16,38,2,33,3,23,3,26,11,1,14,22,3,20,8,8,11,1,6,,,,,0,,3,0,,,"0.09",8,8,11,1

@@ -1,0 +1,87 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ERXArrayUtilities.java",2,2,3,1,14,0,7,6,,,,,12,50,3,71,,71,21,1,71,,0,0,0,71,,1300,99,609,192,366,592,,,,323,485,210,366,,,,,,10,10,11,6,,,4,,,,"0.97",185,185,214,90
+Package,"er",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"er.extensions",2,2,3,1,14,0,7,6,,,,,12,50,3,,1,,21,1,71,,0,0,0,71,,1300,99,609,192,366,592,,,,323,485,210,366,,,,,,10,10,11,6,,,4,,,,"0.97",185,185,214,90
+Public Class,"er.extensions.ERXArrayUtilities",3,3,3,1,17,0,9,8,1,28,28,0,,50,3,,,,0,0,50,50,0,0,0,50,,1292,96,604,187,366,592,,,,318,480,205,366,,,,,,10,10,11,6,,1,4,,98,98,"0.98",150,150,172,67
+Static Class,"er.extensions.ERXArrayUtilities.AvgNonNullOperator",2,2,3,1,12,0,8,3,2,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,36,2,18,6,10,16,,,,9,14,7,10,,,,,,4,4,5,1,,1,2,,0,0,"0.89",5,5,6,2
+Public Constructor,"er.extensions.ERXArrayUtilities.AvgNonNullOperator.AvgNonNullOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.AvgNonNullOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,6,22,1,15,4,10,6,10,6,1,9,12,5,10,4,4,5,1,1,,,,,0,,2,0,,,"0.40",4,4,5,1
+Static Abstract Class,"er.extensions.ERXArrayUtilities.BaseOperator",2,2,5,1,6,0,6,0,2,2,2,4,,0,0,,,,1,0,1,1,0,0,0,1,,11,0,8,2,3,3,,,,2,5,2,3,,,,,,2,2,5,1,,1,1,,0,0,"0.38",2,2,5,1
+Public Method,"er.extensions.ERXArrayUtilities.BaseOperator.contents",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,6,1,3,0,4,2,0,2,4,1,3,2,2,5,1,0,,,,,0,,1,0,,,"0.00",2,2,5,1
+Static Class,"er.extensions.ERXArrayUtilities.FetchSpecOperator",1,1,1,1,7,0,4,3,2,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,30,1,11,4,4,18,,,,3,7,4,4,,,,,,2,2,2,1,,1,1,,0,0,"1.64",3,3,3,2
+Public Constructor,"er.extensions.ERXArrayUtilities.FetchSpecOperator.FetchSpecOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.FetchSpecOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,7,2,4,6,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.86",2,2,2,1
+Static Class,"er.extensions.ERXArrayUtilities.FlattenOperator",1,1,1,1,6,0,2,3,1,3,3,0,,0,0,,,,2,0,2,3,0,0,0,2,,24,1,7,3,2,16,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"2.29",2,2,2,2
+Public Constructor,"er.extensions.ERXArrayUtilities.FlattenOperator.FlattenOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.FlattenOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Static Class,"er.extensions.ERXArrayUtilities.IsEmptyOperator",1,1,1,1,5,0,2,3,2,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,23,1,6,3,1,16,,,,1,4,3,1,,,,,,2,2,2,1,,1,0,,0,0,"2.67",3,3,3,2
+Public Constructor,"er.extensions.ERXArrayUtilities.IsEmptyOperator.IsEmptyOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.IsEmptyOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,3,1,1,6,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"2.00",2,2,2,1
+Static Class,"er.extensions.ERXArrayUtilities.ObjectAtIndexOperator",2,2,3,1,9,0,6,3,2,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,31,1,14,6,8,16,,,,6,11,6,7,,,,,,4,4,5,1,,1,1,,0,0,"1.14",5,5,6,2
+Public Constructor,"er.extensions.ERXArrayUtilities.ObjectAtIndexOperator.ObjectAtIndexOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.ObjectAtIndexOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,11,4,8,6,8,4,1,6,9,4,7,4,4,5,1,0,,,,,0,,1,0,,,"0.55",4,4,5,1
+Static Class,"er.extensions.ERXArrayUtilities.RemoveNullValuesOperator",1,1,1,1,8,0,3,5,1,3,3,0,,0,0,,,,2,0,2,3,0,0,0,2,,29,1,9,3,3,19,,,,3,7,3,4,,,,,,2,2,2,1,,2,1,,0,0,"2.11",3,3,3,2
+Public Constructor,"er.extensions.ERXArrayUtilities.RemoveNullValuesOperator.RemoveNullValuesOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.RemoveNullValuesOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,5,1,3,9,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"1.80",2,2,2,1
+Static Class,"er.extensions.ERXArrayUtilities.ReverseOperator",1,1,1,1,6,0,3,3,1,3,3,0,,0,0,,,,2,0,2,3,0,0,0,2,,25,1,8,3,3,16,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"2.00",2,2,2,2
+Public Constructor,"er.extensions.ERXArrayUtilities.ReverseOperator.ReverseOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.ReverseOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,1,3,6,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Static Class,"er.extensions.ERXArrayUtilities.SortOperator",2,2,2,2,10,0,7,3,2,4,4,0,,0,0,,,,2,1,2,2,0,0,0,2,,38,2,18,4,9,18,,,,5,10,4,6,,,,,,3,3,4,3,,1,1,,0,0,"1.00",4,4,5,4
+Public Constructor,"er.extensions.ERXArrayUtilities.SortOperator.SortOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.SortOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,11,1,8,6,6,3,0,3,6,1,5,3,3,4,3,2,,,,,2,,1,2,,,"0.55",3,3,4,3
+Static Class,"er.extensions.ERXArrayUtilities.SubarrayWithRangeOperator",1,1,2,1,8,0,5,3,2,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,29,1,13,7,7,15,,,,6,10,7,7,,,,,,2,2,3,1,,1,1,,0,0,"1.15",3,3,4,2
+Public Constructor,"er.extensions.ERXArrayUtilities.SubarrayWithRangeOperator.SubarrayWithRangeOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.SubarrayWithRangeOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,10,5,7,5,6,2,0,6,8,5,7,2,2,3,1,0,,,,,0,,1,0,,,"0.50",2,2,3,1
+Static Class,"er.extensions.ERXArrayUtilities.UniqueOperator",1,1,1,1,8,0,3,5,1,3,3,0,,0,0,,,,2,0,2,3,0,0,0,2,,29,1,9,3,3,19,,,,3,7,3,4,,,,,,2,2,2,1,,2,1,,0,0,"2.11",3,3,3,2
+Public Constructor,"er.extensions.ERXArrayUtilities.UniqueOperator.UniqueOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,2,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"er.extensions.ERXArrayUtilities.UniqueOperator.compute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,5,1,3,9,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"1.80",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.addObjectsFromArrayWithoutDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,6,2,3,7,5,3,0,4,6,3,5,3,3,3,1,0,,,,,0,,2,0,,,"1.17",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayByAddingObjectsFromArrayWithoutDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,14,4,10,10,7,4,1,9,12,5,10,4,4,4,1,1,,,,,0,,3,0,,,"0.71",4,4,4,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayByRemovingFirstObject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,3,8,3,5,8,3,2,0,4,6,3,4,3,3,3,1,0,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayContainsAnyObjectFromArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,12,2,7,9,6,4,1,6,9,3,7,4,4,7,4,2,,,,,2,,3,2,,,"0.75",4,4,7,4
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayContainsArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,0,13,2,8,9,6,5,1,7,11,3,9,5,5,9,5,5,,,,,5,,3,5,,,"0.69",5,5,9,5
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayForKeysPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,10,3,6,6,7,3,0,6,8,4,7,3,3,4,1,0,,,,,0,,2,0,,,"0.60",3,3,4,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayFromPropertyList",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayGroupedByKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,3,1,1,16,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"5.33",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayGroupedByKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,8,46,0,25,10,17,21,8,14,1,14,20,8,18,7,7,9,1,1,,,,,0,,4,0,,,"0.84",7,7,9,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayGroupedByToManyKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,42,0,23,9,15,19,7,8,1,15,19,9,16,6,6,8,1,0,,,,,0,,4,0,,,"0.83",6,6,8,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayMinusArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,11,5,8,8,8,3,0,6,9,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.73",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayMinusObject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,2,3,6,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayWithoutDuplicateKeyValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,0,11,4,7,11,7,3,0,7,9,5,8,3,3,3,1,0,,,,,0,,2,0,,,"1.00",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arrayWithoutDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,12,4,8,6,6,3,0,8,10,5,9,3,3,3,1,0,,,,,0,,2,0,,,"0.50",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.arraysAreIdenticalSets",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,0,18,4,11,7,5,12,1,12,16,6,14,6,6,6,6,4,,,,,4,,3,4,,,"0.39",6,6,6,6
+Public Static Method,"er.extensions.ERXArrayUtilities.batchedArrayWithSize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,2,13,4,10,6,4,4,1,9,13,5,10,4,4,5,1,1,,,,,0,,2,0,,,"0.46",4,4,5,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithEntityFetchSpecification",,,,,,,,,,,,,,,,,,,,,,,,,,,8,31,5,16,4,9,10,7,8,1,8,12,4,9,4,4,4,1,0,,,,,0,,1,0,,,"0.62",4,4,4,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithEntityFetchSpecification",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithFetchSpecificationNamedEntityNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithFetchSpecificationNamedEntityNamedBindings",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithQualifierEvaluation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,6,1,4,7,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.17",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithQualifierEvaluation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,9,3,6,12,5,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"1.33",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.filteredArrayWithQualifierEvaluation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,9,3,6,10,5,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"1.11",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.firstObject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,2,6,2,4,6,3,2,0,3,5,2,3,2,2,3,1,0,,,,,0,,1,0,,,"1.00",2,2,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.firstObjectWithValueForKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,4,2,2,7,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"1.75",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.flatten",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,3,1,1,18,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"6.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.flatten",,,,,,,,,,,,,,,,,,,,,,,,,,,3,37,0,17,4,12,20,6,7,1,10,14,5,12,5,5,5,3,3,,,,,2,,2,2,,,"1.18",5,5,5,3
+Public Static Method,"er.extensions.ERXArrayUtilities.friendlyDisplayForKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,7,36,0,18,5,14,18,6,6,1,12,18,6,15,10,10,10,1,2,,,,,0,,3,0,,,"1.00",10,10,10,1
+Public Static Method,"er.extensions.ERXArrayUtilities.indexOfFirstObjectWithValueForKeyPath",,,,,,,,,,,,,,,,,,,,,,,,,,,7,26,1,17,6,12,8,5,4,1,9,13,6,10,5,5,7,4,4,,,,,4,,3,4,,,"0.47",5,5,7,4
+Public Static Method,"er.extensions.ERXArrayUtilities.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,7,27,0,22,1,18,5,13,3,0,16,19,1,18,3,3,3,1,1,,,,,0,,1,0,,,"0.23",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.intersectingElements",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,0,14,5,10,7,7,4,1,9,12,6,10,7,7,11,1,0,,,,,0,,3,0,,,"0.50",7,7,11,1
+Public Static Method,"er.extensions.ERXArrayUtilities.objectArrayCastToStringArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,7,2,4,6,1,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.objectArrayToString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.objectArrayToString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,7,2,4,5,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.objectArraysToString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,7,2,4,5,6,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.removeNullValues",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,10,3,6,5,4,3,0,6,9,4,7,3,3,3,1,0,,,,,0,,2,0,,,"0.50",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.removeNullValuesFromEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,7,2,4,4,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.57",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.reverse",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,11,3,7,5,7,3,0,7,9,4,7,4,4,5,1,0,,,,,0,,2,0,,,"0.45",4,4,5,1
+Public Static Method,"er.extensions.ERXArrayUtilities.setFromArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,9,2,6,6,3,2,0,4,6,2,5,2,2,3,1,1,,,,,0,,1,0,,,"0.67",2,2,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.shiftObjectLeft",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,8,2,5,6,3,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.75",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.shiftObjectRight",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,8,2,5,6,4,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,1,0,,,"0.75",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortArrayWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortArrayWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,8,12,0,6,2,4,6,3,1,0,4,5,2,4,2,2,2,1,0,,,,,0,,0,0,,,"1.00",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortSelectorWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,8,2,5,8,2,3,0,4,7,2,5,3,3,3,1,0,,,,,0,,2,0,,,"1.00",3,3,3,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortedArraySortedWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortedArraySortedWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,10,13,0,6,2,4,7,4,1,0,4,5,2,4,2,2,2,1,0,,,,,0,,0,0,,,"1.17",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortedArraySortedWithKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,1,12,3,9,7,11,3,0,9,11,4,10,5,5,5,1,1,,,,,0,,1,0,,,"0.58",5,5,5,1
+Public Static Method,"er.extensions.ERXArrayUtilities.sortedMutableArraySortedWithKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"er.extensions.ERXArrayUtilities.toStringArray",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,3,0,4,2,0,5,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"er.extensions.ERXArrayUtilities.valuesForKeyPaths",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,8,3,5,7,6,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.88",2,2,2,1

@@ -1,0 +1,49 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Aggregators.java",2,2,2,1,9,0,8,0,,,,,11,2,30,33,,31,31,6,33,,0,1,0,32,,553,79,376,178,209,102,,,,170,245,128,176,,,,,,7,7,8,3,,,2,,,,"0.27",72,72,76,33
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.opentsdb.core",2,2,2,1,9,0,8,0,,,,,11,2,30,,1,,31,6,33,,0,1,0,32,,553,79,376,178,209,102,,,,170,245,128,176,,,,,,7,7,8,3,,,2,,,,"0.27",72,72,76,33
+Public Final Class,"net.opentsdb.core.Aggregators",1,1,1,1,7,0,4,3,1,15,15,0,,2,30,,,,1,0,3,3,0,1,0,2,,529,75,368,170,209,90,,,,162,237,120,176,,,,,,2,2,2,1,,1,1,,0,0,"0.24",4,4,4,3
+Private Constructor,"net.opentsdb.core.Aggregators.Aggregators",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.Avg",2,2,2,1,8,0,8,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,31,3,28,11,15,0,,,,12,19,9,12,,,,,,4,4,4,1,,2,2,,0,0,"0.00",7,7,7,3
+Public Constructor,"net.opentsdb.core.Aggregators.Avg.Avg",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Avg.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,5,8,0,4,3,0,6,9,4,6,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"net.opentsdb.core.Aggregators.Avg.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,4,6,0,3,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.Count",2,2,2,1,7,0,7,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,28,3,25,9,12,0,,,,9,16,7,10,,,,,,3,3,3,1,,2,2,,0,0,"0.00",6,6,6,3
+Public Constructor,"net.opentsdb.core.Aggregators.Count.Count",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Count.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,4,6,0,4,3,0,4,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"net.opentsdb.core.Aggregators.Count.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,3,5,0,3,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Enum Type,"net.opentsdb.core.Aggregators.Interpolation",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,4,2,2,0,0,0,2,,9,0,6,5,0,7,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"1.17",0,0,0,0
+Public Implicit Method,"net.opentsdb.core.Aggregators.Interpolation.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"net.opentsdb.core.Aggregators.Interpolation.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Private Static Final Class,"net.opentsdb.core.Aggregators.Max",3,3,3,1,9,0,8,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,33,5,28,11,14,0,,,,10,18,9,14,,,,,,5,5,6,1,,2,2,,0,0,"0.00",9,9,10,3
+Public Constructor,"net.opentsdb.core.Aggregators.Max.Max",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Max.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,2,12,5,7,0,4,3,0,5,8,4,7,5,5,6,1,0,,,,,0,,2,0,,,"0.00",5,5,6,1
+Public Method,"net.opentsdb.core.Aggregators.Max.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,4,6,0,3,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.Min",3,3,3,1,9,0,8,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,33,5,28,11,14,0,,,,10,18,9,14,,,,,,5,5,6,1,,2,2,,0,0,"0.00",9,9,10,3
+Public Constructor,"net.opentsdb.core.Aggregators.Min.Min",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Min.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,2,12,5,7,0,4,3,0,5,8,4,7,5,5,6,1,0,,,,,0,,2,0,,,"0.00",5,5,6,1
+Public Method,"net.opentsdb.core.Aggregators.Min.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,4,6,0,3,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.Multiply",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,3,0,3,3,0,0,0,3,,25,4,21,8,9,0,,,,7,13,6,9,,,,,,2,2,2,1,,2,1,,0,0,"0.00",5,5,5,3
+Private Static Final Class,"net.opentsdb.core.Aggregators.Multiply",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,3,0,3,3,0,0,0,3,,25,3,22,9,10,0,,,,8,14,7,10,,,,,,2,2,2,1,,2,1,,0,0,"0.00",5,5,5,3
+Public Constructor,"net.opentsdb.core.Aggregators.Multiply.Multiply",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"net.opentsdb.core.Aggregators.Multiply.Multiply",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Multiply.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.opentsdb.core.Aggregators.Multiply.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,5,0,3,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.opentsdb.core.Aggregators.Multiply.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.opentsdb.core.Aggregators.Multiply.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.PercentileAgg",2,2,2,1,10,0,10,0,1,11,11,0,,0,0,,,,4,2,4,4,0,0,0,4,,60,5,47,17,27,8,,,,21,30,13,22,,,,,,4,4,4,1,,2,2,,37,12,"0.17",9,9,10,4
+Public Constructor,"net.opentsdb.core.Aggregators.PercentileAgg.PercentileAgg",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"net.opentsdb.core.Aggregators.PercentileAgg.PercentileAgg",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,2,5,0,4,1,0,4,5,1,4,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"net.opentsdb.core.Aggregators.PercentileAgg.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,19,6,13,0,8,6,1,9,13,5,11,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"net.opentsdb.core.Aggregators.PercentileAgg.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,5,8,0,8,2,0,5,7,3,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.StdDev",3,3,4,1,23,2,15,4,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,83,11,49,16,34,23,,,,27,36,14,26,,,,,,7,7,8,3,,2,2,,0,0,"0.47",11,11,12,5
+Public Constructor,"net.opentsdb.core.Aggregators.StdDev.StdDev",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.StdDev.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,45,5,26,7,19,14,5,8,1,14,19,6,15,7,7,8,3,2,,,,,2,,2,2,,,"0.54",7,7,8,3
+Public Method,"net.opentsdb.core.Aggregators.StdDev.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,3,18,7,14,0,4,2,0,12,14,6,10,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Static Final Class,"net.opentsdb.core.Aggregators.Sum",2,2,2,1,8,0,8,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,31,5,26,10,13,0,,,,10,17,8,11,,,,,,4,4,4,1,,2,2,,0,0,"0.00",7,7,7,3
+Public Constructor,"net.opentsdb.core.Aggregators.Sum.Sum",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.opentsdb.core.Aggregators.Sum.runDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,2,13,5,8,0,4,3,0,6,9,4,6,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"net.opentsdb.core.Aggregators.Sum.runLong",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,4,0,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"net.opentsdb.core.Aggregators.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,7,2,4,6,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Static Method,"net.opentsdb.core.Aggregators.set",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1

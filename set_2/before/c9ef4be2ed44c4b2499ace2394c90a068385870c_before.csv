@@ -1,0 +1,61 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ERXApplication.java",3,3,3,1,19,0,12,6,,,,,3,7,11,54,,54,47,11,54,,1,3,0,50,,1249,113,772,219,465,365,,,,396,574,223,434,,,,,,19,19,21,4,,,5,,,,"0.47",184,184,206,59
+Package,"er",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"er.extensions",3,3,3,1,19,0,12,6,,,,,3,7,11,,1,,47,11,54,,1,3,0,50,,1249,113,772,219,465,365,,,,396,574,223,434,,,,,,19,19,21,4,,,5,,,,"0.47",184,184,206,59
+Public Abstract Class,"er.extensions.ERXApplication",3,3,4,1,21,0,13,6,2,76,76,0,,6,11,,,,41,9,47,47,0,3,0,44,,1186,107,721,168,465,359,,,,345,523,172,434,,,,,,19,19,21,4,,2,5,,96,92,"0.50",168,168,189,50
+Static Class,"er.extensions.ERXApplication.AppClassLoader",3,3,3,1,12,0,11,0,1,8,8,0,,1,0,,,,2,0,3,3,1,0,0,2,,41,3,37,12,22,1,,,,17,27,13,20,,,,,,5,5,6,1,,2,3,,0,0,"0.03",9,9,10,3
+Constructor,"er.extensions.ERXApplication.AppClassLoader.AppClassLoader",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"er.extensions.ERXApplication.AppClassLoader.getAppClassLoader",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,15,5,10,1,8,3,0,9,12,6,8,3,3,3,1,1,,,,,0,,2,0,,,"0.07",3,3,3,1
+Public Method,"er.extensions.ERXApplication.AppClassLoader.loadClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,17,5,11,0,9,7,1,7,12,5,11,5,5,6,1,0,,,,,0,,3,0,,,"0.00",5,5,6,1
+Public Constructor,"er.extensions.ERXApplication.ERXApplication",,,,,,,,,,,,,,,,,,,,,,,,,,,13,52,6,39,3,30,7,34,256,2,22,31,3,30,9,9,10,1,0,,,,,0,,1,0,,,"0.18",9,9,10,1
+Private Class,"er.extensions.ERXApplication.SessionInfo",1,1,1,1,7,0,7,0,1,4,4,0,,0,0,,,,4,2,4,4,0,0,0,4,,38,5,32,8,16,1,,,,12,20,8,13,,,,,,4,4,4,3,,1,1,,50,37,"0.03",7,7,7,6
+Public Constructor,"er.extensions.ERXApplication.SessionInfo.SessionInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.SessionInfo.context",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.SessionInfo.exceptionMessageForCheckout",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,1,19,2,12,0,6,6,1,7,11,2,9,4,4,4,3,3,,,,,2,,1,2,,,"0.00",4,4,4,3
+Public Method,"er.extensions.ERXApplication.SessionInfo.trace",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"er.extensions.ERXApplication._displayMainMethodWarning",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.appendToResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,9,2,5,8,4,3,0,3,6,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.89",3,3,3,1
+Public Static Method,"er.extensions.ERXApplication.bundleDidLoad",,,,,,,,,,,,,,,,,,,,,,,,,,,9,75,3,61,12,45,11,31,1160,3,33,46,13,43,14,14,15,1,1,,,,,0,,3,0,,,"0.18",14,14,15,1
+Public Method,"er.extensions.ERXApplication.configureStatisticsLogging",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,11,4,7,8,10,3,0,5,8,4,7,3,3,3,1,0,,,,,0,,2,0,,,"0.73",3,3,3,1
+Public Method,"er.extensions.ERXApplication.createContextForRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,7,2,4,10,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.43",2,2,2,1
+Public Method,"er.extensions.ERXApplication.createRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,2,6,2,4,21,2,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"3.50",2,2,2,1
+Public Method,"er.extensions.ERXApplication.createSessionForRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,7,2,4,1,6,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Final Method,"er.extensions.ERXApplication.didFinishLaunching",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,3,1,1,9,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.didFinishLaunching",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,2,1,0,6,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.dispatchRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,74,7,57,10,39,10,26,144,2,23,36,10,34,12,12,16,1,3,,,,,0,,5,0,,,"0.18",12,12,16,1
+Public Static Method,"er.extensions.ERXApplication.erxApplication",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"er.extensions.ERXApplication.extraInformationForExceptionInContext",,,,,,,,,,,,,,,,,,,,,,,,,,,6,89,1,69,11,47,19,19,2314,3,29,48,11,46,19,19,21,1,1,,,,,0,,5,0,,,"0.28",19,19,21,1
+Public Final Method,"er.extensions.ERXApplication.finishInitialization",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,6,1,3,9,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.50",2,2,2,1
+Public Method,"er.extensions.ERXApplication.finishInitialization",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,2,1,0,5,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"er.extensions.ERXApplication.formatterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"er.extensions.ERXApplication.genericHandleException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.gracefulTerminate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"er.extensions.ERXApplication.handleActionRequestError",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,0,9,3,6,12,7,2,0,5,7,3,6,3,3,6,1,0,,,,,0,,1,0,,,"1.33",3,3,6,1
+Public Method,"er.extensions.ERXApplication.handleException",,,,,,,,,,,,,,,,,,,,,,,,,,,4,33,1,18,5,13,14,11,7,1,9,14,5,13,5,5,6,4,3,,,,,3,,3,3,,,"0.78",5,5,6,4
+Public Method,"er.extensions.ERXApplication.handlePotentiallyFatalException",,,,,,,,,,,,,,,,,,,,,,,,,,,10,65,0,45,3,32,20,14,23,1,20,31,3,29,11,11,15,1,6,,,,,0,,4,0,,,"0.44",11,11,15,1
+Public Method,"er.extensions.ERXApplication.installPatches",,,,,,,,,,,,,,,,,,,,,,,,,,,14,42,6,19,1,15,17,7,16,1,11,16,1,15,5,5,6,1,0,,,,,0,,1,0,,,"0.89",5,5,6,1
+Public Static Method,"er.extensions.ERXApplication.instantiatePage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,5,3,3,8,4,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"er.extensions.ERXApplication.invokeAction",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,7,2,4,8,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.14",2,2,2,1
+Public Method,"er.extensions.ERXApplication.isDevelopmentMode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,8,3,5,4,3,2,0,4,6,3,4,2,2,3,1,0,,,,,0,,1,0,,,"0.50",2,2,3,1
+Public Method,"er.extensions.ERXApplication.isStreamingRequestHandlerKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.killInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,5,1,3,3,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Static Method,"er.extensions.ERXApplication.main",,,,,,,,,,,,,,,,,,,,,,,,,,,13,58,1,48,10,36,9,24,120,2,28,36,11,30,9,9,10,1,4,,,,,0,,2,0,,,"0.19",9,9,10,1
+Public Method,"er.extensions.ERXApplication.migrator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.name",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,13,2,9,6,6,7,1,5,10,2,9,5,5,6,1,0,,,,,0,,3,0,,,"0.46",5,5,6,1
+Public Method,"er.extensions.ERXApplication.nameSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,8,1,5,9,4,2,0,4,6,1,5,3,3,3,1,0,,,,,0,,1,0,,,"1.12",3,3,3,1
+Public Method,"er.extensions.ERXApplication.rawName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"er.extensions.ERXApplication.readProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,2,9,0,6,4,1,5,8,2,7,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"er.extensions.ERXApplication.refuseNewSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,16,3,11,6,8,6,1,8,12,3,11,4,4,4,1,0,,,,,0,,2,0,,,"0.38",4,4,4,1
+Public Method,"er.extensions.ERXApplication.registerStreamingRequestHandlerKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"er.extensions.ERXApplication.reportException",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,5,2,3,10,5,1,0,3,4,2,3,2,2,2,1,0,,,,,0,,0,0,,,"2.00",2,2,2,1
+Public Method,"er.extensions.ERXApplication.responseCompressionEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,6,1,3,4,4,2,0,2,4,1,3,3,3,3,1,0,,,,,0,,1,0,,,"0.67",3,3,3,1
+Public Method,"er.extensions.ERXApplication.restoreSessionWithID",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,17,3,10,1,8,5,1,7,11,3,9,4,4,4,1,1,,,,,0,,2,0,,,"0.06",4,4,4,1
+Public Method,"er.extensions.ERXApplication.run",,,,,,,,,,,,,,,,,,,,,,,,,,,4,39,2,25,9,21,13,9,6,1,18,22,9,21,4,4,4,1,0,,,,,0,,2,0,,,"0.52",4,4,4,1
+Public Method,"er.extensions.ERXApplication.saveSessionForContext",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,14,4,9,1,6,4,1,6,10,4,9,4,4,4,1,0,,,,,0,,3,0,,,"0.07",4,4,4,1
+Public Method,"er.extensions.ERXApplication.sessionTimeOutInMinutes",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"er.extensions.ERXApplication.startRefusingSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,1,3,3,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"er.extensions.ERXApplication.traceOpenEditingContextLocks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"er.extensions.ERXApplication.transferPropertiesFromSourceToDest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,2,5,0,8,4,1,4,7,3,6,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"er.extensions.ERXApplication.useComponentActionRedirection",,,,,,,,,,,,,,,,,,,,,,,,,,,7,13,0,6,1,3,7,4,2,0,2,4,1,3,3,3,3,1,0,,,,,0,,1,0,,,"1.17",3,3,3,1
+Public Method,"er.extensions.ERXApplication.useEditingContextUnlocker",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"er.extensions.ERXApplication.useSessionStoreDeadlockDetection",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,0,10,1,6,8,6,3,0,4,7,1,6,4,4,5,1,0,,,,,0,,2,0,,,"0.80",4,4,5,1

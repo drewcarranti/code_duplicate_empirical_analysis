@@ -1,0 +1,23 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"SnmpConnection.java",1,1,2,1,9,0,6,2,,,,,1,0,6,18,,18,18,7,18,,0,0,0,18,,227,27,163,74,85,38,,,,91,126,69,74,,,,,,10,10,12,6,,,4,,,,"0.23",33,33,36,26
+Package,"jrds",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jrds.snmp",1,1,2,1,9,0,6,2,,,,,1,0,6,,1,,18,7,18,,0,0,0,18,,227,27,163,74,85,38,,,,91,126,69,74,,,,,,10,10,12,6,,,4,,,,"0.23",33,33,36,26
+Public Class,"jrds.snmp.SnmpConnection",1,1,2,1,9,0,6,2,1,26,26,0,,0,6,,,,18,7,18,18,0,0,0,18,,201,23,141,52,85,38,,,,69,104,47,74,,,,,,10,10,12,6,,2,4,,82,81,"0.27",33,33,36,26
+Public Method,"jrds.snmp.SnmpConnection.getCommunity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getPdufactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getPing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getPort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getProto",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getSnmp",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.getVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.readUptime",,,,,,,,,,,,,,,,,,,,,,,,,,,6,26,0,26,7,20,0,10,14,1,13,21,8,19,7,7,8,4,5,,,,,5,,4,5,,,"0.00",7,7,8,4
+Public Method,"jrds.snmp.SnmpConnection.setCommunity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.setPing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.setPort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.setProto",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.setUptime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,7,3,4,1,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.setVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.startConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,12,49,3,44,9,34,2,19,31,1,24,34,8,32,10,10,12,6,7,,,,,7,,3,7,,,"0.05",10,10,12,6
+Public Method,"jrds.snmp.SnmpConnection.stopConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jrds.snmp.SnmpConnection.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1

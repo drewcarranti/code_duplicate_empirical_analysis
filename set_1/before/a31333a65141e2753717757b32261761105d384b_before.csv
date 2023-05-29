@@ -1,0 +1,102 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Delete.java",1,1,1,1,3,0,3,0,,,,,1,0,0,6,,6,6,2,6,,0,0,0,6,,59,9,29,16,6,21,,,,13,20,14,6,,,,,,2,2,2,1,,,0,,,,"0.72",7,7,7,6
+File,"DeleteDeParser.java",1,1,1,1,5,0,3,1,,,,,1,0,0,6,,6,6,2,6,,0,0,0,6,,71,10,30,12,10,31,,,,14,22,12,10,,,,,,2,2,2,1,,,1,,,,"1.03",7,7,7,6
+File,"DeleteTest.java",1,1,1,1,4,0,4,0,,,,,1,0,0,3,,3,3,1,3,,0,0,0,3,,32,8,24,16,8,0,,,,16,20,16,6,,,,,,1,1,1,1,,,0,,,,"0.00",3,3,3,3
+File,"SelectDeParser.java",3,3,4,1,15,1,13,0,,,,,1,0,0,27,,27,27,2,27,,0,0,0,27,,474,59,380,67,237,35,,,,168,267,62,230,,,,,,31,31,31,1,,,4,,,,"0.09",105,105,108,27
+File,"Update.java",1,1,1,1,5,0,5,0,,,,,1,0,0,20,,20,20,9,20,,0,0,0,20,,189,27,126,44,52,36,,,,60,94,45,50,,,,,,13,13,13,1,,,4,,,,"0.29",32,32,32,20
+File,"UpdateDeParser.java",3,3,3,1,13,0,11,1,,,,,1,0,0,6,,6,6,3,6,,0,0,0,6,,129,14,80,23,42,35,,,,44,64,26,42,,,,,,13,13,13,1,,,4,,,,"0.44",18,18,18,6
+File,"UpdateTest.java",1,1,1,1,5,0,5,0,,,,,1,0,1,8,,8,8,0,8,,0,0,0,8,,73,13,60,36,20,0,,,,34,43,28,18,,,,,,1,1,1,1,,,0,,,,"0.00",8,8,8,8
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf.jsqlparser",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf.jsqlparser.statement",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf.jsqlparser.statement.delete",1,1,1,1,3,0,3,0,,,,,1,0,0,,1,,6,2,6,,0,0,0,6,,59,9,29,16,6,21,,,,13,20,14,6,,,,,,2,2,2,1,,,0,,,,"0.72",7,7,7,6
+Public Class,"net.sf.jsqlparser.statement.delete.Delete",1,1,1,1,3,0,3,0,2,5,5,0,,0,0,,,,6,2,6,6,0,0,0,6,,31,7,24,11,6,0,,,,8,15,9,6,,,,,,2,2,2,1,,1,0,,50,50,"0.00",7,7,7,6
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.getTable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.getWhere",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.setTable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.setWhere",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.delete.Delete.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Package,"net.sf.jsqlparser.statement.update",1,1,1,1,5,0,5,0,,,,,1,0,0,,1,,20,9,20,,0,0,0,20,,189,27,126,44,52,36,,,,60,94,45,50,,,,,,13,13,13,1,,,4,,,,"0.29",32,32,32,20
+Public Class,"net.sf.jsqlparser.statement.update.Update",1,1,1,1,5,0,5,0,2,10,10,0,,0,0,,,,20,9,20,20,0,0,0,20,,154,24,115,33,52,15,,,,49,83,34,50,,,,,,13,13,13,1,,1,4,,85,85,"0.13",32,32,32,20
+Public Method,"net.sf.jsqlparser.statement.update.Update.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getExpressions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getFromItem",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getJoins",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getSelect",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getTables",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.getWhere",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.isUseColumnsBrackets",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.isUseSelect",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setExpressions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setFromItem",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setJoins",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setSelect",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setTables",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setUseColumnsBrackets",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setUseSelect",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.setWhere",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.statement.update.Update.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,8,49,3,46,3,31,0,9,150,2,21,35,5,31,13,13,13,1,2,,,,,0,,4,0,,,"0.00",13,13,13,1
+Package,"net.sf.jsqlparser.test",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf.jsqlparser.test.delete",1,1,1,1,4,0,4,0,,,,,1,0,0,,1,,3,1,3,,0,0,0,3,,32,8,24,16,8,0,,,,16,20,16,6,,,,,,1,1,1,1,,,0,,,,"0.00",3,3,3,3
+Public Class,"net.sf.jsqlparser.test.delete.DeleteTest",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,3,1,3,3,0,0,0,3,,21,5,16,8,8,0,,,,8,12,8,6,,,,,,1,1,1,1,,2,0,,66,66,"0.00",3,3,3,3
+Public Constructor,"net.sf.jsqlparser.test.delete.DeleteTest.DeleteTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.delete.DeleteTest.testDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,3,4,0,5,1,0,4,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.delete.DeleteTest.testDeleteWhereProblem1",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"net.sf.jsqlparser.test.update",1,1,1,1,5,0,5,0,,,,,1,0,1,,1,,8,0,8,,0,0,0,8,,73,13,60,36,20,0,,,,34,43,28,18,,,,,,1,1,1,1,,,0,,,,"0.00",8,8,8,8
+Public Class,"net.sf.jsqlparser.test.update.UpdateTest",1,1,1,1,5,0,5,0,1,11,11,0,,0,1,,,,8,0,8,8,0,0,0,8,,56,10,46,22,20,0,,,,20,29,14,18,,,,,,1,1,1,1,,1,0,,75,75,"0.00",8,8,8,8
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,1,14,4,11,0,12,1,0,11,12,3,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateIssue167_SingleQuotes",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateMultiTable",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateWAlias",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,4,2,0,1,1,0,2,3,3,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateWithDeparser",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateWithFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateWithSelect",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.test.update.UpdateTest.testUpdateWithSelect2",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"net.sf.jsqlparser.util",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sf.jsqlparser.util.deparser",3,3,3,1,13,0,11,0,,,,,3,0,0,,3,,39,7,39,,0,0,0,39,,674,83,490,102,289,101,,,,226,353,100,282,,,,,,31,31,31,1,,,4,,,,"0.21",130,130,133,39
+Public Class,"net.sf.jsqlparser.util.deparser.DeleteDeParser",1,1,1,1,5,0,3,1,1,3,3,0,,0,0,,,,6,2,6,6,0,0,0,6,,45,8,27,9,10,10,,,,11,19,9,10,,,,,,2,2,2,1,,1,1,,33,33,"0.37",7,7,7,6
+Public Constructor,"net.sf.jsqlparser.util.deparser.DeleteDeParser.DeleteDeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.DeleteDeParser.deParse",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,1,4,0,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.sf.jsqlparser.util.deparser.DeleteDeParser.getBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.DeleteDeParser.getExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.DeleteDeParser.setBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.DeleteDeParser.setExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"net.sf.jsqlparser.util.deparser.SelectDeParser",3,3,4,1,15,1,13,0,6,33,33,0,,0,0,,,,27,2,27,27,0,0,0,27,,445,56,375,62,237,14,,,,163,262,57,230,,,,,,31,31,31,1,,1,4,,44,40,"0.04",105,105,108,27
+Public Constructor,"net.sf.jsqlparser.util.deparser.SelectDeParser.SelectDeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"net.sf.jsqlparser.util.deparser.SelectDeParser.SelectDeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseFetch",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,14,1,10,1,5,4,1,6,9,1,8,3,3,3,1,2,,,,,0,,1,0,,,"0.07",3,3,3,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseJoin",,,,,,,,,,,,,,,,,,,,,,,,,,,5,46,6,40,3,31,0,17,152,2,20,32,4,31,13,13,13,1,6,,,,,0,,3,0,,,"0.00",13,13,13,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseLimit",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,16,1,12,1,6,12,1,7,13,1,12,6,6,6,1,3,,,,,0,,1,0,,,"0.06",6,6,6,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseOffset",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,11,1,7,2,4,6,1,4,8,1,7,4,4,4,1,1,,,,,0,,1,0,,,"0.18",4,4,4,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseOrderBy",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.deparseOrderBy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,2,9,0,5,6,1,7,10,3,9,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.getBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.getExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.setBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.setExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,119,15,104,9,71,0,33,35389440,8,49,77,13,75,31,31,31,1,0,,,,,0,,4,0,,,"0.00",31,31,31,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,2,8,0,6,6,1,5,9,1,8,5,5,5,1,1,,,,,0,,1,0,,,"0.00",5,5,5,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,2,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,0,25,5,17,0,11,16,1,14,19,5,18,6,6,7,1,0,,,,,0,,3,0,,,"0.00",6,6,7,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,4,7,0,5,4,1,5,8,3,7,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,3,8,0,6,1,0,2,3,2,2,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,17,3,13,0,8,3,0,6,9,2,8,3,3,4,1,2,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,1,10,2,6,0,6,2,0,5,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,1,24,3,15,0,14,48,2,11,18,3,16,7,7,7,1,0,,,,,0,,2,0,,,"0.00",7,7,7,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,2,8,0,7,4,1,6,9,1,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.SelectDeParser.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"net.sf.jsqlparser.util.deparser.UpdateDeParser",3,3,3,1,13,0,11,1,1,9,9,0,,0,0,,,,6,3,6,6,0,0,0,6,,97,12,71,14,42,14,,,,35,55,17,42,,,,,,13,13,13,1,,1,4,,44,44,"0.20",18,18,18,6
+Public Constructor,"net.sf.jsqlparser.util.deparser.UpdateDeParser.UpdateDeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,5,1,3,10,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.UpdateDeParser.deParse",,,,,,,,,,,,,,,,,,,,,,,,,,,4,54,5,49,5,35,0,17,150,2,25,39,8,35,13,13,13,1,2,,,,,0,,4,0,,,"0.00",13,13,13,1
+Public Method,"net.sf.jsqlparser.util.deparser.UpdateDeParser.getBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.UpdateDeParser.getExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.UpdateDeParser.setBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sf.jsqlparser.util.deparser.UpdateDeParser.setExpressionVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

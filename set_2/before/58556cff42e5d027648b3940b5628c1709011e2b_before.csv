@@ -1,0 +1,105 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ConcurrentLRUHashMap.java",2,2,2,1,13,0,8,4,,,,,12,3,9,77,,77,74,26,77,,25,3,0,49,,1325,137,720,219,439,480,,,,404,594,236,379,,,,,,13,13,13,10,,,5,,,,"0.67",173,173,191,116
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.firefly",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.firefly.utils",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.firefly.utils.collection",2,2,2,1,13,0,8,4,,,,,12,3,9,,1,,74,26,77,,25,3,0,49,,1325,137,720,219,439,480,,,,404,594,236,379,,,,,,13,13,13,10,,,5,,,,"0.67",173,173,191,116
+Public Generic Class,"com.firefly.utils.collection.ConcurrentLRUHashMap",2,2,2,1,18,0,8,9,3,20,20,0,,1,7,,,,27,6,28,28,1,3,0,24,,1316,135,713,212,439,480,,,,397,587,229,379,,,,,,13,13,13,10,,2,4,,91,66,"0.67",76,76,80,49
+Public Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.ConcurrentLRUHashMap",,,,,,,,,,,,,,,,,,,,,,,,,,,11,34,3,18,4,14,13,6,16,1,12,17,4,13,5,5,7,1,0,,,,,0,,1,0,,,"0.72",5,5,7,1
+Public Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.ConcurrentLRUHashMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.ConcurrentLRUHashMap",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.ConcurrentLRUHashMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.ConcurrentLRUHashMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntryIterator",1,1,1,1,4,0,4,0,2,3,3,0,,0,0,,,,1,0,1,7,0,0,0,1,,7,0,7,4,2,0,,,,2,4,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntryIterator.next",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,5,0,5,5,0,0,0,5,,28,4,24,9,12,0,,,,10,18,9,10,,,,,,2,2,3,1,,2,1,,0,0,"0.00",7,7,8,5
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,3,5,0,5,2,0,4,6,3,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,4,0,4,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.EntrySet.size",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Final Generic Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry",1,1,1,1,5,0,5,0,1,2,2,0,,1,0,,,,1,7,2,2,2,0,0,0,,41,6,20,11,6,15,,,,13,16,10,6,,,,,,1,1,1,1,,1,0,,64,64,"0.75",2,2,2,2
+Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.HashEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,0,7,1,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Static Final Generic Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.newArray",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.newArray.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashEntry.newArray.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Abstract Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator",2,2,2,2,7,0,7,0,1,5,5,3,,0,0,,,,6,5,6,6,3,0,0,3,,59,8,51,13,27,0,,,,25,41,14,27,,,,,,8,8,9,8,,1,4,,66,46,"0.00",15,15,16,13
+Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.HashIterator",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.advance",,,,,,,,,,,,,,,,,,,,,,,,,,,11,22,2,20,2,13,0,4,12,1,8,16,3,13,8,8,9,8,9,,,,,9,,4,9,,,"0.00",8,8,9,8
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.hasMoreElements",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.hasNext",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.nextEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,1,5,0,3,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.HashIterator.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,4,0,2,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeyIterator",1,1,1,1,3,0,3,0,3,2,2,0,,0,0,,,,2,0,2,8,0,0,0,2,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeyIterator.next",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeyIterator.nextElement",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,5,0,5,5,0,0,0,5,,21,4,17,6,5,0,,,,5,11,6,5,,,,,,1,1,1,1,,2,0,,0,0,"0.00",5,5,5,5
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.KeySet.size",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Final Generic Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment",3,3,3,1,19,0,14,3,2,4,4,0,,1,1,,,,17,8,18,18,18,0,0,0,,462,41,289,75,204,141,,,,163,228,78,158,,,,,,8,8,8,5,,2,5,,77,65,"0.49",54,54,66,29
+Anonymous Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.(Anon_1)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,9,1,8,1,6,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.(Anon_1).eliminated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.(Anon_1).getNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.Segment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,1,10,1,8,0,10,2,0,7,9,1,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.addBefore",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,6,1,4,8,2,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,10,1,4,3,0,8,12,3,9,3,3,3,1,0,,,,,0,,3,0,,,"0.07",3,3,3,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.containsKey",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,2,12,1,6,4,1,7,12,2,11,4,4,5,4,4,,,,,4,,4,4,,,"0.06",4,4,5,4
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.containsValue",,,,,,,,,,,,,,,,,,,,,,,,,,,7,23,0,23,4,16,2,6,7,1,13,20,6,14,6,6,6,5,6,,,,,6,,5,6,,,"0.09",6,6,6,5
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.get",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,0,22,4,15,3,8,5,1,9,15,3,13,5,5,6,5,9,,,,,9,,4,9,,,"0.14",5,5,6,5
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.getFirst",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,4,2,2,3,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.moveNodeToHeader",,,,,,,,,,,,,,,,,,,,,,,,,,,8,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Static Final Generic Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.newArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.newArray.K",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.newArray.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.put",,,,,,,,,,,,,,,,,,,,,,,,,,,15,37,1,34,9,29,4,12,12,1,21,27,8,20,5,5,7,1,1,,,,,0,,3,0,,,"0.12",5,5,7,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.readValueUnderLock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,8,1,5,6,4,1,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.75",2,2,2,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.rehash",,,,,,,,,,,,,,,,,,,,,,,,,,,11,64,7,40,15,32,17,6,10,1,29,37,17,22,8,8,8,1,2,,,,,0,,5,0,,,"0.42",8,8,8,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,15,41,1,33,9,27,8,10,8,1,22,28,10,18,5,5,8,1,0,,,,,0,,4,0,,,"0.24",5,5,8,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.removeEldestEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,9,10,0,7,2,4,3,2,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.43",2,2,2,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.removeNode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,4,1,2,5,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,1,17,3,13,0,7,4,1,9,13,3,11,3,3,6,1,0,,,,,0,,2,0,,,"0.00",3,3,6,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,1,17,3,13,0,7,4,1,9,13,3,11,3,3,5,1,0,,,,,0,,2,0,,,"0.00",3,3,5,1
+Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Segment.setTable",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,4,1,2,4,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+TypeVariable,"com.firefly.utils.collection.ConcurrentLRUHashMap.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.ValueIterator",1,1,1,1,3,0,3,0,3,2,2,0,,0,0,,,,2,0,2,8,0,0,0,2,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.ValueIterator.next",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.ValueIterator.nextElement",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.Values",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,4,0,4,4,0,0,0,4,,17,3,14,5,4,0,,,,4,9,5,4,,,,,,1,1,1,1,,2,0,,0,0,"0.00",4,4,4,4
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Values.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Values.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Values.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.Values.size",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Final Class,"com.firefly.utils.collection.ConcurrentLRUHashMap.WriteThroughEntry",1,1,1,1,9,0,5,4,1,2,2,0,,0,1,,,,2,0,2,2,1,0,0,1,,30,2,13,5,7,15,,,,6,10,5,6,,,,,,2,2,2,1,,2,1,,0,0,"1.15",3,3,3,2
+Constructor,"com.firefly.utils.collection.ConcurrentLRUHashMap.WriteThroughEntry.WriteThroughEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.WriteThroughEntry.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,7,2,5,8,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"1.14",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,4,1,2,3,1,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.75",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,0,3,1,1,15,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"5.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.containsKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,4,2,2,11,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.containsValue",,,,,,,,,,,,,,,,,,,,,,,,,,,7,58,3,40,6,30,15,4,234,2,28,42,12,30,13,13,13,10,12,,,,,12,,4,12,,,"0.38",13,13,13,10
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.elements",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.entrySet",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,4,2,2,16,2,1,0,2,3,2,1,2,2,2,1,0,,,,,0,,0,0,,,"4.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,4,2,2,13,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"3.25",1,1,1,1
+Private Static Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.hash",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,0,8,1,6,9,1,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"1.12",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.isEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,34,0,18,4,13,16,1,9,1,11,17,6,11,6,6,7,6,7,,,,,7,,3,7,,,"0.89",6,6,7,6
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.keySet",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,4,2,2,16,2,1,0,2,3,2,1,2,2,2,1,0,,,,,0,,0,0,,,"4.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.keys",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.put",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,6,2,4,3,5,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.putAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,4,1,2,8,4,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"2.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.putIfAbsent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,6,2,4,3,5,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Private Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.readObject",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,2,15,5,9,9,4,6,1,10,12,4,10,4,4,4,3,2,,,,,2,,2,2,,,"0.60",4,4,4,3
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,4,2,2,11,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,6,2,4,6,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,6,2,4,6,5,2,0,3,5,2,4,2,2,3,1,0,,,,,0,,1,0,,,"1.00",2,2,3,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,6,2,4,8,5,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.33",2,2,2,1
+Final Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.segmentFor",,,,,,,,,,,,,,,,,,,,,,,,,,,12,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.size",,,,,,,,,,,,,,,,,,,,,,,,,,,10,49,1,39,6,31,11,3,306,2,31,43,12,31,12,12,12,6,5,,,,,5,,4,4,,,"0.28",12,12,12,6
+Public Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.values",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,4,2,2,16,2,1,0,2,3,2,1,2,2,2,1,0,,,,,0,,0,0,,,"4.00",2,2,2,1
+Private Method,"com.firefly.utils.collection.ConcurrentLRUHashMap.writeObject",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,1,20,3,14,10,4,4,1,15,20,6,14,4,4,4,1,0,,,,,0,,4,0,,,"0.50",4,4,4,1

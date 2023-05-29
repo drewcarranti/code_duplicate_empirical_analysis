@@ -1,0 +1,109 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Constants.java",0,0,0,0,0,0,0,0,,,,,1,0,19,0,,0,0,0,0,,0,0,0,0,,60,26,22,21,19,13,,,,20,21,21,0,,,,,,0,0,0,0,,,0,,,,"0.59",0,0,0,0
+File,"JsonUtils.java",4,4,4,1,23,0,14,9,,,,,2,5,0,5,,5,0,0,5,,0,0,0,5,,151,10,86,30,54,55,,,,49,60,30,35,,,,,,4,4,4,1,,,1,,,,"0.64",20,20,20,5
+File,"PropertiesRequest.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,1,3,,0,0,0,3,,25,9,13,6,3,3,,,,5,9,6,3,,,,,,1,1,1,1,,,0,,,,"0.23",3,3,3,3
+File,"PropertiesResult.java",1,1,1,1,4,0,2,1,,,,,1,1,0,5,,5,4,1,5,,0,0,0,5,,54,14,21,11,4,19,,,,9,15,11,4,,,,,,1,1,1,1,,,0,,,,"0.90",5,5,5,5
+File,"RequestType.java",0,0,0,0,0,0,0,0,,,,,1,0,0,2,,0,2,2,2,,0,0,0,2,,8,3,5,4,0,0,,,,2,2,2,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"ResultEnvelope.java",1,1,1,1,5,0,3,1,,,,,1,1,6,11,,11,10,4,11,,0,0,0,11,,108,27,57,27,26,24,,,,27,39,26,14,,,,,,1,1,1,1,,,0,,,,"0.42",11,11,11,11
+File,"UpdateInventoryRequest.java",1,1,1,1,10,1,8,0,,,,,1,0,2,9,,9,9,3,9,,0,0,0,9,,141,32,90,30,53,19,,,,55,74,32,48,,,,,,7,7,7,1,,,5,,,,"0.21",15,15,15,9
+File,"UpdateInventoryResult.java",1,1,1,1,4,0,2,1,,,,,1,1,0,5,,5,4,1,5,,0,0,0,5,,46,13,20,10,4,13,,,,8,14,10,4,,,,,,1,1,1,1,,,0,,,,"0.65",5,5,5,5
+File,"UpdateMojo.java",2,2,2,1,15,1,8,5,,,,,1,0,0,6,,6,6,5,6,,0,5,0,1,,163,25,69,27,35,69,,,,36,50,27,29,,,,,,4,4,4,1,,,2,,,,"1.00",13,13,15,6
+File,"UpdateService.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,3,3,0,3,,3,0,0,0,,18,6,12,11,0,0,,,,10,11,11,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+File,"UpdateServiceImpl.java",2,2,2,1,16,1,10,4,,,,,1,1,1,11,,11,10,1,11,,0,6,1,4,,244,38,150,67,85,56,,,,95,117,64,68,,,,,,5,5,5,1,,,1,,,,"0.37",27,27,27,11
+File,"Updater.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,21,6,8,7,0,7,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"0.88",0,0,0,0
+File,"UpdaterImpl.java",1,1,1,1,13,1,7,4,,,,,1,0,0,10,,10,10,5,10,,0,7,0,3,,192,37,97,47,43,58,,,,57,78,47,42,,,,,,4,4,4,1,,,3,,,,"0.60",18,18,18,10
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.wss",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.wss.agent",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.wss.agent.maven",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.wss.agent.maven.plugin",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.wss.agent.maven.plugin.update",1,1,2,1,14,1,7,5,,,,,4,0,19,,4,,18,10,18,,2,12,0,4,,436,94,196,102,97,147,,,,119,156,102,71,,,,,,4,4,4,1,,,3,,,,"0.75",31,31,33,16
+Public Class,"com.wss.agent.maven.plugin.update.Constants",0,0,0,0,0,0,0,0,1,1,1,0,,0,19,,,,0,0,0,0,0,0,0,0,,58,25,21,20,19,13,,,,19,20,20,0,,,,,,0,0,0,0,,1,0,,0,0,"0.62",0,0,0,0
+Public Class,"com.wss.agent.maven.plugin.update.UpdateMojo",2,2,2,1,15,1,8,5,1,13,13,0,,0,0,,,,6,5,6,6,0,5,0,1,,151,22,60,18,35,69,,,,27,41,18,29,,,,,,4,4,4,1,,2,2,,76,60,"1.15",13,13,15,6
+Private Method,"com.wss.agent.maven.plugin.update.UpdateMojo.doExecute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,4,1,2,4,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.wss.agent.maven.plugin.update.UpdateMojo.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,1,7,0,4,3,0,3,6,1,5,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdateMojo.handleError",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,2,12,3,8,7,5,3,0,5,8,3,7,3,3,3,1,1,,,,,0,,2,0,,,"0.58",3,3,3,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdateMojo.isStandAlonePom",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,5,1,3,6,5,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"1.20",1,1,3,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdateMojo.update",,,,,,,,,,,,,,,,,,,,,,,,,,,4,20,3,10,5,8,7,12,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.70",1,1,1,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdateMojo.validateInputs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,2,11,1,6,8,1,8,1,3,7,1,6,4,4,4,1,0,,,,,0,,1,0,,,"0.73",4,4,4,1
+Public Interface,"com.wss.agent.maven.plugin.update.Updater",0,0,0,0,0,0,0,0,0,3,3,1,,0,0,,,,2,0,2,2,2,0,0,0,,8,3,4,3,0,1,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.25",0,0,0,0
+Abstract Method,"com.wss.agent.maven.plugin.update.Updater.setLog",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"com.wss.agent.maven.plugin.update.Updater.update",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"com.wss.agent.maven.plugin.update.UpdaterImpl",1,1,1,1,13,1,7,4,2,19,19,0,,0,0,,,,10,5,10,10,0,7,0,3,,171,33,80,30,43,58,,,,40,61,30,42,,,,,,4,4,4,1,,1,3,,84,76,"0.72",18,18,18,10
+Public Constructor,"com.wss.agent.maven.plugin.update.UpdaterImpl.UpdaterImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,5,1,3,4,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.logDebug",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,5,1,2,5,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.processChildren",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,1,9,3,4,5,2,3,0,2,6,3,4,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.processProject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,8,2,6,5,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.62",1,1,1,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.setCoordinates",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,7,2,4,8,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.14",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.setDependencies",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,8,3,5,6,4,2,0,4,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.75",2,2,2,1
+Public Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.setLog",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.setProjectToken",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,12,4,7,6,5,4,1,4,8,4,7,4,4,4,1,0,,,,,0,,3,0,,,"0.50",4,4,4,1
+Private Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.setProjects",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,3,7,3,4,6,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1
+Public Method,"com.wss.agent.maven.plugin.update.UpdaterImpl.update",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,5,9,4,7,3,7,1,0,7,8,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Package,"com.wss.agent.maven.plugin.update.service",2,2,2,1,16,1,10,4,,,,,2,1,1,,2,,13,1,14,,3,6,1,4,,262,44,162,78,85,56,,,,105,128,75,68,,,,,,5,5,5,1,,,1,,,,"0.35",27,27,27,11
+Public Interface,"com.wss.agent.maven.plugin.update.service.UpdateService",0,0,0,0,0,0,0,0,0,6,6,1,,0,0,,,,3,0,3,3,3,0,0,0,,8,3,5,4,0,0,,,,3,4,4,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.wss.agent.maven.plugin.update.service.UpdateService.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"com.wss.agent.maven.plugin.update.service.UpdateService.setLog",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"com.wss.agent.maven.plugin.update.service.UpdateService.updateInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl",2,2,2,1,16,1,10,4,2,30,30,0,,1,1,,,,10,1,11,11,0,6,1,4,,212,34,122,39,85,56,,,,67,89,36,68,,,,,,5,5,5,1,,1,1,,86,68,"0.46",27,27,27,11
+Protected Constructor,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.UpdateServiceImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,15,2,12,0,3,5,1,7,9,2,7,5,5,5,1,10,,,,,0,,1,0,,,"0.00",5,5,5,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.getResultData",,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,3,14,6,11,12,6,3,0,9,12,6,10,3,3,3,1,1,,,,,0,,1,0,,,"0.86",3,3,3,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.logDebug",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,5,1,2,5,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.readResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,1,10,5,7,9,6,2,0,5,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.90",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.sendRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,2,10,3,7,5,2,2,0,5,7,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.serviceProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,5,18,7,14,3,9,2,0,13,15,6,13,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Private Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.serviceUpdate",,,,,,,,,,,,,,,,,,,,,,,,,,,13,37,5,20,7,16,12,13,2,0,15,17,6,15,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Public Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.setLog",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.maven.plugin.update.service.UpdateServiceImpl.updateInventory",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,15,2,12,0,3,5,1,7,9,2,7,5,5,5,1,10,,,,,0,,1,0,,,"0.00",5,5,5,1
+Package,"com.wss.agent.request",1,1,1,0,5,0,4,1,,,,,6,3,8,,6,,32,12,35,,0,0,0,35,,382,98,206,88,90,78,,,,106,153,87,73,,,,,,7,7,7,1,,,5,,,,"0.38",39,39,39,33
+Public Class,"com.wss.agent.request.PropertiesRequest",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,3,1,3,3,0,0,0,3,,23,8,12,5,3,3,,,,4,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.25",3,3,3,3
+Public Constructor,"com.wss.agent.request.PropertiesRequest.PropertiesRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.PropertiesRequest.getToken",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.PropertiesRequest.setToken",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.wss.agent.request.PropertiesResult",1,1,1,1,4,0,2,1,1,4,4,0,,1,0,,,,4,1,5,5,0,0,0,5,,47,11,17,7,4,19,,,,5,11,7,4,,,,,,1,1,1,1,,1,0,,40,40,"1.12",5,5,5,5
+Public Constructor,"com.wss.agent.request.PropertiesResult.PropertiesResult",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,2,1,0,4,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"com.wss.agent.request.PropertiesResult.PropertiesResult",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.wss.agent.request.PropertiesResult.fromJSON",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.PropertiesResult.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.PropertiesResult.setProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Enum Type,"com.wss.agent.request.RequestType",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,2,2,2,0,0,0,2,,6,2,4,3,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.wss.agent.request.RequestType.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.wss.agent.request.RequestType.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Class,"com.wss.agent.request.ResultEnvelope",1,1,1,1,5,0,3,1,1,5,5,0,,1,6,,,,10,4,11,11,0,0,0,11,,103,25,54,24,26,24,,,,24,36,23,14,,,,,,1,1,1,1,,1,0,,68,68,"0.44",11,11,11,11
+Public Constructor,"com.wss.agent.request.ResultEnvelope.ResultEnvelope",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,2,1,0,4,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"com.wss.agent.request.ResultEnvelope.ResultEnvelope",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,5,1,3,7,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.40",1,1,1,1
+Public Static Method,"com.wss.agent.request.ResultEnvelope.fromJSON",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.getData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.getEnvelopeVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.getMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.getStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.setData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.setMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.setStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.ResultEnvelope.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,2,11,3,8,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.wss.agent.request.UpdateInventoryRequest",1,1,1,1,10,1,8,0,1,9,9,0,,0,2,,,,9,3,9,9,0,0,0,9,,131,29,83,23,53,19,,,,48,67,25,48,,,,,,7,7,7,1,,1,5,,55,55,"0.23",15,15,15,9
+Public Constructor,"com.wss.agent.request.UpdateInventoryRequest.UpdateInventoryRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,1,5,1,3,4,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Constructor,"com.wss.agent.request.UpdateInventoryRequest.UpdateInventoryRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,2,1,0,4,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.getProjects",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.getTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.getToken",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.setProjects",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.setTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.setToken",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryRequest.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,5,59,8,51,9,42,0,11,11,1,34,44,11,39,7,7,7,1,2,,,,,0,,5,0,,,"0.00",7,7,7,1
+Public Class,"com.wss.agent.request.UpdateInventoryResult",1,1,1,1,4,0,2,1,1,3,3,0,,1,0,,,,4,1,5,5,0,0,0,5,,39,10,16,7,4,13,,,,5,11,7,4,,,,,,1,1,1,1,,1,0,,40,40,"0.81",5,5,5,5
+Public Constructor,"com.wss.agent.request.UpdateInventoryResult.UpdateInventoryResult",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,2,1,0,4,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"com.wss.agent.request.UpdateInventoryResult.UpdateInventoryResult",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.wss.agent.request.UpdateInventoryResult.fromJSON",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryResult.getResult",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.wss.agent.request.UpdateInventoryResult.setResult",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.wss.agent.utils",4,4,4,1,23,0,14,9,,,,,2,5,0,,1,,0,0,5,,0,0,0,5,,151,10,86,30,54,55,,,,49,60,30,35,,,,,,4,4,4,1,,,1,,,,"0.64",20,20,20,5
+Public Class,"com.wss.agent.utils.JsonUtils",4,4,4,1,23,0,14,9,1,10,10,0,,5,0,,,,0,0,5,5,0,0,0,5,,133,6,72,16,54,55,,,,35,46,16,35,,,,,,4,4,4,1,,1,1,,0,0,"0.76",20,20,20,5
+Public Static Method,"com.wss.agent.utils.JsonUtils.parseProjectInfosJson",,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,0,14,3,11,10,2,4,1,7,9,3,7,4,4,4,1,6,,,,,0,,1,0,,,"0.71",4,4,4,1
+Anonymous Class,"com.wss.agent.utils.JsonUtils.parseProjectInfosJson.(Anon_1)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Static Method,"com.wss.agent.utils.JsonUtils.parsePropertiesJson",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,0,14,3,11,10,2,4,1,7,9,3,7,4,4,4,1,6,,,,,0,,1,0,,,"0.71",4,4,4,1
+Public Static Method,"com.wss.agent.utils.JsonUtils.parseResultEnvelopeJson",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,0,14,3,11,11,2,4,1,7,9,3,7,4,4,4,1,6,,,,,0,,1,0,,,"0.79",4,4,4,1
+Public Static Method,"com.wss.agent.utils.JsonUtils.parseUpdateInventoryResultJson",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,0,14,3,11,11,2,4,1,7,9,3,7,4,4,4,1,6,,,,,0,,1,0,,,"0.79",4,4,4,1
+Public Static Method,"com.wss.agent.utils.JsonUtils.toJson",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,0,14,3,10,6,2,4,1,7,9,3,7,4,4,4,1,6,,,,,0,,1,0,,,"0.43",4,4,4,1

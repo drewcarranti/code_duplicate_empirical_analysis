@@ -1,0 +1,35 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractSolver.java",1,1,1,1,8,0,4,3,,,,,1,0,0,11,,14,14,7,14,,0,3,2,9,,148,19,68,29,28,61,,,,35,53,30,25,,,,,,2,2,2,1,,,1,,,,"0.90",15,15,15,11
+File,"LocalSearchSolver.java",1,1,1,1,8,0,8,0,,,,,1,0,0,2,,3,3,1,3,,0,0,1,2,,31,8,23,11,10,0,,,,12,16,9,8,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"SimulatedAnnealingSolver.java",1,1,1,1,5,0,5,0,,,,,1,0,0,4,,4,4,2,4,,0,0,1,3,,35,8,27,16,6,0,,,,11,16,10,6,,,,,,1,1,1,1,,,0,,,,"0.00",4,4,4,4
+Package,"de",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.mh4j",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"de.mh4j.solver",1,1,1,1,8,0,4,3,,,,,1,0,0,,1,,14,7,14,,0,3,2,9,,148,19,68,29,28,61,,,,35,53,30,25,,,,,,2,2,2,1,,,1,,,,"0.90",15,15,15,11
+Public Abstract Generic Class,"de.mh4j.solver.AbstractSolver",1,1,1,1,8,0,4,3,2,7,7,1,,0,0,,,,14,7,14,14,0,3,2,9,,139,16,62,23,28,61,,,,29,47,24,25,,,,,,2,2,2,1,,1,1,,84,72,"0.98",15,15,15,11
+Public Constructor,"de.mh4j.solver.AbstractSolver.AbstractSolver",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Constructor,"de.mh4j.solver.AbstractSolver.AbstractSolver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,2,3,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+TypeVariable,"de.mh4j.solver.AbstractSolver.GenericSolutionType",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"de.mh4j.solver.AbstractSolver.addStateListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Abstract Method,"de.mh4j.solver.AbstractSolver.doInitialize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Protected Abstract Method,"de.mh4j.solver.AbstractSolver.doStep",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Public Method,"de.mh4j.solver.AbstractSolver.getCurrentSolution",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"de.mh4j.solver.AbstractSolver.getNumberOfSteps",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Abstract Method,"de.mh4j.solver.AbstractSolver.hasFinished",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Private Method,"de.mh4j.solver.AbstractSolver.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"de.mh4j.solver.AbstractSolver.notifySolverReset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"de.mh4j.solver.AbstractSolver.notifyStateChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"de.mh4j.solver.AbstractSolver.reset",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,5,1,3,6,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Method,"de.mh4j.solver.AbstractSolver.run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,6,2,2,3,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"de.mh4j.solver.AbstractSolver.step",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,8,1,5,13,4,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"1.62",2,2,2,1
+Package,"de.mh4j.solver.simulatedAnnealing",1,1,1,1,6,0,6,0,,,,,2,0,0,,2,,7,3,7,,0,0,2,5,,66,16,50,27,16,0,,,,23,32,19,14,,,,,,2,2,2,1,,,1,,,,"0.00",7,7,7,6
+Public Abstract Generic Class,"de.mh4j.solver.simulatedAnnealing.LocalSearchSolver",1,1,1,1,8,0,8,0,1,1,1,0,,0,0,,,,3,1,3,17,0,0,1,2,,26,6,20,8,10,0,,,,9,13,6,8,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+TypeVariable,"de.mh4j.solver.simulatedAnnealing.LocalSearchSolver.GenericSolutionType",0,0,0,0,0,0,0,0,0,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Protected Abstract Method,"de.mh4j.solver.simulatedAnnealing.LocalSearchSolver.createRandomNeighbor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"de.mh4j.solver.simulatedAnnealing.LocalSearchSolver.doInitialize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.mh4j.solver.simulatedAnnealing.LocalSearchSolver.doStep",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,1,12,3,8,0,6,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Generic Class,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,4,2,4,4,0,0,1,3,,30,6,24,13,6,0,,,,8,13,7,6,,,,,,1,1,1,1,,2,0,,50,25,"0.00",4,4,4,4
+TypeVariable,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver.GenericSolutionType",0,0,0,0,0,0,0,0,0,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver.SimulatedAnnealingSolver",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver.SimulatedAnnealingSolver",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,3,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver.createRandomNeighbor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"de.mh4j.solver.simulatedAnnealing.SimulatedAnnealingSolver.hasFinished",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

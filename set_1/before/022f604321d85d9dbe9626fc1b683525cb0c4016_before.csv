@@ -1,0 +1,88 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CssPrinter.java",2,1,2,1,11,1,9,0,,,,,1,0,1,48,,48,48,1,48,,0,15,2,31,,680,145,524,119,352,11,,,,294,394,125,288,,,,,,43,5,43,39,,,3,,,,"0.02",140,93,143,89
+File,"ExtendedStringBuilder.java",1,1,1,1,5,0,4,0,,,,,1,0,3,24,,24,24,3,24,,0,2,0,22,,166,32,134,37,74,0,,,,74,106,37,72,,,,,,3,3,3,1,,,2,,,,"0.00",31,31,32,24
+File,"FunctionsTest.java",1,1,1,1,3,0,3,0,,,,,1,1,1,2,,2,1,0,2,,0,0,0,2,,23,8,15,10,3,0,,,,8,11,9,2,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.sommeri",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.sommeri.less4j",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.sommeri.less4j.compiler",1,1,1,1,3,0,3,0,,,,,1,1,1,,1,,1,0,2,,0,0,0,2,,23,8,15,10,3,0,,,,8,11,9,2,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+Public Class,"com.github.sommeri.less4j.compiler.FunctionsTest",1,1,1,1,3,0,3,0,1,5,5,0,,1,1,,,,1,0,2,2,0,0,0,2,,14,4,10,5,3,0,,,,3,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"com.github.sommeri.less4j.compiler.FunctionsTest.FunctionsTest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"com.github.sommeri.less4j.compiler.FunctionsTest.allTestsParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.sommeri.less4j.core",1,1,1,1,5,0,4,0,,,,,1,0,3,,1,,24,3,24,,0,2,0,22,,166,32,134,37,74,0,,,,74,106,37,72,,,,,,3,3,3,1,,,2,,,,"0.00",31,31,32,24
+Public Class,"com.github.sommeri.less4j.core.ExtendedStringBuilder",1,1,1,1,5,0,4,0,1,8,8,0,,0,3,,,,24,3,24,24,0,2,0,22,,159,29,130,33,74,0,,,,70,102,33,72,,,,,,3,3,3,1,,1,2,,62,20,"0.00",31,31,32,24
+Public Constructor,"com.github.sommeri.less4j.core.ExtendedStringBuilder.ExtendedStringBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,26,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.append",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.appendIgnoreNull",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,7,1,4,0,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.decreaseIndentationLevel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.endsWithSeparator",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,4,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.ensureNewLine",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.ensureSeparator",,,,,,,,,,,,,,,,,,,,,,,,,,,16,7,1,6,1,4,0,4,2,0,3,5,1,4,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.handleIndentation",,,,,,,,,,,,,,,,,,,,,,,,,,,17,8,0,8,1,4,0,3,3,0,4,7,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.increaseIndentationLevel",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.newLine",,,,,,,,,,,,,,,,,,,,,,,,,,,8,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.onNewLine",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.core.ExtendedStringBuilder.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.github.sommeri.less4j.utils",2,1,2,1,11,1,9,0,,,,,1,0,1,,1,,48,1,48,,0,15,2,31,,680,145,524,119,352,11,,,,294,394,125,288,,,,,,43,5,43,39,,,3,,,,"0.02",140,93,143,89
+Public Class,"com.github.sommeri.less4j.utils.CssPrinter",2,1,2,1,11,1,9,0,1,54,54,0,,0,1,,,,48,1,48,48,0,15,2,31,,628,142,475,70,352,11,,,,245,345,76,288,,,,,,43,5,43,39,,1,3,,25,4,"0.02",140,93,143,89
+Public Constructor,"com.github.sommeri.less4j.utils.CssPrinter.CssPrinter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.append",,,,,,,,,,,,,,,,,,,,,,,,,,,20,17,1,8,2,6,8,5,2,0,5,7,2,6,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendAll",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,3,0,2,3,0,1,5,2,3,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendAllChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendBody",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,2,16,3,13,0,15,3,0,11,14,3,13,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendCharsetDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.github.sommeri.less4j.utils.CssPrinter.appendColorExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,9,2,6,1,4,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.11",2,2,2,1
+Protected Method,"com.github.sommeri.less4j.utils.CssPrinter.appendComments",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,3,12,1,9,0,6,7,1,5,11,2,9,5,5,6,1,1,,,,,0,,2,0,,,"0.00",5,5,6,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendComposedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,1,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendCssClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendCssString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,2,10,1,8,0,8,4,1,6,9,1,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendEscapedSelector",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendEscapedValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendExpressionOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,6,23,4,17,2,14,2,7,4,1,9,11,2,10,4,2,4,1,6,,,,,0,,1,0,,,"0.12",4,2,4,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendFaultyExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendFontFace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,1,6,0,6,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendFunctionExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,1,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendIdSelector",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendIdentifierExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendKeyframes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,2,13,2,9,0,12,4,1,7,10,2,9,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendKeyframesName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMedia",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,2,21,4,17,0,16,6,1,14,19,5,17,4,4,5,1,0,,,,,0,,2,0,,,"0.00",4,4,5,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediaExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,1,7,0,6,2,0,6,8,1,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediaExpressionFeature",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediaQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,13,2,9,0,6,3,0,7,11,3,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMedium",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediumModifier",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,4,16,2,13,0,4,4,1,8,10,2,9,4,2,4,1,6,,,,,0,,1,0,,,"0.00",4,2,4,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediumType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendMediums",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,2,8,0,4,4,1,5,10,3,7,4,4,5,1,1,,,,,0,,2,0,,,"0.00",4,4,5,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendNamedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,1,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendNth",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,4,16,1,13,0,6,7,1,7,11,1,10,6,4,6,4,5,,,,,5,,2,5,,,"0.00",6,4,6,4
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendNumberExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,1,14,1,10,0,9,4,1,5,9,1,8,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendPseudoClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,1,7,0,7,2,0,6,8,1,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendPseudoElement",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,1,5,0,5,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendRuleset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,1,5,0,6,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSelector",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,11,1,8,0,7,4,1,6,9,1,8,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSelectorAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,1,6,0,8,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSelectorCombinator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,3,11,2,8,0,5,2,0,5,7,2,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSelectorOperator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,10,2,7,0,4,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSelectors",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,3,6,0,6,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSimpleSelector",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSimpleSelectorHead",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,1,6,0,7,3,0,3,6,1,5,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.appendSimpleSelectorTail",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,2,2,0,2,5,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.appendStyleSheet",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.sommeri.less4j.utils.CssPrinter.format",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,1,3,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.switchOnType",,,,,,,,,,,,,,,,,,,,,,,,,,,44,124,38,86,1,83,0,40,39,2,39,41,1,40,43,2,43,39,740,,,,,740,,1,740,,,"0.00",43,2,43,39
+Public Method,"com.github.sommeri.less4j.utils.CssPrinter.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

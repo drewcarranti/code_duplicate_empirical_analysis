@@ -1,0 +1,104 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"FieldProperty.java",2,1,2,1,7,0,7,0,,,,,1,0,0,11,,11,11,2,11,,1,1,0,9,,111,16,95,24,55,1,,,,36,57,24,35,,,,,,5,5,5,5,,,2,,,,"0.01",22,21,23,18
+File,"MethodProperty.java",2,2,2,1,9,0,8,0,,,,,1,0,0,10,,10,10,6,10,,1,1,0,8,,124,18,105,28,62,2,,,,48,69,28,43,,,,,,5,5,5,5,,,3,,,,"0.02",23,22,24,17
+File,"Property.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,9,9,0,9,,9,0,0,0,,81,11,13,12,0,57,,,,11,12,12,0,,,,,,0,0,0,0,,,0,,,,"4.38",0,0,0,0
+File,"Translator.java",3,3,3,1,15,0,12,2,,,,,1,0,0,13,,13,13,2,13,,1,8,0,4,,254,21,191,59,109,43,,,,72,118,52,77,,,,,,9,9,11,5,,,4,,,,"0.23",43,43,46,22
+File,"TranslatorPropertyResolutionTest.java",1,1,1,1,6,0,5,0,,,,,17,0,0,24,,24,24,11,24,,0,3,0,21,,244,45,198,101,68,1,,,,71,110,74,45,,,,,,1,1,1,1,,,0,,,,"0.01",24,24,24,24
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform.moo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.codiform.moo.translator",1,1,2,1,9,0,8,0,,,,,21,0,0,,5,,67,21,67,,12,13,0,42,,814,111,602,224,294,104,,,,238,366,190,200,,,,,,9,9,11,5,,,4,,,,"0.17",112,110,117,81
+Public Class,"com.codiform.moo.translator.FieldProperty",2,1,2,1,7,0,7,0,1,11,11,0,,0,0,,,,11,2,11,11,1,1,0,9,,100,13,87,16,55,1,,,,28,49,16,35,,,,,,5,5,5,5,,2,2,,50,40,"0.01",22,21,23,18
+Public Constructor,"com.codiform.moo.translator.FieldProperty.FieldProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.canSupportNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.codiform.moo.translator.FieldProperty.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.codiform.moo.translator.FieldProperty.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.codiform.moo.translator.FieldProperty.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.FieldProperty.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.codiform.moo.translator.FieldProperty.isAcceptableField",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,0,21,2,17,0,4,5,1,6,11,2,10,5,5,5,5,11,,,,,11,,2,11,,,"0.00",5,5,5,5
+Public Method,"com.codiform.moo.translator.FieldProperty.isExplicit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.codiform.moo.translator.FieldProperty.isProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,1,12,1,3,4,1,4,7,1,6,4,3,5,4,6,,,,,6,,2,6,,,"0.06",4,3,5,4
+Public Method,"com.codiform.moo.translator.FieldProperty.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,1,13,0,5,4,1,5,8,1,7,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Class,"com.codiform.moo.translator.MethodProperty",2,2,2,1,9,0,8,0,2,12,12,0,,0,0,,,,10,6,10,10,1,1,0,8,,112,15,96,19,62,2,,,,39,60,19,43,,,,,,5,5,5,5,,2,3,,75,71,"0.02",23,22,24,17
+Public Constructor,"com.codiform.moo.translator.MethodProperty.MethodProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,3,20,2,16,1,13,4,1,12,16,2,15,4,4,4,4,3,,,,,3,,1,3,,,"0.05",4,4,4,4
+Private Method,"com.codiform.moo.translator.MethodProperty.convertName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,5,0,6,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.codiform.moo.translator.MethodProperty.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.codiform.moo.translator.MethodProperty.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.codiform.moo.translator.MethodProperty.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.MethodProperty.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.MethodProperty.isExplicit",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"com.codiform.moo.translator.MethodProperty.isProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,1,14,1,2,5,1,5,9,1,8,5,4,5,5,8,,,,,8,,3,8,,,"0.06",5,4,5,5
+Public Method,"com.codiform.moo.translator.MethodProperty.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,1,16,0,5,5,1,6,9,1,8,5,5,5,1,6,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Interface,"com.codiform.moo.translator.Property",0,0,0,0,0,0,0,0,0,2,2,1,,0,0,,,,9,0,9,9,9,0,0,0,,74,9,11,10,0,54,,,,9,10,10,0,,,,,,0,0,0,0,,0,0,,0,0,"4.91",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.canSupportNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Generic Method,"com.codiform.moo.translator.Property.getAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+TypeVariable,"com.codiform.moo.translator.Property.getAnnotation.A",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getDeclaringClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getTranslationExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.isExplicit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.codiform.moo.translator.Property.shouldBeTranslated",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Generic Class,"com.codiform.moo.translator.Translator",3,3,3,1,15,0,12,2,1,26,26,0,,0,0,,,,13,2,13,13,1,8,0,4,,231,17,172,40,109,43,,,,53,99,33,77,,,,,,9,9,11,5,,1,4,,69,57,"0.25",43,43,46,22
+TypeVariable,"com.codiform.moo.translator.Translator.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"com.codiform.moo.translator.Translator.Translator",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,4,1,2,9,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.25",1,1,1,1
+Private Method,"com.codiform.moo.translator.Translator.assureSource",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,0,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.codiform.moo.translator.Translator.castAndUpdate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,5,2,2,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.40",1,1,1,1
+Public Method,"com.codiform.moo.translator.Translator.create",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,13,1,10,6,3,3,0,3,5,1,4,3,3,3,3,3,,,,,3,,1,3,,,"0.46",3,3,3,3
+Method,"com.codiform.moo.translator.Translator.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,3,6,1,5,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Private Method,"com.codiform.moo.translator.Translator.getPropertiesForClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,27,0,27,7,19,0,17,18,1,11,21,9,18,9,9,11,1,2,,,,,0,,4,0,,,"0.00",9,9,11,1
+Private Method,"com.codiform.moo.translator.Translator.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,2,4,0,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"com.codiform.moo.translator.Translator.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,14,2,7,0,6,5,1,2,8,2,6,5,5,5,1,1,,,,,0,,4,0,,,"0.00",5,5,5,1
+Private Method,"com.codiform.moo.translator.Translator.transform",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,19,3,13,0,8,6,1,6,12,1,11,6,6,6,5,4,,,,,4,,2,4,,,"0.00",6,6,6,5
+Private Method,"com.codiform.moo.translator.Translator.transformArray",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,1,23,4,18,0,12,4,1,6,10,3,9,4,4,4,4,4,,,,,4,,2,4,,,"0.00",4,4,4,4
+Private Method,"com.codiform.moo.translator.Translator.transformCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,3,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.Translator.update",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,0,16,4,10,12,4,6,1,5,10,4,7,4,4,4,1,0,,,,,0,,2,0,,,"0.75",4,4,4,1
+Private Generic Method,"com.codiform.moo.translator.Translator.updateProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,8,19,0,19,5,13,0,6,3,0,6,9,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+TypeVariable,"com.codiform.moo.translator.Translator.updateProperty.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest",1,1,1,1,9,0,9,0,1,27,27,0,,0,0,,,,11,0,11,11,0,3,0,8,,224,40,183,86,68,1,,,,56,95,59,45,,,,,,1,1,1,1,,1,0,,0,0,"0.01",11,11,11,11
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Alpha",0,0,0,0,0,0,0,0,1,1,1,3,,0,0,,,,0,1,0,0,0,0,0,0,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Beta",1,1,1,1,2,0,2,0,1,2,2,3,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,3,0,0,,,,0,2,2,0,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Beta.setBeta",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Charlie",0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,0,1,0,0,0,0,0,0,,4,0,4,3,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Delta",1,1,1,1,2,0,2,0,1,2,2,0,,0,0,,,,1,0,1,2,0,0,0,1,,5,0,5,3,0,0,,,,0,2,2,0,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Delta.setDelta",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Echo",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,1,1,1,0,0,0,1,,9,1,8,5,1,0,,,,2,4,3,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Echo.setEcho",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Foxtrot",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,1,1,1,1,0,0,0,1,,9,1,8,5,1,0,,,,2,4,3,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Foxtrot.setFoxtrot",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Golf",1,1,1,1,3,0,3,0,1,4,4,1,,0,0,,,,1,1,1,1,0,0,0,1,,10,1,9,6,1,0,,,,2,4,3,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Golf.setGolf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Hotel",1,1,1,1,4,0,4,0,1,4,4,1,,0,0,,,,1,1,1,1,0,0,0,1,,10,1,9,6,1,0,,,,2,4,3,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Hotel.setHotel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.India",0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,0,1,0,0,0,0,0,0,,4,0,4,3,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Juliet",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Juliet.setAlpha",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Kilo",0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,0,1,0,1,0,0,0,0,,4,0,4,3,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Lima",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,2,0,0,0,1,,6,0,6,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Lima.setBeta",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Mike",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,2,0,0,0,1,,6,0,6,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.Mike.setGolf",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.November",0,0,0,0,0,0,0,0,1,3,3,0,,0,0,,,,0,1,0,1,0,0,0,0,,5,0,5,4,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.getProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,9,5,0,5,3,3,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.getProperties.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.prefersExplicitAnnotationToSubclass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,1,10,4,6,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyFromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,14,1,10,0,1,1,0,4,7,4,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyFromClass.(Anon_1)",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,2,1,2,2,0,0,0,2,,13,2,11,0,9,0,,,,3,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyFromClass.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyFromClass.(Anon_1).matchesSafely",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,0,4,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyWithName",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,2,12,1,8,0,1,1,0,4,7,4,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyWithName.(Anon_2)",1,1,1,1,3,0,3,0,1,5,5,0,,0,0,,,,2,1,2,2,0,0,0,2,,11,2,9,0,7,0,,,,3,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyWithName.(Anon_2).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.propertyWithName.(Anon_2).matchesSafely",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesFieldAndMethodPropertyByAccessMode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,1,10,4,6,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesFieldAndMethodPropertyByExplicitAnnotationOverAccessMode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,1,10,4,6,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesFieldProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesFieldPropertiesInSuperclass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesMethodProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesMethodPropertiesInSuperclass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.codiform.moo.translator.TranslatorPropertyResolutionTest.resolvesPropertyInFavorOfSubclass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,3,16,4,12,0,6,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

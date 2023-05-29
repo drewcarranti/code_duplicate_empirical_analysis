@@ -1,0 +1,54 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ItemDisplay.java",2,2,2,1,8,0,8,0,,,,,1,0,0,23,,23,23,12,23,,2,1,0,20,,260,32,228,88,129,0,,,,133,182,90,125,,,,,,9,9,10,8,,,7,,,,"0.00",46,46,49,39
+File,"ItemDisplayFactory.java",4,4,4,2,16,0,16,0,,,,,2,0,0,20,,20,20,4,20,,1,0,0,19,,387,35,352,105,209,0,,,,162,263,114,193,,,,,,8,8,11,7,,,5,,,,"0.00",82,82,97,46
+File,"Makedisplay.java",6,6,7,1,37,1,36,0,,,,,1,0,0,1,,1,1,0,1,,1,0,0,0,,46,3,43,22,29,0,,,,26,33,21,25,,,,,,6,6,7,1,,,2,,,,"0.00",6,6,7,1
+Package,"regalowl",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"regalowl.hyperconomy",3,3,3,1,12,0,12,0,,,,,4,0,0,,3,,44,16,44,,4,1,0,39,,693,70,623,215,367,0,,,,321,478,225,343,,,,,,9,9,11,8,,,7,,,,"0.00",134,134,153,86
+Public Class,"regalowl.hyperconomy.ItemDisplay",2,2,2,1,8,0,8,0,1,19,19,0,,0,0,,,,23,12,23,23,2,1,0,20,,240,28,212,72,129,0,,,,117,166,74,125,,,,,,9,9,10,8,,1,7,,77,71,"0.00",46,46,49,39
+Constructor,"regalowl.hyperconomy.ItemDisplay.ItemDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,12,2,10,0,17,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"regalowl.hyperconomy.ItemDisplay.ItemDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,12,2,10,0,17,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.blockEntityPickup",,,,,,,,,,,,,,,,,,,,,,,,,,,9,16,0,16,5,10,0,8,5,1,6,11,5,10,5,5,7,5,4,,,,,4,,4,4,,,"0.00",5,5,7,5
+Public Method,"regalowl.hyperconomy.ItemDisplay.blockItemDrop",,,,,,,,,,,,,,,,,,,,,,,,,,,7,36,0,36,13,26,0,15,10,1,17,26,13,25,9,9,9,8,12,,,,,12,,7,12,,,"0.00",9,9,9,8
+Public Method,"regalowl.hyperconomy.ItemDisplay.clearDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,1,7,0,7,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.clearNearbyItems",,,,,,,,,,,,,,,,,,,,,,,,,,,4,27,0,27,6,17,0,9,15,1,9,20,8,15,9,9,10,6,3,,,,,3,,5,3,,,"0.00",9,9,10,6
+Public Method,"regalowl.hyperconomy.ItemDisplay.deleteDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getBaseBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getEntityId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getItem",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getItemBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getWorld",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getX",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getY",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.getZ",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.makeDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,16,11,0,11,4,9,0,13,1,0,9,10,4,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.refresh",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.removeItem",,,,,,,,,,,,,,,,,,,,,,,,,,,10,5,0,5,1,2,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"regalowl.hyperconomy.ItemDisplay.setProtectedBlocks",,,,,,,,,,,,,,,,,,,,,,,,,,,7,9,0,9,5,7,0,4,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplay.storeDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,0,19,6,15,0,13,3,0,13,16,6,14,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Class,"regalowl.hyperconomy.ItemDisplayFactory",4,4,5,2,16,0,16,0,2,29,29,0,,0,0,,,,19,4,19,19,1,0,0,18,,358,33,325,78,209,0,,,,135,236,87,193,,,,,,8,8,11,7,,1,5,,52,50,"0.00",80,80,95,45
+Constructor,"regalowl.hyperconomy.ItemDisplayFactory.ItemDisplayFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,1,9,0,13,3,0,6,9,1,8,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.cancelRefreshThread",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.isDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,13,1,8,0,6,4,1,4,9,2,7,4,4,4,4,5,,,,,5,,3,5,,,"0.00",4,4,4,4
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.loadDisplays",,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,0,30,13,24,0,22,5,1,19,24,13,23,5,5,5,1,1,,,,,0,,4,0,,,"0.00",5,5,5,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onBlockBreakEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,3,9,0,10,4,1,5,10,3,8,4,4,5,1,1,,,,,0,,3,0,,,"0.00",4,4,5,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onBlockPistonExtendEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,3,10,0,10,5,1,5,12,4,9,5,5,6,1,1,,,,,0,,4,0,,,"0.00",5,5,6,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onBlockPistonRetractEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,18,4,11,0,14,5,1,6,12,4,10,5,5,6,1,1,,,,,0,,4,0,,,"0.00",5,5,6,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onBlockPlaceEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,8,28,0,28,4,18,0,12,22,1,10,20,5,17,8,8,11,1,1,,,,,0,,4,0,,,"0.00",8,8,11,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onChunkLoad",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,22,4,14,0,8,7,1,8,15,4,13,6,6,7,6,8,,,,,8,,3,8,,,"0.00",6,6,7,6
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onChunkUnload",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,0,21,4,13,0,7,7,1,7,14,4,12,6,6,7,6,8,,,,,8,,3,8,,,"0.00",6,6,7,6
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onCreatureSpawnEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,2,6,0,6,4,1,2,7,2,5,4,4,4,1,1,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onEntityExplodeEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,19,3,11,0,13,6,1,5,13,4,10,6,6,7,1,1,,,,,0,,5,0,,,"0.00",6,6,7,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onPlayerDropItemEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,3,8,0,6,4,1,4,9,3,7,4,4,4,4,5,,,,,5,,3,5,,,"0.00",4,4,4,4
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.onPlayerPickupItemEvent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,0,23,4,14,0,13,13,1,7,16,5,13,7,7,8,7,5,,,,,5,,4,5,,,"0.00",7,7,8,7
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.removeDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,3,7,0,6,2,0,6,8,3,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.removeDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,19,6,15,0,11,3,0,13,17,7,14,3,3,5,3,3,,,,,3,,2,3,,,"0.00",3,3,5,3
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.startRefreshThread",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,1,5,0,4,1,0,2,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"regalowl.hyperconomy.ItemDisplayFactory.startRefreshThread.(Anon_1)",2,2,2,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,4,0,,,,1,4,2,2,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.startRefreshThread.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,3,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.testDisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,9,26,0,26,12,21,0,19,5,1,18,22,12,21,4,4,7,3,3,,,,,3,,2,3,,,"0.00",4,4,7,3
+Public Method,"regalowl.hyperconomy.ItemDisplayFactory.unloadDisplays",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,4,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"regalowl.hyperconomy.Makedisplay",6,6,7,1,37,1,36,0,1,12,12,0,,0,0,,,,1,0,1,1,1,0,0,0,,39,1,38,17,29,0,,,,21,28,16,25,,,,,,6,6,7,1,,1,2,,0,0,"0.00",6,6,7,1
+Constructor,"regalowl.hyperconomy.Makedisplay.Makedisplay",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,1,36,16,29,0,22,6,1,21,27,15,25,6,6,7,1,5,,,,,0,,2,0,,,"0.00",6,6,7,1

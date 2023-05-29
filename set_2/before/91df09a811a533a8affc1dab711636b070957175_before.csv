@@ -1,0 +1,46 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"MongoDBClientFactory.java",4,4,5,1,26,1,22,2,,,,,2,1,2,12,,12,11,1,12,,0,4,3,5,,393,35,310,79,148,48,,,,132,180,69,121,,,,,,14,14,15,1,,,3,,,,"0.15",51,51,60,12
+File,"MongoDBSchemaManager.java",3,3,3,1,19,0,15,3,,,,,1,0,1,15,,15,15,3,15,,0,5,6,4,,375,34,259,71,116,82,,,,104,159,74,104,,,,,,7,7,13,5,,,3,,,,"0.32",50,50,57,21
+File,"MongoDBUtils.java",2,2,2,1,15,0,10,3,,,,,1,5,0,5,,5,0,0,5,,0,1,0,4,,109,12,72,27,26,25,,,,32,44,28,21,,,,,,3,3,5,3,,,2,,,,"0.35",10,10,14,7
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.impetus",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.impetus.client",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.impetus.client.mongodb",4,4,5,1,26,1,22,2,,,,,2,1,2,,1,,11,1,12,,0,4,3,5,,393,35,310,79,148,48,,,,132,180,69,121,,,,,,14,14,15,1,,,3,,,,"0.15",51,51,60,12
+Public Class,"com.impetus.client.mongodb.MongoDBClientFactory",3,3,4,1,22,1,18,2,1,33,33,0,,0,1,,,,11,1,11,11,0,4,3,4,,357,30,279,48,148,48,,,,101,149,38,121,,,,,,9,9,13,1,,2,3,,68,63,"0.17",37,37,45,11
+Public Static Class,"com.impetus.client.mongodb.MongoDBClientFactory.PopulateMongoOptions",14,14,15,1,67,4,63,0,1,10,10,0,,1,1,,,,0,0,1,1,0,0,0,1,,72,5,67,3,33,0,,,,16,31,3,29,,,,,,14,14,15,1,,1,3,,0,0,"0.00",14,14,15,1
+Public Static Method,"com.impetus.client.mongodb.MongoDBClientFactory.PopulateMongoOptions.populateMongoOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,22,67,4,63,1,32,0,19,2065,3,15,29,1,28,14,14,15,1,1,,,,,0,,3,0,,,"0.00",14,14,15,1
+Private Method,"com.impetus.client.mongodb.MongoDBClientFactory.authenticate",,,,,,,,,,,,,,,,,,,,,,,,,,,7,48,1,36,5,21,11,4,48,2,14,21,5,16,7,7,11,1,1,,,,,0,,1,0,,,"0.31",7,7,11,1
+Protected Method,"com.impetus.client.mongodb.MongoDBClientFactory.createPoolOrConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.impetus.client.mongodb.MongoDBClientFactory.destroy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,21,2,11,0,5,4,1,8,11,1,10,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.impetus.client.mongodb.MongoDBClientFactory.getConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,11,74,9,60,11,39,5,14,128,2,29,36,10,30,9,9,9,1,6,,,,,0,,1,0,,,"0.08",9,9,9,1
+Public Method,"com.impetus.client.mongodb.MongoDBClientFactory.getSchemaManager",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,5,0,5,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.impetus.client.mongodb.MongoDBClientFactory.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,3,0,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.impetus.client.mongodb.MongoDBClientFactory.initializeLoadBalancer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.impetus.client.mongodb.MongoDBClientFactory.initializePropertyReader",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,8,1,3,3,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.38",2,2,2,1
+Protected Method,"com.impetus.client.mongodb.MongoDBClientFactory.instantiateClient",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.impetus.client.mongodb.MongoDBClientFactory.isThreadSafe",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.impetus.client.mongodb.MongoDBClientFactory.onSetMongoServerProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,9,53,2,42,11,26,9,16,8,1,18,24,9,19,9,9,13,1,2,,,,,0,,3,0,,,"0.21",9,9,13,1
+Package,"com.impetus.client.mongodb.schemamanager",3,3,3,1,19,0,15,3,,,,,1,0,1,,1,,15,3,15,,0,5,6,4,,375,34,259,71,116,82,,,,104,159,74,104,,,,,,7,7,13,5,,,3,,,,"0.32",50,50,57,21
+Public Class,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager",3,3,3,1,19,0,15,3,2,24,24,0,,0,1,,,,15,3,15,15,0,5,6,4,,346,29,235,47,116,82,,,,80,135,50,104,,,,,,7,7,13,5,,2,3,,82,80,"0.35",50,50,57,21
+Public Constructor,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.MongoDBSchemaManager",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.create",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,1,18,5,9,6,9,5,1,6,11,6,9,4,4,4,1,0,,,,,0,,2,0,,,"0.33",4,4,4,1
+Private Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.createIndexes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,29,1,22,3,9,6,9,12,1,4,13,6,9,6,6,6,1,0,,,,,0,,3,0,,,"0.27",6,6,6,1
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.create_drop",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.dropSchema",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,12,1,5,3,6,3,0,3,7,2,5,3,3,4,1,0,,,,,0,,2,0,,,"0.25",3,3,4,1
+Public Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.exportSchema",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Private Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.getIndexType",,,,,,,,,,,,,,,,,,,,,,,,,,,8,30,1,23,1,12,6,3,5,1,8,13,1,12,5,5,5,5,6,,,,,6,,2,6,,,"0.26",5,5,5,5
+Private Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.indexColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,15,3,8,0,7,4,1,6,9,3,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.indexEmbeddedColumn",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,15,3,8,0,7,4,1,6,9,3,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.initiateClient",,,,,,,,,,,,,,,,,,,,,,,,,,,10,52,4,42,4,25,6,11,15,1,17,25,5,20,7,7,13,3,4,,,,,4,,3,3,,,"0.14",7,7,13,3
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.isCappedCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,6,3,3,3,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.50",2,2,2,1
+Private Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.setCollectionProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,0,16,7,11,4,6,2,0,8,10,5,9,4,4,4,1,0,,,,,0,,1,0,,,"0.25",4,4,4,1
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.update",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,1,19,5,10,6,8,5,1,7,12,6,9,5,5,5,1,0,,,,,0,,2,0,,,"0.32",5,5,5,1
+Protected Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.validate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,28,0,22,1,11,6,6,4,1,5,10,2,8,4,4,4,1,1,,,,,0,,3,0,,,"0.27",4,4,4,1
+Public Method,"com.impetus.client.mongodb.schemamanager.MongoDBSchemaManager.validateEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Package,"com.impetus.client.mongodb.utils",2,2,2,1,15,0,10,3,,,,,1,5,0,,1,,0,0,5,,0,1,0,4,,109,12,72,27,26,25,,,,32,44,28,21,,,,,,3,3,5,3,,,2,,,,"0.35",10,10,14,7
+Public Class,"com.impetus.client.mongodb.utils.MongoDBUtils",2,2,2,1,15,0,10,3,1,16,16,0,,5,0,,,,0,0,5,5,0,1,0,4,,89,8,56,11,26,25,,,,16,28,12,21,,,,,,3,3,5,3,,1,2,,0,0,"0.45",10,10,14,7
+Public Static Method,"com.impetus.client.mongodb.utils.MongoDBUtils.getCompoundKeyColumns",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,2,17,4,10,7,12,3,0,5,9,5,7,3,3,3,1,0,,,,,0,,2,0,,,"0.41",3,3,3,1
+Public Static Method,"com.impetus.client.mongodb.utils.MongoDBUtils.getTranslatedObject",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,12,1,5,6,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Private Static Method,"com.impetus.client.mongodb.utils.MongoDBUtils.isUTF8Value",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,2,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Public Static Method,"com.impetus.client.mongodb.utils.MongoDBUtils.populateCompoundKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,7,3,4,1,5,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Public Static Method,"com.impetus.client.mongodb.utils.MongoDBUtils.populateValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,12,1,5,4,5,3,0,3,6,1,5,3,3,5,3,2,,,,,2,,1,2,,,"0.33",3,3,5,3

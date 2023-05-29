@@ -1,0 +1,29 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DoubleTypeManufacturerImpl.java",2,2,2,1,23,3,13,7,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,98,20,50,23,24,28,,,,22,30,18,16,,,,,,5,5,5,1,,,3,,,,"0.56",7,7,7,3
+File,"FloatTypeManufacturerImpl.java",2,2,2,1,23,3,13,7,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,96,18,50,23,24,28,,,,22,30,18,16,,,,,,5,5,5,1,,,3,,,,"0.56",7,7,7,3
+File,"PodamUtils.java",3,3,3,2,22,1,11,9,,,,,1,9,2,9,,9,0,0,9,,0,0,0,9,,251,32,120,34,74,99,,,,51,86,36,56,,,,,,8,8,8,8,,,3,,,,"0.82",30,30,31,18
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos.podam",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos.podam.api",3,3,3,2,22,1,11,9,,,,,1,9,2,,1,,0,0,9,,0,0,0,9,,251,32,120,34,74,99,,,,51,86,36,56,,,,,,8,8,8,8,,,3,,,,"0.82",30,30,31,18
+Public Abstract Class,"uk.co.jemos.podam.api.PodamUtils",3,3,3,2,22,1,11,9,1,14,14,0,,9,2,,,,0,0,9,9,0,0,0,9,,239,29,111,25,74,99,,,,42,77,27,56,,,,,,8,8,8,8,,1,3,,0,0,"0.89",30,30,31,18
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getAttributeAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,3,35,3,22,4,13,10,4,15,1,6,17,7,12,7,7,7,1,1,,,,,0,,3,0,,,"0.45",7,7,7,1
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getDoubleInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,11,3,7,10,2,2,0,6,8,3,5,3,3,3,1,1,,,,,0,,1,0,,,"0.91",3,3,3,1
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getField",,,,,,,,,,,,,,,,,,,,,,,,,,,4,27,2,13,2,9,12,4,3,0,5,8,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.92",3,3,3,3
+Public Static Generic Method,"uk.co.jemos.podam.api.PodamUtils.getFieldValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,41,8,18,5,13,15,7,3,0,8,11,4,9,3,3,3,1,2,,,,,0,,2,0,,,"0.83",3,3,3,1
+TypeVariable,"uk.co.jemos.podam.api.PodamUtils.getFieldValue.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getIntegerInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,1,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getLongInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.getNiceCharacter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,4,2,2,5,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.primitiveToBoxedType",,,,,,,,,,,,,,,,,,,,,,,,,,,7,27,1,19,1,16,7,2,8,1,8,16,1,15,8,8,8,8,7,,,,,7,,1,7,,,"0.37",8,8,8,8
+Public Static Method,"uk.co.jemos.podam.api.PodamUtils.selectLatestMethod",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,9,2,5,8,3,3,0,3,7,3,4,3,3,4,1,0,,,,,0,,2,0,,,"0.89",3,3,4,1
+Package,"uk.co.jemos.podam.typeManufacturers",2,2,2,1,23,3,13,7,,,,,2,0,0,,2,,6,0,6,,0,0,0,6,,194,38,100,46,48,56,,,,44,60,36,32,,,,,,5,5,5,1,,,3,,,,"0.56",14,14,14,6
+Public Class,"uk.co.jemos.podam.typeManufacturers.DoubleTypeManufacturerImpl",2,2,2,1,23,3,13,7,1,10,10,0,,0,0,,,,3,0,3,3,0,0,0,3,,84,15,41,14,24,28,,,,13,21,9,16,,,,,,5,5,5,1,,2,3,,0,0,"0.68",7,7,7,3
+Public Method,"uk.co.jemos.podam.typeManufacturers.DoubleTypeManufacturerImpl.getDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"uk.co.jemos.podam.typeManufacturers.DoubleTypeManufacturerImpl.getDoubleInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,4,2,1,11,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"uk.co.jemos.podam.typeManufacturers.DoubleTypeManufacturerImpl.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,45,9,32,10,22,4,10,5,1,11,16,6,14,5,5,5,1,3,,,,,0,,3,0,,,"0.12",5,5,5,1
+Public Class,"uk.co.jemos.podam.typeManufacturers.FloatTypeManufacturerImpl",2,2,2,1,23,3,13,7,1,10,10,0,,0,0,,,,3,0,3,3,0,0,0,3,,83,14,41,14,24,28,,,,13,21,9,16,,,,,,5,5,5,1,,2,3,,0,0,"0.68",7,7,7,3
+Public Method,"uk.co.jemos.podam.typeManufacturers.FloatTypeManufacturerImpl.getFloat",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"uk.co.jemos.podam.typeManufacturers.FloatTypeManufacturerImpl.getFloatInRange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,4,2,1,11,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"uk.co.jemos.podam.typeManufacturers.FloatTypeManufacturerImpl.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,44,8,32,10,22,4,10,5,1,11,16,6,14,5,5,5,1,3,,,,,0,,3,0,,,"0.12",5,5,5,1

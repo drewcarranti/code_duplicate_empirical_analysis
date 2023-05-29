@@ -1,0 +1,59 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"PodamFactoryImpl.java",6,6,7,2,64,10,35,19,,,,,1,0,6,45,,45,45,3,45,,0,37,0,8,,3076,522,1641,467,1179,913,,,,678,984,349,761,,,,,,26,26,30,10,,,5,,,,"0.56",308,308,351,94
+Package,"uk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos.podam",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"uk.co.jemos.podam.api",6,6,7,2,64,10,35,19,,,,,1,0,6,,1,,45,3,45,,0,37,0,8,,3076,522,1641,467,1179,913,,,,678,984,349,761,,,,,,26,26,30,10,,,5,,,,"0.56",308,308,351,94
+Public Class,"uk.co.jemos.podam.api.PodamFactoryImpl",6,6,7,2,64,10,35,19,2,76,76,0,,0,6,,,,45,3,45,45,0,37,0,8,,3022,517,1592,418,1179,913,,,,629,935,300,761,,,,,,26,26,30,10,,1,5,,81,58,"0.57",308,308,351,94
+Public Constructor,"uk.co.jemos.podam.api.PodamFactoryImpl.PodamFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,2,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Constructor,"uk.co.jemos.podam.api.PodamFactoryImpl.PodamFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"uk.co.jemos.podam.api.PodamFactoryImpl.PodamFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Constructor,"uk.co.jemos.podam.api.PodamFactoryImpl.PodamFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,5,2,2,9,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.80",1,1,1,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.containsAttributeStrategyAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,2,12,3,7,9,3,3,0,4,8,3,5,3,3,3,3,2,,,,,2,,2,2,,,"0.75",3,3,3,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.fillCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,7,56,2,27,15,20,27,11,4,1,12,15,9,14,3,3,4,1,0,,,,,0,,1,0,,,"1.00",3,3,4,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.fillCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,8,98,11,53,10,38,34,15,54,2,20,30,8,24,9,9,12,3,6,,,,,3,,3,2,,,"0.64",9,9,12,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.fillMap",,,,,,,,,,,,,,,,,,,,,,,,,,,7,67,3,38,20,31,26,18,4,1,22,25,12,23,3,3,4,1,0,,,,,0,,1,0,,,"0.68",3,3,4,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.fillMap",,,,,,,,,,,,,,,,,,,,,,,,,,,7,100,17,59,14,45,24,25,42,2,35,44,12,36,8,8,9,3,4,,,,,3,,3,2,,,"0.41",8,8,9,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.fillTypeArgMap",,,,,,,,,,,,,,,,,,,,,,,,,,,9,72,5,47,14,33,20,18,120,2,23,33,12,28,10,10,11,1,1,,,,,0,,4,0,,,"0.43",10,10,11,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getBooleanValueForAnnotation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,6,11,3,7,7,4,3,0,5,9,4,5,3,3,3,3,2,,,,,2,,2,2,,,"0.64",3,3,3,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getByteValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,7,58,10,31,9,23,17,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.55",6,6,7,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getCharacterValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,5,47,12,23,7,16,12,7,5,1,10,16,7,12,5,5,5,3,3,,,,,3,,4,2,,,"0.52",5,5,5,3
+Private Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getDefaultFieldValue",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,8,18,5,13,13,7,3,0,8,11,4,9,3,3,3,1,2,,,,,0,,2,0,,,"0.72",3,3,3,1
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.getDefaultFieldValue.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getDoubleValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,8,56,13,31,9,23,12,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.39",6,6,7,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getField",,,,,,,,,,,,,,,,,,,,,,,,,,,5,32,3,17,3,12,12,4,6,1,7,11,3,8,4,4,4,3,2,,,,,2,,2,2,,,"0.71",4,4,4,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getFloatValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,8,62,11,31,9,23,20,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.65",6,6,7,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getIntegerValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,8,63,13,31,9,23,19,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.61",6,6,7,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getLongValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,8,59,11,31,9,23,17,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.55",6,6,7,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getMapKeyOrElementValue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,59,4,33,6,27,22,13,3,0,8,11,3,9,3,3,6,1,2,,,,,0,,1,0,,,"0.67",3,3,6,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getParameterValuesForConstructor",,,,,,,,,,,,,,,,,,,,,,,,,,,6,61,10,24,16,17,27,7,2,0,11,14,10,10,2,2,2,1,0,,,,,0,,1,0,,,"1.12",2,2,2,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getShortValueWithinRange",,,,,,,,,,,,,,,,,,,,,,,,,,,7,60,11,31,9,23,18,10,6,1,13,20,8,15,6,6,7,3,4,,,,,3,,4,2,,,"0.58",6,6,7,3
+Public Method,"uk.co.jemos.podam.api.PodamFactoryImpl.getStrategy",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Private Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.instantiatePojo",,,,,,,,,,,,,,,,,,,,,,,,,,,10,107,12,58,8,44,37,14,90,2,16,28,5,25,11,11,15,6,8,,,,,8,,4,7,,,"0.64",11,11,15,6
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.instantiatePojo.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.instantiatePojoWithoutConstructors",,,,,,,,,,,,,,,,,,,,,,,,,,,9,132,31,60,19,47,41,17,52,2,23,33,14,26,8,8,10,3,3,,,,,3,,3,1,,,"0.68",8,8,10,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.isWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,1,15,1,13,9,2,1,0,1,2,1,1,9,9,9,1,0,,,,,0,,0,0,,,"0.60",9,9,9,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufactureAttributeValue",,,,,,,,,,,,,,,,,,,,,,,,,,,16,169,28,89,24,69,52,31,286,2,33,50,14,46,17,17,19,1,10,,,,,0,,3,0,,,"0.58",17,17,19,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufactureParameterValue",,,,,,,,,,,,,,,,,,,,,,,,,,,8,53,2,11,7,4,40,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"3.64",1,1,1,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufactureParameterValue",,,,,,,,,,,,,,,,,,,,,,,,,,,13,144,21,95,36,74,28,22,35,2,49,60,25,47,11,11,11,1,4,,,,,0,,4,0,,,"0.29",11,11,11,1
+Public Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,0,17,3,13,3,4,5,1,7,9,2,8,5,5,5,5,10,,,,,10,,1,10,,,"0.18",5,5,5,5
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojo.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojo.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojoInternal",,,,,,,,,,,,,,,,,,,,,,,,,,,13,222,32,145,37,115,45,40,19079,4,55,82,25,72,26,26,30,10,16,,,,,11,,5,9,,,"0.31",26,26,30,10
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojoInternal.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojoWithFullData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,0,25,5,18,3,6,4,1,10,13,4,10,3,3,3,1,2,,,,,0,,1,0,,,"0.12",3,3,3,1
+TypeVariable,"uk.co.jemos.podam.api.PodamFactoryImpl.manufacturePojoWithFullData.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.mergeTypeArrays",,,,,,,,,,,,,,,,,,,,,,,,,,,6,23,3,11,2,7,9,2,2,0,6,8,2,6,2,2,2,1,1,,,,,0,,1,0,,,"0.82",2,2,2,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveArrayElementValue",,,,,,,,,,,,,,,,,,,,,,,,,,,11,116,15,67,19,49,34,18,144,2,26,37,13,28,10,10,13,3,5,,,,,3,,2,2,,,"0.51",10,10,13,3
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveCollectionType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,49,2,26,3,17,21,5,13,1,7,15,2,13,8,8,10,1,3,,,,,0,,3,0,,,"0.81",8,8,10,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveCollectionValueWhenCollectionIsPojoAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,19,92,13,50,10,40,29,7,18,1,18,23,5,19,10,10,12,1,23,,,,,0,,2,0,,,"0.58",10,10,12,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveGenericParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,15,56,2,41,10,31,13,11,18,1,20,29,8,23,9,9,11,1,4,,,,,0,,2,0,,,"0.32",9,9,11,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveMapType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,51,4,23,3,15,24,4,7,1,6,13,2,11,7,7,8,1,3,,,,,0,,3,0,,,"1.04",7,7,8,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveMapValueWhenMapIsPojoAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,18,110,18,60,14,49,32,14,18,1,30,36,8,31,10,10,12,1,17,,,,,0,,3,0,,,"0.53",10,10,12,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolvePrimitiveValue",,,,,,,,,,,,,,,,,,,,,,,,,,,7,132,44,73,3,53,15,20,33,2,19,44,2,42,25,25,25,1,8,,,,,0,,2,0,,,"0.21",25,25,25,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveStringValue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,64,16,27,5,18,21,8,11,1,8,15,4,11,6,6,8,4,3,,,,,3,,3,2,,,"0.78",6,6,8,4
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.resolveWrapperValue",,,,,,,,,,,,,,,,,,,,,,,,,,,5,124,43,69,3,49,12,19,33,2,18,43,2,41,25,25,25,1,7,,,,,0,,2,0,,,"0.17",25,25,25,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.retrieveFieldAnnotations",,,,,,,,,,,,,,,,,,,,,,,,,,,5,36,6,14,7,9,16,5,3,0,6,9,5,8,3,3,4,1,0,,,,,0,,2,0,,,"1.14",3,3,4,1
+Private Method,"uk.co.jemos.podam.api.PodamFactoryImpl.returnAttributeDataStrategyValue",,,,,,,,,,,,,,,,,,,,,,,,,,,10,64,8,31,7,25,25,8,4,1,10,13,4,10,4,4,4,1,3,,,,,0,,2,0,,,"0.81",4,4,4,1

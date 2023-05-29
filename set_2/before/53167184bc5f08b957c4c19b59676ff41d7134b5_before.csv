@@ -1,0 +1,71 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"StatsTimer.java",1,1,1,1,6,0,5,0,,,,,12,1,13,42,,44,43,13,44,,8,5,3,28,,408,62,301,134,129,45,,,,135,206,112,113,,,,,,7,7,7,3,,,1,,,,"0.15",58,58,60,46
+File,"StatsTimerTest.java",1,1,1,1,12,0,11,0,,,,,2,0,1,6,,6,6,2,6,,1,1,0,4,,104,15,89,42,52,0,,,,59,72,40,43,,,,,,3,3,3,1,,,2,,,,"0.00",10,10,10,6
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.netflix",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.netflix.servo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.netflix.servo.monitor",1,1,1,1,7,0,6,0,,,,,14,1,14,,2,,49,15,50,,9,6,3,32,,512,77,390,176,181,45,,,,194,278,152,156,,,,,,7,7,7,3,,,2,,,,"0.12",68,68,70,52
+Public Class,"com.netflix.servo.monitor.StatsTimer",1,1,1,1,9,0,8,1,3,34,34,0,,0,13,,,,17,9,17,17,0,4,1,12,,387,59,283,116,129,45,,,,117,188,94,113,,,,,,7,7,7,1,,2,1,,81,68,"0.16",27,27,29,17
+Private Static Abstract Class,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper",1,1,1,1,4,0,4,0,2,6,6,4,,0,0,,,,5,1,5,5,0,0,1,4,,31,6,25,12,8,0,,,,9,17,8,9,,,,,,3,3,3,3,,1,1,,0,0,"0.00",7,7,7,7
+Protected Constructor,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper.DoubleGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,3,4,0,2,3,0,4,7,2,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper.getMonitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.DoubleGaugeWrapper.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Interface,"com.netflix.servo.monitor.StatsTimer.GaugeWrapper",0,0,0,0,0,0,0,0,0,2,2,2,,0,0,,,,2,0,2,2,2,0,0,0,,4,0,4,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"com.netflix.servo.monitor.StatsTimer.GaugeWrapper.getMonitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"com.netflix.servo.monitor.StatsTimer.GaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Private Static Abstract Class,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper",1,1,1,1,4,0,4,0,2,6,6,2,,0,0,,,,5,1,5,5,0,0,1,4,,31,6,25,12,8,0,,,,9,17,8,9,,,,,,3,3,3,3,,1,1,,0,0,"0.00",7,7,7,7
+Protected Constructor,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper.LongGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,3,4,0,2,3,0,4,7,2,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper.getMonitor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.LongGaugeWrapper.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.MaxGaugeWrapper",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,7,1,0,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimer.MaxGaugeWrapper.MaxGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.MaxGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.MeanGaugeWrapper",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,7,1,0,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimer.MeanGaugeWrapper.MeanGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.MeanGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.MinStatGaugeWrapper",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,7,1,0,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimer.MinStatGaugeWrapper.MinStatGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.MinStatGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.PercentileGaugeWrapper",1,1,1,1,5,0,5,0,1,7,7,0,,1,0,,,,2,2,3,8,1,1,0,1,,24,4,20,8,8,0,,,,9,14,7,8,,,,,,2,2,2,1,,2,1,,50,50,"0.00",4,4,4,3
+Constructor,"com.netflix.servo.monitor.StatsTimer.PercentileGaugeWrapper.PercentileGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,6,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"com.netflix.servo.monitor.StatsTimer.PercentileGaugeWrapper.percentileTag",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,1,7,2,4,0,7,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.PercentileGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.netflix.servo.monitor.StatsTimer.StatsTimer",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Constructor,"com.netflix.servo.monitor.StatsTimer.StatsTimer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Constructor,"com.netflix.servo.monitor.StatsTimer.StatsTimer",,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,1,21,4,18,4,21,1,0,13,15,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Anonymous Class,"com.netflix.servo.monitor.StatsTimer.StatsTimer.(Anon_1)",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,1,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.StatsTimer.(Anon_1).apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.StdDevGaugeWrapper",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,7,1,0,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimer.StdDevGaugeWrapper.StdDevGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.StdDevGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"com.netflix.servo.monitor.StatsTimer.VarianceGaugeWrapper",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,7,1,0,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimer.VarianceGaugeWrapper.VarianceGaugeWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.VarianceGaugeWrapper.update",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,8,3,4,1,2,2,0,3,5,2,3,2,2,4,1,1,,,,,0,,1,0,,,"0.12",2,2,4,1
+Private Method,"com.netflix.servo.monitor.StatsTimer.getCounters",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,6,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"com.netflix.servo.monitor.StatsTimer.getGaugeWrappers",,,,,,,,,,,,,,,,,,,,,,,,,,,4,26,3,23,3,15,0,16,64,2,11,18,4,16,7,7,7,1,0,,,,,0,,1,0,,,"0.00",7,7,7,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.getMonitors",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.getTimeUnit",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,2,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Protected Method,"com.netflix.servo.monitor.StatsTimer.handleException",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,2,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.record",,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,0,8,2,4,1,2,1,0,3,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.12",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.record",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,4,2,1,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.start",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,6,3,3,1,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Private Method,"com.netflix.servo.monitor.StatsTimer.startComputingStats",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,1,20,4,14,0,1,1,0,9,13,4,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.netflix.servo.monitor.StatsTimer.startComputingStats.(Anon_2)",2,2,2,1,15,0,15,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,16,0,16,2,13,0,,,,7,10,2,8,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.startComputingStats.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,1,12,0,6,2,0,7,10,2,8,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.netflix.servo.monitor.StatsTimer.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,7,2,4,1,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Private Method,"com.netflix.servo.monitor.StatsTimer.updateGauges",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"com.netflix.servo.monitor.StatsTimerTest",2,2,2,1,17,1,15,0,1,19,19,0,,0,1,,,,4,0,4,4,0,1,0,3,,89,11,78,31,52,0,,,,48,61,29,43,,,,,,3,3,3,1,,2,2,,100,100,"0.00",8,8,8,4
+Private Static Class,"com.netflix.servo.monitor.StatsTimerTest.TimerTask",1,1,1,1,4,0,4,0,2,2,2,0,,0,0,,,,2,2,2,2,1,0,0,1,,12,0,12,6,3,0,,,,5,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.netflix.servo.monitor.StatsTimerTest.TimerTask.TimerTask",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimerTest.TimerTask.run",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.netflix.servo.monitor.StatsTimerTest.assertStats",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,6,10,0,5,3,0,7,11,7,7,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"com.netflix.servo.monitor.StatsTimerTest.newInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,6,9,0,8,1,0,4,5,4,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.netflix.servo.monitor.StatsTimerTest.testMultiThreadStats",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,3,19,6,15,0,11,2,0,16,18,6,15,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.netflix.servo.monitor.StatsTimerTest.testStats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,18,5,14,0,7,2,0,15,17,5,14,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1

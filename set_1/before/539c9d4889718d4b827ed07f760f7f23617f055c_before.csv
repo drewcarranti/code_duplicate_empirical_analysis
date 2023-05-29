@@ -1,0 +1,177 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ROI2DShape.java",2,2,3,1,19,1,14,3,,,,,5,0,0,65,,65,65,12,65,,0,0,21,44,,1462,191,1011,219,482,260,,,,365,597,206,434,,,,,,18,18,20,4,,,9,,,,"0.26",188,184,207,82
+File,"Viewer.java",2,1,2,1,14,1,10,3,,,,,9,0,0,88,,88,88,16,88,,10,7,1,70,,1421,208,903,210,494,310,,,,449,622,205,443,,,,,,10,9,15,1,,,3,,,,"0.34",179,170,194,88
+Package,"icy",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"icy.gui",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"icy.gui.viewer",2,1,2,1,14,1,10,3,,,,,9,0,0,,1,,88,16,88,,10,7,1,70,,1421,208,903,210,494,310,,,,449,622,205,443,,,,,,10,9,15,1,,,3,,,,"0.34",179,170,194,88
+Public Class,"icy.gui.viewer.Viewer",2,2,2,1,15,1,10,3,5,54,54,0,,0,0,,,,77,16,77,77,10,7,1,59,,1338,204,842,149,494,292,,,,388,561,144,443,,,,,,10,9,15,1,,2,3,,92,86,"0.35",165,156,179,77
+Public Constructor,"icy.gui.viewer.Viewer.Viewer",,,,,,,,,,,,,,,,,,,,,,,,,,,7,137,23,99,2,72,15,35,8,1,46,60,9,52,4,4,4,1,2,,,,,0,,1,0,,,"0.15",4,4,4,1
+Public Constructor,"icy.gui.viewer.Viewer.Viewer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.Viewer.(Anon_1)",1,1,1,1,18,1,14,3,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,19,1,15,0,9,3,,,,4,6,2,4,,,,,,1,1,1,1,,2,0,,0,0,"0.20",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,1,14,0,9,3,2,1,0,4,6,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.21",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.Viewer.(Anon_1).run.(Anon_2)",1,1,1,1,8,0,6,2,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,7,0,4,2,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.29",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_1).run.(Anon_2).run",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,6,0,4,2,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.Viewer.(Anon_3)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_3).getMenu",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.Viewer.(Anon_4)",1,1,2,1,8,0,7,0,1,5,5,0,,0,0,,,,4,0,4,4,0,0,0,4,,36,4,31,1,18,1,,,,7,14,5,10,,,,,,3,3,4,1,,2,2,,0,0,"0.03",7,7,8,4
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_4).icyFrameActivated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,1,8,1,6,1,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_4).icyFrameExternalized",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_4).icyFrameInternalized",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.Viewer.(Anon_4).icyFrameOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,0,6,0,3,3,0,2,5,1,4,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Public Method,"icy.gui.viewer.Viewer.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Method,"icy.gui.viewer.Viewer.adjustViewerToImageSize",,,,,,,,,,,,,,,,,,,,,,,,,,,4,34,6,22,7,15,6,13,3,0,13,16,7,14,3,3,4,1,0,,,,,0,,2,0,,,"0.27",3,3,4,1
+Method,"icy.gui.viewer.Viewer.buildActionMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Private Method,"icy.gui.viewer.Viewer.buildActionMap",,,,,,,,,,,,,,,,,,,,,,,,,,,11,20,1,19,1,16,0,3,1,0,16,17,1,16,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"icy.gui.viewer.Viewer.buildCanvasCombo",,,,,,,,,,,,,,,,,,,,,,,,,,,3,25,1,17,1,11,7,9,1,0,8,10,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.41",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.buildCanvasCombo.(Anon_6)",1,1,1,1,6,0,5,1,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,6,0,3,1,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.17",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.buildCanvasCombo.(Anon_6).actionPerformed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,5,0,3,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Private Method,"icy.gui.viewer.Viewer.buildLockCombo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,34,3,23,2,17,8,10,1,0,14,16,3,14,1,1,1,1,0,,,,,0,,0,0,,,"0.35",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.buildLockCombo.(Anon_5)",1,1,1,1,6,0,5,1,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,6,0,3,1,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.17",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.buildLockCombo.(Anon_5).actionPerformed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,5,0,3,1,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Private Method,"icy.gui.viewer.Viewer.buildToolBar",,,,,,,,,,,,,,,,,,,,,,,,,,,10,37,3,26,1,23,8,17,1,0,23,24,1,23,1,1,1,1,0,,,,,0,,0,0,,,"0.31",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.canvasChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,1,20,2,11,1,4,3,0,5,8,2,6,3,2,3,1,1,,,,,0,,0,0,,,"0.05",3,2,3,1
+Anonymous Class,"icy.gui.viewer.Viewer.canvasChanged.(Anon_7)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.canvasChanged.(Anon_7).run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"icy.gui.viewer.Viewer.fireViewerChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,1,6,2,3,0,2,2,0,2,5,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"icy.gui.viewer.Viewer.fireViewerChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"icy.gui.viewer.Viewer.fireViewerClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getC",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getCanvas",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getCanvasPanel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getCurrentImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,1,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getFrameRate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,7,2,4,3,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.43",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getLut",,,,,,,,,,,,,,,,,,,,,,,,,,,3,25,4,13,2,8,8,7,4,1,5,9,2,8,4,4,6,1,1,,,,,0,,2,0,,,"0.62",4,4,6,1
+Public Method,"icy.gui.viewer.Viewer.getLutPanel",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getLutViewer",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getMaxC",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getMaxT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getMaxZ",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Method,"icy.gui.viewer.Viewer.getMenu",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,3,14,4,11,4,6,2,0,9,11,4,10,2,2,3,1,1,,,,,0,,1,0,,,"0.29",2,2,3,1
+Public Method,"icy.gui.viewer.Viewer.getNumSelectedSamples",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getPositionC",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getPositionT",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getPositionZ",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getRenderedImage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getRenderedSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getT",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Protected Method,"icy.gui.viewer.Viewer.getTNavigationPanel",,,,,,,,,,,,,,,,,,,,,,,,,,,8,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getToolBar",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.getViewSyncId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.getZ",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.isInitialized",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.isPlaying",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,7,2,4,3,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.43",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.isRepeat",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,7,2,4,3,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.43",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.isSynchronizedViewSupported",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.isUnique",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,1,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.isViewSynchronized",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.keyPressed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,6,2,2,1,2,2,0,1,3,1,2,2,2,3,1,0,,,,,0,,1,0,,,"0.17",2,2,3,1
+Public Method,"icy.gui.viewer.Viewer.keyReleased",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,6,2,2,1,2,2,0,1,3,1,2,2,2,3,1,0,,,,,0,,1,0,,,"0.17",2,2,3,1
+Public Method,"icy.gui.viewer.Viewer.keyTyped",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,6,2,2,1,2,2,0,1,3,1,2,2,2,3,1,0,,,,,0,,1,0,,,"0.17",2,2,3,1
+Private Method,"icy.gui.viewer.Viewer.lutChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.onClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,7,53,8,34,3,30,11,24,32,2,25,32,3,30,6,6,6,1,0,,,,,0,,1,0,,,"0.32",6,6,6,1
+Public Method,"icy.gui.viewer.Viewer.pluginLoaderChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,0,14,2,7,2,1,1,0,4,6,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Anonymous Class,"icy.gui.viewer.Viewer.pluginLoaderChanged.(Anon_8)",1,1,1,1,9,0,7,2,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,10,0,8,0,5,2,,,,3,4,1,3,,,,,,1,1,1,1,,2,0,,0,0,"0.25",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.pluginLoaderChanged.(Anon_8).run",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,7,0,5,2,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.29",1,1,1,1
+Private Method,"icy.gui.viewer.Viewer.positionChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.propertyChange",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,1,7,2,3,3,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.43",1,1,1,1
+Method,"icy.gui.viewer.Viewer.refreshCanvasCombo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,12,2,5,2,6,4,1,2,6,2,5,4,4,4,1,0,,,,,0,,3,0,,,"0.17",4,4,4,1
+Method,"icy.gui.viewer.Viewer.refreshLockCombo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,35,6,29,2,24,0,6,6,1,18,20,2,19,6,2,6,1,10,,,,,0,,1,0,,,"0.00",6,2,6,1
+Method,"icy.gui.viewer.Viewer.refreshToolBar",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,3,11,2,8,2,5,2,0,6,8,2,7,3,3,3,1,1,,,,,0,,1,0,,,"0.18",3,3,3,1
+Private Method,"icy.gui.viewer.Viewer.refreshViewerTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,5,1,2,4,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.80",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.sequenceChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,11,45,10,30,4,22,5,13,11,1,12,18,3,17,10,6,15,1,10,,,,,0,,2,0,,,"0.17",10,6,15,1
+Public Method,"icy.gui.viewer.Viewer.sequenceClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,1,4,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.setC",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.setCanvas",,,,,,,,,,,,,,,,,,,,,,,,,,,8,77,9,53,6,37,15,32,67,2,31,40,6,34,9,9,10,1,2,,,,,0,,3,0,,,"0.28",9,9,10,1
+Public Method,"icy.gui.viewer.Viewer.setCanvas",,,,,,,,,,,,,,,,,,,,,,,,,,,6,69,10,48,7,35,11,26,67,2,31,40,6,34,9,9,9,1,2,,,,,0,,2,0,,,"0.23",9,9,9,1
+Public Method,"icy.gui.viewer.Viewer.setFrameRate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,2,3,3,2,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setLut",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,8,1,3,4,3,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.50",2,2,3,1
+Public Method,"icy.gui.viewer.Viewer.setLutPanel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.setLutViewer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,9,1,4,3,2,3,0,2,5,1,4,3,3,3,1,0,,,,,0,,2,0,,,"0.33",3,3,3,1
+Public Method,"icy.gui.viewer.Viewer.setPositionC",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,5,1,2,3,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setPositionT",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,5,1,2,3,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setPositionZ",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,5,1,2,3,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setRepeat",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,6,2,3,3,2,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setT",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.setViewSyncId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,6,1,3,7,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.17",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.setZ",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"icy.gui.viewer.Viewer.startPlay",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,1,6,2,3,6,2,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"icy.gui.viewer.Viewer.stopPlay",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,1,6,2,3,5,2,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Method,"icy.gui.viewer.Viewer.updateToolbarComponents",,,,,,,,,,,,,,,,,,,,,,,,,,,13,19,1,18,1,15,0,5,2,0,14,16,1,15,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"plugins",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"plugins.kernel",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"plugins.kernel.roi",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"plugins.kernel.roi.roi2d",2,2,3,1,19,1,14,3,,,,,5,0,0,,1,,65,12,65,,0,0,21,44,,1462,191,1011,219,482,260,,,,365,597,206,434,,,,,,18,18,20,4,,,9,,,,"0.26",188,184,207,82
+Public Abstract Class,"plugins.kernel.roi.roi2d.ROI2DShape",2,2,2,1,14,1,9,2,2,28,28,0,,0,0,,,,46,4,46,46,0,0,16,30,,1396,187,967,175,482,242,,,,321,553,162,434,,,,,,17,16,17,4,,2,7,,82,70,"0.25",98,97,100,63
+Class,"plugins.kernel.roi.roi2d.ROI2DShape.Poly3D",1,1,1,1,6,0,6,0,1,0,0,0,,0,0,,,,1,3,1,1,0,0,0,1,,13,1,12,5,3,0,,,,6,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Constructor,"plugins.kernel.roi.roi2d.ROI2DShape.Poly3D.Poly3D",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShape",,,,,,,,,,,,,,,,,,,,,,,,,,,1,25,3,22,1,13,0,5,1,0,7,10,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShape.(Anon_1)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShape.(Anon_1).positionChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShape.(Anon_2)",1,1,1,1,5,0,5,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShape.(Anon_2).overlayChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter",5,5,6,1,39,3,30,5,2,31,31,0,,0,0,,,,16,5,16,16,0,0,5,11,,657,79,491,71,266,87,,,,170,284,73,239,,,,,,18,18,20,1,,2,9,,85,75,"0.18",87,84,104,16
+Public Constructor,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.ROI2DShapePainter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,3,10,1,7,1,7,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.drawROI",,,,,,,,,,,,,,,,,,,,,,,,,,,11,148,20,104,14,65,24,35,135,2,43,64,16,60,18,18,20,1,3,,,,,0,,9,0,,,"0.23",18,18,20,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.getProps",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.isSmall",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,9,4,6,4,8,2,0,5,7,4,6,2,2,2,1,1,,,,,0,,1,0,,,"0.44",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.isTiny",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,9,4,6,4,8,2,0,5,7,4,6,2,2,2,1,1,,,,,0,,1,0,,,"0.44",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.isVisible",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,4,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.keyPressed",,,,,,,,,,,,,,,,,,,,,,,,,,,6,46,3,38,2,18,5,10,11,1,6,17,2,15,9,8,11,1,0,,,,,0,,7,0,,,"0.13",9,8,11,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.keyReleased",,,,,,,,,,,,,,,,,,,,,,,,,,,4,31,1,27,2,11,3,6,5,1,4,12,2,10,5,5,7,1,0,,,,,0,,5,0,,,"0.11",5,5,7,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.mouseClick",,,,,,,,,,,,,,,,,,,,,,,,,,,4,56,2,44,2,18,10,10,35,2,5,19,2,17,11,11,14,1,0,,,,,0,,6,0,,,"0.23",11,11,14,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.mouseDrag",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,1,27,2,11,4,6,5,1,4,12,2,10,5,5,7,1,0,,,,,0,,5,0,,,"0.15",5,5,7,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.mouseMove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,1,27,2,11,4,6,5,1,4,12,2,10,5,5,7,1,0,,,,,0,,5,0,,,"0.15",5,5,7,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.mousePressed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,48,2,38,2,16,8,13,13,1,5,17,2,15,9,9,11,1,0,,,,,0,,8,0,,,"0.21",9,9,11,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.mouseReleased",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,1,27,2,11,4,6,5,1,4,12,2,10,5,5,7,1,0,,,,,0,,5,0,,,"0.15",5,5,7,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.paint",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.rebuild3DPainter",,,,,,,,,,,,,,,,,,,,,,,,,,,15,118,23,85,19,71,10,21,41,2,63,72,21,59,9,7,9,1,4,,,,,0,,2,0,,,"0.12",9,7,9,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.ROI2DShapePainter.setColor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,2,23,4,11,0,6,2,0,7,12,4,10,2,2,2,1,0,,,,,0,,2,0,,,"0.00",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.addPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.addPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,2,10,1,7,3,4,2,0,5,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.30",2,2,2,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.addPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,3,33,7,20,3,13,6,8,4,1,10,14,3,13,4,4,4,4,3,,,,,3,,1,3,,,"0.30",4,4,4,4
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.addPointAt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.canAddPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.canRemovePoint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.canTranslate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.computeBounds2D",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.computeOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,4,28,4,18,3,12,13,1,11,19,3,16,8,8,10,3,5,,,,,2,,3,2,,,"0.11",8,8,10,3
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,1,7,2,3,1,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.controlPointOverlayChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,9,1,4,6,5,3,0,2,5,1,4,3,3,3,1,0,,,,,0,,2,0,,,"0.67",3,3,3,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.controlPointPositionChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,4,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.createAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,1,1,3,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.createAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.createPainter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.getControlPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,7,1,2,3,1,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.43",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.getInsertPointPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,3,34,5,19,6,12,10,6,3,0,12,15,7,11,3,3,3,1,0,,,,,0,,2,0,,,"0.53",3,3,3,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.getPathIterator",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.getPathIterator",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.getPoints",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,2,10,2,5,3,3,2,0,3,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.30",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.getSelectedControlPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.getSelectedPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,1,10,1,5,0,2,3,0,2,7,2,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.getShape",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.getTotalDistance",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,3,13,3,8,4,4,5,1,7,11,4,8,4,4,4,1,0,,,,,0,,2,0,,,"0.31",4,4,4,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.getTotalDistance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.hasSelectedPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.intersects",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.intersects",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.intersects",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,1,7,2,3,1,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.isOverEdge",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,3,13,5,9,7,12,3,0,6,9,4,8,3,3,3,3,2,,,,,2,,1,2,,,"0.54",3,3,3,3
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.onChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,2,12,3,6,5,3,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.42",2,2,2,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.painterChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,2,0,5,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.removeAllPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,1,12,1,5,3,3,2,0,3,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.25",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.removePoint",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,4,17,3,10,4,6,2,0,8,11,2,9,2,2,2,1,1,,,,,0,,1,0,,,"0.24",2,2,2,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.removePointAt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,3,13,2,7,5,4,4,1,4,8,1,7,4,4,4,4,4,,,,,4,,2,4,,,"0.38",4,4,4,4
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.removeSelectedPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,5,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.removeSelectedPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,7,97,12,68,7,41,17,13,28,1,20,37,7,35,17,16,17,4,7,,,,,3,,7,3,,,"0.25",17,16,17,4
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.selectPointAt",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,1,15,1,6,3,3,3,0,3,8,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.20",3,3,3,3
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.setSelected",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,1,13,2,5,1,1,3,0,2,7,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.08",3,3,3,1
+Public Method,"plugins.kernel.roi.roi2d.ROI2DShape.translate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,17,2,7,0,3,2,0,3,8,2,6,2,2,2,1,0,,,,,0,,2,0,,,"0.00",2,2,2,1
+Protected Method,"plugins.kernel.roi.roi2d.ROI2DShape.updateShape",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1

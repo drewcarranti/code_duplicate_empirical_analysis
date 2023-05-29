@@ -1,0 +1,156 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractMetricPlotFetcher.java",1,1,2,1,8,0,7,0,,,,,2,0,0,14,,15,15,5,15,,0,1,4,10,,175,37,121,45,60,17,,,,54,90,51,50,,,,,,7,7,8,5,,,3,,,,"0.14",27,27,28,20
+File,"CustomMetricPlotFetcher.java",2,2,2,1,18,2,14,2,,,,,1,0,0,4,,4,4,0,4,,0,1,3,0,,91,18,64,18,42,9,,,,32,44,19,31,,,,,,4,4,4,1,,,1,,,,"0.14",9,9,10,4
+File,"DatabaseServiceImpl.java",3,3,3,1,20,2,16,0,,,,,12,0,0,75,,75,75,34,75,,0,16,0,59,,1644,306,1278,375,853,64,,,,585,878,390,651,,,,,,19,15,19,9,,,7,,,,"0.05",249,235,260,121
+File,"FetchUtil.java",2,2,2,1,24,3,18,3,,,,,1,0,0,5,,5,5,1,5,,0,1,0,4,,152,24,109,40,74,19,,,,49,64,39,35,,,,,,6,6,6,1,,,2,,,,"0.17",12,12,12,5
+File,"MetricNameDto.java",1,1,1,1,4,0,3,0,,,,,2,0,0,14,,12,14,14,14,,0,0,0,14,,102,19,74,35,29,16,,,,27,45,20,26,,,,,,7,7,8,5,,,1,,,,"0.22",22,22,23,16
+File,"PlotsDbMetricDataFetcher.java",1,1,1,1,4,0,4,0,,,,,1,0,0,1,,1,1,1,1,,0,0,0,1,,21,7,14,11,1,0,,,,9,11,10,1,,,,,,1,1,1,1,,,0,,,,"0.00",1,1,1,1
+File,"SessionScopeMonitoringMetricPlotFetcher.java",3,3,4,2,20,4,16,0,,,,,1,0,0,2,,2,2,1,2,,0,0,1,1,,65,15,43,20,21,7,,,,23,34,21,18,,,,,,6,6,7,4,,,2,,,,"0.16",7,7,8,5
+File,"SessionScopeTestGroupMetricPlotFetcher.java",3,3,4,2,20,4,16,0,,,,,1,0,0,2,,2,2,1,2,,0,0,1,1,,66,15,44,21,21,7,,,,24,35,22,18,,,,,,6,6,7,4,,,2,,,,"0.16",7,7,8,5
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.griddynamics",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.griddynamics.jagger",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.griddynamics.jagger.dbapi",3,3,3,1,20,2,16,0,,,,,12,0,0,,1,,75,34,75,,0,16,0,59,,1644,306,1278,375,853,64,,,,585,878,390,651,,,,,,19,15,19,9,,,7,,,,"0.05",249,235,260,121
+Public Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl",3,3,3,1,23,3,19,0,2,93,93,0,,0,0,,,,62,31,62,62,0,16,0,46,,1605,300,1245,342,853,64,,,,552,845,357,651,,,,,,19,15,19,9,,1,7,,95,93,"0.05",234,220,245,108
+Public Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.DetailsNodeFetcherThread",1,1,1,1,3,0,3,0,2,4,4,0,,0,0,,,,2,2,2,2,0,0,0,2,,12,1,11,5,3,0,,,,5,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.DetailsNodeFetcherThread.DetailsNodeFetcherThread",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.DetailsNodeFetcherThread.call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.SummaryNodeFetcherThread",1,1,1,1,6,0,6,0,2,4,4,0,,0,0,,,,2,1,2,2,0,0,0,2,,16,1,15,6,7,0,,,,7,11,6,7,,,,,,2,2,2,1,,1,1,,0,0,"0.00",3,3,3,2
+Public Constructor,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.SummaryNodeFetcherThread.SummaryNodeFetcherThread",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.SummaryNodeFetcherThread.call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,6,0,5,2,0,5,7,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Generic Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.buildTreeAccordingToRules",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,2,10,5,7,4,4,2,0,6,8,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.40",2,2,2,1
+TypeVariable,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.buildTreeAccordingToRules.M",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.checkIfTagsStorageAvailable",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,11,1,8,0,4,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.checkIfUserCommentStorageAvailable",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,11,1,8,1,4,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.09",2,2,2,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.fetchTaskDatas",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,4,0,4,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getAgentNamesForMonitoringParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,3,22,3,13,3,14,8,1,5,16,6,12,8,8,9,1,0,,,,,0,,7,0,,,"0.14",8,8,9,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getControlTreeForSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,9,20,9,16,0,12,2,0,14,16,8,15,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDecisionsPerMetric",,,,,,,,,,,,,,,,,,,,,,,,,,,12,92,15,75,16,55,3,28,151,2,34,51,18,44,15,15,16,9,13,,,,,13,,5,12,,,"0.04",15,15,16,9
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDecisionsPerSession",,,,,,,,,,,,,,,,,,,,,,,,,,,8,40,7,33,6,24,0,13,6,1,13,18,5,16,6,6,6,5,9,,,,,9,,2,9,,,"0.00",6,6,6,5
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDecisionsPerTask",,,,,,,,,,,,,,,,,,,,,,,,,,,8,41,7,34,7,25,0,16,6,1,16,21,6,19,6,6,6,5,9,,,,,9,,2,9,,,"0.00",6,6,6,5
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDefaultMonitoringParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDefaultMonitoringParametersMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,3,13,3,8,3,10,5,1,5,11,5,8,4,4,4,1,0,,,,,0,,2,0,,,"0.23",4,4,4,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDetailsNode",,,,,,,,,,,,,,,,,,,,,,,,,,,11,103,19,76,22,58,8,19,542,3,37,56,25,47,14,14,15,3,2,,,,,2,,2,2,,,"0.11",14,14,15,3
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDetailsNode.(Anon_8)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDetailsNode.(Anon_8).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDetailsNode.(Anon_9)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getDetailsNode.(Anon_9).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getMonitoringIds",,,,,,,,,,,,,,,,,,,,,,,,,,,7,62,7,49,6,41,6,17,12,1,11,21,8,17,7,7,7,5,3,,,,,3,,4,3,,,"0.12",7,7,7,5
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getMonitoringPlotGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getMonitoringPlotNames",,,,,,,,,,,,,,,,,,,,,,,,,,,12,76,13,61,17,48,3,28,80,2,33,50,22,40,12,12,12,5,5,,,,,5,,6,5,,,"0.05",12,12,12,5
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getMonitoringPlots",,,,,,,,,,,,,,,,,,,,,,,,,,,8,21,4,17,3,12,0,7,4,1,8,12,3,11,4,4,4,4,5,,,,,5,,2,5,,,"0.00",4,4,4,4
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getNodeInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,62,10,52,12,40,0,27,13,1,28,37,13,33,8,8,8,1,7,,,,,0,,3,0,,,"0.00",8,8,8,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,23,79,14,65,8,54,1,17,121,2,33,46,12,40,15,8,15,1,38,,,,,0,,2,0,,,"0.02",15,8,15,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNameDto.(Anon_2)",1,1,1,1,4,0,4,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,1,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNameDto.(Anon_2).call",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,52,12,37,11,27,3,20,17,1,18,30,15,24,7,7,7,5,3,,,,,3,,0,3,,,"0.08",7,7,7,5
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNode.(Anon_1)",2,2,2,1,7,0,7,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,0,8,3,7,0,,,,4,5,4,4,,,,,,2,2,2,1,,2,0,,0,0,"0.00",2,2,2,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getPlotDataByMetricNode.(Anon_1).compare",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,6,0,4,1,0,4,5,4,4,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSessionIdsByTaskIds",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSessionInfoService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSessionScopeNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,5,45,7,36,9,28,2,22,21,1,14,27,12,21,8,8,8,1,0,,,,,0,,4,0,,,"0.06",8,8,8,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSummaryByMetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,20,88,13,74,11,59,2,24,420,3,34,52,16,45,19,12,19,1,37,,,,,0,,6,0,,,"0.03",19,12,19,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSummaryByMetricNameDto.(Anon_3)",1,1,1,1,4,0,4,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,1,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSummaryByMetricNameDto.(Anon_3).call",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getSummaryTaskNodeList",,,,,,,,,,,,,,,,,,,,,,,,,,,6,34,8,23,10,18,3,14,6,1,15,21,12,18,4,4,4,1,0,,,,,0,,2,0,,,"0.13",4,4,4,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTaskDataForSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,16,163,19,135,28,118,9,27,670,3,56,72,28,58,14,14,19,1,3,,,,,0,,1,0,,,"0.07",14,14,19,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTaskDataForSessions.(Anon_7)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,1,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTaskDataForSessions.(Anon_7).compare",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTasksWithWorkloadStatistics",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,4,20,6,14,0,11,8,1,8,16,8,12,5,5,5,1,0,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestGroupIdsByTestIds",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,4,5,0,5,2,0,4,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestInfoByTaskDataDto",,,,,,,,,,,,,,,,,,,,,,,,,,,4,35,9,26,6,17,0,17,11,1,11,21,8,17,7,7,7,5,3,,,,,3,,4,3,,,"0.00",7,7,7,5
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestInfoByTaskIds",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap",,,,,,,,,,,,,,,,,,,,,,,,,,,10,81,12,69,13,52,0,30,36,2,30,46,17,38,9,9,10,5,4,,,,,4,,5,3,,,"0.00",9,9,10,5
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_4)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,1,6,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_4).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_5)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,1,6,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_5).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_6)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,1,6,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestMetricsMap.(Anon_6).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getTestPlotsMap",,,,,,,,,,,,,,,,,,,,,,,,,,,10,50,10,40,8,29,0,29,22,1,19,32,12,27,9,9,10,6,4,,,,,4,,5,4,,,"0.00",9,9,10,6
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.getWebClientProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.separateTestAndSessionScope",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,2,21,3,15,0,9,7,1,7,17,6,13,7,7,8,1,1,,,,,0,,5,0,,,"0.00",7,7,8,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomMetricNameProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomMetricPlotNameProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomMetricSummaryFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomTestGroupMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setCustomTestGroupMetricSummaryFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setDurationMetricSummaryFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setEntityManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setFetchUtil",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setLatencyMetricDataFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setLatencyMetricNameProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setLatencyMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setLegendProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setMonitoringMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setMonitoringPlotGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setSessionInfoServiceImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setSessionScopeMonitoringMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setSessionScopeTestGroupMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setStandardMetricNameDtoList",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setStandardMetricSummaryFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setThreadPool",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setThroughputMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setTimeLatencyPercentileMetricPlotFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setTreeViewGroupMetricsToNodeRuleProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setTreeViewGroupRuleProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setValidatorNamesProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setValidatorSummaryFetcher",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setWebClientProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.DatabaseServiceImpl.setWorkloadPlotGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.griddynamics.jagger.dbapi.dto",1,1,1,1,4,0,3,0,,,,,2,0,0,,1,,14,14,14,,0,0,0,14,,102,19,74,35,29,16,,,,27,45,20,26,,,,,,7,7,8,5,,,1,,,,"0.22",22,22,23,16
+Public Class,"com.griddynamics.jagger.dbapi.dto.MetricNameDto",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,12,2,12,12,0,0,0,12,,98,17,72,33,29,16,,,,25,43,18,26,,,,,,7,7,8,5,,2,1,,41,41,"0.22",22,22,23,16
+Public Constructor,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.MetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.MetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.MetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.MetricNameDto",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Enum Type,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.Origin",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,12,2,2,0,0,0,2,,14,0,14,13,0,7,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.50",0,0,0,0
+Public Implicit Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.Origin.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.Origin.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,3,9,3,6,0,3,5,1,6,11,2,9,7,7,8,5,4,,,,,4,,1,4,,,"0.00",7,7,8,5
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.getOrigin",,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.getTaskIds",,,,,,,,,,,,,,,,,,,,,,,,,,,10,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.getTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,4,0,2,1,0,4,5,2,4,4,4,4,1,0,,,,,0,,0,0,,,"0.00",4,4,4,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.setOrigin",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.setTest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.dto.MetricNameDto.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,6,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Package,"com.griddynamics.jagger.dbapi.fetcher",2,2,2,1,12,1,9,0,,,,,6,0,0,,5,,24,8,24,,0,2,9,13,,418,92,286,115,145,40,,,,142,214,123,118,,,,,,7,7,8,5,,,3,,,,"0.14",51,51,55,35
+Public Abstract Class,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher",4,4,4,2,23,3,18,2,1,17,17,1,,0,0,,,,5,0,5,6,0,1,4,0,,162,33,112,36,60,17,,,,45,81,42,50,,,,,,7,7,8,5,,3,3,,0,0,"0.15",17,17,18,10
+Public Static Class,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,10,5,10,10,0,0,0,10,,48,11,37,16,10,0,,,,15,26,16,10,,,,,,1,1,1,1,,1,0,,80,80,"0.00",10,10,10,10
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.getMetricId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.getSessionId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.getTime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.getWorkloadTaskDataId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.setMetricId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.setSessionId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.setTime",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.setValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.MetricRawData.setWorkloadTaskDataId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.assemble",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,2,15,3,12,0,9,3,0,5,9,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.createMappedPlotDatasets",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,12,3,7,5,5,4,1,4,10,5,7,4,4,4,1,0,,,,,0,,3,0,,,"0.42",4,4,4,1
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.fetchData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,3,12,3,7,0,6,3,0,5,8,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Protected Abstract Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.getAllRawData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.AbstractMetricPlotFetcher.getResult",,,,,,,,,,,,,,,,,,,,,,,,,,,3,44,8,33,9,24,3,15,24,1,15,26,13,20,7,7,8,5,2,,,,,2,,3,2,,,"0.09",7,7,8,5
+Public Class,"com.griddynamics.jagger.dbapi.fetcher.CustomMetricPlotFetcher",2,2,2,1,18,2,14,2,1,14,14,0,,0,0,,,,4,0,4,10,0,1,3,0,,81,14,58,12,42,9,,,,26,38,13,31,,,,,,4,4,4,1,,4,1,,0,0,"0.16",9,9,10,4
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.CustomMetricPlotFetcher.getAllRawData",,,,,,,,,,,,,,,,,,,,,,,,,,,3,33,8,25,7,19,0,15,6,1,16,22,8,19,4,4,4,1,1,,,,,0,,1,0,,,"0.00",4,4,4,1
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.CustomMetricPlotFetcher.getPlotDataNewModel",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,0,13,1,10,3,7,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.23",2,2,2,1
+Private Method,"com.griddynamics.jagger.dbapi.fetcher.CustomMetricPlotFetcher.getPlotDataOldModel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,8,1,6,3,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.38",1,1,1,1
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.CustomMetricPlotFetcher.getRawData",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,1,10,2,7,3,7,2,0,6,8,2,7,2,2,3,1,1,,,,,0,,1,0,,,"0.30",2,2,3,1
+Public Abstract Class,"com.griddynamics.jagger.dbapi.fetcher.PlotsDbMetricDataFetcher",1,1,1,1,4,0,4,0,1,2,2,1,,0,0,,,,1,1,1,1,0,0,0,1,,9,2,7,4,1,0,,,,2,4,3,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.PlotsDbMetricDataFetcher.setLegendProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeMonitoringMetricPlotFetcher",3,3,4,2,20,4,16,0,1,12,12,0,,0,0,,,,2,1,2,2,0,0,1,1,,54,12,35,12,21,7,,,,15,26,13,18,,,,,,6,6,7,4,,2,2,,0,0,"0.20",7,7,8,5
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeMonitoringMetricPlotFetcher.getResult",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,9,28,8,20,0,14,20,1,13,22,10,17,6,6,7,4,2,,,,,2,,2,2,,,"0.00",6,6,7,4
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeMonitoringMetricPlotFetcher.setSessionScopeDataUtil",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeTestGroupMetricPlotFetcher",3,3,4,2,20,4,16,0,1,13,13,0,,0,0,,,,2,1,2,2,0,0,1,1,,54,12,35,12,21,7,,,,15,26,13,18,,,,,,6,6,7,4,,2,2,,0,0,"0.20",7,7,8,5
+Protected Method,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeTestGroupMetricPlotFetcher.getResult",,,,,,,,,,,,,,,,,,,,,,,,,,,3,37,9,28,8,20,0,14,20,1,13,22,10,17,6,6,7,4,2,,,,,2,,2,2,,,"0.00",6,6,7,4
+Public Method,"com.griddynamics.jagger.dbapi.fetcher.SessionScopeTestGroupMetricPlotFetcher.setSessionScopeDataUtil",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.griddynamics.jagger.dbapi.util",2,2,2,1,24,3,18,3,,,,,1,0,0,,1,,5,1,5,,0,1,0,4,,152,24,109,40,74,19,,,,49,64,39,35,,,,,,6,6,6,1,,,2,,,,"0.17",12,12,12,5
+Public Class,"com.griddynamics.jagger.dbapi.util.FetchUtil",2,2,2,1,24,3,18,3,1,21,21,0,,0,0,,,,5,1,5,5,0,1,0,4,,136,21,96,27,74,19,,,,36,51,26,35,,,,,,6,6,6,1,,1,2,,19,0,"0.20",12,12,12,5
+Private Method,"com.griddynamics.jagger.dbapi.util.FetchUtil.getGroupToTaskIdsList",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,0,20,1,18,5,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.util.FetchUtil.getSessionIdsByTaskIds",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,6,1,4,4,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"com.griddynamics.jagger.dbapi.util.FetchUtil.getTestGroupIdsByTestIds",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,4,14,6,10,4,7,3,0,8,12,7,10,3,3,3,1,1,,,,,0,,1,0,,,"0.29",3,3,3,1
+Public Method,"com.griddynamics.jagger.dbapi.util.FetchUtil.getTestInfoByTaskIds",,,,,,,,,,,,,,,,,,,,,,,,,,,8,63,11,49,15,41,3,19,10,1,24,31,14,22,6,6,6,1,1,,,,,0,,2,0,,,"0.06",6,6,6,1
+Public Method,"com.griddynamics.jagger.dbapi.util.FetchUtil.setEntityManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

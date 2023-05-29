@@ -1,0 +1,78 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AndroidHttpClient.java",1,1,1,1,9,0,9,0,,,,,2,0,1,10,,10,10,0,10,,0,0,3,7,,151,25,126,60,58,0,,,,68,88,49,47,,,,,,4,4,5,4,,,3,,,,"0.00",18,18,19,13
+File,"StdHttpClient.java",1,1,1,1,7,0,6,1,,,,,4,1,1,54,,54,53,21,54,,0,0,7,47,,533,71,387,153,191,76,,,,196,274,138,151,,,,,,6,6,6,3,,,2,,,,"0.20",75,75,76,56
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ektorp",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ektorp.android",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ektorp.android.http",1,1,1,1,9,0,9,0,,,,,2,0,1,,1,,10,0,10,,0,0,3,7,,151,25,126,60,58,0,,,,68,88,49,47,,,,,,4,4,5,4,,,3,,,,"0.00",18,18,19,13
+Public Class,"org.ektorp.android.http.AndroidHttpClient",1,1,1,1,4,0,4,0,1,12,12,0,,0,1,,,,5,0,5,30,0,0,2,3,,120,22,98,32,58,0,,,,40,60,21,47,,,,,,1,1,1,1,,2,0,,0,0,"0.00",5,5,5,5
+Public Constructor,"org.ektorp.android.http.AndroidHttpClient.AndroidHttpClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.ektorp.android.http.AndroidHttpClient.AndroidHttpClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"org.ektorp.android.http.AndroidHttpClient.Builder",2,2,2,1,15,1,14,0,1,27,27,0,,0,0,,,,5,0,5,30,0,0,1,4,,86,14,72,19,47,0,,,,30,44,12,37,,,,,,4,4,5,4,,2,3,,0,0,"0.00",13,13,14,8
+Public Method,"org.ektorp.android.http.AndroidHttpClient.Builder.build",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.android.http.AndroidHttpClient.Builder.configureClient",,,,,,,,,,,,,,,,,,,,,,,,,,,16,32,5,27,6,22,0,10,8,1,13,17,4,15,4,4,5,1,0,,,,,0,,1,0,,,"0.00",4,4,5,1
+Public Method,"org.ektorp.android.http.AndroidHttpClient.Builder.configureConnectionManager",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,2,14,5,8,0,5,4,1,6,9,3,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Method,"org.ektorp.android.http.AndroidHttpClient.Builder.configureScheme",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,0,18,3,12,0,4,4,1,6,10,2,9,4,4,4,4,7,,,,,6,,3,6,,,"0.00",4,4,4,4
+Public Method,"org.ektorp.android.http.AndroidHttpClient.Builder.url",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,8,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.android.http.AndroidHttpClient.createHttpResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.android.http.AndroidHttpClient.executeRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.android.http.AndroidHttpClient.post",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,4,5,0,4,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.ektorp.http",1,1,1,1,7,0,6,1,,,,,4,1,1,,1,,53,21,54,,0,0,7,47,,533,71,387,153,191,76,,,,196,274,138,151,,,,,,6,6,6,3,,,2,,,,"0.20",75,75,76,56
+Public Class,"org.ektorp.http.StdHttpClient",1,1,1,1,4,0,4,0,2,27,27,1,,0,1,,,,25,2,25,25,0,0,6,19,,488,67,346,112,191,76,,,,155,233,97,151,,,,,,3,3,3,1,,1,2,,84,80,"0.22",29,29,29,25
+Public Static Class,"org.ektorp.http.StdHttpClient.Builder",1,1,1,1,10,0,7,2,1,29,29,1,,0,0,,,,25,19,25,25,0,0,1,24,,315,38,208,56,133,70,,,,103,148,58,98,,,,,,6,6,6,3,,1,2,,90,84,"0.34",42,42,43,27
+Public Method,"org.ektorp.http.StdHttpClient.Builder.build",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,3,5,0,4,2,0,4,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.caching",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,1,2,6,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.cleanupIdleConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,4,1,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.compression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,4,1,2,12,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.configureClient",,,,,,,,,,,,,,,,,,,,,,,,,,,17,34,4,30,5,25,0,10,16,1,15,20,5,18,5,5,6,1,1,,,,,0,,1,0,,,"0.00",5,5,6,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.configureConnectionManager",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,2,15,4,10,0,7,4,1,8,11,3,10,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Method,"org.ektorp.http.StdHttpClient.Builder.configureScheme",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,5,34,2,25,0,6,5,1,8,16,5,12,6,6,6,3,5,,,,,3,,1,3,,,"0.00",6,6,6,3
+Anonymous Class,"org.ektorp.http.StdHttpClient.Builder.configureScheme.(Anon_1)",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,3,0,3,3,0,0,0,3,,14,2,12,0,9,0,,,,1,4,3,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"org.ektorp.http.StdHttpClient.Builder.configureScheme.(Anon_1).checkClientTrusted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.configureScheme.(Anon_1).checkServerTrusted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.configureScheme.(Anon_1).getAcceptedIssuers",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.connectionManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.connectionTimeout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.enableSSL",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,4,1,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.host",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.maxCacheEntries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.maxConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.maxObjectSizeBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.password",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.port",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.proxy",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.proxyPort",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.relaxedSSLSettings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,4,1,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.socketTimeout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.sslSocketFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.url",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,0,20,2,14,6,12,9,1,9,14,2,13,5,5,5,1,1,,,,,0,,2,0,,,"0.30",5,5,5,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.url",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.useExpectContinue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.Builder.username",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.ektorp.http.StdHttpClient.StdHttpClient",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.ektorp.http.StdHttpClient.StdHttpClient",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"org.ektorp.http.StdHttpClient.WithCachingBuilder",1,1,1,1,6,0,6,0,1,3,3,0,,1,0,,,,0,0,1,1,0,0,0,1,,8,0,8,3,4,0,,,,4,6,3,4,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Static Method,"org.ektorp.http.StdHttpClient.WithCachingBuilder.withCaching",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,4,0,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.copy",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.http.StdHttpClient.createHttpResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.http.StdHttpClient.executePutPost",,,,,,,,,,,,,,,,,,,,,,,,,,,8,12,0,12,3,8,0,6,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.ektorp.http.StdHttpClient.executeRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.http.StdHttpClient.executeRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,6,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.ektorp.http.StdHttpClient.executeRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,15,2,10,0,11,3,0,6,9,2,7,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.ektorp.http.StdHttpClient.get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.getBackend",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.getClient",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.ektorp.http.StdHttpClient.getHttpHost",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.getUncached",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.head",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.post",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.post",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.post",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.postUncached",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.put",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.put",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.put",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,4,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.put",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.ektorp.http.StdHttpClient.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

@@ -1,0 +1,24 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"MemcachedConnection.java",4,4,4,1,23,0,20,2,,,,,1,1,2,18,,18,17,7,18,,2,7,0,9,,494,34,397,104,271,64,,,,212,292,109,222,,,,,,10,10,10,1,,,5,,,,"0.16",72,72,78,18
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.spy",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.spy.memcached",4,4,4,1,23,0,20,2,,,,,1,1,2,,1,,17,7,18,,2,7,0,9,,494,34,397,104,271,64,,,,212,292,109,222,,,,,,10,10,10,1,,,5,,,,"0.16",72,72,78,18
+Public Final Class,"net.spy.memcached.MemcachedConnection",4,4,4,1,23,0,20,2,1,33,33,0,,1,2,,,,17,7,18,18,2,7,0,9,,465,30,373,80,271,63,,,,188,268,85,222,,,,,,10,10,10,1,,2,5,,76,68,"0.17",72,72,78,18
+Public Constructor,"net.spy.memcached.MemcachedConnection.MemcachedConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,5,37,0,28,7,22,9,20,3,0,17,21,6,18,3,3,4,1,1,,,,,0,,2,0,,,"0.32",3,3,4,1
+Public Method,"net.spy.memcached.MemcachedConnection.addOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,1,20,4,14,9,6,7,1,10,14,5,12,5,5,6,1,1,,,,,0,,3,0,,,"0.45",5,5,6,1
+Public Method,"net.spy.memcached.MemcachedConnection.addOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,2,6,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.spy.memcached.MemcachedConnection.addOperations",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,11,4,8,0,7,2,0,7,10,5,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"net.spy.memcached.MemcachedConnection.attemptReconnects",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,0,28,7,22,0,20,4,1,17,20,7,18,4,4,4,1,2,,,,,0,,3,0,,,"0.00",4,4,4,1
+Public Method,"net.spy.memcached.MemcachedConnection.broadcastOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,12,4,9,3,8,2,0,8,11,5,9,2,2,2,1,0,,,,,0,,1,0,,,"0.25",2,2,2,1
+Static Method,"net.spy.memcached.MemcachedConnection.dbgBuffer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,4,10,0,7,3,0,9,12,5,9,3,3,4,1,1,,,,,0,,2,0,,,"0.00",3,3,4,1
+Method,"net.spy.memcached.MemcachedConnection.getLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"net.spy.memcached.MemcachedConnection.handleIO",,,,,,,,,,,,,,,,,,,,,,,,,,,8,56,4,47,7,36,6,22,48,2,22,33,8,29,9,9,9,1,2,,,,,0,,4,0,,,"0.13",9,9,9,1
+Private Method,"net.spy.memcached.MemcachedConnection.handleIO",,,,,,,,,,,,,,,,,,,,,,,,,,,4,37,0,34,3,26,3,18,8,1,14,21,3,20,7,7,7,1,3,,,,,0,,4,0,,,"0.09",7,7,7,1
+Private Method,"net.spy.memcached.MemcachedConnection.handleInputQueue",,,,,,,,,,,,,,,,,,,,,,,,,,,3,44,1,38,5,27,5,16,40,2,15,26,6,22,10,10,10,1,3,,,,,0,,5,0,,,"0.13",10,10,10,1
+Private Method,"net.spy.memcached.MemcachedConnection.handleReads",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,0,26,7,20,0,12,4,1,14,18,6,17,4,4,4,1,0,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"net.spy.memcached.MemcachedConnection.handleWrites",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,4,6,0,3,2,0,5,7,3,6,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"net.spy.memcached.MemcachedConnection.queueReconnect",,,,,,,,,,,,,,,,,,,,,,,,,,,10,29,3,25,2,19,1,16,7,1,11,16,2,15,5,5,6,1,2,,,,,0,,3,0,,,"0.04",5,5,6,1
+Private Method,"net.spy.memcached.MemcachedConnection.selectorsMakeSense",,,,,,,,,,,,,,,,,,,,,,,,,,,5,28,0,28,4,20,0,12,11,1,10,18,5,15,7,7,8,1,1,,,,,0,,4,0,,,"0.00",7,7,8,1
+Public Method,"net.spy.memcached.MemcachedConnection.setGetOptimization",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"net.spy.memcached.MemcachedConnection.shutdown",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,16,1,11,3,8,4,1,6,11,2,9,4,4,4,1,0,,,,,0,,3,0,,,"0.19",4,4,4,1
+Public Method,"net.spy.memcached.MemcachedConnection.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,3,7,0,5,2,0,6,9,3,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1

@@ -1,0 +1,60 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Arrays.java",2,2,3,1,8,0,8,0,,,,,1,4,0,4,,4,0,0,4,,0,0,0,4,,48,7,36,12,19,5,,,,18,30,15,17,,,,,,3,3,4,1,,,2,,,,"0.14",11,11,12,4
+File,"Clazz.java",1,1,1,1,7,0,7,0,,,,,2,1,0,19,,19,18,6,19,,0,0,0,19,,220,22,198,109,78,3,,,,99,135,81,71,,,,,,7,7,9,1,,,3,,,,"0.02",32,32,34,19
+File,"ClazzDaoHibernate.java",1,1,1,1,10,0,10,0,,,,,1,0,0,8,,8,8,0,8,,0,1,1,6,,109,9,95,39,53,5,,,,48,62,35,37,,,,,,3,3,3,1,,,1,,,,"0.05",13,13,13,8
+File,"Javadoc.java",1,1,1,1,11,0,11,0,,,,,2,0,0,2,,2,2,1,2,,0,0,0,2,,44,5,34,21,13,5,,,,21,25,19,10,,,,,,2,2,2,1,,,0,,,,"0.15",3,3,3,2
+File,"JavadocParser.java",3,3,3,1,17,0,17,0,,,,,1,0,0,2,,2,2,1,2,,0,1,0,1,,58,5,47,20,24,7,,,,27,37,20,22,,,,,,4,4,4,1,,,3,,,,"0.15",6,6,6,2
+File,"JavadocParserTest.java",1,1,1,1,12,0,11,1,,,,,2,0,0,2,,2,2,1,2,,0,0,0,2,,44,4,34,20,14,7,,,,21,25,18,9,,,,,,2,2,2,1,,,0,,,,"0.21",3,3,3,2
+Package,"javabot",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"javabot.commands",1,1,1,1,11,0,11,0,,,,,2,0,0,,1,,2,1,2,,0,0,0,2,,44,5,34,21,13,5,,,,21,25,19,10,,,,,,2,2,2,1,,,0,,,,"0.15",3,3,3,2
+Public Class,"javabot.commands.Javadoc",2,2,2,1,19,0,19,0,2,10,10,0,,0,0,,,,1,1,1,1,0,0,0,1,,30,2,23,10,13,5,,,,10,14,8,10,,,,,,2,2,2,1,,1,0,,0,0,"0.22",2,2,2,1
+Public Method,"javabot.commands.Javadoc.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,19,7,13,0,6,2,0,9,12,6,10,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Anonymous Class,"javabot.commands.Javadoc.execute.(Anon_1)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"javabot.commands.Javadoc.execute.(Anon_1).write",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"javabot.dao",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"javabot.dao.impl",1,1,1,1,10,0,10,0,,,,,1,0,0,,1,,8,0,8,,0,1,1,6,,109,9,95,39,53,5,,,,48,62,35,37,,,,,,3,3,3,1,,,1,,,,"0.05",13,13,13,8
+Public Class,"javabot.dao.impl.ClazzDaoHibernate",1,1,1,1,10,0,10,0,2,10,10,0,,0,0,,,,8,0,8,8,0,1,1,6,,94,6,83,27,53,5,,,,36,50,23,37,,,,,,3,3,3,1,,2,1,,0,0,"0.06",13,13,13,8
+Protected Constructor,"javabot.dao.impl.ClazzDaoHibernate.ClazzDaoHibernate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.deleteAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,3,5,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.findAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,3,4,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.getClass",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,16,6,11,0,11,2,0,10,12,5,10,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.getClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,4,5,0,7,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.getMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,4,5,0,4,2,0,4,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"javabot.dao.impl.ClazzDaoHibernate.getMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,14,2,10,0,8,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"javabot.dao.impl.ClazzDaoHibernate.getOrCreate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,3,12,0,10,2,0,7,9,3,7,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Package,"javabot.javadoc",1,1,1,1,8,0,8,0,,,,,3,1,0,,2,,20,7,21,,0,1,0,20,,278,27,245,129,102,10,,,,126,172,101,93,,,,,,7,7,9,1,,,3,,,,"0.04",38,38,40,21
+Public Class,"javabot.javadoc.Clazz",1,1,1,1,7,0,7,0,2,36,36,0,,1,0,,,,17,6,18,18,0,0,0,18,,184,19,165,76,78,3,,,,66,102,48,71,,,,,,7,7,9,1,,2,3,,75,75,"0.02",30,30,32,18
+Public Constructor,"javabot.javadoc.Clazz.Clazz",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"javabot.javadoc.Clazz.Clazz",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"javabot.javadoc.Clazz.MethodComparator",2,2,2,1,7,0,7,0,2,1,1,0,,0,0,,,,1,0,1,1,0,0,0,1,,9,0,9,3,4,0,,,,3,6,3,4,,,,,,2,2,2,1,,1,1,,0,0,"0.00",2,2,2,1
+Public Method,"javabot.javadoc.Clazz.MethodComparator.compare",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,4,0,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"javabot.javadoc.Clazz.getApi",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.getClassName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"javabot.javadoc.Clazz.getDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,17,4,14,0,8,3,0,11,13,4,12,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"javabot.javadoc.Clazz.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.getMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.getPackageName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.getSuperClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"javabot.javadoc.Clazz.populate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,32,0,32,17,24,3,22,8,1,16,23,13,20,5,5,5,1,0,,,,,0,,3,0,,,"0.09",5,5,5,1
+Public Final Method,"javabot.javadoc.Clazz.populate",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,0,27,4,20,0,20,13,1,14,22,6,19,7,7,9,1,1,,,,,0,,3,0,,,"0.00",7,7,9,1
+Public Method,"javabot.javadoc.Clazz.setApi",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.setClassName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.setId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.setMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.setPackageName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.setSuperClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"javabot.javadoc.Clazz.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"javabot.javadoc.JavadocParser",3,3,3,1,17,0,17,0,1,12,12,0,,0,0,,,,2,1,2,2,0,1,0,1,,45,2,37,11,24,7,,,,18,28,11,22,,,,,,4,4,4,1,,1,3,,50,50,"0.19",6,6,6,2
+Private Method,"javabot.javadoc.JavadocParser.createClazz",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,4,12,0,14,2,0,11,13,4,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"javabot.javadoc.JavadocParser.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,0,19,4,12,1,11,5,1,6,13,5,10,4,4,4,1,1,,,,,0,,3,0,,,"0.05",4,4,4,1
+Package,"javabot.util",2,2,3,1,8,0,8,0,,,,,1,4,0,,1,,0,0,4,,0,0,0,4,,48,7,36,12,19,5,,,,18,30,15,17,,,,,,3,3,4,1,,,2,,,,"0.14",11,11,12,4
+Public Class,"javabot.util.Arrays",2,2,3,1,8,0,8,0,1,3,3,0,,4,0,,,,0,0,4,4,0,0,0,4,,44,5,34,10,19,5,,,,16,28,13,17,,,,,,3,3,4,1,,1,2,,0,0,"0.15",11,11,12,4
+Public Static Method,"javabot.util.Arrays.removeAll",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,9,2,5,0,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"javabot.util.Arrays.search",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,3,4,0,2,2,0,4,5,3,2,3,3,4,1,0,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Static Method,"javabot.util.Arrays.subset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,4,0,1,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"javabot.util.Arrays.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,1,10,2,6,0,4,3,0,4,8,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Package,"javadoc",1,1,1,1,12,0,11,1,,,,,2,0,0,,1,,2,1,2,,0,0,0,2,,44,4,34,20,14,7,,,,21,25,18,9,,,,,,2,2,2,1,,,0,,,,"0.21",3,3,3,2
+Public Class,"javadoc.JavadocParserTest",2,2,2,1,20,0,19,2,1,7,7,0,,0,0,,,,1,1,1,1,0,0,0,1,,31,1,24,10,14,7,,,,11,15,8,9,,,,,,2,2,2,1,,2,0,,0,0,"0.29",2,2,2,1
+Public Method,"javadoc.JavadocParserTest.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,0,19,6,14,2,5,2,0,10,13,6,9,2,2,2,1,0,,,,,0,,0,0,,,"0.11",2,2,2,1
+Anonymous Class,"javadoc.JavadocParserTest.parse.(Anon_1)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"javadoc.JavadocParserTest.parse.(Anon_1).write",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

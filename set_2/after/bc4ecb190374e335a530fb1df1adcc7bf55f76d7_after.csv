@@ -1,0 +1,25 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"SidePanel.java",3,3,3,0,16,3,13,0,,,,,2,0,0,8,,6,8,11,8,,0,4,0,4,,192,39,132,45,73,21,,,,66,106,48,73,,,,,,20,20,20,1,,,2,,,,"0.16",27,27,27,6
+File,"SidePanelTest.java",1,1,1,1,21,3,16,1,,,,,1,0,0,7,,7,7,0,7,,0,4,0,3,,194,35,127,35,95,32,,,,77,89,34,66,,,,,,2,2,2,1,,,1,,,,"0.25",9,9,9,7
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.marabou",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.github.marabou.view",2,2,2,0,18,3,14,0,,,,,3,0,0,,2,,15,11,15,,0,8,0,7,,386,74,259,80,168,53,,,,143,195,82,139,,,,,,20,20,20,1,,,2,,,,"0.20",36,36,36,13
+Public Class,"com.github.marabou.view.SidePanel",5,5,5,1,25,4,20,0,1,14,14,0,,0,0,,,,5,1,5,5,0,3,0,2,,175,34,120,33,73,21,,,,54,94,36,73,,,,,,20,20,20,1,,1,2,,40,19,"0.17",26,26,26,5
+Protected Enum Type,"com.github.marabou.view.SidePanel.ComboAndLabelNames",0,0,0,0,1,0,1,0,1,1,1,0,,0,0,,,,3,10,3,3,0,1,0,2,,18,3,15,12,1,0,,,,3,4,3,1,,,,,,1,1,1,1,,1,0,,,,"0.00",1,1,1,1
+Private Constructor,"com.github.marabou.view.SidePanel.ComboAndLabelNames.ComboAndLabelNames",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"com.github.marabou.view.SidePanel.ComboAndLabelNames.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"com.github.marabou.view.SidePanel.ComboAndLabelNames.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Constructor,"com.github.marabou.view.SidePanel.SidePanel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.marabou.view.SidePanel.cleanComboBoxes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,1,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.github.marabou.view.SidePanel.createComboBoxesAndLabels",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,2,9,3,6,0,4,2,0,5,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"com.github.marabou.view.SidePanel.setupLayout",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,3,5,0,2,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.marabou.view.SidePanel.updateLists",,,,,,,,,,,,,,,,,,,,,,,,,,,14,98,21,77,10,56,0,14,262656,5,37,67,20,56,20,20,20,1,0,,,,,0,,2,0,,,"0.00",20,20,20,1
+Public Class,"com.github.marabou.view.SidePanelTest",1,1,1,1,21,3,16,1,1,9,9,0,,0,0,,,,7,0,7,7,0,4,0,3,,177,30,115,24,95,32,,,,66,78,23,66,,,,,,2,2,2,1,,1,1,,0,0,"0.28",9,9,9,7
+Private Method,"com.github.marabou.view.SidePanelTest.aSidePanelWithSwtMocked",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.marabou.view.SidePanelTest.aValidCompleteAudioFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,12,1,10,0,10,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.marabou.view.SidePanelTest.anEmptyValidAudioFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,1,10,0,10,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.github.marabou.view.SidePanelTest.anotherValidCompleteAudioFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,1,10,0,10,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.github.marabou.view.SidePanelTest.doesNotHoldOldEntriesAfterUpdateGetsCalled",,,,,,,,,,,,,,,,,,,,,,,,,,,10,29,5,20,5,16,4,19,2,0,15,18,5,16,2,2,2,1,0,,,,,0,,1,0,,,"0.20",2,2,2,1
+Public Method,"com.github.marabou.view.SidePanelTest.holdsAllGivenEntriesInTheCombosButNoDuplicates",,,,,,,,,,,,,,,,,,,,,,,,,,,10,51,13,35,8,32,3,21,1,0,32,33,7,30,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"com.github.marabou.view.SidePanelTest.ignoresEmptyAudioFileValues",,,,,,,,,,,,,,,,,,,,,,,,,,,10,28,5,19,5,15,4,22,2,0,14,17,5,15,2,2,2,1,0,,,,,0,,1,0,,,"0.21",2,2,2,1

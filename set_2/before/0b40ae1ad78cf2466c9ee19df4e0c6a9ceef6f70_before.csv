@@ -1,0 +1,614 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Categories.java",1,1,1,1,5,0,5,0,,,,,2,0,1,5,,5,5,0,5,,0,0,0,5,,65,7,41,15,14,17,,,,19,25,16,10,,,,,,1,1,1,1,,,0,,,,"0.41",5,5,5,5
+File,"GeneralTest.java",1,1,1,1,12,0,12,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,58,8,50,29,26,0,,,,23,27,22,12,,,,,,1,1,1,1,,,0,,,,"0.00",3,3,3,3
+File,"PropertyEnum.java",1,1,1,0,7,0,6,0,,,,,49,6,3,109,,109,104,52,110,,1,3,0,106,,1192,101,992,544,185,264,,,,228,356,222,147,,,,,,5,5,5,1,,,2,,,,"0.27",129,129,129,107
+File,"Recurrences.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,40,4,19,11,2,17,,,,10,13,11,2,,,,,,1,1,1,1,,,0,,,,"0.89",2,2,2,2
+File,"RecurrencesTest.java",1,1,1,1,12,0,12,0,,,,,1,0,0,5,,5,5,0,5,,0,0,0,5,,90,10,79,45,41,1,,,,46,52,36,27,,,,,,1,1,1,1,,,0,,,,"0.01",5,5,5,5
+File,"StandardOrSavings.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,15,15,0,15,,15,0,0,0,,83,7,24,22,0,52,,,,21,22,22,0,,,,,,0,0,0,0,,,0,,,,"2.17",0,0,0,0
+File,"StandardOrSavingsBase.java",1,1,1,1,5,0,4,0,,,,,1,0,0,17,,17,17,0,17,,0,0,0,17,,128,26,84,39,11,18,,,,17,35,24,11,,,,,,1,1,1,1,,,0,,,,"0.21",17,17,17,17
+File,"VComponentBase.java",2,2,2,1,14,0,10,3,,,,,1,2,1,28,,28,15,3,17,,2,2,0,13,,412,23,278,94,153,116,,,,127,171,84,121,,,,,,6,6,7,6,,,4,,,,"0.42",57,57,60,38
+File,"VComponentDisplayable.java",1,1,1,1,1,0,1,0,,,,,1,0,0,1,,39,39,0,39,,39,0,0,0,,241,18,57,55,1,166,,,,51,53,52,1,,,,,,1,1,1,1,,,0,,,,"2.91",1,1,1,1
+File,"VComponentDisplayableBase.java",1,1,1,1,7,0,5,1,,,,,1,0,0,25,,25,23,4,23,,0,0,0,23,,212,11,153,67,63,48,,,,77,117,60,64,,,,,,6,6,6,1,,,6,,,,"0.31",41,41,41,25
+File,"VComponentLocatable.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,18,18,0,18,,15,0,0,3,,103,8,29,27,0,66,,,,26,27,27,0,,,,,,0,0,0,0,,,0,,,,"2.28",0,0,0,0
+File,"VComponentLocatableBase.java",1,1,1,1,4,0,2,2,,,,,1,0,0,7,,7,7,1,7,,0,0,0,7,,48,4,27,15,8,17,,,,15,24,14,10,,,,,,2,2,2,1,,,1,,,,"0.63",8,8,8,7
+File,"VComponentPersonal.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,16,16,0,16,,16,0,0,0,,103,7,28,26,0,68,,,,25,26,26,0,,,,,,0,0,0,0,,,0,,,,"2.43",0,0,0,0
+File,"VComponentPersonalBase.java",1,1,1,1,4,0,2,1,,,,,1,0,0,33,,33,31,6,31,,2,0,0,29,,204,11,123,68,44,70,,,,71,107,53,54,,,,,,2,2,2,1,,,1,,,,"0.57",41,41,41,33
+File,"VComponentPrimary.java",1,1,1,1,4,0,4,0,,,,,1,0,0,2,,7,7,0,7,,7,0,0,0,,56,4,26,17,4,26,,,,18,21,17,4,,,,,,2,2,2,1,,,1,,,,"1.00",3,3,3,2
+File,"VComponentPrimaryBase.java",1,1,1,1,9,0,3,5,,,,,1,0,0,16,,16,15,3,15,,4,0,0,11,,205,9,80,40,24,116,,,,40,60,35,25,,,,,,4,4,4,1,,,1,,,,"1.45",20,20,20,16
+File,"VComponentRepeatable.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,6,6,0,6,,6,0,0,0,,67,6,16,14,0,45,,,,13,14,14,0,,,,,,0,0,0,0,,,0,,,,"2.81",0,0,0,0
+File,"VComponentRepeatableBase.java",1,1,1,1,9,0,7,1,,,,,1,0,0,16,,16,15,2,15,,2,0,0,13,,169,11,130,55,52,28,,,,61,92,49,50,,,,,,6,6,6,1,,,6,,,,"0.22",31,31,31,16
+File,"VComponentTest.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,20,3,14,6,2,4,,,,3,7,5,2,,,,,,1,1,1,1,,,0,,,,"0.29",3,3,3,3
+File,"VComponentTest2.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,21,4,14,6,2,4,,,,3,7,5,2,,,,,,1,1,1,1,,,0,,,,"0.29",3,3,3,3
+File,"VComponentTest3.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,21,4,14,6,2,4,,,,3,7,5,2,,,,,,1,1,1,1,,,0,,,,"0.29",3,3,3,3
+File,"VEventNew.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,20,3,14,6,2,3,,,,3,7,5,2,,,,,,1,1,1,1,,,0,,,,"0.21",3,3,3,3
+File,"VEventNewInt.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,3,3,0,3,,3,0,0,0,,23,3,9,7,0,12,,,,5,6,6,0,,,,,,0,0,0,0,,,0,,,,"1.33",0,0,0,0
+File,"VEventTest.java",1,1,1,1,22,2,20,1,,,,,1,0,0,6,,6,6,0,6,,0,0,0,6,,167,25,141,71,95,6,,,,59,66,50,41,,,,,,1,1,1,1,,,0,,,,"0.04",6,6,6,6
+File,"VTodo.java",1,1,1,1,3,0,3,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,20,3,14,6,2,3,,,,3,7,5,2,,,,,,1,1,1,1,,,0,,,,"0.21",3,3,3,3
+File,"VTodoInt.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,9,9,0,9,,9,0,0,0,,54,5,18,16,0,32,,,,14,15,15,0,,,,,,0,0,0,0,,,0,,,,"1.78",0,0,0,0
+File,"VTodoMock.java",1,1,1,1,5,0,4,0,,,,,1,0,0,71,,71,71,0,71,,0,0,0,71,,516,96,348,158,48,72,,,,65,137,89,48,,,,,,1,1,1,1,,,0,,,,"0.21",71,71,71,71
+File,"VTodoTest.java",1,1,1,1,22,2,20,1,,,,,1,0,0,6,,6,6,0,6,,0,0,0,6,,165,23,141,71,95,6,,,,59,66,50,41,,,,,,1,1,1,1,,,0,,,,"0.04",6,6,6,6
+Package,"jfxtras",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx.component",1,1,1,1,20,1,18,0,,,,,3,0,0,,3,,15,0,15,,0,0,0,15,,390,56,332,171,216,12,,,,141,159,122,94,,,,,,1,1,1,1,,,0,,,,"0.04",15,15,15,15
+Public Class,"jfxtras.labs.icalendarfx.component.GeneralTest",1,1,1,1,12,0,12,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,44,3,41,20,26,0,,,,14,18,13,12,,,,,,1,1,1,1,,1,0,,0,0,"0.00",3,3,3,3
+Public Method,"jfxtras.labs.icalendarfx.component.GeneralTest.canEscapeTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,6,7,0,4,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.GeneralTest.canFoldAndUnfoldLine",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,16,8,12,0,9,1,0,6,7,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.GeneralTest.canGetProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,5,7,0,8,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"jfxtras.labs.icalendarfx.component.VEventTest",1,1,1,1,22,2,20,1,1,16,16,0,,0,0,,,,6,0,6,6,0,0,0,6,,141,18,122,53,95,6,,,,41,48,32,41,,,,,,1,1,1,1,,1,0,,0,0,"0.05",6,6,6,6
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canBuildBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,25,3,22,9,18,2,10,1,0,11,12,6,11,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canBuildDescribable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,18,8,14,0,8,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canBuildPersonal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,27,2,25,8,21,2,13,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.08",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canBuildPrimary",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,18,8,14,0,7,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canBuildRepeatable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,32,4,27,12,23,1,14,1,0,9,10,7,9,1,1,1,1,0,,,,,0,,0,0,,,"0.04",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VEventTest.canCatchDifferentRepeatableTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,10,7,5,1,6,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Public Class,"jfxtras.labs.icalendarfx.component.VTodoTest",1,1,1,1,22,2,20,1,1,22,22,0,,0,0,,,,6,0,6,6,0,0,0,6,,142,18,123,53,95,6,,,,41,48,32,41,,,,,,1,1,1,1,,1,0,,0,0,"0.05",6,6,6,6
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canBuildBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,25,3,22,9,18,2,12,1,0,11,12,6,11,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canBuildDescribable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,18,8,14,0,10,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canBuildPersonal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,27,2,25,8,21,2,15,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.08",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canBuildPrimary",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,18,8,14,0,9,1,0,6,7,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canBuildRepeatable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,32,4,27,12,23,1,16,1,0,9,10,7,9,1,1,1,1,0,,,,,0,,0,0,,,"0.04",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.component.VTodoTest.canCatchDifferentRepeatableTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,10,7,5,1,7,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.10",1,1,1,1
+Package,"jfxtras.labs.icalendarfx.components",1,1,1,1,7,0,5,2,,,,,20,2,1,,20,,251,19,253,,120,2,0,131,,2210,170,1152,592,370,898,,,,596,825,523,350,,,,,,6,6,7,6,,,6,,,,"0.78",234,234,237,170
+Public Interface,"jfxtras.labs.icalendarfx.components.StandardOrSavings",0,0,0,0,0,0,0,0,1,6,6,1,,0,0,,,,15,0,15,28,15,0,0,0,,67,4,18,16,0,45,,,,15,16,16,0,,,,,,0,0,0,0,,4,0,,0,0,"2.50",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.getTimeZoneIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.getTimeZoneName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.getTimeZoneOffsetFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.getTimeZoneOffsetTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.getTimeZoneURL",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.setTimeZoneIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.setTimeZoneName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.setTimeZoneOffsetFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.setTimeZoneOffsetTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.setTimeZoneURL",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.timeZoneIdentifierProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.timeZoneNameProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.timeZoneOffsetFromProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.timeZoneOffsetToProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.StandardOrSavings.timeZoneURLProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase",1,1,1,1,5,0,4,0,2,7,7,0,,0,0,,,,17,0,17,65,0,0,0,17,,119,23,78,33,11,18,,,,11,29,18,11,,,,,,1,1,1,1,,4,0,,0,0,"0.23",17,17,17,17
+Public Constructor,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.StandardOrSavingsBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.StandardOrSavingsBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.getTimeZoneIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.getTimeZoneName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.getTimeZoneOffsetFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.getTimeZoneOffsetTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.getTimeZoneURL",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.setTimeZoneIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.setTimeZoneName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.setTimeZoneOffsetFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.setTimeZoneOffsetTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.setTimeZoneURL",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.timeZoneIdentifierProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.timeZoneNameProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.timeZoneOffsetFromProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.timeZoneOffsetToProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.StandardOrSavingsBase.timeZoneURLProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentBase",2,2,2,1,20,0,14,5,2,20,20,1,,2,1,,,,15,3,17,18,2,2,0,13,,393,20,262,78,153,116,,,,111,155,68,121,,,,,,6,6,7,6,,1,4,,84,80,"0.44",54,54,57,36
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,4,0,5,1,0,3,3,2,3,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentBase.VComponentBase",,,,,,,,,,,,,,,,,,,,,,,,,,,7,41,2,35,9,23,4,20,6,1,13,19,8,17,6,6,7,1,3,,,,,0,,3,0,,,"0.11",7,7,8,2
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentBase.VComponentBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.VComponentBase.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,35,1,33,11,20,3,9,6,1,16,22,10,18,6,6,7,6,5,,,,,5,,3,5,,,"0.09",6,6,7,6
+Private Static Method,"jfxtras.labs.icalendarfx.components.VComponentBase.foldLine",,,,,,,,,,,,,,,,,,,,,,,,,,,4,44,0,33,7,20,11,7,5,1,14,19,7,14,5,5,5,1,2,,,,,0,,4,0,,,"0.33",5,5,5,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.getIANAProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,5,2,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.getNonStandardProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,5,2,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,12,5,6,0,7,2,0,5,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.properties",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,0,16,6,8,6,10,3,0,6,9,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.38",3,3,3,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.propertySortOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"7.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.setIANAProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.setNonStandardProperties",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines",,,,,,,,,,,,,,,,,,,,,,,,,,,11,58,4,51,10,36,3,14,1,0,20,24,9,21,1,1,1,1,0,,,,,0,,1,0,,,"0.06",12,12,12,9
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_2)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,13,0,7,0,4,3,0,3,5,0,5,3,3,3,3,2,,,,,2,,0,2,,,"0.00",3,3,3,3
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_3)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_4)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,2,7,0,7,2,0,4,5,2,5,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_5)",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,4,6,0,4,1,0,5,5,4,3,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_6)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,0,3,0,4,1,0,1,1,0,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.toContentLines.(lambda_expr_6).(lambda_expr_7)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,4,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"jfxtras.labs.icalendarfx.components.VComponentBase.unfoldLines",,,,,,,,,,,,,,,,,,,,,,,,,,,3,74,0,34,8,20,43,14,7,1,15,20,8,17,5,5,6,4,4,,,,,3,,3,1,,,"1.26",5,5,6,4
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withIANAProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,9,1,4,1,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withIANAProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withIANAProperty.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withNonStandardProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,9,1,4,1,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withNonStandardProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentBase.withNonStandardProperty.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"jfxtras.labs.icalendarfx.components.VComponentDisplayable",1,1,1,1,1,0,1,0,4,13,13,2,,0,0,,,,39,0,39,75,39,0,0,0,,215,15,45,43,1,155,,,,39,41,40,1,,,,,,1,1,1,1,,4,0,,0,0,"3.44",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.categoriesProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.classificationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.contactProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.dateTimeCreatedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.dateTimeLastModifiedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.dateTimeRecurrenceProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.exDateProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getClassification",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getContact",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,1,1,0,12,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"12.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getDateTimeCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getDateTimeLastModified",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,2,2,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.50",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getDateTimeRecurrence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getEndRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getExDate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getRelatedTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,3,1,1,0,12,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"12.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getStartRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.getStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.incrementSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.instances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.makeInstances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,1,1,0,12,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"12.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.makeInstances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,14,0,1,1,0,13,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"13.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.relatedToProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.sequenceProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setClassification",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setContact",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setDateTimeCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setDateTimeLastModified",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setDateTimeRecurrence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setEndRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setExDate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setRelatedTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setStartRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.setStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.statusProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayable.streamLimitedByRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase",1,1,1,1,7,0,5,1,4,24,24,1,,0,0,,,,23,4,23,87,0,0,0,23,,187,8,131,45,63,48,,,,55,95,38,64,,,,,,5,5,5,1,,4,6,,93,79,"0.37",41,41,41,25
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.VComponentDisplayableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.VComponentDisplayableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.getAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,5,2,1,12,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.40",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.getRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.getRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,6,45,0,34,6,17,11,4,2,0,8,15,5,14,2,2,2,1,0,,,,,0,,6,0,,,"0.32",8,8,8,2
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.getRecurrences.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,24,4,12,0,12,6,1,5,10,4,10,6,6,6,1,0,,,,,0,,0,0,,,"0.00",6,6,6,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.getSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.recurrenceRuleProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,8,1,3,11,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.38",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.setAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.setRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.setRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.setRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.setSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.summaryProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,8,1,3,9,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.12",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,1,1,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withAttachments.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,1,19,3,10,1,9,5,1,6,11,3,10,5,5,5,1,2,,,,,0,,2,0,,,"0.05",5,5,5,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,22,1,21,5,12,0,7,5,1,8,13,5,9,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentDisplayableBase.withSummary",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"jfxtras.labs.icalendarfx.components.VComponentLocatable",0,0,0,0,0,0,0,0,1,6,6,2,,0,0,,,,18,0,18,93,15,0,0,3,,83,5,21,19,0,57,,,,18,19,19,0,,,,,,0,0,0,0,,5,0,,0,0,"2.71",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentLocatable.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.descriptionProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.durationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.geographicPositionProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getDuration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getGeographicPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,0,1,1,0,12,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"12.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getPriority",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.getResources",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.locationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.priorityProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.resourcesProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setDuration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setGeographicPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setPriority",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentLocatable.setResources",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase",1,1,1,1,4,0,2,2,2,5,5,2,,0,0,,,,7,1,7,94,0,0,0,7,,41,2,22,10,8,17,,,,10,19,9,10,,,,,,2,2,2,1,,5,1,,85,42,"0.77",8,8,8,7
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.VComponentLocatableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.VComponentLocatableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.descriptionProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,8,1,3,14,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.75",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.withDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentLocatableBase.withDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"jfxtras.labs.icalendarfx.components.VComponentPersonal",0,0,0,0,0,0,0,0,1,6,6,2,,0,0,,,,16,0,16,23,16,0,0,0,,82,5,19,17,0,58,,,,16,17,17,0,,,,,,0,0,0,0,,3,0,,0,0,"3.05",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.dateTimeStampProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getAttendees",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getRequestStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.getUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.organizerProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setAttendees",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setRequestStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.setUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.uniformResourceLocatorProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPersonal.uniqueIdentifierProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase",1,1,1,1,4,0,3,1,2,16,16,2,,0,0,,,,31,6,31,64,2,0,0,29,,186,8,108,53,44,70,,,,56,92,38,54,,,,,,2,2,2,1,,3,1,,94,84,"0.65",41,41,41,33
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.VComponentPersonalBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.VComponentPersonalBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.dateTimeStampProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,9,2,3,5,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getAttendees",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,0,9,2,3,11,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.22",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getRequestStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,5,2,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,1,0,3,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.getUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.organizerProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,9,2,3,8,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.89",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setAttendees",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setRequestStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,0,0,0,0,0,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,2,0,0,0,0,0,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.setUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.uniformResourceLocatorProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,9,2,3,9,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.uniqueIdentifierProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,8,1,3,9,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.12",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withAttendees",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,5,1,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.20",2,2,2,2
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withAttendees.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withDateTimeStamp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withOrganizer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withRequestStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,9,1,4,1,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",3,3,3,2
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withRequestStatus.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,0,1,0,3,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withUniformResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPersonalBase.withUniqueIdentifier",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"jfxtras.labs.icalendarfx.components.VComponentPrimary",1,1,1,1,4,0,4,0,1,6,6,3,,0,0,,,,7,0,7,7,7,0,0,0,,33,1,17,8,4,15,,,,9,12,8,4,,,,,,2,2,2,1,,2,1,,0,0,"0.88",3,3,3,2
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.dateTimeStartProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.getComments",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.getDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.getDateTimeType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0,0,0,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.getZoneId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,3,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.setComments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentPrimary.setDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase",1,1,1,1,9,0,3,5,2,16,16,2,,0,0,,,,15,3,15,33,4,0,0,11,,186,6,64,24,24,116,,,,24,44,19,25,,,,,,4,4,4,1,,2,1,,91,77,"1.81",20,20,20,16
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.VComponentPrimaryBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.VComponentPrimaryBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.dateTimeStartProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,8,1,3,7,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.88",2,2,2,1
+Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.ensureDateTimeTypeConsistency",,,,,,,,,,,,,,,,,,,,,,,,,,,0,68,0,3,1,0,65,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"21.67",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.getComments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,5,2,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.getDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.lastDtStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.setComments",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.setDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.setDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,17,1,9,0,3,4,1,4,8,1,7,4,4,4,1,3,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withComments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,5,1,2,5,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withComments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,1,1,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withComments.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,0,1,0,2,1,0,0,0,0,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentPrimaryBase.withDateTimeStart",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"jfxtras.labs.icalendarfx.components.VComponentRepeatable",0,0,0,0,0,0,0,0,1,5,5,4,,0,0,,,,6,0,6,13,6,0,0,0,,48,3,9,7,0,36,,,,6,7,7,0,,,,,,0,0,0,0,,3,0,,0,0,"4.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.getRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.getRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.recurrenceRuleProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.setRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.setRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatable.streamRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,0,1,1,0,15,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"15.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase",1,1,1,1,8,0,6,1,2,25,25,2,,0,0,,,,15,2,15,48,2,0,0,13,,145,8,109,34,52,28,,,,40,71,28,50,,,,,,5,5,5,1,,3,6,,90,60,"0.26",31,31,31,16
+TypeVariable,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.VComponentRepeatableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.VComponentRepeatableBase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.getRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.getRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,4,45,0,34,6,17,11,4,2,0,8,15,5,14,2,2,2,1,0,,,,,0,,6,0,,,"0.32",8,8,8,2
+Lambda Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.getRecurrences.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,24,4,12,0,12,6,1,5,10,4,10,6,6,6,1,0,,,,,0,,0,0,,,"0.00",6,6,6,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.recurrenceRuleProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,8,1,3,11,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.38",2,2,2,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.setRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,0,2,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.setRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.setRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.streamRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,21,1,19,3,10,1,9,5,1,6,11,3,10,5,5,5,1,2,,,,,0,,2,0,,,"0.05",5,5,5,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,22,1,21,5,12,0,7,5,1,8,13,5,9,5,5,5,1,2,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentRepeatableBase.withRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"jfxtras.labs.icalendarfx.components.VComponentTest",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,3,0,3,67,0,0,0,3,,18,2,13,5,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,4,0,,0,0,"0.31",3,3,3,3
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest.VComponentTest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest.VComponentTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentTest.componentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Class,"jfxtras.labs.icalendarfx.components.VComponentTest2",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,3,0,3,51,0,0,0,3,,19,3,13,5,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,4,0,,0,0,"0.31",3,3,3,3
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest2.VComponentTest2",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest2.VComponentTest2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentTest2.componentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Class,"jfxtras.labs.icalendarfx.components.VComponentTest3",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,3,0,3,3,0,0,0,3,,19,3,13,5,2,4,,,,2,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.31",3,3,3,3
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest3.VComponentTest3",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VComponentTest3.VComponentTest3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VComponentTest3.componentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VEventNew",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,3,0,3,97,0,0,0,3,,18,2,13,5,2,3,,,,2,6,4,2,,,,,,1,1,1,1,,6,0,,0,0,"0.23",3,3,3,3
+TypeVariable,"jfxtras.labs.icalendarfx.components.VEventNew.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VEventNew.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"jfxtras.labs.icalendarfx.components.VEventNew.VEventNew",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VEventNew.VEventNew",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VEventNew.componentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"jfxtras.labs.icalendarfx.components.VEventNewInt",0,0,0,0,0,0,0,0,2,3,3,2,,0,0,,,,3,0,3,96,3,0,0,0,,19,1,7,5,0,12,,,,3,4,4,0,,,,,,0,0,0,0,,6,0,,0,0,"1.71",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VEventNewInt.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VEventNewInt.getTimeTransparency",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VEventNewInt.setTimeTransparency",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VEventNewInt.timeTransparencyProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Generic Class,"jfxtras.labs.icalendarfx.components.VTodo",1,1,1,1,3,0,3,0,2,3,3,1,,0,0,,,,3,0,3,97,0,0,0,3,,18,2,13,5,2,3,,,,2,6,4,2,,,,,,1,1,1,1,,6,0,,0,0,"0.23",3,3,3,3
+TypeVariable,"jfxtras.labs.icalendarfx.components.VTodo.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VTodo.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"jfxtras.labs.icalendarfx.components.VTodo.VTodo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.components.VTodo.VTodo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.components.VTodo.componentType",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Interface,"jfxtras.labs.icalendarfx.components.VTodoInt",0,0,0,0,0,0,0,0,1,5,5,1,,0,0,,,,9,0,9,102,9,0,0,0,,46,2,13,11,0,32,,,,9,10,10,0,,,,,,0,0,0,0,,6,0,,0,0,"2.46",0,0,0,0
+TypeVariable,"jfxtras.labs.icalendarfx.components.VTodoInt.I",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.dateTimeCompletedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.dateTimeDueProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.getDateTimeCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.getDateTimeDue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.getPercentComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,1,1,0,11,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"11.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.percentCompleteProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.setDateTimeCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.setDateTimeDue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"jfxtras.labs.icalendarfx.components.VTodoInt.setPercentComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx.mocks",1,1,1,1,5,0,4,0,,,,,1,0,0,,1,,71,0,71,,0,0,0,71,,516,96,348,158,48,72,,,,65,137,89,48,,,,,,1,1,1,1,,,0,,,,"0.21",71,71,71,71
+Public Class,"jfxtras.labs.icalendarfx.mocks.VTodoMock",1,1,1,1,5,0,4,0,1,17,17,0,,0,0,,,,71,0,71,168,0,0,0,71,,496,93,331,141,48,72,,,,48,120,72,48,,,,,,1,1,1,1,,7,0,,0,0,"0.22",71,71,71,71
+Public Constructor,"jfxtras.labs.icalendarfx.mocks.VTodoMock.VTodoMock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.mocks.VTodoMock.VTodoMock",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.categoriesProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.classificationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.contactProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeCompletedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeCreatedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeDueProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeEndProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeLastModifiedProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.dateTimeRecurrenceProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.durationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.exDateProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.geographicPositionProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getClassification",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getContact",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeDue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeLastModified",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDateTimeRecurrence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getDuration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getEndRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getExDate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getGeographicPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getPercentComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getPriority",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getRelatedTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getResources",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getStartRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.getTimeTransparency",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.instances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.locationProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.makeInstances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.makeInstances",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.percentCompleteProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.priorityProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.relatedToProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.resourcesProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.sequenceProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setClassification",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setContact",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeCompleted",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeDue",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeLastModified",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDateTimeRecurrence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setDuration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setEndRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setExDate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setGeographicPosition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setPercentComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setPriority",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setRelatedTo",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setResources",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setStartRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.setTimeTransparency",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.statusProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.streamLimitedByRange",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.streamRecurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.mocks.VTodoMock.timeTransparencyProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Package,"jfxtras.labs.icalendarfx.properties",1,1,1,0,7,0,6,0,,,,,49,6,3,,1,,104,52,110,,1,3,0,106,,1192,101,992,544,185,264,,,,228,356,222,147,,,,,,5,5,5,1,,,2,,,,"0.27",129,129,129,107
+Public Enum Type,"jfxtras.labs.icalendarfx.properties.PropertyEnum",1,1,1,0,5,0,5,0,1,54,54,48,,6,3,,,,8,52,14,14,1,3,0,10,,1125,98,928,480,185,264,,,,164,292,158,147,,,,,,2,2,2,1,,1,1,,,,"0.28",15,15,15,11
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_1)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_1).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_1).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_10)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_10).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_10).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_11)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_11).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_11).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_12)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_12).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_12).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_13)",1,1,1,1,9,0,9,0,1,9,9,0,,0,0,,,,2,0,2,16,0,0,0,2,,21,1,20,7,8,0,,,,6,9,5,5,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_13).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_13).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,4,6,0,4,2,0,4,6,3,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_14)",3,3,3,1,14,0,14,0,1,11,11,0,,0,0,,,,2,0,2,16,0,0,0,2,,31,2,29,7,13,0,,,,8,14,5,10,,,,,,5,5,5,1,,2,2,,0,0,"0.00",6,6,6,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_14).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_14).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,23,1,22,4,11,0,4,5,1,6,11,3,9,5,5,5,1,3,,,,,0,,2,0,,,"0.00",5,5,5,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_15)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_15).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_15).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_16)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_16).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_16).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_17)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_17).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_17).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_18)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_18).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_18).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_19)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_19).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_19).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_2)",2,2,2,1,15,1,14,0,1,8,8,0,,0,0,,,,2,0,2,16,0,0,0,2,,32,3,29,8,13,0,,,,10,14,6,9,,,,,,3,3,3,1,,2,1,,0,0,"0.00",4,4,4,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_2).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_2).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,2,22,5,11,0,6,4,1,8,11,4,8,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_20)",1,1,1,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,16,0,0,0,2,,21,1,20,5,7,0,,,,6,9,3,6,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_20).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_20).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,6,0,4,2,0,5,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_21)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_21).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_21).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_22)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_22).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_22).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_23)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_23).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_23).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_24)",1,1,1,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,16,0,0,0,2,,21,1,20,5,7,0,,,,6,9,3,6,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_24).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_24).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,3,6,0,4,2,0,5,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_25)",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,1,13,6,4,0,,,,4,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_25).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_25).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_26)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_26).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_26).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_27)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_27).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_27).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_28)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_28).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_28).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_29)",3,3,3,1,18,1,17,0,1,13,13,0,,0,0,,,,2,0,2,16,0,0,0,2,,39,4,35,8,17,0,,,,12,18,6,13,,,,,,5,5,5,1,,2,1,,0,0,"0.00",6,6,6,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_29).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_29).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,31,3,28,5,15,0,8,8,1,10,15,4,12,5,5,5,1,4,,,,,0,,1,0,,,"0.00",5,5,5,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_3)",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,1,13,6,4,0,,,,4,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_3).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_3).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_30)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_30).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_30).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_31)",1,1,1,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,16,0,0,0,2,,20,1,19,6,7,0,,,,5,8,4,4,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_31).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_31).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,3,5,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_32)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_32).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_32).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_33)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_33).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_33).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_34)",1,1,1,1,10,0,10,0,1,7,7,0,,0,0,,,,2,0,2,16,0,0,0,2,,23,1,22,7,9,0,,,,8,11,5,6,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_34).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_34).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,15,4,7,0,4,2,0,6,8,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_35)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_35).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_35).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_36)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_36).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_36).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_37)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_37).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_37).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_38)",1,1,1,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,16,0,0,0,2,,20,1,19,6,7,0,,,,5,8,4,4,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_38).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_38).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,3,5,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_39)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_39).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_39).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_4)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_4).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_4).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_40)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_40).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_40).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_41)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_41).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_41).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_42)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_42).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_42).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_43)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_43).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_43).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_44)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_44).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_44).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_45)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_45).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_45).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_46)",1,1,1,1,9,0,9,0,1,6,6,0,,0,0,,,,2,0,2,16,0,0,0,2,,20,1,19,6,7,0,,,,5,8,4,4,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_46).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_46).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,3,5,0,3,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_47)",1,1,1,1,6,0,6,0,1,5,5,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,1,13,6,4,0,,,,4,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_47).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_47).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_48)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,5,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_48).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_48).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_5)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_5).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_5).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_6)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_6).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_6).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_7)",1,1,1,1,10,0,10,0,1,7,7,0,,0,0,,,,2,0,2,16,0,0,0,2,,23,1,22,7,9,0,,,,8,11,5,6,,,,,,2,2,2,1,,2,1,,0,0,"0.00",3,3,3,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_7).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_7).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,15,4,7,0,4,2,0,6,8,3,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_8)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_8).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_8).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_9)",1,1,1,1,6,0,4,1,1,3,3,0,,0,0,,,,2,0,2,16,0,0,0,2,,14,2,10,4,1,2,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.20",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_9).getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.(Anon_9).parse",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,1,4,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Constructor,"jfxtras.labs.icalendarfx.properties.PropertyEnum.PropertyEnum",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.allowedParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.allowedValueTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.enumFromClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,9,2,4,1,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Public Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.enumFromName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.enumListFromName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Abstract Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.getProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Private Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.makeEnumFromClassMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,3,5,0,3,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.makeEnumFromNameMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,3,5,0,4,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.makeEnumListFromNameMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,16,2,9,0,4,1,0,5,7,2,6,1,1,1,1,0,,,,,0,,1,0,,,"0.00",3,3,3,2
+Lambda Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.makeEnumListFromNameMap.(lambda_expr_1)",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,0,5,0,6,2,0,2,3,0,3,2,2,2,1,1,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Abstract Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Public Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,18,2,0,2,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"jfxtras.labs.icalendarfx.properties.PropertyEnum.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx.properties.component",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx.properties.component.descriptive",1,1,1,1,5,0,5,0,,,,,2,0,1,,1,,5,0,5,,0,0,0,5,,65,7,41,15,14,17,,,,19,25,16,10,,,,,,1,1,1,1,,,0,,,,"0.41",5,5,5,5
+Public Class,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories",1,1,1,1,5,0,5,0,1,3,3,0,,0,1,,,,3,0,3,3,0,0,0,3,,53,4,32,6,14,17,,,,10,16,7,10,,,,,,1,1,1,1,,2,0,,0,0,"0.53",3,3,3,3
+Anonymous Class,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.(Anon_1)",1,1,1,1,5,0,5,0,1,5,5,0,,0,0,,,,2,0,2,2,0,0,0,2,,12,1,11,0,6,0,,,,2,4,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.(Anon_1).fromString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,3,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.(Anon_1).toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,3,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.Categories",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.Categories",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.properties.component.descriptive.Categories.Categories",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"jfxtras.labs.icalendarfx.properties.component.recurrence",1,1,1,1,4,0,4,0,,,,,1,0,0,,1,,2,0,2,,0,0,0,2,,40,4,19,11,2,17,,,,10,13,11,2,,,,,,1,1,1,1,,,0,,,,"0.89",2,2,2,2
+Public Generic Class,"jfxtras.labs.icalendarfx.properties.component.recurrence.Recurrences",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,29,1,11,3,2,17,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"1.55",2,2,2,2
+Public Constructor,"jfxtras.labs.icalendarfx.properties.component.recurrence.Recurrences.Recurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"jfxtras.labs.icalendarfx.properties.component.recurrence.Recurrences.Recurrences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"jfxtras.labs.icalendarfx.properties.component.recurrence.Recurrences.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Package,"jfxtras.labs.icalendarfx.property",1,1,1,1,12,0,12,0,,,,,1,0,0,,1,,5,0,5,,0,0,0,5,,90,10,79,45,41,1,,,,46,52,36,27,,,,,,1,1,1,1,,,0,,,,"0.01",5,5,5,5
+Public Class,"jfxtras.labs.icalendarfx.property.RecurrencesTest",1,1,1,1,12,0,12,0,1,14,14,0,,0,0,,,,5,0,5,5,0,0,0,5,,70,5,64,30,41,1,,,,31,37,21,27,,,,,,1,1,1,1,,1,0,,0,0,"0.02",5,5,5,5
+Public Method,"jfxtras.labs.icalendarfx.property.RecurrencesTest.canMakeRecurrences1",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,12,6,8,0,5,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.property.RecurrencesTest.canParseRDate1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,5,6,0,3,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.property.RecurrencesTest.canParseRDate2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,5,6,0,3,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.property.RecurrencesTest.canParseRDate3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,5,6,0,3,1,0,6,7,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"jfxtras.labs.icalendarfx.property.RecurrencesTest.canParseRecurrences2",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,19,8,15,0,7,1,0,9,10,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

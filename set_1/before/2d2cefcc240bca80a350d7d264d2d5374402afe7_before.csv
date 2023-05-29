@@ -1,0 +1,214 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BeamTypeAnalysis.java",6,3,6,2,28,4,22,1,,,,,5,0,36,67,,67,67,20,67,,5,28,0,34,,2106,425,1591,416,1192,96,,,,855,1061,402,863,,,,,,84,21,89,53,,,4,,,,"0.06",407,203,419,187
+File,"CompilerVisitor.java",3,3,4,1,27,4,20,2,,,,,6,4,79,82,,82,78,43,82,,4,27,0,51,,2755,473,1878,453,1422,408,,,,1099,1363,406,1114,,,,,,18,17,22,12,,,4,,,,"0.22",313,259,342,125
+File,"ExceptionHandler.java",1,1,1,1,4,0,3,0,,,,,2,3,0,8,,8,5,4,8,,0,0,0,8,,76,13,40,17,18,25,,,,21,36,17,20,,,,,,5,5,7,4,,,1,,,,"0.62",13,13,15,11
+File,"TypeMap.java",2,2,2,1,9,0,8,0,,,,,1,5,4,34,,34,29,6,34,,0,14,0,20,,401,65,317,78,203,21,,,,170,254,85,187,,,,,,9,9,11,5,,,3,,,,"0.07",86,86,101,49
+Public Implicit Method,"clone",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Package,"erjang",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"erjang.beam",3,3,4,1,27,4,20,2,,,,,6,4,79,,1,,78,43,82,,4,27,0,51,,2755,473,1878,453,1422,408,,,,1099,1363,406,1114,,,,,,18,17,22,12,,,4,,,,"0.22",313,259,342,125
+Public Class,"erjang.beam.CompilerVisitor",1,1,1,1,18,2,14,1,3,52,52,0,,4,79,,,,14,11,18,18,1,5,0,12,,2688,466,1819,395,1422,407,,,,1042,1305,348,1114,,,,,,6,6,6,1,,1,1,,95,94,"0.22",34,34,34,18
+Class,"erjang.beam.CompilerVisitor.ASMFunctionAdapter",2,2,2,1,25,4,17,3,2,30,30,0,,0,0,,,,12,20,12,12,2,6,0,4,,2160,380,1458,230,1130,326,,,,782,1007,203,858,,,,,,8,8,8,1,,1,3,,83,76,"0.22",33,33,33,12
+Class,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor",5,3,5,1,33,5,25,2,2,36,36,0,,0,0,,,,47,2,47,47,0,16,0,31,,1799,313,1221,157,954,269,,,,618,809,134,703,,,,,,18,17,22,12,,1,4,,96,96,"0.22",237,183,266,86
+Public Constructor,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.ASMBlockVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.TupleArityLabel",2,2,2,2,6,0,6,0,2,2,2,0,,0,0,,,,2,3,2,2,0,0,0,2,,20,2,17,7,8,1,,,,8,13,6,8,,,,,,3,3,3,3,,1,1,,50,50,"0.06",4,4,4,4
+Public Constructor,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.TupleArityLabel.TupleArityLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.TupleArityLabel.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,5,0,1,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.emit_box",,,,,,,,,,,,,,,,,,,,,,,,,,,13,22,1,17,1,14,4,4,4,1,4,8,1,7,4,4,7,1,3,,,,,0,,1,0,,,"0.24",4,4,7,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.emit_convert",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,2,13,1,9,4,4,4,1,4,8,1,7,4,4,5,3,3,,,,,2,,1,2,,,"0.31",4,4,5,3
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.emit_unbox",,,,,,,,,,,,,,,,,,,,,,,,,,,13,24,3,17,1,11,4,5,7,1,5,10,1,9,5,5,5,5,4,,,,,4,,2,4,,,"0.24",5,5,5,5
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.getConstantName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,12,1,10,5,4,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.42",4,4,4,4
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.getTubleType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.get_test_bif",,,,,,,,,,,,,,,,,,,,,,,,,,,35,48,3,40,1,36,5,3,34,2,18,21,1,20,18,3,18,1,136,,,,,0,,1,0,,,"0.12",18,3,18,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.isExitFunc",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,1,11,1,8,4,3,5,1,4,9,1,8,5,5,5,5,6,,,,,6,,2,6,,,"0.36",5,5,5,5
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.pop",,,,,,,,,,,,,,,,,,,,,,,,,,,36,45,5,36,1,28,4,5,12,1,9,17,1,16,10,10,19,1,5,,,,,0,,2,0,,,"0.11",10,10,19,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.primTypeName",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,12,1,9,4,2,4,1,4,6,1,5,4,2,4,1,6,,,,,0,,1,0,,,"0.33",4,2,4,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.push",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,1,9,1,5,4,3,4,1,4,7,2,5,3,3,4,1,0,,,,,0,,1,0,,,"0.44",3,3,4,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.push",,,,,,,,,,,,,,,,,,,,,,,,,,,31,26,1,20,2,15,5,5,10,1,7,13,2,11,6,6,9,1,4,,,,,0,,2,0,,,"0.25",6,6,9,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.push_immediate",,,,,,,,,,,,,,,,,,,,,,,,,,,28,72,12,54,6,43,6,17,20,1,27,40,6,38,13,13,13,12,15,,,,,15,,3,15,,,"0.11",13,13,13,12
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.push_int",,,,,,,,,,,,,,,,,,,,,,,,,,,7,10,0,7,1,4,3,2,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.43",2,2,3,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.sort",,,,,,,,,,,,,,,,,,,,,,,,,,,4,33,11,18,6,13,4,4,4,1,14,18,8,12,4,4,4,4,3,,,,,3,,3,3,,,"0.22",4,4,4,4
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.test2name",,,,,,,,,,,,,,,,,,,,,,,,,,,8,21,0,17,1,14,4,2,7,1,7,9,1,8,7,2,7,1,21,,,,,0,,1,0,,,"0.24",7,2,7,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.var_index",,,,,,,,,,,,,,,,,,,,,,,,,,,11,17,2,11,1,8,4,1,4,1,4,6,1,5,4,2,4,1,6,,,,,0,,1,0,,,"0.36",4,2,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitBS",,,,,,,,,,,,,,,,,,,,,,,,,,,15,28,3,25,4,19,0,7,4,1,11,14,2,12,6,4,6,1,4,,,,,0,,2,0,,,"0.00",6,4,6,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitBSAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,3,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitBegin",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,3,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitBitStringPut",,,,,,,,,,,,,,,,,,,,,,,,,,,20,47,6,41,3,36,0,6,5,1,23,25,1,24,5,2,5,1,10,,,,,0,,1,0,,,"0.00",5,2,5,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitBitStringTest",,,,,,,,,,,,,,,,,,,,,,,,,,,27,113,23,85,5,79,5,14,8,1,54,56,3,53,8,2,8,1,28,,,,,0,,1,0,,,"0.06",8,2,8,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitCall",,,,,,,,,,,,,,,,,,,,,,,,,,,30,133,34,93,10,76,7,25,37,2,43,58,9,51,17,17,22,4,11,,,,,5,,3,5,,,"0.08",17,17,22,4
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitCatchBlockEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,22,61,11,47,2,44,3,12,4,1,29,31,2,30,4,2,4,1,3,,,,,0,,1,0,,,"0.06",4,2,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitCatchBlockStart",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,1,5,0,1,2,0,2,4,1,3,3,2,3,1,1,,,,,0,,1,0,,,"0.00",3,2,3,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInitBitString",,,,,,,,,,,,,,,,,,,,,,,,,,,15,25,7,18,4,15,0,11,2,0,11,13,3,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,12,21,5,15,3,10,1,3,2,0,7,9,1,8,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,14,50,10,34,4,26,6,13,8,1,12,18,2,17,8,6,8,1,3,,,,,0,,4,0,,,"0.18",8,6,8,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,16,36,6,30,4,24,1,7,4,1,18,21,4,17,4,3,4,1,3,,,,,0,,2,0,,,"0.03",4,3,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,11,26,4,22,2,18,0,5,4,1,9,11,1,10,4,2,4,1,6,,,,,0,,1,0,,,"0.00",4,2,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,19,42,7,35,2,29,0,10,5,1,19,21,1,20,5,2,5,1,10,,,,,0,,1,0,,,"0.00",5,2,5,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,16,28,3,25,2,21,0,8,4,1,15,19,1,18,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,0,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,22,48,7,41,3,37,0,7,7,1,26,28,2,26,7,2,7,1,21,,,,,0,,1,0,,,"0.00",7,2,7,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,11,32,4,28,2,21,0,3,5,1,10,15,1,14,7,5,7,1,4,,,,,0,,3,0,,,"0.00",7,5,7,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,28,77,15,62,2,53,2,11,11,1,36,46,4,42,11,11,13,5,5,,,,,4,,3,4,,,"0.03",11,11,13,5
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,17,38,10,26,6,19,2,10,5,1,18,22,6,19,4,4,4,1,1,,,,,0,,2,0,,,"0.08",4,4,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitJump",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitReceive",,,,,,,,,,,,,,,,,,,,,,,,,,,13,21,5,16,2,12,0,8,2,0,8,10,1,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectTuple",,,,,,,,,,,,,,,,,,,,,,,,,,,14,39,9,25,6,18,5,12,8,1,21,25,7,18,4,4,4,1,0,,,,,0,,1,0,,,"0.20",4,4,4,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectValue",,,,,,,,,,,,,,,,,,,,,,,,,,,19,130,26,95,24,69,9,20,96,2,58,78,27,59,12,12,12,3,5,,,,,3,,4,2,,,"0.09",12,12,12,3
+Class,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectValue.Case",1,1,1,1,7,0,5,1,2,4,4,0,,0,0,,,,3,2,3,3,1,0,0,2,,35,5,21,9,10,9,,,,10,16,8,10,,,,,,3,3,3,3,,1,1,,50,33,"0.43",5,5,5,5
+Public Constructor,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectValue.Case.Case",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,4,1,2,4,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectValue.Case.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,10,4,7,0,4,3,0,5,8,3,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitSelectValue.Case.value",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitTest",,,,,,,,,,,,,,,,,,,,,,,,,,,13,34,6,25,5,18,3,12,9,1,11,16,3,15,5,5,5,1,1,,,,,0,,2,0,,,"0.12",5,5,5,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitTest",,,,,,,,,,,,,,,,,,,,,,,,,,,19,41,8,30,4,24,3,11,3,0,18,20,2,19,3,2,3,1,3,,,,,0,,1,0,,,"0.10",3,2,3,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitTest",,,,,,,,,,,,,,,,,,,,,,,,,,,17,53,12,40,5,30,1,16,17,1,17,24,3,22,7,7,10,1,3,,,,,0,,3,0,,,"0.03",7,7,10,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMBlockVisitor.visitUnreachablePoint",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,4,0,3,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ASMFunctionAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,5,1,3,6,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.add_erlfun_annotation",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,3,7,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.adjust_exception_handlers",,,,,,,,,,,,,,,,,,,,,,,,,,,12,28,2,24,6,19,2,10,10,1,14,19,4,17,7,7,7,1,0,,,,,0,,2,0,,,"0.08",7,7,7,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.allocate_regs_to_locals",,,,,,,,,,,,,,,,,,,,,,,,,,,4,45,8,25,5,20,12,7,8,1,23,27,8,19,4,4,4,1,0,,,,,0,,1,0,,,"0.48",4,4,4,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.ensure_exception_handler_in_place",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.generate_invoke_call_self",,,,,,,,,,,,,,,,,,,,,,,,,,,23,58,11,32,5,29,15,14,2,0,27,29,6,27,2,2,2,1,0,,,,,0,,1,0,,,"0.47",2,2,2,1
+Private Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.generate_tail_call_self",,,,,,,,,,,,,,,,,,,,,,,,,,,16,39,5,23,3,20,11,11,2,0,16,18,4,16,2,2,2,1,0,,,,,0,,1,0,,,"0.48",2,2,2,1
+Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.getExceptionHandlerLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,3,5,0,4,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.getLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,15,9,0,9,2,6,0,3,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.visitEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,29,69,14,54,15,46,1,26,36,2,31,41,12,36,8,8,8,1,1,,,,,0,,3,0,,,"0.02",8,8,8,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.visitLabeledBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,3,4,0,5,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.ASMFunctionAdapter.visitMaxs",,,,,,,,,,,,,,,,,,,,,,,,,,,15,22,6,16,5,12,0,13,1,0,11,12,3,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"erjang.beam.CompilerVisitor.CompilerVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,1,2,4,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.add_module_annotation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,2,6,3,4,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.generate_classinit",,,,,,,,,,,,,,,,,,,,,,,,,,,22,72,15,51,6,47,6,21,4,1,36,41,7,38,3,3,3,1,0,,,,,0,,1,0,,,"0.12",3,3,3,1
+Public Method,"erjang.beam.CompilerVisitor.getExternalFunction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,2,7,2,4,4,4,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.57",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.getInternalClassName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,1,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.CompilerVisitor.getModuleName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.get_lambda",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"erjang.beam.CompilerVisitor.isExported",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"erjang.beam.CompilerVisitor.make_go_method",,,,,,,,,,,,,,,,,,,,,,,,,,,22,36,4,32,4,23,0,9,32,2,26,32,6,26,6,6,6,1,0,,,,,0,,1,0,,,"0.00",6,6,6,1
+Private Static Method,"erjang.beam.CompilerVisitor.make_invoke_method",,,,,,,,,,,,,,,,,,,,,,,,,,,25,43,5,37,6,31,1,11,8,1,29,33,6,30,4,4,4,1,0,,,,,0,,1,0,,,"0.03",4,4,4,1
+Public Static Method,"erjang.beam.CompilerVisitor.make_invoker",,,,,,,,,,,,,,,,,,,,,,,,,,,18,51,10,40,11,34,1,19,4,1,29,32,10,26,3,3,3,1,0,,,,,0,,1,0,,,"0.03",3,3,3,1
+Public Static Method,"erjang.beam.CompilerVisitor.make_invoketail_method",,,,,,,,,,,,,,,,,,,,,,,,,,,13,20,1,19,3,14,0,8,2,0,15,17,3,14,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.register_lambda",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.visitAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.visitEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,8,25,5,19,8,15,1,11,2,0,12,15,6,13,2,2,2,1,0,,,,,0,,1,0,,,"0.05",2,2,2,1
+Public Method,"erjang.beam.CompilerVisitor.visitExport",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.visitFunction",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.CompilerVisitor.visitModule",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,5,8,2,5,0,7,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"erjang.beam.EXHandler",0,0,0,0,0,0,0,0,1,2,2,0,,0,0,,,,0,5,0,0,0,0,0,0,,6,0,5,4,0,1,,,,3,4,4,0,,,,,,0,0,0,0,,1,0,,0,0,"0.20",0,0,0,0
+Package,"erjang.beam.analysis",4,2,4,2,20,3,16,0,,,,,8,8,40,,3,,101,30,109,,5,42,0,62,,2583,503,1948,511,1413,142,,,,1046,1351,504,1070,,,,,,84,21,89,53,,,4,,,,"0.07",506,302,535,247
+Public Class,"erjang.beam.analysis.BeamTypeAnalysis",1,1,1,1,4,0,3,0,1,30,30,0,,0,36,,,,7,3,7,7,0,0,0,7,,2052,420,1542,367,1192,96,,,,806,1012,353,863,,,,,,1,1,1,1,,2,0,,76,76,"0.06",7,7,7,7
+Public Constructor,"erjang.beam.analysis.BeamTypeAnalysis.BeamTypeAnalysis",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Class,"erjang.beam.analysis.BeamTypeAnalysis.FV",2,2,2,1,11,1,9,0,2,22,22,0,,0,0,,,,19,10,19,19,2,4,0,13,,1948,407,1473,316,1141,74,,,,756,954,305,814,,,,,,9,9,9,3,,2,4,,85,78,"0.05",40,40,41,21
+Anonymous Class,"erjang.beam.analysis.BeamTypeAnalysis.FV.(Anon_1)",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.(Anon_1).compare",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"erjang.beam.analysis.BeamTypeAnalysis.FV.FV",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock",9,4,9,4,43,8,33,1,3,28,28,0,,0,0,,,,37,5,37,37,3,24,0,10,,1685,345,1279,248,1024,67,,,,660,814,244,718,,,,,,84,21,89,53,,1,4,,87,79,"0.05",356,152,367,155
+Class,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.BInsn",1,1,1,1,4,0,4,0,2,5,5,0,,0,0,,,,3,2,3,3,0,0,0,3,,20,4,16,8,4,0,,,,6,10,6,4,,,,,,1,1,1,1,,1,0,,33,33,"0.00",3,3,3,3
+Public Constructor,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.BInsn.BInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.BInsn.opcode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.BInsn.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.LabeledBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,3,13,1,8,3,4,3,0,3,7,1,6,3,3,3,1,1,,,,,0,,3,0,,,"0.23",3,3,3,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.accept_1",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,4,0,5,2,0,5,7,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.accept_2",,,,,,,,,,,,,,,,,,,,,,,,,,,79,441,95,335,84,298,12,37,59,2,200,212,85,191,75,12,75,1,1178,,,,,0,,4,0,,,"0.04",75,12,75,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.accept_2_test",,,,,,,,,,,,,,,,,,,,,,,,,,,49,104,22,82,7,78,1,13,19,1,42,44,6,43,31,2,31,1,171,,,,,0,,1,0,,,"0.01",31,2,31,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.addExceptionEdge",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,3,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.analyze",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,2,7,1,4,1,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.analyze0",,,,,,,,,,,,,,,,,,,,,,,,,,,89,471,102,348,52,290,25,40,1092,3,195,216,52,205,84,21,89,53,1289,,,,,1289,,4,1284,,,"0.07",84,21,89,53
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.analyze_test",,,,,,,,,,,,,,,,,,,,,,,,,,,53,170,34,135,9,104,1,16,34,2,61,72,8,68,42,12,43,25,260,,,,,259,,3,259,,,"0.01",42,12,43,25
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.branch",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,3,12,3,8,0,8,5,1,5,9,3,8,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.check",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.checkArgs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,3,10,3,6,0,4,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.decode_arg",,,,,,,,,,,,,,,,,,,,,,,,,,,24,42,6,30,6,26,6,5,11,1,15,26,6,23,11,11,11,11,19,,,,,19,,2,19,,,"0.20",11,11,11,11
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.decode_args",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,7,2,4,5,2,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.decode_labelref",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,6,1,4,4,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.67",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.decode_out_arg",,,,,,,,,,,,,,,,,,,,,,,,,,,13,20,3,17,6,13,0,3,5,1,9,14,6,11,5,5,5,5,6,,,,,6,,2,6,,,"0.00",5,5,5,5
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.decode_value",,,,,,,,,,,,,,,,,,,,,,,,,,,12,27,5,17,2,13,5,1,7,1,7,14,2,12,7,7,7,7,11,,,,,11,,2,11,,,"0.29",7,7,7,7
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.do_call",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,1,17,6,12,0,6,4,1,10,13,6,9,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.dump",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,8,1,5,0,3,3,0,5,8,2,6,4,4,4,1,1,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.getBifResult",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.getInstructions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,2,8,3,4,0,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.getLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.getTupleType",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,2,5,2,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,26,37,4,33,2,28,0,7,14,1,14,28,2,26,14,14,14,14,27,,,,,27,,3,27,,,"0.00",14,14,14,14
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.installExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,2,8,4,6,0,7,2,0,5,7,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.isDeadCode",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.isReg",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,2,3,0,3,1,0,2,3,2,2,1,1,4,1,0,,,,,0,,0,0,,,"0.00",1,1,4,1
+Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.is_exceptional_call",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,15,6,11,0,6,4,1,7,11,6,10,4,4,6,4,3,,,,,3,,3,3,,,"0.00",4,4,6,4
+Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.is_term",,,,,,,,,,,,,,,,,,,,,,,,,,,16,23,2,21,1,18,0,1,2,0,2,4,1,3,15,2,15,1,1,,,,,0,,1,0,,,"0.00",15,2,15,1
+Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.may_terminate_exceptionally",,,,,,,,,,,,,,,,,,,,,,,,,,,9,15,0,14,1,11,1,1,2,0,2,4,1,3,8,2,8,1,1,,,,,0,,1,0,,,"0.07",8,2,8,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.merge_from",,,,,,,,,,,,,,,,,,,,,,,,,,,9,21,3,15,2,11,3,6,3,0,6,9,2,8,3,3,3,1,2,,,,,0,,2,0,,,"0.20",3,3,3,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.parmTypes",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,2,9,3,6,0,7,2,0,5,7,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.setType",,,,,,,,,,,,,,,,,,,,,,,,,,,10,19,2,17,4,14,0,7,4,1,8,12,4,11,6,6,6,1,3,,,,,0,,1,0,,,"0.00",6,6,6,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.sizeof",,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,2,19,3,13,0,5,9,1,7,14,3,12,7,7,7,7,10,,,,,10,,3,10,,,"0.00",7,7,7,7
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.update_max_regs",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,1,3,0,6,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.visitEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,2,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.LabeledBlock.visitInsn",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.dump",,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,1,8,1,4,0,4,3,0,2,6,2,4,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.function_visit_end",,,,,,,,,,,,,,,,,,,,,,,,,,,9,23,6,17,3,12,0,5,6,1,6,11,3,9,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getArity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getCodeBlocks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,2,6,4,3,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getEntryLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getFregCount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getModuleName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getTypeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,3,7,5,5,0,2,1,0,5,6,5,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getXregCount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.getYregCount",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.get_lb",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,1,12,3,9,2,5,3,0,6,9,3,8,3,3,3,3,2,,,,,2,,1,2,,,"0.17",3,3,3,3
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.isExported",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.live_analysis",,,,,,,,,,,,,,,,,,,,,,,,,,,7,40,10,28,10,23,2,8,4,1,21,26,12,18,5,5,6,1,0,,,,,0,,4,0,,,"0.07",5,5,6,1
+Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.makeBasicBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,7,11,1,10,3,7,0,3,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.make_initial",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,4,0,4,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.visitEnd",,,,,,,,,,,,,,,,,,,,,,,,,,,11,50,9,38,5,28,3,17,64,2,18,27,5,24,9,9,9,1,4,,,,,0,,3,0,,,"0.08",9,9,9,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.FV.visitLabeledBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.functions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.getModuleName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.visitAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,3,1,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.visitExport",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,4,1,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.visitFunction",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,4,4,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.BeamTypeAnalysis.visitModule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"erjang.beam.analysis.ExceptionHandler",1,1,2,1,4,0,3,0,2,3,3,1,,3,0,,,,4,2,7,7,0,0,0,7,,67,11,37,14,18,21,,,,18,33,14,20,,,,,,5,5,7,4,,1,1,,35,21,"0.57",12,12,14,10
+Public Static Class,"erjang.beam.analysis.ExceptionHandler.Ambiguous",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,1,2,1,8,0,0,0,1,,7,0,6,3,1,1,,,,2,4,3,1,,,,,,1,1,1,1,,2,0,,100,100,"0.17",1,1,1,1
+Public Constructor,"erjang.beam.analysis.ExceptionHandler.Ambiguous.Ambiguous",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"erjang.beam.analysis.ExceptionHandler.ExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.ExceptionHandler.getHandlerLabel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.ExceptionHandler.getParent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"erjang.beam.analysis.ExceptionHandler.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,3,10,2,8,5,2,7,1,6,11,2,10,5,5,7,4,3,,,,,3,,1,3,,,"0.50",5,5,7,4
+Public Static Method,"erjang.beam.analysis.ExceptionHandler.pop",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"erjang.beam.analysis.ExceptionHandler.push",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.ExceptionHandler.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"erjang.beam.analysis.TypeMap",2,2,2,1,9,0,8,0,1,9,9,0,,5,4,,,,29,6,34,34,0,14,0,20,,394,62,313,74,203,21,,,,166,250,81,187,,,,,,9,9,11,5,,1,3,,73,68,"0.07",86,86,101,49
+Public Constructor,"erjang.beam.analysis.TypeMap.TypeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"erjang.beam.analysis.TypeMap.TypeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,15,10,0,10,2,7,0,7,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.TypeMap.add_succ",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.TypeMap.alloc_y",,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.TypeMap.clearLive",,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"erjang.beam.analysis.TypeMap.copy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,1,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"erjang.beam.analysis.TypeMap.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,2,5,0,4,3,0,5,8,3,6,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Private Static Method,"erjang.beam.analysis.TypeMap.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,1,5,0,2,3,0,3,6,1,5,3,3,4,3,2,,,,,2,,1,2,,,"0.00",3,3,4,3
+Private Static Method,"erjang.beam.analysis.TypeMap.eq",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Public Method,"erjang.beam.analysis.TypeMap.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,2,9,2,6,0,4,2,0,3,5,2,3,2,2,5,1,1,,,,,0,,1,0,,,"0.00",2,2,5,1
+Private Static Method,"erjang.beam.analysis.TypeMap.eqy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"erjang.beam.analysis.TypeMap.eqy_prefix",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,3,3,0,4,7,2,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Private Method,"erjang.beam.analysis.TypeMap.get",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,1,4,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.get_ypos",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,1,3,0,1,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"erjang.beam.analysis.TypeMap.getf",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,1,8,1,5,0,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.getx",,,,,,,,,,,,,,,,,,,,,,,,,,,10,9,1,8,1,5,0,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.gety",,,,,,,,,,,,,,,,,,,,,,,,,,,10,10,1,9,2,7,0,3,4,1,5,8,2,7,3,3,4,1,1,,,,,0,,1,0,,,"0.00",3,3,4,1
+Private Static Method,"erjang.beam.analysis.TypeMap.grow",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,2,4,0,1,2,0,5,7,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.max_freg",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,5,0,1,3,0,5,8,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"erjang.beam.analysis.TypeMap.max_xreg",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,5,0,1,3,0,5,8,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"erjang.beam.analysis.TypeMap.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,8,15,2,13,1,9,0,5,5,1,4,9,1,8,5,5,8,5,4,,,,,4,,2,4,,,"0.00",5,5,8,5
+Public Method,"erjang.beam.analysis.TypeMap.mergeFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,14,37,3,32,8,24,2,11,24,1,16,23,7,19,9,9,11,1,3,,,,,0,,3,0,,,"0.06",9,9,11,1
+Private Method,"erjang.beam.analysis.TypeMap.merge_regs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,9,4,6,0,4,2,0,7,9,5,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.popExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,7,4,0,4,2,2,1,3,1,0,2,3,2,2,2,2,2,1,0,,,,,0,,0,0,,,"0.25",2,2,2,1
+Private Method,"erjang.beam.analysis.TypeMap.printRegs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,15,2,9,0,3,4,1,7,11,2,9,4,4,4,1,1,,,,,0,,3,0,,,"0.00",4,4,4,1
+Private Method,"erjang.beam.analysis.TypeMap.printYRegs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,16,1,11,0,4,7,1,8,13,2,11,5,5,5,3,2,,,,,2,,3,1,,,"0.00",5,5,5,3
+Public Method,"erjang.beam.analysis.TypeMap.pushExceptionHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,8,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.TypeMap.setf",,,,,,,,,,,,,,,,,,,,,,,,,,,10,14,1,13,2,9,0,7,3,0,7,10,2,8,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"erjang.beam.analysis.TypeMap.setx",,,,,,,,,,,,,,,,,,,,,,,,,,,12,15,2,13,2,9,0,7,3,0,7,10,2,8,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"erjang.beam.analysis.TypeMap.sety",,,,,,,,,,,,,,,,,,,,,,,,,,,11,20,4,16,3,12,0,8,5,1,9,13,3,11,4,4,5,1,2,,,,,0,,1,0,,,"0.00",4,4,5,1
+Private Method,"erjang.beam.analysis.TypeMap.shortName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,17,4,12,0,8,4,1,7,11,4,10,4,4,5,4,4,,,,,4,,2,4,,,"0.00",4,4,5,4
+Public Method,"erjang.beam.analysis.TypeMap.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,6,11,4,9,0,5,1,0,9,10,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"erjang.beam.analysis.TypeMap.touchx",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,2,0,1,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"erjang.beam.analysis.TypeMap.trim_y",,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

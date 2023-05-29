@@ -1,0 +1,91 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractTiledLayerParams.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,3,3,1,3,,0,0,0,3,,65,7,15,14,1,43,,,,11,12,12,0,,,,,,0,0,0,0,,,0,,,,"2.87",0,0,0,0
+File,"AbstractWMXLayerParams.java",2,2,2,1,11,0,8,2,,,,,1,0,0,6,,6,6,3,6,,0,1,0,5,,159,17,74,38,31,68,,,,40,54,33,30,,,,,,5,5,5,1,,,4,,,,"0.92",13,13,13,6
+File,"OsmLayer.java",1,1,2,1,11,0,9,1,,,,,2,0,1,9,,9,9,3,9,,0,0,3,6,,167,20,115,64,43,32,,,,58,75,45,34,,,,,,5,5,8,1,,,2,,,,"0.28",15,15,18,9
+File,"OsmLayerParam.java",1,1,1,1,9,0,7,1,,,,,1,0,5,6,,6,6,8,6,,0,0,0,6,,173,20,87,53,43,66,,,,45,54,39,16,,,,,,3,3,3,3,,,1,,,,"0.76",8,8,8,8
+File,"TileCacheInformation.java",1,1,1,1,13,0,7,6,,,,,2,0,0,6,,12,12,4,12,,0,0,3,9,,196,19,72,51,21,105,,,,43,50,40,17,,,,,,1,1,1,1,,,0,,,,"1.46",6,6,6,6
+File,"TiledWmsLayer.java",1,1,1,1,7,0,5,1,,,,,2,0,0,10,,10,10,1,10,,0,0,3,7,,138,17,85,59,15,36,,,,33,45,35,11,,,,,,1,1,1,1,,,0,,,,"0.42",10,10,10,10
+File,"WMTSLayer.java",1,1,1,1,12,0,10,1,,,,,2,1,1,11,,11,10,2,11,,0,1,4,6,,209,20,149,79,67,40,,,,86,109,61,60,,,,,,4,4,4,1,,,2,,,,"0.27",20,20,20,11
+File,"WMTSLayerParam.java",2,2,2,1,8,0,7,0,,,,,1,0,0,5,,5,5,11,5,,0,1,0,4,,182,16,71,42,24,95,,,,34,45,30,16,,,,,,5,5,5,5,,,2,,,,"1.34",10,10,12,9
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mapfish",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mapfish.print",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mapfish.print.map",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mapfish.print.map.tiled",1,1,1,1,12,0,7,4,,,,,4,0,0,,3,,21,8,21,,0,1,3,17,,420,43,161,103,53,216,,,,94,116,85,47,,,,,,5,5,5,1,,,4,,,,"1.34",19,19,19,12
+Public Abstract Class,"org.mapfish.print.map.tiled.AbstractTiledLayerParams",0,0,0,0,0,0,0,0,1,5,5,2,,0,0,,,,3,1,3,3,0,0,0,3,,36,3,8,7,1,25,,,,4,5,5,0,,,,,,0,0,0,0,,2,0,,0,0,"3.12",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.AbstractTiledLayerParams.createCommonUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,2,2,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.AbstractTiledLayerParams.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.AbstractTiledLayerParams.validateBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Class,"org.mapfish.print.map.tiled.AbstractWMXLayerParams",2,2,2,1,11,0,8,2,1,15,15,1,,0,0,,,,6,3,6,9,0,1,0,5,,123,13,60,24,31,50,,,,26,40,19,30,,,,,,5,5,5,1,,3,4,,77,61,"0.83",13,13,13,6
+Private Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.convertToMultiMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,1,18,5,12,0,11,5,1,9,14,6,12,5,5,5,1,1,,,,,0,,4,0,,,"0.00",5,5,5,1
+Public Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.createCommonUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,2,16,7,9,1,10,3,0,7,10,4,9,3,3,3,1,0,,,,,0,,2,0,,,"0.06",3,3,3,1
+Public Final Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.getCustomParams",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,5,2,3,3,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Final Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.getMergeableParams",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Final Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.setCustomParam",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.AbstractWMXLayerParams.validateBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,8,2,4,1,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.12",2,2,2,1
+Public Abstract Class,"org.mapfish.print.map.tiled.TileCacheInformation",1,1,1,1,14,0,7,7,1,18,18,3,,0,0,,,,11,4,11,11,0,0,3,8,,158,15,56,35,21,87,,,,27,34,24,17,,,,,,1,1,1,1,,1,0,,75,75,"1.55",5,5,5,5
+Public Constructor,"org.mapfish.print.map.tiled.TileCacheInformation.TileCacheInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,7,2,4,8,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"1.14",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.TileCacheInformation.createBufferedImage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,4,2,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.TileCacheInformation.createCommonUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,10,1,7,6,2,1,0,3,5,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Anonymous Class,"org.mapfish.print.map.tiled.TileCacheInformation.createCommonUrl.(Anon_1)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.TileCacheInformation.createCommonUrl.(Anon_1).apply",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.customizeQueryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.getLayerDpi",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,1,1,0,5,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Method,"org.mapfish.print.map.tiled.TileCacheInformation.getMinGeoCoordinate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,11,9,8,10,5,1,0,8,9,8,8,1,1,1,1,0,,,,,0,,0,0,,,"0.91",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.TileCacheInformation.getMissingTileImage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.getScale",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Protected Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.getTileCacheBounds",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,2,2,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.50",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.getTileRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,0,8,8,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.25",0,0,0,0
+Public Abstract Method,"org.mapfish.print.map.tiled.TileCacheInformation.getTileSize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Package,"org.mapfish.print.map.tiled.osm",1,1,1,1,10,0,8,1,,,,,3,0,6,,2,,15,11,15,,0,0,3,12,,340,40,202,117,86,98,,,,103,129,84,50,,,,,,5,5,8,3,,,2,,,,"0.49",23,23,26,17
+Public Final Class,"org.mapfish.print.map.tiled.osm.OsmLayer",1,1,1,1,9,0,5,3,1,10,10,0,,0,1,,,,2,1,2,2,0,0,1,1,,124,16,94,43,43,14,,,,37,54,24,34,,,,,,1,1,1,1,,2,0,,50,50,"0.15",2,2,2,2
+Public Constructor,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmLayer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,6,3,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.17",1,1,1,1
+Private Final Class,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation",1,1,2,1,11,0,10,0,1,19,19,0,,0,0,,,,7,2,7,18,0,0,2,5,,94,13,79,34,39,2,,,,32,46,19,30,,,,,,5,5,8,1,,2,2,,71,71,"0.03",13,13,16,7
+Public Constructor,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.OsmTileCacheInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,3,17,7,12,0,8,3,0,12,15,7,9,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.customizeQueryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.getLayerDpi",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.getScale",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.getTileCacheBounds",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.getTileRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,12,42,3,38,13,23,1,12,6,1,14,19,4,17,5,5,8,1,1,,,,,0,,2,0,,,"0.03",5,5,8,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayer.OsmTileCacheInformation.getTileSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.osm.OsmLayer.createTileInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.mapfish.print.map.tiled.osm.OsmLayerParam",1,1,1,1,9,0,7,1,1,15,15,0,,0,5,,,,6,8,6,9,0,0,0,6,,136,15,73,39,43,48,,,,31,40,25,16,,,,,,3,3,3,3,,3,1,,87,81,"0.66",8,8,8,8
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.createCommonUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.getMaxExtent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,7,5,5,3,1,1,0,5,6,5,1,1,1,1,1,0,,,,,0,,0,0,,,"0.43",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.getTileSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.postConstruct",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,1,10,1,8,4,7,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.osm.OsmLayerParam.validateBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,20,2,17,3,12,1,4,3,0,5,8,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.06",3,3,3,3
+Package,"org.mapfish.print.map.tiled.wms",1,1,1,1,7,0,5,1,,,,,2,0,0,,1,,10,1,10,,0,0,3,7,,138,17,85,59,15,36,,,,33,45,35,11,,,,,,1,1,1,1,,,0,,,,"0.42",10,10,10,10
+Public Final Class,"org.mapfish.print.map.tiled.wms.TiledWmsLayer",1,1,1,1,9,0,5,4,1,8,8,0,,0,0,,,,3,1,3,3,0,0,1,2,,94,12,64,38,15,18,,,,12,24,14,11,,,,,,1,1,1,1,,2,0,,33,33,"0.28",3,3,3,3
+Public Constructor,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.TiledWmsLayer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,7,4,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Final Class,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation",1,1,1,1,6,0,6,0,1,18,18,0,,0,0,,,,7,0,7,18,0,0,2,5,,54,8,45,27,11,1,,,,7,15,9,7,,,,,,1,1,1,1,,2,0,,0,0,"0.02",7,7,7,7
+Public Constructor,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.WmsTileCacheInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.customizeQueryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.getLayerDpi",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.getScale",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.getTileCacheBounds",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,3,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.getTileRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,1,15,12,3,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.WmsTileCacheInformation.getTileSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.createTileInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wms.TiledWmsLayer.getParams",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Package,"org.mapfish.print.map.tiled.wmts",1,1,2,1,11,0,9,1,,,,,3,1,1,,2,,15,13,16,,0,2,4,10,,391,36,220,121,91,135,,,,120,154,91,76,,,,,,5,5,5,5,,,2,,,,"0.61",30,30,32,20
+Public Class,"org.mapfish.print.map.tiled.wmts.WMTSLayer",1,1,1,1,15,0,9,5,1,13,13,0,,1,1,,,,2,1,3,3,0,0,2,1,,163,14,127,57,67,22,,,,64,87,39,60,,,,,,3,3,3,1,,2,2,,66,66,"0.17",5,5,5,3
+Protected Constructor,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSLayer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,6,3,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.17",1,1,1,1
+Private Final Class,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo",1,1,1,1,11,0,11,0,1,21,21,0,,0,0,,,,8,1,8,19,0,1,2,5,,104,9,94,43,50,1,,,,46,63,29,44,,,,,,4,4,4,1,,2,2,,25,25,"0.01",15,15,15,8
+Public Constructor,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.WMTSTileCacheInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,10,16,1,15,4,10,0,6,6,1,7,12,5,9,4,4,4,1,0,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.createKVPUri",,,,,,,,,,,,,,,,,,,,,,,,,,,16,29,0,29,6,22,0,9,6,1,21,25,6,21,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Protected Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.customizeQueryParams",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.getLayerDpi",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.getScale",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.getTileCacheBounds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,8,6,0,6,1,0,6,7,6,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.getTileRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,11,19,0,19,12,7,0,4,2,0,6,8,4,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.WMTSTileCacheInfo.getTileSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,5,3,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.createRestURI",,,,,,,,,,,,,,,,,,,,,,,,,,,13,28,1,18,5,13,9,5,3,0,13,16,5,12,3,3,3,1,0,,,,,0,,2,0,,,"0.50",3,3,3,1
+Protected Final Method,"org.mapfish.print.map.tiled.wmts.WMTSLayer.createTileInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam",2,2,2,1,8,0,7,0,1,13,13,0,,0,0,,,,5,11,5,14,0,1,0,4,,146,10,59,30,24,77,,,,22,33,18,16,,,,,,5,5,5,5,,4,2,,94,87,"1.31",10,10,12,9
+Private Method,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam.containsVariables",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,3,1,0,,,,,0,,0,0,,,"0.00",1,1,3,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam.createCommonUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam.getBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam.postConstruct",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.mapfish.print.map.tiled.wmts.WMTSLayerParam.validateBaseUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,1,19,3,12,0,6,5,1,6,11,2,10,5,5,5,5,6,,,,,6,,2,6,,,"0.00",5,5,5,5

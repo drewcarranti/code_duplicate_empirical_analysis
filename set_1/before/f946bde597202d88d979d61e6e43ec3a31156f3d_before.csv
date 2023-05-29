@@ -1,0 +1,400 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractIoAcceptor.java",2,2,2,1,9,0,9,0,,,,,1,0,0,8,,10,10,4,10,,0,0,3,7,,143,22,85,19,48,36,,,,31,51,18,34,,,,,,6,6,6,1,,,1,,,,"0.42",18,18,19,8
+File,"AbstractIoService.java",1,1,1,1,4,0,4,0,,,,,2,0,0,16,,16,16,4,16,,0,0,2,14,,145,25,83,24,36,37,,,,29,53,24,30,,,,,,3,3,3,1,,,1,,,,"0.45",22,22,22,16
+File,"AbstractIoSession.java",1,1,1,1,7,0,6,0,,,,,3,0,1,55,,56,56,22,56,,0,1,2,53,,551,109,413,110,218,29,,,,173,280,106,188,,,,,,10,10,13,7,,,1,,,,"0.07",101,101,105,76
+File,"DefaultIoFilterChain.java",1,1,1,1,8,0,7,0,,,,,5,0,1,79,,79,79,9,79,,0,16,1,62,,781,118,607,196,337,56,,,,242,378,155,247,,,,,,4,4,4,3,,,2,,,,"0.09",129,129,129,91
+File,"IoAcceptor.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,8,8,0,8,,8,0,0,0,,100,9,13,12,0,78,,,,11,12,12,0,,,,,,0,0,0,0,,,0,,,,"6.00",0,0,0,0
+File,"IoAcceptorWrapper.java",1,1,1,1,3,0,2,0,,,,,1,0,0,20,,20,20,1,20,,0,0,2,18,,121,23,66,26,19,32,,,,24,45,26,19,,,,,,1,1,1,1,,,0,,,,"0.48",20,20,20,20
+File,"IoConnectorWrapper.java",1,1,1,1,3,0,3,0,,,,,1,0,0,17,,17,17,1,17,,0,0,2,15,,109,20,57,23,16,32,,,,20,38,22,16,,,,,,1,1,1,1,,,0,,,,"0.56",17,17,17,17
+File,"IoService.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,10,10,0,10,,10,0,0,0,,104,11,14,13,0,79,,,,12,13,13,0,,,,,,0,0,0,0,,,0,,,,"5.64",0,0,0,0
+File,"IoServiceListenerSupport.java",2,2,2,1,13,1,9,2,,,,,2,0,0,11,,11,11,6,11,,0,1,0,10,,222,31,121,30,62,70,,,,44,86,35,57,,,,,,6,6,6,3,,,2,,,,"0.58",29,29,29,13
+File,"NioDatagramAcceptor.java",2,2,2,1,14,1,12,0,,,,,3,0,2,29,,29,29,11,29,,1,10,4,14,,521,84,399,118,240,39,,,,210,286,111,208,,,,,,8,8,9,7,,,4,,,,"0.10",77,77,83,46
+File,"NioDatagramSession.java",1,1,1,1,6,0,5,0,,,,,2,0,1,24,,24,24,9,24,,5,0,1,18,,247,39,176,65,74,32,,,,72,112,56,59,,,,,,3,3,3,3,,,2,,,,"0.18",38,38,38,26
+File,"NioSocketAcceptor.java",2,2,2,1,16,1,11,3,,,,,2,0,1,21,,21,21,14,21,,0,5,3,13,,471,79,283,85,162,110,,,,142,195,78,131,,,,,,7,7,9,5,,,4,,,,"0.39",53,53,56,32
+File,"ProtocolCodecFilter.java",2,2,2,1,11,0,10,0,,,,,7,0,5,28,,28,28,6,28,,0,9,0,19,,402,52,320,108,176,30,,,,133,198,80,137,,,,,,7,7,7,3,,,2,,,,"0.09",61,61,61,32
+File,"VmPipeSessionImpl.java",1,1,1,1,4,0,4,0,,,,,1,0,2,14,,14,14,10,14,,3,1,1,9,,156,30,95,46,36,31,,,,56,71,41,32,,,,,,1,1,1,1,,,0,,,,"0.33",14,14,14,14
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.mina",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.mina.common",1,1,1,1,7,0,6,0,,,,,17,0,2,,9,,227,47,227,,18,18,12,179,,2276,368,1459,453,736,449,,,,586,956,411,591,,,,,,10,10,13,7,,,2,,,,"0.31",336,336,341,241
+Public Abstract Class,"org.apache.mina.common.AbstractIoAcceptor",2,2,2,1,9,0,9,0,2,9,9,2,,0,0,,,,10,4,10,21,0,0,3,7,,118,19,82,16,48,17,,,,28,48,15,34,,,,,,6,6,6,1,,2,1,,62,56,"0.21",18,18,19,8
+Protected Constructor,"org.apache.mina.common.AbstractIoAcceptor.AbstractIoAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.apache.mina.common.AbstractIoAcceptor.bind",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,2,23,1,17,0,6,16,1,8,13,1,12,6,6,6,1,6,,,,,0,,1,0,,,"0.00",6,6,6,1
+Protected Abstract Method,"org.apache.mina.common.AbstractIoAcceptor.doBind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Protected Abstract Method,"org.apache.mina.common.AbstractIoAcceptor.doUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Public Method,"org.apache.mina.common.AbstractIoAcceptor.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoAcceptor.isBound",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,0,5,1,2,0,1,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoAcceptor.isDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoAcceptor.setDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoAcceptor.setLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,2,16,1,11,0,5,4,1,3,7,1,6,3,3,4,1,0,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Final Method,"org.apache.mina.common.AbstractIoAcceptor.unbind",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,17,1,12,0,5,4,1,6,10,1,9,4,4,4,1,4,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Abstract Class,"org.apache.mina.common.AbstractIoService",1,1,1,1,5,0,4,0,2,10,10,1,,0,0,,,,11,4,11,11,0,0,2,9,,121,22,81,22,36,18,,,,27,51,22,30,,,,,,3,3,3,1,,1,1,,79,72,"0.22",16,16,16,11
+Protected Constructor,"org.apache.mina.common.AbstractIoService.AbstractIoService",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,2,13,1,9,0,8,4,1,4,7,1,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Static Class,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture",1,1,1,1,3,0,3,0,1,1,1,0,,0,0,,,,5,0,5,5,0,0,0,5,,25,4,21,6,8,0,,,,6,13,6,7,,,,,,2,2,2,1,,2,1,,0,0,"0.00",6,6,6,5
+Public Constructor,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture.ServiceOperationFuture",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture.getException",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture.isDone",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture.setDone",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.ServiceOperationFuture.setException",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,1,5,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoService.getFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.common.AbstractIoService.getListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,7,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.getManagedSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoService.setFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoService.setHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Abstract Class,"org.apache.mina.common.AbstractIoSession",1,1,1,1,7,0,6,0,2,34,34,1,,0,1,,,,54,22,54,54,0,1,2,51,,513,106,397,94,218,10,,,,157,264,90,188,,,,,,10,10,13,7,,1,1,,94,93,"0.03",98,98,102,74
+Anonymous Class,"org.apache.mina.common.AbstractIoSession.(Anon_1)",1,1,1,1,5,0,5,0,1,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,3,4,2,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.(Anon_1).operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Constructor,"org.apache.mina.common.AbstractIoSession.AbstractIoSession",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,4,0,9,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.close",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,11,1,7,0,5,2,0,4,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.containsAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.apache.mina.common.AbstractIoSession.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getAttachment",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,1,14,2,9,0,2,6,1,5,9,2,8,4,4,4,3,2,,,,,2,,1,2,,,"0.00",4,4,4,3
+Public Method,"org.apache.mina.common.AbstractIoSession.getAttributeKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,2,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getCloseFuture",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getCreationTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getIdleCount",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,3,12,1,7,0,1,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Method,"org.apache.mina.common.AbstractIoSession.getLastIdleTime",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,3,12,1,7,0,1,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Method,"org.apache.mina.common.AbstractIoSession.getLastIoTime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getLastReadTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getLastWriteTime",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Abstract Method,"org.apache.mina.common.AbstractIoSession.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.apache.mina.common.AbstractIoSession.getReadBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getReadMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getScheduledWriteBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getScheduledWriteMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getServiceAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.AbstractIoSession.getServiceName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,2,5,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getTrafficMask",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getWriteRequestQueue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getWrittenBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.getWrittenMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.apache.mina.common.AbstractIoSession.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseIdleCount",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,1,11,0,7,4,1,7,11,1,10,4,4,4,1,3,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseReadBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,5,0,5,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseReadMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseScheduledWriteBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseScheduledWriteMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseWrittenBytes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,1,9,1,6,0,6,2,0,5,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.increaseWrittenMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.isClosing",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.isConnected",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.isIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,3,12,1,7,0,1,4,1,4,8,1,7,4,4,4,4,3,,,,,3,,1,3,,,"0.00",4,4,4,4
+Public Method,"org.apache.mina.common.AbstractIoSession.isScheduledForFlush",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.removeAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.removeAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,3,15,1,9,0,4,6,1,5,10,1,9,4,4,4,3,2,,,,,2,,1,2,,,"0.00",4,4,4,3
+Public Method,"org.apache.mina.common.AbstractIoSession.replaceAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,14,2,9,0,4,3,0,5,9,2,8,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.AbstractIoSession.resumeRead",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.resumeWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setAttachment",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,1,10,1,6,0,3,4,1,3,6,1,5,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setAttribute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setAttributeIfAbsent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,2,16,2,9,0,3,6,1,6,11,2,9,4,4,4,1,1,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setScheduledForFlush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,1,5,0,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.setTrafficMask",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,2,10,1,6,0,3,4,1,4,7,1,6,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.common.AbstractIoSession.suspendRead",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.suspendWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,12,2,8,0,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.write",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.AbstractIoSession.write",,,,,,,,,,,,,,,,,,,,,,,,,,,5,56,6,50,5,39,0,14,44,2,20,32,6,27,10,10,13,7,12,,,,,12,,0,12,,,"0.00",10,10,13,7
+Anonymous Class,"org.apache.mina.common.AbstractIoSession.write.(Anon_2)",2,2,2,1,7,0,7,0,1,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,8,0,8,0,6,0,,,,2,4,1,3,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.AbstractIoSession.write.(Anon_2).operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,0,5,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Class,"org.apache.mina.common.DefaultIoFilterChain",1,1,1,1,9,0,8,0,2,27,27,0,,0,1,,,,46,4,46,46,0,14,1,31,,752,115,600,189,337,37,,,,235,371,148,247,,,,,,4,4,4,3,,1,2,,73,52,"0.06",89,89,89,58
+Public Constructor,"org.apache.mina.common.DefaultIoFilterChain.DefaultIoFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,1,6,0,6,2,0,5,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Class,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl",1,1,1,1,13,1,12,0,2,5,5,0,,0,0,,,,6,5,6,6,0,2,0,4,,99,20,79,23,46,0,,,,36,55,30,25,,,,,,3,3,3,1,,1,1,,66,63,"0.00",9,9,9,6
+Private Constructor,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,6,62,9,53,11,39,0,6,4,1,25,37,19,18,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Anonymous Class,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1)",1,1,1,1,4,0,4,0,1,7,7,0,,0,0,,,,9,0,9,9,0,0,0,9,,47,8,39,9,30,0,,,,18,27,18,9,,,,,,1,1,1,1,,2,0,,0,0,"0.00",9,9,9,9
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).filterClose",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).filterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).messageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).sessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).sessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).sessionIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.EntryImpl.(Anon_1).sessionOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,3,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.getFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,11,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.getNextFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.setFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,1,6,1,3,0,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.EntryImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Class,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter",1,1,1,1,7,0,6,0,1,9,9,0,,0,0,,,,9,0,9,9,0,0,0,9,,76,11,59,29,21,6,,,,17,30,14,18,,,,,,4,4,4,1,,2,2,,0,0,"0.10",12,12,12,9
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.filterClose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,4,2,0,2,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.filterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,3,19,6,12,6,11,6,1,8,12,4,10,4,4,4,1,1,,,,,0,,2,0,,,"0.32",4,4,4,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.messageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.sessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.sessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.sessionIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.HeadFilter.sessionOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"org.apache.mina.common.DefaultIoFilterChain.TailFilter",1,1,1,1,6,0,6,0,1,9,9,0,,0,0,,,,9,0,9,9,0,0,0,9,,71,8,60,30,19,3,,,,12,25,11,15,,,,,,2,2,2,1,,2,1,,0,0,"0.05",10,10,10,9
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.exceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.filterClose",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.filterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.messageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.sessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,9,3,4,1,4,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,1,0,,,"0.11",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.sessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.sessionIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.TailFilter.sessionOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,13,5,7,2,4,2,0,3,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.15",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.addAfter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.addBefore",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.addFirst",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.addLast",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextExceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,0,10,2,6,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextMessageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextMessageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextSessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextSessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextSessionIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,9,2,5,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callNextSessionOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callPreviousFilterClose",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.callPreviousFilterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,0,10,2,6,0,6,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.checkAddable",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,6,1,3,3,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.checkOldName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,7,2,4,5,2,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.clear",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,4,0,5,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,2,3,0,4,7,2,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,2,6,0,4,3,0,4,7,2,5,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.deregister",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,3,16,2,12,0,7,4,1,6,9,2,8,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.deregister0",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,1,7,3,5,0,3,1,0,5,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.common.DefaultIoFilterChain.finalize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,2,4,0,2,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,1,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireExceptionCaught",,,,,,,,,,,,,,,,,,,,,,,,,,,14,14,0,10,4,7,4,3,2,0,4,6,3,4,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireFilterClose",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireFilterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireMessageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,2,4,0,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireMessageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,2,20,4,15,0,9,6,1,9,13,4,10,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireSessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,9,2,6,2,4,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.22",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireSessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireSessionIdle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.fireSessionOpened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,2,0,1,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.getAll",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,3,6,0,2,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.getAllReversed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,3,6,0,2,2,0,5,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.getEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.getNextFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,2,4,0,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.getSession",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.mina.common.DefaultIoFilterChain.register",,,,,,,,,,,,,,,,,,,,,,,,,,,11,23,3,20,3,16,0,9,4,1,9,12,2,11,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,3,0,4,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,2,8,0,4,3,0,5,8,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,13,3,9,0,6,3,0,6,9,3,7,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,4,0,4,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,2,8,0,4,3,0,5,8,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,4,9,0,6,3,0,6,9,3,7,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.common.DefaultIoFilterChain.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,32,7,25,5,19,0,5,6,1,15,19,4,16,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Interface,"org.apache.mina.common.IoAcceptor",0,0,0,0,0,0,0,0,1,3,3,2,,0,0,,,,8,0,8,18,8,0,0,0,,57,7,9,9,0,41,,,,8,9,9,0,,,,,,0,0,0,0,,1,0,,0,0,"4.56",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.bind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.isBound",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.isDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.newSession",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,1,1,0,12,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"12.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.setDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,1,1,0,4,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.setLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoAcceptor.unbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Class,"org.apache.mina.common.IoAcceptorWrapper",1,1,1,1,3,0,2,0,2,10,10,0,,0,0,,,,20,1,20,20,0,0,2,18,,95,20,62,22,19,13,,,,20,41,22,19,,,,,,1,1,1,1,,1,0,,5,5,"0.21",20,20,20,20
+Protected Constructor,"org.apache.mina.common.IoAcceptorWrapper.IoAcceptorWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,2,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.bind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getManagedSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.common.IoAcceptorWrapper.init",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.isBound",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.isDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.newSession",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.setDisconnectOnUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.setFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.setHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.setLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoAcceptorWrapper.unbind",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.mina.common.IoConnectorWrapper",1,1,1,1,3,0,3,0,2,9,9,0,,0,0,,,,17,1,17,17,0,0,2,15,,84,17,54,20,16,13,,,,17,35,19,16,,,,,,1,1,1,1,,1,0,,5,5,"0.24",17,17,17,17
+Protected Constructor,"org.apache.mina.common.IoConnectorWrapper.IoConnectorWrapper",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,2,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.connect",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.connect",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getConnectTimeout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getConnectTimeoutMillis",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getManagedSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.common.IoConnectorWrapper.init",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.setConnectTimeout",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.setFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoConnectorWrapper.setHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.apache.mina.common.IoService",0,0,0,0,0,0,0,0,0,7,7,2,,0,0,,,,10,0,10,10,10,0,0,0,,74,9,12,11,0,53,,,,10,11,11,0,,,,,,0,0,0,0,,0,0,,0,0,"4.42",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,1,1,0,4,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,1,1,0,10,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"10.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getManagedSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,1,1,0,4,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.setFilterChainBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,1,1,0,7,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.apache.mina.common.IoService.setHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,1,1,0,3,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Public Class,"org.apache.mina.common.IoServiceListenerSupport",3,3,3,1,15,1,10,3,1,15,15,0,,0,0,,,,9,5,9,9,0,1,0,8,,193,28,114,23,62,51,,,,37,79,28,57,,,,,,6,6,6,3,,1,2,,64,53,"0.45",27,27,27,11
+Public Constructor,"org.apache.mina.common.IoServiceListenerSupport.IoServiceListenerSupport",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,6,1,3,3,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Private Static Class,"org.apache.mina.common.IoServiceListenerSupport.LockNotifyingListener",1,1,1,1,4,0,4,0,2,1,1,0,,0,0,,,,2,1,2,2,0,0,0,2,,13,2,11,4,3,0,,,,3,7,4,3,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"org.apache.mina.common.IoServiceListenerSupport.LockNotifyingListener.LockNotifyingListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.LockNotifyingListener.operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,1,2,0,1,1,0,1,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.add",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"org.apache.mina.common.IoServiceListenerSupport.disconnectSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,4,21,3,13,1,6,8,1,6,14,4,12,6,6,6,3,3,,,,,2,,2,2,,,"0.05",6,6,6,3
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.fireServiceActivated",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,1,8,1,4,4,2,3,0,2,6,2,4,3,3,3,1,1,,,,,0,,1,0,,,"0.50",3,3,3,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.fireServiceDeactivated",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,1,12,1,7,4,3,3,0,3,8,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.33",3,3,3,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.fireSessionCreated",,,,,,,,,,,,,,,,,,,,,,,,,,,4,30,4,19,2,12,7,8,10,1,7,14,3,11,5,5,5,1,1,,,,,0,,1,0,,,"0.37",5,5,5,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.fireSessionDestroyed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,30,2,21,2,13,7,7,7,1,6,14,3,11,5,5,5,1,1,,,,,0,,2,0,,,"0.33",5,5,5,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.getManagedSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.common.IoServiceListenerSupport.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Package,"org.apache.mina.filter",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.mina.filter.codec",2,2,2,1,11,0,10,0,,,,,7,0,5,,1,,28,6,28,,0,9,0,19,,402,52,320,108,176,30,,,,133,198,80,137,,,,,,7,7,7,3,,,2,,,,"0.09",61,61,61,32
+Public Class,"org.apache.mina.filter.codec.ProtocolCodecFilter",2,2,2,1,15,0,14,0,1,21,21,0,,0,5,,,,16,1,16,16,0,7,0,9,,365,49,305,93,176,11,,,,118,183,65,137,,,,,,7,7,7,3,,2,2,,68,50,"0.04",43,43,43,18
+Private Static Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.EncodedWriteRequest",1,1,1,1,4,0,4,0,1,2,2,0,,0,0,,,,1,0,1,1,0,1,0,0,,6,0,6,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Private Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.EncodedWriteRequest.EncodedWriteRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.MessageWriteRequest",1,1,1,1,3,0,3,0,1,2,2,0,,0,0,,,,2,0,2,2,0,1,0,1,,10,1,9,4,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Private Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.MessageWriteRequest.MessageWriteRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.MessageWriteRequest.getMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,2,17,2,10,0,2,4,1,5,10,3,7,3,3,3,1,0,,,,,0,,0,0,,,"0.00",3,3,3,1
+Public Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,40,2,38,3,26,0,5,64,2,11,20,3,17,7,7,7,1,2,,,,,0,,0,0,,,"0.00",7,7,7,1
+Anonymous Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_1)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,2,0,2,2,0,0,0,2,,8,1,7,0,5,0,,,,2,4,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_1).getDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_1).getEncoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_2)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,8,1,7,0,5,0,,,,2,4,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_2).getDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolCodecFilter.(Anon_2).getEncoder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolDecoderOutputImpl",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,3,2,3,3,0,0,0,3,,26,3,23,10,8,0,,,,8,14,7,8,,,,,,2,2,2,1,,2,1,,16,16,"0.00",5,5,5,3
+Public Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolDecoderOutputImpl.ProtocolDecoderOutputImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolDecoderOutputImpl.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolDecoderOutputImpl.write",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,2,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Class,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolEncoderOutputImpl",3,3,3,2,14,1,12,0,1,5,5,0,,0,0,,,,2,3,2,2,0,0,0,2,,39,7,31,11,16,1,,,,16,21,9,14,,,,,,5,5,5,3,,2,2,,0,0,"0.03",6,6,6,4
+Public Constructor,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolEncoderOutputImpl.ProtocolEncoderOutputImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.ProtocolEncoderOutputImpl.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,3,19,4,13,1,8,10,1,10,13,4,11,5,5,5,3,2,,,,,2,,2,2,,,"0.05",5,5,5,3
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.disposeDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,3,9,0,5,3,0,4,7,2,6,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.disposeDecoderOut",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.disposeEncoder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,3,9,0,5,3,0,4,7,2,6,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.filterWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,2,26,8,18,0,7,4,1,12,16,5,14,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.getDecoder",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,3,6,0,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.getDecoderOut",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,3,5,0,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.getEncoder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,6,0,4,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.getEncoderOut",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,4,29,2,27,7,18,0,7,4,1,12,17,5,14,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.messageSent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,2,13,4,7,0,2,3,0,5,8,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.onPostRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,3,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.onPreAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,3,0,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.filter.codec.ProtocolCodecFilter.sessionClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,1,23,6,16,2,8,3,0,12,15,4,13,3,3,3,1,2,,,,,0,,2,0,,,"0.09",3,3,3,1
+Package,"org.apache.mina.transport",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.mina.transport.socket",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.apache.mina.transport.socket.nio",2,2,2,1,12,1,9,1,,,,,7,0,4,,3,,74,34,74,,6,15,8,45,,1239,202,858,268,476,181,,,,424,593,245,398,,,,,,8,8,9,7,,,4,,,,"0.21",168,168,177,104
+Public Class,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor",2,2,2,1,14,1,12,0,2,29,29,0,,0,2,,,,24,11,24,45,1,10,4,9,,469,81,369,88,240,20,,,,180,256,81,208,,,,,,8,8,9,7,,3,4,,91,84,"0.05",64,64,68,37
+Private Class,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.DatagramAcceptorProcessor",1,1,1,1,3,0,3,0,2,4,4,0,,0,0,,,,4,0,4,4,0,0,0,4,,21,4,17,6,5,0,,,,3,10,6,4,,,,,,3,3,3,1,,1,2,,0,0,"0.00",6,6,6,4
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.DatagramAcceptorProcessor.add",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.DatagramAcceptorProcessor.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,2,3,0,2,5,2,3,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.DatagramAcceptorProcessor.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.DatagramAcceptorProcessor.updateTrafficMask",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.NioDatagramAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Constructor,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.NioDatagramAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,2,9,1,6,3,5,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.33",2,2,2,1
+Private Class,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.Worker",7,7,9,5,39,7,32,0,2,3,3,0,,0,0,,,,1,0,1,1,0,0,0,1,,41,7,34,3,23,0,,,,14,21,3,19,,,,,,7,7,9,5,,1,4,,0,0,"0.00",7,7,9,5
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.Worker.run",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,7,32,2,23,0,17,9,1,14,20,2,19,7,7,9,5,6,,,,,6,,4,5,,,"0.00",7,7,9,5
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.cancelKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,5,25,2,22,4,17,2,12,5,1,14,16,4,14,4,4,4,3,3,,,,,3,,2,2,,,"0.09",4,4,4,3
+Protected Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.doBind",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,4,12,3,8,0,9,2,0,7,9,2,8,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.doUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,3,11,3,7,0,6,2,0,6,8,2,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.finalize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.flush",,,,,,,,,,,,,,,,,,,,,,,,,,,3,61,7,50,10,40,4,22,19,1,32,39,10,37,8,8,9,7,12,,,,,12,,3,10,,,"0.08",8,8,9,7
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.flushSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,2,17,3,11,0,9,7,1,8,11,3,10,5,5,7,3,3,,,,,3,,3,2,,,"0.00",5,5,7,3
+Protected Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getSessionRecycler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.newSession",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,2,12,1,7,0,3,4,1,3,7,1,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.newSessionWithoutLock",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,5,25,8,19,1,15,3,0,15,19,7,15,3,3,3,1,2,,,,,0,,1,0,,,"0.04",3,3,3,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.notifyIdleSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,9,2,6,1,6,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.11",2,2,2,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.processReadySessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,3,20,4,13,0,12,8,1,7,14,5,12,6,6,6,1,1,,,,,0,,4,0,,,"0.00",6,6,6,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.readSession",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,4,14,6,11,0,13,2,0,9,11,5,10,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.registerNew",,,,,,,,,,,,,,,,,,,,,,,,,,,6,45,5,40,4,31,0,29,20,1,23,29,4,27,8,8,9,4,5,,,,,4,,3,3,,,"0.00",8,8,9,4
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.scheduleFlush",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,1,5,0,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.setLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.setSessionRecycler",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,12,1,7,0,2,4,1,3,7,1,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.apache.mina.transport.socket.nio.NioDatagramAcceptor.startupWorker",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Class,"org.apache.mina.transport.socket.nio.NioDatagramSession",1,1,1,1,4,0,4,0,2,10,10,0,,0,1,,,,14,9,14,14,5,0,1,8,,204,36,155,45,74,13,,,,52,92,36,59,,,,,,1,1,1,1,,2,0,,86,80,"0.08",14,14,14,14
+Constructor,"org.apache.mina.transport.socket.nio.NioDatagramSession.NioDatagramSession",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,1,12,3,8,3,12,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Constructor,"org.apache.mina.transport.socket.nio.NioDatagramSession.NioDatagramSession",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,4,2,1,3,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Private Class,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl",2,2,2,1,8,0,8,0,1,3,3,0,,0,0,,,,10,0,10,10,0,0,0,10,,94,10,83,11,47,1,,,,22,47,11,36,,,,,,3,3,3,3,,2,2,,0,0,"0.01",24,24,24,12
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.getReceiveBufferSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.getSendBufferSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.getTrafficClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,7,0,4,3,0,3,6,1,5,3,3,3,3,4,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.isBroadcast",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.isReuseAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,1,4,0,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.setBroadcast",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.setReceiveBufferSize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,10,1,6,1,4,3,0,3,6,1,5,3,3,3,1,1,,,,,0,,2,0,,,"0.10",3,3,3,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.setReuseAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,1,4,0,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.setSendBufferSize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,1,5,0,3,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.SessionConfigImpl.setTrafficClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,1,5,0,3,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getChannel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getRemoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getSelectionKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getServiceAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.mina.transport.socket.nio.NioDatagramSession.setSelectionKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.apache.mina.transport.socket.nio.NioSocketAcceptor",2,2,2,1,13,1,9,3,2,25,25,0,,0,1,,,,19,14,19,40,0,4,3,12,,424,76,258,60,162,91,,,,117,170,53,131,,,,,,7,7,7,3,,3,3,,90,83,"0.35",40,40,41,23
+Public Constructor,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.NioSocketAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Constructor,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.NioSocketAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Constructor,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.NioSocketAcceptor",,,,,,,,,,,,,,,,,,,,,,,,,,,7,53,6,36,2,28,11,14,48,2,17,24,3,21,7,7,7,1,3,,,,,0,,2,0,,,"0.31",7,7,7,1
+Private Class,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.Worker",6,6,7,4,44,6,29,9,2,10,10,0,,0,0,,,,2,0,2,2,0,1,0,1,,96,14,60,11,42,22,,,,25,38,10,34,,,,,,7,7,9,5,,1,4,,0,0,"0.37",13,13,15,9
+Private Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.Worker.processSessions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,48,7,28,8,21,13,13,17,1,13,19,7,17,6,6,6,4,3,,,,,3,,2,2,,,"0.46",6,6,6,4
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.Worker.run",,,,,,,,,,,,,,,,,,,,,,,,,,,8,41,6,30,2,21,5,13,9,1,12,18,2,17,7,7,9,5,6,,,,,6,,4,5,,,"0.17",7,7,9,5
+Private Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.cancelKeys",,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,3,19,3,14,8,9,5,1,11,13,3,12,4,4,4,3,3,,,,,3,,2,2,,,"0.42",4,4,4,3
+Protected Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.doBind",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,6,13,3,9,7,9,2,0,7,9,2,8,2,2,2,1,0,,,,,0,,1,0,,,"0.54",2,2,2,1
+Protected Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.doUnbind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,2,11,3,7,0,6,2,0,6,8,2,7,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.finalize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,5,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.getBacklog",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.getSessionConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.isReuseAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.newSession",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.nextProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.registerNew",,,,,,,,,,,,,,,,,,,,,,,,,,,6,48,6,30,3,23,12,20,13,1,16,20,3,18,6,6,7,3,4,,,,,3,,3,2,,,"0.40",6,6,7,3
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.setBacklog",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,9,1,5,0,2,2,0,2,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.setLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.setReuseAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,1,9,1,5,0,2,2,0,2,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.apache.mina.transport.socket.nio.NioSocketAcceptor.startupWorker",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,1,8,1,4,9,2,2,0,2,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"1.12",2,2,2,1
+Package,"org.apache.mina.transport.vmpipe",1,1,1,1,4,0,4,0,,,,,1,0,2,,1,,14,10,14,,3,1,1,9,,156,30,95,46,36,31,,,,56,71,41,32,,,,,,1,1,1,1,,,0,,,,"0.33",14,14,14,14
+Class,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl",1,1,1,1,4,0,4,0,2,13,13,0,,0,2,,,,14,10,14,68,3,1,1,9,,120,27,81,32,36,12,,,,42,57,27,32,,,,,,1,1,1,1,,2,0,,78,78,"0.15",14,14,14,14
+Constructor,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.VmPipeSessionImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,1,13,3,9,0,13,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.VmPipeSessionImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,11,1,9,0,14,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getConfig",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getFilterChain",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getLocalAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getLock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getRemoteAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getRemoteSession",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getServiceAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getServiceListeners",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.apache.mina.transport.vmpipe.VmPipeSessionImpl.getTransportMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

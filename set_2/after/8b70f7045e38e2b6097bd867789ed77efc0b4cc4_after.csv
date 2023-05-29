@@ -1,0 +1,998 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AbstractXTestJavaValidator.java",1,1,1,1,10,0,10,4,,,,,1,0,0,1,,1,1,0,1,,0,0,1,0,,22,5,17,9,7,4,,,,12,14,8,7,,,,,,1,1,1,1,,,0,,,,"0.24",1,1,1,1
+File,"AbstractXTestProposalProvider.java",1,1,1,1,3,0,2,0,,,,,1,0,0,23,,23,23,0,23,,0,0,0,23,,90,4,68,31,13,18,,,,19,43,30,13,,,,,,1,1,1,1,,,0,,,,"0.26",23,23,23,23
+File,"AbstractXTestSemanticSequencer.java",3,2,17,2,28,0,23,4,,,,,1,0,0,48,,48,48,7,48,,0,0,46,2,,1532,102,1204,129,977,226,,,,264,376,121,259,,,,,,93,58,777,92,,,3,,,,"0.19",146,111,830,139
+File,"Body.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,66,7,9,7,0,51,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"5.67",0,0,0,0
+File,"BodyImpl.java",2,1,2,1,15,0,10,5,,,,,1,0,0,9,,9,9,2,9,,0,0,2,7,,211,21,110,32,44,81,,,,42,59,25,34,,,,,,3,2,5,1,,,1,,,,"0.74",21,16,23,9
+File,"ExtensionMethods.java",1,1,1,1,3,0,3,0,,,,,1,1,0,1,,1,0,0,1,,0,0,0,1,,12,1,6,3,1,5,,,,2,4,3,1,,,,,,1,1,1,1,,,0,,,,"0.83",1,1,1,1
+File,"InternalXTestLexer.java",3,2,5,1,31,5,22,3,,,,,2,0,93,86,,86,86,1,86,,0,0,0,86,,3425,570,2418,669,1634,439,,,,934,1216,417,854,,,,,,79,50,82,9,,,5,,,,"0.18",295,210,443,114
+File,"InternalXTestParser.java",9,9,10,5,67,16,44,6,,,,,15,0,781,260,,260,260,15,260,,0,0,2,258,,20202,4673,13434,2957,9243,2130,,,,6272,8628,2073,7478,,,,,,122,96,122,62,,,9,,,,"0.16",2510,2360,2779,1311
+File,"XTestAdapterFactory.java",1,1,1,1,10,0,5,5,,,,,2,0,1,19,,19,19,1,19,,0,0,0,19,,259,21,113,25,41,126,,,,31,54,30,25,,,,,,3,3,3,3,,,1,,,,"1.12",22,22,22,21
+File,"XTestFactory.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,6,6,1,6,,6,0,0,0,,83,10,12,10,1,62,,,,9,10,10,1,,,,,,0,0,0,0,,,0,,,,"5.17",0,0,0,0
+File,"XTestFactoryImpl.java",1,1,1,1,12,0,6,5,,,,,1,2,0,10,,10,8,0,10,,0,0,0,10,,158,16,78,26,28,66,,,,30,44,24,26,,,,,,6,3,6,3,,,2,,,,"0.85",17,13,17,12
+File,"XTestGrammarAccess.java",1,1,1,1,2,0,2,0,,,,,11,0,0,289,,289,289,145,289,,0,0,0,289,,1627,311,780,456,423,536,,,,443,743,453,423,,,,,,2,2,2,1,,,0,,,,"0.69",299,299,299,289
+File,"XTestJavaValidator.java",4,4,4,1,21,0,16,4,,,,,1,0,1,13,,13,13,7,13,,0,4,3,6,,367,21,277,121,141,69,,,,125,187,106,111,,,,,,20,20,23,9,,,8,,,,"0.25",54,54,60,21
+File,"XTestPackage.java",0,0,0,0,0,0,0,0,,,,,2,0,0,0,,16,16,40,16,,16,0,0,0,,575,62,68,64,40,447,,,,62,64,64,16,,,,,,0,0,0,0,,,0,,,,"6.57",0,0,0,0
+File,"XTestPackageImpl.java",1,1,1,1,14,1,6,6,,,,,1,1,1,20,,20,19,7,20,,0,1,0,19,,403,60,157,49,78,187,,,,94,118,49,73,,,,,,3,3,3,1,,,1,,,,"1.19",24,24,24,20
+File,"XTestParser.java",1,1,1,1,58,0,58,0,,,,,2,0,1,6,,6,6,2,6,,0,0,4,2,,381,13,365,27,329,3,,,,338,347,23,325,,,,,,2,2,2,1,,,1,,,,"0.01",8,8,8,6
+File,"XTestProposalProvider.java",1,1,1,1,5,0,5,0,,,,,1,0,0,2,,2,2,0,2,,0,0,1,1,,33,3,23,16,4,7,,,,11,14,12,2,,,,,,1,1,2,1,,,0,,,,"0.30",2,2,3,2
+File,"XTestRegressionTests.java",1,1,1,1,7,0,7,0,,,,,1,7,5,8,,8,1,0,8,,0,0,7,1,,117,13,98,64,45,6,,,,58,75,56,37,,,,,,3,3,3,1,,,2,,,,"0.06",14,14,14,8
+File,"XTestRunnerUnitTests.java",1,1,1,1,10,0,9,0,,,,,1,0,1,40,,40,40,0,40,,0,0,2,38,,473,71,396,147,268,6,,,,254,295,97,245,,,,,,1,1,1,1,,,0,,,,"0.02",40,40,40,40
+File,"XTestRuntimeModule.java",1,1,1,1,8,0,3,4,,,,,1,0,0,8,,8,8,0,8,,0,0,0,8,,97,9,44,27,8,44,,,,24,33,25,8,,,,,,1,1,1,1,,,0,,,,"1.00",8,8,8,8
+File,"XTestScopeProvider.java",3,3,4,1,25,1,23,0,,,,,1,0,2,4,,4,4,2,4,,0,0,3,1,,155,16,130,75,68,9,,,,68,84,56,43,,,,,,6,6,7,1,,,4,,,,"0.07",13,13,16,4
+File,"XTestSwitch.java",2,2,2,1,18,0,8,9,,,,,1,0,1,11,,11,11,0,11,,0,0,2,9,,254,18,103,33,42,134,,,,43,66,30,41,,,,,,15,11,15,1,,,2,,,,"1.30",26,22,26,11
+File,"XTestTypeProvider.java",3,3,5,1,17,0,17,0,,,,,1,0,0,2,,2,2,1,2,,0,0,2,0,,66,5,55,30,22,6,,,,29,37,23,16,,,,,,4,4,6,1,,,2,,,,"0.11",7,7,10,2
+File,"XtestContentAssistFragment.java",2,2,2,1,10,0,7,2,,,,,1,0,1,5,,5,5,1,5,,0,1,1,3,,80,11,48,22,20,21,,,,24,38,23,19,,,,,,5,5,5,1,,,4,,,,"0.44",10,10,10,5
+File,"XtestHighlightingCalculator.java",2,2,2,1,8,0,8,0,,,,,1,0,0,2,,2,2,0,2,,0,1,1,0,,37,4,28,17,8,5,,,,14,19,14,7,,,,,,3,3,3,1,,,2,,,,"0.18",4,4,4,2
+File,"XtestImportedNamespaceScopeProvider.java",7,7,8,1,24,0,24,0,,,,,1,0,0,1,,1,1,0,1,,0,0,1,0,,47,5,36,19,14,6,,,,16,25,16,13,,,,,,7,7,8,1,,,5,,,,"0.17",7,7,8,1
+File,"XtestStaticMethodsFeatureForTypeProvider.java",2,2,3,1,9,0,9,0,,,,,1,0,0,1,,1,1,0,1,,0,0,1,0,,28,4,19,13,5,5,,,,11,14,11,5,,,,,,2,2,3,1,,,1,,,,"0.26",2,2,3,1
+Package,"helpers",1,1,1,1,3,0,3,0,,,,,1,1,0,,1,,0,0,1,,0,0,0,1,,12,1,6,3,1,5,,,,2,4,3,1,,,,,,1,1,1,1,,,0,,,,"0.83",1,1,1,1
+Public Class,"helpers.ExtensionMethods",1,1,1,1,3,0,3,0,1,0,0,0,,1,0,,,,0,0,1,1,0,0,0,1,,10,0,5,2,1,5,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"1.00",1,1,1,1
+Public Static Final Method,"helpers.ExtensionMethods.incr",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.xtest",1,1,1,1,8,0,3,4,,,,,1,0,0,,1,,8,0,8,,0,0,0,8,,97,9,44,27,8,44,,,,24,33,25,8,,,,,,1,1,1,1,,,0,,,,"1.00",8,8,8,8
+Public Class,"org.xtest.XTestRuntimeModule",1,1,1,1,8,0,3,4,1,10,10,0,,0,0,,,,8,0,8,8,0,0,0,8,,79,7,28,11,8,44,,,,8,17,9,8,,,,,,1,1,1,1,,2,0,,0,0,"1.57",8,8,8,8
+Public Method,"org.xtest.XTestRuntimeModule.bindFeatureCallChecker",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindIResourceDescription$Manager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindStaticallyImportedFeaturesProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindVisibilityService",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindXbaseImportedNamespaceScopeProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindXbaseInterpreter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindXbaseScopeProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.xtest.XTestRuntimeModule.bindXbaseTypeProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Package,"org.xtest.generator",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.xtest.generator.contentassist",2,2,2,1,10,0,7,2,,,,,1,0,1,,1,,5,1,5,,0,1,1,3,,80,11,48,22,20,21,,,,24,38,23,19,,,,,,5,5,5,1,,,4,,,,"0.44",10,10,10,5
+Public Class,"org.xtest.generator.contentassist.XtestContentAssistFragment",2,2,2,1,10,0,7,2,1,9,9,0,,0,1,,,,5,1,5,5,0,1,1,3,,67,7,39,13,20,21,,,,15,29,14,19,,,,,,5,5,5,1,,2,4,,40,40,"0.54",10,10,10,5
+Private Method,"org.xtest.generator.contentassist.XtestContentAssistFragment.gatherRulesToRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,2,9,0,9,5,1,5,13,5,9,5,5,5,1,0,,,,,0,,4,0,,,"0.00",5,5,5,1
+Public Method,"org.xtest.generator.contentassist.XtestContentAssistFragment.generate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,4,6,0,6,2,0,5,7,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.xtest.generator.contentassist.XtestContentAssistFragment.getTemplate",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.generator.contentassist.XtestContentAssistFragment.isDontOverrideMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.xtest.generator.contentassist.XtestContentAssistFragment.setDontOverrideMethods",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,3,1,1,9,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Package,"org.xtest.parser",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.xtest.parser.antlr",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.xtest.parser.antlr.internal",8,7,9,4,58,13,39,5,,,,,17,0,874,,2,,346,16,346,,0,0,2,344,,23627,5243,15852,3626,10877,2569,,,,7206,9844,2490,8332,,,,,,122,96,122,62,,,9,,,,"0.16",2805,2570,3222,1425
+Public Class,"org.xtest.parser.antlr.internal.InternalXTestLexer",2,1,4,1,31,5,22,3,1,10,10,0,,0,93,,,,83,1,83,83,0,0,0,83,,3410,564,2411,663,1634,437,,,,928,1210,411,854,,,,,,79,18,79,9,,2,5,,98,98,"0.18",241,158,359,105
+Class,"org.xtest.parser.antlr.internal.InternalXTestLexer.DFA19",18,17,28,3,45,16,28,0,1,5,5,0,,0,0,,,,3,0,3,3,0,0,0,3,,139,51,88,11,78,0,,,,74,127,10,121,,,,,,52,50,82,7,,2,2,,0,0,"0.00",54,52,84,9
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestLexer.DFA19.DFA19",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.DFA19.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.DFA19.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,2,122,50,72,8,68,0,4,97,2,64,114,7,111,52,50,82,7,59,,,,,15,,2,15,,,"0.00",52,50,82,7
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestLexer.InternalXTestLexer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,1,1,0,1,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestLexer.InternalXTestLexer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestLexer.InternalXTestLexer",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.getGrammarFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_ANY_OTHER",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_DECIMAL",,,,,,,,,,,,,,,,,,,,,,,,,,,7,123,25,89,14,63,9,4,546,3,40,54,14,48,14,13,33,1,7,,,,,0,,4,0,,,"0.10",14,13,33,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_HEX",,,,,,,,,,,,,,,,,,,,,,,,,,,7,177,36,129,25,89,12,4,4224,4,56,74,21,66,20,18,37,4,15,,,,,4,,4,4,,,"0.09",20,18,37,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_ID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,76,16,54,9,38,6,4,48,2,23,31,9,26,8,8,27,3,5,,,,,3,,4,3,,,"0.11",8,8,27,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_INT",,,,,,,,,,,,,,,,,,,,,,,,,,,8,50,10,36,6,25,4,4,6,1,15,20,6,16,5,5,9,3,4,,,,,3,,4,3,,,"0.11",5,5,9,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_ML_COMMENT",,,,,,,,,,,,,,,,,,,,,,,,,,,7,57,13,40,6,27,5,3,10,1,16,23,6,19,7,7,13,3,5,,,,,3,,4,3,,,"0.12",7,7,13,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_SL_COMMENT",,,,,,,,,,,,,,,,,,,,,,,,,,,7,87,19,60,10,41,9,4,60,2,25,34,10,28,9,9,20,3,4,,,,,3,,4,3,,,"0.15",9,9,20,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_STRING",,,,,,,,,,,,,,,,,,,,,,,,,,,7,156,30,115,15,82,11,4,93,2,50,65,14,59,19,16,55,9,21,,,,,13,,5,13,,,"0.10",19,16,55,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mRULE_WS",,,,,,,,,,,,,,,,,,,,,,,,,,,7,54,10,40,9,28,4,3,8,1,18,24,8,19,6,6,12,4,5,,,,,4,,4,4,,,"0.10",6,6,12,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__13",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__14",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__15",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__16",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__17",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__18",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__19",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__20",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__21",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__22",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__23",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__24",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__25",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__26",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__27",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__28",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__29",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__30",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__31",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__32",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__33",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__34",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__35",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__36",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__37",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__38",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__39",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__40",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__41",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__42",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__43",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__44",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__45",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__46",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__47",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__48",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__49",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__50",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__51",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__52",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__53",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__54",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__55",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__56",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__57",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__58",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__59",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__60",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__61",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__62",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__63",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__64",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__65",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__66",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__67",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__68",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__69",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__70",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__71",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__72",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__73",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__74",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__75",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__76",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__77",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__78",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__79",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__80",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,3,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mT__81",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,2,13,3,7,2,1,1,0,5,7,3,4,1,1,1,1,0,,,,,0,,1,0,,,"0.15",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestLexer.mTokens",,,,,,,,,,,,,,,,,,,,,,,,,,,2,555,80,396,2,237,79,79,79,2,158,160,2,158,79,2,79,1,3003,,,,,0,,1,0,,,"0.20",79,2,79,1
+Public Class,"org.xtest.parser.antlr.internal.InternalXTestParser",10,9,11,5,74,18,49,7,1,40,40,0,,0,781,,,,219,15,219,219,0,0,2,217,,20179,4668,13416,2940,9243,2130,,,,6255,8611,2056,7478,,,,,,104,96,117,48,,2,9,,95,60,"0.16",2241,2128,2434,1157
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA18",6,6,13,3,26,6,19,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,81,20,61,14,51,0,,,,48,67,13,61,,,,,,18,16,37,8,,2,2,,0,0,"0.00",20,18,39,10
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA18.DFA18",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA18.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA18.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,64,19,45,11,41,0,8,41,2,38,54,10,51,18,16,37,8,23,,,,,16,,2,16,,,"0.00",18,16,37,8
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA19",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA19.DFA19",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA19.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA19.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA20",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA20.DFA20",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA20.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA20.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA43",6,6,13,3,26,6,19,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,81,20,61,14,51,0,,,,48,67,13,61,,,,,,18,16,37,8,,2,2,,0,0,"0.00",20,18,39,10
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA43.DFA43",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA43.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA43.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,64,19,45,11,41,0,8,41,2,38,54,10,51,18,16,37,8,23,,,,,16,,2,16,,,"0.00",18,16,37,8
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA44",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA44.DFA44",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA44.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA44.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA45",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA45.DFA45",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA45.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA45.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA50",6,5,12,3,25,6,19,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,79,19,60,14,50,0,,,,47,65,13,59,,,,,,17,15,36,8,,2,2,,0,0,"0.00",19,17,38,10
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA50.DFA50",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA50.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA50.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,62,18,44,11,40,0,8,38,2,37,52,10,49,17,15,36,8,22,,,,,16,,2,16,,,"0.00",17,15,36,8
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA72",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA72.DFA72",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA72.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA72.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA74",6,6,13,3,26,6,19,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,81,20,61,14,51,0,,,,48,67,13,61,,,,,,18,16,37,8,,2,2,,0,0,"0.00",20,18,39,10
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA74.DFA74",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA74.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA74.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,64,19,45,11,41,0,8,41,2,38,54,10,51,18,16,37,8,23,,,,,16,,2,16,,,"0.00",18,16,37,8
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA75",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA75.DFA75",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA75.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA75.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA76",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA76.DFA76",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA76.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA76.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA78",41,31,41,21,158,50,108,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,478,151,327,68,317,0,,,,287,383,67,377,,,,,,122,93,122,62,,2,2,,0,0,"0.00",124,95,124,64
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA78.DFA78",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA78.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA78.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,461,150,311,65,307,0,8,272,2,277,370,64,367,122,93,122,62,1396,,,,,1366,,2,1366,,,"0.00",122,93,122,62
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA8",1,1,1,1,7,0,7,0,1,3,3,0,,0,0,,,,2,0,2,2,0,0,0,2,,17,1,16,3,10,0,,,,10,13,3,10,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA8.DFA8",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA8.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA93",2,2,2,2,13,1,11,0,1,6,6,0,,0,0,,,,3,0,3,3,0,0,0,3,,43,6,37,10,27,0,,,,26,35,9,29,,,,,,6,6,6,4,,2,2,,0,0,"0.00",8,8,8,6
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA93.DFA93",,,,,,,,,,,,,,,,,,,,,,,,,,,17,11,0,11,1,9,0,1,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA93.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.DFA93.specialStateTransition",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,5,21,7,17,0,8,11,1,16,22,6,19,6,6,6,4,4,,,,,3,,2,3,,,"0.00",6,6,6,4
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.InternalXTestParser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.InternalXTestParser",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.parser.antlr.internal.InternalXTestParser.InternalXTestParser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleBody",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleFullJvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleIdOrSuper",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleImport",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmArgumentTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmLowerBound",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmParameterizedTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmUpperBound",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmUpperBoundAnded",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleJvmWildcardTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,10,41,11,28,4,19,2,11,11,1,15,21,4,18,6,6,6,4,11,,,,,5,,2,5,,,"0.07",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpAnd",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpCompare",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpEquality",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpMulti",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpMultiAssign",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpOr",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpOther",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpSingleAssign",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleOpUnary",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleQualifiedName",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleQualifiedNamespaceWithWildcard",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleStaticEquals",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleStaticQualifier",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleValidID",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,9,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXAdditiveExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXAndExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXAssignment",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXBlockExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXBooleanLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXCasePart",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXCastedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXCatchClause",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXConstructorCall",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXDoWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXEqualityExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXExpressionInClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXExpressionInsideBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXForLoopExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXFunctionTypeRef",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXIfExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXMemberFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXMultiplicativeExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXNullLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXNumberLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXOrExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXOtherOperatorExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXParenthesizedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXPrimaryExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXRelationalExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXReturnExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXShortClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXStringLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXSwitchExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXThrowExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXTryCatchFinallyExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXTypeLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXUnaryOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXVariableDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.entryRuleXWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,10,35,7,26,3,17,2,8,11,1,13,19,3,16,6,6,6,4,11,,,,,5,,2,5,,,"0.08",6,6,6,4
+Protected Method,"org.xtest.parser.antlr.internal.InternalXTestParser.getFirstRuleName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.parser.antlr.internal.InternalXTestParser.getGrammarAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.getGrammarFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.parser.antlr.internal.InternalXTestParser.getTokenNames",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleBody",,,,,,,,,,,,,,,,,,,,,,,,,,,16,306,81,195,21,133,30,27,2897629,6,77,112,21,98,38,38,56,17,79,,,,,37,,5,37,,,"0.15",38,38,56,17
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,13,102,28,62,5,37,12,19,178,2,24,37,5,32,13,13,13,5,19,,,,,7,,3,7,,,"0.19",13,13,13,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleFullJvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,11,106,28,66,4,42,12,16,87,2,24,35,4,31,11,11,11,4,11,,,,,5,,3,5,,,"0.18",11,11,11,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleIdOrSuper",,,,,,,,,,,,,,,,,,,,,,,,,,,12,89,22,62,8,41,5,16,77,2,29,42,7,38,14,13,14,9,28,,,,,16,,3,16,,,"0.08",14,13,14,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleImport",,,,,,,,,,,,,,,,,,,,,,,,,,,18,254,71,153,11,92,30,28,23304,4,62,96,11,86,36,34,36,14,114,,,,,42,,5,42,,,"0.20",36,34,36,14
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmArgumentTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,15,95,24,66,8,45,5,14,68,2,32,45,7,40,14,13,16,9,28,,,,,16,,3,16,,,"0.08",14,13,16,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,18,124,31,81,7,53,12,17,401,3,30,45,7,40,15,15,19,5,13,,,,,6,,4,6,,,"0.15",15,15,19,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmLowerBound",,,,,,,,,,,,,,,,,,,,,,,,,,,11,76,20,48,4,30,8,17,30,1,19,28,4,24,9,9,9,4,11,,,,,5,,3,5,,,"0.17",9,9,9,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmParameterizedTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,16,204,56,126,10,82,22,25,20251,4,52,77,10,68,26,26,26,11,67,,,,,25,,6,25,,,"0.17",26,26,26,11
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,26,170,48,109,14,73,13,21,1196,3,49,71,13,63,24,23,25,13,61,,,,,31,,6,31,,,"0.12",24,23,25,13
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmUpperBound",,,,,,,,,,,,,,,,,,,,,,,,,,,11,76,20,48,4,30,8,17,30,1,19,28,4,24,9,9,9,4,11,,,,,5,,3,5,,,"0.17",9,9,9,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmUpperBoundAnded",,,,,,,,,,,,,,,,,,,,,,,,,,,10,76,20,48,4,30,8,17,30,1,19,28,4,24,9,9,9,4,11,,,,,5,,3,5,,,"0.17",9,9,9,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleJvmWildcardTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,12,152,39,96,7,61,17,22,363,3,35,52,7,46,18,17,18,7,25,,,,,12,,4,12,,,"0.18",18,17,18,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,17,224,55,154,24,101,15,18,30431,4,73,108,21,97,38,35,40,24,152,,,,,62,,5,62,,,"0.10",38,35,40,24
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,11,74,16,53,7,34,5,12,38,2,25,36,6,33,12,11,12,9,28,,,,,16,,3,16,,,"0.09",12,11,12,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpAnd",,,,,,,,,,,,,,,,,,,,,,,,,,,10,34,8,24,3,15,2,10,6,1,11,16,3,14,5,5,5,3,5,,,,,3,,2,3,,,"0.08",5,5,5,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpCompare",,,,,,,,,,,,,,,,,,,,,,,,,,,13,114,22,85,6,54,7,14,112,2,40,54,5,51,20,14,20,15,77,,,,,47,,3,47,,,"0.08",20,14,20,15
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpEquality",,,,,,,,,,,,,,,,,,,,,,,,,,,11,74,16,53,7,34,5,12,38,2,25,36,6,33,12,11,12,9,28,,,,,16,,3,16,,,"0.09",12,11,12,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpMulti",,,,,,,,,,,,,,,,,,,,,,,,,,,13,114,22,85,6,54,7,14,112,2,40,54,5,51,20,14,20,15,77,,,,,47,,3,47,,,"0.08",20,14,20,15
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpMultiAssign",,,,,,,,,,,,,,,,,,,,,,,,,,,10,34,8,24,3,15,2,10,6,1,11,16,3,14,5,5,5,3,5,,,,,3,,2,3,,,"0.08",5,5,5,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpOr",,,,,,,,,,,,,,,,,,,,,,,,,,,10,34,8,24,3,15,2,10,6,1,11,16,3,14,5,5,5,3,5,,,,,3,,2,3,,,"0.08",5,5,5,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpOther",,,,,,,,,,,,,,,,,,,,,,,,,,,11,74,16,53,7,34,5,12,38,2,25,36,6,33,12,11,12,9,28,,,,,16,,3,16,,,"0.09",12,11,12,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpSingleAssign",,,,,,,,,,,,,,,,,,,,,,,,,,,11,34,8,24,3,15,2,10,6,1,11,16,3,14,5,5,5,3,5,,,,,3,,2,3,,,"0.08",5,5,5,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleOpUnary",,,,,,,,,,,,,,,,,,,,,,,,,,,11,96,19,71,6,45,6,13,70,2,33,45,5,42,16,12,16,12,50,,,,,30,,3,30,,,"0.08",16,12,16,12
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleQualifiedName",,,,,,,,,,,,,,,,,,,,,,,,,,,17,126,40,78,9,53,8,18,1251,3,35,52,9,47,18,18,18,7,26,,,,,14,,5,14,,,"0.10",18,18,18,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleQualifiedNamespaceWithWildcard",,,,,,,,,,,,,,,,,,,,,,,,,,,12,69,20,45,4,30,4,16,91,2,23,34,4,31,11,11,11,5,19,,,,,7,,2,7,,,"0.09",11,11,11,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleStaticEquals",,,,,,,,,,,,,,,,,,,,,,,,,,,9,34,8,24,3,15,2,10,6,1,11,16,3,14,5,5,5,3,5,,,,,3,,2,3,,,"0.08",5,5,5,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleStaticQualifier",,,,,,,,,,,,,,,,,,,,,,,,,,,12,92,25,63,10,45,4,16,145,2,32,46,9,41,15,15,15,8,30,,,,,18,,4,18,,,"0.06",15,15,15,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,12,111,28,71,6,45,12,20,194,2,25,38,6,33,13,13,13,5,12,,,,,6,,4,6,,,"0.17",13,13,13,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleValidID",,,,,,,,,,,,,,,,,,,,,,,,,,,22,38,10,26,3,16,2,10,10,1,11,17,3,15,6,6,6,3,5,,,,,3,,2,3,,,"0.08",6,6,6,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXAdditiveExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,185,55,110,8,69,20,22,7003,4,40,61,8,56,22,22,22,7,27,,,,,14,,5,14,,,"0.18",22,22,22,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXAndExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,176,52,104,7,65,20,22,4203,4,38,57,7,52,20,20,20,7,26,,,,,14,,5,14,,,"0.19",20,20,20,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,13,160,43,99,9,63,18,24,2243,3,38,57,9,50,19,19,19,7,31,,,,,11,,4,11,,,"0.18",19,19,19,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXAssignment",,,,,,,,,,,,,,,,,,,,,,,,,,,21,319,88,196,15,122,35,29,28043,4,75,114,13,107,40,39,67,17,113,,,,,41,,5,41,,,"0.18",40,39,67,17
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXBlockExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,16,144,38,92,10,61,14,22,1595,3,38,56,10,48,19,19,36,9,37,,,,,17,,5,17,,,"0.15",19,19,36,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXBooleanLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,11,112,28,71,8,41,13,16,123,2,27,41,7,36,15,14,15,9,28,,,,,16,,4,16,,,"0.18",15,14,15,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXCasePart",,,,,,,,,,,,,,,,,,,,,,,,,,,15,185,48,119,11,80,18,22,10701,4,49,72,11,63,23,23,25,9,44,,,,,14,,4,14,,,"0.15",23,23,25,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXCastedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,149,43,90,8,58,16,23,723,3,35,51,8,45,17,17,17,7,26,,,,,14,,5,14,,,"0.18",17,17,17,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXCatchClause",,,,,,,,,,,,,,,,,,,,,,,,,,,14,133,36,83,7,54,14,21,708,3,36,53,7,46,17,17,17,7,41,,,,,11,,3,11,,,"0.17",17,17,17,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,24,264,71,163,14,106,30,30,243035,5,65,96,14,84,32,32,34,13,85,,,,,29,,7,29,,,"0.18",32,32,34,13
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXConstructorCall",,,,,,,,,,,,,,,,,,,,,,,,,,,27,468,126,291,23,195,51,38,327111003,9,121,176,23,155,58,57,58,25,274,,,,,64,,7,64,,,"0.18",58,57,58,25
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXDoWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,15,147,40,93,8,62,14,23,3155,3,41,61,8,53,20,20,20,8,55,,,,,13,,3,13,,,"0.15",20,20,20,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXEqualityExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,185,55,110,8,69,20,22,7003,4,40,61,8,56,22,22,22,7,27,,,,,14,,5,14,,,"0.18",22,22,22,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,28,44,12,30,3,20,2,11,11,1,14,20,3,17,6,6,6,3,5,,,,,3,,2,3,,,"0.07",6,6,6,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXExpressionInClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,13,130,34,82,8,53,14,20,353,3,30,44,8,38,15,15,32,7,19,,,,,13,,5,13,,,"0.17",15,15,32,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXExpressionInsideBlock",,,,,,,,,,,,,,,,,,,,,,,,,,,15,95,24,66,8,45,5,14,68,2,32,45,7,40,14,13,33,9,28,,,,,16,,3,16,,,"0.08",14,13,33,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,30,644,172,406,34,271,66,48,999999999,13,166,246,33,221,84,82,85,35,426,,,,,84,,7,84,,,"0.16",84,82,85,35
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXForLoopExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,16,184,50,116,9,78,18,25,16967,4,50,74,9,65,24,24,24,9,71,,,,,15,,3,15,,,"0.16",24,24,24,9
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXFunctionTypeRef",,,,,,,,,,,,,,,,,,,,,,,,,,,17,229,60,147,15,100,22,24,74661,5,63,92,15,80,30,30,32,13,86,,,,,30,,7,30,,,"0.15",30,30,32,13
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXIfExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,16,211,57,132,12,87,22,26,53831,5,55,82,12,72,27,27,27,10,73,,,,,17,,4,17,,,"0.17",27,27,27,10
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,19,218,52,157,11,110,9,22,436,3,77,101,10,92,37,24,37,21,149,,,,,93,,3,93,,,"0.06",37,24,37,21
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXMemberFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,33,805,217,500,36,321,88,53,999999999,12,200,293,35,265,104,96,104,42,680,,,,,170,,9,170,,,"0.18",104,96,104,42
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXMultiplicativeExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,211,60,131,9,81,20,22,12603,4,47,69,9,64,26,23,26,7,32,,,,,14,,5,14,,,"0.15",26,23,26,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXNullLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,9,52,14,32,3,18,6,11,11,1,11,17,3,14,6,6,6,3,5,,,,,3,,2,3,,,"0.19",6,6,6,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXNumberLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,82,22,50,3,30,10,16,29,1,16,24,3,21,8,8,8,3,5,,,,,3,,3,3,,,"0.20",8,8,8,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXOrExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,176,52,104,7,65,20,22,4203,4,38,57,7,52,20,20,20,7,26,,,,,14,,5,14,,,"0.19",20,20,20,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXOtherOperatorExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,185,55,110,8,69,20,22,7003,4,40,61,8,56,22,22,22,7,27,,,,,14,,5,14,,,"0.18",22,22,22,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXParenthesizedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,13,64,18,42,5,28,4,15,46,2,22,32,5,27,10,10,10,5,19,,,,,7,,2,7,,,"0.10",10,10,10,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXPrimaryExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,29,488,115,355,20,254,18,40,2434,3,176,227,19,209,91,51,91,48,770,,,,,498,,3,498,,,"0.05",91,51,91,48
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXRelationalExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,14,309,88,186,12,112,35,29,17955,4,65,95,12,88,36,31,36,10,69,,,,,29,,5,29,,,"0.19",36,31,36,10
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXReturnExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,12,96,25,61,5,39,10,20,67,2,23,34,5,29,11,11,11,5,12,,,,,6,,4,6,,,"0.16",11,11,11,5
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXShortClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,17,243,66,147,11,93,30,27,53629,5,54,80,11,71,27,27,29,10,51,,,,,21,,6,21,,,"0.20",27,27,29,10
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXStringLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,10,76,20,46,3,26,10,14,27,1,13,21,3,18,8,8,8,3,5,,,,,3,,3,3,,,"0.22",8,8,8,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXSwitchExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,27,483,123,313,37,210,47,38,127719047,8,140,205,33,183,67,66,117,34,467,,,,,87,,5,87,,,"0.15",67,66,117,34
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,13,166,42,107,10,69,17,23,2595,3,43,63,9,56,21,20,21,11,50,,,,,20,,3,20,,,"0.16",21,20,21,11
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXThrowExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,11,89,24,55,4,34,10,19,59,2,20,30,4,26,10,10,10,4,11,,,,,5,,3,5,,,"0.18",10,10,10,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXTryCatchFinallyExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,16,316,82,201,22,133,33,29,163835,5,83,121,20,108,40,39,40,19,137,,,,,47,,6,47,,,"0.16",40,39,40,19
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXTypeLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,13,100,29,61,5,37,10,20,535,3,26,41,5,36,15,15,15,6,29,,,,,9,,3,9,,,"0.16",15,15,15,6
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXUnaryOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,14,167,45,105,8,66,17,21,1082,3,41,61,7,56,21,20,38,10,40,,,,,20,,4,20,,,"0.16",21,20,38,10
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXVariableDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,17,346,86,222,22,141,38,30,869091,6,88,130,19,118,44,42,46,24,160,,,,,50,,4,50,,,"0.17",44,42,46,24
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.ruleXWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,14,140,38,88,7,58,14,22,1415,3,37,55,7,48,18,18,18,7,41,,,,,11,,3,11,,,"0.16",18,18,18,7
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred10_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred10_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred11_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred11_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,4,9,1,1,6,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.67",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred12_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred12_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred13_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred13_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred14_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred14_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred15_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred15_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred16_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred16_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,4,9,1,1,6,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.67",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred17_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred17_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,8,41,10,21,1,9,10,4,4,1,10,14,1,13,4,4,4,4,3,,,,,3,,1,3,,,"0.48",4,4,4,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred18_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred18_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,8,93,19,56,4,25,18,2,29,1,20,27,3,25,11,7,11,11,25,,,,,25,,2,25,,,"0.32",11,7,11,11
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred19_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred19_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,3,7,1,1,4,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.57",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred1_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred1_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,3,7,1,1,4,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.57",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred20_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred20_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,10,107,28,57,5,29,22,4,30,1,22,31,5,28,10,10,12,8,14,,,,,14,,4,14,,,"0.39",10,10,12,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred21_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred21_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,4,10,1,4,4,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred22_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred22_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,10,102,27,55,5,29,20,4,30,1,22,31,5,28,10,10,12,8,14,,,,,14,,4,14,,,"0.36",10,10,12,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred24_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred24_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred25_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred25_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,8,15,1,5,8,3,3,0,6,9,1,8,3,3,3,3,2,,,,,2,,1,2,,,"0.53",3,3,3,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred26_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred26_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,8,32,8,16,1,6,8,3,4,1,8,12,1,11,4,4,4,4,3,,,,,3,,1,3,,,"0.50",4,4,4,4
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred27_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred27_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,6,47,13,22,1,8,12,3,3,0,8,11,1,10,3,3,3,3,2,,,,,2,,1,2,,,"0.55",3,3,3,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred28_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred28_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred29_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred29_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred30_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred30_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,10,107,28,57,5,29,22,4,30,1,22,31,5,28,10,10,12,8,14,,,,,14,,4,14,,,"0.39",10,10,12,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred31_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred31_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,4,10,1,4,4,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred32_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred32_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,4,10,1,4,4,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred33_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred33_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred34_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred34_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred36_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred36_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred37_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred37_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,4,10,1,2,6,1,3,0,4,7,1,6,3,3,3,3,2,,,,,2,,1,2,,,"0.60",3,3,3,3
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred38_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred38_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred3_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred3_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,5,1,1,2,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred4_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred4_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,3,7,1,1,4,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.57",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred5_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred5_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,10,107,28,57,5,29,22,4,30,1,22,31,5,28,10,10,12,8,14,,,,,14,,4,14,,,"0.39",10,10,12,8
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred6_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred6_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,4,10,1,4,4,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred7_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred7_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred8_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred8_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred9_InternalXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,3,11,1,5,2,0,9,11,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Final Method,"org.xtest.parser.antlr.internal.InternalXTestParser.synpred9_InternalXTest_fragment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,35,9,16,1,4,10,2,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Package,"org.xtest.scoping",3,3,4,1,22,1,21,0,,,,,3,0,2,,3,,6,2,6,,0,0,5,1,,230,25,185,107,87,20,,,,95,123,83,61,,,,,,7,7,8,1,,,5,,,,"0.11",22,22,27,6
+Public Class,"org.xtest.scoping.XTestScopeProvider",3,3,4,1,25,1,23,0,1,29,29,0,,0,2,,,,4,2,4,4,0,0,3,1,,124,12,103,48,68,9,,,,41,57,29,43,,,,,,6,6,7,1,,2,4,,50,50,"0.09",13,13,16,4
+Protected Method,"org.xtest.scoping.XTestScopeProvider.addFeatureDescriptionProviders",,,,,,,,,,,,,,,,,,,,,,,,,,,9,28,1,26,11,19,1,9,3,0,9,12,5,10,3,3,4,1,1,,,,,0,,2,0,,,"0.04",3,3,4,1
+Protected Method,"org.xtest.scoping.XTestScopeProvider.addFeatureDescriptionProvidersForAssignment",,,,,,,,,,,,,,,,,,,,,,,,,,,8,31,2,28,12,20,1,9,3,0,9,12,5,10,3,3,4,1,1,,,,,0,,2,0,,,"0.04",3,3,4,1
+Protected Method,"org.xtest.scoping.XTestScopeProvider.addStaticFeatureDescriptionProviders",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,2,11,5,7,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.scoping.XTestScopeProvider.getScope",,,,,,,,,,,,,,,,,,,,,,,,,,,5,30,1,29,12,20,0,16,9,1,14,22,12,18,6,6,7,1,1,,,,,0,,4,0,,,"0.00",6,6,7,1
+Public Class,"org.xtest.scoping.XtestImportedNamespaceScopeProvider",7,7,8,1,24,0,24,0,1,10,10,0,,0,0,,,,1,0,1,1,0,0,1,0,,34,1,27,10,14,6,,,,7,16,7,13,,,,,,7,7,8,1,,2,5,,0,0,"0.22",7,7,8,1
+Protected Method,"org.xtest.scoping.XtestImportedNamespaceScopeProvider.internalGetImportedNamespaceResolvers",,,,,,,,,,,,,,,,,,,,,,,,,,,2,24,0,24,8,14,0,9,9,1,7,15,6,13,7,7,8,1,0,,,,,0,,5,0,,,"0.00",7,7,8,1
+Public Class,"org.xtest.scoping.XtestStaticMethodsFeatureForTypeProvider",2,2,3,1,9,0,9,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,1,0,,18,1,12,6,5,5,,,,4,7,4,5,,,,,,2,2,3,1,,2,1,,0,0,"0.42",2,2,3,1
+Protected Method,"org.xtest.scoping.XtestStaticMethodsFeatureForTypeProvider.getImports",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,4,5,0,7,2,0,4,6,3,5,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Package,"org.xtest.serializer",3,2,17,2,28,0,23,4,,,,,1,0,0,,1,,48,7,48,,0,0,46,2,,1532,102,1204,129,977,226,,,,264,376,121,259,,,,,,93,58,777,92,,,3,,,,"0.19",146,111,830,139
+Public Class,"org.xtest.serializer.AbstractXTestSemanticSequencer",3,2,17,2,28,0,23,4,1,61,61,0,,0,0,,,,48,7,48,48,0,0,46,2,,1469,100,1143,68,977,226,,,,203,315,60,259,,,,,,93,58,777,92,,2,3,,83,82,"0.20",146,111,830,139
+Public Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.createSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,47,961,0,961,1,908,0,126,134218104,8,133,191,1,190,93,58,777,92,1394,,,,,1394,,3,1394,,,"0.00",93,58,777,92
+Public Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.init",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,8,2,5,0,4,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_Body",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_FileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,0,13,3,10,4,11,5,1,7,11,3,10,4,4,4,1,0,,,,,0,,2,0,,,"0.31",4,4,4,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_FullJvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_Import",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmFormalParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmLowerBound",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmParameterizedTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmTypeParameter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmUpperBound",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmUpperBoundAnded",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_JvmWildcardTypeReference",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_UniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XAdditiveExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,3,1,1,13,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XBlockExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XBooleanLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XCasePart",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XCastedExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XCatchClause",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XConstructorCall",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,3,1,1,9,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XDoWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XExpressionInClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XForLoopExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XFunctionTypeRef",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XIfExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XMemberFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XMemberFeatureCall",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XNumberLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XPrimaryExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XPrimaryExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XRelationalExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XReturnExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XShortClosure",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XStringLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XSwitchExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,0,13,3,10,4,11,5,1,7,11,3,10,4,4,4,1,0,,,,,0,,2,0,,,"0.31",4,4,4,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XThrowExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XTryCatchFinallyExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XTypeLiteral",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XUnaryOperation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XVariableDeclaration",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Protected Method,"org.xtest.serializer.AbstractXTestSemanticSequencer.sequence_XWhileExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Package,"org.xtest.services",1,1,1,1,2,0,2,0,,,,,11,0,0,,1,,289,145,289,,0,0,0,289,,1627,311,780,456,423,536,,,,443,743,453,423,,,,,,2,2,2,1,,,0,,,,"0.69",299,299,299,289
+Public Class,"org.xtest.services.XTestGrammarAccess",1,1,1,1,3,0,3,0,1,79,79,0,,0,0,,,,156,12,156,156,0,0,0,156,,1611,306,772,448,423,533,,,,435,735,445,423,,,,,,2,2,2,1,,2,0,,95,91,"0.69",166,166,166,156
+Public Class,"org.xtest.services.XTestGrammarAccess.BodyElements",1,1,1,1,1,0,1,0,1,7,7,0,,0,0,,,,15,15,15,15,0,0,0,15,,66,15,32,31,30,19,,,,30,46,31,30,,,,,,1,1,1,1,,2,0,,93,93,"0.59",15,15,15,15
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getBodyAction_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getExpressionsAssignment_3_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getExpressionsXExpressionInsideBlockParserRuleCall_3_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getFileparamAssignment_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getFileparamFileParamParserRuleCall_1_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getGroup_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getGroup_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getGroup_3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getImportsAssignment_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getImportsImportParserRuleCall_2_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getSemicolonKeyword_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getSemicolonKeyword_2_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.BodyElements.getSemicolonKeyword_3_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.FileParamElements",1,1,1,1,1,0,1,0,1,7,7,0,,0,0,,,,8,8,8,8,0,0,0,8,,40,8,18,17,16,14,,,,16,25,17,16,,,,,,1,1,1,1,,2,0,,87,87,"0.78",8,8,8,8
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getColonKeyword_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getFeatureAssignment_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getFeatureJvmEnumerationLiteralCrossReference_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getFeatureJvmEnumerationLiteralIDTerminalRuleCall_0_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getValueAssignment_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.FileParamElements.getValueXBooleanLiteralParserRuleCall_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.ImportElements",1,1,1,1,1,0,1,0,1,8,8,0,,0,0,,,,19,19,19,19,0,0,0,19,,88,19,40,39,38,29,,,,38,58,39,38,,,,,,1,1,1,1,,2,0,,94,94,"0.72",19,19,19,19
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getAlternatives_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getAsteriskKeyword_1_0_4",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getExtensionAssignment_1_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getExtensionExtensionKeyword_1_0_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getFullStopKeyword_1_0_3",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getGroup_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportKeyword_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedNamespaceAssignment_1_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedNamespaceQualifiedNamespaceWithWildcardParserRuleCall_1_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeAssignment_1_0_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeAssignment_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeJvmTypeCrossReference_1_0_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeJvmTypeCrossReference_1_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeJvmTypeQualifiedNameParserRuleCall_1_0_2_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getImportedTypeJvmTypeQualifiedNameParserRuleCall_1_1_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getStaticAssignment_1_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.ImportElements.getStaticStaticKeyword_1_0_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements",1,1,1,1,1,0,1,0,1,5,5,0,,0,0,,,,5,5,5,5,0,0,0,5,,24,5,12,11,10,7,,,,10,16,11,10,,,,,,1,1,1,1,,2,0,,80,80,"0.58",5,5,5,5
+Public Method,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements.getAsteriskKeyword_2",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements.getFullStopKeyword_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements.getQualifiedNameParserRuleCall_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.QualifiedNamespaceWithWildcardElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.StaticEqualsElements",1,1,1,1,1,0,1,0,1,3,3,0,,0,0,,,,2,2,2,2,0,0,0,2,,14,2,6,5,4,6,,,,4,7,5,4,,,,,,1,1,1,1,,2,0,,50,50,"1.00",2,2,2,2
+Public Method,"org.xtest.services.XTestGrammarAccess.StaticEqualsElements.getColonEqualsSignKeyword",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.StaticEqualsElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.UniqueNameElements",1,1,1,1,1,0,1,0,1,5,5,0,,0,0,,,,6,6,6,6,0,0,0,6,,28,6,14,13,12,8,,,,12,19,13,12,,,,,,1,1,1,1,,2,0,,83,83,"0.57",6,6,6,6
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getIdentifierAssignment_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getIdentifierXParenthesizedExpressionParserRuleCall_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getNameAssignment_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getNameIDTerminalRuleCall_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.UniqueNameElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements",1,1,1,1,1,0,1,0,1,7,7,0,,0,0,,,,10,10,10,10,0,0,0,10,,44,10,22,21,20,12,,,,20,31,21,20,,,,,,1,1,1,1,,2,0,,90,90,"0.55",10,10,10,10
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getActualAssignment_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getActualXExpressionParserRuleCall_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getAssertKeyword_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getGroup_3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getThrowsAssignment_3_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getThrowsJvmTypeReferenceParserRuleCall_3_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getThrowsKeyword_3_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XAssertExpressionElements.getXAssertExpressionAction_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements",1,1,1,1,1,0,1,0,1,9,9,0,,0,0,,,,41,41,41,41,0,0,0,41,,190,41,84,83,82,65,,,,82,124,83,82,,,,,,1,1,1,1,,2,0,,97,97,"0.77",41,41,41,41
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getAlternatives_3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getAlternatives_4_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getClassKeyword_3_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getCommaKeyword_2_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getCommaKeyword_4_1_1_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getDeclaringTypeAssignment_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getDeclaringTypeJvmDeclaredTypeCrossReference_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getDeclaringTypeJvmDeclaredTypeStaticQualifierParserRuleCall_1_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getExplicitOperationCallAssignment_4_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getExplicitOperationCallLeftParenthesisKeyword_4_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureAssignment_3_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsAssignment_4_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsAssignment_4_1_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsAssignment_4_1_1_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsAssignment_5",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsXClosureParserRuleCall_5_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsXExpressionParserRuleCall_4_1_1_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsXExpressionParserRuleCall_4_1_1_1_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureCallArgumentsXShortClosureParserRuleCall_4_1_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureJvmIdentifiableElementCrossReference_3_0_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getFeatureJvmIdentifiableElementIdOrSuperParserRuleCall_3_0_0_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGreaterThanSignKeyword_2_3",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_2_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_4",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_4_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_4_1_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getGroup_6",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getLessThanSignKeyword_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getRightParenthesisKeyword_4_2",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getStaticEqualsParserRuleCall_6_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getTypeArgumentsAssignment_2_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getTypeArgumentsAssignment_2_2_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getTypeArgumentsJvmArgumentTypeReferenceParserRuleCall_2_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getTypeArgumentsJvmArgumentTypeReferenceParserRuleCall_2_2_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getValueAssignment_6_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getValueXAssignmentParserRuleCall_6_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getXAssignmentAssignableAction_6_0",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XFeatureCallElements.getXFeatureCallAction_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements",1,1,1,1,1,0,1,0,1,4,4,0,,0,0,,,,17,17,17,17,0,0,0,17,,92,17,36,35,34,39,,,,34,52,35,34,,,,,,1,1,1,1,,2,0,,94,94,"1.08",17,17,17,17
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getAlternatives",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXAssertExpressionParserRuleCall_14",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXBlockExpressionParserRuleCall_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXConstructorCallParserRuleCall_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXDoWhileExpressionParserRuleCall_8",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXFeatureCallParserRuleCall_3",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXForLoopExpressionParserRuleCall_6",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXIfExpressionParserRuleCall_5",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXLiteralParserRuleCall_4",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXParenthesizedExpressionParserRuleCall_12",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXReturnExpressionParserRuleCall_10",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXSwitchExpressionParserRuleCall_2",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXTestExpressionParserRuleCall_13",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXThrowExpressionParserRuleCall_9",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXTryCatchFinallyExpressionParserRuleCall_11",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XPrimaryExpressionElements.getXWhileExpressionParserRuleCall_7",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements",1,1,1,1,1,0,1,0,1,8,8,0,,0,0,,,,10,10,10,10,0,0,0,10,,44,10,22,21,20,12,,,,20,31,21,20,,,,,,1,1,1,1,,2,0,,90,90,"0.55",10,10,10,10
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getAlternatives_1",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getExpressionAssignment_3",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getExpressionXBlockExpressionParserRuleCall_3_0",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getNameAssignment_2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getNameUniqueNameParserRuleCall_2_0",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getXTestExpressionAction_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getXsuiteKeyword_1_0",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.XTestExpressionElements.getXtestKeyword_1_1",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.services.XTestGrammarAccess.XTestGrammarAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getANY_OTHERRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getBodyAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getBodyRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getDECIMALRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getFileParamAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getFileParamRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getFullJvmFormalParameterAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getFullJvmFormalParameterRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getGrammar",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getHEXRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getIDRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getINTRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getIdOrSuperAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getIdOrSuperRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getImportAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getImportRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmArgumentTypeReferenceAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmArgumentTypeReferenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmFormalParameterAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmFormalParameterRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmLowerBoundAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmLowerBoundRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmParameterizedTypeReferenceAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmParameterizedTypeReferenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmTypeParameterAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmTypeParameterRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmTypeReferenceAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmTypeReferenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmUpperBoundAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmUpperBoundAndedAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmUpperBoundAndedRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmUpperBoundRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmWildcardTypeReferenceAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getJvmWildcardTypeReferenceRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getML_COMMENTRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getNumberAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getNumberRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpAddAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpAddRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpAndAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpAndRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpCompareAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpCompareRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpEqualityAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpEqualityRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpMultiAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpMultiAssignAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpMultiAssignRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpMultiRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpOrAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpOrRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpOtherAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpOtherRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpSingleAssignAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpSingleAssignRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpUnaryAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getOpUnaryRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getQualifiedNameAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getQualifiedNameRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getQualifiedNamespaceWithWildcardAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getQualifiedNamespaceWithWildcardRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getSL_COMMENTRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getSTRINGRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getStaticEqualsAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getStaticEqualsRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getStaticQualifierAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getStaticQualifierRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getUniqueNameAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getUniqueNameRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getValidIDAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getValidIDRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getWSRule",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAdditiveExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAdditiveExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAndExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAndExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAssertExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAssertExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAssignmentAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXAssignmentRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXBlockExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXBlockExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXBooleanLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXBooleanLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCasePartAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCasePartRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCastedExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCastedExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCatchClauseAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXCatchClauseRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXClosureAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXClosureRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXConstructorCallAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXConstructorCallRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXDoWhileExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXDoWhileExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXEqualityExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXEqualityExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionInClosureAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionInClosureRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionInsideBlockAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionInsideBlockRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXFeatureCallAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXFeatureCallRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXForLoopExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXForLoopExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXFunctionTypeRefAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXFunctionTypeRefRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXIfExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXIfExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXMemberFeatureCallAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXMemberFeatureCallRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXMultiplicativeExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXMultiplicativeExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXNullLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXNullLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXNumberLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXNumberLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXOrExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXOrExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXOtherOperatorExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXOtherOperatorExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXParenthesizedExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXParenthesizedExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXPrimaryExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXPrimaryExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXRelationalExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXRelationalExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXReturnExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXReturnExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXShortClosureAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXShortClosureRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXStringLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXStringLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXSwitchExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXSwitchExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTestExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTestExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXThrowExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXThrowExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTryCatchFinallyExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTryCatchFinallyExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTypeLiteralAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXTypeLiteralRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXUnaryOperationAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXUnaryOperationRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXVariableDeclarationAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXVariableDeclarationRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXWhileExpressionAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXWhileExpressionRule",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.services.XTestGrammarAccess.getXbaseGrammarAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.xtest.test",1,1,1,1,9,0,9,0,,,,,2,7,6,,2,,41,0,48,,0,0,9,39,,590,84,494,211,313,12,,,,312,370,153,282,,,,,,3,3,3,1,,,2,,,,"0.02",54,54,54,48
+Public Class,"org.xtest.test.XTestRegressionTests",1,1,1,1,7,0,7,0,1,26,26,0,,7,5,,,,1,0,8,8,0,0,7,1,,87,8,73,39,45,6,,,,33,50,31,37,,,,,,3,3,3,1,,1,2,,82,80,"0.08",14,14,14,8
+Protected Static Method,"org.xtest.test.XTestRegressionTests.assertEvaluatesTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.assertReturnType",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.assertValidationPassed",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,6,9,0,8,3,0,6,10,6,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.getWarningsRunTests",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,6,9,0,7,3,0,6,10,6,8,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.invokeXbaseExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.xtest.test.XTestRegressionTests.runValidation",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,3,3,0,3,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRegressionTests.runXTest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,16,7,10,1,8,3,0,8,11,5,9,3,3,3,1,0,,,,,0,,2,0,,,"0.06",3,3,3,1
+Public Class,"org.xtest.test.XTestRunnerUnitTests",1,1,1,1,10,0,9,0,1,6,6,0,,0,1,,,,40,0,40,40,0,0,2,38,,461,67,388,139,268,6,,,,246,287,89,245,,,,,,1,1,1,1,,1,0,,35,0,"0.02",40,40,40,40
+Protected Method,"org.xtest.test.XTestRunnerUnitTests.assertXtestPasses",,,,,,,,,,,,,,,,,,,,,,,,,,,14,6,0,6,2,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.test.XTestRunnerUnitTests.assertXtestPreEvalFailure",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,3,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testCaseInAssert",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,1,15,5,12,0,11,1,0,11,12,3,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testEmptyTestCase",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,3,6,0,10,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testExceptionInCaseInSuiteInSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,2,18,5,15,0,11,1,0,15,16,4,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testExtensionImport",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testExtensionImportBad",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testFalseAssertInCaseInSuiteInSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,2,16,5,13,0,11,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportNonStatic",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportStatic_innerClassMembers_shouldFail",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,7,2,4,0,1,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportStatic_innerStaticClassWildcard",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,7,2,4,1,2,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportStatic_innerStaticClass_shouldFail",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportStatic_type_shouldfail",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,4,5,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImportStatic_wildcard_shouldPass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,4,6,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testImport_innerStaticClass_shouldPass",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testInnerClassesRecognized",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testMalformed",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,6,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testPrivateFieldAccessible",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testPrivateInnerClassAccessible",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testPrivateMethodSugared",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testReturnDoesntFail",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testReturnStopsLaterTests",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,4,5,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testStaticMemberImportedWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testStaticMemberTypeImportedWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testStaticMemberWrite",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testTestInTestPasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,4,4,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testThrowDivByZeroException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,2,18,6,15,0,11,1,0,14,15,4,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testThrowException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,2,18,6,15,0,11,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testThrowsWrongException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,2,18,6,15,0,11,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testTopLevelAssert",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,3,6,0,10,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testTopLevelTestCaseFails",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,9,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testTopLevelTestCasePasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,9,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testTrueAssertInCaseInSuiteInSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,2,19,5,16,0,12,1,0,16,17,4,16,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.testWarningIsOk",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.throwExceptionBeforeTestSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,4,8,0,10,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.throwExceptionInsideTestSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,3,17,5,14,0,11,1,0,13,14,3,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.useSUT",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,4,21,6,18,0,12,1,0,17,18,4,17,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.useSUTFail",,,,,,,,,,,,,,,,,,,,,,,,,,,2,25,4,21,6,18,0,12,1,0,17,18,4,17,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.xsuiteInSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,11,4,8,0,11,1,0,8,9,3,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.test.XTestRunnerUnitTests.xtestInSuiteInSuite",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,2,16,5,13,0,11,1,0,13,14,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.xtest.types",3,3,5,1,17,0,17,0,,,,,1,0,0,,1,,2,1,2,,0,0,2,0,,66,5,55,30,22,6,,,,29,37,23,16,,,,,,4,4,6,1,,,2,,,,"0.11",7,7,10,2
+Public Class,"org.xtest.types.XTestTypeProvider",3,3,5,1,17,0,17,0,1,12,12,0,,0,0,,,,2,1,2,2,0,0,2,0,,49,2,41,16,22,6,,,,15,23,9,16,,,,,,4,4,6,1,,2,2,,50,50,"0.15",7,7,10,2
+Protected Method,"org.xtest.types.XTestTypeProvider.type",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,21,7,14,0,7,4,1,9,13,5,10,4,4,6,1,3,,,,,0,,2,0,,,"0.00",4,4,6,1
+Protected Method,"org.xtest.types.XTestTypeProvider.typeForIdentifiable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,14,4,8,0,3,3,0,5,8,2,6,3,3,4,1,2,,,,,0,,1,0,,,"0.00",3,3,4,1
+Package,"org.xtest.ui",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.xtest.ui.contentassist",1,1,1,1,3,0,2,0,,,,,2,0,0,,2,,25,0,25,,0,0,1,24,,123,7,91,47,17,25,,,,30,57,42,15,,,,,,1,1,2,1,,,0,,,,"0.27",25,25,26,25
+Public Class,"org.xtest.ui.contentassist.AbstractXTestProposalProvider",1,1,1,1,3,0,2,0,1,7,7,1,,0,0,,,,23,0,23,23,0,0,0,23,,79,2,62,25,13,15,,,,13,37,24,13,,,,,,1,1,1,1,,2,0,,0,0,"0.24",23,23,23,23
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeBody_Expressions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeBody_Fileparam",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeBody_Imports",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeFileParam_Feature",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeFileParam_Value",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeImport_Extension",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeImport_ImportedNamespace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeImport_ImportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeImport_Static",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeUniqueName_Identifier",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeUniqueName_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeXAssertExpression_Actual",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeXAssertExpression_Throws",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeXTestExpression_Expression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.completeXTestExpression_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_Body",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_FileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_Import",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_QualifiedNamespaceWithWildcard",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_StaticEquals",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_UniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_XAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"org.xtest.ui.contentassist.AbstractXTestProposalProvider.complete_XTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Class,"org.xtest.ui.contentassist.XTestProposalProvider",1,1,1,1,5,0,5,0,1,10,10,0,,0,0,,,,2,0,2,25,0,0,1,1,,19,1,14,7,4,4,,,,2,5,3,2,,,,,,1,1,2,1,,3,0,,0,0,"0.29",2,2,3,2
+Public Method,"org.xtest.ui.contentassist.XTestProposalProvider.completeImport_ImportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,3,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.ui.contentassist.XTestProposalProvider.isKeywordWorthyToPropose",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"0.00",1,1,2,1
+Package,"org.xtest.ui.contentassist.antlr",1,1,1,1,58,0,58,0,,,,,2,0,1,,1,,6,2,6,,0,0,4,2,,381,13,365,27,329,3,,,,338,347,23,325,,,,,,2,2,2,1,,,1,,,,"0.01",8,8,8,6
+Public Class,"org.xtest.ui.contentassist.antlr.XTestParser",1,1,1,1,58,0,58,0,1,11,11,0,,0,0,,,,6,2,6,6,0,0,4,2,,362,8,354,16,329,0,,,,327,336,12,325,,,,,,2,2,2,1,,2,1,,66,66,"0.00",8,8,8,6
+Protected Method,"org.xtest.ui.contentassist.antlr.XTestParser.createParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.ui.contentassist.antlr.XTestParser.getFollowElements",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,3,6,0,3,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.xtest.ui.contentassist.antlr.XTestParser.getGrammarAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.ui.contentassist.antlr.XTestParser.getInitialHiddenTokens",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.ui.contentassist.antlr.XTestParser.getRuleName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,323,0,323,2,317,0,3,2,0,315,317,2,315,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"org.xtest.ui.contentassist.antlr.XTestParser.getRuleName.(Anon_1)",0,0,0,0,0,0,0,0,1,11,11,0,,0,1,,,,0,0,0,0,0,0,0,0,,316,0,316,0,314,0,,,,313,313,1,312,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.xtest.ui.contentassist.antlr.XTestParser.setGrammarAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.xtest.ui.highlight",2,2,2,1,8,0,8,0,,,,,1,0,0,,1,,2,0,2,,0,1,1,0,,37,4,28,17,8,5,,,,14,19,14,7,,,,,,3,3,3,1,,,2,,,,"0.18",4,4,4,2
+Public Class,"org.xtest.ui.highlight.XtestHighlightingCalculator",2,2,2,1,8,0,8,0,1,9,9,0,,0,0,,,,2,0,2,2,0,1,1,0,,26,2,19,8,8,5,,,,5,10,5,7,,,,,,3,3,3,1,,2,2,,0,0,"0.26",4,4,4,2
+Private Method,"org.xtest.ui.highlight.XtestHighlightingCalculator.highlightFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.xtest.ui.highlight.XtestHighlightingCalculator.searchAndHighlightElements",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,5,6,0,5,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Package,"org.xtest.validation",3,3,4,1,20,0,16,4,,,,,2,0,1,,2,,14,7,14,,0,4,4,6,,389,26,294,130,148,73,,,,137,201,114,118,,,,,,20,20,23,9,,,8,,,,"0.25",55,55,61,22
+Public Class,"org.xtest.validation.AbstractXTestJavaValidator",1,1,1,1,10,0,10,4,1,5,5,1,,0,0,,,,1,0,1,1,0,0,1,0,,14,2,12,4,7,4,,,,7,9,3,7,,,,,,1,1,1,1,,2,0,,0,0,"0.33",1,1,1,1
+Protected Method,"org.xtest.validation.AbstractXTestJavaValidator.getEPackages",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,7,4,3,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Public Class,"org.xtest.validation.XTestJavaValidator",4,4,4,1,21,0,16,4,1,50,50,0,,0,1,,,,13,7,13,14,0,4,3,6,,317,16,232,76,141,69,,,,80,142,61,111,,,,,,20,20,23,9,,3,8,,86,78,"0.30",54,54,60,21
+Public Method,"org.xtest.validation.XTestJavaValidator.checkAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,1,23,9,16,7,6,5,1,7,12,6,11,5,5,5,1,1,,,,,0,,3,0,,,"0.30",5,5,5,1
+Public Method,"org.xtest.validation.XTestJavaValidator.checkAssignment",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,8,4,3,0,3,2,0,2,4,2,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Method,"org.xtest.validation.XTestJavaValidator.checkImports",,,,,,,,,,,,,,,,,,,,,,,,,,,8,87,1,85,19,64,1,30,286,2,27,50,19,44,20,20,23,9,5,,,,,5,,8,3,,,"0.01",20,20,23,9
+Protected Method,"org.xtest.validation.XTestJavaValidator.createDiagnostic",,,,,,,,,,,,,,,,,,,,,,,,,,,8,9,0,8,3,3,1,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.12",2,2,2,1
+Protected Method,"org.xtest.validation.XTestJavaValidator.createDiagnostic",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,6,3,2,1,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Public Method,"org.xtest.validation.XTestJavaValidator.doMagic",,,,,,,,,,,,,,,,,,,,,,,,,,,10,24,1,16,4,11,7,9,5,1,8,12,4,11,4,4,4,1,0,,,,,0,,2,0,,,"0.44",4,4,4,1
+Public Method,"org.xtest.validation.XTestJavaValidator.doMagicFast",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,6,2,2,7,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.17",2,2,2,1
+Public Method,"org.xtest.validation.XTestJavaValidator.doMagicNormal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,6,2,2,7,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.17",2,2,2,1
+Protected Method,"org.xtest.validation.XTestJavaValidator.isResponsible",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,2,5,0,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.xtest.validation.XTestJavaValidator.markErrorsFromTest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,0,18,3,12,6,8,9,1,6,13,5,10,5,5,5,1,0,,,,,0,,2,0,,,"0.33",5,5,5,1
+Private Method,"org.xtest.validation.XTestJavaValidator.markEvaluationExceptions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,0,14,6,10,6,8,3,0,7,11,6,9,3,3,3,1,0,,,,,0,,2,0,,,"0.43",3,3,3,1
+Private Method,"org.xtest.validation.XTestJavaValidator.markUnexecuted",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,5,1,2,8,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"1.60",2,2,2,1
+Private Method,"org.xtest.validation.XTestJavaValidator.storeIssue",,,,,,,,,,,,,,,,,,,,,,,,,,,7,19,0,11,2,6,8,3,6,1,5,9,3,6,4,4,6,1,0,,,,,0,,2,0,,,"0.73",4,4,6,1
+Package,"org.xtest.xTest",0,0,0,0,0,0,0,0,,,,,4,0,0,,3,,24,41,24,,24,0,0,0,,724,79,89,81,41,560,,,,77,81,81,17,,,,,,0,0,0,0,,,0,,,,"6.29",0,0,0,0
+Public Interface,"org.xtest.xTest.Body",0,0,0,0,0,0,0,0,1,1,1,1,,0,0,,,,2,0,2,2,2,0,0,0,,35,2,5,3,0,29,,,,2,3,3,0,,,,,,0,0,0,0,,2,0,,0,0,"5.80",0,0,0,0
+Abstract Method,"org.xtest.xTest.Body.getFileparam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,1,1,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"14.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.Body.getImports",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,1,1,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"14.00",0,0,0,0
+Public Interface,"org.xtest.xTest.XTestFactory",0,0,0,0,0,0,0,0,1,3,3,1,,0,0,,,,6,1,6,6,6,0,0,0,,79,8,10,8,1,62,,,,7,8,8,1,,,,,,0,0,0,0,,2,0,,0,0,"6.20",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.createBody",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.createFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.createUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.createXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.createXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestFactory.getXTestPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Interface,"org.xtest.xTest.XTestPackage",0,0,0,0,0,0,0,0,1,7,7,1,,0,0,,,,16,25,16,16,16,0,0,0,,566,59,62,58,40,447,,,,56,58,58,16,,,,,,0,0,0,0,,2,0,,0,0,"7.21",0,0,0,0
+Interface,"org.xtest.xTest.XTestPackage.Literals",0,0,0,0,0,0,0,0,0,4,4,0,,0,0,,,,0,15,0,0,0,0,0,0,,145,15,18,16,15,112,,,,15,16,16,15,,,,,,0,0,0,0,,0,0,,0,0,"6.22",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getBody",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getBody_Fileparam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getBody_Imports",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getFileParam_Feature",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getFileParam_Value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getUniqueName_Identifier",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getUniqueName_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXAssertExpression_Actual",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXAssertExpression_Throws",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXTestExpression_Expression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXTestExpression_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"org.xtest.xTest.XTestPackage.getXTestFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Package,"org.xtest.xTest.impl",1,1,1,1,14,0,7,6,,,,,3,3,1,,3,,36,9,39,,0,1,2,36,,772,97,345,107,150,334,,,,166,221,98,133,,,,,,6,3,6,3,,,2,,,,"0.97",62,53,64,41
+Public Class,"org.xtest.xTest.impl.BodyImpl",2,1,2,1,15,0,10,5,2,12,12,0,,0,0,,,,9,2,9,9,0,0,2,7,,189,12,97,19,44,81,,,,29,46,12,34,,,,,,3,2,5,1,,2,1,,77,33,"0.84",21,16,23,9
+Protected Constructor,"org.xtest.xTest.impl.BodyImpl.BodyImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,12,2,6,5,4,3,0,3,5,1,4,3,2,3,1,3,,,,,0,,1,0,,,"0.42",3,2,3,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.eInverseRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,12,2,6,5,5,3,0,3,5,1,4,3,2,3,1,3,,,,,0,,1,0,,,"0.42",3,2,3,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,5,17,0,12,2,6,5,3,3,0,3,5,1,4,3,2,5,1,3,,,,,0,,1,0,,,"0.42",3,2,5,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,0,17,3,10,5,5,3,0,7,9,1,8,3,2,3,1,3,,,,,0,,1,0,,,"0.29",3,2,3,1
+Protected Method,"org.xtest.xTest.impl.BodyImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,14,2,8,5,4,3,0,5,7,1,6,3,2,3,1,3,,,,,0,,1,0,,,"0.36",3,2,3,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.getFileparam",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,0,8,1,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"org.xtest.xTest.impl.BodyImpl.getImports",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,0,8,1,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Class,"org.xtest.xTest.impl.XTestFactoryImpl",1,1,1,1,12,0,6,5,2,15,15,0,,2,0,,,,8,0,10,10,0,0,0,10,,146,11,71,19,28,66,,,,23,37,17,26,,,,,,6,3,6,3,,2,2,,0,0,"0.93",17,13,17,12
+Public Constructor,"org.xtest.xTest.impl.XTestFactoryImpl.XTestFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.create",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,14,2,8,5,8,6,1,6,8,1,7,6,2,6,1,15,,,,,0,,1,0,,,"0.36",6,2,6,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.createBody",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.createFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.createUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.createXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.createXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,5,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"org.xtest.xTest.impl.XTestFactoryImpl.getPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,5,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestFactoryImpl.getXTestPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Static Method,"org.xtest.xTest.impl.XTestFactoryImpl.init",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,0,16,2,7,7,4,3,0,4,7,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.44",3,3,3,3
+Public Class,"org.xtest.xTest.impl.XTestPackageImpl",1,1,1,1,14,1,6,6,2,9,9,0,,1,1,,,,19,7,20,20,0,1,0,19,,380,53,141,33,78,187,,,,78,102,33,73,,,,,,3,3,3,1,,2,1,,82,78,"1.33",24,24,24,20
+Private Constructor,"org.xtest.xTest.impl.XTestPackageImpl.XTestPackageImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,0,4,1,1,15,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.75",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.createPackageContents",,,,,,,,,,,,,,,,,,,,,,,,,,,22,33,5,20,1,17,8,9,2,0,17,19,1,18,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getBody",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getBody_Fileparam",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getBody_Imports",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getFileParam_Feature",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getFileParam_Value",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getUniqueName_Identifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getUniqueName_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXAssertExpression_Actual",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXAssertExpression_Throws",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXTestExpression_Expression",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXTestExpression_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.getXTestFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Static Method,"org.xtest.xTest.impl.XTestPackageImpl.init",,,,,,,,,,,,,,,,,,,,,,,,,,,5,38,8,12,2,9,18,10,2,0,9,11,2,10,3,3,3,1,1,,,,,0,,1,0,,,"1.50",3,3,3,1
+Public Method,"org.xtest.xTest.impl.XTestPackageImpl.initializePackageContents",,,,,,,,,,,,,,,,,,,,,,,,,,,28,55,11,30,4,27,14,29,2,0,27,29,4,28,2,2,2,1,1,,,,,0,,1,0,,,"0.47",2,2,2,1
+Package,"org.xtest.xTest.util",1,1,1,1,13,0,6,6,,,,,3,0,2,,2,,30,1,30,,0,0,2,28,,513,39,216,58,83,260,,,,74,120,60,66,,,,,,15,11,15,3,,,2,,,,"1.20",48,44,48,32
+Public Class,"org.xtest.xTest.util.XTestAdapterFactory",1,1,1,1,14,0,5,9,1,6,6,0,,0,1,,,,11,1,11,11,0,0,0,11,,245,15,105,17,41,126,,,,23,46,22,25,,,,,,3,3,3,3,,2,1,,86,86,"1.20",14,14,14,13
+Anonymous Class,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1)",1,1,1,1,5,0,5,0,1,7,7,0,,0,0,,,,8,0,8,19,0,0,0,8,,41,0,41,0,24,0,,,,8,16,8,8,,,,,,1,1,1,1,,3,0,,0,0,"0.00",8,8,8,8
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseBody",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseXBlockExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseXExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).caseXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.(Anon_1).defaultCase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.xtest.xTest.util.XTestAdapterFactory.XTestAdapterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,7,1,2,6,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,5,2,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createBodyAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createEObjectAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,4,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createFileParamAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createUniqueNameAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createXAssertExpressionAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createXBlockExpressionAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createXExpressionAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.createXTestExpressionAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,4,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.50",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestAdapterFactory.isFactoryForType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,21,0,13,2,5,8,3,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.62",3,3,3,3
+Public Generic Class,"org.xtest.xTest.util.XTestSwitch",2,2,2,1,18,0,8,9,1,7,7,1,,0,1,,,,11,0,11,11,0,0,2,9,,242,13,96,26,42,134,,,,36,59,23,41,,,,,,15,11,15,1,,2,2,,81,81,"1.40",26,22,26,11
+TypeVariable,"org.xtest.xTest.util.XTestSwitch.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"org.xtest.xTest.util.XTestSwitch.XTestSwitch",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,7,1,2,6,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseBody",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseFileParam",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseUniqueName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseXAssertExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseXBlockExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseXExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.caseXTestExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Public Method,"org.xtest.xTest.util.XTestSwitch.defaultCase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,5,2,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.20",1,1,1,1
+Protected Method,"org.xtest.xTest.util.XTestSwitch.doSwitch",,,,,,,,,,,,,,,,,,,,,,,,,,,8,54,0,47,12,31,7,9,21,1,25,36,11,30,15,11,15,1,15,,,,,0,,2,0,,,"0.15",15,11,15,1
+Protected Method,"org.xtest.xTest.util.XTestSwitch.isSwitchFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,5,2,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.60",1,1,1,1

@@ -1,0 +1,140 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"PermissionGroup.java",2,2,2,1,10,1,7,2,,,,,1,0,1,54,,61,61,2,61,,0,1,6,54,,696,134,415,106,214,152,,,,165,304,116,207,,,,,,9,9,15,8,,,3,,,,"0.37",117,117,134,88
+File,"PermissionUser.java",2,2,2,1,13,1,8,2,,,,,1,0,1,65,,71,71,6,71,,0,1,10,60,,991,198,596,149,335,218,,,,249,436,155,327,,,,,,10,10,16,9,,,4,,,,"0.37",165,165,193,115
+Package,"ru",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ru.tehkode",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ru.tehkode.permissions",2,2,2,1,11,1,8,2,,,,,2,0,2,,2,,132,8,132,,0,2,16,114,,1687,332,1011,255,549,370,,,,414,740,271,534,,,,,,10,10,16,9,,,4,,,,"0.37",282,282,327,203
+Public Abstract Class,"ru.tehkode.permissions.PermissionGroup",2,2,2,1,10,1,7,2,2,15,15,0,,0,1,,,,61,2,61,61,0,1,6,54,,664,131,404,95,214,134,,,,154,293,105,207,,,,,,9,9,15,8,,2,3,,97,95,"0.33",117,117,134,88
+Public Constructor,"ru.tehkode.permissions.PermissionGroup.PermissionGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.addPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,3,5,0,7,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.addTimedPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"ru.tehkode.permissions.PermissionGroup.clearChildren",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,2,6,0,8,4,1,4,9,4,6,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Protected Method,"ru.tehkode.permissions.PermissionGroup.clearMembersCache",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.compareTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ru.tehkode.permissions.PermissionGroup.copyFilterPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,4,0,2,3,0,2,6,2,4,3,3,3,3,1,,,,,1,,2,1,,,"0.00",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionGroup.getAllParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,3,8,2,5,0,4,2,0,4,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getChildGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getChildGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getDescendantGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getDescendantGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ru.tehkode.permissions.PermissionGroup.getInheritedPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,9,31,3,25,1,16,4,10,40,2,8,18,3,15,8,8,8,1,1,,,,,0,,3,0,,,"0.16",8,8,8,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOption",,,,,,,,,,,,,,,,,,,,,,,,,,,6,33,4,26,3,16,4,4,13,1,9,19,4,16,8,8,8,8,10,,,,,10,,3,10,,,"0.15",8,8,8,8
+Public Abstract Method,"ru.tehkode.permissions.PermissionGroup.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,6,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnOptionBoolean",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,2,9,2,6,0,4,3,0,4,7,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnOptionDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnOptionInteger",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,2,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionGroup.getOwnPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.getOwnPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionGroup.getOwnPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Final Method,"ru.tehkode.permissions.PermissionGroup.getOwnSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionGroup.getOwnSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.getParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,10,39,8,24,3,16,8,15,27,1,10,19,5,16,7,7,8,4,2,,,,,2,,2,2,,,"0.33",7,7,8,4
+Public Method,"ru.tehkode.permissions.PermissionGroup.getParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getParentGroupsNames",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,1,7,2,4,5,5,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getParentGroupsNames",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Abstract Method,"ru.tehkode.permissions.PermissionGroup.getParentGroupsNamesImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.getPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,40,6,28,4,17,7,5,56,2,9,20,5,17,9,9,15,7,4,,,,,4,,3,4,,,"0.25",9,9,15,7
+Public Method,"ru.tehkode.permissions.PermissionGroup.getRank",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getRankLadder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,37,6,28,4,17,4,5,56,2,9,20,5,17,9,9,15,7,4,,,,,4,,3,4,,,"0.14",9,9,15,7
+Public Method,"ru.tehkode.permissions.PermissionGroup.getUsers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getUsers",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.getWeight",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"ru.tehkode.permissions.PermissionGroup.getWorldGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,5,14,3,9,0,10,5,1,6,11,4,9,4,4,6,3,1,,,,,1,,2,1,,,"0.00",4,4,6,3
+Public Method,"ru.tehkode.permissions.PermissionGroup.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,1,7,2,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,3,14,1,8,7,3,5,1,4,10,2,8,5,5,6,5,7,,,,,7,,2,7,,,"0.50",5,5,6,5
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,1,4,0,3,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isChildOf",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isDefault",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.isRanked",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Final Method,"ru.tehkode.permissions.PermissionGroup.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,2,5,0,4,2,0,4,7,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Abstract Method,"ru.tehkode.permissions.PermissionGroup.removeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.removePermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,2,6,3,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.removeTimedPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionGroup.setParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionGroup.setParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.setParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,3,8,2,5,5,5,2,0,4,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.setParentGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.setRank",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,8,1,5,5,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.setRankLadder",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,2,7,1,4,5,4,2,0,3,5,1,4,2,2,3,1,0,,,,,0,,1,0,,,"0.71",2,2,3,1
+Public Method,"ru.tehkode.permissions.PermissionGroup.setWeight",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,2,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"ru.tehkode.permissions.PermissionUser",2,2,2,1,13,1,8,2,1,22,22,0,,0,1,,,,71,6,71,71,0,1,10,60,,961,195,587,140,335,200,,,,240,427,146,327,,,,,,10,10,16,9,,2,4,,96,81,"0.34",165,165,193,115
+Public Constructor,"ru.tehkode.permissions.PermissionUser.PermissionUser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,4,11,2,7,6,7,3,0,5,8,2,7,3,3,4,3,2,,,,,2,,1,2,,,"0.55",3,3,4,3
+Public Method,"ru.tehkode.permissions.PermissionUser.addGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,1,6,1,3,0,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,3,9,3,5,2,7,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.22",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.addTimedPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.checkMembership",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,2,9,2,6,4,6,2,0,5,7,2,6,2,2,3,1,1,,,,,0,,1,0,,,"0.44",2,2,3,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.clearCache",,,,,,,,,,,,,,,,,,,,,,,,,,,13,9,1,8,1,6,0,1,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.demote",,,,,,,,,,,,,,,,,,,,,,,,,,,5,49,10,28,6,20,14,13,36,2,14,22,7,19,7,7,9,5,3,,,,,3,,2,3,,,"0.50",7,7,9,5
+Public Method,"ru.tehkode.permissions.PermissionUser.explainExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,1,10,3,5,0,6,3,0,3,6,2,5,3,3,5,3,2,,,,,2,,2,2,,,"0.00",3,3,5,3
+Public Method,"ru.tehkode.permissions.PermissionUser.getAllGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,3,8,2,5,0,4,2,0,4,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,11,13,1,6,1,3,6,7,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Private Method,"ru.tehkode.permissions.PermissionUser.getGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,5,39,9,28,3,18,3,11,108,2,10,21,5,18,9,9,11,4,2,,,,,2,,2,2,,,"0.11",9,9,11,4
+Public Method,"ru.tehkode.permissions.PermissionUser.getGroupsNames",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getGroupsNames",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,1,9,2,5,5,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Protected Abstract Method,"ru.tehkode.permissions.PermissionUser.getGroupsNamesImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Protected Method,"ru.tehkode.permissions.PermissionUser.getInheritedChildPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.getInheritedChildPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,7,1,4,0,5,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.getInheritedChildPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,13,3,8,0,8,4,1,5,10,4,8,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.getInheritedPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,7,30,5,21,2,13,5,9,30,1,7,17,5,13,7,7,7,1,0,,,,,0,,2,0,,,"0.24",7,7,7,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getMatchingExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,5,16,5,10,2,6,6,1,7,11,4,9,4,4,4,1,0,,,,,0,,2,0,,,"0.12",4,4,4,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getOption",,,,,,,,,,,,,,,,,,,,,,,,,,,5,43,6,34,4,23,5,8,14,1,15,26,5,22,9,9,9,9,11,,,,,11,,3,11,,,"0.15",9,9,9,9
+Public Abstract Method,"ru.tehkode.permissions.PermissionUser.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnOption",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnOptionBoolean",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,2,9,2,6,0,4,3,0,4,7,2,6,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnOptionDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnOptionInteger",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,2,5,0,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionUser.getOwnPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionUser.getOwnPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionUser.getOwnPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Final Method,"ru.tehkode.permissions.PermissionUser.getOwnSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionUser.getOwnSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionUser.getPermissions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,2,9,3,5,0,6,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,41,7,31,4,19,4,9,57,2,10,22,5,19,10,10,16,8,4,,,,,4,,4,4,,,"0.13",10,10,16,8
+Protected Method,"ru.tehkode.permissions.PermissionUser.getPromoterRankAndCheck",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,4,14,3,9,1,4,6,1,6,10,3,8,4,4,5,1,0,,,,,0,,2,0,,,"0.07",4,4,5,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getRank",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,2,7,2,4,6,5,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getRankLadderGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,1,6,1,3,6,4,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"1.00",2,2,3,1
+Public Method,"ru.tehkode.permissions.PermissionUser.getRankLadders",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,3,10,2,6,5,5,3,0,4,8,3,6,3,3,3,3,1,,,,,1,,2,1,,,"0.50",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionUser.getSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,39,5,31,4,19,4,9,57,2,10,22,5,19,10,10,16,8,4,,,,,4,,4,4,,,"0.13",10,10,16,8
+Protected Method,"ru.tehkode.permissions.PermissionUser.getWorldGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,5,14,3,9,0,8,5,1,6,11,4,9,4,4,5,3,1,,,,,1,,2,1,,,"0.00",4,4,5,3
+Public Method,"ru.tehkode.permissions.PermissionUser.has",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,4,0,6,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,2,11,1,6,8,4,4,1,3,8,2,6,4,4,5,4,6,,,,,6,,2,6,,,"0.73",4,4,5,4
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,1,4,0,3,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"0.00",3,3,3,3
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,3,1,1,8,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.inGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,3,11,2,6,0,11,4,1,4,7,1,6,3,3,4,1,0,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Method,"ru.tehkode.permissions.PermissionUser.isRanked",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.promote",,,,,,,,,,,,,,,,,,,,,,,,,,,5,49,10,28,6,20,14,13,36,2,14,22,7,19,7,7,9,5,3,,,,,3,,2,3,,,"0.50",7,7,9,5
+Public Method,"ru.tehkode.permissions.PermissionUser.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.removeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,1,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.removeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,4,11,2,7,5,7,3,0,5,8,2,7,3,3,4,3,2,,,,,2,,1,2,,,"0.45",3,3,4,3
+Public Method,"ru.tehkode.permissions.PermissionUser.removeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.removeGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,1,3,0,2,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.removePermission",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,2,6,3,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.removeTimedPermission",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.save",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"ru.tehkode.permissions.PermissionUser.setGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,1,1,0,5,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"5.00",0,0,0,0
+Public Method,"ru.tehkode.permissions.PermissionUser.setGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.setGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,7,2,4,5,4,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"ru.tehkode.permissions.PermissionUser.setGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.setPrefix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ru.tehkode.permissions.PermissionUser.setSuffix",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ru.tehkode.permissions.PermissionUser.swapGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,2,6,2,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

@@ -1,0 +1,13 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Main.java",1,1,2,1,8,0,7,0,,,,,1,1,0,7,,7,6,5,7,,1,4,0,2,,103,15,72,31,36,16,,,,45,59,31,34,,,,,,6,6,7,1,,,2,,,,"0.22",13,13,14,7
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.dynjs",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.dynjs.cli",1,1,2,1,8,0,7,0,,,,,1,1,0,,1,,6,5,7,,1,4,0,2,,103,15,72,31,36,16,,,,45,59,31,34,,,,,,6,6,7,1,,,2,,,,"0.22",13,13,14,7
+Public Class,"org.dynjs.cli.Main",1,1,2,1,8,0,7,0,1,15,15,0,,1,0,,,,6,5,7,7,1,4,0,2,,88,12,60,19,36,16,,,,33,47,19,34,,,,,,6,6,7,1,,1,2,,51,34,"0.27",13,13,14,7
+Public Constructor,"org.dynjs.cli.Main.Main",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,1,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dynjs.cli.Main.executeFile",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,2,5,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.dynjs.cli.Main.main",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.dynjs.cli.Main.run",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,2,18,1,14,0,12,6,1,8,14,1,13,6,6,7,1,4,,,,,0,,2,0,,,"0.00",6,6,7,1
+Private Method,"org.dynjs.cli.Main.showUsage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,2,6,2,4,0,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dynjs.cli.Main.showVersion",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dynjs.cli.Main.startRepl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,5,5,0,2,1,0,5,6,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

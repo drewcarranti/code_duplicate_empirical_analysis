@@ -1,0 +1,69 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"EntityFactoryUtil.java",1,1,1,1,9,0,9,0,,,,,2,8,0,10,,10,2,0,10,,0,1,0,9,,107,13,92,32,52,2,,,,47,64,26,45,,,,,,3,3,3,1,,,2,,,,"0.02",16,16,16,10
+File,"LiferayDataSource.java",2,2,2,1,17,0,16,0,,,,,1,1,4,48,,48,47,8,48,,0,10,0,38,,972,81,872,290,584,25,,,,357,468,186,336,,,,,,8,8,8,4,,,2,,,,"0.03",137,137,138,82
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.vaadin",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.vaadin.tori",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.vaadin.tori.data",2,2,2,1,17,0,16,0,,,,,1,1,4,,1,,47,8,48,,0,10,0,38,,972,81,872,290,584,25,,,,357,468,186,336,,,,,,8,8,8,4,,,2,,,,"0.03",137,137,138,82
+Public Class,"org.vaadin.tori.data.LiferayDataSource",2,2,2,1,17,0,16,0,3,55,55,0,,1,4,,,,47,8,48,48,0,10,0,38,,913,75,819,237,584,25,,,,304,415,133,336,,,,,,8,8,8,4,,1,2,,91,86,"0.03",137,137,138,82
+Public Method,"org.vaadin.tori.data.LiferayDataSource.ban",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,2,8,0,4,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,3,13,0,4,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,2,10,0,4,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.delete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,17,3,12,0,4,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.downvote",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.follow",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,3,11,0,5,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getCategory",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,3,11,0,5,3,0,5,7,1,6,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Private Method,"org.vaadin.tori.data.LiferayDataSource.getCurrentUser",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,3,0,3,2,0,2,4,1,3,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.getLiferayMyPosts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,13,0,13,6,9,2,6,2,0,5,7,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.15",2,2,2,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.getLiferayPostsForThread",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,14,7,9,0,6,2,0,4,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.getLiferayRecentThreads",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,14,6,10,2,6,2,0,5,7,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.getLiferayThreadsForCategory",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,6,10,2,6,2,0,5,7,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getMyPosts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,1,20,7,15,1,6,4,1,9,13,5,11,4,4,4,3,3,,,,,3,,2,3,,,"0.05",4,4,4,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getPostVote",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,22,3,18,0,7,4,1,7,9,2,8,4,4,4,4,6,,,,,6,,1,6,,,"0.00",4,4,4,4
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getPosts",,,,,,,,,,,,,,,,,,,,,,,,,,,5,34,2,31,11,25,1,15,4,1,14,18,7,16,4,4,4,3,3,,,,,3,,2,3,,,"0.03",4,4,4,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getRecentPosts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,1,20,7,15,1,6,4,1,9,13,5,11,4,4,4,3,3,,,,,3,,2,3,,,"0.05",4,4,4,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getRootCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.vaadin.tori.data.LiferayDataSource.getRootMessageId",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,0,19,5,15,0,6,3,0,7,9,3,8,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,14,4,10,0,8,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getSubCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getThread",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,22,7,17,0,8,3,0,7,9,3,8,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getThreadCount",,,,,,,,,,,,,,,,,,,,,,,,,,,6,15,0,15,3,10,0,6,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getThreads",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,2,25,9,19,1,9,4,1,10,14,5,12,4,4,4,3,3,,,,,3,,2,3,,,"0.04",4,4,4,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.getUnreadThreadCount",,,,,,,,,,,,,,,,,,,,,,,,,,,6,41,2,36,7,29,3,11,4,1,19,23,5,19,4,4,4,4,10,,,,,4,,2,4,,,"0.08",4,4,4,4
+Public Method,"org.vaadin.tori.data.LiferayDataSource.incrementViewCount",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,0,20,5,15,3,7,3,0,6,8,2,7,3,3,3,1,3,,,,,0,,1,0,,,"0.15",3,3,3,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.internalGetSubCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,1,21,7,15,0,9,3,0,6,9,3,8,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.internalSaveAsCurrentUser",,,,,,,,,,,,,,,,,,,,,,,,,,,11,30,2,28,13,23,0,9,6,1,16,19,11,14,4,4,4,3,3,,,,,3,,1,3,,,"0.00",4,4,4,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.isFollowing",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,1,23,4,17,0,9,4,1,7,10,2,9,4,4,4,4,4,,,,,4,,1,4,,,"0.00",4,4,4,4
+Public Method,"org.vaadin.tori.data.LiferayDataSource.isRead",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,21,3,15,1,6,4,1,6,9,1,8,4,4,4,4,4,,,,,4,,2,4,,,"0.05",4,4,4,4
+Public Method,"org.vaadin.tori.data.LiferayDataSource.lock",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,19,3,14,0,6,3,0,7,9,1,8,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.markRead",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,3,12,0,5,4,1,5,8,1,7,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.move",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,1,18,3,13,0,4,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.ratePost",,,,,,,,,,,,,,,,,,,,,,,,,,,7,16,0,16,2,12,0,6,3,0,6,8,1,7,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.removeUserVote",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,2,11,0,5,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.reportPost",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,2,21,7,16,0,15,6,1,10,13,6,11,4,4,4,1,3,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.save",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.save",,,,,,,,,,,,,,,,,,,,,,,,,,,6,34,1,33,6,28,0,11,4,1,11,14,3,13,5,5,5,1,4,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.save",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.saveAsCurrentUser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,4,3,0,5,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.saveNewThread",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,14,7,8,1,4,3,0,4,7,3,6,3,3,3,3,2,,,,,2,,2,2,,,"0.07",3,3,3,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.setRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,40,2,36,5,27,2,17,51,2,14,21,3,19,8,8,8,1,3,,,,,0,,2,0,,,"0.06",8,8,8,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.sticky",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.unFollow",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,0,18,3,13,0,5,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.unlock",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,19,3,14,0,6,3,0,7,9,1,8,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Public Method,"org.vaadin.tori.data.LiferayDataSource.unsticky",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.updateThreadPriority",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,17,4,13,0,6,3,0,7,9,2,8,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.vaadin.tori.data.LiferayDataSource.upvote",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.vaadin.tori.data.LiferayDataSource.wrapLiferayThread",,,,,,,,,,,,,,,,,,,,,,,,,,,8,30,2,24,15,19,4,14,2,0,10,12,7,11,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Package,"org.vaadin.tori.data.entity",1,1,1,1,9,0,9,0,,,,,2,8,0,,1,,2,0,10,,0,1,0,9,,107,13,92,32,52,2,,,,47,64,26,45,,,,,,3,3,3,1,,,2,,,,"0.02",16,16,16,10
+Public Class,"org.vaadin.tori.data.entity.EntityFactoryUtil",1,1,1,1,10,0,10,0,1,13,13,0,,8,0,,,,0,0,8,8,0,1,0,7,,97,10,85,25,52,2,,,,40,57,19,45,,,,,,3,3,3,1,,1,2,,0,0,"0.02",14,14,14,8
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.copyFields",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,1,5,0,8,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createCategories",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,4,5,0,4,2,0,3,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createCategory",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createDiscussionThread",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,1,23,6,16,2,11,1,0,12,15,5,12,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Anonymous Class,"org.vaadin.tori.data.entity.EntityFactoryUtil.createDiscussionThread.(Anon_1)",1,1,1,1,6,0,5,1,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,15,1,12,2,10,2,,,,5,7,3,5,,,,,,1,1,1,1,,2,0,,0,0,"0.17",2,2,2,2
+Public Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createDiscussionThread.(Anon_1).getLatestPost",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,7,1,6,1,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.14",1,1,1,1
+Public Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createDiscussionThread.(Anon_1).getOriginalPoster",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,4,0,3,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createPost",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createPostVote",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,7,0,4,3,0,4,7,2,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.createUser",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,4,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.vaadin.tori.data.entity.EntityFactoryUtil.getAvatarUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,3,4,0,2,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1

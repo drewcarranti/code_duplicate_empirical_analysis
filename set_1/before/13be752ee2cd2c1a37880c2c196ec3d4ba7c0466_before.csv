@@ -1,0 +1,91 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"PreferencesDicomConfiguration.java",2,2,2,1,15,0,15,0,,,,,1,14,8,83,,83,69,2,83,,0,54,0,29,,1474,131,1301,280,997,42,,,,602,833,263,651,,,,,,9,9,12,5,,,4,,,,"0.03",213,213,240,106
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.dcm4che",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.dcm4che.conf",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.dcm4che.conf.prefs",2,2,2,1,15,0,15,0,,,,,1,14,8,,1,,69,2,83,,0,54,0,29,,1474,131,1301,280,997,42,,,,602,833,263,651,,,,,,9,9,12,5,,,4,,,,"0.03",213,213,240,106
+Public Final Class,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration",2,2,2,1,15,0,15,0,2,37,37,0,,14,8,,,,69,2,83,83,0,54,0,29,,1397,127,1265,244,997,5,,,,566,797,227,651,,,,,,9,9,12,5,,1,4,,80,70,"0.00",213,213,240,106
+Public Constructor,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.PreferencesDicomConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.PreferencesDicomConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.addDicomConfigurationExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.aetRegistryPathNameOf",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,3,2,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.codeArray",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,1,9,3,7,0,3,3,0,7,10,4,7,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.configurationExists",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.deviceRef",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,1,6,0,2,4,1,5,9,2,7,4,4,4,4,4,,,,,4,,2,4,,,"0.00",4,4,4,4
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.findApplicationEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.findCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,11,3,6,0,2,3,0,3,5,1,4,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.findDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,1,17,4,12,0,6,10,1,6,14,5,11,6,6,6,5,7,,,,,7,,4,7,,,"0.00",6,6,6,5
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.findDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.getDicomConfigurationRoot",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,1,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.getRootPrefs",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.issuerOf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.listDeviceInfos",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,21,7,15,0,10,5,1,10,16,6,14,5,5,5,1,2,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.listDeviceNames",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,1,10,2,6,0,4,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.listRegisteredAETitles",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,1,10,2,6,0,4,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.load",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,15,4,11,0,6,2,0,3,6,4,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,8,18,2,16,6,13,0,7,4,1,10,14,6,11,4,4,4,3,2,,,,,2,,1,2,,,"0.00",4,4,4,3
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,0,25,9,19,0,14,12,1,16,24,12,19,5,5,5,1,0,,,,,0,,2,0,,,"0.00",5,5,5,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,7,9,1,8,3,5,0,3,2,0,4,7,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,1,6,2,3,0,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,2,9,0,4,3,0,6,8,2,7,3,3,3,3,3,,,,,3,,1,3,,,"0.00",3,3,3,3
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,16,1,14,0,12,1,0,9,10,1,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,4,0,8,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,5,57,2,55,2,52,0,44,8,1,36,43,4,39,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,11,44,1,43,2,41,0,33,2,0,28,30,2,29,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,2,16,1,14,0,18,2,0,12,15,2,13,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadTransferCapabilities",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,3,4,0,5,2,0,2,5,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.loadTransferCapability",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,4,4,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.match",,,,,,,,,,,,,,,,,,,,,,,,,,,3,39,1,38,1,36,0,14,2,0,2,4,1,3,2,2,12,1,1,,,,,0,,1,0,,,"0.00",2,2,12,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.matches",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,2,9,1,7,0,2,5,1,3,10,3,7,5,5,5,5,6,,,,,6,,3,6,,,"0.00",5,5,5,5
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,1,18,5,14,0,9,6,1,10,13,4,12,4,4,4,1,3,,,,,0,,1,0,,,"0.00",4,4,4,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.merge",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,0,17,6,12,0,7,6,1,8,13,6,10,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeAEs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,23,0,23,9,17,0,12,9,1,12,19,10,16,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,2,4,0,3,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,1,6,2,3,0,2,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,15,8,12,0,8,8,1,15,17,8,15,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeTransferCapabilities",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,4,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.mergeTransferCapabilities",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,1,17,7,11,0,8,9,1,6,13,6,10,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.newApplicationEntity",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.newConnection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.newDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.persist",,,,,,,,,,,,,,,,,,,,,,,,,,,7,28,1,27,5,22,0,10,18,1,14,19,4,18,6,6,6,1,4,,,,,0,,2,0,,,"0.00",6,6,6,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.persistCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,3,6,0,1,3,0,3,5,1,4,3,3,3,1,3,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.purgeConfiguration",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,14,3,10,0,6,3,0,7,10,2,9,3,3,3,1,2,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.registerAETitle",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,3,8,0,5,3,0,5,8,2,7,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.removeCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,0,12,4,7,0,4,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.removeDevice",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,1,13,4,9,0,5,4,1,6,9,3,8,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.removeDicomConfigurationExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,2,4,0,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.rootPrefs",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,3,0,4,1,0,3,4,3,3,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.sort",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,2,5,0,3,2,0,6,8,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.store",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,3,4,0,2,2,0,3,6,4,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,12,4,8,0,5,3,0,5,9,4,6,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,1,15,6,12,0,8,8,1,9,16,9,11,4,4,4,1,0,,,,,0,,1,0,,,"0.00",4,4,4,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeChilds",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,1,5,1,3,0,2,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Generic Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,1,3,0,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+TypeVariable,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiff.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,111,2,109,1,107,0,37,2,0,36,39,2,37,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,13,102,1,101,1,99,0,30,1,0,27,28,1,27,3,3,5,1,0,,,,,0,,0,0,,,"0.00",3,3,5,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,6,39,2,37,1,35,0,16,2,0,12,15,2,13,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,2,8,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,8,22,1,21,2,18,0,3,2,0,5,7,1,6,3,3,11,1,1,,,,,0,,1,0,,,"0.00",3,3,11,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,1,17,2,14,0,6,2,0,4,6,1,5,9,9,9,1,1,,,,,0,,1,0,,,"0.00",9,9,9,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeDiffs",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,7,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeNotEmpty",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,0,8,2,5,0,2,3,0,3,7,3,4,3,3,4,1,0,,,,,0,,2,0,,,"0.00",3,3,4,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,8,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,5,60,2,58,1,56,0,41,2,0,36,39,2,37,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,11,48,1,47,1,44,0,32,2,0,27,29,1,28,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,7,15,0,15,1,13,0,17,2,0,12,15,2,13,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,0,24,3,20,0,13,4,1,11,14,3,13,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTransferCapabilities",,,,,,,,,,,,,,,,,,,,,,,,,,,6,6,0,6,3,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.storeTransferCapabilities",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,3,3,0,5,2,0,2,5,3,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.sync",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,2,4,0,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.toQueryOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,7,18,0,18,6,16,0,5,17,1,11,17,6,16,6,6,9,1,1,,,,,0,,1,0,,,"0.00",6,6,9,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.toStorageOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,5,16,0,16,5,14,0,6,9,1,9,14,5,13,5,5,7,1,1,,,,,0,,1,0,,,"0.00",5,5,7,1
+Private Static Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.toVendorData",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,7,3,5,0,3,2,0,6,8,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.unregisterAETitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.updateCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,6,4,1,2,7,3,4,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.updateCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,6,3,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.dcm4che.conf.prefs.PreferencesDicomConfiguration.updateCertificates",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,15,4,10,0,6,4,1,4,9,5,6,5,5,5,1,0,,,,,0,,1,0,,,"0.00",5,5,5,1

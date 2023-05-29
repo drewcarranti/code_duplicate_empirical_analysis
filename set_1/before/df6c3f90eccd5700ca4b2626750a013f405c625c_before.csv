@@ -1,0 +1,100 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Campaign.java",4,4,4,1,45,3,29,12,,,,,5,31,61,89,,81,58,24,89,,0,26,0,63,,4383,404,2783,751,1802,1204,,,,868,1294,464,994,,,,,,42,32,43,7,,,7,,,,"0.43",437,425,442,124
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage.domain",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage.domain.campaign",4,4,4,1,45,3,29,12,,,,,5,31,61,,1,,58,24,89,,0,26,0,63,,4383,404,2783,751,1802,1204,,,,868,1294,464,994,,,,,,42,32,43,7,,,7,,,,"0.43",437,425,442,124
+Public Class,"org.ohmage.domain.campaign.Campaign",5,5,5,1,54,4,35,14,1,71,71,0,,27,61,,,,46,13,73,73,0,26,0,47,,4324,400,2728,697,1801,1204,,,,814,1240,410,994,,,,,,42,32,43,7,,1,7,,91,90,"0.44",429,417,434,116
+Public Constructor,"org.ohmage.domain.campaign.Campaign.Campaign",,,,,,,,,,,,,,,,,,,,,,,,,,,10,75,8,43,12,24,25,14,64,2,18,25,1,24,7,7,7,1,0,,,,,0,,1,0,,,"0.58",7,7,7,1
+Public Constructor,"org.ohmage.domain.campaign.Campaign.Campaign",,,,,,,,,,,,,,,,,,,,,,,,,,,27,188,22,148,24,105,18,36,66096,5,68,87,23,77,27,27,27,1,31,,,,,0,,4,0,,,"0.12",27,27,27,1
+Public Constructor,"org.ohmage.domain.campaign.Campaign.Campaign",,,,,,,,,,,,,,,,,,,,,,,,,,,9,78,10,49,9,31,19,20,25,1,23,29,3,27,9,9,9,1,13,,,,,0,,1,0,,,"0.39",9,9,9,1
+Public Enum Type,"org.ohmage.domain.campaign.Campaign.OutputFormat",0,0,0,0,5,0,1,4,1,2,2,0,,1,0,,,,3,3,4,4,0,0,0,4,,35,2,12,7,2,21,,,,3,5,3,2,,,,,,1,1,1,1,,1,0,,,,"1.75",2,2,2,2
+Public Static Method,"org.ohmage.domain.campaign.Campaign.OutputFormat.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.OutputFormat.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,4,2,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.OutputFormat.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.OutputFormat.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Enum Type,"org.ohmage.domain.campaign.Campaign.PrivacyState",0,0,0,0,5,0,1,3,1,2,2,0,,1,0,,,,3,2,4,4,0,0,0,4,,33,2,11,6,2,20,,,,3,5,3,2,,,,,,1,1,1,1,,1,0,,,,"1.82",2,2,2,2
+Public Static Method,"org.ohmage.domain.campaign.Campaign.PrivacyState.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,3,1,1,12,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.00",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.PrivacyState.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,2,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.PrivacyState.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.PrivacyState.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Enum Type,"org.ohmage.domain.campaign.Campaign.Role",0,0,0,0,5,0,1,3,1,2,2,0,,1,0,,,,3,4,4,4,0,0,0,4,,34,2,13,8,2,19,,,,3,5,3,2,,,,,,1,1,1,1,,1,0,,,,"1.46",2,2,2,2
+Public Static Method,"org.ohmage.domain.campaign.Campaign.Role.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,3,1,1,11,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.Role.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,4,2,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.Role.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.Role.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Enum Type,"org.ohmage.domain.campaign.Campaign.RunningState",0,0,0,0,5,0,1,3,1,2,2,0,,1,0,,,,3,2,4,4,0,0,0,4,,33,2,11,6,2,20,,,,3,5,3,2,,,,,,1,1,1,1,,1,0,,,,"1.82",2,2,2,2
+Public Static Method,"org.ohmage.domain.campaign.Campaign.RunningState.getValue",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,3,1,1,12,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.00",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.RunningState.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,2,1,3,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.RunningState.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.domain.campaign.Campaign.RunningState.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Method,"org.ohmage.domain.campaign.Campaign.addClasses",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,2,8,3,3,8,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.addMasks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,7,1,4,7,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.addUser",,,,,,,,,,,,,,,,,,,,,,,,,,,3,28,2,17,5,9,9,3,6,1,6,10,2,9,4,4,4,1,1,,,,,0,,1,0,,,"0.53",4,4,4,1
+Public Method,"org.ohmage.domain.campaign.Campaign.addUsers",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,1,6,1,3,6,1,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.equals",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,0,16,3,13,3,3,7,1,7,14,2,12,7,7,7,7,8,,,,,8,,2,8,,,"0.19",7,7,7,7
+Public Method,"org.ohmage.domain.campaign.Campaign.getAnalysts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,2,9,2,5,5,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getAuthoredBy",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getAuthoredBy",,,,,,,,,,,,,,,,,,,,,,,,,,,5,30,4,16,5,9,10,7,4,1,6,10,3,9,4,4,4,3,3,,,,,3,,2,3,,,"0.62",4,4,4,3
+Public Method,"org.ohmage.domain.campaign.Campaign.getAuthors",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,2,9,2,5,5,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getChoiceGlossaryFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,38,1,22,5,12,15,4,4,1,5,9,2,8,4,4,4,4,5,,,,,5,,2,5,,,"0.68",4,4,4,4
+Private Method,"org.ohmage.domain.campaign.Campaign.getChoiceLabelFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,4,45,3,29,7,15,13,6,12,1,10,15,4,12,5,5,5,1,5,,,,,0,,1,0,,,"0.45",5,5,5,1
+Private Method,"org.ohmage.domain.campaign.Campaign.getChoiceValueFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,3,35,2,21,5,10,12,8,9,1,6,12,3,9,5,5,5,3,5,,,,,4,,2,3,,,"0.57",5,5,5,3
+Public Method,"org.ohmage.domain.campaign.Campaign.getCreationTimestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,8,1,4,5,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getDisplayLabelFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,1,13,5,6,14,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.08",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getIconUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getIconUrl",,,,,,,,,,,,,,,,,,,,,,,,,,,6,37,4,23,4,16,10,7,5,1,8,13,4,12,5,5,5,4,4,,,,,4,,3,4,,,"0.43",5,5,5,4
+Public Method,"org.ohmage.domain.campaign.Campaign.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,6,36,1,24,3,16,11,8,5,1,7,12,3,11,5,5,5,5,8,,,,,8,,2,8,,,"0.46",5,5,5,5
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getKeyValueLabelTrios",,,,,,,,,,,,,,,,,,,,,,,,,,,9,99,8,81,14,56,10,12,290,2,27,43,12,40,16,16,16,1,9,,,,,0,,7,0,,,"0.12",16,16,16,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getLabelForChoiceKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,32,1,14,6,6,17,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.21",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,36,1,24,3,16,11,8,5,1,7,12,3,11,5,5,5,5,8,,,,,8,,2,8,,,"0.46",5,5,5,5
+Public Method,"org.ohmage.domain.campaign.Campaign.getNumberOfPromptsInSurvey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,26,3,13,4,7,10,3,4,1,4,7,2,6,3,3,3,1,0,,,,,0,,1,0,,,"0.77",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getParticipants",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,2,9,2,5,5,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getPrivacyState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getPrompt",,,,,,,,,,,,,,,,,,,,,,,,,,,12,32,3,16,5,8,13,3,6,1,5,9,2,8,4,4,4,1,1,,,,,0,,1,0,,,"0.81",4,4,4,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getPromptTextFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,1,13,5,6,14,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.08",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getPromptType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,29,1,12,5,5,16,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.33",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getRepeatableSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,49,6,29,8,17,14,7,30,1,10,19,6,16,8,8,8,5,9,,,,,9,,3,8,,,"0.48",8,8,8,5
+Public Method,"org.ohmage.domain.campaign.Campaign.getRunningState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getSupervisors",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,2,9,2,5,5,5,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.56",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getSurveyDescriptionFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,1,12,3,5,9,4,4,1,3,6,1,5,3,3,3,1,1,,,,,0,,1,0,,,"0.75",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getSurveyForPromptId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,22,2,10,3,4,10,3,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"1.00",3,3,3,3
+Public Method,"org.ohmage.domain.campaign.Campaign.getSurveyIdForPromptId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,2,10,3,4,10,4,3,0,2,6,2,4,3,3,3,3,3,,,,,3,,2,3,,,"1.00",3,3,3,3
+Public Method,"org.ohmage.domain.campaign.Campaign.getSurveyTitleFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,2,11,3,5,9,4,4,1,3,6,1,5,3,3,3,1,1,,,,,0,,1,0,,,"0.82",3,3,3,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getSurveys",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.getSurveys",,,,,,,,,,,,,,,,,,,,,,,,,,,6,43,5,27,9,18,11,7,18,1,11,18,8,16,6,6,6,1,1,,,,,0,,2,0,,,"0.41",6,6,6,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getUnitFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,1,13,5,6,14,4,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.08",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getValueForChoiceKey",,,,,,,,,,,,,,,,,,,,,,,,,,,3,32,1,14,6,6,17,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.21",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.getXml",,,,,,,,,,,,,,,,,,,,,,,,,,,7,75,10,44,10,31,21,12,36,2,21,28,11,24,10,10,10,1,11,,,,,0,,3,0,,,"0.48",10,10,10,1
+Public Method,"org.ohmage.domain.campaign.Campaign.hashCode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,7,4,4,3,2,1,0,4,5,3,2,2,2,2,1,0,,,,,0,,0,0,,,"0.43",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.isPromptInRepeatableSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,44,5,25,7,14,14,5,24,1,8,16,5,14,7,7,7,4,5,,,,,5,,3,4,,,"0.56",7,7,7,4
+Public Method,"org.ohmage.domain.campaign.Campaign.isPromptSkippable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,28,1,13,5,6,14,3,2,0,3,5,2,4,2,2,2,1,2,,,,,0,,1,0,,,"1.08",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.numberOfPromptsInRepeatableSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,45,4,26,7,15,15,4,18,1,9,15,4,13,6,6,6,1,3,,,,,0,,1,0,,,"0.58",6,6,6,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processContentList",,,,,,,,,,,,,,,,,,,,,,,,,,,9,74,7,53,7,43,14,9,9,1,15,19,5,16,6,4,6,1,7,,,,,0,,2,0,,,"0.26",6,4,6,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processHoursBeforeNow",,,,,,,,,,,,,,,,,,,,,,,,,,,16,117,6,80,20,53,31,4,27,1,14,21,6,17,7,7,7,1,3,,,,,0,,2,0,,,"0.39",7,7,7,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,9,75,5,56,12,40,14,10,216,2,17,27,7,25,10,10,10,1,3,,,,,0,,1,0,,,"0.25",10,10,10,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processMultiChoice",,,,,,,,,,,,,,,,,,,,,,,,,,,15,101,8,63,19,38,30,9,20,1,15,24,8,18,8,8,9,1,2,,,,,0,,4,0,,,"0.48",8,8,9,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processMultiChoiceCustom",,,,,,,,,,,,,,,,,,,,,,,,,,,15,103,8,64,19,39,31,9,20,1,15,24,8,18,8,8,9,1,2,,,,,0,,4,0,,,"0.48",8,8,9,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,16,116,6,80,20,53,30,4,27,1,14,21,6,17,7,7,7,1,3,,,,,0,,2,0,,,"0.38",7,7,7,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processPhoto",,,,,,,,,,,,,,,,,,,,,,,,,,,14,81,4,47,16,28,30,4,6,1,6,10,3,8,4,4,4,1,1,,,,,0,,2,0,,,"0.64",4,4,4,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processPrompt",,,,,,,,,,,,,,,,,,,,,,,,,,,29,346,27,305,28,263,14,24,161243136,8,67,99,23,91,42,32,43,1,79,,,,,0,,2,0,,,"0.05",42,32,43,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processRemoteActivity",,,,,,,,,,,,,,,,,,,,,,,,,,,21,171,9,131,34,95,31,5,1152,3,28,40,15,36,12,12,12,1,2,,,,,0,,2,0,,,"0.24",12,12,12,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processRepeatableSet",,,,,,,,,,,,,,,,,,,,,,,,,,,15,211,14,176,32,133,21,16,7464960,7,49,79,21,75,29,29,30,1,9,,,,,0,,3,0,,,"0.12",29,29,30,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processSingleChoice",,,,,,,,,,,,,,,,,,,,,,,,,,,13,92,6,55,17,32,31,6,12,1,10,17,5,13,6,6,6,1,2,,,,,0,,3,0,,,"0.56",6,6,6,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processSingleChoiceCustom",,,,,,,,,,,,,,,,,,,,,,,,,,,13,93,6,56,17,33,31,6,12,1,10,17,5,13,6,6,6,1,2,,,,,0,,3,0,,,"0.55",6,6,6,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processSurvey",,,,,,,,,,,,,,,,,,,,,,,,,,,10,142,11,122,22,93,9,14,93312,5,39,62,19,58,22,22,22,1,8,,,,,0,,2,0,,,"0.07",22,22,22,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processSurveys",,,,,,,,,,,,,,,,,,,,,,,,,,,2,22,3,10,5,5,9,5,2,0,6,8,4,6,2,2,2,1,0,,,,,0,,1,0,,,"0.90",2,2,2,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processText",,,,,,,,,,,,,,,,,,,,,,,,,,,16,104,5,69,19,45,30,4,9,1,11,16,5,13,5,5,5,1,2,,,,,0,,2,0,,,"0.43",5,5,5,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processTimestamp",,,,,,,,,,,,,,,,,,,,,,,,,,,11,61,2,29,13,14,30,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.03",2,2,2,1
+Private Static Method,"org.ohmage.domain.campaign.Campaign.processVideo",,,,,,,,,,,,,,,,,,,,,,,,,,,14,79,4,45,16,26,30,4,6,1,6,10,3,8,4,4,4,1,1,,,,,0,,2,0,,,"0.67",4,4,4,1
+Public Method,"org.ohmage.domain.campaign.Campaign.promptContainsSingleChoiceValues",,,,,,,,,,,,,,,,,,,,,,,,,,,1,42,7,23,7,14,12,6,24,1,9,15,5,12,6,6,6,3,2,,,,,2,,2,2,,,"0.52",6,6,6,3
+Public Method,"org.ohmage.domain.campaign.Campaign.promptExists",,,,,,,,,,,,,,,,,,,,,,,,,,,2,20,1,6,4,1,13,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.17",1,1,1,1
+Public Method,"org.ohmage.domain.campaign.Campaign.surveyIdExists",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,8,3,3,9,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.12",2,2,2,1
+Public Method,"org.ohmage.domain.campaign.Campaign.toJson",,,,,,,,,,,,,,,,,,,,,,,,,,,36,137,14,87,15,61,43,18,1904,3,25,40,6,37,15,15,16,4,2,,,,,2,,3,1,,,"0.49",15,15,16,4
+Private Static Method,"org.ohmage.domain.campaign.Campaign.validateCondition",,,,,,,,,,,,,,,,,,,,,,,,,,,10,86,4,48,8,30,34,10,38,2,12,23,6,17,8,8,8,4,4,,,,,4,,3,2,,,"0.71",8,8,8,4
+Public Static Final Method,"org.ohmage.domain.campaign.Campaign.validatePromptId",,,,,,,,,,,,,,,,,,,,,,,,,,,4,36,3,20,5,12,13,5,8,1,5,9,2,8,5,5,5,1,0,,,,,0,,1,0,,,"0.65",5,5,5,1
+Public Static Final Method,"org.ohmage.domain.campaign.Campaign.validateSurveyId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,30,3,18,4,11,9,5,6,1,5,9,2,8,4,4,4,1,1,,,,,0,,1,0,,,"0.50",4,4,4,1
+Public Static Method,"org.ohmage.domain.campaign.Campaign.validateXml",,,,,,,,,,,,,,,,,,,,,,,,,,,5,46,4,29,8,19,13,9,5,1,15,17,6,15,5,5,5,1,10,,,,,0,,1,0,,,"0.45",5,5,5,1

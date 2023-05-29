@@ -1,0 +1,184 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AuthRequest.java",1,1,1,1,10,1,4,4,,,,,1,0,2,3,,3,3,0,3,,0,0,0,3,,77,10,24,14,8,43,,,,14,18,12,7,,,,,,2,2,2,1,,,0,,,,"1.79",4,4,4,3
+File,"AuthTokenRequest.java",1,1,1,1,11,1,5,4,,,,,1,0,1,3,,3,3,0,3,,0,0,0,3,,78,9,26,14,8,43,,,,14,19,12,8,,,,,,2,2,2,1,,,1,,,,"1.65",4,4,4,3
+File,"CampaignCreationRequest.java",3,3,4,1,33,4,24,4,,,,,1,0,1,3,,3,3,5,3,,0,0,0,3,,178,22,98,36,55,58,,,,65,77,34,46,,,,,,7,7,8,1,,,2,,,,"0.59",11,11,12,3
+File,"CampaignDeletionRequest.java",2,2,2,1,17,2,12,2,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,97,15,54,21,25,28,,,,32,40,19,22,,,,,,3,3,3,1,,,2,,,,"0.52",7,7,7,3
+File,"CampaignReadRequest.java",9,9,11,2,82,13,59,9,,,,,1,0,10,3,,3,3,11,3,,0,0,0,3,,422,54,231,72,145,137,,,,150,181,70,117,,,,,,14,14,15,6,,,5,,,,"0.59",29,29,34,8
+File,"CampaignUpdateRequest.java",4,4,4,1,42,6,29,6,,,,,1,0,1,3,,3,3,8,3,,0,0,0,3,,233,26,118,45,68,89,,,,82,99,45,58,,,,,,9,9,9,1,,,3,,,,"0.75",14,14,14,3
+File,"CampaignValidators.java",2,2,2,1,26,2,11,12,,,,,2,10,2,13,,11,3,3,13,,0,1,0,12,,388,45,176,41,101,167,,,,91,124,42,90,,,,,,7,7,7,3,,,2,,,,"0.95",36,36,36,23
+File,"ClassCreationRequest.java",3,3,3,1,25,3,16,5,,,,,1,0,1,3,,3,3,3,3,,0,0,0,3,,132,17,68,25,35,47,,,,42,52,23,30,,,,,,5,5,5,1,,,3,,,,"0.69",9,9,9,3
+File,"ClassDeletionRequest.java",2,2,2,1,20,2,13,4,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,108,15,57,22,26,36,,,,33,42,20,23,,,,,,4,4,4,1,,,3,,,,"0.63",8,8,8,3
+File,"ClassReadRequest.java",3,3,3,2,25,3,17,5,,,,,1,0,1,3,,3,3,2,3,,0,0,0,3,,132,17,73,28,34,42,,,,43,55,27,30,,,,,,5,5,5,4,,,3,,,,"0.58",10,10,10,6
+File,"ClassRosterReadRequest.java",5,5,5,1,45,6,30,9,,,,,1,0,1,3,,3,3,2,3,,0,0,0,3,,197,27,118,37,63,52,,,,68,87,37,54,,,,,,10,10,10,3,,,3,,,,"0.44",16,16,16,5
+File,"ClassRosterUpdateRequest.java",2,2,2,1,23,3,15,4,,,,,1,0,2,3,,3,3,2,3,,0,0,0,3,,141,20,70,31,33,51,,,,46,56,30,29,,,,,,4,4,4,1,,,2,,,,"0.73",8,8,8,3
+File,"ClassUpdateRequest.java",2,2,2,1,24,2,17,5,,,,,1,0,1,3,,3,3,5,3,,0,0,0,3,,158,16,76,34,37,66,,,,52,61,32,30,,,,,,4,4,4,1,,,3,,,,"0.87",8,8,8,3
+File,"CookieUtils.java",2,2,2,1,18,0,7,10,,,,,1,3,0,4,,4,1,0,4,,0,1,0,3,,93,9,36,12,16,48,,,,19,30,14,18,,,,,,4,4,4,4,,,3,,,,"1.33",10,10,10,7
+File,"DocumentCreationRequest.java",4,4,5,1,35,5,25,4,,,,,1,0,2,3,,3,3,7,3,,0,0,0,3,,212,29,107,43,59,76,,,,74,87,41,49,,,,,,6,6,9,1,,,2,,,,"0.71",12,12,15,3
+File,"DocumentDeletionRequest.java",2,2,2,1,18,2,12,4,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,104,14,53,21,24,37,,,,31,39,19,21,,,,,,3,3,3,1,,,2,,,,"0.70",7,7,7,3
+File,"DocumentReadContentsRequest.java",5,5,5,2,56,7,35,13,,,,,1,0,2,3,,3,3,3,3,,0,0,0,3,,230,33,135,42,76,62,,,,83,101,40,65,,,,,,11,11,11,4,,,4,,,,"0.46",17,17,17,6
+File,"DocumentReadRequest.java",4,4,4,1,32,4,23,4,,,,,1,0,1,3,,3,3,4,3,,0,0,0,3,,176,22,99,38,48,55,,,,61,77,37,42,,,,,,8,8,8,1,,,2,,,,"0.56",14,14,14,3
+File,"DocumentUpdateRequest.java",4,4,4,1,54,12,37,4,,,,,1,0,1,3,,3,3,11,3,,0,0,0,3,,310,50,151,55,93,109,,,,116,130,53,79,,,,,,9,9,9,1,,,2,,,,"0.72",13,13,13,3
+File,"Request.java",2,2,2,1,26,2,13,10,,,,,1,0,7,9,,11,11,2,11,,0,0,6,5,,314,38,159,52,90,117,,,,88,112,50,68,,,,,,8,8,8,5,,,2,,,,"0.74",24,24,25,16
+File,"UserCampaignValidators.java",4,4,4,2,40,4,16,19,,,,,1,1,1,2,,2,1,0,2,,0,1,0,1,,103,13,46,21,24,44,,,,29,38,22,23,,,,,,7,7,7,3,,,3,,,,"0.96",8,8,8,4
+File,"UserChangePasswordRequest.java",2,2,2,1,17,2,10,4,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,96,14,45,19,19,37,,,,25,32,17,16,,,,,,3,3,3,1,,,1,,,,"0.82",6,6,6,3
+File,"UserClassValidators.java",3,3,3,2,34,3,14,16,,,,,1,1,1,2,,2,1,0,2,,0,1,0,1,,89,12,39,18,20,38,,,,24,32,19,19,,,,,,6,6,6,3,,,3,,,,"0.97",7,7,7,4
+File,"UserCreationRequest.java",3,3,3,1,29,4,21,4,,,,,1,0,1,3,,3,3,6,3,,0,0,0,3,,166,19,85,30,49,62,,,,57,68,28,41,,,,,,6,6,6,1,,,2,,,,"0.73",10,10,10,3
+File,"UserDeletionRequest.java",2,2,2,1,19,3,13,3,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,107,17,55,21,26,35,,,,33,41,19,23,,,,,,3,3,3,1,,,2,,,,"0.64",7,7,7,3
+File,"UserInfoReadRequest.java",2,2,2,1,18,2,11,4,,,,,1,0,1,3,,3,3,1,3,,0,0,0,3,,95,14,49,20,21,32,,,,27,35,18,19,,,,,,3,3,3,1,,,2,,,,"0.65",7,7,7,3
+File,"UserReadRequest.java",3,3,3,1,29,4,21,4,,,,,1,0,1,3,,3,3,3,3,,0,0,0,3,,156,22,91,35,45,43,,,,57,70,34,39,,,,,,5,5,5,1,,,3,,,,"0.47",11,11,11,3
+File,"UserRequest.java",2,2,2,1,25,1,10,13,,,,,1,1,2,8,,8,7,2,8,,0,0,2,6,,240,26,98,30,51,116,,,,50,71,30,44,,,,,,4,4,4,1,,,2,,,,"1.18",20,20,20,8
+File,"UserStatsReadRequest.java",3,3,3,1,32,5,23,4,,,,,1,0,6,3,,3,3,6,3,,0,0,0,3,,172,25,99,37,57,48,,,,68,79,35,46,,,,,,4,4,4,1,,,2,,,,"0.48",10,10,10,3
+File,"UserUpdateRequest.java",2,2,2,1,31,5,22,4,,,,,1,0,1,3,,3,3,6,3,,0,0,0,3,,212,25,88,37,53,99,,,,66,74,35,40,,,,,,3,3,3,1,,,2,,,,"1.12",7,7,7,3
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage.request",2,2,2,1,25,1,11,12,,,,,2,1,9,,2,,18,4,19,,0,0,8,11,,554,64,257,82,141,233,,,,138,183,80,112,,,,,,8,8,8,5,,,2,,,,"0.91",44,44,45,24
+Public Abstract Class,"org.ohmage.request.Request",2,2,2,1,26,2,13,10,1,18,18,1,,0,7,,,,11,2,11,11,0,0,6,5,,287,34,139,33,90,114,,,,69,93,31,68,,,,,,8,8,8,5,,1,2,,55,33,"0.82",24,24,25,16
+Protected Constructor,"org.ohmage.request.Request.Request",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,1,2,3,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Protected Method,"org.ohmage.request.Request.expireResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,1,6,1,4,5,1,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.83",1,1,1,1
+Protected Method,"org.ohmage.request.Request.getMultipartValue",,,,,,,,,,,,,,,,,,,,,,,,,,,11,58,2,31,6,21,25,10,7,1,15,20,6,17,6,6,6,5,9,,,,,9,,2,9,,,"0.81",6,6,6,5
+Protected Method,"org.ohmage.request.Request.getOutputStream",,,,,,,,,,,,,,,,,,,,,,,,,,,7,33,8,19,4,13,6,7,4,1,9,13,3,11,4,4,5,1,1,,,,,0,,2,0,,,"0.32",4,4,5,1
+Public Method,"org.ohmage.request.Request.isFailed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Abstract Method,"org.ohmage.request.Request.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Protected Method,"org.ohmage.request.Request.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,19,83,7,49,4,34,27,11,28,1,23,31,4,28,8,8,8,4,8,,,,,5,,2,5,,,"0.55",8,8,8,4
+Protected Method,"org.ohmage.request.Request.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,3,1,1,12,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"4.00",1,1,1,1
+Public Abstract Method,"org.ohmage.request.Request.service",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Method,"org.ohmage.request.Request.setFailed",,,,,,,,,,,,,,,,,,,,,,,,,,,37,13,1,4,1,2,8,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"org.ohmage.request.Request.setFailed",,,,,,,,,,,,,,,,,,,,,,,,,,,8,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Abstract Class,"org.ohmage.request.UserRequest",2,2,2,1,25,1,10,13,1,12,12,24,,1,2,,,,7,2,8,19,0,0,2,6,,225,23,86,19,51,116,,,,39,60,19,44,,,,,,4,4,4,1,,2,2,,43,43,"1.35",20,20,20,8
+Public Constructor,"org.ohmage.request.UserRequest.UserRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,9,30,2,12,2,8,16,5,2,0,6,8,2,6,2,2,2,1,1,,,,,0,,1,0,,,"1.33",2,2,2,1
+Public Constructor,"org.ohmage.request.UserRequest.UserRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,23,27,3,12,2,8,12,6,4,1,6,9,2,7,3,3,3,1,0,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Constructor,"org.ohmage.request.UserRequest.UserRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,9,49,4,18,2,12,27,6,5,1,8,12,2,10,4,4,4,1,1,,,,,0,,2,0,,,"1.50",4,4,4,1
+Public Final Method,"org.ohmage.request.UserRequest.authenticate",,,,,,,,,,,,,,,,,,,,,,,,,,,27,17,0,10,1,6,7,4,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Static Method,"org.ohmage.request.UserRequest.getToken",,,,,,,,,,,,,,,,,,,,,,,,,,,18,22,2,8,2,4,12,4,2,0,4,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.50",2,2,2,1
+Public Final Method,"org.ohmage.request.UserRequest.getUser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Protected Method,"org.ohmage.request.UserRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,24,25,1,9,2,5,15,4,3,0,3,6,2,5,3,3,3,1,0,,,,,0,,2,0,,,"1.67",3,3,3,1
+Protected Method,"org.ohmage.request.UserRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,9,26,1,9,2,5,16,4,3,0,3,6,2,5,3,3,3,1,0,,,,,0,,2,0,,,"1.78",3,3,3,1
+Package,"org.ohmage.request.auth",1,1,1,1,10,1,5,4,,,,,2,0,3,,2,,6,0,6,,0,0,0,6,,155,19,50,28,16,86,,,,28,37,24,15,,,,,,2,2,2,1,,,1,,,,"1.72",8,8,8,6
+Public Class,"org.ohmage.request.auth.AuthRequest",1,1,1,1,10,1,4,4,1,5,5,0,,0,2,,,,3,0,3,22,0,0,0,3,,67,7,17,8,8,43,,,,8,12,6,7,,,,,,2,2,2,1,,3,0,,0,0,"2.53",4,4,4,3
+Public Constructor,"org.ohmage.request.auth.AuthRequest.AuthRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,1,4,1,2,7,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.ohmage.request.auth.AuthRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,5,2,2,4,3,1,0,2,3,1,2,2,2,2,1,0,,,,,0,,0,0,,,"0.80",2,2,2,1
+Public Method,"org.ohmage.request.auth.AuthRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Class,"org.ohmage.request.auth.AuthTokenRequest",1,1,1,1,11,1,5,4,1,5,5,0,,0,1,,,,3,0,3,22,0,0,0,3,,67,6,18,7,8,43,,,,7,12,5,8,,,,,,2,2,2,1,,3,1,,0,0,"2.39",4,4,4,3
+Public Constructor,"org.ohmage.request.auth.AuthTokenRequest.AuthTokenRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,1,4,1,2,5,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.ohmage.request.auth.AuthTokenRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.auth.AuthTokenRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,2,8,2,4,5,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Package,"org.ohmage.request.campaign",5,5,5,1,43,6,31,5,,,,,4,0,13,,4,,12,25,12,,0,0,0,12,,930,117,501,174,293,312,,,,329,397,168,243,,,,,,14,14,15,6,,,5,,,,"0.62",61,61,67,17
+Public Class,"org.ohmage.request.campaign.CampaignCreationRequest",3,3,4,1,33,4,24,4,1,13,13,0,,0,1,,,,3,5,3,22,0,0,0,3,,156,18,80,19,55,58,,,,48,60,17,46,,,,,,7,7,8,1,,3,2,,33,33,"0.72",11,11,12,3
+Public Constructor,"org.ohmage.request.campaign.CampaignCreationRequest.CampaignCreationRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,14,61,8,47,7,37,6,20,33,2,29,36,7,30,7,7,8,1,2,,,,,0,,2,0,,,"0.13",7,7,8,1
+Public Method,"org.ohmage.request.campaign.CampaignCreationRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.campaign.CampaignCreationRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,8,32,6,22,3,16,4,11,3,0,12,15,2,14,3,3,3,1,2,,,,,0,,1,0,,,"0.18",3,3,3,1
+Public Class,"org.ohmage.request.campaign.CampaignDeletionRequest",2,2,2,1,17,2,12,2,1,10,10,0,,0,1,,,,3,1,3,22,0,0,0,3,,81,12,41,9,25,28,,,,20,28,7,22,,,,,,3,3,3,1,,3,2,,33,33,"0.68",7,7,7,3
+Public Constructor,"org.ohmage.request.campaign.CampaignDeletionRequest.CampaignDeletionRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,4,16,2,11,0,9,3,0,8,11,2,9,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.ohmage.request.campaign.CampaignDeletionRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.ohmage.request.campaign.CampaignDeletionRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,4,18,2,12,3,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.campaign.CampaignReadRequest",9,9,11,2,82,13,59,9,1,26,26,0,,0,10,,,,3,11,3,22,0,0,0,3,,388,50,201,43,145,137,,,,121,152,41,117,,,,,,14,14,15,6,,3,5,,21,21,"0.68",29,29,34,8
+Public Constructor,"org.ohmage.request.campaign.CampaignReadRequest.CampaignReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,17,77,18,54,9,45,5,30,17,1,38,45,9,36,7,7,10,1,2,,,,,0,,3,0,,,"0.09",7,7,10,1
+Public Method,"org.ohmage.request.campaign.CampaignReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,32,119,13,86,8,62,20,33,22,1,43,58,8,54,14,14,15,6,16,,,,,12,,5,12,,,"0.23",14,14,15,6
+Public Method,"org.ohmage.request.campaign.CampaignReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,14,50,8,39,4,28,3,17,14,1,19,27,2,26,8,8,9,1,3,,,,,0,,3,0,,,"0.08",8,8,9,1
+Public Class,"org.ohmage.request.campaign.CampaignUpdateRequest",4,4,4,1,42,6,29,6,1,16,16,0,,0,1,,,,3,8,3,22,0,0,0,3,,209,22,98,26,68,89,,,,63,80,26,58,,,,,,9,9,9,1,,3,3,,33,33,"0.91",14,14,14,3
+Public Constructor,"org.ohmage.request.campaign.CampaignUpdateRequest.CampaignUpdateRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,13,63,9,40,10,34,14,23,5,1,30,34,10,25,4,4,4,1,1,,,,,0,,2,0,,,"0.35",4,4,4,1
+Public Method,"org.ohmage.request.campaign.CampaignUpdateRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.ohmage.request.campaign.CampaignUpdateRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,11,56,9,44,4,32,3,13,38,2,23,34,5,31,9,9,9,1,2,,,,,0,,3,0,,,"0.07",9,9,9,1
+Package,"org.ohmage.request.clazz",3,3,3,1,27,3,18,5,,,,,6,0,7,,6,,18,15,18,,0,0,0,18,,868,112,462,177,228,294,,,,284,353,169,196,,,,,,10,10,10,4,,,3,,,,"0.64",59,59,59,23
+Public Class,"org.ohmage.request.clazz.ClassCreationRequest",3,3,3,1,25,3,16,5,1,9,9,0,,0,1,,,,3,3,3,22,0,0,0,3,,116,14,55,13,35,47,,,,30,40,11,30,,,,,,5,5,5,1,,3,3,,33,33,"0.85",9,9,9,3
+Public Constructor,"org.ohmage.request.clazz.ClassCreationRequest.ClassCreationRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,9,40,6,28,4,21,6,14,6,1,16,21,4,17,5,5,5,1,1,,,,,0,,3,0,,,"0.21",5,5,5,1
+Public Method,"org.ohmage.request.clazz.ClassCreationRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.ohmage.request.clazz.ClassCreationRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,4,18,2,12,6,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.33",3,3,3,1
+Public Class,"org.ohmage.request.clazz.ClassDeletionRequest",2,2,2,1,20,2,13,4,1,10,10,0,,0,1,,,,3,1,3,22,0,0,0,3,,91,12,43,9,26,36,,,,20,29,7,23,,,,,,4,4,4,1,,3,3,,33,33,"0.84",8,8,8,3
+Public Constructor,"org.ohmage.request.clazz.ClassDeletionRequest.ClassDeletionRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,28,4,18,2,12,6,10,4,1,8,12,2,10,4,4,4,1,1,,,,,0,,3,0,,,"0.33",4,4,4,1
+Public Method,"org.ohmage.request.clazz.ClassDeletionRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"org.ohmage.request.clazz.ClassDeletionRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,4,18,2,12,3,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.clazz.ClassReadRequest",3,3,3,2,25,3,17,5,1,13,13,0,,0,1,,,,3,2,3,22,0,0,0,3,,110,13,55,11,34,42,,,,26,38,10,30,,,,,,5,5,5,4,,3,3,,16,16,"0.76",10,10,10,6
+Public Constructor,"org.ohmage.request.clazz.ClassReadRequest.ClassReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,29,4,19,2,13,6,11,4,1,9,13,2,11,4,4,4,1,1,,,,,0,,3,0,,,"0.32",4,4,4,1
+Public Method,"org.ohmage.request.clazz.ClassReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.ohmage.request.clazz.ClassReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,6,39,4,27,3,18,8,11,5,1,12,18,3,16,5,5,5,4,5,,,,,5,,3,5,,,"0.30",5,5,5,4
+Public Class,"org.ohmage.request.clazz.ClassRosterReadRequest",5,5,5,1,45,6,30,9,1,20,20,0,,0,1,,,,3,2,3,22,0,0,0,3,,170,23,95,15,63,52,,,,46,65,15,54,,,,,,10,10,10,3,,3,3,,16,16,"0.55",16,16,16,5
+Public Constructor,"org.ohmage.request.clazz.ClassRosterReadRequest.ClassRosterReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,27,4,17,2,12,6,10,3,0,9,12,2,10,3,3,3,1,1,,,,,0,,2,0,,,"0.35",3,3,3,1
+Public Method,"org.ohmage.request.clazz.ClassRosterReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,13,84,10,56,7,38,18,20,34,2,25,37,8,32,10,10,10,3,7,,,,,3,,3,3,,,"0.32",10,10,10,3
+Public Method,"org.ohmage.request.clazz.ClassRosterReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,4,18,2,12,3,8,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.clazz.ClassRosterUpdateRequest",2,2,2,1,23,3,15,4,1,15,15,0,,0,2,,,,3,2,3,22,0,0,0,3,,118,16,51,13,33,51,,,,28,38,12,29,,,,,,4,4,4,1,,3,2,,16,16,"1.00",8,8,8,3
+Public Constructor,"org.ohmage.request.clazz.ClassRosterUpdateRequest.ClassRosterUpdateRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,27,4,17,2,12,6,11,3,0,9,12,2,10,3,3,3,1,1,,,,,0,,2,0,,,"0.35",3,3,3,1
+Public Method,"org.ohmage.request.clazz.ClassRosterUpdateRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.clazz.ClassRosterUpdateRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,34,6,25,4,18,3,12,4,1,14,19,4,17,4,4,4,1,2,,,,,0,,2,0,,,"0.12",4,4,4,1
+Public Class,"org.ohmage.request.clazz.ClassUpdateRequest",2,2,2,1,24,2,17,5,1,13,13,0,,0,1,,,,3,5,3,22,0,0,0,3,,136,12,58,17,37,66,,,,35,44,15,30,,,,,,4,4,4,1,,3,3,,33,33,"1.14",8,8,8,3
+Public Constructor,"org.ohmage.request.clazz.ClassUpdateRequest.ClassUpdateRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,12,39,4,29,6,23,6,18,4,1,19,23,6,17,4,4,4,1,1,,,,,0,,3,0,,,"0.21",4,4,4,1
+Public Method,"org.ohmage.request.clazz.ClassUpdateRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.clazz.ClassUpdateRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,4,18,2,12,5,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.28",3,3,3,1
+Package,"org.ohmage.request.document",4,4,4,1,39,6,26,6,,,,,5,0,7,,5,,15,26,15,,0,0,0,15,,1032,148,545,199,300,339,,,,365,434,190,256,,,,,,11,11,11,4,,,4,,,,"0.62",63,63,66,18
+Public Class,"org.ohmage.request.document.DocumentCreationRequest",4,4,5,1,35,5,25,4,1,17,17,0,,0,2,,,,3,7,3,22,0,0,0,3,,187,25,86,23,59,76,,,,54,67,21,49,,,,,,6,6,9,1,,3,2,,33,33,"0.88",12,12,15,3
+Public Constructor,"org.ohmage.request.document.DocumentCreationRequest.DocumentCreationRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,14,60,9,44,7,36,7,20,17,1,29,35,7,28,6,6,9,1,1,,,,,0,,2,0,,,"0.16",6,6,9,1
+Public Method,"org.ohmage.request.document.DocumentCreationRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.ohmage.request.document.DocumentCreationRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,9,39,8,28,4,20,3,11,6,1,15,20,3,19,5,5,5,1,2,,,,,0,,2,0,,,"0.11",5,5,5,1
+Public Class,"org.ohmage.request.document.DocumentDeletionRequest",2,2,2,1,18,2,12,4,1,9,9,0,,0,1,,,,3,1,3,22,0,0,0,3,,88,11,40,9,24,37,,,,19,27,7,21,,,,,,3,3,3,1,,3,2,,33,33,"0.93",7,7,7,3
+Public Constructor,"org.ohmage.request.document.DocumentDeletionRequest.DocumentDeletionRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,23,3,15,2,10,5,9,3,0,7,10,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.33",3,3,3,1
+Public Method,"org.ohmage.request.document.DocumentDeletionRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.document.DocumentDeletionRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,4,18,2,12,3,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.document.DocumentReadContentsRequest",5,5,5,2,56,7,35,13,1,19,19,0,,0,2,,,,3,3,3,22,0,0,0,3,,203,29,112,20,76,62,,,,61,79,18,65,,,,,,11,11,11,4,,3,4,,22,22,"0.55",17,17,17,6
+Public Constructor,"org.ohmage.request.document.DocumentReadContentsRequest.DocumentReadContentsRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,26,4,16,2,11,6,10,3,0,8,11,2,9,3,3,3,1,1,,,,,0,,2,0,,,"0.38",3,3,3,1
+Public Method,"org.ohmage.request.document.DocumentReadContentsRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,16,114,14,70,10,49,30,17,57,2,37,48,9,42,11,11,11,4,8,,,,,5,,4,5,,,"0.43",11,11,11,4
+Public Method,"org.ohmage.request.document.DocumentReadContentsRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,28,5,20,2,14,3,10,3,0,11,14,1,13,3,3,3,1,2,,,,,0,,1,0,,,"0.15",3,3,3,1
+Public Class,"org.ohmage.request.document.DocumentReadRequest",4,4,4,1,32,4,23,4,1,19,19,0,,0,1,,,,3,4,3,22,0,0,0,3,,148,18,75,15,48,55,,,,38,54,14,42,,,,,,8,8,8,1,,3,2,,25,25,"0.73",14,14,14,3
+Public Constructor,"org.ohmage.request.document.DocumentReadRequest.DocumentReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,36,6,23,4,18,7,14,3,0,15,18,4,14,3,3,3,1,1,,,,,0,,2,0,,,"0.30",3,3,3,1
+Public Method,"org.ohmage.request.document.DocumentReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,1,14,3,8,4,6,3,0,5,9,3,7,3,3,3,1,1,,,,,0,,2,0,,,"0.29",3,3,3,1
+Public Method,"org.ohmage.request.document.DocumentReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,7,41,6,32,2,21,3,10,34,2,13,21,1,20,8,8,8,1,2,,,,,0,,2,0,,,"0.09",8,8,8,1
+Public Class,"org.ohmage.request.document.DocumentUpdateRequest",4,4,4,1,54,12,37,4,1,20,20,0,,0,1,,,,3,11,3,22,0,0,0,3,,280,46,125,30,93,109,,,,91,105,28,79,,,,,,9,9,9,1,,3,2,,33,33,"0.87",13,13,13,3
+Public Constructor,"org.ohmage.request.document.DocumentUpdateRequest.DocumentUpdateRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,16,69,17,45,12,40,7,29,3,0,37,40,12,28,3,3,3,1,1,,,,,0,,2,0,,,"0.16",3,3,3,1
+Public Method,"org.ohmage.request.document.DocumentUpdateRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.ohmage.request.document.DocumentUpdateRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,14,86,20,63,3,51,3,18,66,2,41,50,2,49,9,9,9,1,2,,,,,0,,2,0,,,"0.05",9,9,9,1
+Package,"org.ohmage.request.user",2,2,2,1,25,3,17,4,,,,,7,0,12,,7,,21,24,21,,0,0,0,21,,1004,136,512,199,270,356,,,,333,399,186,224,,,,,,6,6,6,1,,,3,,,,"0.70",58,58,58,21
+Public Class,"org.ohmage.request.user.UserChangePasswordRequest",2,2,2,1,17,2,10,4,1,7,7,0,,0,1,,,,3,1,3,22,0,0,0,3,,82,11,34,9,19,37,,,,15,22,7,16,,,,,,3,3,3,1,,3,1,,33,33,"1.09",6,6,6,3
+Public Constructor,"org.ohmage.request.user.UserChangePasswordRequest.UserChangePasswordRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,4,12,2,8,6,7,2,0,6,8,2,6,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"org.ohmage.request.user.UserChangePasswordRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,5,2,2,4,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"org.ohmage.request.user.UserChangePasswordRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,2,14,2,8,3,5,3,0,5,8,1,7,3,3,3,1,2,,,,,0,,1,0,,,"0.21",3,3,3,1
+Public Class,"org.ohmage.request.user.UserCreationRequest",3,3,3,1,29,4,21,4,1,9,9,0,,0,1,,,,3,6,3,22,0,0,0,3,,151,16,73,19,49,62,,,,46,57,17,41,,,,,,6,6,6,1,,3,2,,33,33,"0.85",10,10,10,3
+Public Constructor,"org.ohmage.request.user.UserCreationRequest.UserCreationRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,13,57,8,43,7,35,6,19,17,1,29,35,7,28,6,6,6,1,1,,,,,0,,2,0,,,"0.14",6,6,6,1
+Public Method,"org.ohmage.request.user.UserCreationRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,4,2,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"org.ohmage.request.user.UserCreationRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,9,25,4,18,2,12,3,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.user.UserDeletionRequest",2,2,2,1,19,3,13,3,1,8,8,0,,0,1,,,,3,1,3,22,0,0,0,3,,90,13,42,9,26,35,,,,21,29,7,23,,,,,,3,3,3,1,,3,2,,33,33,"0.83",7,7,7,3
+Public Constructor,"org.ohmage.request.user.UserDeletionRequest.UserDeletionRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,25,4,16,2,11,5,9,3,0,8,11,2,9,3,3,3,1,1,,,,,0,,2,0,,,"0.31",3,3,3,1
+Public Method,"org.ohmage.request.user.UserDeletionRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.ohmage.request.user.UserDeletionRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,4,18,2,12,3,7,3,0,9,12,1,11,3,3,3,1,2,,,,,0,,1,0,,,"0.17",3,3,3,1
+Public Class,"org.ohmage.request.user.UserInfoReadRequest",2,2,2,1,18,2,11,4,1,9,9,0,,0,1,,,,3,1,3,22,0,0,0,3,,80,11,37,9,21,32,,,,16,24,7,19,,,,,,3,3,3,1,,3,2,,0,0,"0.86",7,7,7,3
+Public Constructor,"org.ohmage.request.user.UserInfoReadRequest.UserInfoReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,2,5,1,3,6,6,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Method,"org.ohmage.request.user.UserInfoReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,6,22,3,15,3,9,4,7,3,0,6,9,2,8,3,3,3,1,1,,,,,0,,2,0,,,"0.27",3,3,3,1
+Public Method,"org.ohmage.request.user.UserInfoReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,3,19,2,14,2,8,3,6,3,0,5,8,1,7,3,3,3,1,2,,,,,0,,1,0,,,"0.21",3,3,3,1
+Public Class,"org.ohmage.request.user.UserReadRequest",3,3,3,1,29,4,21,4,1,18,18,0,,0,1,,,,3,3,3,22,0,0,0,3,,130,18,69,14,45,43,,,,36,49,13,39,,,,,,5,5,5,1,,3,3,,22,22,"0.62",11,11,11,3
+Public Constructor,"org.ohmage.request.user.UserReadRequest.UserReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,6,26,5,16,3,12,5,11,2,0,10,12,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.31",2,2,2,1
+Public Method,"org.ohmage.request.user.UserReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,1,20,4,12,4,7,4,1,7,12,4,10,4,4,4,1,2,,,,,0,,3,0,,,"0.20",4,4,4,1
+Public Method,"org.ohmage.request.user.UserReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,7,38,7,28,2,20,3,11,6,1,15,20,1,19,5,5,5,1,2,,,,,0,,2,0,,,"0.11",5,5,5,1
+Public Class,"org.ohmage.request.user.UserStatsReadRequest",3,3,3,1,32,5,23,4,1,13,13,0,,0,6,,,,3,6,3,22,0,0,0,3,,152,22,82,21,57,48,,,,52,63,19,46,,,,,,4,4,4,1,,3,2,,11,11,"0.59",10,10,10,3
+Public Constructor,"org.ohmage.request.user.UserStatsReadRequest.UserStatsReadRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,12,40,6,28,3,22,6,15,5,1,17,21,3,18,4,4,4,1,1,,,,,0,,2,0,,,"0.21",4,4,4,1
+Public Method,"org.ohmage.request.user.UserStatsReadRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,14,22,2,17,3,11,3,4,3,0,8,11,2,10,3,3,3,1,1,,,,,0,,2,0,,,"0.18",3,3,3,1
+Public Method,"org.ohmage.request.user.UserStatsReadRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,5,34,7,24,2,18,3,13,3,0,15,18,1,17,3,3,3,1,2,,,,,0,,1,0,,,"0.12",3,3,3,1
+Public Class,"org.ohmage.request.user.UserUpdateRequest",2,2,2,1,31,5,22,4,1,11,11,0,,0,1,,,,3,6,3,22,0,0,0,3,,195,22,74,24,53,99,,,,53,61,22,40,,,,,,3,3,3,1,,3,2,,33,33,"1.34",7,7,7,3
+Public Constructor,"org.ohmage.request.user.UserUpdateRequest.UserUpdateRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,16,57,10,41,12,36,6,24,3,0,33,36,12,24,3,3,3,1,1,,,,,0,,2,0,,,"0.15",3,3,3,1
+Public Method,"org.ohmage.request.user.UserUpdateRequest.respond",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,5,2,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"org.ohmage.request.user.UserUpdateRequest.service",,,,,,,,,,,,,,,,,,,,,,,,,,,9,28,5,20,2,14,3,8,3,0,11,14,1,13,3,3,3,1,2,,,,,0,,1,0,,,"0.15",3,3,3,1
+Package,"org.ohmage.util",2,2,2,1,18,0,7,10,,,,,1,3,0,,1,,1,0,4,,0,1,0,3,,93,9,36,12,16,48,,,,19,30,14,18,,,,,,4,4,4,4,,,3,,,,"1.33",10,10,10,7
+Public Final Class,"org.ohmage.util.CookieUtils",2,2,2,1,18,0,7,10,1,5,5,0,,3,0,,,,1,0,4,4,0,1,0,3,,85,6,31,7,16,48,,,,14,25,9,18,,,,,,4,4,4,4,,1,3,,0,0,"1.55",10,10,10,7
+Private Constructor,"org.ohmage.util.CookieUtils.CookieUtils",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"org.ohmage.util.CookieUtils.getCookieValue",,,,,,,,,,,,,,,,,,,,,,,,,,,9,25,1,10,1,5,14,4,4,1,4,8,2,6,4,4,4,4,4,,,,,4,,3,4,,,"1.40",4,4,4,4
+Public Static Method,"org.ohmage.util.CookieUtils.getCookieValues",,,,,,,,,,,,,,,,,,,,,,,,,,,3,26,2,11,2,6,13,5,4,1,5,9,3,7,4,4,4,1,0,,,,,0,,3,0,,,"1.18",4,4,4,1
+Public Static Method,"org.ohmage.util.CookieUtils.setCookieValue",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,0,7,2,5,13,4,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"1.86",1,1,1,1
+Package,"org.ohmage.validator",3,3,3,1,28,2,12,13,,,,,4,12,4,,3,,5,3,17,,0,3,0,14,,580,70,261,80,145,249,,,,144,194,83,132,,,,,,7,7,7,3,,,3,,,,"0.95",51,51,51,31
+Public Final Class,"org.ohmage.validator.CampaignValidators",3,3,3,2,31,2,13,14,1,21,21,0,,10,2,,,,1,0,11,11,0,1,0,10,,364,41,156,22,101,167,,,,72,105,23,90,,,,,,7,7,7,3,,1,2,,0,0,"1.07",36,36,36,23
+Private Constructor,"org.ohmage.validator.CampaignValidators.CampaignValidators",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Enum Type,"org.ohmage.validator.CampaignValidators.OutputFormat",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.validator.CampaignValidators.OutputFormat.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.ohmage.validator.CampaignValidators.OutputFormat.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateCampaignId",,,,,,,,,,,,,,,,,,,,,,,,,,,8,36,2,13,1,8,21,5,3,0,5,8,1,7,3,3,3,3,2,,,,,2,,1,2,,,"1.62",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateCampaignIds",,,,,,,,,,,,,,,,,,,,,,,,,,,9,40,5,15,4,10,20,6,4,1,9,13,5,11,4,4,4,1,1,,,,,0,,2,0,,,"1.33",4,4,4,1
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,6,29,2,13,1,8,14,5,3,0,5,8,1,7,3,3,3,3,3,,,,,2,,1,2,,,"1.08",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateEndDate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,32,4,14,3,10,14,7,3,0,8,11,3,10,3,3,3,1,1,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateOutputFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,5,30,2,13,1,8,15,6,3,0,5,8,1,7,3,3,3,3,2,,,,,2,,1,2,,,"1.15",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validatePrivacyState",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,2,13,1,8,16,7,3,0,5,8,1,7,3,3,3,3,2,,,,,2,,1,2,,,"1.23",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateRole",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,2,13,1,8,13,7,3,0,5,8,1,7,3,3,3,3,2,,,,,2,,1,2,,,"1.00",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateRunningState",,,,,,,,,,,,,,,,,,,,,,,,,,,7,31,2,13,1,8,16,7,3,0,5,8,1,7,3,3,3,3,2,,,,,2,,1,2,,,"1.23",3,3,3,3
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateStartDate",,,,,,,,,,,,,,,,,,,,,,,,,,,5,32,4,14,3,10,14,7,3,0,8,11,3,10,3,3,3,1,1,,,,,0,,1,0,,,"1.00",3,3,3,1
+Public Static Method,"org.ohmage.validator.CampaignValidators.validateXml",,,,,,,,,,,,,,,,,,,,,,,,,,,12,49,3,30,1,21,16,6,7,1,14,17,1,16,7,7,7,1,16,,,,,0,,1,0,,,"0.53",7,7,7,1
+Public Class,"org.ohmage.validator.UserCampaignValidators",4,4,4,2,40,4,16,19,1,10,10,0,,1,1,,,,1,0,2,2,0,1,0,1,,90,10,36,11,24,44,,,,19,28,12,23,,,,,,7,7,7,3,,1,3,,0,0,"1.22",8,8,8,4
+Private Constructor,"org.ohmage.validator.UserCampaignValidators.UserCampaignValidators",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"org.ohmage.validator.UserCampaignValidators.validateUserAndClassRole",,,,,,,,,,,,,,,,,,,,,,,,,,,8,76,8,32,8,23,36,12,13,1,18,25,9,22,7,7,7,3,2,,,,,2,,3,2,,,"1.12",7,7,7,3
+Public Final Class,"org.ohmage.validator.UserClassValidators",3,3,3,2,34,3,14,16,1,7,7,0,,1,1,,,,1,0,2,2,0,1,0,1,,77,9,30,10,20,38,,,,16,24,11,19,,,,,,6,6,6,3,,1,3,,0,0,"1.27",7,7,7,4
+Private Constructor,"org.ohmage.validator.UserClassValidators.UserClassValidators",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"org.ohmage.validator.UserClassValidators.validateUserAndClassRoleList",,,,,,,,,,,,,,,,,,,,,,,,,,,8,64,7,27,7,19,30,10,9,1,15,21,8,18,6,6,6,3,2,,,,,2,,3,2,,,"1.11",6,6,6,3

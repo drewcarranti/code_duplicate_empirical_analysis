@@ -1,0 +1,149 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"LongOptionNoArgumentTest.java",1,1,1,1,7,0,6,0,,,,,1,0,0,5,,5,5,0,5,,0,0,0,5,,82,17,42,20,19,23,,,,25,31,15,19,,,,,,1,1,1,1,,,0,,,,"0.55",5,5,5,5
+File,"LongOptionRequiredArgumentTest.java",1,1,1,1,8,0,7,0,,,,,1,0,0,7,,7,7,0,7,,0,0,0,7,,103,21,59,26,30,23,,,,36,44,19,30,,,,,,1,1,1,1,,,0,,,,"0.39",7,7,7,7
+File,"OptionExceptionMatchers.java",1,1,1,1,6,0,6,0,,,,,3,2,0,7,,7,5,0,7,,0,1,0,6,,67,11,33,8,17,23,,,,13,21,12,9,,,,,,1,1,1,1,,,0,,,,"0.70",7,7,7,7
+File,"OptionParserOptionExceptionTest.java",1,1,1,1,7,1,6,0,,,,,1,0,0,5,,5,5,0,5,,0,0,0,5,,78,17,38,15,18,23,,,,21,27,10,18,,,,,,1,1,1,1,,,0,,,,"0.61",5,5,5,5
+File,"OptionParserTest.java",1,1,1,1,12,1,10,0,,,,,2,0,0,17,,17,17,0,17,,0,0,0,17,,264,50,191,63,128,23,,,,134,152,44,124,,,,,,1,1,1,1,,,0,,,,"0.12",17,17,17,17
+File,"ShortOptionsOptionalArgumentTest.java",1,1,1,1,8,0,7,0,,,,,1,0,0,7,,7,7,0,7,,0,0,0,7,,103,21,59,27,29,23,,,,36,44,20,29,,,,,,1,1,1,1,,,0,,,,"0.39",7,7,7,7
+File,"ShortOptionsRequiredArgumentTest.java",1,1,1,1,8,1,7,0,,,,,1,0,0,10,,10,10,0,10,,0,0,0,10,,130,28,79,35,40,23,,,,47,58,25,40,,,,,,1,1,1,1,,,0,,,,"0.29",10,10,10,10
+File,"TypesafeOptionArgumentRetrievalTest.java",1,1,1,1,7,1,6,0,,,,,4,0,0,33,,33,33,1,33,,1,0,0,32,,319,85,211,112,113,23,,,,113,148,92,103,,,,,,1,1,1,1,,,0,,,,"0.11",33,33,33,33
+File,"UtilityClassesUninstantiabilityHarness.java",1,1,1,1,6,0,6,0,,,,,2,1,0,5,,5,4,2,5,,0,1,1,3,,76,16,37,18,15,23,,,,22,28,19,11,,,,,,1,1,1,1,,,0,,,,"0.62",5,5,5,5
+File,"WAsAbbreviationForLongOptionTest.java",1,1,1,1,7,1,6,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,64,14,27,14,10,23,,,,16,20,11,10,,,,,,1,1,1,1,,,0,,,,"0.85",3,3,3,3
+File,"WAsShortOptionTest.java",1,1,1,1,7,1,6,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,63,14,26,14,9,23,,,,15,19,11,9,,,,,,1,1,1,1,,,0,,,,"0.88",3,3,3,3
+File,"WExtensionNoArgumentTest.java",1,1,1,1,7,1,6,0,,,,,1,0,0,3,,3,3,0,3,,0,0,0,3,,65,14,28,14,11,23,,,,17,21,11,11,,,,,,1,1,1,1,,,0,,,,"0.82",3,3,3,3
+File,"WExtensionWithArgumentTest.java",1,1,1,1,8,1,7,0,,,,,1,0,0,8,,8,8,0,8,,0,0,0,8,,116,25,68,30,36,23,,,,42,51,22,36,,,,,,1,1,1,1,,,0,,,,"0.34",8,8,8,8
+Package,"joptsimple",1,1,1,1,8,1,7,0,,,,,20,3,0,,13,,110,3,113,,1,2,1,109,,1530,333,898,396,475,299,,,,537,664,311,449,,,,,,1,1,1,1,,,0,,,,"0.33",113,113,113,113
+Public Class,"joptsimple.LongOptionNoArgumentTest",1,1,1,1,7,0,6,0,1,4,4,0,,0,0,,,,5,0,5,5,0,0,0,5,,47,8,36,14,19,3,,,,19,25,9,19,,,,,,1,1,1,1,,2,0,,0,0,"0.08",5,5,5,5
+Public Method,"joptsimple.LongOptionNoArgumentTest.abbreviationIsALegalOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionNoArgumentTest.ambiguousAbbreviation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.LongOptionNoArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionNoArgumentTest.singleLongOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionNoArgumentTest.singleLongOptionAbbreviated",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.LongOptionRequiredArgumentTest",1,1,1,1,8,0,7,0,1,4,4,0,,0,0,,,,7,0,7,7,0,0,0,7,,68,12,53,20,30,3,,,,30,38,13,30,,,,,,1,1,1,1,,2,0,,0,0,"0.06",7,7,7,7
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.argumentFollowedByLegalOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.argumentMissing",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.argumentSeparate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.argumentTogether",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.LongOptionRequiredArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.shortOptionSpecifiedAsLongOptionWithArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.LongOptionRequiredArgumentTest.whenEndOfOptionsMarkerIsInPlaceOfRequiredArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,1,10,3,7,0,7,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.OptionExceptionMatchers",1,1,1,1,9,0,9,0,1,4,4,0,,2,0,,,,1,0,3,3,0,1,0,2,,36,4,29,4,17,3,,,,9,17,8,9,,,,,,1,1,1,1,,1,0,,0,0,"0.10",3,3,3,3
+Private Constructor,"joptsimple.OptionExceptionMatchers.OptionExceptionMatchers",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"joptsimple.OptionExceptionMatchers.withCauseOfType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,1,12,1,8,0,1,1,0,4,7,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.OptionExceptionMatchers.withCauseOfType.(Anon_2)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,10,1,9,0,7,0,,,,3,5,2,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"joptsimple.OptionExceptionMatchers.withCauseOfType.(Anon_2).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionExceptionMatchers.withCauseOfType.(Anon_2).matchesSafely",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"joptsimple.OptionExceptionMatchers.withOption",,,,,,,,,,,,,,,,,,,,,,,,,,,17,13,1,12,1,8,0,1,1,0,4,7,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.OptionExceptionMatchers.withOption.(Anon_1)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,10,1,9,0,7,0,,,,3,5,2,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"joptsimple.OptionExceptionMatchers.withOption.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionExceptionMatchers.withOption.(Anon_1).matchesSafely",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.OptionParserOptionExceptionTest",1,1,1,1,7,1,6,0,1,3,3,0,,0,0,,,,5,0,5,5,0,0,0,5,,47,9,35,12,18,3,,,,18,24,7,18,,,,,,1,1,1,1,,2,0,,0,0,"0.09",5,5,5,5
+Public Method,"joptsimple.OptionParserOptionExceptionTest.asteriskIsIllegalOptionCharacter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserOptionExceptionTest.illegalOptionCharacter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserOptionExceptionTest.tooManyHyphens",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserOptionExceptionTest.unrecognizedOption",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserOptionExceptionTest.valueOfWhenMultiples",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,3,5,0,6,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.OptionParserTest",1,1,1,1,12,1,10,0,1,5,5,0,,0,0,,,,17,0,17,17,0,0,0,17,,228,41,184,56,128,3,,,,127,145,37,124,,,,,,1,1,1,1,,2,0,,0,0,"0.02",17,17,17,17
+Public Method,"joptsimple.OptionParserTest.allowsEmbeddedWhitespaceInArgumentOfOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,5,5,0,6,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.allowsEmptyStringAsArgumentOfOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,7,4,4,0,6,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.allowsMixingOfOptionsAndNonOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,2,14,3,11,0,11,1,0,11,12,2,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.allowsWhitespaceyStringAsArgumentOfOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,5,5,0,6,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.disallowsMixingOfOptionsAndNonOptionsUnderPosixlyCorrect",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,2,15,3,12,0,11,1,0,12,13,2,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.doubleHyphenSignalsEndsOfOptions",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,19,4,14,0,9,1,0,13,14,2,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.OptionParserTest.doubleHyphenSignalsEndsOfOptions.(Anon_1)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,4,0,4,1,2,0,,,,1,1,0,1,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"joptsimple.OptionParserTest.longOptionLeadsWithSingleDash",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,3,6,0,7,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.longOptionLeadsWithSingleDashAmbiguous",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,2,5,0,4,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.longOptionLeadsWithSingleDashAmbiguousButAShortAcceptsAnArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,1,12,3,9,0,10,1,0,9,10,2,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.longOptionLeadsWithSingleDashAmbiguousButAShortIsIllegal",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,2,6,0,4,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.longOptionLeadsWithSingleDashAmbiguousButShortsAreLegal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,1,15,3,12,0,8,1,0,12,13,2,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.optionsAndNonOptionsInterspersed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,2,15,4,11,0,10,1,0,11,12,2,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.requiredOptionButHelpOptionPresent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,2,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.requiredOptionWithArgMissing",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,2,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.resetHappensAfterParsing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,2,9,4,6,0,4,1,0,6,7,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.shortOptionSpecifiedAsLongOptionWithoutArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.OptionParserTest.typedArguments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,2,13,3,10,0,11,1,0,10,11,2,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.ShortOptionsOptionalArgumentTest",1,1,1,1,8,0,7,0,1,4,4,0,,0,0,,,,7,0,7,7,0,0,0,7,,67,12,52,20,29,3,,,,29,37,13,29,,,,,,1,1,1,1,,2,0,,0,0,"0.06",7,7,7,7
+Public Final Method,"joptsimple.ShortOptionsOptionalArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,2,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.multipleOfSameOptionSomeWithArgsAndSomeWithout",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,3,3,0,6,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.optionWithOptionalArgumentFollowedByLegalOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,3,6,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.optionWithOptionalArgumentNotPresent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.optionWithOptionalArgumentPresent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.optionWithOptionalArgumentThatLooksLikeAValidOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,3,6,0,6,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsOptionalArgumentTest.optionWithOptionalArgumentThatLooksLikeAnInvalidOption",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.ShortOptionsRequiredArgumentTest",1,1,1,1,8,1,7,0,1,4,4,0,,0,0,,,,10,0,10,10,0,0,0,10,,94,19,72,28,40,3,,,,40,51,18,40,,,,,,1,1,1,1,,2,0,,0,0,"0.04",10,10,10,10
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.appearingMultipleTimes",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.argumentNotPresent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.argumentNotPresentFollowedByAnotherOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.clusteredOptionsWithLastOneAcceptingAnArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,4,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.clusteredOptionsWithLastOneAcceptingAnArgumentButMissing",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.clusteredOptionsWithOneAcceptingAnArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,3,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.inSameToken",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.ShortOptionsRequiredArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,4,0,3,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.whenEndOfOptionsMarkerIsInPlaceOfRequiredArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.ShortOptionsRequiredArgumentTest.withArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.TypesafeOptionArgumentRetrievalTest",1,1,1,1,10,2,8,0,1,16,16,0,,0,0,,,,22,0,22,22,0,0,0,22,,280,75,202,103,113,3,,,,104,139,83,103,,,,,,1,1,1,1,,2,0,,0,0,"0.01",22,22,22,22
+Private Static Generic Class,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec",1,1,1,1,3,0,3,0,2,4,4,0,,0,0,,,,5,1,5,5,1,0,0,4,,23,5,18,7,5,0,,,,6,12,7,5,,,,,,1,1,1,1,,1,0,,60,60,"0.00",5,5,5,5
+Constructor,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.FakeOptionSpec",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.V",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.isForHelp",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.options",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.FakeOptionSpec.values",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.canSubvertTypeSafetyIfYouGiveAnOptionSpecToOptionSetAsTheWrongType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,6,4,0,6,1,0,4,5,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.canSubvertTypeSafetyIfYouUseAnOptionSpecAsTheWrongType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,6,4,0,5,1,0,4,5,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.canUseBooleanType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,2,6,4,3,0,6,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.cannotFoolHasArgumentWithAnOptionNotIssuedFromBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,7,4,4,0,6,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.cannotFoolHasWithAnOptionNotIssuedFromBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,2,6,3,3,0,5,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.cannotFoolValueOfWithAnOptionNotIssuedFromBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,2,6,3,3,0,6,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.cannotFoolValuesOfWithAnOptionNotIssuedFromBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,2,6,3,3,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveBooleanAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,9,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveByteAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,10,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveCharAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveDoubleAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,9,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveFloatAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,9,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveIntAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,9,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveLongAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,9,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.primitiveShortAllowedAsTypeSpecifier",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,2,7,4,4,0,10,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.retrievalOfTypedOptionalArgumentsInATypesafeManner",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,2,8,4,5,0,11,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.retrievalOfTypedRequiredArgumentsInATypesafeManner",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,3,14,8,11,0,12,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.retrievalOfUntypedOptionalArgumentsInATypesafeManner",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,2,10,6,7,0,9,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.retrievalOfUntypedRequiredArgumentsInATypesafeManner",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,7,4,4,0,8,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.retrievalWithVoidOption",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,2,7,4,4,0,7,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.usesConverterIfProvided",,,,,,,,,,,,,,,,,,,,,,,,,,,1,21,4,17,5,11,0,6,1,0,6,10,6,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.TypesafeOptionArgumentRetrievalTest.usesConverterIfProvided.(Anon_1)",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,3,0,3,3,0,0,0,3,,12,2,10,0,7,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.usesConverterIfProvided.(Anon_1).convert",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.usesConverterIfProvided.(Anon_1).valuePattern",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.usesConverterIfProvided.(Anon_1).valueType",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.wrapsValueConversionExceptionsRaisedByConverter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,5,19,5,13,0,7,1,0,8,12,6,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.TypesafeOptionArgumentRetrievalTest.wrapsValueConversionExceptionsRaisedByConverter.(Anon_2)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,3,0,3,3,0,0,0,3,,12,2,10,0,7,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",3,3,3,3
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.wrapsValueConversionExceptionsRaisedByConverter.(Anon_2).convert",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.wrapsValueConversionExceptionsRaisedByConverter.(Anon_2).valuePattern",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.TypesafeOptionArgumentRetrievalTest.wrapsValueConversionExceptionsRaisedByConverter.(Anon_2).valueType",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"joptsimple.UtilityClassesUninstantiabilityHarness",1,1,1,1,8,1,7,0,1,8,8,0,,1,0,,,,2,2,3,3,0,1,1,1,,37,7,27,8,15,3,,,,12,18,9,11,,,,,,1,1,1,1,,1,0,,50,50,"0.11",3,3,3,3
+Protected Constructor,"joptsimple.UtilityClassesUninstantiabilityHarness.UtilityClassesUninstantiabilityHarness",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.UtilityClassesUninstantiabilityHarness.attemptToInstantiate",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,2,8,3,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"joptsimple.UtilityClassesUninstantiabilityHarness.causeOfType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,1,12,1,8,0,1,1,0,4,7,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"joptsimple.UtilityClassesUninstantiabilityHarness.causeOfType.(Anon_1)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,0,2,2,0,0,0,2,,10,1,9,0,7,0,,,,3,5,2,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Method,"joptsimple.UtilityClassesUninstantiabilityHarness.causeOfType.(Anon_1).describeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.UtilityClassesUninstantiabilityHarness.causeOfType.(Anon_1).matchesSafely",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.WAsAbbreviationForLongOptionTest",1,1,1,1,7,1,6,0,1,4,4,0,,0,0,,,,3,0,3,3,0,0,0,3,,29,5,21,8,10,3,,,,10,14,5,10,,,,,,1,1,1,1,,2,0,,0,0,"0.14",3,3,3,3
+Public Method,"joptsimple.WAsAbbreviationForLongOptionTest.abbreviation",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.WAsAbbreviationForLongOptionTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WAsAbbreviationForLongOptionTest.recognizeLongOptionsTrumpsLongOptionAbbreviation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.WAsShortOptionTest",1,1,1,1,7,1,6,0,1,4,4,0,,0,0,,,,3,0,3,3,0,0,0,3,,28,5,20,8,9,3,,,,9,13,5,9,,,,,,1,1,1,1,,2,0,,0,0,"0.15",3,3,3,3
+Public Final Method,"joptsimple.WAsShortOptionTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WAsShortOptionTest.recognizeLongOptionsTrumpsShortOptionW",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WAsShortOptionTest.wIsLegal",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,3,4,0,7,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.WExtensionNoArgumentTest",1,1,1,1,7,1,6,0,1,4,4,0,,0,0,,,,3,0,3,3,0,0,0,3,,30,5,22,8,11,3,,,,11,15,5,11,,,,,,1,1,1,1,,2,0,,0,0,"0.14",3,3,3,3
+Public Final Method,"joptsimple.WExtensionNoArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionNoArgumentTest.turnOffWExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,2,7,2,4,0,4,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionNoArgumentTest.wExtensionWithLongOptionWithoutAnArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"joptsimple.WExtensionWithArgumentTest",1,1,1,1,8,1,7,0,1,6,6,0,,0,0,,,,8,0,8,8,0,0,0,8,,81,16,62,24,36,3,,,,36,45,16,36,,,,,,1,1,1,1,,2,0,,0,0,"0.05",8,8,8,8
+Public Method,"joptsimple.WExtensionWithArgumentTest.abbreviationWithTogetherArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,9,3,6,0,8,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.illegalLongOption",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"joptsimple.WExtensionWithArgumentTest.initializeParser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.noMoreArguments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,1,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.separateArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.togetherArgument",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,1,8,3,5,0,8,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.typedSeparateArg",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,2,9,4,6,0,11,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"joptsimple.WExtensionWithArgumentTest.typedTogetherArg",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,2,9,4,6,0,11,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

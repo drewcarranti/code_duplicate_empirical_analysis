@@ -1,0 +1,61 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DataFile.java",1,1,1,1,2,0,2,0,,,,,1,0,0,36,,36,36,17,36,,0,0,0,36,,204,54,146,78,35,4,,,,60,97,62,35,,,,,,1,1,1,1,,,0,,,,"0.03",36,36,36,36
+File,"DataFileFormController.java",2,2,3,1,40,9,28,3,,,,,1,0,0,2,,2,2,1,2,,0,0,2,0,,136,31,88,49,47,17,,,,66,72,46,38,,,,,,3,3,4,1,,,2,,,,"0.19",5,5,6,2
+File,"DataFileLoader.java",9,7,10,1,60,11,44,5,,,,,1,0,0,5,,5,5,1,5,,0,0,0,5,,399,77,247,64,180,75,,,,156,197,71,153,,,,,,31,18,32,1,,,7,,,,"0.30",49,36,50,5
+File,"OzTrackUtil.java",3,3,3,1,34,6,28,0,,,,,1,2,1,2,,2,0,0,2,,0,0,0,2,,101,22,74,34,44,5,,,,55,63,34,41,,,,,,6,6,6,1,,,3,,,,"0.07",7,7,7,2
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.oztrack",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.oztrack.controller",2,2,3,1,40,9,28,3,,,,,1,0,0,,1,,2,1,2,,0,0,2,0,,136,31,88,49,47,17,,,,66,72,46,38,,,,,,3,3,4,1,,,2,,,,"0.19",5,5,6,2
+Public Class,"org.oztrack.controller.DataFileFormController",2,2,3,1,40,9,28,3,1,20,20,0,,0,0,,,,2,1,2,2,0,0,2,0,,100,24,59,20,47,17,,,,37,43,17,38,,,,,,3,3,4,1,,2,2,,50,50,"0.29",5,5,6,2
+Protected Method,"org.oztrack.controller.DataFileFormController.formBackingObject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,3,13,5,8,0,9,2,0,7,9,4,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.oztrack.controller.DataFileFormController.onSubmit",,,,,,,,,,,,,,,,,,,,,,,,,,,7,65,15,43,13,38,7,40,3,0,29,32,11,30,3,3,4,1,2,,,,,0,,2,0,,,"0.16",3,3,4,1
+Package,"org.oztrack.data",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.oztrack.data.loader",9,7,10,1,60,11,44,5,,,,,1,0,0,,1,,5,1,5,,0,0,0,5,,399,77,247,64,180,75,,,,156,197,71,153,,,,,,31,18,32,1,,,7,,,,"0.30",49,36,50,5
+Public Class,"org.oztrack.data.loader.DataFileLoader",9,7,10,1,60,11,44,5,1,34,34,0,,0,0,,,,5,1,5,5,0,0,0,5,,320,61,225,43,180,34,,,,135,176,50,153,,,,,,31,18,32,1,,1,7,,60,40,"0.15",49,36,50,5
+Public Method,"org.oztrack.data.loader.DataFileLoader.checkAnimalsExist",,,,,,,,,,,,,,,,,,,,,,,,,,,2,42,7,27,8,19,8,17,7,1,17,24,10,19,5,5,5,1,0,,,,,0,,3,0,,,"0.30",5,5,5,1
+Public Method,"org.oztrack.data.loader.DataFileLoader.checkReceiversExist",,,,,,,,,,,,,,,,,,,,,,,,,,,2,31,4,24,8,17,3,15,7,1,15,22,10,17,5,5,5,1,0,,,,,0,,3,0,,,"0.12",5,5,5,1
+Public Method,"org.oztrack.data.loader.DataFileLoader.processNext",,,,,,,,,,,,,,,,,,,,,,,,,,,7,61,17,38,5,32,6,27,6,1,22,28,5,26,7,7,7,1,3,,,,,0,,4,0,,,"0.16",7,7,7,1
+Public Method,"org.oztrack.data.loader.DataFileLoader.processRawAcoustic",,,,,,,,,,,,,,,,,,,,,,,,,,,20,166,27,131,19,110,8,43,700,3,79,98,22,89,31,18,32,1,111,,,,,0,,7,0,,,"0.06",31,18,32,1
+Public Method,"org.oztrack.data.loader.DataFileLoader.processRawPositionFix",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.oztrack.data.model",1,1,1,1,2,0,2,0,,,,,1,0,0,,1,,36,17,36,,0,0,0,36,,204,54,146,78,35,4,,,,60,97,62,35,,,,,,1,1,1,1,,,0,,,,"0.03",36,36,36,36
+Public Class,"org.oztrack.data.model.DataFile",1,1,1,1,2,0,2,0,2,18,18,0,,0,0,,,,36,17,36,36,0,0,0,36,,190,48,138,70,35,4,,,,52,89,54,35,,,,,,1,1,1,1,,1,0,,94,94,"0.03",36,36,36,36
+Public Constructor,"org.oztrack.data.model.DataFile.DataFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.oztrack.data.model.DataFile.DataFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getDataFileType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getFileDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getId",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getLocalTimeConversionHours",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getLocalTimeConversionRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getMaxDetectionDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getMinDetectionDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getNumberDetections",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getOzTrackFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getProject",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getStatusMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getUploadDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getUploadUser",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.getUserGivenFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setContentType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setDataFileType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setFile",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setFileDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setId",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setLocalTimeConversionHours",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setLocalTimeConversionRequired",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setMaxDetectionDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setMinDetectionDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setNumberDetections",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setOzTrackFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setProject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setStatus",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setStatusMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setUploadDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setUploadUser",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.oztrack.data.model.DataFile.setUserGivenFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.oztrack.util",3,3,3,1,34,6,28,0,,,,,1,2,1,,1,,0,0,2,,0,0,0,2,,101,22,74,34,44,5,,,,55,63,34,41,,,,,,6,6,6,1,,,3,,,,"0.07",7,7,7,2
+Public Class,"org.oztrack.util.OzTrackUtil",3,3,3,1,34,6,28,0,1,22,22,0,,2,1,,,,0,0,2,2,0,0,0,2,,83,19,59,19,44,5,,,,40,48,19,41,,,,,,6,6,6,1,,1,3,,50,50,"0.08",7,7,7,2
+Public Static Method,"org.oztrack.util.OzTrackUtil.removeDuplicateLinesFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,54,12,42,12,31,0,9,16,1,27,33,12,28,6,6,6,1,3,,,,,0,,3,0,,,"0.00",6,6,6,1
+Public Static Method,"org.oztrack.util.OzTrackUtil.sendEmail",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,0,14,5,12,0,11,1,0,12,13,5,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

@@ -1,0 +1,23 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ClassDaos.java",4,4,4,1,41,2,26,12,,,,,5,6,13,13,,13,7,4,13,,0,2,0,11,,736,67,476,90,326,193,,,,153,226,87,156,,,,,,38,38,40,1,,,9,,,,"0.41",62,62,64,13
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.ohmage.dao",4,4,4,1,41,2,26,12,,,,,5,6,13,,1,,7,4,13,,0,2,0,11,,736,67,476,90,326,193,,,,153,226,87,156,,,,,,38,38,40,1,,,9,,,,"0.41",62,62,64,13
+Public Class,"org.ohmage.dao.ClassDaos",8,8,8,1,69,5,45,19,1,19,19,0,,6,13,,,,1,0,7,7,0,1,0,6,,714,63,458,73,326,193,,,,136,209,70,156,,,,,,38,38,40,1,,2,9,,0,0,"0.42",56,56,58,7
+Private Constructor,"org.ohmage.dao.ClassDaos.ClassDaos",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,1,4,1,2,5,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Private Static Final Class,"org.ohmage.dao.ClassDaos.ClassInformationAndUserRole",1,1,1,1,12,0,4,8,1,2,2,0,,0,0,,,,1,2,1,1,0,1,0,0,,23,1,8,4,2,14,,,,4,6,4,2,,,,,,1,1,1,1,,1,0,,0,0,"1.75",1,1,1,1
+Private Constructor,"org.ohmage.dao.ClassDaos.ClassInformationAndUserRole.ClassInformationAndUserRole",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,0,4,1,2,8,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Final Class,"org.ohmage.dao.ClassDaos.UserAndClassRole",1,1,1,1,9,0,3,5,1,1,1,0,,0,0,,,,3,2,3,3,0,0,0,3,,39,3,14,6,4,22,,,,6,10,6,4,,,,,,1,1,1,1,,1,0,,33,33,"1.57",3,3,3,3
+Public Constructor,"org.ohmage.dao.ClassDaos.UserAndClassRole.UserAndClassRole",,,,,,,,,,,,,,,,,,,,,,,,,,,3,11,0,4,1,2,7,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.ohmage.dao.ClassDaos.UserAndClassRole.getRole",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.ohmage.dao.ClassDaos.UserAndClassRole.getUsername",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"org.ohmage.dao.ClassDaos.createClass",,,,,,,,,,,,,,,,,,,,,,,,,,,8,46,3,26,4,18,17,7,5,1,11,15,4,14,4,4,4,1,3,,,,,0,,2,0,,,"0.65",4,4,4,1
+Public Static Method,"org.ohmage.dao.ClassDaos.deleteClass",,,,,,,,,,,,,,,,,,,,,,,,,,,6,36,3,25,4,17,8,7,5,1,11,15,4,14,4,4,4,1,3,,,,,0,,2,0,,,"0.32",4,4,4,1
+Public Static Method,"org.ohmage.dao.ClassDaos.getClassExists",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,8,1,4,7,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.88",2,2,2,1
+Public Static Method,"org.ohmage.dao.ClassDaos.getClassesInformation",,,,,,,,,,,,,,,,,,,,,,,,,,,10,64,7,39,10,29,18,7,5,1,14,21,11,15,5,5,5,1,1,,,,,0,,1,0,,,"0.46",5,5,5,1
+Anonymous Class,"org.ohmage.dao.ClassDaos.getClassesInformation.(Anon_1)",1,1,1,1,11,0,11,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,13,0,13,2,11,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.ohmage.dao.ClassDaos.getClassesInformation.(Anon_1).mapRow",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,2,10,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.ohmage.dao.ClassDaos.getUserRolePairs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,24,0,16,1,11,8,3,2,0,3,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.50",2,2,2,1
+Anonymous Class,"org.ohmage.dao.ClassDaos.getUserRolePairs.(Anon_2)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.ohmage.dao.ClassDaos.getUserRolePairs.(Anon_2).mapRow",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"org.ohmage.dao.ClassDaos.updateClass",,,,,,,,,,,,,,,,,,,,,,,,,,,34,293,23,200,16,135,70,17,2524393,6,70,115,23,98,38,38,40,1,20,,,,,0,,9,0,,,"0.35",38,38,40,1

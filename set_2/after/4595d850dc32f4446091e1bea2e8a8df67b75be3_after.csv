@@ -1,0 +1,24 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"NekoHTMLParser.java",2,2,3,1,15,1,12,1,,,,,3,0,0,16,,16,16,8,16,,1,5,0,10,,325,45,241,81,120,44,,,,98,141,70,88,,,,,,7,7,9,6,,,4,,,,"0.18",40,40,48,21
+Package,"iudex",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"iudex.html",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"iudex.html.neko",2,2,3,1,15,1,12,1,,,,,3,0,0,,1,,16,8,16,,1,5,0,10,,325,45,241,81,120,44,,,,98,141,70,88,,,,,,7,7,9,6,,,4,,,,"0.18",40,40,48,21
+Public Class,"iudex.html.neko.NekoHTMLParser",2,2,2,1,19,2,15,3,1,13,13,0,,0,0,,,,5,2,5,5,1,1,0,3,,280,38,218,58,120,29,,,,75,118,47,88,,,,,,5,5,5,1,,1,2,,70,60,"0.13",12,12,12,5
+Final Class,"iudex.html.neko.NekoHTMLParser.HTMLHandler",2,2,3,1,15,1,12,1,1,19,19,0,,0,0,,,,9,5,9,9,0,3,0,6,,156,21,124,35,67,11,,,,44,71,27,55,,,,,,7,7,9,6,,2,4,,75,64,"0.09",26,26,34,14
+Public Constructor,"iudex.html.neko.NekoHTMLParser.HTMLHandler.HTMLHandler",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,4,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.bufferToChars",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,8,1,4,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.characters",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,2,4,0,2,3,0,2,5,1,4,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.copyAttributes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,32,5,25,9,15,2,9,9,1,13,20,7,17,7,7,7,6,3,,,,,3,,4,3,,,"0.08",7,7,7,6
+Public Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.endDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,5,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.20",1,1,1,1
+Public Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.endElement",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,2,5,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.root",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,10,2,6,4,6,2,0,3,5,2,4,2,2,4,1,1,,,,,0,,1,0,,,"0.40",2,2,4,1
+Public Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.startElement",,,,,,,,,,,,,,,,,,,,,,,,,,,8,34,5,29,6,19,0,11,9,1,10,15,4,14,5,5,9,1,2,,,,,0,,2,0,,,"0.00",5,5,9,1
+Private Method,"iudex.html.neko.NekoHTMLParser.HTMLHandler.throwOnCharsetChange",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,1,13,3,8,0,8,3,0,4,7,3,6,3,3,5,1,0,,,,,0,,2,0,,,"0.00",3,3,5,1
+Static Final Class,"iudex.html.neko.NekoHTMLParser.WrongEncoding",1,1,1,1,4,0,4,0,1,1,1,0,,0,0,,,,2,1,2,2,0,1,0,1,,13,0,13,5,2,0,,,,3,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Private Constructor,"iudex.html.neko.NekoHTMLParser.WrongEncoding.WrongEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"iudex.html.neko.NekoHTMLParser.WrongEncoding.newEncoding",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"iudex.html.neko.NekoHTMLParser.expand",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,3,8,0,6,3,0,4,7,3,6,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Final Method,"iudex.html.neko.NekoHTMLParser.parse",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,3,6,0,3,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Final Method,"iudex.html.neko.NekoHTMLParser.parseInner",,,,,,,,,,,,,,,,,,,,,,,,,,,4,61,10,43,7,33,13,11,10,1,16,21,6,19,5,5,5,1,2,,,,,0,,2,0,,,"0.30",5,5,5,1
+Public Final Method,"iudex.html.neko.NekoHTMLParser.setParseAsFragment",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Final Method,"iudex.html.neko.NekoHTMLParser.setSkipBanned",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

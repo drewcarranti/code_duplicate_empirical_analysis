@@ -1,0 +1,34 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"InsertMode.java",4,4,5,1,24,0,21,2,,,,,7,1,14,20,,20,19,8,20,,0,5,2,13,,599,43,501,163,315,56,,,,266,359,157,245,,,,,,25,25,33,11,,,5,,,,"0.11",90,87,106,34
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sourceforge",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sourceforge.vrapper",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sourceforge.vrapper.vim",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.sourceforge.vrapper.vim.modes",4,4,5,1,24,0,21,2,,,,,7,1,14,,1,,19,8,20,,0,5,2,13,,599,43,501,163,315,56,,,,266,359,157,245,,,,,,25,25,33,11,,,5,,,,"0.11",90,87,106,34
+Public Class,"net.sourceforge.vrapper.vim.modes.InsertMode",5,5,6,1,29,0,25,3,1,58,58,0,,1,14,,,,14,7,15,15,0,5,2,8,,536,41,440,102,315,56,,,,205,298,96,245,,,,,,25,25,33,11,,2,5,,83,79,"0.13",84,81,100,29
+Anonymous Class,"net.sourceforge.vrapper.vim.modes.InsertMode.(Anon_1)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"net.sourceforge.vrapper.vim.modes.InsertMode.(Anon_2)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Anonymous Class,"net.sourceforge.vrapper.vim.modes.InsertMode.(Anon_3)",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Constructor,"net.sourceforge.vrapper.vim.modes.InsertMode.InsertMode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"net.sourceforge.vrapper.vim.modes.InsertMode.MoveRightOverLineBreak",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,2,1,2,2,0,0,0,2,,16,3,13,7,3,0,,,,3,6,4,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"net.sourceforge.vrapper.vim.modes.InsertMode.MoveRightOverLineBreak.MoveRightOverLineBreak",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.MoveRightOverLineBreak.execute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,3,2,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Class,"net.sourceforge.vrapper.vim.modes.InsertMode.SimpleInsertCommandSequence",1,1,1,1,9,0,9,0,1,2,2,0,,0,0,,,,2,0,2,2,0,0,0,2,,24,4,20,5,11,0,,,,8,13,6,8,,,,,,1,1,1,1,,2,0,,0,0,"0.00",2,2,2,2
+Public Constructor,"net.sourceforge.vrapper.vim.modes.InsertMode.SimpleInsertCommandSequence.SimpleInsertCommandSequence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.SimpleInsertCommandSequence.withCount",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,1,15,3,10,0,1,1,0,7,10,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"net.sourceforge.vrapper.vim.modes.InsertMode.SimpleInsertCommandSequence.withCount.(Anon_4)",2,2,2,1,10,0,10,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,12,1,11,1,9,0,,,,6,8,3,6,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.SimpleInsertCommandSequence.withCount.(Anon_4).execute",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,1,8,0,4,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"net.sourceforge.vrapper.vim.modes.InsertMode.allowed",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,7,2,4,6,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.86",2,2,2,1
+Protected Method,"net.sourceforge.vrapper.vim.modes.InsertMode.buildState",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,0,19,3,15,1,9,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.05",2,2,2,1
+Public Static Method,"net.sourceforge.vrapper.vim.modes.InsertMode.createRepetition",,,,,,,,,,,,,,,,,,,,,,,,,,,8,30,2,25,6,18,3,5,8,1,9,13,5,9,4,4,4,1,1,,,,,0,,1,0,,,"0.12",4,4,4,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.enterMode",,,,,,,,,,,,,,,,,,,,,,,,,,,8,68,4,57,6,42,8,26,156,2,27,42,7,36,13,13,16,1,3,,,,,0,,5,0,,,"0.14",13,13,16,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.getDisplayName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.handleKey",,,,,,,,,,,,,,,,,,,,,,,,,,,30,114,0,106,12,86,8,44,90,2,52,77,11,73,25,25,33,11,17,,,,,12,,4,12,,,"0.08",25,25,33,11
+Protected Method,"net.sourceforge.vrapper.vim.modes.InsertMode.handleVirtualInsert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Private Method,"net.sourceforge.vrapper.vim.modes.InsertMode.handleVirtualStroke",,,,,,,,,,,,,,,,,,,,,,,,,,,14,52,0,52,8,41,0,22,16,1,26,35,8,31,12,9,15,1,16,,,,,0,,3,0,,,"0.00",12,9,15,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.leaveMode",,,,,,,,,,,,,,,,,,,,,,,,,,,8,38,0,34,4,24,4,19,38,2,13,23,4,20,8,8,8,3,4,,,,,4,,3,3,,,"0.12",8,8,8,3
+Private Method,"net.sourceforge.vrapper.vim.modes.InsertMode.repeatInsert",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,1,7,0,7,3,0,2,5,1,4,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"net.sourceforge.vrapper.vim.modes.InsertMode.resolveKeyMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"net.sourceforge.vrapper.vim.modes.InsertMode.saveTypedText",,,,,,,,,,,,,,,,,,,,,,,,,,,10,34,2,27,10,22,5,22,4,1,16,20,10,19,5,5,7,1,1,,,,,0,,2,0,,,"0.19",5,5,7,1
+Private Method,"net.sourceforge.vrapper.vim.modes.InsertMode.softTabDelete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,44,5,28,8,21,11,15,9,1,17,22,9,19,5,5,5,3,4,,,,,3,,2,2,,,"0.39",5,5,5,3

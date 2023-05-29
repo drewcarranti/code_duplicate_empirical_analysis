@@ -1,0 +1,90 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Map2dTree.java",2,2,2,1,13,4,9,0,,,,,5,1,1,12,,14,13,8,14,,2,1,3,8,,233,80,140,54,68,14,,,,69,104,54,54,,,,,,8,8,9,3,,,3,,,,"0.10",27,27,29,14
+File,"Map2dTreeDebugView.java",1,1,1,1,13,3,10,0,,,,,2,0,0,6,,6,6,1,6,,0,1,0,5,,106,32,74,25,41,0,,,,23,34,18,17,,,,,,3,3,3,1,,,2,,,,"0.00",9,9,9,6
+File,"MapDataIndex.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,1,1,0,1,,0,0,0,1,,13,4,5,4,0,4,,,,3,4,4,0,,,,,,0,0,0,0,,,0,,,,"0.80",0,0,0,0
+File,"MapIntersectionGrid.java",1,1,1,1,8,1,6,0,,,,,1,0,0,2,,2,2,1,2,,0,0,0,2,,30,10,20,9,7,0,,,,8,13,9,4,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"MapQuadtree.java",2,2,2,1,12,2,9,0,,,,,5,0,1,16,,19,19,9,19,,15,0,0,4,,268,76,176,62,88,17,,,,92,135,62,78,,,,,,8,8,10,8,,,3,,,,"0.10",36,36,41,30
+File,"OSMToMapDataConverter.java",7,7,8,3,52,16,29,6,,,,,2,5,1,10,,10,5,2,10,,0,7,0,3,,575,177,335,114,201,63,,,,160,255,124,165,,,,,,16,16,19,7,,,5,,,,"0.19",70,70,84,30
+File,"QuadtreeDebugView.java",2,2,2,1,21,5,15,0,,,,,1,0,4,4,,4,4,2,4,,0,0,0,4,,118,33,83,43,47,2,,,,43,57,36,30,,,,,,8,8,8,1,,,4,,,,"0.02",11,11,11,4
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world.core.map_data",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world.core.map_data.creation",7,7,8,3,52,16,29,6,,,,,2,5,1,,1,,5,2,10,,0,7,0,3,,575,177,335,114,201,63,,,,160,255,124,165,,,,,,16,16,19,7,,,5,,,,"0.19",70,70,84,30
+Public Class,"org.osm2world.core.map_data.creation.OSMToMapDataConverter",7,7,8,3,56,17,31,6,1,40,40,0,,5,1,,,,4,2,9,9,0,7,0,2,,526,173,290,69,201,63,,,,115,210,79,165,,,,,,16,16,19,7,,1,5,,77,66,"0.22",65,65,79,29
+Public Constructor,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.OSMToMapDataConverter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.addOverlapBetween",,,,,,,,,,,,,,,,,,,,,,,,,,,3,28,8,15,6,10,5,6,3,0,5,8,3,7,3,3,3,1,1,,,,,0,,1,0,,,"0.33",3,3,3,1
+Private Static Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.addOverlapBetween",,,,,,,,,,,,,,,,,,,,,,,,,,,8,110,37,57,15,40,16,17,41,2,25,38,14,32,11,11,15,6,6,,,,,6,,4,6,,,"0.28",11,11,15,6
+Private Static Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.addOverlapBetween",,,,,,,,,,,,,,,,,,,,,,,,,,,6,102,26,62,15,44,14,12,1009,3,28,49,19,37,15,15,17,6,10,,,,,10,,3,7,,,"0.23",15,15,17,6
+Private Static Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.addOverlapBetween",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,6,7,3,3,1,4,2,0,2,4,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.14",2,2,2,1
+Private Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.calculateFileBoundary",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,6,15,3,10,0,8,4,1,7,11,3,9,3,3,3,1,1,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Static Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.calculateIntersectionsInMapData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,68,25,35,2,27,8,8,45,2,9,26,6,21,13,13,19,7,9,,,,,9,,5,4,,,"0.23",13,13,19,7
+Public Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.createMapData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,6,10,6,8,0,5,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.createMapElements",,,,,,,,,,,,,,,,,,,,,,,,,,,16,142,45,81,14,56,16,24,960,3,28,60,22,46,16,16,18,5,4,,,,,4,,5,2,,,"0.20",16,16,18,5
+Anonymous Class,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.createMapElements.(Anon_1)",5,5,5,1,22,8,14,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,8,15,0,10,0,,,,3,10,3,7,,,,,,5,5,5,1,,2,3,,0,0,"0.00",5,5,5,1
+Public Method,"org.osm2world.core.map_data.creation.OSMToMapDataConverter.createMapElements.(Anon_1).perform",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,8,14,0,9,0,7,6,1,3,10,3,7,5,5,5,1,0,,,,,0,,3,0,,,"0.00",5,5,5,1
+Package,"org.osm2world.core.map_data.creation.index",2,2,2,1,12,3,9,0,,,,,12,1,2,,4,,35,18,36,,17,1,3,15,,544,170,341,129,163,35,,,,172,256,129,136,,,,,,8,8,10,8,,,3,,,,"0.10",66,66,73,46
+Public Class,"org.osm2world.core.map_data.creation.index.Map2dTree",1,1,1,1,13,5,8,0,2,13,13,1,,1,1,,,,2,1,3,3,0,0,1,2,,215,76,126,40,68,14,,,,55,90,40,54,,,,,,3,3,3,3,,1,1,,33,33,"0.11",5,5,5,5
+Protected Static Class,"org.osm2world.core.map_data.creation.index.Map2dTree.InnerNode",3,3,4,1,24,7,15,1,2,8,8,0,,0,0,,,,4,4,4,4,0,1,1,2,,109,38,67,17,42,4,,,,31,51,20,33,,,,,,8,8,9,1,,1,3,,18,12,"0.06",15,15,16,4
+Protected Constructor,"org.osm2world.core.map_data.creation.index.Map2dTree.InnerNode.InnerNode",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,3,6,1,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.InnerNode.add",,,,,,,,,,,,,,,,,,,,,,,,,,,9,32,11,21,5,14,0,3,12,1,9,15,5,11,5,5,5,1,1,,,,,0,,2,0,,,"0.00",5,5,5,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.InnerNode.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.osm2world.core.map_data.creation.index.Map2dTree.InnerNode.trySplitLeaf",,,,,,,,,,,,,,,,,,,,,,,,,,,6,51,17,30,5,22,4,7,32,2,12,23,8,16,8,8,9,1,3,,,,,0,,3,0,,,"0.13",8,8,9,1
+Protected Static Class,"org.osm2world.core.map_data.creation.index.Map2dTree.Leaf",1,1,1,1,6,1,5,0,3,8,8,0,,0,0,,,,4,3,4,4,0,0,1,3,,38,11,27,11,10,0,,,,10,17,8,9,,,,,,3,3,4,1,,1,1,,50,50,"0.00",6,6,7,4
+Protected Constructor,"org.osm2world.core.map_data.creation.index.Map2dTree.Leaf.Leaf",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Leaf.add",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,4,10,2,5,0,3,4,1,3,6,1,5,3,3,4,1,0,,,,,0,,1,0,,,"0.00",3,3,4,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Leaf.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Leaf.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.osm2world.core.map_data.creation.index.Map2dTree.Map2dTree",,,,,,,,,,,,,,,,,,,,,,,,,,,5,12,3,9,2,6,0,6,1,0,4,6,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.osm2world.core.map_data.creation.index.Map2dTree.Map2dTree.(Anon_1)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Map2dTree.(Anon_1).perform",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Interface,"org.osm2world.core.map_data.creation.index.Map2dTree.Node",0,0,0,0,0,0,0,0,0,2,2,2,,0,0,,,,2,0,2,2,2,0,0,0,,8,3,4,3,0,1,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.25",0,0,0,0
+Abstract Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Node.add",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.osm2world.core.map_data.creation.index.Map2dTree.Node.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Public Method,"org.osm2world.core.map_data.creation.index.Map2dTree.getLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,4,6,3,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Static Method,"org.osm2world.core.map_data.creation.index.Map2dTree.getMapNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,3,17,8,9,1,6,1,4,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.11",3,3,3,3
+Public Interface,"org.osm2world.core.map_data.creation.index.MapDataIndex",0,0,0,0,0,0,0,0,0,1,1,3,,0,0,,,,1,0,1,1,0,0,0,1,,5,2,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"org.osm2world.core.map_data.creation.index.MapDataIndex.getLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"org.osm2world.core.map_data.creation.index.MapIntersectionGrid",1,1,1,1,8,1,6,0,2,5,5,0,,0,0,,,,2,1,2,2,0,0,0,2,,23,7,16,5,7,0,,,,4,9,5,4,,,,,,2,2,2,1,,1,1,,0,0,"0.00",3,3,3,2
+Public Constructor,"org.osm2world.core.map_data.creation.index.MapIntersectionGrid.MapIntersectionGrid",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,3,9,1,6,0,7,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.osm2world.core.map_data.creation.index.MapIntersectionGrid.getLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.osm2world.core.map_data.creation.index.MapQuadtree",1,1,1,1,11,3,8,0,2,7,7,0,,0,1,,,,2,1,2,2,0,0,0,2,,251,73,162,48,88,17,,,,78,121,48,78,,,,,,1,1,1,1,,1,0,,0,0,"0.10",2,2,2,2
+Public Constructor,"org.osm2world.core.map_data.creation.index.MapQuadtree.MapQuadtree",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,3,10,1,7,0,6,1,0,3,5,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"org.osm2world.core.map_data.creation.index.MapQuadtree.MapQuadtree.(Anon_1)",1,1,1,1,3,0,3,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,4,0,4,0,3,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.MapQuadtree.(Anon_1).perform",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,0,2,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Class,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode",3,3,3,2,14,2,11,0,1,6,6,0,,0,0,,,,5,1,5,11,5,0,0,0,,85,21,60,15,33,4,,,,31,50,18,33,,,,,,8,8,8,8,,2,3,,19,0,"0.07",16,16,16,12
+Constructor,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode.QuadInnerNode",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,4,10,3,8,0,4,1,0,8,9,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode.add",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,8,2,3,1,2,3,0,3,6,2,4,3,3,3,1,0,,,,,0,,2,0,,,"0.12",3,3,3,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode.addAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,2,0,1,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadInnerNode.trySplitLeaf",,,,,,,,,,,,,,,,,,,,,,,,,,,9,40,10,28,5,18,2,4,28,1,15,24,7,18,8,8,8,8,8,,,,,8,,3,8,,,"0.07",8,8,8,8
+Public Static Class,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf",1,1,1,1,8,1,5,0,2,8,8,0,,0,0,,,,5,2,5,11,4,0,0,1,,51,16,31,12,11,4,,,,11,19,8,11,,,,,,2,2,2,1,,2,1,,30,30,"0.13",7,7,7,5
+Constructor,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf.QuadLeaf",,,,,,,,,,,,,,,,,,,,,,,,,,,7,8,3,5,1,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf.add",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,3,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf.addAll",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,3,7,2,3,4,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.57",2,2,2,1
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadLeaf.iterator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Static Abstract Class,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode",3,3,5,3,19,4,14,1,1,9,9,2,,0,0,,,,6,5,6,6,6,0,0,0,,76,21,51,14,33,5,,,,28,40,15,28,,,,,,8,8,10,8,,1,3,,33,6,"0.10",10,10,15,10
+Constructor,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.QuadNode",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,3,13,2,11,0,8,1,0,11,12,2,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Abstract Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.add",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.addAll",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.collectLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"1.00",0,0,0,0
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,4,39,9,27,5,20,4,10,9,1,11,20,6,16,8,8,10,8,10,,,,,10,,3,10,,,"0.15",8,8,10,8
+Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.QuadNode.contains",,,,,,,,,,,,,,,,,,,,,,,,,,,8,4,0,4,1,2,0,1,1,0,1,2,1,1,1,1,4,1,0,,,,,0,,0,0,,,"0.00",1,1,4,1
+Public Method,"org.osm2world.core.map_data.creation.index.MapQuadtree.getLeaves",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,4,6,3,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.osm2world.viewer",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world.viewer.view",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.osm2world.viewer.view.debug",2,2,2,1,16,4,12,0,,,,,3,0,4,,2,,10,3,10,,0,1,0,9,,224,65,157,68,88,2,,,,66,91,54,47,,,,,,8,8,8,1,,,4,,,,"0.01",20,20,20,10
+Public Class,"org.osm2world.viewer.view.debug.Map2dTreeDebugView",1,1,1,1,6,1,5,0,1,4,4,0,,0,0,,,,3,1,3,3,0,0,0,3,,96,29,67,18,41,0,,,,16,27,11,17,,,,,,2,2,2,1,,2,1,,33,33,"0.00",4,4,4,3
+Private Class,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.RenderableMap2dTree",1,1,1,1,20,5,15,0,1,6,6,0,,0,0,,,,3,0,3,6,0,1,0,2,,68,20,48,10,35,0,,,,10,16,6,11,,,,,,3,3,3,1,,2,2,,0,0,"0.00",5,5,5,3
+Public Constructor,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.RenderableMap2dTree.RenderableMap2dTree",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.RenderableMap2dTree.renderNodeTo",,,,,,,,,,,,,,,,,,,,,,,,,,,13,49,14,35,7,28,0,2,3,0,8,11,3,9,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.RenderableMap2dTree.renderTo",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,2,8,1,6,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.canBeUsed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.fillTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,3,7,2,3,0,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.osm2world.viewer.view.debug.Map2dTreeDebugView.setConversionResults",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.osm2world.viewer.view.debug.QuadtreeDebugView",2,2,2,1,21,5,15,0,1,13,13,0,,0,4,,,,4,2,4,4,0,0,0,4,,100,29,69,29,47,2,,,,29,43,22,30,,,,,,8,8,8,1,,2,4,,50,50,"0.03",11,11,11,4
+Public Method,"org.osm2world.viewer.view.debug.QuadtreeDebugView.canBeUsed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.viewer.view.debug.QuadtreeDebugView.fillTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,12,73,22,49,17,38,2,17,14,1,19,29,12,25,8,8,8,1,2,,,,,0,,4,0,,,"0.04",8,8,8,1
+Public Method,"org.osm2world.viewer.view.debug.QuadtreeDebugView.setArrowsEnabled",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.osm2world.viewer.view.debug.QuadtreeDebugView.setConversionResults",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

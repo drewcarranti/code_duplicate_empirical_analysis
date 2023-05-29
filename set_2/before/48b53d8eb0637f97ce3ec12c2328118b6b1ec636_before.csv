@@ -1,0 +1,101 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"Block.java",1,1,1,1,3,0,3,0,,,,,1,0,0,7,,7,7,3,7,,0,0,0,7,,61,15,29,14,7,17,,,,13,21,14,7,,,,,,1,1,1,1,,,0,,,,"0.59",7,7,7,7
+File,"FalseReservedWord.java",1,1,1,1,3,0,3,0,,,,,1,0,1,4,,4,4,1,4,,0,0,0,4,,45,11,17,8,5,17,,,,7,12,8,4,,,,,,1,1,1,1,,,0,,,,"1.00",4,4,4,4
+File,"LiteralArray.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,4,,0,0,0,4,,44,11,16,7,4,17,,,,6,11,7,4,,,,,,1,1,1,1,,,0,,,,"1.06",4,4,4,4
+File,"LiteralCharacter.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,4,,0,0,0,4,,44,11,16,7,4,17,,,,6,11,7,4,,,,,,1,1,1,1,,,0,,,,"1.06",4,4,4,4
+File,"LiteralNumber.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,4,,0,0,0,4,,44,11,16,7,4,17,,,,6,11,7,4,,,,,,1,1,1,1,,,0,,,,"1.06",4,4,4,4
+File,"LiteralString.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,2,4,,0,0,0,4,,46,11,18,8,5,17,,,,8,13,8,5,,,,,,1,1,1,1,,,0,,,,"0.94",4,4,4,4
+File,"LiteralSymbol.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,2,4,,0,0,0,4,,46,11,18,8,5,17,,,,8,13,8,5,,,,,,1,1,1,1,,,0,,,,"0.94",4,4,4,4
+File,"NilReservedWord.java",1,1,1,1,3,0,3,0,,,,,1,0,1,4,,4,4,1,4,,0,0,0,4,,46,12,17,8,5,17,,,,7,12,8,4,,,,,,1,1,1,1,,,0,,,,"1.00",4,4,4,4
+File,"NumberConstant.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,2,4,,0,0,0,4,,46,11,18,8,5,17,,,,8,13,8,5,,,,,,1,1,1,1,,,0,,,,"0.94",4,4,4,4
+File,"Primary.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,28,6,5,4,0,17,,,,3,4,4,0,,,,,,0,0,0,0,,,0,,,,"3.40",0,0,0,0
+File,"PrimaryExpression.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,4,,0,0,0,4,,44,11,16,7,4,17,,,,6,11,7,4,,,,,,1,1,1,1,,,0,,,,"1.06",4,4,4,4
+File,"PrimaryStatements.java",1,1,1,1,3,0,3,0,,,,,1,0,0,4,,4,4,1,4,,0,0,0,4,,44,11,16,7,4,17,,,,6,11,7,4,,,,,,1,1,1,1,,,0,,,,"1.06",4,4,4,4
+File,"SelfReservedWord.java",1,1,1,1,3,0,3,0,,,,,1,0,1,4,,4,4,1,4,,0,0,0,4,,45,11,17,8,5,17,,,,7,12,8,4,,,,,,1,1,1,1,,,0,,,,"1.00",4,4,4,4
+File,"TrueReservedWord.java",1,1,1,1,3,0,3,0,,,,,1,0,1,4,,4,4,1,4,,0,0,0,4,,45,11,17,8,5,17,,,,7,12,8,4,,,,,,1,1,1,1,,,0,,,,"1.00",4,4,4,4
+File,"VariableName.java",1,1,1,1,3,0,3,0,,,,,1,0,0,9,,9,9,4,9,,0,1,0,8,,70,16,37,15,12,17,,,,17,27,15,12,,,,,,1,1,1,1,,,0,,,,"0.46",9,9,9,9
+Package,"st",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"st.redline",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"st.redline.smalltalk",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"st.redline.smalltalk.interpreter",1,1,1,1,3,0,3,0,,,,,15,0,4,,15,,66,22,66,,2,1,0,63,,698,170,273,124,74,255,,,,115,194,124,70,,,,,,1,1,1,1,,,0,,,,"0.93",64,64,64,64
+Public Class,"st.redline.smalltalk.interpreter.Block",1,1,1,1,3,0,3,0,2,7,7,0,,0,0,,,,7,3,7,7,0,0,0,7,,34,8,26,11,7,0,,,,10,18,11,7,,,,,,1,1,1,1,,1,0,,80,80,"0.00",7,7,7,7
+Public Constructor,"st.redline.smalltalk.interpreter.Block.Block",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.add",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.add",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.add",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.line",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.Block.value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.FalseReservedWord",1,1,1,1,3,0,3,0,2,2,2,0,,0,1,,,,4,1,4,4,0,0,0,4,,21,5,16,7,5,0,,,,6,11,7,4,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.FalseReservedWord.FalseReservedWord",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.FalseReservedWord.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.FalseReservedWord.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.FalseReservedWord.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.LiteralArray",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,1,4,4,0,0,0,4,,20,5,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,75,75,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.LiteralArray.LiteralArray",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralArray.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralArray.line",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralArray.value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.LiteralCharacter",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,1,4,4,0,0,0,4,,20,5,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,0,0,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.LiteralCharacter.LiteralCharacter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralCharacter.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralCharacter.line",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralCharacter.value",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.LiteralNumber",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,1,4,4,0,0,0,4,,20,5,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,0,0,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.LiteralNumber.LiteralNumber",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralNumber.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralNumber.line",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralNumber.value",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.LiteralString",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,2,4,4,0,0,0,4,,22,5,17,7,5,0,,,,7,12,7,5,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.LiteralString.LiteralString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralString.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralString.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralString.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.LiteralSymbol",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,2,4,4,0,0,0,4,,22,5,17,7,5,0,,,,7,12,7,5,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.LiteralSymbol.LiteralSymbol",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralSymbol.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralSymbol.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.LiteralSymbol.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.NilReservedWord",1,1,1,1,3,0,3,0,2,2,2,0,,0,1,,,,4,1,4,4,0,0,0,4,,22,6,16,7,5,0,,,,6,11,7,4,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.NilReservedWord.NilReservedWord",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NilReservedWord.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NilReservedWord.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NilReservedWord.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.NumberConstant",1,1,1,1,3,0,3,0,2,2,2,0,,0,0,,,,4,2,4,4,0,0,0,4,,22,5,17,7,5,0,,,,7,12,7,5,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.NumberConstant.NumberConstant",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NumberConstant.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NumberConstant.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.NumberConstant.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"st.redline.smalltalk.interpreter.Primary",0,0,0,0,0,0,0,0,1,1,1,4,,0,0,,,,2,0,2,2,2,0,0,0,,4,0,4,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Abstract Method,"st.redline.smalltalk.interpreter.Primary.line",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Abstract Method,"st.redline.smalltalk.interpreter.Primary.value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"st.redline.smalltalk.interpreter.PrimaryExpression",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,1,4,4,0,0,0,4,,20,5,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,75,75,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.PrimaryExpression.PrimaryExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryExpression.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryExpression.line",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryExpression.value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.PrimaryStatements",1,1,1,1,3,0,3,0,2,3,3,0,,0,0,,,,4,1,4,4,0,0,0,4,,20,5,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,75,75,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.PrimaryStatements.PrimaryStatements",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryStatements.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryStatements.line",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.PrimaryStatements.value",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.SelfReservedWord",1,1,1,1,3,0,3,0,2,2,2,0,,0,1,,,,4,1,4,4,0,0,0,4,,21,5,16,7,5,0,,,,6,11,7,4,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.SelfReservedWord.SelfReservedWord",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.SelfReservedWord.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.SelfReservedWord.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.SelfReservedWord.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.TrueReservedWord",1,1,1,1,3,0,3,0,2,2,2,0,,0,1,,,,4,1,4,4,0,0,0,4,,21,5,16,7,5,0,,,,6,11,7,4,,,,,,1,1,1,1,,1,0,,25,25,"0.00",4,4,4,4
+Public Constructor,"st.redline.smalltalk.interpreter.TrueReservedWord.TrueReservedWord",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.TrueReservedWord.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.TrueReservedWord.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.TrueReservedWord.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"st.redline.smalltalk.interpreter.VariableName",1,1,1,1,3,0,3,0,2,2,2,0,,0,0,,,,9,4,9,9,0,1,0,8,,46,10,36,14,12,0,,,,16,26,14,12,,,,,,1,1,1,1,,1,0,,66,63,"0.00",9,9,9,9
+Public Constructor,"st.redline.smalltalk.interpreter.VariableName.VariableName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,4,0,5,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.accept",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.index",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.isClassReference",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"st.redline.smalltalk.interpreter.VariableName.isFirstCharacterUppercase",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.isOnLoadSideOfExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.line",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.onStoreSideOfExpression",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"st.redline.smalltalk.interpreter.VariableName.value",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

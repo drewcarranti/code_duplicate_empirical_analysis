@@ -1,0 +1,87 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ConvoyTest.java",1,1,1,1,10,1,7,1,,,,,1,1,0,2,,2,1,1,2,,0,0,0,2,,47,10,29,18,10,8,,,,21,24,16,10,,,,,,1,1,1,1,,,0,,,,"0.28",2,2,2,2
+File,"DEECo.java",1,1,1,1,8,0,7,0,,,,,3,0,0,16,,16,16,10,16,,4,1,0,11,,226,42,157,71,67,27,,,,85,120,67,64,,,,,,5,5,5,1,,,3,,,,"0.17",27,27,27,16
+File,"DEECoContainer.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,7,7,0,7,,1,0,0,6,,68,10,16,15,0,42,,,,13,14,14,0,,,,,,0,0,0,0,,,0,,,,"2.62",0,0,0,0
+File,"DEECoException.java",1,1,1,1,3,0,3,0,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,14,4,7,4,2,3,,,,3,5,4,1,,,,,,1,1,1,1,,,0,,,,"0.43",1,1,1,1
+File,"DEECoTest.java",1,1,1,1,20,2,12,4,,,,,11,0,0,19,,19,19,0,19,,0,1,0,18,,447,77,271,131,166,99,,,,191,213,114,166,,,,,,2,2,2,1,,,1,,,,"0.37",20,20,20,19
+File,"DuplicateEnsembleDefinitionException.java",1,1,1,1,3,0,3,0,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,18,3,7,4,2,8,,,,3,5,4,1,,,,,,1,1,1,1,,,0,,,,"1.14",1,1,1,1
+File,"InvalidOperationException.java",1,1,1,1,3,0,3,0,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,18,3,7,4,2,8,,,,3,5,4,1,,,,,,1,1,1,1,,,0,,,,"1.14",1,1,1,1
+File,"PluginDependencyException.java",1,1,1,1,3,0,3,0,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,17,4,7,4,2,6,,,,3,5,4,1,,,,,,1,1,1,1,,,0,,,,"0.86",1,1,1,1
+Package,"cz",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco.demo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"cz.cuni.mff.d3s.deeco.demo.convoy",1,1,1,1,10,1,7,1,,,,,1,1,0,,1,,1,1,2,,0,0,0,2,,47,10,29,18,10,8,,,,21,24,16,10,,,,,,1,1,1,1,,,0,,,,"0.28",2,2,2,2
+Public Class,"cz.cuni.mff.d3s.deeco.demo.convoy.ConvoyTest",1,1,1,1,10,1,7,1,1,9,9,0,,1,0,,,,1,1,2,2,0,0,0,2,,32,6,18,7,10,8,,,,10,13,5,10,,,,,,1,1,1,1,,1,0,,50,0,"0.44",2,2,2,2
+Public Static Method,"cz.cuni.mff.d3s.deeco.demo.convoy.ConvoyTest.main",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.demo.convoy.ConvoyTest.testConvoy",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,3,11,3,8,3,9,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Package,"cz.cuni.mff.d3s.deeco.runtime",1,1,1,1,13,1,9,2,,,,,19,0,4,,7,,46,10,46,,5,2,0,39,,808,143,472,233,241,193,,,,301,367,211,234,,,,,,5,5,5,1,,,3,,,,"0.41",51,51,51,39
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo",1,1,1,1,9,1,8,0,2,34,34,0,,0,0,,,,13,7,13,13,2,1,0,10,,200,39,134,48,67,27,,,,62,97,44,64,,,,,,5,5,5,1,,1,3,,75,75,"0.20",24,24,24,13
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DEECo",,,,,,,,,,,,,,,,,,,,,,,,,,,24,11,1,10,1,8,0,10,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode",1,1,1,1,3,0,3,0,1,3,3,0,,0,0,,,,2,3,2,2,2,0,0,0,,14,2,12,6,4,0,,,,6,9,6,4,,,,,,1,1,1,1,,1,0,,50,50,"0.00",2,2,2,2
+Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode.DependencyNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,5,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNode.DependencyNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Class,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNodeComparator",1,1,1,1,4,0,4,0,2,2,2,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,3,1,0,,,,1,3,2,1,,,,,,1,1,1,1,,1,0,,0,0,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.DependencyNodeComparator.compare",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.constructDependencyNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,24,4,20,5,13,0,8,8,1,8,16,7,12,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Private Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.createRuntime",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,4,6,0,3,1,0,6,7,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.deployComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.deployEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,3,5,0,5,2,0,4,6,2,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Generic Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getPluginInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getPluginInstance.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getRuntimeFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.getRuntimeMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.initializePlugins",,,,,,,,,,,,,,,,,,,,,,,,,,,6,27,5,22,4,15,0,8,8,1,10,17,6,14,5,5,5,1,1,,,,,0,,3,0,,,"0.00",5,5,5,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.isRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.start",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,1,6,1,4,0,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECo.stop",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,1,6,1,4,0,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer",0,0,0,0,0,0,0,0,0,9,9,1,,0,0,,,,7,0,7,7,1,0,0,6,,54,8,10,9,0,36,,,,7,8,8,0,,,,,,0,0,0,0,,0,0,,0,0,"3.60",0,0,0,0
+Public Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.deployComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.deployEnsemble",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,2,2,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.50",0,0,0,0
+Public Abstract Generic Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.getPluginInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+TypeVariable,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.getPluginInstance.T",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.getProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.getRuntimeFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Public Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.getRuntimeMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Abstract Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoContainer.isRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"3.00",0,0,0,0
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DEECoException",1,1,1,1,3,0,3,0,1,1,1,3,,0,1,,,,1,0,1,1,0,0,0,1,,12,3,6,3,2,3,,,,2,4,3,1,,,,,,1,1,1,1,,2,0,,0,0,"0.50",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.DEECoException.DEECoException",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest",1,1,1,1,20,2,12,4,1,26,26,0,,0,0,,,,19,0,19,19,0,1,0,18,,427,73,255,115,166,99,,,,175,197,98,166,,,,,,2,2,2,1,,1,1,,0,0,"0.39",20,20,20,19
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P0",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P1",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P2",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P3",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P4",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P5",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P6",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P7",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P8",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Interface,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.P9",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,1,1,1,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testBasicWorkflow",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testBasicWorkflow2",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testCycle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,2,11,5,7,5,7,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.45",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testCycle2",,,,,,,,,,,,,,,,,,,,,,,,,,,1,28,5,17,8,13,6,7,1,0,13,14,7,13,1,1,1,1,0,,,,,0,,0,0,,,"0.35",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyMultiBase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,23,4,15,8,11,4,9,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderComplex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,66,14,43,22,39,9,9,1,0,39,40,21,39,1,1,1,1,0,,,,,0,,0,0,,,"0.21",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderDAG",,,,,,,,,,,,,,,,,,,,,,,,,,,1,29,4,21,11,17,4,9,1,0,17,18,10,17,1,1,1,1,0,,,,,0,,0,0,,,"0.19",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderMultiExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,1,23,4,15,8,11,4,9,1,0,11,12,7,11,1,1,1,1,0,,,,,0,,0,0,,,"0.27",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDependencyOrderSimple",,,,,,,,,,,,,,,,,,,,,,,,,,,1,19,4,11,6,7,4,9,1,0,7,8,5,7,1,1,1,1,0,,,,,0,,0,0,,,"0.36",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDuplicateEnsembleDefinition",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,7,3,3,5,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.71",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testDynamicDeploymentWorkflow",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,2,10,3,6,6,5,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testFieldInitialization",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,12,3,8,4,4,1,0,8,9,2,8,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testNoPlugins",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,5,2,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.80",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testNonExistentDependency",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,3,8,4,4,5,7,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.62",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testPluginAccess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,29,3,22,5,16,4,9,2,0,15,18,5,16,2,2,2,1,0,,,,,0,,1,0,,,"0.18",2,2,2,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStartOnRunning",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,0,7,3,3,4,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStopOnNew",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,6,3,2,4,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.testStopOnStopped",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,0,8,3,4,4,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Private Method,"cz.cuni.mff.d3s.deeco.runtime.DEECoTest.verifyPluginInitOrder",,,,,,,,,,,,,,,,,,,,,,,,,,,9,8,0,5,1,2,3,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.60",1,1,1,1
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.DuplicateEnsembleDefinitionException",1,1,1,1,3,0,3,0,1,1,1,0,,0,1,,,,1,0,1,2,0,0,0,1,,16,2,6,3,2,8,,,,2,4,3,1,,,,,,1,1,1,1,,3,0,,0,0,"1.33",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.DuplicateEnsembleDefinitionException.DuplicateEnsembleDefinitionException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"cz.cuni.mff.d3s.deeco.runtime.InvalidOperationException",1,1,1,1,3,0,3,0,1,1,1,0,,0,1,,,,1,0,1,2,0,0,0,1,,16,2,6,3,2,8,,,,2,4,3,1,,,,,,1,1,1,1,,3,0,,0,0,"1.33",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.InvalidOperationException.InvalidOperationException",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Class,"cz.cuni.mff.d3s.deeco.runtime.PluginDependencyException",1,1,1,1,3,0,3,0,1,1,1,0,,0,1,,,,1,0,1,2,0,0,0,1,,15,3,6,3,2,6,,,,2,4,3,1,,,,,,1,1,1,1,,3,0,,0,0,"1.00",1,1,1,1
+Public Constructor,"cz.cuni.mff.d3s.deeco.runtime.PluginDependencyException.PluginDependencyException",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

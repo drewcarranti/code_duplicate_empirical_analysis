@@ -1,0 +1,43 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"FCSRRegister.java",6,5,6,2,19,1,14,3,,,,,1,0,0,11,,11,11,0,11,,0,0,0,11,,266,40,161,22,113,70,,,,67,113,22,91,,,,,,11,11,11,6,,,1,,,,"0.43",68,59,68,25
+File,"FPInstructionUtils.java",5,5,8,4,36,6,22,7,,,,,1,23,13,23,,23,0,0,23,,0,0,0,23,,960,202,532,104,389,229,,,,256,382,105,322,,,,,,16,13,27,13,,,4,,,,"0.43",135,125,205,102
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.edumips64",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.edumips64.core",6,5,6,2,19,1,14,3,,,,,1,0,0,,1,,11,0,11,,0,0,0,11,,266,40,161,22,113,70,,,,67,113,22,91,,,,,,11,11,11,6,,,1,,,,"0.43",68,59,68,25
+Public Class,"org.edumips64.core.FCSRRegister",6,5,6,2,19,1,14,3,1,4,4,0,,0,0,,,,11,0,11,11,0,0,0,11,,237,35,159,20,113,48,,,,65,111,20,91,,,,,,11,11,11,6,,2,1,,0,0,"0.30",68,59,68,25
+Public Method,"org.edumips64.core.FCSRRegister.getFCSRConditionCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,1,10,4,7,3,4,2,0,5,7,4,3,2,2,2,1,1,,,,,0,,1,0,,,"0.30",2,2,2,1
+Public Method,"org.edumips64.core.FCSRRegister.getFCSREnables",,,,,,,,,,,,,,,,,,,,,,,,,,,2,26,5,18,1,11,4,4,6,1,6,12,1,11,11,11,11,6,5,,,,,5,,1,5,,,"0.22",11,11,11,6
+Public Method,"org.edumips64.core.FCSRRegister.getFCSRFlags",,,,,,,,,,,,,,,,,,,,,,,,,,,1,26,5,18,1,11,4,4,6,1,6,12,1,11,11,11,11,6,5,,,,,5,,1,5,,,"0.22",11,11,11,6
+Public Method,"org.edumips64.core.FCSRRegister.getFCSRRoundingMode",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,5,16,2,10,0,4,5,1,6,11,2,9,5,5,5,5,4,,,,,4,,1,4,,,"0.00",5,5,5,5
+Public Method,"org.edumips64.core.FCSRRegister.getFPExceptions",,,,,,,,,,,,,,,,,,,,,,,,,,,10,18,1,13,1,10,4,2,5,1,5,7,1,6,5,2,5,1,10,,,,,0,,1,0,,,"0.31",5,2,5,1
+Public Method,"org.edumips64.core.FCSRRegister.setFCSRCause",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,13,1,10,5,3,6,1,5,11,1,10,6,6,6,1,4,,,,,0,,1,0,,,"0.38",6,6,6,1
+Public Method,"org.edumips64.core.FCSRRegister.setFCSRConditionCode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,1,10,4,7,4,2,2,0,5,7,4,3,2,2,2,1,1,,,,,0,,1,0,,,"0.40",2,2,2,1
+Public Method,"org.edumips64.core.FCSRRegister.setFCSREnables",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,1,13,1,10,8,3,6,1,5,11,1,10,6,6,6,1,4,,,,,0,,1,0,,,"0.62",6,6,6,1
+Public Method,"org.edumips64.core.FCSRRegister.setFCSRFlags",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,13,1,10,5,3,6,1,5,11,1,10,6,6,6,1,4,,,,,0,,1,0,,,"0.38",6,6,6,1
+Public Method,"org.edumips64.core.FCSRRegister.setFCSRRoundingMode",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,1,17,2,14,2,1,5,1,9,11,2,9,5,2,5,1,6,,,,,0,,1,0,,,"0.12",5,2,5,1
+Public Method,"org.edumips64.core.FCSRRegister.setFPExceptions",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,0,16,1,13,4,1,5,1,8,10,1,9,9,6,9,1,6,,,,,0,,1,0,,,"0.25",9,6,9,1
+Package,"org.edumips64.core.fpu",5,5,8,4,36,6,22,7,,,,,1,23,13,,1,,0,0,23,,0,0,0,23,,960,202,532,104,389,229,,,,256,382,105,322,,,,,,16,13,27,13,,,4,,,,"0.43",135,125,205,102
+Public Class,"org.edumips64.core.fpu.FPInstructionUtils",5,5,8,4,36,6,22,7,1,14,14,0,,23,13,,,,0,0,23,23,0,0,0,23,,922,194,527,99,389,204,,,,251,377,100,322,,,,,,16,13,27,13,,1,4,,84,65,"0.39",135,125,205,102
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.binToDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,3,27,5,16,3,11,6,8,4,1,7,11,3,9,4,4,4,3,4,,,,,3,,3,3,,,"0.38",4,4,4,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleDivision",,,,,,,,,,,,,,,,,,,,,,,,,,,14,117,24,74,16,60,19,15,39,2,39,52,16,46,16,13,25,13,29,,,,,26,,3,26,,,"0.26",16,13,25,13
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleMultiplication",,,,,,,,,,,,,,,,,,,,,,,,,,,13,108,20,68,16,55,20,15,27,1,36,48,16,42,15,12,27,13,28,,,,,26,,3,26,,,"0.29",15,12,27,13
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleSubtraction",,,,,,,,,,,,,,,,,,,,,,,,,,,11,114,29,57,7,44,28,15,12,1,31,43,7,40,12,12,25,10,19,,,,,17,,3,17,,,"0.49",12,12,25,10
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleSum",,,,,,,,,,,,,,,,,,,,,,,,,,,11,118,28,57,7,44,33,15,12,1,31,43,7,40,12,12,25,10,19,,,,,17,,3,17,,,"0.58",12,12,25,10
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleToBigInteger",,,,,,,,,,,,,,,,,,,,,,,,,,,9,72,17,43,7,33,12,15,45,2,19,30,7,27,14,11,17,1,8,,,,,0,,4,0,,,"0.28",14,11,17,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.doubleToBin",,,,,,,,,,,,,,,,,,,,,,,,,,,18,83,14,54,10,41,16,11,28,1,26,38,10,36,12,12,16,9,17,,,,,14,,3,14,,,"0.30",12,12,16,9
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.getDoubleSign",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,11,1,7,1,3,4,1,3,6,1,5,4,3,4,4,5,,,,,5,,2,5,,,"0.09",4,3,4,4
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.getSpecialValues",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,0,17,1,14,1,7,7,1,7,14,1,13,7,7,7,7,6,,,,,6,,1,6,,,"0.06",7,7,7,7
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.intToDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,7,2,4,4,8,2,0,3,5,2,4,2,2,5,1,1,,,,,0,,1,0,,,"0.57",2,2,5,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.is64BinaryString",,,,,,,,,,,,,,,,,,,,,,,,,,,16,10,1,6,1,3,3,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.50",2,2,3,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isFPKeyword",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,1,11,1,8,3,2,2,0,2,4,1,3,2,2,7,1,1,,,,,0,,1,0,,,"0.27",2,2,7,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isInfinity",,,,,,,,,,,,,,,,,,,,,,,,,,,8,13,1,8,1,4,4,4,3,0,2,5,1,4,3,3,4,3,2,,,,,2,,2,2,,,"0.50",3,3,4,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isNegativeInfinity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,13,1,8,1,4,4,3,3,0,2,5,1,4,3,3,3,3,2,,,,,2,,2,2,,,"0.50",3,3,3,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isNegativeZero",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,1,8,1,4,0,3,3,0,2,5,1,4,3,3,3,3,2,,,,,2,,2,2,,,"0.00",3,3,3,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isPositiveInfinity",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,1,8,1,4,0,3,3,0,2,5,1,4,3,3,3,3,2,,,,,2,,2,2,,,"0.00",3,3,3,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isPositiveZero",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,1,8,1,4,4,3,3,0,2,5,1,4,3,3,3,3,2,,,,,2,,2,2,,,"0.50",3,3,3,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isQNaN",,,,,,,,,,,,,,,,,,,,,,,,,,,9,9,3,6,1,3,0,2,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isSNaN",,,,,,,,,,,,,,,,,,,,,,,,,,,9,7,1,6,1,3,0,2,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.isZero",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,2,8,1,4,4,4,3,0,2,5,1,4,3,3,4,3,2,,,,,2,,2,2,,,"0.50",3,3,4,3
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.longToDouble",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,7,2,4,4,6,2,0,3,5,2,4,2,2,5,1,1,,,,,0,,1,0,,,"0.57",2,2,5,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.padding64",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,2,8,2,5,4,5,2,0,6,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Static Method,"org.edumips64.core.fpu.FPInstructionUtils.parseKeywords",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,1,16,1,13,3,2,7,1,7,14,1,13,7,7,7,7,6,,,,,6,,1,6,,,"0.19",7,7,7,7

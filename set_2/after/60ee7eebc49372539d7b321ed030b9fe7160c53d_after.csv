@@ -1,0 +1,31 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ConfigurationController.java",1,1,1,1,6,0,6,0,,,,,1,0,0,23,,23,23,3,23,,0,1,0,22,,218,32,186,124,39,0,,,,63,90,58,36,,,,,,2,2,2,1,,,1,,,,"0.00",26,26,26,23
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.findwise",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.findwise.hydra",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.findwise.hydra.admin",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.findwise.hydra.admin.rest",1,1,1,1,6,0,6,0,,,,,1,0,0,,1,,23,3,23,,0,1,0,22,,218,32,186,124,39,0,,,,63,90,58,36,,,,,,2,2,2,1,,,1,,,,"0.00",26,26,26,23
+Public Class,"com.findwise.hydra.admin.rest.ConfigurationController",1,1,1,1,6,0,6,0,1,26,26,0,,0,0,,,,23,3,23,23,0,1,0,22,,184,25,159,97,39,0,,,,36,63,31,36,,,,,,2,2,2,1,,1,1,,71,71,"0.00",26,26,26,23
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.addLibrary",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,4,2,0,5,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.addStage",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,9,7,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.addStageToGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,5,10,0,10,8,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.deleteStage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.discardDocuments",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,6,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.editDocuments",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,6,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getDocumentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getDocumentService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getDocuments",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,6,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"com.findwise.hydra.admin.rest.ConfigurationController.getErrorMap",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,4,0,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getLibraries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getLibrary",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,4,5,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getStageGroup",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,4,5,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getStageGroups",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getStageInfo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,10,4,5,0,2,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getStages",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.getStats",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.handleIoError",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.handleJsonError",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,4,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.newDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,6,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.setDocumentService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.findwise.hydra.admin.rest.ConfigurationController.setService",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

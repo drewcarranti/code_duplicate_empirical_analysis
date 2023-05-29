@@ -1,0 +1,279 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"CouchbaseAsyncBucket.java",1,1,1,1,12,0,11,0,,,,,58,0,12,134,,134,134,8,134,,0,0,1,133,,1234,133,1073,310,630,28,,,,366,549,267,325,,,,,,9,5,10,7,,,1,,,,"0.03",227,182,248,193
+File,"KeyValueTest.java",1,1,1,1,11,1,9,0,,,,,2,0,0,39,,39,39,1,39,,1,0,0,38,,555,122,410,197,256,23,,,,274,325,165,230,,,,,,3,3,3,1,,,1,,,,"0.06",49,49,49,39
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.couchbase",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.couchbase.client",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.couchbase.client.java",1,1,1,1,12,0,11,0,,,,,60,0,12,,2,,173,9,173,,1,0,1,171,,1789,255,1483,507,886,51,,,,640,874,432,555,,,,,,9,5,10,7,,,1,,,,"0.03",276,231,297,232
+Public Class,"com.couchbase.client.java.CouchbaseAsyncBucket",1,1,1,1,13,0,12,0,2,39,39,0,,0,12,,,,77,8,77,77,0,0,1,76,,1154,131,995,232,630,28,,,,288,471,189,325,,,,,,2,2,3,1,,1,1,,95,91,"0.03",86,86,93,77
+Public Constructor,"com.couchbase.client.java.CouchbaseAsyncBucket.CouchbaseAsyncBucket",,,,,,,,,,,,,,,,,,,,,,,,,,,18,28,3,25,2,21,0,12,2,0,20,23,2,21,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append",,,,,,,,,,,,,,,,,,,,,,,,,,,3,40,3,37,5,28,0,5,1,0,12,18,5,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append",,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,2,28,3,21,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_43)",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_43).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_44)",9,4,10,7,26,2,24,0,1,9,9,0,,0,0,,,,1,0,1,1,0,0,0,1,,27,2,25,0,21,0,,,,8,12,1,11,,,,,,9,4,10,7,,2,1,,0,0,"0.00",9,4,10,7
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_44).call",,,,,,,,,,,,,,,,,,,,,,,,,,,8,26,2,24,0,20,0,11,14,1,8,12,1,11,9,4,10,7,1,,,,,1,,1,1,,,"0.00",9,4,10,7
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50)",1,1,1,1,19,0,19,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,0,20,0,17,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,0,16,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50).call.(Anon_51)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50).call.(Anon_51).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50).call.(Anon_52)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.append.(Anon_50).call.(Anon_52).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.append.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.append.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.append.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.append.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.bucketManager",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.close",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,15,2,10,0,3,1,0,4,7,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.close.(Anon_56)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.close.(Anon_56).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.close.(Anon_57)",1,1,1,1,5,0,5,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,5,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.close.(Anon_57).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,4,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.core",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,3,34,2,32,3,24,0,3,1,0,9,15,4,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter",,,,,,,,,,,,,,,,,,,,,,,,,,,11,33,3,30,3,23,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_37)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_37).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_38)",8,5,9,5,24,2,22,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,25,2,23,1,19,0,,,,7,11,2,9,,,,,,8,5,9,5,,2,1,,0,0,"0.00",8,5,9,5
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_38).call",,,,,,,,,,,,,,,,,,,,,,,,,,,8,24,2,22,1,18,0,11,10,1,7,11,2,9,8,5,9,5,1,,,,,1,,1,1,,,"0.00",8,5,9,5
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47)",1,1,1,1,21,0,21,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,22,0,22,0,19,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,0,21,0,18,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47).call.(Anon_48)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47).call.(Anon_48).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47).call.(Anon_49)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.counter.(Anon_47).call.(Anon_49).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.environment",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.exists",,,,,,,,,,,,,,,,,,,,,,,,,,,0,26,2,24,4,17,0,3,1,0,7,12,5,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.exists",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.exists.(Anon_4)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.exists.(Anon_4).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.exists.(Anon_5)",3,3,5,1,15,2,13,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,16,2,14,2,11,0,,,,5,8,3,7,,,,,,3,3,5,1,,2,1,,0,0,"0.00",3,3,5,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.exists.(Anon_5).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,2,13,2,10,0,5,4,1,5,8,3,7,3,3,5,1,1,,,,,0,,1,0,,,"0.00",3,3,5,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.exists.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get",,,,,,,,,,,,,,,,,,,,,,,,,,,2,42,1,41,5,31,0,4,1,0,11,18,6,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_1)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_1).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_2)",7,4,8,5,22,1,21,0,1,7,7,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,1,22,1,18,0,,,,7,11,2,10,,,,,,7,4,8,5,,2,1,,0,0,"0.00",7,4,8,5
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_2).call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,21,1,17,0,7,9,1,7,11,2,10,7,4,8,5,4,,,,,4,,1,4,,,"0.00",7,4,8,5
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_3)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,1,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.get.(Anon_3).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,5,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.get.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.get.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock",,,,,,,,,,,,,,,,,,,,,,,,,,,2,43,1,42,5,32,0,4,1,0,12,19,6,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_6)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_6).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_7)",7,4,8,6,23,1,22,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,24,1,23,1,19,0,,,,8,12,2,11,,,,,,7,4,8,6,,2,1,,0,0,"0.00",7,4,8,6
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_7).call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,1,22,1,18,0,7,11,1,8,12,2,11,7,4,8,6,5,,,,,5,,1,5,,,"0.00",7,4,8,6
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_8)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,1,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.(Anon_8).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,5,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndLock.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,3,1,0,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch",,,,,,,,,,,,,,,,,,,,,,,,,,,2,42,1,41,5,31,0,4,1,0,11,18,6,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_10)",7,4,8,5,22,1,21,0,1,7,7,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,1,22,1,18,0,,,,7,11,2,10,,,,,,7,4,8,5,,2,1,,0,0,"0.00",7,4,8,5
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_10).call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,21,1,17,0,7,9,1,7,11,2,10,7,4,8,5,4,,,,,4,,1,4,,,"0.00",7,4,8,5
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_11)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,1,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_11).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,5,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_9)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.(Anon_9).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getAndTouch.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,0,16,5,10,0,5,1,0,3,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica.(Anon_12)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,1,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica.(Anon_12).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,1,5,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.getFromReplica.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,39,3,36,5,27,0,5,1,0,11,17,5,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,6,31,2,29,4,21,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_13)",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_13).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_14)",8,4,9,6,25,2,23,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,26,2,24,0,20,0,,,,7,11,1,10,,,,,,8,4,9,6,,2,1,,0,0,"0.00",8,4,9,6
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_14).call",,,,,,,,,,,,,,,,,,,,,,,,,,,7,25,2,23,0,19,0,12,12,1,7,11,1,10,8,4,9,6,1,,,,,1,,1,1,,,"0.00",8,4,9,6
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15)",1,1,1,1,19,0,19,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,0,20,0,17,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,0,16,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15).call.(Anon_16)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15).call.(Anon_16).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15).call.(Anon_17)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.(Anon_15).call.(Anon_17).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.insert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.invalidateQueryCache",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.isClosed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.couchbase.client.java.CouchbaseAsyncBucket.n1qlQueryExecutor",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.name",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend",,,,,,,,,,,,,,,,,,,,,,,,,,,3,39,2,37,5,28,0,5,1,0,12,18,5,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend",,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,2,28,3,21,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_45)",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_45).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_46)",9,4,10,7,26,2,24,0,1,9,9,0,,0,0,,,,1,0,1,1,0,0,0,1,,27,2,25,0,21,0,,,,8,12,1,11,,,,,,9,4,10,7,,2,1,,0,0,"0.00",9,4,10,7
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_46).call",,,,,,,,,,,,,,,,,,,,,,,,,,,8,26,2,24,0,20,0,11,14,1,8,12,1,11,9,4,10,7,1,,,,,1,,1,1,,,"0.00",9,4,10,7
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53)",1,1,1,1,19,0,19,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,0,20,0,17,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,0,16,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53).call.(Anon_54)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53).call.(Anon_54).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53).call.(Anon_55)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.(Anon_53).call.(Anon_55).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.prepend.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,19,6,14,0,4,1,0,5,8,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,19,6,14,0,4,1,0,5,8,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,1,7,2,3,0,7,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_33)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,3,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_33).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,5,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_34)",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_34).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_35)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,3,6,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_35).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,2,5,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_36)",1,1,1,1,4,0,4,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.query.(Anon_36).call",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,36,2,34,4,25,0,5,1,0,10,16,4,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,6,4,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,3,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,9,31,2,29,4,21,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_28)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_28).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,0,3,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_29)",8,4,9,6,24,2,22,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,25,2,23,0,19,0,,,,7,11,1,10,,,,,,8,4,9,6,,2,1,,0,0,"0.00",8,4,9,6
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_29).call",,,,,,,,,,,,,,,,,,,,,,,,,,,7,24,2,22,0,18,0,11,12,1,7,11,1,10,8,4,9,6,1,,,,,1,,1,1,,,"0.00",8,4,9,6
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30)",1,1,1,1,19,0,19,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,0,20,0,17,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,0,16,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30).call.(Anon_31)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30).call.(Anon_31).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30).call.(Anon_32)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.(Anon_30).call.(Anon_32).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.remove.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,41,3,38,5,29,0,5,1,0,12,18,5,15,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,6,31,2,29,4,21,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_23)",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_23).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,8,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_24)",9,4,10,7,27,2,25,0,1,9,9,0,,0,0,,,,1,0,1,1,0,0,0,1,,28,2,26,0,22,0,,,,8,12,1,11,,,,,,9,4,10,7,,2,1,,0,0,"0.00",9,4,10,7
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_24).call",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,2,25,0,21,0,12,14,1,8,12,1,11,9,4,10,7,1,,,,,1,,1,1,,,"0.00",9,4,10,7
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25)",1,1,1,1,19,0,19,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,0,20,0,17,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,0,19,0,16,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25).call.(Anon_26)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25).call.(Anon_26).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25).call.(Anon_27)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.(Anon_25).call.(Anon_27).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.replace.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.repository",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.touch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,32,2,30,2,22,0,3,1,0,8,14,3,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.touch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.touch.(Anon_41)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.touch.(Anon_41).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.touch.(Anon_42)",7,4,8,5,22,2,20,0,1,7,7,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,2,21,0,17,0,,,,6,10,1,9,,,,,,7,4,8,5,,2,1,,0,0,"0.00",7,4,8,5
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.touch.(Anon_42).call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,2,20,0,16,0,7,10,1,6,10,1,9,7,4,8,5,1,,,,,1,,1,1,,,"0.00",7,4,8,5
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.touch.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,33,2,31,2,23,0,3,1,0,9,15,3,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock.(Anon_39)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock.(Anon_39).call",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock.(Anon_40)",7,4,8,6,23,2,21,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,24,2,22,0,18,0,,,,7,11,1,10,,,,,,7,4,8,6,,2,1,,0,0,"0.00",7,4,8,6
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock.(Anon_40).call",,,,,,,,,,,,,,,,,,,,,,,,,,,5,23,2,21,0,17,0,7,12,1,7,11,1,10,7,4,8,6,1,,,,,1,,1,1,,,"0.00",7,4,8,6
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.unlock.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,39,3,36,5,27,0,5,1,0,11,17,5,14,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert",,,,,,,,,,,,,,,,,,,,,,,,,,,6,32,2,30,4,22,0,3,2,0,6,11,5,7,2,2,3,1,1,,,,,0,,0,0,,,"0.00",2,2,3,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Generic Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_18)",1,1,1,1,5,0,5,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,1,5,0,,,,2,3,2,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_18).call",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,4,0,7,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_19)",8,4,9,6,25,2,23,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,26,2,24,0,20,0,,,,7,11,1,10,,,,,,8,4,9,6,,2,1,,0,0,"0.00",8,4,9,6
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_19).call",,,,,,,,,,,,,,,,,,,,,,,,,,,7,25,2,23,0,19,0,12,12,1,7,11,1,10,8,4,9,6,1,,,,,1,,1,1,,,"0.00",8,4,9,6
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20)",1,1,1,1,20,0,20,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,21,0,21,0,18,0,,,,3,6,3,3,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20).call",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,0,20,0,17,0,10,1,0,3,6,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20).call.(Anon_21)",1,1,1,1,4,0,4,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,5,0,5,0,4,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20).call.(Anon_21).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Anonymous Class,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20).call.(Anon_22)",1,1,1,1,6,0,6,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,7,0,7,0,6,0,,,,1,2,1,1,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.(Anon_20).call.(Anon_22).call",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,0,5,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+TypeVariable,"com.couchbase.client.java.CouchbaseAsyncBucket.upsert.D",0,0,0,0,0,0,0,0,0,1,1,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Class,"com.couchbase.client.java.KeyValueTest",1,1,1,1,12,2,10,0,1,19,19,0,,0,0,,,,37,0,37,37,0,0,0,37,,527,118,386,173,256,23,,,,250,301,141,230,,,,,,3,3,3,1,,2,1,,0,0,"0.06",47,47,47,37
+Static Class,"com.couchbase.client.java.KeyValueTest.User",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,2,1,2,2,1,0,0,1,,12,3,9,4,2,0,,,,3,6,4,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Constructor,"com.couchbase.client.java.KeyValueTest.User.User",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.User.getFirstname",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldAppendString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,17,3,14,7,11,0,12,1,0,11,12,6,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldDecrementFromCounter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,4,14,6,11,0,7,1,0,11,12,5,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldErrorOnDoubleInsert",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,8,5,5,0,5,1,0,5,6,4,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailAppendWhenTooLarge",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,3,13,5,8,0,5,4,1,10,13,6,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailDoubleLocking",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,3,10,5,7,0,11,1,0,7,8,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailInsertWithDurabilityException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,1,6,3,3,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailOnNonExistingAppend",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailOnNonExistingPrepend",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailOnRemoveWhenNotExists",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailPrependWhenTooLarge",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,3,13,5,8,0,6,4,1,10,13,6,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailRemoveWithDurabilityException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,3,4,0,8,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailReplaceWithDurabilityException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,1,7,3,4,0,8,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailStoringLargeDoc",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,1,9,4,5,0,5,2,0,6,8,4,5,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailTouchWhenNotExist",,,,,,,,,,,,,,,,,,,,,,,,,,,0,19,2,15,4,10,2,4,4,1,6,9,3,7,3,3,3,1,2,,,,,0,,1,0,,,"0.13",3,3,3,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailUnlockWhenDocDoesNotExist",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailUnlockWithInvalidCAS",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,3,10,5,7,0,13,1,0,7,8,4,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailUpsertWithDurabilityException",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,1,6,3,3,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailWithInvalidCASOnAppend",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldFailWithInvalidCASOnPrepend",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,6,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldGetAndLock",,,,,,,,,,,,,,,,,,,,,,,,,,,1,22,5,17,5,13,0,13,2,0,11,13,4,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldGetAndTouch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,5,13,5,10,0,13,1,0,10,11,4,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldGetNonexistentWithDefault",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldIncrAndDecrAfterInitialUpsert",,,,,,,,,,,,,,,,,,,,,,,,,,,0,26,5,21,9,18,0,9,1,0,18,19,8,17,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldIncrementFromCounter",,,,,,,,,,,,,,,,,,,,,,,,,,,0,18,4,14,6,11,0,7,1,0,11,12,5,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldInsertAndGet",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,1,8,5,5,0,9,1,0,5,6,4,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldPersistToMaster",,,,,,,,,,,,,,,,,,,,,,,,,,,4,7,1,6,3,3,0,5,1,0,2,3,2,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldPrependString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,17,3,14,7,11,0,12,1,0,11,12,6,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldRemoveFromMaster",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,2,7,3,4,0,6,1,0,3,4,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldRespectCASOnRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,0,28,5,23,7,19,0,15,2,0,17,19,6,17,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldStoreAndLoadRawJsonDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,3,10,6,7,0,7,1,0,7,8,5,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldThrowIfNotExistsDecrementing",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldThrowIfNotExistsIncrementing",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,4,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldTouch",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,5,11,5,8,0,12,1,0,8,9,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldUnlock",,,,,,,,,,,,,,,,,,,,,,,,,,,0,23,5,18,6,14,0,14,2,0,12,14,5,12,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldUpsertAndGetAndRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,4,16,6,13,0,17,1,0,13,14,5,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldUpsertAndReplace",,,,,,,,,,,,,,,,,,,,,,,,,,,0,13,1,12,6,9,0,11,1,0,9,10,5,9,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.couchbase.client.java.KeyValueTest.shouldUpsertLegacyObjectDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,0,11,1,10,6,7,0,9,1,0,7,8,5,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

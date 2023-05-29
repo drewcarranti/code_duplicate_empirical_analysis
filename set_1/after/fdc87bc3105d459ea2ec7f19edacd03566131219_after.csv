@@ -1,0 +1,113 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DiscoveryFile.java",1,1,1,1,7,0,3,3,,,,,1,0,0,14,,14,14,6,14,,0,0,7,7,,147,17,58,24,19,72,,,,28,43,24,19,,,,,,1,1,1,1,,,0,,,,"1.24",14,14,14,14
+File,"DocumentMetadata.java",1,1,1,1,4,0,3,1,,,,,1,0,21,35,,35,35,0,35,,0,2,0,33,,220,35,141,61,64,44,,,,63,101,61,41,,,,,,2,2,2,1,,,1,,,,"0.31",37,37,37,35
+File,"DocumentMetadataKeys.java",0,0,0,0,0,0,0,0,,,,,1,0,9,0,,0,0,0,0,,0,0,0,0,,33,2,12,11,9,19,,,,10,11,11,0,,,,,,0,0,0,0,,,0,,,,"1.58",0,0,0,0
+File,"FileProcessor.java",2,2,2,1,18,1,11,5,,,,,1,3,1,17,,19,16,5,19,,1,9,1,8,,408,42,244,100,138,123,,,,140,187,97,118,,,,,,7,7,9,4,,,3,,,,"0.50",44,44,49,22
+File,"FreeEedMainTest.java",3,3,3,1,23,0,20,2,,,,,1,1,1,2,,2,1,0,2,,0,0,0,2,,81,6,54,23,31,21,,,,33,41,21,27,,,,,,6,6,6,1,,,2,,,,"0.39",7,7,7,2
+File,"FreeEedSmallTest.java",5,5,5,1,33,0,30,3,,,,,1,0,0,1,,1,1,0,1,,0,0,0,1,,63,4,40,16,23,19,,,,25,31,15,20,,,,,,5,5,5,1,,,1,,,,"0.47",5,5,5,1
+File,"MRFreeEedProcess.java",5,5,6,1,40,3,33,3,,,,,1,1,1,6,,6,5,1,6,,0,4,0,2,,306,33,234,77,163,42,,,,142,180,78,128,,,,,,9,9,12,1,,,5,,,,"0.18",34,34,39,6
+File,"Reduce.java",3,3,3,1,27,1,23,2,,,,,1,0,1,8,,8,8,10,8,,0,3,3,2,,295,29,228,110,148,40,,,,141,172,94,122,,,,,,8,8,8,1,,,3,,,,"0.18",28,28,29,8
+File,"WindowsReduce.java",1,1,1,1,10,0,9,0,,,,,1,2,1,6,,6,4,1,6,,0,1,2,3,,108,12,73,30,38,23,,,,38,51,25,31,,,,,,3,3,3,1,,,2,,,,"0.32",11,11,11,6
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.freeeed",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.freeeed.main",2,2,2,1,13,0,9,2,,,,,9,7,35,,9,,84,23,91,,1,19,13,58,,1661,180,1084,452,633,403,,,,620,817,426,506,,,,,,9,9,12,4,,,5,,,,"0.37",180,180,191,94
+Public Class,"org.freeeed.main.DiscoveryFile",1,1,1,1,7,0,3,3,1,3,3,0,,0,0,,,,14,6,14,14,0,0,7,7,,126,15,55,21,19,56,,,,25,40,21,19,,,,,,1,1,1,1,,1,0,,77,77,"1.02",14,14,14,14
+Public Constructor,"org.freeeed.main.DiscoveryFile.DiscoveryFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,4,1,2,6,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Constructor,"org.freeeed.main.DiscoveryFile.DiscoveryFile",,,,,,,,,,,,,,,,,,,,,,,,,,,4,16,0,7,1,5,9,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"1.29",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.getHash",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.getMrkey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.freeeed.main.DiscoveryFile.getPath",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.freeeed.main.DiscoveryFile.getRealFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.isHasAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.freeeed.main.DiscoveryFile.isHasParent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.setHasAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.freeeed.main.DiscoveryFile.setHasParent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"org.freeeed.main.DiscoveryFile.setHash",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.setMrkey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.setPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Protected Method,"org.freeeed.main.DiscoveryFile.setRealFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Class,"org.freeeed.main.DocumentMetadata",1,1,1,1,4,0,3,1,1,1,1,0,,0,21,,,,35,0,35,35,0,2,0,33,,215,33,138,58,64,44,,,,60,98,58,41,,,,,,2,2,2,1,,2,1,,0,0,"0.32",37,37,37,35
+Public Method,"org.freeeed.main.DocumentMetadata.addField",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,4,1,2,7,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getCustodian",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getDocumentParent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getDocumentText",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageCC",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageCreationDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageDate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageDateReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageDateSent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageSubject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageTimeReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageTimeSent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getMessageTo",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.getOriginalPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.hasAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.hasParent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Private Method,"org.freeeed.main.DocumentMetadata.isPropertyTrue",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,8,2,5,7,3,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.88",2,2,2,1
+Public Method,"org.freeeed.main.DocumentMetadata.setCustodian",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setDocumentParent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setDocumentText",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setHasAttachments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setHasParent",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageCC",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageCreationDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageDateReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageDateSent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageFrom",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageSubject",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageTimeReceived",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageTimeSent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setMessageTo",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.DocumentMetadata.setOriginalPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.freeeed.main.DocumentMetadata.setProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,7,1,4,5,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Interface,"org.freeeed.main.DocumentMetadataKeys",0,0,0,0,0,0,0,0,0,1,1,0,,0,9,,,,0,0,0,0,0,0,0,0,,11,0,11,10,9,0,,,,9,10,10,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Class,"org.freeeed.main.FileProcessor",2,2,2,1,18,1,11,5,1,41,41,0,,3,1,,,,16,5,19,19,1,9,1,8,,355,38,211,67,138,107,,,,107,154,64,118,,,,,,7,7,9,4,,1,3,,88,86,"0.51",44,44,49,22
+Public Constructor,"org.freeeed.main.FileProcessor.FileProcessor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,1,2,5,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Private Static Method,"org.freeeed.main.FileProcessor.createDocument",,,,,,,,,,,,,,,,,,,,,,,,,,,11,32,4,18,6,13,10,5,8,1,10,15,7,13,4,4,4,1,0,,,,,0,,1,0,,,"0.56",4,4,4,1
+Private Method,"org.freeeed.main.FileProcessor.createImage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,1,3,0,6,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.freeeed.main.FileProcessor.createMapWritable",,,,,,,,,,,,,,,,,,,,,,,,,,,7,28,1,19,7,14,8,9,6,1,9,14,7,11,5,5,5,1,0,,,,,0,,2,0,,,"0.42",5,5,5,1
+Private Method,"org.freeeed.main.FileProcessor.emitAsMap",,,,,,,,,,,,,,,,,,,,,,,,,,,5,29,0,17,8,12,12,14,2,0,9,11,5,10,3,3,3,1,1,,,,,0,,1,0,,,"0.71",3,3,3,1
+Private Method,"org.freeeed.main.FileProcessor.extractMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,7,29,5,16,5,11,8,16,4,1,8,13,6,11,4,4,5,1,0,,,,,0,,3,0,,,"0.50",4,4,5,1
+Public Method,"org.freeeed.main.FileProcessor.getContext",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.FileProcessor.getLuceneIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Abstract Method,"org.freeeed.main.FileProcessor.getOriginalDocumentPath",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Method,"org.freeeed.main.FileProcessor.getSingleFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.FileProcessor.getZipFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.freeeed.main.FileProcessor.isPdf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.freeeed.main.FileProcessor.isResponsive",,,,,,,,,,,,,,,,,,,,,,,,,,,9,61,8,37,6,28,16,15,17,1,17,25,6,21,7,7,9,3,6,,,,,3,,2,3,,,"0.43",7,7,9,3
+Private Static Method,"org.freeeed.main.FileProcessor.parseQueryString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,12,4,8,6,4,3,0,8,11,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.50",3,3,3,1
+Public Abstract Method,"org.freeeed.main.FileProcessor.process",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,1,1,0,4,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"4.00",0,0,0,0
+Protected Method,"org.freeeed.main.FileProcessor.processFileEntry",,,,,,,,,,,,,,,,,,,,,,,,,,,6,52,0,37,6,29,15,26,10,1,22,28,5,25,6,6,8,4,4,,,,,4,,2,4,,,"0.41",6,6,8,4
+Private Static Method,"org.freeeed.main.FileProcessor.search",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,0,14,7,10,13,5,2,0,6,8,5,7,2,2,2,1,1,,,,,0,,1,0,,,"0.93",2,2,2,1
+Public Method,"org.freeeed.main.FileProcessor.setSingleFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.FileProcessor.setZipFileName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Class,"org.freeeed.main.FreeEedMainTest",3,3,3,1,23,0,20,2,1,11,11,0,,1,1,,,,1,0,2,2,0,0,0,2,,52,3,44,13,31,5,,,,23,31,11,27,,,,,,6,6,6,1,,1,2,,0,0,"0.11",7,7,7,2
+Public Static Method,"org.freeeed.main.FreeEedMainTest.setUpClass",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,3,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.freeeed.main.FreeEedMainTest.testMain",,,,,,,,,,,,,,,,,,,,,,,,,,,7,41,0,36,8,28,5,14,24,1,20,26,7,24,6,6,6,1,3,,,,,0,,2,0,,,"0.14",6,6,6,1
+Public Class,"org.freeeed.main.FreeEedSmallTest",5,5,5,1,33,0,30,3,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,36,1,32,8,23,3,,,,17,23,7,20,,,,,,5,5,5,1,,1,1,,0,0,"0.09",5,5,5,1
+Public Method,"org.freeeed.main.FreeEedSmallTest.testMain",,,,,,,,,,,,,,,,,,,,,,,,,,,6,33,0,30,7,23,3,12,16,1,17,22,6,20,5,5,5,1,2,,,,,0,,1,0,,,"0.10",5,5,5,1
+Public Class,"org.freeeed.main.MRFreeEedProcess",5,5,6,1,40,3,33,3,2,35,35,0,,1,1,,,,5,1,6,6,0,4,0,2,,257,29,205,48,163,26,,,,113,151,49,128,,,,,,9,9,12,1,,2,5,,83,83,"0.13",34,34,39,6
+Private Method,"org.freeeed.main.MRFreeEedProcess.copyToHdfs",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,5,19,8,15,3,8,3,0,12,15,7,13,3,3,3,1,1,,,,,0,,1,0,,,"0.16",3,3,3,1
+Private Method,"org.freeeed.main.MRFreeEedProcess.formInputPath",,,,,,,,,,,,,,,,,,,,,,,,,,,8,45,2,42,9,35,1,21,12,1,25,33,11,27,6,6,8,1,2,,,,,0,,3,0,,,"0.02",6,6,8,1
+Private Method,"org.freeeed.main.MRFreeEedProcess.loadBalance",,,,,,,,,,,,,,,,,,,,,,,,,,,5,36,1,33,6,25,3,10,7,1,14,22,8,19,7,7,7,1,4,,,,,0,,5,0,,,"0.09",7,7,7,1
+Public Static Method,"org.freeeed.main.MRFreeEedProcess.main",,,,,,,,,,,,,,,,,,,,,,,,,,,6,8,0,8,1,5,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.freeeed.main.MRFreeEedProcess.run",,,,,,,,,,,,,,,,,,,,,,,,,,,16,88,13,61,9,51,14,39,96,2,41,49,8,45,9,9,12,1,0,,,,,0,,2,0,,,"0.23",9,9,12,1
+Private Method,"org.freeeed.main.MRFreeEedProcess.transferResultsToS3",,,,,,,,,,,,,,,,,,,,,,,,,,,6,39,1,38,12,30,2,16,25,1,16,24,11,19,7,7,7,1,2,,,,,0,,3,0,,,"0.05",7,7,7,1
+Public Class,"org.freeeed.main.Reduce",3,3,3,1,27,1,23,2,2,32,32,1,,0,1,,,,8,10,8,8,0,3,3,2,,247,23,202,84,148,24,,,,115,146,68,122,,,,,,8,8,8,1,,2,3,,76,67,"0.12",28,28,29,8
+Public Method,"org.freeeed.main.Reduce.actionPerformed",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,6,2,2,1,1,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.17",2,2,2,1
+Protected Method,"org.freeeed.main.Reduce.cleanup",,,,,,,,,,,,,,,,,,,,,,,,,,,7,44,3,39,15,29,2,22,20,1,18,25,10,23,7,7,7,1,1,,,,,0,,3,0,,,"0.05",7,7,7,1
+Private Method,"org.freeeed.main.Reduce.getAllMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,5,14,0,14,6,10,1,9,3,0,7,10,6,9,3,3,4,1,0,,,,,0,,2,0,,,"0.07",3,3,4,1
+Private Method,"org.freeeed.main.Reduce.getStandardMetadata",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,7,3,5,4,5,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Private Method,"org.freeeed.main.Reduce.mergeLuceneIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,5,39,9,27,14,23,3,16,4,1,19,23,13,17,3,3,3,1,0,,,,,0,,1,0,,,"0.11",3,3,3,1
+Protected Method,"org.freeeed.main.Reduce.processMap",,,,,,,,,,,,,,,,,,,,,,,,,,,24,66,0,57,16,48,10,19,72,2,29,37,12,36,8,8,8,1,2,,,,,0,,2,0,,,"0.18",8,8,8,1
+Public Method,"org.freeeed.main.Reduce.reduce",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,12,4,7,1,7,2,0,6,9,3,7,2,2,2,1,0,,,,,0,,1,0,,,"0.08",2,2,2,1
+Protected Method,"org.freeeed.main.Reduce.setup",,,,,,,,,,,,,,,,,,,,,,,,,,,10,29,2,26,11,20,1,24,2,0,19,21,8,20,2,2,2,1,0,,,,,0,,1,0,,,"0.04",2,2,2,1
+Public Class,"org.freeeed.main.WindowsReduce",1,1,1,1,10,0,9,0,1,15,15,0,,2,1,,,,4,1,6,14,0,1,2,3,,80,10,63,20,38,7,,,,28,41,15,31,,,,,,3,3,3,1,,3,2,,58,50,"0.11",11,11,11,6
+Private Constructor,"org.freeeed.main.WindowsReduce.WindowsReduce",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.freeeed.main.WindowsReduce.cleanup",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,2,12,4,7,1,10,2,0,5,7,2,6,2,2,2,1,0,,,,,0,,1,0,,,"0.08",2,2,2,1
+Public Static Method,"org.freeeed.main.WindowsReduce.getInstance",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,11,1,7,0,5,3,0,4,7,1,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"org.freeeed.main.WindowsReduce.reduce",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,3,5,0,5,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"org.freeeed.main.WindowsReduce.reinit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"org.freeeed.main.WindowsReduce.setup",,,,,,,,,,,,,,,,,,,,,,,,,,,11,24,1,21,7,16,2,21,2,0,13,15,5,14,2,2,2,1,0,,,,,0,,1,0,,,"0.10",2,2,2,1

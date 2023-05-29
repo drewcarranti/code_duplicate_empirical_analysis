@@ -1,0 +1,38 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"ERXFileUtilities.java",3,3,4,1,21,1,13,7,,,,,1,33,1,33,,33,0,0,33,,0,0,0,33,,794,81,460,127,309,256,,,,232,354,122,278,,,,,,14,14,17,6,,,4,,,,"0.56",125,125,140,46
+Package,"er",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"er.extensions",3,3,4,1,21,1,13,7,,,,,1,33,1,,1,,0,0,33,,0,0,0,33,,794,81,460,127,309,256,,,,232,354,122,278,,,,,,14,14,17,6,,,4,,,,"0.56",125,125,140,46
+Public Class,"er.extensions.ERXFileUtilities",3,3,4,1,21,1,13,7,1,33,33,0,,33,1,,,,0,0,33,33,0,0,0,33,,779,79,453,120,309,250,,,,225,347,115,278,,,,,,14,14,17,6,,1,4,,0,0,"0.55",125,125,140,46
+Public Static Method,"er.extensions.ERXFileUtilities.URLFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,11,2,7,5,3,3,0,4,7,2,5,3,3,3,1,1,,,,,0,,2,0,,,"0.45",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.URLFromPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,11,2,7,6,1,3,0,4,7,2,5,3,3,3,1,1,,,,,0,,2,0,,,"0.55",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.arrayByAddingFilesInDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,4,30,2,19,4,13,9,6,5,1,10,15,5,12,5,5,6,3,3,,,,,2,,2,2,,,"0.47",5,5,6,3
+Public Static Method,"er.extensions.ERXFileUtilities.bytesFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,0,11,5,9,6,4,4,1,8,11,5,8,3,3,3,1,0,,,,,0,,1,0,,,"0.55",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.bytesFromInputStream",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,2,10,4,7,6,4,4,1,6,9,4,6,3,3,3,1,0,,,,,0,,1,0,,,"0.60",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.copyFileToFile",,,,,,,,,,,,,,,,,,,,,,,,,,,8,52,2,40,8,30,10,9,321,3,17,31,7,27,14,14,17,1,5,,,,,0,,4,0,,,"0.25",14,14,17,1
+Public Static Method,"er.extensions.ERXFileUtilities.copyFilesFromDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,7,45,1,34,12,23,10,9,14,1,13,21,7,16,9,9,12,1,3,,,,,0,,4,0,,,"0.29",9,9,12,1
+Public Static Final Method,"er.extensions.ERXFileUtilities.createTempDir",,,,,,,,,,,,,,,,,,,,,,,,,,,0,16,2,7,2,5,7,4,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Final Method,"er.extensions.ERXFileUtilities.createTempDir",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,7,2,5,7,4,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.deleteDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,3,20,2,13,3,9,5,4,6,1,8,14,4,12,6,6,6,6,10,,,,,10,,3,10,,,"0.38",6,6,6,6
+Public Static Method,"er.extensions.ERXFileUtilities.deleteFilesInDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,3,25,0,19,3,13,6,5,24,1,8,15,4,12,7,7,12,1,0,,,,,0,,3,0,,,"0.32",7,7,12,1
+Public Static Method,"er.extensions.ERXFileUtilities.lastModifiedDateForFileInFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,2,18,0,8,3,5,10,3,2,0,4,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"1.25",2,2,2,1
+Public Static Method,"er.extensions.ERXFileUtilities.length",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,12,3,8,0,4,3,0,7,9,4,6,3,3,3,1,1,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.linkFiles",,,,,,,,,,,,,,,,,,,,,,,,,,,7,40,3,29,8,21,8,8,96,2,16,25,5,21,8,8,9,3,2,,,,,2,,3,2,,,"0.28",8,8,9,3
+Public Static Method,"er.extensions.ERXFileUtilities.md5",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,0,8,2,5,7,4,2,0,3,5,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.88",2,2,2,1
+Public Static Method,"er.extensions.ERXFileUtilities.md5Hex",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.pathForResourceNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,3,1,1,9,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.pathURLForResourceNamed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,0,9,2,6,11,2,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"1.22",2,2,2,1
+Public Static Method,"er.extensions.ERXFileUtilities.readPropertyListFromFileInFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,3,1,1,9,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.readPropertyListFromFileInFramework",,,,,,,,,,,,,,,,,,,,,,,,,,,6,30,0,19,6,12,11,6,4,1,7,11,4,9,4,4,4,1,2,,,,,0,,3,0,,,"0.58",4,4,4,1
+Public Static Method,"er.extensions.ERXFileUtilities.remoteCopyFile",,,,,,,,,,,,,,,,,,,,,,,,,,,8,38,4,27,6,22,7,9,24,1,19,26,6,24,8,8,8,3,2,,,,,2,,3,2,,,"0.26",8,8,8,3
+Public Static Method,"er.extensions.ERXFileUtilities.remoteCopyFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.remoteCopyFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.replaceFileExtension",,,,,,,,,,,,,,,,,,,,,,,,,,,2,26,4,14,4,10,8,4,3,0,6,9,4,7,3,3,3,3,2,,,,,2,,2,2,,,"0.57",3,3,3,3
+Public Static Method,"er.extensions.ERXFileUtilities.stringFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.stringFromFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.stringFromInputStream",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.stringFromInputStream",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.unzipFile",,,,,,,,,,,,,,,,,,,,,,,,,,,5,74,5,52,10,38,17,18,256,2,26,38,11,36,13,13,14,1,5,,,,,0,,3,0,,,"0.33",13,13,14,1
+Public Static Method,"er.extensions.ERXFileUtilities.writeInputStreamToFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.writeInputStreamToFile",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,13,5,10,6,4,4,1,9,12,5,9,3,3,3,1,0,,,,,0,,1,0,,,"0.46",3,3,3,1
+Public Static Method,"er.extensions.ERXFileUtilities.zipFile",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Static Method,"er.extensions.ERXFileUtilities.zipFile",,,,,,,,,,,,,,,,,,,,,,,,,,,7,55,10,44,11,32,1,17,96,2,24,34,12,29,11,11,12,1,1,,,,,0,,3,0,,,"0.02",11,11,12,1

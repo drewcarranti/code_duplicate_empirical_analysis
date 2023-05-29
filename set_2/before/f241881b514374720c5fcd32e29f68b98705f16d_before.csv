@@ -1,0 +1,194 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AccessNode.java",5,5,7,1,23,0,20,2,,,,,2,0,0,9,,9,9,3,9,,0,1,0,8,,256,13,195,69,107,48,,,,89,137,69,89,,,,,,21,20,33,4,,,7,,,,"0.25",48,47,65,12
+File,"JacksonComparisonSerializationTest.java",2,2,2,1,13,0,13,1,,,,,1,0,0,3,,3,3,0,3,,0,2,0,1,,82,7,50,20,28,26,,,,35,44,21,28,,,,,,4,4,4,1,,,2,,,,"0.52",7,7,7,3
+File,"JacksonComplexSerializationTest.java",1,1,1,1,11,0,11,0,,,,,1,0,0,14,,14,14,0,14,,0,1,0,13,,229,19,185,89,112,25,,,,141,158,77,113,,,,,,2,2,2,1,,,1,,,,"0.14",16,16,16,14
+File,"JacksonSerializationData.java",1,1,1,1,2,0,2,0,,,,,11,0,0,50,,53,53,17,53,,0,1,0,52,,230,15,190,90,47,25,,,,73,134,88,47,,,,,,2,2,2,1,,,0,,,,"0.13",51,51,51,50
+File,"ProtostuffComparisonSerializationTest.java",2,2,2,1,13,0,13,1,,,,,1,0,0,3,,3,3,0,3,,0,2,0,1,,82,7,50,20,28,26,,,,35,44,21,28,,,,,,4,4,4,1,,,2,,,,"0.52",7,7,7,3
+File,"ProtostuffComplexSerializationTest.java",1,1,1,1,11,0,11,0,,,,,1,0,0,14,,14,14,0,14,,0,1,0,13,,229,19,185,89,112,25,,,,141,158,77,113,,,,,,2,2,2,1,,,1,,,,"0.14",16,16,16,14
+File,"ProtostuffSerializationData.java",1,1,1,1,2,0,2,0,,,,,11,0,0,50,,53,53,17,53,,0,1,0,52,,230,15,190,90,47,25,,,,73,134,88,47,,,,,,2,2,2,1,,,0,,,,"0.13",51,51,51,50
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.switchyard",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.switchyard.serial",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.switchyard.serial.graph",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.switchyard.serial.graph.node",5,5,7,1,23,0,20,2,,,,,2,0,0,,1,,9,3,9,,0,1,0,8,,256,13,195,69,107,48,,,,89,137,69,89,,,,,,21,20,33,4,,,7,,,,"0.25",48,47,65,12
+Public Final Class,"org.switchyard.serial.graph.node.AccessNode",5,5,6,1,23,0,20,3,2,32,32,0,,0,0,,,,8,3,8,8,0,1,0,7,,207,10,167,41,107,30,,,,61,109,41,89,,,,,,21,20,33,4,,1,7,,66,62,"0.18",41,40,55,11
+Public Constructor,"org.switchyard.serial.graph.node.AccessNode.AccessNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,1,1,0,3,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"3.00",1,1,1,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.compose",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,0,22,5,13,3,9,12,1,7,15,5,13,7,7,8,4,1,,,,,1,,4,1,,,"0.14",7,7,8,4
+Public Method,"org.switchyard.serial.graph.node.AccessNode.decompose",,,,,,,,,,,,,,,,,,,,,,,,,,,4,54,0,51,12,35,3,13,8,1,21,36,12,32,8,8,9,1,1,,,,,0,,0,0,,,"0.06",8,8,9,1
+Anonymous Class,"org.switchyard.serial.graph.node.AccessNode.decompose.(Anon_1)",7,7,10,1,25,0,25,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,26,0,26,5,20,0,,,,12,19,6,17,,,,,,7,7,10,1,,2,3,,0,0,"0.00",7,7,10,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.decompose.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,4,25,0,25,5,19,0,14,13,1,12,19,6,17,7,7,10,1,1,,,,,0,,3,0,,,"0.00",7,7,10,1
+Private Method,"org.switchyard.serial.graph.node.AccessNode.getAccessList",,,,,,,,,,,,,,,,,,,,,,,,,,,9,75,0,75,14,55,0,23,98,2,26,45,15,40,21,20,33,1,5,,,,,0,,7,0,,,"0.00",21,20,33,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.getIds",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.setIds",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"org.switchyard.serial.graph.node.AccessNode.setType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,3,1,1,4,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Package,"org.switchyard.serial.jackson",1,1,1,1,5,0,5,0,,,,,13,0,0,,3,,70,17,70,,0,4,0,66,,541,41,425,199,187,76,,,,249,336,186,188,,,,,,4,4,4,1,,,2,,,,"0.18",74,74,74,67
+Public Final Class,"org.switchyard.serial.jackson.JacksonComparisonSerializationTest",2,2,2,1,13,0,13,1,1,10,10,0,,0,0,,,,3,0,3,3,0,2,0,1,,52,4,41,11,28,8,,,,26,35,12,28,,,,,,4,4,4,1,,1,2,,0,0,"0.20",7,7,7,3
+Private Method,"org.switchyard.serial.jackson.JacksonComparisonSerializationTest.doRun",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,0,25,7,20,3,12,5,1,19,23,8,20,4,4,4,1,0,,,,,0,,2,0,,,"0.12",4,4,4,1
+Private Method,"org.switchyard.serial.jackson.JacksonComparisonSerializationTest.doTest",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,2,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComparisonSerializationTest.testSerialization",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,2,0,1,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"org.switchyard.serial.jackson.JacksonComplexSerializationTest",1,1,1,1,11,0,11,0,1,32,32,0,,0,0,,,,14,0,14,14,0,1,0,13,,180,15,158,62,112,7,,,,114,131,50,113,,,,,,2,2,2,1,,1,1,,0,0,"0.04",16,16,16,14
+Private Generic Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.serDeser",,,,,,,,,,,,,,,,,,,,,,,,,,,16,7,0,5,3,3,2,4,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+TypeVariable,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.serDeser.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testCircularReferences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,30,0,30,7,27,0,11,1,0,27,28,6,27,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testDOM",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,7,8,0,7,1,0,8,9,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testEmptyBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,6,0,5,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testFluentBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,6,0,11,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testPolymorphicArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testPolymorphicCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,15,5,11,0,10,2,0,12,14,5,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testSpecificArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testSpecificUnsupportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testStrictBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,4,8,0,11,1,0,8,9,3,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testThrowable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,16,7,13,0,9,1,0,13,14,6,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testUnsupportedTypeArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testUnsupportedTypeCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,4,8,0,8,2,0,9,11,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.switchyard.serial.jackson.JacksonComplexSerializationTest.testUnsupportedTypeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,4,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.switchyard.serial.jackson.JacksonSerializationData",1,1,1,1,1,0,1,0,1,0,0,0,,0,0,,,,1,0,1,1,0,1,0,0,,202,12,183,83,47,7,,,,66,127,81,47,,,,,,1,1,1,1,,1,0,,0,0,"0.04",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.Antennae",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.Car",1,1,1,1,2,0,2,0,2,10,10,0,,0,0,,,,19,8,19,19,0,0,0,19,,66,0,66,29,18,0,,,,26,46,28,18,,,,,,1,1,1,1,,1,0,,89,84,"0.00",19,19,19,19
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.Car.Car",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.Car.Car",,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getAntennae",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getCheapParts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getDriver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getExpensiveParts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getInspection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getPassengers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getProblem",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.getTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setAntennae",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setCheapParts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setDriver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setExpensiveParts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setInspection",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setPassengers",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setProblem",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.setTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Car.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,9,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart",1,1,1,1,2,0,2,0,2,1,1,0,,0,0,,,,5,1,5,5,0,0,0,5,,16,0,16,7,4,0,,,,5,11,7,4,,,,,,1,1,1,1,,1,0,,60,19,"0.00",5,5,5,5
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart.CustomPart",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart.CustomPart",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart.setReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.CustomPart.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.ExpiredPart",1,1,1,1,3,0,3,0,2,2,2,0,,0,0,,,,4,1,4,4,0,0,0,4,,15,0,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,50,25,"0.00",4,4,4,4
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.ExpiredPart.ExpiredPart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.ExpiredPart.getExpiredDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.ExpiredPart.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.ExpiredPart.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,5,2,5,5,0,0,0,5,,21,0,19,8,6,2,,,,8,14,8,6,,,,,,1,1,1,1,,1,0,,60,60,"0.11",5,5,5,5
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle.FluentTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle.setLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.FluentTitle.setState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.JacksonSerializationData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.switchyard.serial.jackson.JacksonSerializationData.Part",0,0,0,0,0,0,0,0,0,0,0,3,,0,0,,,,1,0,1,1,0,0,0,1,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.jackson.JacksonSerializationData.Part.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.Person",1,1,1,1,2,0,2,0,2,4,4,0,,0,0,,,,9,3,9,9,0,0,0,9,,31,0,31,14,9,0,,,,11,21,13,9,,,,,,2,2,2,1,,1,0,,74,62,"0.00",10,10,10,9
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.Person.Person",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.Person.Person",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.getBestFriend",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.getRelatives",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.setBestFriend",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.setRelatives",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Person.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle",1,1,1,1,2,0,2,0,2,1,1,0,,0,0,,,,5,2,5,5,0,0,0,5,,17,0,17,8,4,0,,,,6,12,8,4,,,,,,1,1,1,1,,1,0,,60,60,"0.00",5,5,5,5
+Public Constructor,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle.StrictTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle.setLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.StrictTitle.setState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.switchyard.serial.jackson.JacksonSerializationData.Title",0,0,0,0,0,0,0,0,0,1,1,2,,0,0,,,,2,0,2,2,0,0,0,2,,4,0,4,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.jackson.JacksonSerializationData.Title.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.jackson.JacksonSerializationData.Title.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.jackson.JacksonSerializationData.Wheel",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,2,0,2,2,0,0,0,2,,8,0,8,3,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Wheel.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.jackson.JacksonSerializationData.Wheel.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"org.switchyard.serial.protostuff",1,1,1,1,5,0,5,0,,,,,13,0,0,,3,,70,17,70,,0,4,0,66,,541,41,425,199,187,76,,,,249,336,186,188,,,,,,4,4,4,1,,,2,,,,"0.18",74,74,74,67
+Public Final Class,"org.switchyard.serial.protostuff.ProtostuffComparisonSerializationTest",2,2,2,1,13,0,13,1,1,10,10,0,,0,0,,,,3,0,3,3,0,2,0,1,,52,4,41,11,28,8,,,,26,35,12,28,,,,,,4,4,4,1,,1,2,,0,0,"0.20",7,7,7,3
+Private Method,"org.switchyard.serial.protostuff.ProtostuffComparisonSerializationTest.doRun",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,0,25,7,20,3,12,5,1,19,23,8,20,4,4,4,1,0,,,,,0,,2,0,,,"0.12",4,4,4,1
+Private Method,"org.switchyard.serial.protostuff.ProtostuffComparisonSerializationTest.doTest",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,8,1,6,0,2,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComparisonSerializationTest.testSerialization",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,6,2,2,0,2,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Class,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest",1,1,1,1,11,0,11,0,1,32,32,0,,0,0,,,,14,0,14,14,0,1,0,13,,180,15,158,62,112,7,,,,114,131,50,113,,,,,,2,2,2,1,,1,1,,0,0,"0.04",16,16,16,14
+Private Generic Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.serDeser",,,,,,,,,,,,,,,,,,,,,,,,,,,16,7,0,5,3,3,2,4,1,0,3,4,3,3,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+TypeVariable,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.serDeser.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testCircularReferences",,,,,,,,,,,,,,,,,,,,,,,,,,,1,30,0,30,7,27,0,11,1,0,27,28,6,27,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testDOM",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,7,8,0,7,1,0,8,9,6,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testEmptyBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,6,0,5,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testFluentBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,4,6,0,11,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testPolymorphicArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testPolymorphicCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,15,5,11,0,10,2,0,12,14,5,12,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testSpecificArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,8,3,5,0,7,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testSpecificUnsupportedType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,3,3,0,3,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testStrictBean",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,11,4,8,0,11,1,0,8,9,3,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testThrowable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,16,0,16,7,13,0,9,1,0,13,14,6,13,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testUnsupportedTypeArray",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,7,3,4,0,6,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testUnsupportedTypeCollection",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,0,12,4,8,0,8,2,0,9,11,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffComplexSerializationTest.testUnsupportedTypeMap",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,9,4,5,0,5,1,0,5,6,2,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData",1,1,1,1,1,0,1,0,1,0,0,0,,0,0,,,,1,0,1,1,0,1,0,0,,202,12,183,83,47,7,,,,66,127,81,47,,,,,,1,1,1,1,,1,0,,0,0,"0.04",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Antennae",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car",1,1,1,1,2,0,2,0,2,10,10,0,,0,0,,,,19,8,19,19,0,0,0,19,,66,0,66,29,18,0,,,,26,46,28,18,,,,,,1,1,1,1,,1,0,,89,84,"0.00",19,19,19,19
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.Car",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.Car",,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getAntennae",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getCheapParts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getDriver",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getExpensiveParts",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getInspection",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getPassengers",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getProblem",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.getTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setAntennae",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setCheapParts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setDriver",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setExpensiveParts",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setInspection",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setPassengers",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setProblem",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.setTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Car.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,9,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart",1,1,1,1,2,0,2,0,2,1,1,0,,0,0,,,,5,1,5,5,0,0,0,5,,16,0,16,7,4,0,,,,5,11,7,4,,,,,,1,1,1,1,,1,0,,60,19,"0.00",5,5,5,5
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart.CustomPart",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart.CustomPart",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart.setReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.CustomPart.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ExpiredPart",1,1,1,1,3,0,3,0,2,2,2,0,,0,0,,,,4,1,4,4,0,0,0,4,,15,0,15,6,4,0,,,,5,10,6,4,,,,,,1,1,1,1,,1,0,,50,25,"0.00",4,4,4,4
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ExpiredPart.ExpiredPart",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ExpiredPart.getExpiredDate",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ExpiredPart.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ExpiredPart.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,5,2,5,5,0,0,0,5,,21,0,19,8,6,2,,,,8,14,8,6,,,,,,1,1,1,1,,1,0,,60,60,"0.11",5,5,5,5
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle.FluentTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle.setLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.FluentTitle.setState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Part",0,0,0,0,0,0,0,0,0,0,0,3,,0,0,,,,1,0,1,1,0,0,0,1,,3,0,3,2,0,0,,,,1,2,2,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Part.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person",1,1,1,1,2,0,2,0,2,4,4,0,,0,0,,,,9,3,9,9,0,0,0,9,,31,0,31,14,9,0,,,,11,21,13,9,,,,,,2,2,2,1,,1,0,,74,62,"0.00",10,10,10,9
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.Person",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.Person",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.getBestFriend",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.getRelatives",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.setBestFriend",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.setRelatives",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Person.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,4,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Private Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.ProtostuffSerializationData",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle",1,1,1,1,2,0,2,0,2,1,1,0,,0,0,,,,5,2,5,5,0,0,0,5,,17,0,17,8,4,0,,,,6,12,8,4,,,,,,1,1,1,1,,1,0,,60,60,"0.00",5,5,5,5
+Public Constructor,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle.StrictTitle",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle.setLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.StrictTitle.setState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Interface,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Title",0,0,0,0,0,0,0,0,0,1,1,2,,0,0,,,,2,0,2,2,0,0,0,2,,4,0,4,3,0,0,,,,2,3,3,0,,,,,,0,0,0,0,,0,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Title.getState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Title.isLiened",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Final Class,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Wheel",1,1,1,1,3,0,3,0,2,1,1,0,,0,0,,,,2,0,2,2,0,0,0,2,,8,0,8,3,2,0,,,,2,5,3,2,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Wheel.isReplaceable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.switchyard.serial.protostuff.ProtostuffSerializationData.Wheel.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

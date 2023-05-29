@@ -1,0 +1,61 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"AndroidForwarderRPC.java",1,1,2,1,18,1,14,2,,,,,2,0,1,8,,8,8,7,8,,0,1,1,6,,179,23,127,52,67,29,,,,79,98,48,58,,,,,,4,4,5,1,,,2,,,,"0.23",15,15,18,8
+File,"BaseRelayForwarderRPC.java",1,1,2,1,11,0,8,2,,,,,2,0,1,13,,15,15,3,15,,0,2,3,10,,219,28,133,57,64,58,,,,76,102,57,55,,,,,,4,4,8,1,,,1,,,,"0.44",23,23,28,13
+File,"OpenTCPForwarderRPC.java",1,1,2,1,17,1,13,2,,,,,3,0,1,7,,7,7,2,7,,0,0,1,6,,144,18,98,45,53,28,,,,60,73,42,42,,,,,,4,4,6,1,,,2,,,,"0.29",13,13,17,7
+File,"RelayRPC.java",2,2,3,1,20,1,14,4,,,,,2,0,1,12,,12,12,5,12,,0,6,0,6,,287,35,187,58,120,65,,,,112,146,60,104,,,,,,8,8,12,4,,,2,,,,"0.35",32,32,36,18
+Package,"net",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.tomp2p",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"net.tomp2p.relay",2,2,2,1,15,1,11,3,,,,,4,0,2,,2,,27,8,27,,0,8,3,16,,506,63,320,115,184,123,,,,188,248,117,159,,,,,,8,8,12,4,,,2,,,,"0.38",55,55,64,31
+Public Abstract Class,"net.tomp2p.relay.BaseRelayForwarderRPC",1,1,2,1,11,0,8,2,2,25,25,2,,0,1,,,,14,3,14,14,0,2,3,9,,189,24,107,31,64,58,,,,50,76,31,55,,,,,,4,4,8,1,,2,1,,69,55,"0.54",21,21,26,12
+Public Constructor,"net.tomp2p.relay.BaseRelayForwarderRPC.BaseRelayForwarderRPC",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,3,0,10,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"net.tomp2p.relay.BaseRelayForwarderRPC.forwardToUnreachable",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Private Method,"net.tomp2p.relay.BaseRelayForwarderRPC.getNeighbors",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,1,6,0,5,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.getPeerMap",,,,,,,,,,,,,,,,,,,,,,,,,,,1,18,1,14,3,9,3,6,5,1,6,12,5,9,4,4,5,1,1,,,,,0,,1,0,,,"0.21",4,4,5,1
+Private Method,"net.tomp2p.relay.BaseRelayForwarderRPC.handleNeigbhor",,,,,,,,,,,,,,,,,,,,,,,,,,,15,40,6,22,6,17,12,12,8,1,13,17,6,16,4,4,8,1,1,,,,,0,,1,0,,,"0.55",4,4,8,1
+Protected Abstract Method,"net.tomp2p.relay.BaseRelayForwarderRPC.handlePing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,1,1,0,7,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.handleResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,3,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.handleResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,8,28,0,24,3,19,4,7,3,0,11,16,4,14,3,3,3,1,2,,,,,0,,0,0,,,"0.17",3,3,3,1
+Anonymous Class,"net.tomp2p.relay.BaseRelayForwarderRPC.handleResponse.(Anon_1)",2,2,2,1,10,0,10,0,1,6,6,0,,0,0,,,,1,0,1,1,0,0,0,1,,11,0,11,1,9,0,,,,4,6,2,5,,,,,,2,2,2,1,,2,1,,0,0,"0.00",2,2,2,1
+Public Method,"net.tomp2p.relay.BaseRelayForwarderRPC.handleResponse.(Anon_1).operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,10,1,8,0,6,2,0,4,6,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.tomp2p.relay.BaseRelayForwarderRPC.peerFailed",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"net.tomp2p.relay.BaseRelayForwarderRPC.relayPeerId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.setPeerMap",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.unreachablePeerAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.unreachablePeerAddress",,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Final Method,"net.tomp2p.relay.BaseRelayForwarderRPC.unreachablePeerId",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"net.tomp2p.relay.RelayRPC",3,3,3,1,25,2,17,6,1,26,26,0,,0,1,,,,9,5,9,9,0,6,0,3,,261,31,165,36,120,65,,,,90,124,38,104,,,,,,8,8,12,4,,2,2,,64,44,"0.39",28,28,32,15
+Public Constructor,"net.tomp2p.relay.RelayRPC.RelayRPC",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,1,9,1,7,11,10,1,0,7,8,1,7,1,1,1,1,0,,,,,0,,0,0,,,"1.22",1,1,1,1
+Private Method,"net.tomp2p.relay.RelayRPC.handleBufferRequest",,,,,,,,,,,,,,,,,,,,,,,,,,,8,30,2,20,5,16,8,12,3,0,12,15,5,13,3,3,3,1,2,,,,,0,,2,0,,,"0.40",3,3,3,1
+Private Method,"net.tomp2p.relay.RelayRPC.handleMap",,,,,,,,,,,,,,,,,,,,,,,,,,,6,21,1,12,4,9,8,11,2,0,7,9,4,8,2,2,2,1,1,,,,,0,,1,0,,,"0.67",2,2,2,1
+Private Method,"net.tomp2p.relay.RelayRPC.handlePiggyBackedMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,5,45,5,34,7,26,6,11,2,0,16,22,9,18,2,2,2,1,1,,,,,0,,1,0,,,"0.18",2,2,2,1
+Anonymous Class,"net.tomp2p.relay.RelayRPC.handlePiggyBackedMessage.(Anon_1)",1,1,1,1,6,0,6,0,1,7,7,0,,0,0,,,,3,0,3,3,0,0,0,3,,25,3,21,2,17,1,,,,8,12,4,9,,,,,,2,2,2,1,,2,1,,0,0,"0.05",4,4,4,3
+Public Method,"net.tomp2p.relay.RelayRPC.handlePiggyBackedMessage.(Anon_1).failed",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.tomp2p.relay.RelayRPC.handlePiggyBackedMessage.(Anon_1).response",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,0,12,1,10,0,8,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"net.tomp2p.relay.RelayRPC.handlePiggyBackedMessage.(Anon_1).responseFireAndForget",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,0,3,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.tomp2p.relay.RelayRPC.handleResponse",,,,,,,,,,,,,,,,,,,,,,,,,,,12,35,1,25,3,19,9,13,10,1,10,18,2,17,8,8,12,1,6,,,,,0,,2,0,,,"0.36",8,8,12,1
+Private Method,"net.tomp2p.relay.RelayRPC.handleSetupAndroid",,,,,,,,,,,,,,,,,,,,,,,,,,,10,38,5,30,5,24,3,14,5,1,19,24,5,23,5,5,5,4,4,,,,,3,,1,3,,,"0.10",5,5,5,4
+Private Method,"net.tomp2p.relay.RelayRPC.handleSetupTCP",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,2,11,2,8,5,9,2,0,7,9,2,8,2,2,2,1,1,,,,,0,,1,0,,,"0.45",2,2,2,1
+Public Method,"net.tomp2p.relay.RelayRPC.peer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"net.tomp2p.relay.RelayRPC.registerRelayForwarder",,,,,,,,,,,,,,,,,,,,,,,,,,,9,18,1,13,1,9,4,10,4,1,5,10,2,8,4,4,4,4,3,,,,,3,,2,3,,,"0.31",4,4,4,4
+Package,"net.tomp2p.relay.android",1,1,2,1,18,1,14,2,,,,,2,0,1,,1,,8,7,8,,0,1,1,6,,179,23,127,52,67,29,,,,79,98,48,58,,,,,,4,4,5,1,,,2,,,,"0.23",15,15,18,8
+Public Class,"net.tomp2p.relay.android.AndroidForwarderRPC",1,1,2,1,17,1,13,3,2,27,27,0,,0,1,,,,7,7,7,21,0,1,1,5,,150,17,104,29,67,29,,,,56,75,25,58,,,,,,2,2,5,1,,3,1,,71,71,"0.28",11,11,14,7
+Public Constructor,"net.tomp2p.relay.android.AndroidForwarderRPC.AndroidForwarderRPC",,,,,,,,,,,,,,,,,,,,,,,,,,,9,14,2,11,2,8,1,14,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.09",1,1,1,1
+Public Method,"net.tomp2p.relay.android.AndroidForwarderRPC.bufferFull",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,0,7,2,3,0,2,1,0,2,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.tomp2p.relay.android.AndroidForwarderRPC.forwardToUnreachable",,,,,,,,,,,,,,,,,,,,,,,,,,,6,18,2,15,4,11,1,9,2,0,9,11,3,10,2,2,2,1,2,,,,,0,,1,0,,,"0.07",2,2,2,1
+Public Method,"net.tomp2p.relay.android.AndroidForwarderRPC.getBufferedMessages",,,,,,,,,,,,,,,,,,,,,,,,,,,4,22,2,13,3,9,7,8,2,0,7,11,4,9,2,2,2,1,0,,,,,0,,1,0,,,"0.54",2,2,2,1
+Protected Method,"net.tomp2p.relay.android.AndroidForwarderRPC.handlePing",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,1,10,2,6,9,7,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.90",2,2,2,1
+Public Method,"net.tomp2p.relay.android.AndroidForwarderRPC.peerFound",,,,,,,,,,,,,,,,,,,,,,,,,,,3,8,0,8,2,4,0,8,2,0,3,5,1,4,2,2,5,1,0,,,,,0,,1,0,,,"0.00",2,2,5,1
+Private Method,"net.tomp2p.relay.android.AndroidForwarderRPC.sendTickleMessage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,35,1,30,5,25,4,6,1,0,15,20,5,18,1,1,1,1,0,,,,,0,,0,0,,,"0.13",1,1,1,1
+Anonymous Class,"net.tomp2p.relay.android.AndroidForwarderRPC.sendTickleMessage.(Anon_1)",4,4,4,1,22,0,22,0,1,4,4,0,,0,0,,,,1,0,1,1,0,0,0,1,,23,0,23,1,20,0,,,,11,15,2,14,,,,,,4,4,4,1,,2,2,,0,0,"0.00",4,4,4,1
+Public Method,"net.tomp2p.relay.android.AndroidForwarderRPC.sendTickleMessage.(Anon_1).run",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,22,1,19,0,10,4,1,11,15,2,14,4,4,4,1,3,,,,,0,,2,0,,,"0.00",4,4,4,1
+Package,"net.tomp2p.relay.tcp",1,1,2,1,17,1,13,2,,,,,3,0,1,,1,,7,2,7,,0,0,1,6,,144,18,98,45,53,28,,,,60,73,42,42,,,,,,4,4,6,1,,,2,,,,"0.29",13,13,17,7
+Public Class,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC",1,1,2,1,19,1,14,3,1,16,16,0,,0,1,,,,5,2,5,19,0,0,1,4,,120,14,78,25,53,28,,,,40,53,22,42,,,,,,2,2,6,1,,3,1,,40,40,"0.36",8,8,12,5
+Public Constructor,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.OpenTCPForwarderRPC",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,2,13,1,10,9,10,1,0,7,9,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.69",1,1,1,1
+Anonymous Class,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.OpenTCPForwarderRPC.(Anon_1)",1,1,1,1,5,0,5,0,1,5,5,0,,0,0,,,,1,0,1,1,0,0,0,1,,6,0,6,0,5,0,,,,2,3,1,2,,,,,,1,1,1,1,,2,0,,0,0,"0.00",1,1,1,1
+Public Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.OpenTCPForwarderRPC.(Anon_1).operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,1,5,0,5,0,4,0,7,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.forwardToUnreachable",,,,,,,,,,,,,,,,,,,,,,,,,,,8,46,5,36,9,28,5,15,2,0,20,26,9,24,2,2,2,1,2,,,,,0,,0,0,,,"0.14",2,2,2,1
+Anonymous Class,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.forwardToUnreachable.(Anon_2)",4,4,4,1,19,1,18,0,1,8,8,0,,0,0,,,,1,0,1,1,0,0,0,1,,20,1,19,4,15,0,,,,9,13,5,12,,,,,,4,4,4,1,,2,2,,0,0,"0.00",4,4,4,1
+Public Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.forwardToUnreachable.(Anon_2).operationComplete",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,1,18,4,14,0,12,5,1,9,13,5,12,4,4,4,1,1,,,,,0,,2,0,,,"0.00",4,4,4,1
+Protected Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.handlePing",,,,,,,,,,,,,,,,,,,,,,,,,,,6,7,0,7,4,4,0,5,1,0,3,4,2,3,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.peerFailed",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"net.tomp2p.relay.tcp.OpenTCPForwarderRPC.peerFound",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,13,5,9,2,8,2,0,6,8,4,6,2,2,6,1,0,,,,,0,,1,0,,,"0.15",2,2,6,1

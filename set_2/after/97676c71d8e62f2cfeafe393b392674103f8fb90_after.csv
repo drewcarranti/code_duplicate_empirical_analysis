@@ -1,0 +1,302 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BM25ScoringFunction.java",1,1,1,1,6,0,6,0,,,,,1,0,0,6,,6,6,6,6,,0,0,0,6,,84,12,49,24,20,23,,,,24,34,18,16,,,,,,4,4,4,1,,,1,,,,"0.47",9,9,9,6
+File,"BatchQueryRunner.java",2,2,3,1,16,2,12,1,,,,,1,0,1,20,,20,20,12,20,,0,9,1,10,,409,74,292,110,188,43,,,,169,232,117,163,,,,,,8,8,8,3,,,4,,,,"0.15",59,59,62,22
+File,"CascadeAccumulator.java",1,1,1,1,3,0,3,0,,,,,1,0,0,1,,1,1,1,1,,0,0,0,1,,35,6,10,7,2,19,,,,6,8,7,1,,,,,,1,1,1,1,,,0,,,,"1.90",1,1,1,1
+File,"CascadeBM25ScoringFunction.java",1,1,1,1,8,1,7,0,,,,,1,0,3,3,,3,3,0,3,,0,0,0,3,,64,12,33,17,11,19,,,,18,23,14,9,,,,,,2,2,2,1,,,1,,,,"0.58",4,4,4,3
+File,"CascadeBatchQueryRunner.java",8,8,8,1,48,8,34,5,,,,,1,0,1,9,,9,9,9,9,,0,4,0,5,,528,104,354,107,232,72,,,,213,289,117,215,,,,,,27,27,27,3,,,5,,,,"0.20",74,74,78,11
+File,"CascadeClique.java",1,1,1,1,5,0,4,0,,,,,1,0,3,21,,21,21,5,21,,0,0,0,21,,196,47,120,51,59,32,,,,66,93,52,54,,,,,,4,4,4,1,,,1,,,,"0.27",26,26,26,21
+File,"CascadeCliqueFactory.java",10,10,12,3,70,13,48,9,,,,,1,2,0,2,,2,0,0,2,,0,0,0,2,,184,34,113,46,71,37,,,,77,100,49,70,,,,,,15,15,19,5,,,4,,,,"0.33",21,21,25,6
+File,"CascadeCliqueSet.java",1,1,1,1,6,0,5,0,,,,,1,1,0,5,,7,6,1,7,,0,0,3,4,,82,17,43,22,17,22,,,,25,32,19,16,,,,,,2,2,2,1,,,1,,,,"0.51",6,6,6,5
+File,"CascadeDirichletScoringFunction.java",1,1,1,1,8,0,7,0,,,,,1,0,2,3,,3,3,0,3,,0,0,0,3,,64,12,32,15,10,20,,,,15,21,12,9,,,,,,3,3,3,3,,,1,,,,"0.62",5,5,5,5
+File,"CascadeEval.java",10,10,11,4,86,21,54,13,,,,,1,0,3,11,,11,11,28,11,,0,1,0,10,,1101,277,655,177,474,199,,,,434,553,205,380,,,,,,58,58,67,28,,,12,,,,"0.30",115,115,126,48
+File,"CascadeOrderedCliqueSet.java",2,2,2,1,13,1,10,1,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,69,12,31,16,14,26,,,,18,23,13,12,,,,,,3,3,3,1,,,1,,,,"0.84",4,4,4,2
+File,"CascadeQueryPotential.java",1,1,1,1,8,1,6,0,,,,,1,0,0,12,,12,12,2,12,,0,0,0,12,,151,41,84,26,39,27,,,,36,57,24,36,,,,,,6,6,7,3,,,2,,,,"0.32",20,20,21,14
+File,"CascadeQueryRunner.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,7,7,0,7,,0,0,0,7,,33,3,11,10,0,19,,,,9,10,10,0,,,,,,0,0,0,0,,,0,,,,"1.73",0,0,0,0
+File,"CascadeTermCliqueSet.java",2,2,2,1,23,4,14,4,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,97,19,46,28,21,32,,,,32,39,27,20,,,,,,4,4,4,1,,,2,,,,"0.70",5,5,5,2
+File,"CascadeThreadedQueryRunner.java",2,2,2,1,18,2,12,3,,,,,2,0,1,10,,10,10,14,10,,0,0,0,10,,256,46,157,61,89,57,,,,96,122,60,73,,,,,,9,9,9,1,,,4,,,,"0.36",24,24,24,10
+File,"CascadeUnorderedCliqueSet.java",2,2,2,1,12,1,10,0,,,,,1,0,1,2,,2,2,0,2,,0,0,0,2,,68,12,31,16,14,25,,,,18,23,13,12,,,,,,3,3,3,1,,,1,,,,"0.81",4,4,4,2
+File,"Clue_SIGIR2011.java",1,1,1,1,21,7,14,0,,,,,1,1,5,2,,2,1,0,2,,0,0,0,2,,98,28,70,38,47,0,,,,39,44,33,20,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"DirichletScoringFunction.java",1,1,1,1,4,0,4,0,,,,,1,0,0,6,,6,6,3,6,,0,0,0,6,,67,10,35,21,9,25,,,,15,22,15,7,,,,,,2,2,2,1,,,0,,,,"0.71",8,8,8,6
+File,"FeatureBasedMRFBuilder.java",4,4,4,1,37,6,19,12,,,,,1,0,0,3,,3,3,3,3,,0,0,0,3,,162,30,78,37,45,57,,,,50,65,38,38,,,,,,10,10,11,1,,,4,,,,"0.73",12,12,13,3
+File,"FeatureBasedMRFBuilder_new.java",16,16,19,3,108,24,74,11,,,,,1,0,0,3,,3,3,3,3,,0,0,0,3,,382,85,251,81,169,52,,,,164,217,96,152,,,,,,27,27,36,7,,,6,,,,"0.21",48,48,59,9
+File,"Gov2_SIGIR2011.java",1,1,1,1,21,7,14,0,,,,,1,1,5,2,,2,1,0,2,,0,0,0,2,,141,31,110,38,87,0,,,,39,44,33,20,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+File,"MRFBuilder.java",3,3,3,1,15,2,12,1,,,,,1,1,0,2,,3,2,1,3,,0,0,0,3,,71,13,38,18,18,20,,,,23,30,17,14,,,,,,5,5,5,1,,,2,,,,"0.53",6,6,6,2
+File,"MarkovRandomField.java",1,1,1,1,9,0,5,3,,,,,1,0,0,11,,11,11,4,11,,0,0,0,11,,151,19,74,31,30,58,,,,37,59,35,30,,,,,,4,4,4,1,,,3,,,,"0.78",18,18,18,11
+File,"QueryPotential.java",2,2,3,1,14,1,11,1,,,,,1,0,1,11,,11,11,10,11,,0,0,0,11,,233,42,157,62,88,38,,,,89,121,54,78,,,,,,9,9,10,4,,,2,,,,"0.24",29,29,33,14
+File,"RetrievalEnvironment.java",1,1,1,1,7,0,5,1,,,,,1,6,8,73,,73,67,14,73,,0,1,1,71,,709,118,441,168,251,162,,,,261,372,170,231,,,,,,8,8,8,5,,,4,,,,"0.37",113,113,113,85
+File,"RunQueryLocalCascade.java",1,1,1,1,11,0,9,1,,,,,1,1,1,3,,3,2,1,3,,0,0,0,3,,74,11,40,20,20,23,,,,25,31,19,17,,,,,,2,2,2,1,,,1,,,,"0.57",5,5,5,3
+File,"Wt10g_SIGIR2011.java",1,1,1,1,21,7,14,0,,,,,1,1,5,2,,2,1,0,2,,0,0,0,2,,121,31,90,38,67,0,,,,39,44,33,20,,,,,,2,2,2,1,,,1,,,,"0.00",3,3,3,2
+Package,"ivory",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ivory.regression",1,1,1,1,21,7,14,0,,,,,3,3,15,,3,,3,0,6,,0,0,0,6,,360,90,270,114,201,0,,,,117,132,99,60,,,,,,2,2,2,1,,,1,,,,"0.00",9,9,9,6
+Public Class,"ivory.regression.Clue_SIGIR2011",1,1,1,1,21,7,14,0,1,16,16,0,,1,5,,,,1,0,2,2,0,0,0,2,,77,22,55,23,47,0,,,,24,29,18,20,,,,,,2,2,2,1,,1,1,,50,50,"0.00",3,3,3,2
+Public Method,"ivory.regression.Clue_SIGIR2011.runRegression",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,14,25,12,21,0,11,2,0,18,21,11,18,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"ivory.regression.Clue_SIGIR2011.suite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.regression.Gov2_SIGIR2011",1,1,1,1,21,7,14,0,1,16,16,0,,1,5,,,,1,0,2,2,0,0,0,2,,120,25,95,23,87,0,,,,24,29,18,20,,,,,,2,2,2,1,,1,1,,50,50,"0.00",3,3,3,2
+Public Method,"ivory.regression.Gov2_SIGIR2011.runRegression",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,14,25,12,21,0,11,2,0,18,21,11,18,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"ivory.regression.Gov2_SIGIR2011.suite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.regression.Wt10g_SIGIR2011",1,1,1,1,21,7,14,0,1,16,16,0,,1,5,,,,1,0,2,2,0,0,0,2,,100,25,75,23,67,0,,,,24,29,18,20,,,,,,2,2,2,1,,1,1,,50,50,"0.00",3,3,3,2
+Public Method,"ivory.regression.Wt10g_SIGIR2011.runRegression",,,,,,,,,,,,,,,,,,,,,,,,,,,7,39,14,25,12,21,0,11,2,0,18,21,11,18,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"ivory.regression.Wt10g_SIGIR2011.suite",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"ivory.smrf",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ivory.smrf.model",1,1,1,1,6,0,5,1,,,,,2,0,3,,2,,32,9,32,,0,0,0,32,,347,66,194,82,89,90,,,,103,152,87,84,,,,,,4,4,4,1,,,3,,,,"0.46",44,44,44,32
+Public Class,"ivory.smrf.model.CascadeClique",1,1,1,1,5,0,4,0,1,7,7,0,,0,3,,,,21,5,21,21,0,0,0,21,,168,42,112,43,59,17,,,,58,85,44,54,,,,,,4,4,4,1,,2,1,,90,86,"0.15",26,26,26,21
+Public Constructor,"ivory.smrf.model.CascadeClique.CascadeClique",,,,,,,,,,,,,,,,,,,,,,,,,,,8,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Constructor,"ivory.smrf.model.CascadeClique.CascadeClique",,,,,,,,,,,,,,,,,,,,,,,,,,,10,20,5,15,4,11,0,11,4,1,11,14,5,12,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"ivory.smrf.model.CascadeClique.getCascadeStage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getDocLen",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getDocno",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getNumberOfPostings",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getParamID",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,1,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.33",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getPositions",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getPruner",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getPruner_param",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getScoringFunctionName",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,1,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getSingleTerms",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.getWindowSize",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.resetPostingsListReader",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.setCascadeStage",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.setPruner",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.setPruner_param",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.setType",,,,,,,,,,,,,,,,,,,,,,,,,,,10,19,2,16,1,10,2,4,4,1,6,10,1,9,4,4,4,1,3,,,,,0,,1,0,,,"0.12",4,4,4,1
+Public Method,"ivory.smrf.model.CascadeClique.termCollectionCF",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.termCollectionDF",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.CascadeClique.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,4,8,2,6,0,9,1,0,6,7,2,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.MarkovRandomField",1,1,1,1,9,0,5,3,1,10,10,0,,0,0,,,,11,4,11,11,0,0,0,11,,122,14,65,22,30,43,,,,28,50,26,30,,,,,,4,4,4,1,,1,3,,68,65,"0.66",18,18,18,11
+Public Constructor,"ivory.smrf.model.MarkovRandomField.MarkovRandomField",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,5,1,3,6,7,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"1.20",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.addClique",,,,,,,,,,,,,,,,,,,,,,,,,,,5,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.getCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,4,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.getGlobalEvidence",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.getNextCandidate",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,2,10,3,6,3,2,3,0,4,8,4,5,3,3,3,1,0,,,,,0,,2,0,,,"0.30",3,3,3,1
+Public Method,"ivory.smrf.model.MarkovRandomField.getNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,0,12,3,7,3,5,4,1,4,10,5,7,4,4,4,1,0,,,,,0,,3,0,,,"0.25",4,4,4,1
+Public Method,"ivory.smrf.model.MarkovRandomField.getQueryTerms",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,4,9,0,6,1,3,3,2,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.50",2,2,2,1
+Public Method,"ivory.smrf.model.MarkovRandomField.removeAllCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,0,4,2,1,3,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.75",1,1,1,1
+Public Method,"ivory.smrf.model.MarkovRandomField.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,12,1,7,2,4,4,7,2,0,5,6,3,5,2,2,2,1,0,,,,,0,,1,0,,,"0.57",2,2,2,1
+Package,"ivory.smrf.model.builder",5,5,5,1,35,6,23,4,,,,,8,4,3,,8,,20,8,24,,0,0,3,21,,1115,222,631,264,369,271,,,,407,529,272,334,,,,,,27,27,36,7,,,6,,,,"0.43",106,106,122,31
+Public Class,"ivory.smrf.model.builder.CascadeCliqueFactory",10,10,12,3,70,13,48,9,1,11,11,0,,2,0,,,,0,0,2,2,0,0,0,2,,148,28,98,31,71,22,,,,62,85,34,70,,,,,,15,15,19,5,,1,4,,0,0,"0.22",21,21,25,6
+Public Static Method,"ivory.smrf.model.builder.CascadeCliqueFactory.getFullDependenceCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,13,86,14,64,19,47,8,12,267,2,43,58,22,49,15,15,19,5,4,,,,,4,,4,3,,,"0.12",15,15,19,5
+Public Static Method,"ivory.smrf.model.builder.CascadeCliqueFactory.getSequentialDependenceCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,9,54,12,32,11,24,10,6,9,1,19,26,11,21,6,6,6,1,1,,,,,0,,3,0,,,"0.31",6,6,6,1
+Public Abstract Class,"ivory.smrf.model.builder.CascadeCliqueSet",1,1,1,1,6,0,5,0,1,12,12,3,,1,0,,,,6,1,7,7,0,0,3,4,,53,11,35,14,17,7,,,,17,24,11,16,,,,,,2,2,2,1,,1,1,,19,19,"0.20",6,6,6,5
+Protected Method,"ivory.smrf.model.builder.CascadeCliqueSet.addClique",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ivory.smrf.model.builder.CascadeCliqueSet.addCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"ivory.smrf.model.builder.CascadeCliqueSet.clearCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"ivory.smrf.model.builder.CascadeCliqueSet.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,0,2,2,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Method,"ivory.smrf.model.builder.CascadeCliqueSet.create",,,,,,,,,,,,,,,,,,,,,,,,,,,8,20,3,17,5,12,0,6,2,0,10,12,3,11,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.model.builder.CascadeCliqueSet.getCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"ivory.smrf.model.builder.CascadeCliqueSet.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"ivory.smrf.model.builder.CascadeOrderedCliqueSet",2,2,2,1,13,1,10,1,1,8,8,0,,0,1,,,,2,0,2,9,0,0,0,2,,42,7,24,9,14,11,,,,11,16,6,12,,,,,,3,3,3,1,,2,1,,0,0,"0.46",4,4,4,2
+Public Method,"ivory.smrf.model.builder.CascadeOrderedCliqueSet.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,3,17,5,12,2,7,3,0,9,12,3,11,3,3,3,1,2,,,,,0,,1,0,,,"0.12",3,3,3,1
+Public Method,"ivory.smrf.model.builder.CascadeOrderedCliqueSet.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.builder.CascadeTermCliqueSet",2,2,2,1,23,4,14,4,1,13,13,0,,0,1,,,,2,0,2,9,0,0,0,2,,62,13,32,14,21,17,,,,18,25,13,20,,,,,,4,4,4,1,,2,2,,0,0,"0.53",5,5,5,2
+Public Method,"ivory.smrf.model.builder.CascadeTermCliqueSet.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,6,42,9,25,10,19,8,7,6,1,16,21,10,19,4,4,4,1,0,,,,,0,,2,0,,,"0.32",4,4,4,1
+Public Method,"ivory.smrf.model.builder.CascadeTermCliqueSet.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.builder.CascadeUnorderedCliqueSet",2,2,2,1,12,1,10,0,1,8,8,0,,0,1,,,,2,0,2,9,0,0,0,2,,41,7,24,9,14,10,,,,11,16,6,12,,,,,,3,3,3,1,,2,1,,0,0,"0.42",4,4,4,2
+Public Method,"ivory.smrf.model.builder.CascadeUnorderedCliqueSet.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,3,17,5,12,1,6,3,0,9,12,3,11,3,3,3,1,2,,,,,0,,1,0,,,"0.06",3,3,3,1
+Public Method,"ivory.smrf.model.builder.CascadeUnorderedCliqueSet.getType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.builder.FeatureBasedMRFBuilder",4,4,4,1,37,6,19,12,1,14,14,1,,0,0,,,,3,3,3,6,0,0,0,3,,126,24,63,23,45,42,,,,36,51,24,38,,,,,,10,10,11,1,,2,4,,22,22,"0.67",12,12,13,3
+Public Constructor,"ivory.smrf.model.builder.FeatureBasedMRFBuilder.FeatureBasedMRFBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,1,6,1,4,1,7,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.17",1,1,1,1
+Public Method,"ivory.smrf.model.builder.FeatureBasedMRFBuilder.buildMRF",,,,,,,,,,,,,,,,,,,,,,,,,,,7,102,19,50,17,37,36,22,51,2,28,40,18,33,10,10,11,1,1,,,,,0,,4,0,,,"0.72",10,10,11,1
+Public Method,"ivory.smrf.model.builder.FeatureBasedMRFBuilder.getModel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.builder.FeatureBasedMRFBuilder_new",16,16,19,3,108,24,74,11,1,19,19,0,,0,0,,,,3,3,3,9,0,0,0,3,,340,80,229,59,169,37,,,,142,195,74,152,,,,,,27,27,36,7,,3,6,,55,44,"0.16",48,48,59,9
+Public Constructor,"ivory.smrf.model.builder.FeatureBasedMRFBuilder_new.FeatureBasedMRFBuilder_new",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.builder.FeatureBasedMRFBuilder_new.buildMRF",,,,,,,,,,,,,,,,,,,,,,,,,,,9,189,47,122,33,91,25,31,84678,5,69,100,39,84,27,27,36,1,3,,,,,0,,6,0,,,"0.20",27,27,36,1
+Public Method,"ivory.smrf.model.builder.FeatureBasedMRFBuilder_new.getCascadeCliques",,,,,,,,,,,,,,,,,,,,,,,,,,,14,132,27,97,21,72,9,11,637,3,67,87,30,64,20,20,22,7,15,,,,,14,,4,14,,,"0.09",20,20,22,7
+Public Abstract Class,"ivory.smrf.model.builder.MRFBuilder",3,3,3,1,15,2,12,1,1,11,11,1,,1,0,,,,2,1,3,3,0,0,0,3,,40,7,28,8,18,5,,,,13,20,7,14,,,,,,5,5,5,1,,1,2,,50,50,"0.18",6,6,6,2
+Public Constructor,"ivory.smrf.model.builder.MRFBuilder.MRFBuilder",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Abstract Method,"ivory.smrf.model.builder.MRFBuilder.buildMRF",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Static Method,"ivory.smrf.model.builder.MRFBuilder.get",,,,,,,,,,,,,,,,,,,,,,,,,,,5,27,4,21,4,17,2,6,5,1,10,15,3,13,5,5,5,1,4,,,,,0,,2,0,,,"0.10",5,5,5,1
+Package,"ivory.smrf.model.potential",2,2,2,1,11,1,8,0,,,,,2,0,1,,2,,23,12,23,,0,0,0,23,,384,83,241,88,127,65,,,,125,178,78,114,,,,,,9,9,10,4,,,2,,,,"0.27",49,49,54,28
+Public Class,"ivory.smrf.model.potential.CascadeQueryPotential",1,1,1,1,8,1,6,0,1,6,6,0,,0,0,,,,12,2,12,23,0,0,0,12,,127,37,79,21,39,12,,,,31,52,19,36,,,,,,6,6,7,3,,3,2,,83,83,"0.15",20,20,21,14
+Public Constructor,"ivory.smrf.model.potential.CascadeQueryPotential.CascadeQueryPotential",,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,0,2,1,0,0,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"ivory.smrf.model.potential.CascadeQueryPotential.CascadeQueryPotential",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,1,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.computePotential",,,,,,,,,,,,,,,,,,,,,,,,,,,9,49,17,26,6,18,7,12,10,1,13,19,5,17,6,6,7,1,1,,,,,0,,2,0,,,"0.27",6,6,7,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getDocLen",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getDocno",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getNumberOfPostings",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getPositions",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getScoringFunctionName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,11,1,6,0,3,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.00",3,3,3,3
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.getWindowSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.resetPostingsListReader",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,2,11,1,7,0,5,2,0,5,7,1,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.termCollectionCF",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.CascadeQueryPotential.termCollectionDF",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.potential.QueryPotential",2,2,3,1,14,1,11,1,1,16,16,1,,0,1,,,,11,10,11,11,0,0,0,11,,193,36,138,43,88,23,,,,70,102,35,78,,,,,,9,9,10,4,,2,2,,66,66,"0.17",29,29,33,14
+Public Constructor,"ivory.smrf.model.potential.QueryPotential.QueryPotential",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,1,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"ivory.smrf.model.potential.QueryPotential.QueryPotential",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.computePotential",,,,,,,,,,,,,,,,,,,,,,,,,,,7,28,4,19,5,12,5,7,7,1,8,13,4,11,5,5,6,1,1,,,,,0,,2,0,,,"0.26",5,5,6,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,2,11,6,8,0,7,1,0,6,7,3,6,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.getMaxScore",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.getMinScore",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.getNextCandidate",,,,,,,,,,,,,,,,,,,,,,,,,,,6,19,2,16,3,10,3,4,4,1,6,10,2,9,4,4,5,4,4,,,,,4,,2,4,,,"0.19",4,4,5,4
+Public Method,"ivory.smrf.model.potential.QueryPotential.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,12,50,9,37,4,29,4,20,60,2,21,31,5,28,9,9,10,1,5,,,,,0,,2,0,,,"0.11",9,9,10,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.reset",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.setNextCandidate",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,8,2,3,2,3,3,0,1,4,1,3,3,3,4,1,0,,,,,0,,2,0,,,"0.25",3,3,4,1
+Public Method,"ivory.smrf.model.potential.QueryPotential.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,19,4,15,3,11,0,3,2,0,10,13,3,11,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"ivory.smrf.model.score",1,1,1,1,6,0,5,0,,,,,4,0,5,,4,,18,9,18,,0,0,0,18,,279,46,149,77,50,87,,,,72,100,59,41,,,,,,4,4,4,3,,,1,,,,"0.58",26,26,26,20
+Public Class,"ivory.smrf.model.score.BM25ScoringFunction",1,1,1,1,6,0,6,0,1,3,3,1,,0,0,,,,6,6,6,6,0,0,0,6,,60,8,44,19,20,8,,,,19,29,13,16,,,,,,4,4,4,1,,2,1,,63,63,"0.18",9,9,9,6
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,6,2,3,0,4,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.getMaxScore",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.getMinScore",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,2,14,2,10,1,6,4,1,6,10,1,9,4,4,4,1,3,,,,,0,,1,0,,,"0.07",4,4,4,1
+Public Method,"ivory.smrf.model.score.BM25ScoringFunction.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.score.CascadeBM25ScoringFunction",1,1,1,1,8,1,7,0,1,3,3,0,,0,3,,,,3,0,3,9,0,0,0,3,,39,8,27,11,11,4,,,,12,17,8,9,,,,,,2,2,2,1,,3,1,,33,33,"0.15",4,4,4,3
+Public Method,"ivory.smrf.model.score.CascadeBM25ScoringFunction.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,2,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.CascadeBM25ScoringFunction.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,10,13,2,11,3,6,0,1,2,0,4,6,2,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.model.score.CascadeBM25ScoringFunction.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.score.CascadeDirichletScoringFunction",1,1,1,1,8,0,7,0,1,3,3,0,,0,2,,,,3,0,3,9,0,0,0,3,,39,8,26,9,10,5,,,,9,15,6,9,,,,,,3,3,3,3,,3,1,,50,50,"0.19",5,5,5,5
+Public Method,"ivory.smrf.model.score.CascadeDirichletScoringFunction.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,2,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.CascadeDirichletScoringFunction.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,1,12,2,6,1,2,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.08",3,3,3,3
+Public Method,"ivory.smrf.model.score.CascadeDirichletScoringFunction.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.model.score.DirichletScoringFunction",1,1,1,1,4,0,4,0,1,3,3,1,,0,0,,,,6,3,6,6,0,0,0,6,,43,6,30,16,9,10,,,,10,17,10,7,,,,,,2,2,2,1,,2,0,,61,61,"0.33",8,8,8,6
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.configure",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.getMaxScore",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,4,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.getMinScore",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,6,4,0,4,2,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,4,5,0,5,2,2,0,3,1,0,2,3,1,2,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.model.score.DirichletScoringFunction.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"ivory.smrf.retrieval",5,5,5,1,35,7,24,4,,,,,8,1,7,,7,,60,65,61,,0,14,1,46,,2436,521,1519,492,1005,432,,,,952,1245,535,849,,,,,,58,58,67,28,,,12,,,,"0.28",278,278,296,95
+Public Class,"ivory.smrf.retrieval.BatchQueryRunner",2,2,3,1,16,2,12,1,1,28,28,1,,0,1,,,,20,12,20,20,0,9,1,10,,362,66,268,86,188,28,,,,145,208,93,163,,,,,,8,8,8,3,,1,4,,84,75,"0.10",59,59,62,22
+Public Constructor,"ivory.smrf.retrieval.BatchQueryRunner.BatchQueryRunner",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getDocnoMapping",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getJudgmentSet",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getModel",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getModels",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getResults",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.getRetrievalEnvironment",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.init",,,,,,,,,,,,,,,,,,,,,,,,,,,9,34,5,27,5,21,2,17,12,1,14,21,7,18,5,5,7,1,1,,,,,0,,2,0,,,"0.07",5,5,7,1
+Protected Method,"ivory.smrf.retrieval.BatchQueryRunner.loadRetrievalEnv",,,,,,,,,,,,,,,,,,,,,,,,,,,5,9,0,9,1,6,0,4,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseDocscores",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,3,14,5,10,1,6,3,0,7,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.07",3,3,3,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseImportanceModels",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,3,14,5,10,1,6,3,0,7,10,5,8,3,3,3,1,0,,,,,0,,2,0,,,"0.07",3,3,3,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseIndexLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,1,9,2,5,0,5,3,0,3,6,2,5,3,3,3,1,0,,,,,0,,2,0,,,"0.00",3,3,3,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseJudgments",,,,,,,,,,,,,,,,,,,,,,,,,,,3,24,4,18,10,14,2,8,3,0,11,14,8,12,3,3,3,1,0,,,,,0,,2,0,,,"0.11",3,3,3,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseModels",,,,,,,,,,,,,,,,,,,,,,,,,,,4,31,4,23,7,16,4,10,9,1,13,19,8,16,6,6,6,1,0,,,,,0,,4,0,,,"0.17",6,6,6,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,10,40,5,32,3,25,3,13,40,2,18,24,4,20,8,8,8,1,6,,,,,0,,2,0,,,"0.09",8,8,8,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,3,21,4,13,6,9,4,7,3,0,8,11,6,9,3,3,3,1,0,,,,,0,,2,0,,,"0.31",3,3,3,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.parseStopwords",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,1,8,4,5,0,5,2,0,6,8,5,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"ivory.smrf.retrieval.BatchQueryRunner.printResults",,,,,,,,,,,,,,,,,,,,,,,,,,,8,27,2,21,3,13,4,5,9,1,9,16,5,12,6,6,6,3,2,,,,,2,,3,1,,,"0.19",6,6,6,3
+Public Method,"ivory.smrf.retrieval.BatchQueryRunner.runQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,9,60,12,41,13,33,7,16,21,1,25,34,15,28,7,7,8,1,2,,,,,0,,3,0,,,"0.17",7,7,8,1
+Public Class,"ivory.smrf.retrieval.CascadeAccumulator",1,1,1,1,3,0,3,0,1,0,0,0,,0,0,,,,1,1,1,1,0,0,0,1,,12,2,6,3,2,4,,,,2,4,3,1,,,,,,1,1,1,1,,2,0,,100,100,"0.67",1,1,1,1
+Public Constructor,"ivory.smrf.retrieval.CascadeAccumulator.CascadeAccumulator",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"ivory.smrf.retrieval.CascadeBatchQueryRunner",8,8,8,1,48,8,34,5,1,30,30,0,,0,1,,,,9,9,9,29,0,4,0,5,,470,93,322,75,232,57,,,,181,257,85,215,,,,,,27,27,27,3,,2,5,,76,69,"0.18",74,74,78,11
+Public Constructor,"ivory.smrf.retrieval.CascadeBatchQueryRunner.CascadeBatchQueryRunner",,,,,,,,,,,,,,,,,,,,,,,,,,,6,5,1,4,1,2,0,3,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.getCascadeCost",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,4,2,2,1,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.getCascadeCost_lastStage",,,,,,,,,,,,,,,,,,,,,,,,,,,4,4,0,4,2,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.parseIndexLocation",,,,,,,,,,,,,,,,,,,,,,,,,,,5,33,2,23,2,15,8,8,6,1,9,15,2,14,6,6,6,1,3,,,,,0,,3,0,,,"0.35",6,6,6,1
+Private Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.parseModels",,,,,,,,,,,,,,,,,,,,,,,,,,,3,60,14,34,8,24,12,13,66,2,20,29,10,26,9,9,11,1,0,,,,,0,,4,0,,,"0.35",9,9,11,1
+Private Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.parseParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,10,36,6,27,3,20,3,8,40,2,13,19,4,15,8,8,8,1,6,,,,,0,,2,0,,,"0.11",8,8,8,1
+Private Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.printResults",,,,,,,,,,,,,,,,,,,,,,,,,,,17,104,11,83,8,57,12,13,2368,3,34,62,11,55,27,27,27,3,14,,,,,3,,3,1,,,"0.14",27,27,27,3
+Public Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.readInternalInputFile",,,,,,,,,,,,,,,,,,,,,,,,,,,6,69,12,53,16,39,4,20,33,2,35,44,17,37,9,9,10,1,1,,,,,0,,5,0,,,"0.08",9,9,10,1
+Public Method,"ivory.smrf.retrieval.CascadeBatchQueryRunner.runQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,25,122,32,78,22,65,12,30,436,3,54,68,25,57,12,12,13,1,2,,,,,0,,3,0,,,"0.15",12,12,13,1
+Public Class,"ivory.smrf.retrieval.CascadeEval",10,10,11,4,86,21,54,13,1,22,22,0,,0,3,,,,11,28,11,11,0,1,0,10,,1061,273,634,156,474,184,,,,413,532,184,380,,,,,,58,58,67,28,,1,12,,80,75,"0.29",115,115,126,48
+Public Constructor,"ivory.smrf.retrieval.CascadeEval.CascadeEval",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"ivory.smrf.retrieval.CascadeEval.CascadeEval",,,,,,,,,,,,,,,,,,,,,,,,,,,11,27,7,12,1,10,8,13,1,0,10,11,1,10,1,1,1,1,0,,,,,0,,0,0,,,"0.67",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeEval.getCascadeCost",,,,,,,,,,,,,,,,,,,,,,,,,,,3,7,2,4,2,2,1,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.25",1,1,1,1
+Private Method,"ivory.smrf.retrieval.CascadeEval.getDocNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,1,10,3,6,1,4,3,0,4,8,4,6,3,3,3,1,0,,,,,0,,2,0,,,"0.10",3,3,3,1
+Public Method,"ivory.smrf.retrieval.CascadeEval.getMRF",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeEval.getScore",,,,,,,,,,,,,,,,,,,,,,,,,,,15,27,9,17,4,12,1,5,3,0,9,12,4,9,3,3,3,1,2,,,,,0,,1,0,,,"0.06",3,3,3,1
+Public Method,"ivory.smrf.retrieval.CascadeEval.pruneDocuments",,,,,,,,,,,,,,,,,,,,,,,,,,,11,114,24,79,14,56,12,6,608,3,51,70,22,49,19,19,19,7,11,,,,,6,,3,4,,,"0.15",19,19,19,7
+Public Method,"ivory.smrf.retrieval.CascadeEval.rank",,,,,,,,,,,,,,,,,,,,,,,,,,,36,508,128,340,74,266,67,50,1649469,6,216,276,86,203,58,58,67,28,45,,,,,45,,12,38,,,"0.20",58,58,67,28
+Public Method,"ivory.smrf.retrieval.CascadeEval.rank_cascade",,,,,,,,,,,,,,,,,,,,,,,,,,,25,218,58,112,21,89,50,35,75636,5,73,97,27,78,24,24,26,5,7,,,,,7,,4,4,,,"0.45",24,24,26,5
+Public Method,"ivory.smrf.retrieval.CascadeEval.setNumResults",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeEval.sortDocumentsByDocnos",,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,4,15,1,11,0,6,4,1,13,16,3,13,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Interface,"ivory.smrf.retrieval.CascadeQueryRunner",0,0,0,0,0,0,0,0,1,2,2,1,,0,0,,,,7,0,7,7,0,0,0,7,,9,0,9,8,0,0,,,,7,8,8,0,,,,,,0,0,0,0,,2,0,,0,0,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.clearResults",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.getCascadeCostAllQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.getCascadeCostAllQueries_lastStage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.getResults",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.getResults",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.runQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Abstract Method,"ivory.smrf.retrieval.CascadeQueryRunner.runQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"0.00",0,0,0,0
+Public Class,"ivory.smrf.retrieval.CascadeThreadedQueryRunner",1,1,1,1,11,0,8,2,2,17,17,0,,0,1,,,,8,9,8,8,0,0,0,8,,219,40,141,45,89,42,,,,80,106,44,73,,,,,,4,4,4,1,,1,3,,70,70,"0.30",14,14,14,8
+Public Constructor,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.CascadeThreadedQueryRunner",,,,,,,,,,,,,,,,,,,,,,,,,,,7,14,2,12,1,10,0,10,1,0,10,11,1,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Class,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.ThreadTask",5,5,5,1,44,10,28,7,2,9,9,0,,0,0,,,,2,5,2,2,0,0,0,2,,98,22,64,19,41,14,,,,37,48,19,34,,,,,,9,9,9,1,,1,4,,0,0,"0.22",10,10,10,2
+Public Constructor,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.ThreadTask.ThreadTask",,,,,,,,,,,,,,,,,,,,,,,,,,,7,7,0,7,1,5,0,6,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.ThreadTask.call",,,,,,,,,,,,,,,,,,,,,,,,,,,12,82,20,50,12,36,14,18,49,2,27,36,12,29,9,9,9,1,3,,,,,0,,4,0,,,"0.28",9,9,9,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.clearResults",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.getCascadeCostAllQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.getCascadeCostAllQueries_lastStage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.getResults",,,,,,,,,,,,,,,,,,,,,,,,,,,4,18,0,11,1,8,7,3,3,0,5,7,1,6,3,3,3,1,3,,,,,0,,1,0,,,"0.64",3,3,3,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.getResults",,,,,,,,,,,,,,,,,,,,,,,,,,,2,19,2,14,3,9,3,7,4,1,5,10,4,8,4,4,4,1,1,,,,,0,,3,0,,,"0.21",4,4,4,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.runQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,7,12,1,7,3,5,4,4,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Public Method,"ivory.smrf.retrieval.CascadeThreadedQueryRunner.runQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,6,16,1,12,4,9,3,6,2,0,6,8,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.25",2,2,2,1
+Public Class,"ivory.smrf.retrieval.RunQueryLocalCascade",1,1,1,1,11,0,9,1,1,9,9,0,,1,1,,,,2,1,3,3,0,0,0,3,,46,6,32,12,20,8,,,,17,23,11,17,,,,,,2,2,2,1,,1,1,,33,0,"0.25",5,5,5,3
+Public Constructor,"ivory.smrf.retrieval.RunQueryLocalCascade.RunQueryLocalCascade",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,11,4,7,0,6,2,0,5,7,3,6,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"ivory.smrf.retrieval.RunQueryLocalCascade.main",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,10,2,6,0,4,2,0,5,7,2,5,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.smrf.retrieval.RunQueryLocalCascade.runQueries",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,1,7,3,5,4,3,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.57",1,1,1,1
+Package,"ivory.util",1,1,1,1,7,0,5,1,,,,,1,6,8,,1,,67,14,73,,0,1,1,71,,709,118,441,168,251,162,,,,261,372,170,231,,,,,,8,8,8,5,,,4,,,,"0.37",113,113,113,85
+Public Class,"ivory.util.RetrievalEnvironment",1,1,1,1,7,0,5,1,1,37,37,0,,6,8,,,,67,14,73,73,0,1,1,71,,652,112,405,132,251,147,,,,225,336,134,231,,,,,,8,8,8,5,,1,4,,92,90,"0.36",113,113,113,85
+Public Constructor,"ivory.util.RetrievalEnvironment.RetrievalEnvironment",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,1,7,1,4,0,4,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.util.RetrievalEnvironment.addImportanceModel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"ivory.util.RetrievalEnvironment.appendPath",,,,,,,,,,,,,,,,,,,,,,,,,,,43,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"ivory.util.RetrievalEnvironment.clearPostingsReaderCache",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.collectionFrequency",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,13,1,9,4,5,4,1,5,9,1,8,4,4,4,4,3,,,,,3,,1,3,,,"0.31",4,4,4,4
+Protected Method,"ivory.util.RetrievalEnvironment.constructPostingsReader",,,,,,,,,,,,,,,,,,,,,,,,,,,3,23,5,17,3,11,1,5,8,1,7,12,3,10,5,5,5,3,2,,,,,2,,2,2,,,"0.06",5,5,5,3
+Public Static Method,"ivory.util.RetrievalEnvironment.createPath",,,,,,,,,,,,,,,,,,,,,,,,,,,6,3,0,3,1,1,0,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"0.00",2,2,2,1
+Public Method,"ivory.util.RetrievalEnvironment.documentFrequency",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,13,1,9,4,5,4,1,5,9,1,8,4,4,4,4,3,,,,,3,,1,3,,,"0.31",4,4,4,4
+Public Method,"ivory.util.RetrievalEnvironment.documentVectors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,2,12,2,8,0,3,3,0,7,10,3,7,3,3,3,1,2,,,,,0,,2,0,,,"0.00",3,3,3,1
+Public Method,"ivory.util.RetrievalEnvironment.getCfByIntData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getCfByTermData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getCollectionSize",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDefaultCf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDefaultDf",,,,,,,,,,,,,,,,,,,,,,,,,,,2,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDfByIntData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDfByTermData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocScore",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,0,6,1,3,0,4,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"ivory.util.RetrievalEnvironment.getDoclengthsData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDoclengthsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocnoMapping",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocnoMappingData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocnoMappingDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocumentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getDocumentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getImportanceModel",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getImportanceModels",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getIndexTermIdMappingData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getIndexTermIdsData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getIndexTermsData",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getIntDocVectorsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getIntDocVectorsForwardIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getNonPositionalPostingsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getPostingsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getPostingsIndexData",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getPostingsList",,,,,,,,,,,,,,,,,,,,,,,,,,,9,35,5,28,3,20,2,5,6,1,14,20,3,18,6,6,6,5,7,,,,,5,,2,5,,,"0.07",6,6,6,5
+Public Method,"ivory.util.RetrievalEnvironment.getPostingsReader",,,,,,,,,,,,,,,,,,,,,,,,,,,8,37,5,31,10,25,1,8,8,1,20,28,12,24,8,8,8,1,3,,,,,0,,4,0,,,"0.03",8,8,8,1
+Public Method,"ivory.util.RetrievalEnvironment.getTempDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getTermDfCfDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getTermDocVectorsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,3,1,1,4,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getTermDocVectorsForwardIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getTermFromId",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getWeightedIntDocVectorsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getWeightedIntDocVectorsForwardIndex",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,3,1,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.33",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.getWeightedTermDocVectorsDirectory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.initialize",,,,,,,,,,,,,,,,,,,,,,,,,,,14,69,11,48,2,40,12,30,48,2,30,37,2,36,7,7,7,1,3,,,,,0,,2,0,,,"0.25",7,7,7,1
+Public Method,"ivory.util.RetrievalEnvironment.loadDocScore",,,,,,,,,,,,,,,,,,,,,,,,,,,8,14,0,14,4,10,0,7,2,0,8,10,3,9,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Static Method,"ivory.util.RetrievalEnvironment.loadDocnoMapping",,,,,,,,,,,,,,,,,,,,,,,,,,,5,20,2,17,5,14,1,8,2,0,12,14,5,12,2,2,2,1,1,,,,,0,,1,0,,,"0.06",2,2,2,1
+Public Static Method,"ivory.util.RetrievalEnvironment.main",,,,,,,,,,,,,,,,,,,,,,,,,,,5,26,6,20,8,16,0,9,4,1,13,16,7,13,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionAverageDocumentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionDocumentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionPath",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readCollectionTermCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readDocnoMappingClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readDocnoOffset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readInputFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readPostingsType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.readTokenizerClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Static Method,"ivory.util.RetrievalEnvironment.setIsNew",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Method,"ivory.util.RetrievalEnvironment.testTerm",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,5,19,8,16,0,8,2,0,17,19,9,14,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"ivory.util.RetrievalEnvironment.tokenize",,,,,,,,,,,,,,,,,,,,,,,,,,,5,11,0,3,1,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionAverageDocumentLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionDocumentCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionLength",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionPath",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeCollectionTermCount",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeDocnoMappingClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeDocnoOffset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeInputFormat",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writePostingsType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.util.RetrievalEnvironment.writeTokenizerClass",,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,0,1,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

@@ -1,0 +1,68 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"DbObjectDiff.java",1,1,1,0,3,0,3,0,,,,,2,0,0,18,,16,18,9,18,,5,5,0,8,,126,25,81,33,30,20,,,,36,60,34,30,,,,,,2,2,2,1,,,1,,,,"0.25",20,20,20,16
+File,"DiffStrategy.java",3,3,3,1,17,0,15,2,,,,,1,0,1,1,,1,1,0,1,,0,0,0,1,,51,5,24,13,11,22,,,,15,19,12,11,,,,,,3,3,3,1,,,2,,,,"0.92",3,3,3,1
+File,"DiffStrategyTest.java",1,1,1,1,12,2,10,0,,,,,1,0,0,2,,2,2,0,2,,0,0,0,2,,36,9,27,17,14,0,,,,19,22,15,14,,,,,,1,1,1,1,,,0,,,,"0.00",2,2,2,2
+File,"ListVisitor.java",2,2,2,1,8,0,8,0,,,,,1,0,0,6,,6,6,0,6,,0,3,1,2,,87,12,55,19,28,20,,,,27,40,17,26,,,,,,3,3,3,1,,,1,,,,"0.36",12,12,13,6
+File,"TestsDbObjectDiff.java",1,1,1,1,11,1,10,0,,,,,1,0,0,14,,14,14,2,14,,0,1,0,13,,215,43,152,72,102,20,,,,109,124,59,102,,,,,,1,1,1,1,,,0,,,,"0.13",14,14,14,14
+File,"TestsListVisitor.java",1,1,1,1,6,0,6,0,,,,,1,0,0,9,,9,9,1,9,,0,2,0,7,,88,19,69,32,31,0,,,,41,51,24,31,,,,,,1,1,1,1,,,0,,,,"0.00",9,9,9,9
+Package,"org",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mongolink",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mongolink.domain",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"org.mongolink.domain.updateStrategy",1,1,1,0,7,0,6,0,,,,,7,0,1,,6,,50,12,50,,5,11,1,33,,603,113,408,186,216,82,,,,247,316,161,214,,,,,,3,3,3,1,,,2,,,,"0.20",60,60,61,48
+Public Class,"org.mongolink.domain.updateStrategy.DbObjectDiff",1,1,1,1,4,0,4,0,1,10,10,0,,0,0,,,,14,3,14,14,4,5,0,5,,94,20,74,26,30,0,,,,29,53,27,30,,,,,,2,2,2,1,,1,1,,80,50,"0.00",18,18,18,14
+Public Constructor,"org.mongolink.domain.updateStrategy.DbObjectDiff.DbObjectDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,15,6,0,6,1,3,0,4,2,0,2,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Enum Type,"org.mongolink.domain.updateStrategy.DbObjectDiff.Modifier",0,0,0,0,1,0,1,0,1,2,2,0,,0,0,,,,4,6,4,4,1,0,0,3,,14,3,11,6,2,0,,,,4,6,4,2,,,,,,1,1,1,1,,1,0,,,,"0.00",2,2,2,2
+Constructor,"org.mongolink.domain.updateStrategy.DbObjectDiff.Modifier.Modifier",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.Modifier.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Implicit Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.Modifier.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.Modifier.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Private Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addForModifier",,,,,,,,,,,,,,,,,,,,,,,,,,,8,3,0,3,1,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addPull",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addPush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addPushAll",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addSet",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.addUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.appendChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,3,6,1,5,1,2,0,3,2,0,1,4,2,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Private Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.appendIfNeeded",,,,,,,,,,,,,,,,,,,,,,,,,,,5,5,0,5,1,2,0,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.compareWith",,,,,,,,,,,,,,,,,,,,,,,,,,,14,6,0,6,2,4,0,3,1,0,4,5,2,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.generateDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.makeKey",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,9,2,6,0,5,2,0,5,8,3,6,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Public Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.popKey",,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.DbObjectDiff.pushKey",,,,,,,,,,,,,,,,,,,,,,,,,,,4,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.mongolink.domain.updateStrategy.DiffStrategy",3,3,3,1,17,0,15,2,1,8,8,0,,0,1,,,,1,0,1,1,0,0,0,1,,22,2,18,7,11,2,,,,9,13,6,11,,,,,,3,3,3,1,,2,2,,0,0,"0.11",3,3,3,1
+Public Method,"org.mongolink.domain.updateStrategy.DiffStrategy.update",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,15,5,10,2,11,3,0,8,11,4,10,3,3,3,1,0,,,,,0,,2,0,,,"0.13",3,3,3,1
+Public Class,"org.mongolink.domain.updateStrategy.DiffStrategyTest",1,1,1,1,12,2,10,0,1,5,5,0,,0,0,,,,2,0,2,2,0,0,0,2,,28,6,22,12,14,0,,,,14,17,10,14,,,,,,1,1,1,1,,1,0,,0,0,"0.00",2,2,2,2
+Public Method,"org.mongolink.domain.updateStrategy.DiffStrategyTest.dontMakeUpdateIfNoChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,2,7,4,4,0,3,1,0,4,5,3,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.DiffStrategyTest.pullRequestsAreMadeInAnotherQuery",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,2,13,7,10,0,8,1,0,10,11,6,10,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.mongolink.domain.updateStrategy.ListVisitor",2,2,2,1,8,0,8,0,1,7,7,0,,0,0,,,,6,0,6,6,0,3,1,2,,57,7,50,14,28,0,,,,22,35,12,26,,,,,,3,3,3,1,,2,1,,0,0,"0.00",12,12,13,6
+Public Constructor,"org.mongolink.domain.updateStrategy.ListVisitor.ListVisitor",,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.ListVisitor.addNewElements",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,9,2,5,0,6,4,1,3,6,2,5,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Private Method,"org.mongolink.domain.updateStrategy.ListVisitor.compare",,,,,,,,,,,,,,,,,,,,,,,,,,,5,7,0,7,1,4,0,6,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"org.mongolink.domain.updateStrategy.ListVisitor.getOrigin",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.ListVisitor.removeDeletedElements",,,,,,,,,,,,,,,,,,,,,,,,,,,4,12,0,12,1,8,0,8,4,1,6,9,1,8,3,3,3,1,0,,,,,0,,1,0,,,"0.00",3,3,3,1
+Public Method,"org.mongolink.domain.updateStrategy.ListVisitor.visit",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,0,13,6,9,0,7,2,0,8,10,5,7,2,2,3,1,0,,,,,0,,1,0,,,"0.00",2,2,3,1
+Public Class,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff",1,1,1,1,11,1,10,0,1,8,8,0,,0,0,,,,14,2,14,14,0,1,0,13,,186,39,147,67,102,0,,,,104,119,54,102,,,,,,1,1,1,1,,1,0,,14,14,"0.00",14,14,14,14
+Private Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.addValue",,,,,,,,,,,,,,,,,,,,,,,,,,,14,4,0,4,1,2,0,1,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.before",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,2,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canAdPullWithNull",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,10,5,7,0,8,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canAddUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,0,12,2,10,5,7,0,8,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canDiffProperty",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,4,7,0,8,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canDiffPropertyWhenOriginalPropertyDoesNotExist",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,4,7,0,8,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canGenerateMulipleDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,4,7,0,8,1,0,7,8,3,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canGeneratePull",,,,,,,,,,,,,,,,,,,,,,,,,,,2,13,2,11,6,8,0,10,1,0,8,9,5,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canGeneratePush",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,14,6,11,0,11,1,0,11,12,5,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canGeneratePushIntoASubElement",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,2,15,7,12,0,12,1,0,12,13,6,12,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canGeneratePushOnLastElement",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,14,6,11,0,7,1,0,11,12,5,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.canNavigateInComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,2,14,6,11,0,10,1,0,11,12,5,11,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.dontGenerateDiffWhenNoChanges",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,2,6,3,3,0,7,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsDbObjectDiff.dontGeneratePushWhenNoDiff",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,2,10,5,7,0,7,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Class,"org.mongolink.domain.updateStrategy.TestsListVisitor",1,1,1,1,6,0,6,0,1,10,10,0,,0,0,,,,9,1,9,9,0,2,0,7,,75,15,60,23,31,0,,,,32,42,15,31,,,,,,1,1,1,1,,1,0,,11,11,"0.00",9,9,9,9
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.addPullIfUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,1,5,2,2,0,4,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.canGenerateUpdateOnComponent",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,6,2,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.canHandleListWithSameValues",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,1,6,2,3,0,5,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.canPushAllOnMultipleAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,5,5,0,10,1,0,5,6,3,5,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.canRemoveListWithSameValuesAndDifferentOne",,,,,,,,,,,,,,,,,,,,,,,,,,,1,12,1,11,2,8,0,6,1,0,8,9,1,8,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.canUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,2,4,0,6,1,0,4,5,1,4,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.diff",,,,,,,,,,,,,,,,,,,,,,,,,,,9,5,1,4,2,2,0,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.listWith",,,,,,,,,,,,,,,,,,,,,,,,,,,7,5,0,5,2,3,0,2,1,0,3,4,2,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"org.mongolink.domain.updateStrategy.TestsListVisitor.setUp",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1

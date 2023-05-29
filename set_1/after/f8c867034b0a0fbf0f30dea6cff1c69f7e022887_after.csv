@@ -1,0 +1,402 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"OPMAdapterFactory.java",1,1,1,1,9,0,3,5,,,,,2,0,1,27,,27,27,1,27,,0,0,0,27,,304,23,115,27,57,167,,,,37,68,36,33,,,,,,3,3,3,3,,,1,,,,"1.45",30,30,30,29
+File,"OPMContainer.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,1,1,0,1,,1,0,0,0,,48,4,6,5,0,39,,,,4,5,5,0,,,,,,0,0,0,0,,,0,,,,"6.50",0,0,0,0
+File,"OPMContainerImpl.java",1,1,1,1,12,0,7,5,,,,,1,0,0,9,,9,9,1,9,,0,0,2,7,,171,18,81,32,32,73,,,,32,49,23,26,,,,,,2,2,3,1,,,1,,,,"0.90",16,16,17,9
+File,"OPMContainerItemProvider.java",1,1,1,1,15,0,7,6,,,,,1,0,0,9,,9,9,0,9,,0,0,2,7,,191,25,95,43,39,71,,,,38,51,28,23,,,,,,2,2,2,1,,,1,,,,"0.75",12,12,12,9
+File,"OPMContainerTest.java",1,1,1,1,9,0,3,6,,,,,1,0,0,3,,3,3,1,3,,0,0,2,1,,62,9,17,10,4,37,,,,9,13,10,3,,,,,,1,1,1,1,,,0,,,,"2.18",3,3,3,3
+File,"OPMExample.java",5,5,5,1,43,2,24,17,,,,,1,2,0,2,,2,0,0,2,,0,0,1,1,,126,16,65,25,34,47,,,,37,49,28,28,,,,,,8,8,8,1,,,5,,,,"0.72",10,10,10,2
+File,"OPMFactory.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,9,9,1,9,,9,0,0,0,,109,12,14,13,1,84,,,,12,13,13,1,,,,,,0,0,0,0,,,0,,,,"6.00",0,0,0,0
+File,"OPMFactoryImpl.java",2,1,2,1,12,0,7,5,,,,,1,2,0,25,,25,23,0,25,,0,0,0,25,,368,33,190,58,110,146,,,,91,133,54,95,,,,,,9,4,9,3,,,2,,,,"0.77",59,44,59,31
+File,"OPMItemProviderAdapterFactory.java",2,2,2,1,12,0,6,5,,,,,1,0,0,18,,18,18,11,18,,0,0,0,18,,371,44,140,60,53,187,,,,69,107,49,61,,,,,,9,9,9,3,,,2,,,,"1.34",38,38,40,20
+File,"OPMNamedElement.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,54,4,6,5,0,45,,,,4,5,5,0,,,,,,0,0,0,0,,,0,,,,"7.50",0,0,0,0
+File,"OPMNamedElementImpl.java",1,1,1,1,11,0,6,5,,,,,1,0,1,9,,9,9,1,9,,0,0,2,7,,167,17,70,27,33,81,,,,31,47,21,27,,,,,,3,3,3,1,,,1,,,,"1.16",16,16,16,9
+File,"OPMNamedElementItemProvider.java",1,1,1,1,13,0,6,6,,,,,1,0,0,8,,8,8,0,8,,0,0,2,6,,161,17,82,41,31,62,,,,32,43,28,16,,,,,,2,2,3,1,,,1,,,,"0.76",11,11,12,8
+File,"OPMNamedElementTest.java",1,1,1,1,9,0,3,6,,,,,1,0,0,3,,3,3,1,3,,0,0,2,1,,62,9,17,10,4,37,,,,9,13,10,3,,,,,,1,1,1,1,,,0,,,,"2.18",3,3,3,3
+File,"OPMNode.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,9,9,0,9,,9,0,0,0,,149,12,15,14,0,123,,,,13,14,14,0,,,,,,0,0,0,0,,,0,,,,"8.20",0,0,0,0
+File,"OPMNodeComponentEditPolicy.java",3,3,3,1,28,2,17,8,,,,,1,0,1,3,,3,3,0,3,,0,1,1,1,,119,13,75,42,39,31,,,,53,66,43,37,,,,,,6,6,6,1,,,2,,,,"0.41",9,9,9,3
+File,"OPMNodeEditPart.java",1,1,1,1,5,0,4,0,,,,,2,0,0,15,,15,15,1,15,,0,0,4,11,,129,22,94,50,28,13,,,,44,64,41,26,,,,,,2,2,2,1,,,1,,,,"0.14",18,18,18,15
+File,"OPMNodeImpl.java",3,2,3,1,15,0,9,5,,,,,1,0,1,20,,20,20,3,20,,0,0,2,18,,421,30,224,73,124,168,,,,103,150,55,100,,,,,,7,7,9,1,,,2,,,,"0.75",61,45,65,20
+File,"OPMNodeItemProvider.java",1,1,1,1,15,0,8,6,,,,,1,0,0,10,,10,10,0,10,,0,0,4,6,,209,19,116,45,60,74,,,,38,51,32,21,,,,,,3,3,4,1,,,1,,,,"0.64",14,14,15,10
+File,"OPMNodeTest.java",1,1,1,1,22,1,12,8,,,,,1,0,0,6,,6,6,1,6,,0,0,2,4,,185,22,87,42,64,77,,,,73,80,42,63,,,,,,1,1,1,1,,,0,,,,"0.89",6,6,6,6
+File,"OPMPackage.java",0,0,0,0,0,0,0,0,,,,,2,0,0,0,,35,35,121,35,,35,0,0,0,,1517,161,167,165,121,1190,,,,163,165,165,35,,,,,,0,0,0,0,,,0,,,,"7.13",0,0,0,0
+File,"OPMPackageImpl.java",1,1,1,1,12,1,5,5,,,,,1,1,1,39,,39,38,18,39,,0,1,0,38,,713,105,269,86,163,340,,,,189,232,86,147,,,,,,3,3,3,1,,,1,,,,"1.26",43,43,43,39
+File,"OPMState.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,0,0,0,0,,0,0,0,0,,22,3,3,2,0,17,,,,1,2,2,0,,,,,,0,0,0,0,,,0,,,,"5.67",0,0,0,0
+File,"OPMStateImpl.java",2,2,2,1,12,0,7,5,,,,,1,0,1,11,,11,11,1,11,,0,0,2,9,,199,19,90,31,43,91,,,,37,59,23,37,,,,,,3,3,3,3,,,2,,,,"1.01",22,22,22,15
+File,"OPMStateItemProvider.java",1,1,1,1,13,0,7,6,,,,,1,0,0,7,,7,7,0,7,,0,0,2,5,,147,15,76,37,30,56,,,,29,39,25,15,,,,,,2,2,3,1,,,1,,,,"0.74",10,10,11,7
+File,"OPMSwitch.java",3,2,3,1,19,0,8,10,,,,,1,0,1,15,,15,15,0,15,,0,0,2,13,,342,20,144,49,88,179,,,,83,128,46,93,,,,,,39,29,39,1,,,2,,,,"1.24",54,44,54,15
+File,"OPMTests.java",1,1,1,1,10,0,5,5,,,,,1,2,0,3,,3,1,0,3,,0,0,0,3,,55,7,21,9,9,28,,,,13,17,9,9,,,,,,1,1,1,1,,,0,,,,"1.33",3,3,3,3
+File,"OPMThing.java",0,0,0,0,0,0,0,0,,,,,1,0,0,0,,2,2,0,2,,2,0,0,0,,57,5,8,7,0,45,,,,6,7,7,0,,,,,,0,0,0,0,,,0,,,,"5.62",0,0,0,0
+File,"OPMThingImpl.java",2,2,2,1,14,0,9,5,,,,,1,0,2,16,,16,16,3,16,,0,0,2,14,,347,30,176,59,92,142,,,,84,119,47,73,,,,,,6,5,7,5,,,2,,,,"0.81",44,36,45,24
+File,"OPMThingItemProvider.java",1,1,1,1,17,0,10,6,,,,,1,0,0,10,,10,10,0,10,,0,0,4,6,,231,24,130,44,73,77,,,,44,58,30,29,,,,,,4,2,4,1,,,1,,,,"0.59",16,14,17,10
+Package,"com",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm.gef",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm.gef.editor",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"com.vainolo.phd.opm.gef.editor.part",1,1,1,1,5,0,4,0,,,,,2,0,0,,1,,15,1,15,,0,0,4,11,,129,22,94,50,28,13,,,,44,64,41,26,,,,,,2,2,2,1,,,1,,,,"0.14",18,18,18,15
+Public Abstract Class,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart",1,1,1,1,5,0,5,0,2,14,14,0,,0,0,,,,11,1,11,11,0,0,4,7,,105,18,74,31,28,13,,,,25,45,22,26,,,,,,2,2,2,1,,2,1,,72,72,"0.18",14,14,14,11
+Public Class,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeAdapter",1,1,1,1,3,0,2,1,2,4,4,0,,0,0,,,,4,0,4,4,0,0,0,4,,27,4,13,5,3,10,,,,3,8,5,3,,,,,,1,1,1,1,,1,0,,0,0,"0.77",4,4,4,4
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeAdapter.getTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeAdapter.isAdapterForType",,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,0,3,1,1,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeAdapter.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeAdapter.setTarget",,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,0,2,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Constructor,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.OPMNodeEditPart",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,1,2,0,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.activate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,7,2,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.createEditPolicies",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,6,2,3,3,1,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.deactivate",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,1,7,2,3,0,5,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getModelChildren",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,9,3,6,0,4,2,0,4,6,3,4,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getModelSourceConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getModelTargetConnections",,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,0,5,3,2,0,3,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getSourceConnectionAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getSourceConnectionAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getTargetConnectionAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.gef.editor.part.OPMNodeEditPart.getTargetConnectionAnchor",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,2,1,0,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Package,"com.vainolo.phd.opm.gef.editor.policy",3,3,3,1,28,2,17,8,,,,,1,0,1,,1,,3,0,3,,0,1,1,1,,119,13,75,42,39,31,,,,53,66,43,37,,,,,,6,6,6,1,,,2,,,,"0.41",9,9,9,3
+Public Class,"com.vainolo.phd.opm.gef.editor.policy.OPMNodeComponentEditPolicy",3,3,3,1,28,2,17,8,1,14,14,0,,0,1,,,,3,0,3,3,0,1,1,1,,97,10,56,23,39,31,,,,34,47,24,37,,,,,,6,6,6,1,,2,2,,0,0,"0.55",9,9,9,3
+Protected Method,"com.vainolo.phd.opm.gef.editor.policy.OPMNodeComponentEditPolicy.createDeleteCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,0,21,1,7,4,3,13,4,1,0,4,5,3,3,1,1,1,1,0,,,,,0,,0,0,,,"1.86",1,1,1,1
+Private Method,"com.vainolo.phd.opm.gef.editor.policy.OPMNodeComponentEditPolicy.createRecursiveDeleteNodeCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,2,45,4,28,9,21,13,10,18,1,16,25,12,20,6,6,6,1,0,,,,,0,,2,0,,,"0.46",6,6,6,1
+Public Method,"com.vainolo.phd.opm.gef.editor.policy.OPMNodeComponentEditPolicy.getCommand",,,,,,,,,,,,,,,,,,,,,,,,,,,5,19,1,18,8,14,0,15,2,0,13,15,7,14,2,2,2,1,1,,,,,0,,1,0,,,"0.00",2,2,2,1
+Package,"com.vainolo.phd.opm.model",0,0,0,0,0,0,0,0,,,,,8,0,0,,7,,58,122,58,,58,0,0,0,,1956,201,219,211,122,1543,,,,203,211,211,36,,,,,,0,0,0,0,,,0,,,,"7.05",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMContainer",0,0,0,0,0,0,0,0,1,1,1,2,,0,0,,,,1,0,1,1,1,0,0,0,,20,1,3,2,0,17,,,,1,2,2,0,,,,,,0,0,0,0,,2,0,,0,0,"5.67",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMContainer.getNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,1,1,0,16,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"16.00",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMFactory",0,0,0,0,0,0,0,0,1,9,9,1,,0,0,,,,9,1,9,9,9,0,0,0,,105,10,12,11,1,84,,,,10,11,11,1,,,,,,0,0,0,0,,2,0,,0,0,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,5,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.createOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMFactory.getOPMPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMNamedElement",0,0,0,0,0,0,0,0,1,1,1,3,,0,0,,,,2,0,2,2,2,0,0,0,,28,2,4,3,0,23,,,,2,3,3,0,,,,,,0,0,0,0,,2,0,,0,0,"5.75",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNamedElement.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,3,15,0,1,1,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"14.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNamedElement.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMNode",0,0,0,0,0,0,0,0,1,3,3,3,,0,0,,,,9,0,9,9,9,0,0,0,,117,9,11,10,0,98,,,,9,10,10,0,,,,,,0,0,0,0,,2,0,,0,0,"8.91",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getConstraints",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,0,1,1,0,15,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"15.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,1,1,0,16,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"16.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getIncomingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,17,0,1,1,0,16,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"16.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getIncomingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getOpd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getOutgoingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,0,1,1,0,16,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"16.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.getOutgoingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,7,0,1,1,0,6,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"6.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.setConstraints",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMNode.setContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMPackage",0,0,0,0,0,0,0,0,1,8,8,1,,0,0,,,,35,87,35,35,35,0,0,0,,1508,159,160,158,121,1190,,,,156,158,158,35,,,,,,0,0,0,0,,2,0,,0,0,"7.44",0,0,0,0
+Interface,"com.vainolo.phd.opm.model.OPMPackage.Literals",0,0,0,0,0,0,0,0,0,6,6,0,,0,0,,,,0,34,0,0,0,0,0,0,,318,34,36,35,34,248,,,,34,35,35,34,,,,,,0,0,0,0,,0,0,,0,0,"6.89",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMContainer_Nodes",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,1,1,0,7,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"7.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLinkRouterKind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_Bendpoints",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_CenterDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_Opd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_RouterKind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_Source",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_SourceDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_Target",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMLink_TargetDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNamedElement",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNamedElement_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNode_Constraints",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNode_Container",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNode_IncomingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMNode_OutgoingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMObjectProcessDiagram_Links",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMProceduralLinkKind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMProceduralLink_Kind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMStructuralLinkAggregatorKind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMStructuralLinkAggregator_Kind",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getOPMThing_Description",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMPackage.getRectangle",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,1,1,0,9,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"9.00",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMState",0,0,0,0,0,0,0,0,2,0,0,1,,0,0,,,,0,0,0,11,0,0,0,0,,19,1,2,1,0,17,,,,0,1,1,0,,,,,,0,0,0,0,,3,0,,0,0,"8.50",0,0,0,0
+Public Interface,"com.vainolo.phd.opm.model.OPMThing",0,0,0,0,0,0,0,0,3,1,1,1,,0,0,,,,2,0,2,14,2,0,0,0,,28,2,4,3,0,23,,,,2,3,3,0,,,,,,0,0,0,0,,3,0,,0,0,"5.75",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMThing.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,15,0,1,1,0,14,1,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"14.00",0,0,0,0
+Abstract Method,"com.vainolo.phd.opm.model.OPMThing.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,0,1,1,0,8,0,0,0,1,1,1,0,0,0,0,0,0,,,,,0,,0,0,,,"8.00",0,0,0,0
+Package,"com.vainolo.phd.opm.model.impl",2,1,2,1,13,0,7,5,,,,,7,3,6,,7,,126,27,129,,0,1,10,118,,2386,252,1100,366,597,1041,,,,567,789,309,505,,,,,,9,7,9,5,,,2,,,,"0.95",261,222,267,147
+Public Abstract Class,"com.vainolo.phd.opm.model.impl.OPMContainerImpl",1,1,1,1,12,0,7,5,2,12,12,0,,0,0,,,,9,1,9,9,0,0,2,7,,151,10,69,20,32,73,,,,20,37,11,26,,,,,,2,2,3,1,,2,1,,77,22,"1.06",16,16,17,9
+Protected Constructor,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.OPMContainerImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eInverseAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,9,3,4,5,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eInverseRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,0,8,2,4,5,3,2,0,2,4,1,3,2,2,3,1,1,,,,,0,,1,0,,,"0.62",2,2,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,11,3,6,5,4,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.45",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,0,9,2,5,5,3,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMContainerImpl.getNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,9,11,0,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl",2,1,2,1,12,0,7,5,2,32,32,0,,2,0,,,,23,0,25,25,0,0,0,25,,353,28,180,48,110,146,,,,81,123,44,95,,,,,,9,4,9,3,,2,2,,0,0,"0.81",59,44,59,31
+Public Constructor,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.OPMFactoryImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertOPMLinkRouterKindToString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"1.67",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertOPMProceduralLinkKindToString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"1.67",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertOPMStructuralLinkAggregatorKindToString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"1.67",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertPointToString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,1,7,2,4,5,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertRectangleToString",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,7,2,4,7,1,2,0,3,5,2,3,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.convertToString",,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,0,17,2,13,5,8,6,1,6,8,1,7,6,2,6,1,15,,,,,0,,1,0,,,"0.29",6,2,6,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.create",,,,,,,,,,,,,,,,,,,,,,,,,,,9,20,0,15,2,11,5,11,9,1,9,11,1,10,9,2,9,1,36,,,,,0,,1,0,,,"0.33",9,2,9,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,7,22,0,17,2,13,5,8,6,1,6,8,1,7,6,2,6,1,15,,,,,0,,1,0,,,"0.29",6,2,6,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMLinkRouterKindFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,5,2,3,5,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMProceduralLinkKindFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,5,2,3,5,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,1,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMStructuralLinkAggregatorKindFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,5,2,3,5,3,2,0,3,5,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,2,5,2,1,0,2,3,2,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createPointFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,6,24,1,18,3,13,5,6,4,1,9,13,3,12,4,4,4,3,3,,,,,2,,1,2,,,"0.28",4,4,4,3
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.createRectangleFromString",,,,,,,,,,,,,,,,,,,,,,,,,,,6,28,1,19,3,14,8,7,4,1,10,14,3,13,4,4,4,3,3,,,,,2,,1,2,,,"0.42",4,4,4,3
+Public Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.getOPMPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.getPackage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Static Method,"com.vainolo.phd.opm.model.impl.OPMFactoryImpl.init",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,12,2,7,6,4,3,0,4,7,2,6,3,3,3,3,3,,,,,3,,2,3,,,"0.50",3,3,3,3
+Public Abstract Class,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl",1,1,1,1,11,0,6,5,2,8,8,0,,0,1,,,,9,1,9,9,0,0,2,7,,155,12,63,20,33,81,,,,24,40,14,27,,,,,,3,3,3,1,,2,1,,55,22,"1.29",16,16,16,9
+Protected Constructor,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.OPMNamedElementImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,3,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.62",3,3,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,9,2,5,5,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,9,2,5,5,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,6,2,4,5,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNamedElementImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,1,9,3,6,5,4,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Abstract Class,"com.vainolo.phd.opm.model.impl.OPMNodeImpl",3,2,3,1,15,0,9,5,2,21,21,2,,0,1,,,,20,3,20,20,0,0,2,18,,396,26,203,52,124,168,,,,82,129,34,100,,,,,,7,7,9,1,,2,2,,86,60,"0.83",61,45,65,20
+Protected Constructor,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.OPMNodeImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.basicSetContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,6,9,0,4,1,2,5,2,1,0,2,3,1,2,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eBasicRemoveFromContainerFeature",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,5,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,9,19,0,14,2,10,5,6,5,1,5,7,1,6,5,2,5,1,10,,,,,0,,1,0,,,"0.36",5,2,5,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eInverseAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,7,20,0,15,3,10,5,8,5,1,5,8,1,7,5,3,5,1,6,,,,,0,,2,0,,,"0.33",5,3,5,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eInverseRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,7,17,0,12,2,8,5,6,4,1,4,6,1,5,4,2,4,1,6,,,,,0,,1,0,,,"0.42",4,2,4,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,11,19,0,14,2,10,5,5,5,1,5,7,1,6,6,3,8,1,10,,,,,0,,1,0,,,"0.36",6,3,8,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,8,26,0,21,3,16,5,7,5,1,11,13,1,12,5,2,5,1,10,,,,,0,,1,0,,,"0.24",5,2,5,1
+Protected Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,8,23,0,18,2,14,5,6,5,1,9,11,1,10,5,2,5,1,10,,,,,0,,1,0,,,"0.28",5,2,5,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getConstraints",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,5,2,2,5,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getIncomingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,9,12,0,7,2,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getIncomingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,0,19,0,10,3,5,9,4,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.90",3,3,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getOpd",,,,,,,,,,,,,,,,,,,,,,,,,,,0,20,1,9,4,5,10,3,2,0,4,6,3,4,2,2,2,1,0,,,,,0,,1,0,,,"1.11",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getOutgoingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,9,12,0,7,2,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.getOutgoingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,0,19,0,10,3,5,9,4,3,0,3,7,3,5,3,3,3,1,0,,,,,0,,2,0,,,"0.90",3,3,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.setConstraints",,,,,,,,,,,,,,,,,,,,,,,,,,,6,12,0,7,3,4,5,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.71",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.setContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,0,16,3,12,5,10,18,1,7,14,2,12,7,7,9,1,1,,,,,0,,2,0,,,"0.31",7,7,9,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMNodeImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,4,15,1,9,3,6,5,4,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.impl.OPMPackageImpl",1,1,1,1,12,1,5,5,2,18,18,0,,1,1,,,,38,18,39,39,0,1,0,38,,683,101,243,60,163,340,,,,163,206,60,147,,,,,,3,3,3,1,,2,1,,90,88,"1.40",43,43,43,39
+Private Constructor,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.OPMPackageImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,3,1,1,15,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"5.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.createPackageContents",,,,,,,,,,,,,,,,,,,,,,,,,,,44,61,13,38,1,36,10,22,2,0,36,38,1,37,2,2,2,1,1,,,,,0,,1,0,,,"0.26",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMContainer_Nodes",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLinkRouterKind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_Bendpoints",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_CenterDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_Opd",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_RouterKind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_Source",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_SourceDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_Target",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMLink_TargetDecoration",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNamedElement",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNamedElement_Name",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNode",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNode_Constraints",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNode_Container",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNode_IncomingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMNode_OutgoingLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMObjectProcessDiagram_Links",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMProceduralLinkKind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMProceduralLink_Kind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMStructuralLinkAggregatorKind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMStructuralLinkAggregator_Kind",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getOPMThing_Description",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,3,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getPoint",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.getRectangle",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.init",,,,,,,,,,,,,,,,,,,,,,,,,,,4,34,7,10,2,8,17,9,2,0,8,10,2,9,3,3,3,1,1,,,,,0,,1,0,,,"1.70",3,3,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMPackageImpl.initializePackageContents",,,,,,,,,,,,,,,,,,,,,,,,,,,48,104,23,66,1,64,15,44,2,0,64,66,1,65,2,2,2,1,1,,,,,0,,1,0,,,"0.23",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.impl.OPMStateImpl",2,2,2,1,12,0,7,5,2,9,9,0,,0,1,,,,11,1,11,31,0,0,2,9,,187,14,83,24,43,91,,,,30,52,16,37,,,,,,3,3,3,3,,3,2,,63,36,"1.10",22,22,22,15
+Protected Constructor,"com.vainolo.phd.opm.model.impl.OPMStateImpl.OPMStateImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eBaseStructuralFeatureID",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,10,2,5,5,2,3,0,3,6,1,5,3,3,3,3,3,,,,,3,,2,3,,,"0.50",3,3,3,3
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eDerivedStructuralFeatureID",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,10,2,5,5,2,3,0,3,6,1,5,3,3,3,3,3,,,,,3,,2,3,,,"0.50",3,3,3,3
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,3,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,3,2,0,2,4,1,3,3,3,3,1,1,,,,,0,,1,0,,,"0.62",3,3,3,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,9,2,5,5,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Protected Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,3,14,0,9,2,5,5,2,2,0,3,5,1,4,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,6,2,4,5,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMStateImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,1,9,3,6,5,5,2,0,6,8,2,7,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.impl.OPMThingImpl",2,2,2,1,14,0,9,5,2,16,16,0,,0,2,,,,16,3,16,36,0,0,2,14,,317,22,154,37,92,142,,,,62,97,25,73,,,,,,6,5,7,5,,3,2,,79,56,"0.92",44,36,45,24
+Protected Constructor,"com.vainolo.phd.opm.model.impl.OPMThingImpl.OPMThingImpl",,,,,,,,,,,,,,,,,,,,,,,,,,,1,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eBaseStructuralFeatureID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,0,16,2,9,5,2,5,1,5,10,1,9,5,5,5,5,6,,,,,6,,2,6,,,"0.31",5,5,5,5
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eDerivedStructuralFeatureID",,,,,,,,,,,,,,,,,,,,,,,,,,,7,21,0,16,2,9,5,2,5,1,5,10,1,9,5,5,5,5,6,,,,,6,,2,6,,,"0.31",5,5,5,5
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eGet",,,,,,,,,,,,,,,,,,,,,,,,,,,6,17,0,12,2,8,5,5,4,1,4,6,1,5,4,2,4,1,6,,,,,0,,1,0,,,"0.42",4,2,4,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eInverseAdd",,,,,,,,,,,,,,,,,,,,,,,,,,,4,14,0,9,3,4,5,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.56",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eInverseRemove",,,,,,,,,,,,,,,,,,,,,,,,,,,4,13,0,8,2,4,5,4,2,0,2,4,1,3,2,2,2,1,1,,,,,0,,1,0,,,"0.62",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eIsSet",,,,,,,,,,,,,,,,,,,,,,,,,,,9,17,0,12,2,8,5,4,4,1,4,6,1,5,6,4,7,1,6,,,,,0,,1,0,,,"0.42",6,4,7,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eSet",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,0,17,3,12,5,6,4,1,8,10,1,9,4,2,4,1,6,,,,,0,,1,0,,,"0.29",4,2,4,1
+Protected Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eStaticClass",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,4,2,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.25",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.eUnset",,,,,,,,,,,,,,,,,,,,,,,,,,,6,20,0,15,2,11,5,5,4,1,7,9,1,8,4,2,4,1,6,,,,,0,,1,0,,,"0.33",4,2,4,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.getDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.getName",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.getNodes",,,,,,,,,,,,,,,,,,,,,,,,,,,9,11,0,6,1,3,5,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.setDescription",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,6,2,4,5,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.setName",,,,,,,,,,,,,,,,,,,,,,,,,,,6,11,0,6,2,4,5,3,2,0,3,5,2,3,2,2,2,1,0,,,,,0,,1,0,,,"0.83",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.impl.OPMThingImpl.toString",,,,,,,,,,,,,,,,,,,,,,,,,,,2,17,1,11,3,8,5,5,2,0,8,10,2,9,2,2,2,1,1,,,,,0,,1,0,,,"0.45",2,2,2,1
+Package,"com.vainolo.phd.opm.model.provider",1,1,1,1,14,0,7,6,,,,,6,0,0,,6,,62,11,62,,0,0,14,48,,1310,144,639,270,286,527,,,,250,349,192,165,,,,,,9,9,9,3,,,2,,,,"0.82",101,99,107,64
+Public Class,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider",1,1,1,1,15,0,7,6,6,13,13,0,,0,0,,,,9,0,9,9,0,0,2,7,,165,17,77,25,39,71,,,,20,33,10,23,,,,,,2,2,2,1,,2,1,,0,0,"0.92",12,12,12,9
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.OPMContainerItemProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.collectNewChildDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,36,5,24,2,21,7,8,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.29",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getChildFeature",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,4,2,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getChildrenFeatures",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,8,2,4,8,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getPropertyDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,3,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,0,10,0,4,2,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMContainerItemProvider.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,10,2,6,7,5,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory",2,2,2,1,12,0,6,5,4,23,23,0,,0,0,,,,18,11,18,33,0,0,0,18,,348,39,122,42,53,187,,,,51,89,31,61,,,,,,9,9,9,3,,3,2,,87,87,"1.53",38,38,40,20
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.OPMItemProviderAdapterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,7,1,5,6,2,1,0,5,6,1,5,1,1,1,1,0,,,,,0,,0,0,,,"0.86",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.adapt",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.adapt",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,1,10,3,5,5,4,3,0,3,6,2,5,3,3,4,3,2,,,,,2,,2,2,,,"0.50",3,3,4,3
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.addListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMLinkAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMObjectAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMObjectProcessDiagramAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMProceduralLinkAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMProcessAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMStateAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMStructuralLinkAggregatorAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,2,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.createOPMThingAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,1,7,2,3,6,3,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"0.86",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.dispose",,,,,,,,,,,,,,,,,,,,,,,,,,,8,16,0,10,1,8,6,1,256,2,8,17,1,16,9,9,9,1,0,,,,,0,,1,0,,,"0.60",9,9,9,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.fireNotifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,13,1,6,1,3,6,1,2,0,2,4,1,3,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.getRootAdapterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,2,1,0,1,2,1,1,2,2,2,1,0,,,,,0,,0,0,,,"2.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.isFactoryForType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,4,2,1,5,3,1,0,1,2,1,1,1,1,2,1,0,,,,,0,,0,0,,,"1.25",1,1,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.removeListener",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMItemProviderAdapterFactory.setParentAdapterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Class,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider",1,1,1,1,13,0,6,6,6,13,13,0,,0,0,,,,8,0,8,8,0,0,2,6,,136,10,64,23,31,62,,,,14,25,10,16,,,,,,2,2,3,1,,2,1,,0,0,"0.97",11,11,12,8
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.OPMNamedElementItemProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.addNamePropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.collectNewChildDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,4,2,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.getPropertyDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,1,8,2,4,6,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.75",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.getResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,4,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,7,3,4,6,4,1,0,2,3,2,2,2,2,3,1,0,,,,,0,,0,0,,,"0.86",2,2,3,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNamedElementItemProvider.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,10,2,6,7,5,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider",1,1,1,1,15,0,8,6,6,14,14,2,,0,0,,,,10,0,10,10,0,0,4,6,,183,12,97,26,60,74,,,,19,32,13,21,,,,,,3,3,4,1,,2,1,,0,0,"0.76",14,14,15,10
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.OPMNodeItemProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,3,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.addConstraintsPropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.addIncomingLinksPropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.addOutgoingLinksPropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,4,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.collectNewChildDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,11,0,4,2,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.getPropertyDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,17,1,10,2,6,6,5,2,0,5,7,1,6,2,2,2,1,0,,,,,0,,1,0,,,"0.60",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.getResourceLocator",,,,,,,,,,,,,,,,,,,,,,,,,,,11,10,0,4,2,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,8,4,5,6,5,1,0,3,4,3,3,3,3,4,1,0,,,,,0,,0,0,,,"0.75",3,3,4,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMNodeItemProvider.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,5,18,1,10,2,6,7,5,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider",1,1,1,1,13,0,7,6,6,13,13,0,,0,0,,,,7,0,7,17,0,0,2,5,,125,9,60,21,30,56,,,,13,23,9,15,,,,,,2,2,3,1,,3,1,,0,0,"0.93",10,10,11,7
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.OPMStateItemProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.addNamePropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.collectNewChildDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,4,2,1,7,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.getPropertyDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,15,1,8,2,4,6,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"0.75",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,7,3,4,6,4,1,0,2,3,2,2,2,2,3,1,0,,,,,0,,0,0,,,"0.86",2,2,3,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMStateItemProvider.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,1,10,2,6,7,5,2,0,4,6,1,5,2,2,2,1,1,,,,,0,,1,0,,,"0.70",2,2,2,1
+Public Class,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider",1,1,1,1,17,0,10,6,6,15,15,0,,0,0,,,,10,0,10,20,0,0,4,6,,207,18,112,26,73,77,,,,26,40,12,29,,,,,,4,2,4,1,,3,1,,0,0,"0.69",16,14,17,10
+Public Constructor,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.OPMThingItemProvider",,,,,,,,,,,,,,,,,,,,,,,,,,,2,9,0,3,1,1,6,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.addDescriptionPropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.addNamePropertyDescriptor",,,,,,,,,,,,,,,,,,,,,,,,,,,5,21,0,15,1,13,6,5,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.40",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.collectNewChildDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,4,36,5,24,2,21,7,8,1,0,6,7,1,6,1,1,1,1,0,,,,,0,,0,0,,,"0.29",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.getChildFeature",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,1,4,2,1,7,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.75",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.getChildrenFeatures",,,,,,,,,,,,,,,,,,,,,,,,,,,3,16,0,8,2,4,8,3,2,0,3,5,1,4,2,2,2,1,0,,,,,0,,1,0,,,"1.00",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.getImage",,,,,,,,,,,,,,,,,,,,,,,,,,,1,10,0,4,2,1,6,4,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.50",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.getPropertyDescriptors",,,,,,,,,,,,,,,,,,,,,,,,,,,2,16,1,9,2,5,6,4,2,0,4,6,1,5,2,2,2,1,0,,,,,0,,1,0,,,"0.67",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.getText",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,7,3,4,6,4,1,0,2,3,2,2,2,2,3,1,0,,,,,0,,0,0,,,"0.86",2,2,3,1
+Public Method,"com.vainolo.phd.opm.model.provider.OPMThingItemProvider.notifyChanged",,,,,,,,,,,,,,,,,,,,,,,,,,,5,22,1,14,2,10,7,5,3,0,6,8,1,7,4,2,4,1,3,,,,,0,,1,0,,,"0.50",4,2,4,1
+Package,"com.vainolo.phd.opm.model.tests",1,1,1,1,18,0,9,7,,,,,5,4,0,,5,,13,3,17,,0,0,7,10,,490,63,207,96,115,226,,,,141,172,99,106,,,,,,8,8,8,1,,,5,,,,"1.09",25,25,25,17
+Public Abstract Class,"com.vainolo.phd.opm.model.tests.OPMContainerTest",1,1,1,1,9,0,3,6,1,2,2,0,,0,0,,,,3,1,3,3,0,0,2,1,,53,5,12,5,4,37,,,,4,8,5,3,,,,,,1,1,1,1,,2,0,,33,33,"3.08",3,3,3,3
+Public Constructor,"com.vainolo.phd.opm.model.tests.OPMContainerTest.OPMContainerTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMContainerTest.getFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMContainerTest.setFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Class,"com.vainolo.phd.opm.model.tests.OPMExample",5,5,5,1,43,2,24,17,1,14,14,0,,2,0,,,,0,0,2,2,0,0,1,1,,102,7,50,10,34,47,,,,22,34,13,28,,,,,,8,8,8,1,,1,5,,0,0,"0.94",10,10,10,2
+Public Static Method,"com.vainolo.phd.opm.model.tests.OPMExample.main",,,,,,,,,,,,,,,,,,,,,,,,,,,14,71,5,41,8,30,26,19,7,1,19,27,10,24,8,8,8,1,3,,,,,0,,5,0,,,"0.63",8,8,8,1
+Protected Static Method,"com.vainolo.phd.opm.model.tests.OPMExample.printDiagnostic",,,,,,,,,,,,,,,,,,,,,,,,,,,5,15,0,7,1,4,8,4,2,0,3,6,2,4,2,2,2,1,0,,,,,0,,1,0,,,"1.14",2,2,2,1
+Public Abstract Class,"com.vainolo.phd.opm.model.tests.OPMNamedElementTest",1,1,1,1,9,0,3,6,1,2,2,0,,0,0,,,,3,1,3,3,0,0,2,1,,53,5,12,5,4,37,,,,4,8,5,3,,,,,,1,1,1,1,,2,0,,33,33,"3.08",3,3,3,3
+Public Constructor,"com.vainolo.phd.opm.model.tests.OPMNamedElementTest.OPMNamedElementTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMNamedElementTest.getFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMNamedElementTest.setFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Abstract Class,"com.vainolo.phd.opm.model.tests.OPMNodeTest",1,1,1,1,22,1,12,8,1,4,4,0,,0,0,,,,6,1,6,6,0,0,2,4,,173,19,78,33,64,77,,,,64,71,33,63,,,,,,1,1,1,1,,2,0,,66,66,"0.99",6,6,6,6
+Public Constructor,"com.vainolo.phd.opm.model.tests.OPMNodeTest.OPMNodeTest",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMNodeTest.getFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.tests.OPMNodeTest.setFixture",,,,,,,,,,,,,,,,,,,,,,,,,,,1,9,0,3,1,1,6,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.tests.OPMNodeTest.testGetIncomingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,45,4,30,12,28,11,9,1,0,28,29,12,28,1,1,1,1,0,,,,,0,,0,0,,,"0.37",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.tests.OPMNodeTest.testGetOpd",,,,,,,,,,,,,,,,,,,,,,,,,,,1,21,2,9,4,7,10,7,1,0,7,8,4,7,1,1,1,1,0,,,,,0,,0,0,,,"1.11",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.tests.OPMNodeTest.testGetOutgoingStructuralLinks",,,,,,,,,,,,,,,,,,,,,,,,,,,1,43,5,27,12,25,11,11,1,0,25,26,12,25,1,1,1,1,0,,,,,0,,0,0,,,"0.41",1,1,1,1
+Public Class,"com.vainolo.phd.opm.model.tests.OPMTests",1,1,1,1,10,0,5,5,1,3,3,0,,2,0,,,,1,0,3,3,0,0,0,3,,48,4,17,5,9,28,,,,9,13,5,9,,,,,,1,1,1,1,,2,0,,0,0,"1.65",3,3,3,3
+Public Constructor,"com.vainolo.phd.opm.model.tests.OPMTests.OPMTests",,,,,,,,,,,,,,,,,,,,,,,,,,,2,8,0,3,1,1,5,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.vainolo.phd.opm.model.tests.OPMTests.main",,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,0,3,1,1,5,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.67",1,1,1,1
+Public Static Method,"com.vainolo.phd.opm.model.tests.OPMTests.suite",,,,,,,,,,,,,,,,,,,,,,,,,,,6,14,0,9,2,7,5,3,1,0,7,8,2,7,1,1,1,1,0,,,,,0,,0,0,,,"0.56",1,1,1,1
+Package,"com.vainolo.phd.opm.model.util",2,1,2,1,12,0,5,6,,,,,3,0,2,,2,,42,1,42,,0,0,2,40,,646,43,259,76,145,346,,,,120,196,82,126,,,,,,39,29,39,3,,,2,,,,"1.34",84,74,84,44
+Public Class,"com.vainolo.phd.opm.model.util.OPMAdapterFactory",1,1,1,1,13,0,3,9,1,6,6,1,,0,1,,,,15,1,15,15,0,0,0,15,,293,18,109,21,57,167,,,,31,62,30,33,,,,,,3,3,3,3,,2,1,,90,90,"1.53",18,18,18,17
+Anonymous Class,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1)",1,1,1,1,4,0,4,0,1,15,15,0,,0,0,,,,12,0,12,27,0,0,0,12,,49,0,49,0,37,0,,,,12,24,12,12,,,,,,1,1,1,1,,3,0,,0,0,"0.00",12,12,12,12
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMNamedElement",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMNode",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).caseOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.(Anon_1).defaultCase",,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,0,4,0,3,0,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Constructor,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.OPMAdapterFactory",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,1,2,6,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.20",2,2,2,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,4,2,1,8,2,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createEObjectAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,11,0,3,1,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMContainerAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMLinkAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMNamedElementAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMNodeAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMObjectAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMObjectProcessDiagramAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMProceduralLinkAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMProcessAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMStateAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMStructuralLinkAggregatorAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.createOPMThingAdapter",,,,,,,,,,,,,,,,,,,,,,,,,,,1,13,0,3,1,1,10,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.33",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMAdapterFactory.isFactoryForType",,,,,,,,,,,,,,,,,,,,,,,,,,,3,18,0,10,2,5,8,3,3,0,3,6,1,5,3,3,3,3,2,,,,,2,,1,2,,,"0.80",3,3,3,3
+Public Generic Class,"com.vainolo.phd.opm.model.util.OPMSwitch",3,2,3,1,19,0,8,10,1,10,10,1,,0,1,,,,15,0,15,15,0,0,2,13,,331,16,137,42,88,179,,,,76,121,39,93,,,,,,39,29,39,1,,2,2,,86,86,"1.31",54,44,54,15
+Public Constructor,"com.vainolo.phd.opm.model.util.OPMSwitch.OPMSwitch",,,,,,,,,,,,,,,,,,,,,,,,,,,2,11,0,5,1,2,6,2,2,0,1,3,1,2,2,2,2,1,0,,,,,0,,1,0,,,"1.20",2,2,2,1
+TypeVariable,"com.vainolo.phd.opm.model.util.OPMSwitch.T",0,0,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,1,0,,0,0,"0.00",0,0,0,0
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMContainer",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMLink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMNamedElement",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMNode",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMObject",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMObjectProcessDiagram",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMProceduralLink",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMProcess",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMState",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMStructuralLinkAggregator",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.caseOPMThing",,,,,,,,,,,,,,,,,,,,,,,,,,,1,14,0,3,1,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"3.67",1,1,1,1
+Public Method,"com.vainolo.phd.opm.model.util.OPMSwitch.defaultCase",,,,,,,,,,,,,,,,,,,,,,,,,,,1,15,0,4,2,1,11,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.75",1,1,1,1
+Protected Method,"com.vainolo.phd.opm.model.util.OPMSwitch.doSwitch",,,,,,,,,,,,,,,,,,,,,,,,,,,14,95,0,88,24,73,7,13,109,2,61,90,23,78,39,29,39,1,66,,,,,0,,2,0,,,"0.08",39,29,39,1
+Protected Method,"com.vainolo.phd.opm.model.util.OPMSwitch.isSwitchFor",,,,,,,,,,,,,,,,,,,,,,,,,,,2,12,0,4,2,1,8,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"2.00",1,1,1,1

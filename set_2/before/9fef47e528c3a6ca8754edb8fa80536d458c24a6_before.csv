@@ -1,0 +1,49 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,AvgLine,AvgLineBlank,AvgLineCode,AvgLineComment,CountClassBase,CountClassCoupled,CountClassCoupledModified,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclExecutableUnit,CountDeclFile,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclMethod,CountDeclMethodAll,CountDeclMethodDefault,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxCyclomatic,MaxCyclomaticModified,MaxCyclomaticStrict,MaxEssential,MaxEssentialKnots,MaxInheritanceTree,MaxNesting,MinEssentialKnots,PercentLackOfCohesion,PercentLackOfCohesionModified,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential
+File,"BuildPositionalIndexIP.java",1,1,1,1,15,2,10,2,,,,,1,2,1,3,,3,1,0,3,,0,1,0,2,,82,15,46,21,25,21,,,,33,39,21,23,,,,,,3,3,3,3,,,1,,,,"0.46",5,5,5,5
+File,"BuildTermDocVectors.java",2,2,2,0,25,4,18,2,,,,,6,0,7,13,,7,13,11,13,,0,0,0,13,,424,77,309,137,213,44,,,,223,257,119,188,,,,,,8,8,8,4,,,3,,,,"0.14",27,27,27,12
+File,"GenericIndexBuilder.java",7,7,8,2,79,11,66,3,,,,,1,1,8,2,,2,1,0,2,,0,0,0,2,,210,29,177,65,125,6,,,,129,143,62,94,,,,,,13,13,16,4,,,2,,,,"0.03",14,14,17,5
+File,"PreprocessGov2.java",1,1,1,1,22,3,16,2,,,,,1,2,1,3,,3,1,0,3,,0,1,0,2,,112,18,72,32,42,23,,,,59,65,32,39,,,,,,3,3,3,3,,,1,,,,"0.32",5,5,5,5
+File,"PreprocessTrec45.java",1,1,1,1,22,3,16,3,,,,,1,2,1,3,,3,1,0,3,,0,1,0,2,,112,18,72,32,42,24,,,,59,65,32,39,,,,,,3,3,3,3,,,1,,,,"0.33",5,5,5,5
+File,"PreprocessWt10g.java",1,1,1,1,22,3,16,2,,,,,1,2,1,3,,3,1,0,3,,0,1,0,2,,112,18,72,32,42,23,,,,59,65,32,39,,,,,,3,3,3,3,,,1,,,,"0.32",5,5,5,5
+Package,"ivory",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ivory.app",2,2,2,1,28,4,22,2,,,,,5,9,12,,5,,5,0,14,,0,4,0,10,,628,98,439,182,276,97,,,,339,377,179,234,,,,,,13,13,16,4,,,2,,,,"0.22",34,34,37,25
+Public Class,"ivory.app.BuildPositionalIndexIP",1,1,1,1,15,2,10,2,2,10,10,0,,2,1,,,,1,0,3,3,0,1,0,2,,52,11,35,10,25,6,,,,22,28,10,23,,,,,,3,3,3,3,,2,1,,0,0,"0.17",5,5,5,5
+Public Static Method,"ivory.app.BuildPositionalIndexIP.main",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Static Method,"ivory.app.BuildPositionalIndexIP.printUsage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.app.BuildPositionalIndexIP.run",,,,,,,,,,,,,,,,,,,,,,,,,,,7,35,8,24,6,20,3,12,3,0,17,20,6,18,3,3,3,3,2,,,,,2,,1,2,,,"0.12",3,3,3,3
+Public Class,"ivory.app.GenericIndexBuilder",7,7,8,2,79,11,66,3,2,33,33,0,,1,8,,,,1,0,2,2,0,0,0,2,,171,25,142,31,125,6,,,,95,109,28,94,,,,,,13,13,16,4,,2,2,,0,0,"0.04",14,14,17,5
+Public Static Method,"ivory.app.GenericIndexBuilder.main",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Public Method,"ivory.app.GenericIndexBuilder.run",,,,,,,,,,,,,,,,,,,,,,,,,,,30,152,22,129,20,116,3,35,146,2,86,98,18,92,13,13,16,4,10,,,,,4,,2,4,,,"0.02",13,13,16,4
+Public Class,"ivory.app.PreprocessGov2",1,1,1,1,22,3,16,2,2,14,14,0,,2,1,,,,1,0,3,3,0,1,0,2,,72,13,52,12,42,8,,,,39,45,12,39,,,,,,3,3,3,3,,2,1,,0,0,"0.15",5,5,5,5
+Public Static Method,"ivory.app.PreprocessGov2.main",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Static Method,"ivory.app.PreprocessGov2.printUsage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.app.PreprocessGov2.run",,,,,,,,,,,,,,,,,,,,,,,,,,,15,55,10,41,8,37,5,15,3,0,34,37,8,34,3,3,3,3,3,,,,,2,,1,2,,,"0.12",3,3,3,3
+Public Class,"ivory.app.PreprocessTrec45",1,1,1,1,22,3,16,3,2,14,14,0,,2,1,,,,1,0,3,3,0,1,0,2,,72,13,52,12,42,9,,,,39,45,12,39,,,,,,3,3,3,3,,2,1,,0,0,"0.17",5,5,5,5
+Public Static Method,"ivory.app.PreprocessTrec45.main",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Static Method,"ivory.app.PreprocessTrec45.printUsage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.app.PreprocessTrec45.run",,,,,,,,,,,,,,,,,,,,,,,,,,,15,55,10,41,8,37,6,15,3,0,34,37,8,34,3,3,3,3,3,,,,,2,,1,2,,,"0.15",3,3,3,3
+Public Class,"ivory.app.PreprocessWt10g",1,1,1,1,22,3,16,2,2,14,14,0,,2,1,,,,1,0,3,3,0,1,0,2,,72,13,52,12,42,8,,,,39,45,12,39,,,,,,3,3,3,3,,2,1,,0,0,"0.15",5,5,5,5
+Public Static Method,"ivory.app.PreprocessWt10g.main",,,,,,,,,,,,,,,,,,,,,,,,,,,1,6,0,3,1,1,3,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"1.00",1,1,1,1
+Private Static Method,"ivory.app.PreprocessWt10g.printUsage",,,,,,,,,,,,,,,,,,,,,,,,,,,3,5,0,5,1,3,0,3,1,0,3,4,1,3,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.app.PreprocessWt10g.run",,,,,,,,,,,,,,,,,,,,,,,,,,,15,55,10,41,8,37,5,15,3,0,34,37,8,34,3,3,3,3,3,,,,,2,,1,2,,,"0.12",3,3,3,3
+Package,"ivory.core",0,0,0,0,0,0,0,0,,,,,0,0,0,,0,,0,0,0,,0,0,0,0,,0,0,0,0,0,0,,,,0,0,0,0,,,,,,0,0,0,0,,,0,,,,"0.00",0,0,0,0
+Package,"ivory.core.preprocess",2,2,2,0,25,4,18,2,,,,,6,0,7,,1,,13,11,13,,0,0,0,13,,424,77,309,137,213,44,,,,223,257,119,188,,,,,,8,8,8,4,,,3,,,,"0.14",27,27,27,12
+Public Class,"ivory.core.preprocess.BuildTermDocVectors",2,2,2,2,40,8,31,0,1,26,26,0,,0,4,,,,3,0,3,3,0,0,0,3,,366,71,272,100,213,29,,,,186,220,82,188,,,,,,4,4,4,4,,2,1,,0,0,"0.11",6,6,6,6
+Public Constructor,"ivory.core.preprocess.BuildTermDocVectors.BuildTermDocVectors",,,,,,,,,,,,,,,,,,,,,,,,,,,5,3,0,3,1,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Private Static Class,"ivory.core.preprocess.BuildTermDocVectors.DocLengthDataWriterMapper",8,8,8,3,84,17,59,13,1,15,15,0,,0,0,,,,1,0,1,1,0,0,0,1,,86,17,61,23,48,13,,,,44,53,23,44,,,,,,8,8,8,3,,2,3,,0,0,"0.21",8,8,8,3
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.DocLengthDataWriterMapper.run",,,,,,,,,,,,,,,,,,,,,,,,,,,12,84,17,59,22,48,13,18,38,2,44,52,22,44,8,8,8,3,1,,,,,1,,3,1,,,"0.22",8,8,8,3
+Protected Enum Type,"ivory.core.preprocess.BuildTermDocVectors.DocLengths",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.DocLengths.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.DocLengths.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Protected Enum Type,"ivory.core.preprocess.BuildTermDocVectors.Docs",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,3,2,2,0,0,0,2,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.Docs.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.Docs.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Protected Enum Type,"ivory.core.preprocess.BuildTermDocVectors.MapTime",0,0,0,0,0,0,0,0,1,1,1,0,,0,0,,,,2,2,2,2,0,0,0,2,,1,0,1,1,0,0,,,,0,1,1,0,,,,,,0,0,0,0,,1,0,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.MapTime.valueOf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Public Implicit Method,"ivory.core.preprocess.BuildTermDocVectors.MapTime.values",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"0.00",0,0,0,0
+Protected Static Class,"ivory.core.preprocess.BuildTermDocVectors.MyMapper",4,4,4,1,41,5,31,4,1,28,28,0,,0,3,,,,3,3,3,3,0,0,0,3,,136,21,101,36,73,14,,,,61,76,29,63,,,,,,6,6,6,1,,2,2,,33,33,"0.14",13,13,13,3
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.MyMapper.cleanup",,,,,,,,,,,,,,,,,,,,,,,,,,,6,55,8,37,14,30,10,17,16,1,24,31,13,26,6,6,6,1,2,,,,,0,,1,0,,,"0.27",6,6,6,1
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.MyMapper.map",,,,,,,,,,,,,,,,,,,,,,,,,,,14,36,6,29,7,20,1,14,3,0,19,22,4,19,3,3,3,1,2,,,,,0,,1,0,,,"0.03",3,3,3,1
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.MyMapper.setup",,,,,,,,,,,,,,,,,,,,,,,,,,,9,33,3,27,8,20,3,13,6,1,12,16,5,15,4,4,4,1,3,,,,,0,,2,0,,,"0.11",4,4,4,1
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.getRequiredParameters",,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,0,4,2,1,0,1,1,0,1,2,1,1,1,1,1,1,0,,,,,0,,0,0,,,"0.00",1,1,1,1
+Public Method,"ivory.core.preprocess.BuildTermDocVectors.runTool",,,,,,,,,,,,,,,,,,,,,,,,,,,19,113,25,87,23,80,2,46,4,1,75,79,20,78,4,4,4,4,3,,,,,3,,1,3,,,"0.02",4,4,4,4
